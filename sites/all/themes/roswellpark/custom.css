@@ -1,0 +1,15 @@
+#pgc_resource_block:hover{
+	background-color: #71a230;
+}
+
+span.icon-arrow-down, span.icon-arrow-up{
+	font-family: 'Glyphicons Halflings' !important;
+}
+
+.icon-arrow-down:before, .icon-arrow-up:before {
+    content: "\e081";
+}
+
+.result{
+	float:none;
+}

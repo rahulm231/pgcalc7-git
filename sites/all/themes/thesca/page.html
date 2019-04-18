@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!--[if IEMobile 7]><html class="ie iem7" original-class="ie iem7" lang="en" dir="ltr"><![endif]--><!--[if lte IE 6]><html class="ie lt-ie9 lt-ie8 lt-ie7" original-class="ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]--><!--[if (IE 7)&(!IEMobile)]><html class="ie lt-ie9 lt-ie8" original-class="ie lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]--><!--[if IE 8]><html class="ie lt-ie9" original-class="ie lt-ie9" lang="en" dir="ltr"><![endif]--><!--[if (gte IE 9)|(gt IEMobile 7)]><html class="ie" original-class="ie" lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#"><![endif]--><!--[if !IE]><!--><!--<![endif]--><title>Ways to Give | The Student Conservation Association</title>
+<meta charset="utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><meta http-equiv="cleartype" content="on">
+<link rel="shortcut icon" href="/sites/all/themes/thesca/linked/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="profile" href="/sites/all/themes/thesca/linked/vocab">
+<meta name="description" content="The Student Conservation Association started as one woman’s vision to protect and preserve America’s national parks — places that most citizens cherish and want to ensure they remain long into the future. Today, SCA carries on that noble tradition as America’s largest youth conservation organization.Not only does your contribution help develop the next generation of conservation leaders, it also provides unforgettable, life-shaping experiences for thousands of young SCA members. When you contribute to SCA, you create a more sustainable planet today and into the future.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Drupal 7 (http://drupal.org)">
+<link rel="canonical" href="https://www.thesca.org/give/ways-give">
+<link rel="shortlink" href="https://www.thesca.org/node/26">
+<meta property="og:site_name" content="The Student Conservation Association">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.thesca.org/give/ways-give">
+<meta property="og:title" content="Ways to Give">
+<meta property="og:description" content="The Student Conservation Association started as one woman’s vision to protect and preserve America’s national parks — places that most citizens cherish and want to ensure they remain long into the future. Today, SCA carries on that noble tradition as America’s largest youth conservation organization.Not only does your contribution help develop the next generation of conservation leaders, it also provides unforgettable, life-shaping experiences for thousands of young SCA members. When you contribute to SCA, you create a more sustainable planet today and into the future.">
+<meta property="og:updated_time" content="2018-06-22T15:24:20-04:00">
+<meta property="article:published_time" content="2013-08-26T14:03:22-04:00">
+<meta property="article:modified_time" content="2018-06-22T15:24:20-04:00">
+<link href="/sites/all/themes/thesca/css/css" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/thesca/css/3c225853c448dd0dba39878fc567bc15.css" media="all">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/thesca/css/f73bdc6119b584215b2096fc7a86df36.css" media="all">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/thesca/css/ee5811927cc26b629166d07c7503d1d8.css" media="all">
+<script src="/sites/all/themes/thesca/js/jquery.min.js"></script><script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")</script><script src="/sites/all/themes/thesca/js/3093ba24f1c5a1a8e6d6a2215f7226d2.js"></script><script src="/sites/all/themes/thesca/js/ad32ca5a15e13852eb6d32efbc48ad1d.js"></script><!--[if (gte IE 6)&(lte IE 8)]>
+<script src="/sites/all/themes/thesca/js/9a41bed109e837f3099cca8b2fa01800.js"></script>
+<![endif]--><script src="/sites/all/themes/thesca/js/060f76136652ad756f846de9eb0c717a.js"></script><script src="/sites/all/themes/thesca/js/7c1390b24cbe624adc2a0b64a1dc19e1.js"></script><script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"better_exposed_filters":{"views":{"Similar Entries":{"displays":{"block_2":{"filters":[]}}}}},"urlIsAjaxTrusted":{"\/give\/ways-give":true},"field_group":{"div":"full"}});</script>
+<!-----CUSTOM STYLES----->
+<style>
+.content {
+width: 100% !important;
+margin: 0 !important;
+padding-bottom: 0px !important;
+}
+.node .content {
+float: none;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+ font-family: 'pgcalc-marketing';
+}
+.region-content-inline-blocks {
+z-index: 1000;
+position: relative;
+}
+</style>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-26 node-type-page section-give no-thin has-rail" original-class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-26 node-type-page section-give no-thin has-rail">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0];
+ if (d.getElementById(id)) return;
+ js = d.createElement(s); js.id = id;
+ js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=353765221368404";
+ fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));</script><a href="#main-content" class="element-invisible element-focusable" original-class="element-invisible element-focusable">Skip to main content</a>
+<div class="page" original-class="page">
+<header class="header" original-class="header" role="banner"><div class="container" original-class="container">
+<div class="branding" original-class="branding">
+<a href="https://www.thesca.org/" title="Home" rel="home" class="site-logo" original-class="site-logo"><img src="https://www.thesca.org/sites/default/files/sca%20default%20logo.png" alt="Home"></a>
+<h1 class="site-name" original-class="site-name">
+<a href="https://www.thesca.org/" title="Home" rel="home"><span>The Student Conservation Association</span></a>
+</h1>
+</div>
+<div class="l-region l-region--top-utility" original-class="l-region l-region--top-utility">
+<nav id="block-menu-menu-top-utility-menu" role="navigation" class="block block--menu block--menu-menu-top-utility-menu" original-class="block block--menu block--menu-menu-top-utility-menu"><ul class="menu" original-class="menu">
+<li class="first leaf" original-class="first leaf"><a href="https://www.thesca.org/about">About</a></li>
+<li class="leaf" original-class="leaf"><a href="https://www.thesca.org/newsroom">Newsroom</a></li>
+<li class="leaf" original-class="leaf"><a href="https://www.thesca.org/contact">Contact</a></li>
+<li class="leaf only-anon" original-class="leaf only-anon"><a href="http://thesca.force.com/members" class="only-anon" original-class="only-anon" target="_blank">Member Login</a></li>
+<li class="leaf only-anon" original-class="leaf only-anon"><a href="http://thesca.force.com/partners" class="only-anon" original-class="only-anon" target="_blank">Partner Login</a></li>
+<li class="leaf only-auth" original-class="leaf only-auth"><a href="https://www.thesca.org/user" class="only-auth" original-class="only-auth">My Account</a></li>
+<li class="last leaf" original-class="last leaf"><a href="http://thesca.force.com/members/NewRegistration" target="_blank">Apply</a></li>
+</ul></nav><div id="block-search-form" role="search" class="block block--search block--search-form" original-class="block block--search block--search-form">
+<div class="block__content" original-class="block__content">
+<form class="search-block-form" original-class="search-block-form" action="https://www.thesca.org" method="post" id="search-block-form" accept-charset="UTF-8"><div>
+<div class="container-inline" original-class="container-inline">
+<h2 class="element-invisible" original-class="element-invisible">Search form</h2>
+<div class="form-item form-type-textfield form-item-search-block-form" original-class="form-item form-type-textfield form-item-search-block-form">
+<label class="element-invisible" original-class="element-invisible" for="edit-search-block-form--2">Search </label>
+<input title="Enter the terms you wish to search for." placeholder="Site Search" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" original-class="form-text">
+</div>
+<div class="form-actions form-wrapper" original-class="form-actions form-wrapper" id="edit-actions"><input type="image" id="edit-submit" name="submit" src="/sites/all/themes/thesca/img/search.png" class="form-submit" original-class="form-submit"></div>
+<input type="hidden" name="form_build_id" value="form-_ybquNQQjqkhPBgYIfusyzUbfVwDwBOEzFtx3GZGEmo"><input type="hidden" name="form_id" value="search_block_form">
+</div>
+</div></form> </div>
+</div>
+<a href="javascript:void(0)" class="search-collapse-btn" original-class="search-collapse-btn">
+<i class="sca-icon sca-icon-search" original-class="sca-icon sca-icon-search"></i>
+<span>x</span>
+</a>
+<div id="block-block-90" class="block block--block block--block-90" original-class="block block--block block--block-90">
+<div class="block__content" original-class="block__content">
+<script>
+<!--//--><![CDATA[// ><!--
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '804050289728214');
+fbq('track', "PageView");
+//--><!]]>
+</script><p></p>
+<noscript>
+<img height="1" width="1" style="display:none">
+src=”https://www.facebook.com/tr?id=804050289728214&amp;ev=PageView&amp;noscript=1”<br>
+/&gt;</noscript>
+</div>
+</div>
+</div>
+<div class="mobile-only" original-class="mobile-only">
+<a href="javascript:void(0);" class="mobile_menu_trigger mobile-only" original-class="mobile_menu_trigger mobile-only">menu</a><ul id="mobile_menu">
+<li class="menu-1340" original-class="menu-1340"><a href="https://www.thesca.org/give/about" title="About">About</a></li>
+<li class="menu-1338" original-class="menu-1338"><a href="https://www.thesca.org/give/connect" title="Connect">Connect</a></li>
+<li class="menu-1342" original-class="menu-1342"><a href="https://www.thesca.org/give/newsroom" title="Newsroom">Newsroom</a></li>
+<li class="menu-1791" original-class="menu-1791"><a href="https://www.thesca.org/give/connect/stories" title="SCA Blogs">SCA Blogs</a></li>
+<li class="menu-1793" original-class="menu-1793"><a href="https://www.thesca.org/give/connect/events" title="Upcoming Events">Upcoming Events</a></li>
+<li class="menu-1336" original-class="menu-1336"><a href="https://www.thesca.org/give/serve" title="Serve">Serve</a></li>
+<li class="menu-1794" original-class="menu-1794"><a href="https://www.thesca.org/give/node/8" title="Youth Programs">Youth Programs</a></li>
+<li class="menu-1795" original-class="menu-1795"><a href="https://www.thesca.org/give/node/13" title="Young Adult Programs">Young Adult Programs</a></li>
+<li class="menu-1792" original-class="menu-1792"><a href="https://www.thesca.org/give/serve/positions" title="Search Internships">Search Internships</a></li>
+<li class="menu-1337" original-class="menu-1337"><a href="https://www.thesca.org/give/partner" title="Partner">Partner</a></li>
+<li class="menu-1892" original-class="menu-1892"><a href="https://www.thesca.org/give/give" title="Give">Give</a></li>
+<li class="menu-1339" original-class="menu-1339"><a href title="Give Now">Give Now</a></li>
+<li class="menu-1661" original-class="menu-1661"><a href="http://thesca.force.com/members" title="Member Login">Member Login</a></li>
+<li class="menu-1662" original-class="menu-1662"><a href="http://thesca.force.com/partners" title="Partner Login">Partner Login</a></li>
+<li class="menu-1341" original-class="menu-1341"><a href="https://www.thesca.org/give/node/34" title="Contact">Contact</a></li>
+</ul>
+</div>
+<div class="l-region l-region--navigation" original-class="l-region l-region--navigation">
+<nav id="block-menu-block-2" role="navigation" class="block block--menu-block menu-main block--menu-block-2" original-class="block block--menu-block menu-main block--menu-block-2"><div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1" original-class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+<ul class="menu" original-class="menu">
+<li class="first expanded active-trail menu-mlid-728" original-class="first expanded active-trail menu-mlid-728">
+<a href="https://www.thesca.org/connect" class="item-connect active-trail" original-class="item-connect active-trail">Connect</a><ul class="menu" original-class="menu">
+<li class="first leaf menu-mlid-883" original-class="first leaf menu-mlid-883"><a href="https://secure2.convio.net/scai/site/Donation2?df_id=12102&mfc_pref=T&12102.donation=form1" target="_blank">Donate Now</a></li>
+<li class="leaf has-children menu-mlid-881" original-class="leaf has-children menu-mlid-881"><a href="https://www.thesca.org/give/reasons-give">Reasons to Give</a></li>
+<li class="leaf has-children active-trail active menu-mlid-880" original-class="leaf has-children active-trail active menu-mlid-880"><a href="https://www.thesca.org/give/ways-give" class="active-trail active" original-class="active-trail active">Ways to Give</a></li>
+<li class="leaf menu-mlid-882" original-class="leaf menu-mlid-882"><a href="https://www.thesca.org/give/impact-your-gift">Impact of Your Gift</a></li>
+<li class="leaf has-children menu-mlid-886" original-class="leaf has-children menu-mlid-886"><a href="https://www.thesca.org/connect/stories">SCA Blogs</a></li>
+<li class="leaf has-children menu-mlid-1187" original-class="leaf has-children menu-mlid-1187"><a href="https://www.thesca.org/connect/events">Events</a></li>
+<li class="leaf has-children menu-mlid-1903" original-class="leaf has-children menu-mlid-1903"><a href="https://www.thesca.org/connect/sca-alumni">Alumni</a></li>
+<li class="leaf menu-mlid-1353" original-class="leaf menu-mlid-1353"><a href="https://www.thesca.org/connect/videowall">Videos</a></li>
+<li class="last leaf menu-mlid-2183" original-class="last leaf menu-mlid-2183"><a href="https://www.thesca.org/connect/60th-anniversary">60th Anniversary</a></li>
+</ul>
+</li>
+<li class="expanded menu-mlid-708" original-class="expanded menu-mlid-708">
+<a href="https://www.thesca.org/serve" class="item-serve" original-class="item-serve">Serve</a><ul class="menu" original-class="menu">
+<li class="first leaf menu-mlid-817" original-class="first leaf menu-mlid-817"><a href="https://www.thesca.org/serve/choosing-program-thats-right-you">Choosing a Program</a></li>
+<li class="leaf has-children menu-mlid-820" original-class="leaf has-children menu-mlid-820"><a href="https://www.thesca.org/serve/youth-programs">Youth (18 and Under)</a></li>
+<li class="leaf has-children menu-mlid-825" original-class="leaf has-children menu-mlid-825"><a href="https://www.thesca.org/serve/young-adult-programs">Young Adult (18 yrs +)</a></li>
+<li class="leaf has-children menu-mlid-834" original-class="leaf has-children menu-mlid-834"><a href="https://www.thesca.org/serve/meet-recruiter">Meet a Recruiter</a></li>
+<li class="last leaf has-children menu-mlid-838" original-class="last leaf has-children menu-mlid-838"><a href="https://www.thesca.org/serve/field-leaders">Field Leaders</a></li>
+</ul>
+</li>
+<li class="expanded menu-mlid-707" original-class="expanded menu-mlid-707">
+<a href="https://www.thesca.org/partner" class="item-partner" original-class="item-partner">Partner</a><ul class="menu" original-class="menu">
+<li class="first leaf has-children menu-mlid-1283" original-class="first leaf has-children menu-mlid-1283"><a href="https://www.thesca.org/partner/benefits-sca">Benefits of SCA</a></li>
+<li class="leaf has-children menu-mlid-876" original-class="leaf has-children menu-mlid-876"><a href="https://www.thesca.org/partner/agency-partners">Agency Partners</a></li>
+<li class="leaf has-children menu-mlid-1210" original-class="leaf has-children menu-mlid-1210"><a href="https://www.thesca.org/partner/corporate-partners">Corporate Partners</a></li>
+<li class="leaf menu-mlid-1352" original-class="leaf menu-mlid-1352"><a href="https://www.thesca.org/partner/foundation-partners">Foundation Partners</a></li>
+<li class="leaf menu-mlid-1361" original-class="leaf menu-mlid-1361"><a href="https://www.thesca.org/partner/university-relationships">University Relationships</a></li>
+<li class="leaf has-children menu-mlid-1359" original-class="leaf has-children menu-mlid-1359"><a href="https://www.thesca.org/about/regional-presence">Regional Presence</a></li>
+<li class="last leaf menu-mlid-2107" original-class="last leaf menu-mlid-2107"><a href="https://www.thesca.org/conserve">ConSERVE</a></li>
+</ul>
+</li>
+<li class="last leaf menu-mlid-2286" original-class="last leaf menu-mlid-2286"><a href="https://secure2.convio.net/scai/site/Donation2?df_id=12102&mfc_pref=T&12102.donation=form1" class="item-give" original-class="item-give" target="_blank">Donate</a></li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</header><div class="main" original-class="main">
+<div class="container" original-class="container">
+<h2 class="element-invisible" original-class="element-invisible">You are here</h2>
+<ul class="breadcrumb" original-class="breadcrumb">
+<li><a href="https://www.thesca.org/">Home</a></li>
+<li><a href="https://www.thesca.org/connect" class="item-connect" original-class="item-connect">Connect</a></li>
+</ul>
+<div class="content" original-class="content" role="main">
+<a id="main-content"></a>
+<h1 class="page-title" original-class="page-title">Ways to Give</h1>
+<article role="article" class="node node--page node--full node--page--full" original-class="node node--page node--full node--page--full"><div class="node__content" original-class="node__content">
+<div id="node-page-full-group-flow" class=" group-flow field-group-div" original-class=" group-flow field-group-div"><div class="field field--name-body field--type-text-with-summary field--label-hidden" original-class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="item even" original-class="item even">
+<p>The Student Conservation Association started as one woman’s vision to protect and preserve America’s national parks — places that most citizens cherish and want to ensure they remain long into the future. Today, SCA carries on that noble tradition as America’s largest youth conservation organization.</p>
+<p>Not only does your contribution help develop the next generation of conservation leaders, it also provides unforgettable, life-shaping experiences for thousands of young SCA members. When you contribute to SCA, you create a more sustainable planet today and into the future.</p>
+<p><img alt="" src="/sites/all/themes/thesca/img/3.a%20Ways%20to%20Give_0.jpg" style="width: 540px; height: 395px;"></p>
+<p>There are so many ways you can support SCA. Choose the one that’s right for you. Take a look at the options below, or contact us for more information. We are happy to discuss any of these options with you. Call us at 603-543-1700, ext. 1600 or email us at <a href="https://www.thesca.org/cdn-cgi/l/email-protection"><span class="__cf_email__" original-class="__cf_email__" data-cfemail="c9ada6a7a6bbbbaca5a8bda0a6a7ba89bda1acbaaaa8e7a6bbae">[email protected]</span></a>.</p>
+<h4><strong>Give Now</strong></h4>
+<p>Make a tax-deductible, <a href target="_blank">online contribution</a> right now. Or, you can <a href="https://www.thesca.org/sites/default/files/attachments/SCA-Donation-form-Print-H.pdf" target="_blank">download our printable donation</a> form (PDF) if you prefer to donate by mail.<a href target="_blank"> Give now</a></p>
+<h4><strong>Renew Your Support</strong></h4>
+<p>Once you’ve become a donor, renew your support by giving to our annual fund. In doing so, you will provide a source of much needed support to our national parks.  <a href>Renew online today</a>.</p>
+<h4><strong>Monthly Giving</strong></h4>
+<p>Make a monthly donation to the Student Conservation Association and support conservation all year long. With your monthly gift you will provide a steady stream of assistance to our conservation programs and provide valuable protection to our environment — saving valuable resources. Contributions are charged to your credit card once every month. <a href>Enroll now</a>.</p>
+<p>As an SCA Trail Builder (Monthly Donor), you will receive special privileges in recognition of your loyal support:</p>
+<ul>
+<li>A special welcome packet for first-time Monthly Donors</li>
+<li>A subscription to the Greenway, our quarterly print newsletter</li>
+<li>An email subscription to Hands On, a monthly roundup of SCA happenings, news and events</li>
+<li>SCA’s annual wall calendar</li>
+<li>Invitations to SCA events</li>
+<li>Annual Trail Builder statement of giving</li>
+</ul>
+<p><a href><b>Start your monthly donations now.</b></a></p>
+<h4><strong>Gifts to Honor and Remember</strong></h4>
+<p>Make a gift to the Student Conservation Association in memory of someone special, or to celebrate a special occasion such as a birthday, wedding or holiday. <a href>Give a gift now and learn more</a>.</p>
+<h4><strong>Gifts of Stock</strong></h4>
+<p>One attraction of donating appreciated securities, like stock, is that the tax savings enable you to make a gift at less cost than if you were to sell the shares and donate the equivalent amount in cash outright. <a href="https://www.thesca.org/give/gifts-of-stock">Learn more.</a></p>
+<h4><strong>Employer and Workplace Giving</strong></h4>
+<p>You can maximize the impact your donation has on critical conservation efforts when you take advantage of employer matching gift programs or sign up for workplace giving. Make sure to ask your employer if they have an employer matching gift program or <a href="https://www.thesca.org/cdn-cgi/l/email-protection">email us</a> to learn more.</p>
+<h4><strong>Gift and Estate Planning</strong></h4>
+<p><a href="http://thesca.givingplan.net/pp/legacy-change/208" target="_blank">Gift planning</a> is an excellent way to make a meaningful charitable gift while minimizing taxes and increasing the possibilities for effective distribution of assets. Learn more about including the Student Conservation Association in your estate and become a member of the Liz Putnam Legacy Society. <a href="http://thesca.givingplan.net/pp/legacy-change/208" target="_blank">Learn more.</a></p>
+<h4>Shop through Amazon Smile</h4>
+<p>Amazon will donate 0.5% of the price of eligible <a href="https://smile.amazon.com/ch/91-0880684" target="_blank">AmazonSmile</a> purchases to SCA if you choose us as your preferred charitable organization. <a href="https://smile.amazon.com/ch/91-0880684" target="_blank">Register </a><a href="https://smile.amazon.com/ch/91-0880684" target="_blank">here</a>.</p>
+<h4>Major Gifts</h4>
+<p>If you are interested in having an even greater impact by embracing a bold vision – to see that our national parks, forests, public lands are protected forever, while simultaneously inspiring the next generation of conservation leaders - through a major gift, please contact our major gifts team at <a href="https://www.thesca.org/cdn-cgi/l/email-protection"><span class="__cf_email__" original-class="__cf_email__" data-cfemail="6b0f04050419190e070a1f020405182b1f030e18080a4504190c">[email protected]</span></a> or call 603-543-1700, ext. 1600 to learn more.</p>
+<hr>
+<h3>Tax Identification</h3>
+<p>The Student Conservation Association is a 501 (c) 3 non-profit organization. All gifts to the Student Conservation Association are considered tax-deductible to the extent allowed by law. You may download a <a href="https://www.thesca.org/sites/default/files/attachments/IRS_Non-Profit_Certification_022813.pdf" target="_blank">copy of our IRS designation letter here</a>.<br><strong style="line-height: 1.538em;">Student Conservation Association Tax Identification number is: 91-0880684.</strong></p>
+<h3>
+<a id="financials" name="financials"></a>SCA’s Financials</h3>
+<p>Below are several of SCA’s financial documents available for public viewing. Feel free to download any of these forms.<span style="line-height: 1.538em;"> If you have any questions about our financials or the information contained within, please contact </span><a href="http://www.thesca.org/jhasbrouck@thesca.org" target="_blank">Joyce Hasbrouck</a><span style="line-height: 1.538em;">, Controller.</span></p>
+<ul>
+<li>A special welcome packet for first-time Monthly Donors</li>
+<li>A subscription to the Greenway, our quarterly print newsletter</li>
+<li>An email subscription to Hands On, a monthly roundup of SCA happenings, news and events</li>
+<li>SCA’s annual wall calendar</li>
+<li>Invitations to SCA events</li>
+<li>Annual Trail Builder statement of giving
+<ul>
+<li><a href="https://www.thesca.org/sites/default/files/attachments/SCA_2016_Independent_Audit.pdf" target="_blank">Independent Audit for SCA’s FY 2016</a></li>
+<li><a href="https://www.thesca.org/sites/default/files/attachments/SCA_2016_%20990_Form.pdf" target="_blank">SCA 990 FY 2016</a></li>
+</ul>
+</li>
+</ul>
+</div></div></div> </div>
+</article>
+</div>
+<div class="rail rail-second" original-class="rail rail-second">
+<aside class="l-region l-region--sidebar-first" original-class="l-region l-region--sidebar-first"><nav id="block-menu-block-3" role="navigation" class="block block--menu-block block--menu-block-3" original-class="block block--menu-block block--menu-block-3"><div class="menu-block-wrapper menu-block-3 menu-name-main-menu parent-mlid-0 menu-level-2" original-class="menu-block-wrapper menu-block-3 menu-name-main-menu parent-mlid-0 menu-level-2">
+<ul class="menu" original-class="menu">
+<li class="first leaf menu-mlid-883" original-class="first leaf menu-mlid-883"><a href="https://secure2.convio.net/scai/site/Donation2?df_id=12102&mfc_pref=T&12102.donation=form1" target="_blank">Donate Now</a></li>
+<li class="collapsed menu-mlid-881" original-class="collapsed menu-mlid-881"><a href="https://www.thesca.org/give/reasons-give">Reasons to Give</a></li>
+<li class="expanded active-trail active menu-mlid-880" original-class="expanded active-trail active menu-mlid-880">
+<a href="https://www.thesca.org/give/ways-give" class="active-trail active" original-class="active-trail active">Ways to Give</a><ul class="menu" original-class="menu">
+<li class="first leaf menu-mlid-1495" original-class="first leaf menu-mlid-1495"><a href="https://secure2.convio.net/scai/site/Donation2?df_id=12102&mfc_pref=T&12102.donation=form1" target="_blank">Donate Now</a></li>
+<li class="leaf menu-mlid-1496" original-class="leaf menu-mlid-1496"><a href>Monthly Giving</a></li>
+<li class="leaf menu-mlid-1664" original-class="leaf menu-mlid-1664"><a href="http://thesca.givingplan.net/">Gift and Estate Planning</a></li>
+<li class="leaf menu-mlid-1362" original-class="leaf menu-mlid-1362"><a href="https://www.thesca.org/give/gifts-of-stock">Gifts of Stock</a></li>
+<li class="leaf menu-mlid-1330" original-class="leaf menu-mlid-1330"><a href="https://www.thesca.org/give/sca-financials">SCA Financials &amp; 990s</a></li>
+<li class="last leaf menu-mlid-1442" original-class="last leaf menu-mlid-1442"><a href="https://www.thesca.org/give/annual-report">Annual Report</a></li>
+</ul>
+</li>
+<li class="leaf menu-mlid-882" original-class="leaf menu-mlid-882"><a href="https://www.thesca.org/give/impact-your-gift">Impact of Your Gift</a></li>
+<li class="collapsed menu-mlid-886" original-class="collapsed menu-mlid-886"><a href="https://www.thesca.org/connect/stories">SCA Blogs</a></li>
+<li class="collapsed menu-mlid-1187" original-class="collapsed menu-mlid-1187"><a href="https://www.thesca.org/connect/events">Events</a></li>
+<li class="collapsed menu-mlid-1903" original-class="collapsed menu-mlid-1903"><a href="https://www.thesca.org/connect/sca-alumni">Alumni</a></li>
+<li class="leaf menu-mlid-1353" original-class="leaf menu-mlid-1353"><a href="https://www.thesca.org/connect/videowall">Videos</a></li>
+<li class="last leaf menu-mlid-2183" original-class="last leaf menu-mlid-2183"><a href="https://www.thesca.org/connect/60th-anniversary">60th Anniversary</a></li>
+</ul>
+</div>
+</nav><div id="block-block-67" class="block block--block block--block-67" original-class="block block--block block--block-67">
+<div class="block__content" original-class="block__content">
+<p style="text-align: center;"><a href="https://www.guidestar.org/organizations/91-0880684/student-conservation-association.aspx" target="_blank"><img src="/sites/all/themes/thesca/img/gximage2" style="width:80px; height:59px;margin-right:10px;"></a><a href="https://www.give.org/charity-reviews/national/environment/student-conservation-association-in-charlestown-nh-1132" target="_blank"><img alt="" src="/sites/all/themes/thesca/img/aC-seal-vertical-w-url.png" style="width: 41px; height: 71px; margin-right: 10px;"></a></p>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<footer class="footer" original-class="footer" role="contentinfo"><div class="rule" original-class="rule"></div>
+<div class="container" original-class="container">
+<div class="l-region l-region--footer" original-class="l-region l-region--footer">
+<div id="block-block-102" class="block block--block footer-logo block--block-102" original-class="block block--block footer-logo block--block-102">
+<div class="block__content" original-class="block__content">
+<p><img alt="Logo" src="/sites/all/themes/thesca/img/footer-logo.png"></p>
+</div>
+</div>
+<nav id="block-menu-block-1" role="navigation" class="block block--menu-block footer-links block--menu-block-1" original-class="block block--menu-block footer-links block--menu-block-1"><div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1" original-class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+<ul class="menu" original-class="menu">
+<li class="first expanded active-trail menu-mlid-728" original-class="first expanded active-trail menu-mlid-728">
+<a href="https://www.thesca.org/connect" class="item-connect active-trail" original-class="item-connect active-trail">Connect</a><ul class="menu" original-class="menu">
+<li class="first leaf menu-mlid-883" original-class="first leaf menu-mlid-883"><a href="https://secure2.convio.net/scai/site/Donation2?df_id=12102&mfc_pref=T&12102.donation=form1" target="_blank">Donate Now</a></li>
+<li class="leaf has-children menu-mlid-881" original-class="leaf has-children menu-mlid-881"><a href="https://www.thesca.org/give/reasons-give">Reasons to Give</a></li>
+<li class="leaf has-children active-trail active menu-mlid-880" original-class="leaf has-children active-trail active menu-mlid-880"><a href="https://www.thesca.org/give/ways-give" class="active-trail active-trail active" original-class="active-trail active-trail active">Ways to Give</a></li>
+<li class="leaf menu-mlid-882" original-class="leaf menu-mlid-882"><a href="https://www.thesca.org/give/impact-your-gift">Impact of Your Gift</a></li>
+<li class="leaf has-children menu-mlid-886" original-class="leaf has-children menu-mlid-886"><a href="https://www.thesca.org/connect/stories">SCA Blogs</a></li>
+<li class="leaf has-children menu-mlid-1187" original-class="leaf has-children menu-mlid-1187"><a href="https://www.thesca.org/connect/events">Events</a></li>
+<li class="leaf has-children menu-mlid-1903" original-class="leaf has-children menu-mlid-1903"><a href="https://www.thesca.org/connect/sca-alumni">Alumni</a></li>
+<li class="leaf menu-mlid-1353" original-class="leaf menu-mlid-1353"><a href="https://www.thesca.org/connect/videowall">Videos</a></li>
+<li class="last leaf menu-mlid-2183" original-class="last leaf menu-mlid-2183"><a href="https://www.thesca.org/connect/60th-anniversary">60th Anniversary</a></li>
+</ul>
+</li>
+<li class="expanded menu-mlid-708" original-class="expanded menu-mlid-708">
+<a href="https://www.thesca.org/serve" class="item-serve" original-class="item-serve">Serve</a><ul class="menu" original-class="menu">
+<li class="first leaf menu-mlid-817" original-class="first leaf menu-mlid-817"><a href="https://www.thesca.org/serve/choosing-program-thats-right-you">Choosing a Program</a></li>
+<li class="leaf has-children menu-mlid-820" original-class="leaf has-children menu-mlid-820"><a href="https://www.thesca.org/serve/youth-programs">Youth (18 and Under)</a></li>
+<li class="leaf has-children menu-mlid-825" original-class="leaf has-children menu-mlid-825"><a href="https://www.thesca.org/serve/young-adult-programs">Young Adult (18 yrs +)</a></li>
+<li class="leaf has-children menu-mlid-834" original-class="leaf has-children menu-mlid-834"><a href="https://www.thesca.org/serve/meet-recruiter">Meet a Recruiter</a></li>
+<li class="last leaf has-children menu-mlid-838" original-class="last leaf has-children menu-mlid-838"><a href="https://www.thesca.org/serve/field-leaders">Field Leaders</a></li>
+</ul>
+</li>
+<li class="expanded menu-mlid-707" original-class="expanded menu-mlid-707">
+<a href="https://www.thesca.org/partner" class="item-partner" original-class="item-partner">Partner</a><ul class="menu" original-class="menu">
+<li class="first leaf has-children menu-mlid-1283" original-class="first leaf has-children menu-mlid-1283"><a href="https://www.thesca.org/partner/benefits-sca">Benefits of SCA</a></li>
+<li class="leaf has-children menu-mlid-876" original-class="leaf has-children menu-mlid-876"><a href="https://www.thesca.org/partner/agency-partners">Agency Partners</a></li>
+<li class="leaf has-children menu-mlid-1210" original-class="leaf has-children menu-mlid-1210"><a href="https://www.thesca.org/partner/corporate-partners">Corporate Partners</a></li>
+<li class="leaf menu-mlid-1352" original-class="leaf menu-mlid-1352"><a href="https://www.thesca.org/partner/foundation-partners">Foundation Partners</a></li>
+<li class="leaf menu-mlid-1361" original-class="leaf menu-mlid-1361"><a href="https://www.thesca.org/partner/university-relationships">University Relationships</a></li>
+<li class="leaf has-children menu-mlid-1359" original-class="leaf has-children menu-mlid-1359"><a href="https://www.thesca.org/about/regional-presence">Regional Presence</a></li>
+<li class="last leaf menu-mlid-2107" original-class="last leaf menu-mlid-2107"><a href="https://www.thesca.org/conserve">ConSERVE</a></li>
+</ul>
+</li>
+<li class="last leaf menu-mlid-2286" original-class="last leaf menu-mlid-2286"><a href="https://secure2.convio.net/scai/site/Donation2?df_id=12102&mfc_pref=T&12102.donation=form1" class="item-give" original-class="item-give" target="_blank">Donate</a></li>
+</ul>
+</div>
+</nav><div id="block-block-103" class="block block--block footer-second-row block--block-103" original-class="block block--block footer-second-row block--block-103">
+<div class="block__content" original-class="block__content">
+<ul>
+<li><a href="https://www.facebook.com/StudentConservationAssociation" target="_blank"><i class="sca-icon sca-icon-facebook" original-class="sca-icon sca-icon-facebook"></i></a></li>
+<li><a href="https://twitter.com/the_sca" target="_blank"><i class="sca-icon sca-icon-twitter" original-class="sca-icon sca-icon-twitter"></i></a></li>
+<li><a href="https://instagram.com/the_sca" target="_blank"><i class="sca-icon sca-icon-instagram" original-class="sca-icon sca-icon-instagram"></i></a></li>
+<li><a href="https://www.youtube.com/user/conservationinaction" target="_blank"><i class="sca-icon sca-icon-youtube-play" original-class="sca-icon sca-icon-youtube-play"></i></a></li>
+<li><a href="https://www.flickr.com/photos/the-sca/" target="_blank"><i class="sca-icon sca-icon-flickr" original-class="sca-icon sca-icon-flickr"></i></a></li>
+</ul>
+<a class="footer-donate" original-class="footer-donate" href="https://secure2.convio.net/scai/site/Donation2?df_id=12102&mfc_pref=T&12102.donation=form1">Donate now</a> </div>
+</div>
+<div id="block-block-104" class="block block--block footer-charity block--block-104" original-class="block block--block footer-charity block--block-104">
+<div class="block__content" original-class="block__content">
+<p><a href="http://www.guidestar.org/organizations/91-0880684/student-conservation-association.aspx" target="_blank"><img alt="" src="/sites/all/themes/thesca/img/guide-star.png" style="width: 85px; height: 63px;"></a> <a href="http://www.give.org/charity-reviews/national/environment/student-conservation-association-in-charlestown-nh-1132" target="_blank"> <img alt="" src="/sites/all/themes/thesca/img/bbb.png" style="width: 40px; height: 70px;"></a></p>
+<p>SCA is a 501 (c) 3 non-profit organization.</p>
+<p>Federal Tax ID (EIN) 910880684</p>
+</div>
+</div>
+<nav id="block-menu-menu-footer-bottom" role="navigation" class="block block--menu closing-links block--menu-menu-footer-bottom" original-class="block block--menu closing-links block--menu-menu-footer-bottom"><ul class="menu" original-class="menu">
+<li class="first leaf" original-class="first leaf"><a href="https://www.thesca.org/sitemap">Sitemap</a></li>
+<li class="leaf" original-class="leaf"><a href="https://www.thesca.org/privacy-policy">Privacy Policy</a></li>
+<li class="leaf" original-class="leaf"><a href="https://www.thesca.org/about/work-sca">Work at SCA</a></li>
+<li class="last leaf" original-class="last leaf"><a href="https://www.thesca.org/store">SCA Store</a></li>
+</ul></nav><div id="block-block-105" class="block block--block footer-contact block--block-105" original-class="block block--block footer-contact block--block-105">
+<div class="block__content" original-class="block__content">
+<p>Headquarters: 4245 North Fairfax Drive, Suite 825, Arlington, VA 22203</p>
+<ul>
+<li>Phone: (703) 524.2441</li>
+<li>Fax: (703) 524.2451</li>
+<li>Email: <a href="https://www.thesca.org/cdn-cgi/l/email-protection"><span class="__cf_email__" original-class="__cf_email__" data-cfemail="afd8cacdc2cedcdbcaddefdbc7cadcccce81c0ddc8">[email protected]</span></a>
+</li>
+</ul>
+</div>
+</div>
+<div id="block-block-106" class="block block--block footer-copyrights block--block-106" original-class="block block--block footer-copyrights block--block-106">
+<div class="block__content" original-class="block__content">
+<p>©<?php print variable_get('pgc_copyright_year'); ?> Student Conservation Association. All Rights Reserved.</p>
+</div>
+</div>
+<div id="block-block-44" class="block block--block block--block-44" original-class="block block--block block--block-44">
+<div class="block__content" original-class="block__content">
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T9SKVH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script data-cfasync="false" src="/sites/all/themes/thesca/js/email-decode.min.js"></script><script>if ( !window.GTMloaded ) { (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9SKVH');window.GTMloaded = true;}</script>
+</div>
+</div>
+<div id="block-block-109" class="block block--block block--block-109" original-class="block block--block block--block-109">
+<div class="block__content" original-class="block__content">
+<style>
+@media (max-width: 640px) {
+ body.html.not-front .page-title {
+ font-size: 200%;
+ }
+ #urban-trails-guide img {
+ float: none !important;
+ }
+}
+.node--article--full img {
+ max-width: 100% !important; /* was width; changed to max-width 7-27-2018 */
+ height: auto !important;
+}
+.video-wrapper {
+ position: relative;
+ padding-bottom: 56.25%; /* 16:9 */
+ padding-top: 25px;
+ height: 0;
+}
+.video-wrapper iframe {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+</style>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src="/sites/all/themes/thesca/js/9bfe5380c288ff6f08db7fd9b67bb2dd.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0b4c0934e0","applicationID":"49180250","transactionName":"MVBRYxFSCBZYARYICQgaclQXWgkLFgwNBQM5RVJQBmwQDFwV","queueTime":0,"applicationTime":350,"atts":"HRdSFVlIGxg=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+</body>
+</html>

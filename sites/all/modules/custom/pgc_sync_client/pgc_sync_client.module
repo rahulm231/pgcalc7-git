@@ -1,0 +1,338 @@
+<?php
+
+function pgc_sync_client_menu() {
+  $menu = array();
+
+  $menu['pgc-sync-client/nodes'] = array(
+    'title' => 'Sync Client',
+    'page callback' => 'pgc_sync_client_sync',
+    'access callback' => true,
+    'type' => MENU_CALLBACK,
+  );
+
+  $menu['pgc-sync-client/node/new'] = array(
+    'title' => 'Sync Client - Import new node',
+    'page callback' => 'pgc_sync_client_new_node',
+    'access callback' => true,
+    'type' => MENU_CALLBACK,
+  );
+
+  $menu['pgc-sync-client/menu/new'] = array(
+    'title' => 'Sync Client - Import new menu item',
+    'page callback' => 'pgc_sync_client_new_menu_item',
+    'access callback' => true,
+    'type' => MENU_CALLBACK,
+  );
+
+  $menu['pgc-sync-client/global-variables'] = array(
+    'title' => 'Sync Client - Create/update variables',
+    'page callback' => 'pgc_sync_client_gobal_variables',
+    'access callback' => true,
+    'type' => MENU_CALLBACK,
+  );
+
+  $menu['pgc-sync-client/example-variables'] = array(
+    'title' => 'Sync Client - Create/update example variables',
+    'page callback' => 'pgc_sync_client_example_variables',
+    'access callback' => true,
+    'type' => MENU_CALLBACK,
+  );
+
+  return $menu;
+}
+
+function pgc_sync_client_sync() {
+  if($_SERVER['REMOTE_ADDR'] != '192.168.112.4') {
+    drupal_access_denied();
+  } else {
+    $data = file_get_contents('php://input');
+    if(strlen($data)) {
+      $input_nodes = unserialize($data);
+      if($input_nodes !== null) {
+        if(isset($input_nodes['force'])) {
+          $import = pgc_sync_client_import_node($input_nodes['uuid'], $input_nodes['fields'], true);
+          print serialize($import);
+        } else {
+          foreach($input_nodes as $uuid => $input_node) {
+            $import = pgc_sync_client_import_node($uuid, $input_node);
+            if(is_array($import)) {
+              print serialize($import);
+            } else {
+              print $import;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+function pgc_sync_client_new_node() {
+  if($_SERVER['REMOTE_ADDR'] != '192.168.112.4') {
+    drupal_access_denied();
+  } else {
+    $data = file_get_contents('php://input');
+    if(strlen($data)) {
+      $input_node = unserialize($data);
+      if($input_node !== null) {
+        $input_node->uid = 1;
+        unset($input_node->nid);
+        unset($input_node->vid);
+        $input_node = node_submit($input_node);
+        node_save($input_node);
+        print serialize(array('status' => 'success', 'updates' => array('All fields')));
+      }
+    }
+  }
+}
+
+function pgc_sync_client_get_nid_from_uuid($uuid) {
+  $result = db_select('node', 'n')
+    ->fields('n', array('nid'))
+    ->condition('uuid', $uuid, '=')
+    ->range(0,1)
+    ->execute();
+  $nid = $result->fetchField(0);
+  return $nid ? $nid : false;
+}
+
+function pgc_sync_client_get_mlid_from_nid($nid) {
+  $result = db_select('menu_node', 'n')
+    ->fields('n', array('mlid'))
+    ->condition('nid', $nid, '=')
+    ->range(0,1)
+    ->execute();
+  $mlid = $result->fetchField(0);
+  return $mlid ? $mlid : false;
+}
+
+function pgc_sync_client_import_node($uuid, $input_node, $force = false) {
+  $nid = pgc_sync_client_get_nid_from_uuid($uuid);
+  if($nid !== false) {
+    $local_node = node_load($nid);
+    $differences = array();
+    $updates = array();
+    // For forced updates, just set the field values
+    if($force) {
+      foreach($input_node as $field => $val)
+      if($field == 'title') {
+        $local_node->title = $val;
+        $updates[] = $field;
+      }
+      else if($field == 'status') {
+        $local_node->status = $val;
+        $updates[] = $field;
+      }
+      else if($field == 'summary') {
+        $local_node->body[LANGUAGE_NONE][0]['summary'] = $val;
+        $changed_fields[] = $field;
+      }
+      else if(isset($local_node->{$field}[LANGUAGE_NONE])) {
+        $local_node->{$field}[LANGUAGE_NONE][0]['value'] = $val;
+        $updates[] = $field;
+      }
+    }
+    // For normal sync, build array of differences and updates Updates will be used
+    // to document unchanged fields in the case that any differences exist.
+    else {
+      // #PGCS-264 - Starts here
+      //foreach($input_node['old'] as $field => $value) {
+      foreach($input_node['new'] as $field => $value) {
+      // #PGCS-264 - Ends here
+        if($field == 'title') {
+          if($local_node->title != $value) {
+            $differences[$field]['master'] = $value;
+            $differences[$field]['client'] = $local_node->title;
+          } else {
+            $local_node->title = $input_node['new'][$field];
+            $updates[] = $field;
+          }
+        }
+        else if($field == 'status') {
+          if($local_node->status != $value) {
+            $differences[$field]['master'] = $value;
+            $differences[$field]['client'] = $local_node->status;
+          } else {
+            $local_node->status = $input_node['new'][$field];
+            $updates[] = $field;
+          }
+        }
+        else if($field == 'summary') {
+          if(isset($local_node->body[LANGUAGE_NONE][0]['summary']) && $local_node->body[LANGUAGE_NONE][0]['summary'] != $value) {
+            $differences[$field]['master'] = $value;
+            $differences[$field]['client'] = $local_node->body[LANGUAGE_NONE][0]['summary'];
+          } else {
+            $local_node->body[LANGUAGE_NONE][0]['summary'] = $input_node['new'][$field];
+            $updates[] = $field;
+          }
+        }
+        else {
+          if(isset($local_node->{$field}[LANGUAGE_NONE])) {
+            if($local_node->{$field}[LANGUAGE_NONE][0]['value'] != $value) {
+              $differences[$field]['master'] = $value;
+              $differences[$field]['client'] = $local_node->{$field}[LANGUAGE_NONE][0]['value'];
+            } else {
+              $local_node->{$field}[LANGUAGE_NONE][0]['value'] = $input_node['new'][$field];
+              $updates[] = $field;
+            }
+          }
+        }
+      }
+    }
+    if(count($updates) || $force) {
+      $local_node->revision = 1;
+      $local_node->log = 'Revision created by pgc_sync on ' . format_date(time(), 'medium');
+    }
+    node_save($local_node);
+    if(!count($differences)) {
+      return array('status' => 'success', 'updates' => $updates);
+    } else {
+      return array('status' => 'needs_review', 'updates' => $updates, 'differences' => $differences);
+    }
+  } else {
+    return 'fail';
+  }
+}
+
+function pgc_sync_client_new_menu_item() {
+  if($_SERVER['REMOTE_ADDR'] != '192.168.112.4') {
+    drupal_access_denied();
+  } else {
+    $data = file_get_contents('php://input');
+    $ret = new stdClass;
+    if(strlen($data)) {
+      $data = unserialize($data);
+      $uuid = $data->uuid;
+      $title = $data->title;
+      $parent_uuid = $data->parent_uuid;
+      $weight = $data->weight;
+      $nid = pgc_sync_client_get_nid_from_uuid($uuid);
+      $parent_nid = pgc_sync_client_get_nid_from_uuid($parent_uuid);
+
+      if(!$nid) {
+        $ret->status = 'fail';
+        $ret->error = 'Node does not exist. Ensure it is synced first.';
+      }
+      if(!$parent_nid) {
+        $ret->status = 'fail';
+        $ret->error = 'Parent node does not exist. Ensure it is synced first.';
+      }
+
+      $parent_mlid = pgc_sync_client_get_mlid_from_nid($parent_nid);
+      $menu_link['menu_name'] = 'main-menu';
+      $menu_link['link_title'] = $title;
+      $menu_link['link_path'] = 'node/'.$nid;
+      $menu_link['plid'] = $parent_mlid;
+      $menu_link['weight'] = $weight;
+
+      if(menu_link_save($menu_link))
+        $ret->status = 'success';
+      else {
+        $ret->status = 'fail';
+        $ret->error = 'Unable to create menu item.';
+      }
+    } else {
+      $ret->status = 'fail';
+      $ret->error = 'No data was passed.';
+    }
+
+    print serialize($ret);
+  }
+}
+
+function pgc_sync_client_gobal_variables() {
+  if($_SERVER['REMOTE_ADDR'] != '192.168.112.4') {
+    drupal_access_denied();
+  } else {
+    $data = file_get_contents('php://input');
+    $ret = new stdClass;
+    if(strlen($data)) {
+      $data = unserialize($data);
+      $variable_name = $data->variable;
+      $new_value = $data->new_value;
+      $old_value = $data->old_value;
+
+      $variables = variable_get('pgc_variables');
+      $variables = unserialize($variables);
+      foreach($variables as $key => $variable) {
+        if($variable['name'] == $variable_name) {
+          if($old_value != '' && $variable['value'] != $old_value) {
+            $ret->status = 'needs_review';
+            $ret->value = $variable['value'];
+            break;
+          } else {
+            $variables[$key]['value'] = $new_value;
+            $ret->status = 'success';
+          }
+        }
+      }
+      if(!isset($ret->status)) {
+        $variables[] = array('name' => $variable_name, 'value' => $new_value);
+        $ret->status = 'success';
+      }
+      if($ret->status == 'success')
+        variable_set('pgc_variables', serialize($variables));
+    } else {
+      $ret->status = 'fail';
+      $ret->error = 'No data was passed.';
+    }
+    print serialize($ret);
+  }
+}
+
+function pgc_sync_client_example_variables() {
+  if($_SERVER['REMOTE_ADDR'] != '192.168.112.4') {
+    drupal_access_denied();
+  } else {
+    $data = file_get_contents('php://input');
+    $ret = new stdClass;
+    if(strlen($data)) {
+      $data = unserialize($data);
+      $variable_name = $data->variable;
+
+      $result = db_select('pgc_ex_variables', 'p')
+        ->fields('p')
+        ->condition('name', $variable_name, '=')
+        ->range(0,1)
+        ->execute();
+      $variable = $result->fetchAssoc();
+
+      if($result->rowCount() > 0) {
+        // Update formula
+        if(isset($data->new_formula)) {
+          if(isset($data->prev_formula) && $data->prev_formula != $variable['formula']) {
+            $ret->status = 'needs_review';
+            $ret->formula = $variable['formula'];
+          } else {
+            // Update formula
+            pgc_variables_update_ex_variable($variable_name, $data->new_formula, null, $data->decimals, $data->weight, $data->comment);
+            $ret->status = 'success';
+          }
+        }
+        // Update static value
+        else {
+          if(isset($data->prev_value) && $data->prev_value != $variable['value']) {
+            $ret->status = 'needs_review';
+            $ret->value = $variable['value'];
+          } else {
+            // Update value
+            pgc_variables_update_ex_variable($variable_name, null, $data->new_value, $data->decimals, $data->weight, $data->comment);
+            $ret->status = 'success';
+          }
+        }
+      } else {
+        // Insert new variable
+        if(isset($data->new_formula))
+          pgc_variables_add_ex_variable($variable_name, $data->new_formula, null, $data->decimals,  $data->weight, $data->comment);
+        else
+          pgc_variables_add_ex_variable($variable_name, null, $data->new_value, $data->decimals, $data->weight, $data->comment);
+
+        $ret->status = 'success';
+      }
+    } else {
+      $ret->status = 'fail';
+      $ret->error = 'No data was passed.';
+    }
+    print serialize($ret);
+  }
+}

@@ -1,0 +1,108 @@
+/*
+Theme Name: Bates Framework - Office
+Template: b/bates-framework
+Theme URI: http://bates.edu/
+Description: Uses the Bates Framework parent theme.
+Version: 1                       
+Author: Bates College
+Author URI: http://www.bates.edu
+*/
+
+/* Start: Campus Life Tiles */
+
+/*body.campus #siteNav ul { display: none; }*/
+
+body.campus .hentry ul { margin: 6px 0px 6px 20px; }
+body.campus .hentry li { margin-bottom: 6px; }
+body.campus .clear-both-footer { height: 0px; }
+
+/* End: Campus Life Tiles */
+
+/* Start: Hide RSS icon on Improvements */
+body.improvements a.rsswidget img { display:none; }
+/* End: Hide RSS icon on Improvements */
+
+
+.quad-content {
+	font-size: 20px;
+	line-height: 2em;
+	}
+
+/*.quad-content-aux { font: 14px/1.7em sans-serif; }*/
+
+.main-content .quad a { border-bottom: 0px; }
+
+.quad-text { float: left; width: 50%; }
+
+.quad-link { display: block; }
+
+.quad-text strong, .quad-link strong { border-bottom: 1px solid #ccc; }
+
+.quad-sub { color: #851326; }
+
+
+/* Catalog makes it's own breadcrumbs
+ */
+.page-template-page-catalog .js-breadcrumb {
+	display: none;
+}
+
+
+@media (min-width: 550px) {
+
+	body.quad .tiles-column:nth-of-type(2) .tile {
+		width:  50%;
+		float: left;
+		padding-left:10px;
+	}
+
+	body.quad .tiles-column:nth-of-type(2) .tile:first-child {
+		padding-left: 0;
+	}
+}
+
+/**********************/
+@media (min-width: 800px) {
+	
+	body.quad .tiles-column.welcome {
+		width:  66%;
+	}
+	body.quad .tiles-column:nth-of-type(2) {
+		width:  33%;
+	}
+	
+	body.quad .tiles-column:nth-of-type(2) .tile {
+		width:  100%;
+		float:  none;
+		padding:  0;
+	}
+
+	
+}/**********************/
+@media (min-width: 1024px) {
+
+	
+}
+
+
+/**
+ * Instagram Tiles Page
+ */
+#instagram-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.instagram-single {
+	display: inline-block;
+	color: #777;
+	margin:  .5em;
+}
+
+/**
+ * Centered header for these sites 
+ */
+body.career header { 
+	background-position:center; 
+}

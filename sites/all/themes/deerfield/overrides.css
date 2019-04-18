@@ -1,0 +1,306 @@
+#pgc-region-main {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+}
+
+.pg-content-body {
+  font-family: proxima-nova, sans-serif;
+  letter-spacing: .5px;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+}
+
+.pg-wrap h1 {
+  font-family: proxima-nova, sans-serif;
+  font-size: 40px;
+  letter-spacing: .5px;
+}
+
+.pg-wrap h2 {
+  font-family: proxima-nova, sans-serif;
+  font-size: 2.1rem;
+  margin-bottom: 10px;
+}
+
+.pg-wrap h3 {
+  font-family: proxima-nova, sans-serif;
+  font-size: 20px;
+  line-height: 2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #006B37;
+}
+
+.pg-wrap h4 {
+  font-family: proxima-nova, sans-serif;
+}
+
+.pg-wrap a {
+  font-family: proxima-nova, sans-serif;
+}
+
+.pg-wrap a:hover {
+  font-family: proxima-nova, sans-serif;
+}
+
+.pg-wrap a:visited {
+  font-family: proxima-nova, sans-serif;
+}
+
+.pg-wrap a:active {
+  font-family: proxima-nova, sans-serif;
+}
+
+.pg-wrap p {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+  font-weight: 300;
+}
+
+#block-system-main-menu h2 a {
+  font-family: proxima-nova, sans-serif;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 13px;
+}
+
+#main-menu {
+  padding: 0;
+  margin: 0;
+}
+
+#main-menu li {
+  font-family: proxima-nova, sans-serif;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+  list-style: none;
+}
+
+#main-menu li a {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  display: block;
+  border: 0;
+  line-height: 20px;
+  text-decoration: none;
+  border-top: 1px solid #74dd71;
+}
+
+#main-menu li a:hover {
+  text-decoration: none;
+}
+
+#main-menu li a.active {
+  color: #ffffff;
+}
+
+#main-menu li.expanded ul li a {
+  font-size: 13px;
+  padding: 0.4rem 0rem 0.4rem 0rem;
+  text-transform: none;
+  border: 0px;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+#main-menu ul li a.active {
+  color: #ffffff;
+}
+
+#main-menu li.expanded ul ul li a {
+  font-size: 13px;
+  padding: 0.4rem 0rem 0.4rem 1rem;
+  text-transform: none;
+  border: 0px;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+#main-menu ul ul li a.active {
+  color: #ffffff;
+}
+
+.pg-wrap table {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+}
+
+.pg-wrap table tr {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+
+.pg-wrap table tr th {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  border-top: none;
+}
+
+.pg-wrap table tr th:first-child {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.pg-wrap table tr th:last-child {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.pg-wrap table tr th:only-child {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.pg-wrap table tr td {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.pg-wrap table tr td:first-child {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.pg-wrap table tr td:last-child {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.pg-wrap table tr td:only-child {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.pg-wrap ul li {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+  font-weight: 300;
+}
+
+.pg-wrap ol li {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+  font-weight: 300;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #31bb2d;
+  padding: 20px;
+  border: none;
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #006B37;
+  font-weight: 500;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  font-weight: 500;
+  color: #006B37;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #41d52a;
+  padding: 10px 20px;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block .title {
+  color: #006B37;
+  font-size: 1.5em;
+}
+
+#pgc-contact-footer-block li a {
+  color: #006B37;
+}
+
+#pgc_resource_block {
+  background: #006B37;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+#pgc_resource_block a {
+  color: #31bb2d;
+  font-size: 17px;
+}
+
+.pg-gift-details .accordion-switch {
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.pg-gift-details .accordion-switch a {
+  color: #006B37;
+  font-weight: 800;
+}
+
+.pg-how-gift-helps-item-text {
+  font-family: proxima-nova, sans-serif;
+  font-size: 17px;
+  line-height: 2.5rem;
+  font-weight: 300;
+}
+
+.pgc-brochure-bg-top {
+  background: #31bb2d;
+}
+
+.pgc-brochure-header-text {
+  background: #006b37;
+  color: #fff;
+}
+
+.pgc-brochure-title {
+  color: #006b37;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color: #006b37;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color: #31bb2d;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color: #31bb2d;
+}
+
+.pgc-brochure-footer-text {
+  background: #006b37;
+}
+
+.pgc-brochure-footer-title {
+  color: #31bb2d;
+}
+
+span.pgc-brochure-footer-contact {
+  color: #31bb2d;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #006b37;
+}
+

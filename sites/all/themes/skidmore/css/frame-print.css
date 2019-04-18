@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+body { font-size: 1em }
+article, section, header, footer, aside, address { display: block }
+#leftNav, .quickLinks, #socialMedia, #socialShare, #supersized, footer, .clickQLOff, .clickQLOn, #navCol form, #botNav a, #logo-light, #ctmTabWrap, #ctmTabWrap img, #ctmText, #ctmText img, .slide-out-div, .slide-out-div img { display: none; }
+#navCol { min-height: 3px; max-height: 10px; }
+#rightCol { margin-top: 0; padding-bottom: 20px; font-size: 1.1em }
+#leftCol { margin: 35px 0 0 0; padding: 0; width: 99%; text-align: center }
+#logo-dark, .logo { margin: 0 auto }
+.ui-tabs-panel { display: inline }

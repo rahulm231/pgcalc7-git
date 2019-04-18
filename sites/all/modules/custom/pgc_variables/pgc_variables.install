@@ -1,0 +1,20 @@
+<?php
+
+function pgc_variables_schema() {
+  $schema['pgc_ex_variables'] = array(
+    'description' => 'Custom PG Calc Variables',
+    'fields' => array(
+      'name'    => array('type' => 'varchar', 'length' => 255, 'not null' => TRUE),
+      'value'   => array('type' => 'text', 'not null' => TRUE),
+      'formula' => array('type' => 'text', 'not null' => FALSE),
+      'comment' => array('type' => 'text', 'not null' => FALSE),
+      'decimals'=> array('type' => 'varchar', 'length' => 10, 'not null' => FALSE),
+      'weight'  => array('type' => 'int', 'unsigned' => FALSE, 'length' => 11, 'not null' => FALSE),
+    ),
+    'primary key' => array('name'),
+    'unique keys' => array(
+      'name' => array('name'),
+    ),
+  );
+  return $schema;
+}

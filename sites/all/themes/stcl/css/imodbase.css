@@ -1,0 +1,571 @@
+/* This document contains basic HTML styling not related to the encompass software. */
+
+/* necessary for keeping the aspect ratio of the images after "max-width:100%" is a applied to hybrid/mobile sites */
+.snippetrow img {max-width:100%; height:auto!important;}
+
+/************************************/
+/* Basic additions */
+
+.break-word {word-wrap: break-word;}
+.clear {clear:both;}
+
+/* this removes the extra height that is created on mobile by using the method below (helps maintain the aspect ratio):
+img, object, embed {max-width: 100%;}
+img { height: auto; }
+.video-container is a div wrapper that is added via jQuery.
+*/
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*.left {float:left;} /* might cause issues in sites
+.right {float:right;}*/
+
+/*********************************************************************************/
+/* Admin content management / needs to be added to an appstyles type of page */	 
+/*********************************************************************************/
+
+/* Rows (this is the same as clearfix but reduces the amount of classes the client has to add to the rows */
+.snippetrow:before, .snippetrow:after { content: ""; display: table; }
+.snippetrow:after { clear: both; }
+.snippetrow:before { clear: both; }
+.snippetrow { *zoom: 1;width:100%; }
+	
+/* Creating a 50/50 split with a gutter */
+.split50 {
+	width:50%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	
+	}
+.split50left {
+	width:50%;
+    float:left;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	padding-right:2%;
+	}
+.split50right {
+	width:50%;
+	padding-left:2%;
+	float:right;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+
+/************************************/
+/* Creating a 60/40 or 40/60 split with a gutter */
+/*.split60 {width:58%;}
+.split40 {width:38%;}*/
+.split60left {
+	width:60%;
+	padding-right:2%;
+	float:left;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split40left {
+	width:40%;
+	padding-right:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split60right {
+    width:60%;
+	padding-left:2%;
+	float:right;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */	
+	}
+.split40right {
+    width:40%;
+	padding-left:2%;
+	float:right;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */	
+	}
+
+/************************************/
+/* Creating a 65/35 or 35/65 split with a gutter */
+
+.split65left {
+	width:65%;
+	padding-right:2%;
+	float:left;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split35left {
+	width:35%;
+	padding-right:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split65right {
+    width:65%;
+	padding-left:2%;
+	float:right;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */	
+	}
+.split35right {
+    width:35%;
+	padding-left:2%;
+	float:right;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */	
+	}
+	
+/************************************/
+/* Creating a 70/30 or 30/70 split with a gutter */
+
+.split70left {
+	width:70%;
+	padding-right:2%;
+	float:left;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split30left {
+	width:30%;
+	padding-right:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split70right {
+    width:70%;
+	padding-left:2%;
+	float:right;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */	
+	}
+.split30right {
+    width:30%;
+	padding-left:2%;
+	float:right;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */	
+	}
+	
+/************************************/
+/* Creating a 80/20 or 20/80 split with a gutter */
+
+.split80left {
+	width:80%;
+	padding-right:2%;
+	float:left;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split20left {
+	width:20%;
+	padding-right:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split80right {
+    width:80%;
+	padding-left:2%;
+	float:right;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */	
+	}
+.split20right {
+    width:20%;
+	padding-left:2%;
+	float:right;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */	
+	}
+	
+/************************************/
+/* Creating a 90/10 or 10/90 split with a gutter */
+
+.split90left {
+	width:90%;
+	padding-right:2%;
+	float:left;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split10left {
+	width:10%;
+	padding-right:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split90right {
+    width:90%;
+	padding-left:2%;
+	float:right;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */	
+	}
+.split10right {
+    width:10%;
+	padding-left:2%;
+	float:right;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */	
+	}
+	
+/************************************/
+/* Creating a 31 x 3 (3 COLUMN) split with a gutter */
+
+.split33left {
+	width:33%;
+	padding-right:2%;
+	float:left;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split33middle {
+	width:33%;
+	padding-left:1%;
+	padding-right:1%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split33right {
+	width:33%;
+	padding-left:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+	
+	/************************************/
+/* Creating a 25 x 4 (4 COLUMN) split with a gutter */
+
+.split25colA {
+	width:25%;
+	padding-right:2%;
+	float:left;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split25colB {
+	width:25%;
+	padding-right:1%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split25colC {
+	width:25%;
+	padding-left:1%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split25colD {
+	width:25%;
+	padding-left:2%;
+	float:right;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+	
+/************************************/
+/* Creating a 20 x 5 (5 COLUMN) split with a gutter */
+
+.split20colA {
+	width:20%;
+	padding-left:0%;
+	padding-right:2%;
+	float:left;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split20colB {
+	width:20%;
+	padding-left:0%;
+	padding-right:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+
+.split20colC {
+	width:20%;
+	padding-left:0%;
+	padding-right:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split20colD {
+	width:20%;
+	padding-left:0%;
+	padding-right:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split20colE {
+	width:20%;
+	padding-left:0%;
+	padding-right:2%;
+	float:right;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+	
+/************************************/
+/* Creating a 16.6 x 6 (6 COLUMN) split with a gutter */
+
+.split16colA {
+	width:16.6%;
+	padding-left:0%;
+	padding-right:2%;
+	float:left;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split16colB {
+	width:16.6%;
+	padding-left:0%;
+	padding-right:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split16colC {
+	width:16.6%;
+	padding-left:0%;
+	padding-right:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split16colD {
+	width:16.6%;
+	padding-left:0%;
+	padding-right:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split16colE {
+	width:16.6%;
+	ppadding-left:0%;
+	padding-right:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+.split16colF {
+	width:16.6%;
+	padding-left:0%;
+	padding-right:2%;
+	float:left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;        /* IE 8+ */
+	}
+	
+/************************************/
+/* adding top and bottom padding to elements */
+.paddingtop10 {padding-top:0.625em;/*10px*/}
+.paddingtop20 {padding-top:1.250em;/*20px*/}
+.paddingtop30 {padding-top:1.875em;/*30px*/}
+.paddingtop40 {padding-top:2.5em;/*40*/}
+.paddingtop50 {padding-top:3.125em;/*50*/}
+
+.paddingbottom10 {padding-bottom:0.625em;/*10px*/}
+.paddingbottom20 {padding-bottom:1.250em;/*20px*/}
+.paddingbottom30 {padding-bottom:1.875em;}
+.paddingbottom40 {padding-bottom:2.5em;/*40*/}
+.paddingbottom50 {padding-bottom:3.125em;/*50*/}
+
+/************************************/
+/* adding top and bottom margin to elements */
+.margintop10 {margin-top:0.625em;/*10px*/}
+.margintop20 {margin-top:1.250em;/*20px*/}
+.margintop30 {margin-top:1.875em;/*30px*/}
+.margintop40 {margin-top:2.5em;/*40*/}
+.margintop50 {margin-top:3.125em;/*50*/}
+
+.marginbottom10 {margin-top:0.625em;/*10px*/}
+.marginbottom20 {margin-top:1.250em;/*20px*/}
+.marginbottom30 {margin-top:1.875em;/*30px*/}
+.marginbottom40 {margin-top:2.5em;/*40*/}
+.marginbottom50 {margin-top:3.125em;/*50*/}
+	
+/************************************/
+/* adding top and bottom padding to elements */
+.paddingleft10 {padding-left:0.625em;/*10px*/}
+.paddingleft20 {padding-left:1.250em;/*20px*/}
+.paddingleft30 {padding-left:1.875em;/*30px*/}
+.paddingleft40 {padding-left:2.5em;/*40*/}
+.paddingleft50 {padding-left:3.125em;/*50*/}
+
+.paddingright10 {padding-right:0.625em;/*10px*/}
+.paddingright20 {padding-right:1.250em;/*20px*/}
+.paddingright30 {padding-right:1.875em;}
+.paddingright40 {padding-right:2.5em;/*40*/}
+.paddingright50 {padding-right:3.125em;/*50*/}
+
+
+/* =============================================================================
+   Less than 768px / iPhone landscape / android portrait
+   ========================================================================== */
+   
+@media only screen and (max-width: 767px) {
+
+/* tablet */
+/******************************************************/
+/* Admin Content Management / needs to be added to an appstyles type of page */	
+/******************************************************/
+/* Creating a 50/50 split with a gutter */
+.split50 {width:100%;}
+.split50left {width:100%;padding:0;}
+.split50right {width:100%;padding:1.125em 0 0 0;}
+
+/************************************/
+/* Creating a 60/40 or 40/60 split with a gutter */
+.split60 {width:100%;}
+.split40 {width:100%;}
+.split60left {width:100%;padding:0;}
+.split40left {width:100%;padding:0;}
+.split60right {width:100%;padding:1.125em 0 0 0;}
+.split40right {width:100%;padding:1.125em 0 0 0;}
+
+/************************************/
+/* Creating a 65/35 or 35/65 split with a gutter */
+.split65 {width:100%;}
+.split35 {width:100%;}
+.split65left {width:100%;padding:0;}
+.split35left {width:100%;padding:0;}
+.split65right {width:100%;padding:1.125em 0 0 0;}
+.split35right {width:100%;padding:1.125em 0 0 0;}
+
+/************************************/
+/* Creating a 70/30 or 30/70 split with a gutter */
+.split70 {width:100%;}
+.split30 {width:100%;}
+.split70left {width:100%;padding:0;}
+.split30left {width:100%;padding:0;}
+.split70right {width:100%;padding:1.125em 0 0 0;}
+.split30right {width:100%;padding:1.125em 0 0 0;}
+
+/************************************/
+/* Creating a 20/20 or 20/80 split with a gutter */
+.split80 {width:100%;}
+.split20 {width:100%;}
+.split80left {width:100%;padding:0;}
+.split20left {width:100%;padding:0;}
+.split80right {width:100%;padding:1.125em 0 0 0;}
+.split20right {width:100%;padding:1.125em 0 0 0;}
+
+/************************************/
+/* Creating a 90/10 or 10/90 split with a gutter */
+.split90 {width:100%;}
+.split10 {width:100%;}
+.split90left {width:100%;padding:0;}
+.split10left {width:100%;padding:0;}
+.split90right {width:100%;padding:1.125em 0 0 0;}
+.split10right {width:100%;padding:1.125em 0 0 0;}
+
+
+/************************************/
+/* Creating a 33/33/33 split with a gutter */
+
+.split33left {width:100%;}
+.split33middle {width:100%;padding:1.125em 0 0 0;}
+.split33right {width:100%;padding:1.125em 0 0 0;}
+
+
+/************************************/
+/* Creating a 25/25/25/25 split with a gutter */
+
+.split25colA {width:100%;padding:0;}
+.split25colB {width:100%;padding:1.125em 0 0 0;}
+.split25colC {width:100%;padding:1.125em 0 0 0;}
+.split25colD {width:100%;padding:1.125em 0 0 0;}
+
+/************************************/
+/* Creating a 25/25/25/25 split with a gutter */
+
+.split20colA {width:100%;padding:0;}
+.split20colB {width:100%;padding:1.125em 0 0 0;}
+.split20colC {width:100%;padding:1.125em 0 0 0;}
+.split20colD {width:100%;padding:1.125em 0 0 0;}
+.split20colE {width:100%;padding:1.125em 0 0 0;}
+
+/************************************/
+/* Creating a 25/25/25/25 split with a gutter */
+
+.split16colA {width:100%;padding:0;}
+.split16colB {width:100%;padding:1.125em 0 0 0;}
+.split16colC {width:100%;padding:1.125em 0 0 0;}
+.split16colD {width:100%;padding:1.125em 0 0 0;}
+.split16colE {width:100%;padding:1.125em 0 0 0;}
+.split16colF {width:100%;padding:1.125em 0 0 0;}
+
+/************************************/
+/* adding auto margin to elements */
+.marginLeftAuto {margin-left:auto;}
+.marginRightAuto {margin-right:auto;}
+
+}
+

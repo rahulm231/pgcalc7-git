@@ -1,0 +1,76 @@
+<?php
+
+function site_ingestor_modified_menu_alter(&$items) {
+  $items['admin/site-ingestor/region-selector/%']['page callback'] = 'site_ingestor_region_selector_alter';
+}
+
+function site_ingestor_modified_theme($existing, $type, $theme, $path) {
+  return array(    
+    'site_ingestor_region_selector' => array(
+      'variables' => array(
+        'themePath' => NULL,
+        'themeName' => NULL,
+        'templateFile' => NULL,
+        'modulePath' => NULL,
+        'regions' => array(),
+      ),
+      'path' => $path ,
+      'template' => 'site-ingestor-region-selector'
+    ),
+  );
+}
+
+function site_ingestor_region_selector_alter($themeName){
+  // Load the unaltered template.
+  $themePath = DRUPAL_ROOT . '/sites/all/themes/' . $themeName . '/page.html';
+  $modulePath = drupal_get_path('module', 'site_ingestor');
+  // Sometimes scripts in the page will call with a bad directory name
+  // This shouldn't throw errors, wrap the next line in @ and catch "false".
+  $templateFile = @file_get_contents($themePath);
+  $templateFile = preg_replace('/[ \t]+/', ' ', preg_replace('/[\r\n]+/', "\n", $templateFile));
+
+  // In an attempt to work around JS changing classes at runtime,
+  // we save every element's original class to a dummy attribute.
+  // The DOMSelection tool will use these classes when it builds the XPath
+  // query, so that we can reliably target elements on the backend when we do
+  // our replacements.
+  preg_match_all('/class\s*=\s*("[^"]+"|\'[\']+\')/', $templateFile, $classes);
+  $uniqueClasses = array_unique($classes[0]);
+  foreach ($uniqueClasses as $class) {
+    // In case we have already modified this file, remove the dummy classes we
+    // added previously. Otherwise, these strings double in length with each
+    // pass.
+    $templateFile = str_replace(' original-' . $class, '', $templateFile);
+    $templateFile = str_replace($class, $class . ' original-' . $class, $templateFile);
+  }
+
+  // If the original page has a base tag, then remove it.
+  $templateFile = preg_replace('/<base .*?>\s*\n?/', '', $templateFile);
+
+  // I've decided to hard code the regions here, there are too many specific
+  // rules to parse them out of the .info file, and many of them are included
+  // in the tpl file automatically now.
+  $regions = array(
+    'main' => 'Content',
+    'menu' => 'Menu',
+  );
+
+  // Exclude the menu if the menu type is "Do not add"
+  $menu_style = variable_get('si__menu_style', 0);
+  if ($menu_style == -1) {
+    unset($regions['menu']);
+  }
+
+  // Theme output.
+  print theme('site_ingestor_region_selector', array(
+    'templateFile' => $templateFile,
+    'modulePath' => $modulePath,
+    'themePath' => $themePath,
+    'themeName' => $themeName,
+    'regions' => $regions,
+  ));
+
+  // Quit before Drupal has a chance to output anything else.
+  drupal_exit();
+}
+

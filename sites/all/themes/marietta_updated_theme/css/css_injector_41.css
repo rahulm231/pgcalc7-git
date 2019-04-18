@@ -1,0 +1,14 @@
+.container-inline-block-column-3 {
+    -webkit-columns: 3 200px;
+       -moz-columns: 3 200px;
+            columns: 3 200px;
+}
+
+.container-inline-block-column-3 h1,
+.container-inline-block-column-3 h2,
+.container-inline-block-column-3 h3,
+.container-inline-block-column-3 h4,
+.container-inline-block-column-3 h5 {
+    -webkit-column-span: all; 
+  column-span: all; 
+}

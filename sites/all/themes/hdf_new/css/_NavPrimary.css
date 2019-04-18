@@ -1,0 +1,57 @@
+
+
+      /* WARNING - This file is 3ngine generated and will be periodically re-written.  Do not make changes, they will be lost... */
+
+      ._primarynavigation ul {margin:0em; padding:0em; border:0em solid white; } 
+      ._primarynavigation li {margin:0em; padding:0em; border:0em solid white; list-style: none; } 
+
+      ._primarynavigation ul ul {visibility:hidden;}
+      ._primarynavigation ._menuitem {display:block; position:relative;}
+      ._primarynavigation ._hover:hover > ul, ._primarynavigation ._menuitem > ul:hover {visibility:visible;}
+      ._primarynavigation a {display:block;}
+
+      /* innertable is workaround to achieve text placement */
+      ._primarynavigation .innertable {display:table; border-spacing:0em;}
+      ._primarynavigation .innerrow   {display:table-row;}
+
+      
+        ._primarynavigation .root            { height:1.40em; margin-right:0.00em;}
+        ._primarynavigation .root .innercell {display:table-cell;  height:1.40em; margin:0em; padding:0.00em;} 
+        ._primarynavigation .sub             {width:20.00em; height:1.40em; margin:0.10em;}
+        ._primarynavigation .sub .innercell  {display:table-cell; width:19.80em; height:1.20em; margin:0em; padding:0.10em;}
+        ._primarynavigation .root    {float:left;}
+        ._primarynavigation ul ul    {position:absolute;}
+        ._primarynavigation ul ul    {left:-0.10em; top:1.40em;}
+        ._primarynavigation ul ul ul {left:20.00em; top:-0.10em;}
+      
+
+      ._primarynavigation .root .innercell {vertical-align:middle; text-align:left;}
+      ._primarynavigation .sub .innercell {vertical-align:middle; text-align:left;}
+      
+
+      ._primarynavigation {display:relative; z-index:100;}
+      ._primarynavigation ul, ._primarynavigation li {z-index:101;}
+      ._primarynavigation ul:hover, ._primarynavigation li:hover {z-index:102;}
+
+      ._primarynavigation .root {border:0.00em solid black;}
+      ._primarynavigation .sub  {border:0.00em  solid black !important;}
+
+      
+
+      ._primarynavigation .root, ._primarynavigation .root a:link, ._primarynavigation .root a:visited, ._primarynavigation .root a:active, ._primarynavigation .root a:hover {font-style:normal; font-weight:normal; }
+      ._primarynavigation .root, ._primarynavigation .root a:link, ._primarynavigation .root a:visited, ._primarynavigation .root a:active, ._primarynavigation .root a:hover {color:white;}
+      
+        ._primarynavigation .root:hover, ._primarynavigation .root:hover a:link, ._primarynavigation .root:hover a:visited, ._primarynavigation .root:hover a:active, ._primarynavigation .root:hover a:hover {color:white;}
+      
+        ._primarynavigation .root.activeitem, ._primarynavigation .root.activeitem a:link, ._primarynavigation .root.activeitem a:visited, ._primarynavigation .root.activeitem a:active, ._primarynavigation .root.activeitem a:hover {color:white;}
+      
+
+      ._primarynavigation .sub, ._primarynavigation .sub a:link, ._primarynavigation .sub a:visited, ._primarynavigation .sub a:active, ._primarynavigation .sub a:hover {font-style:normal !important; font-weight:normal !important; }
+      ._primarynavigation .sub, ._primarynavigation .sub a:link, ._primarynavigation .sub a:visited, ._primarynavigation .sub a:active, ._primarynavigation .sub a:hover {color:white !important;}
+      
+        ._primarynavigation .sub:hover, ._primarynavigation .sub:hover a:link, ._primarynavigation .sub:hover a:visited, ._primarynavigation .sub:hover a:active, ._primarynavigation .sub:hover a:hover {color:white !important;}
+      
+        ._primarynavigation .sub.activeitem, ._primarynavigation .sub.activeitem a:link, ._primarynavigation .sub.activeitem a:visited, ._primarynavigation .sub.activeitem a:active, ._primarynavigation .sub.activeitem a:hover {color:white !important;}
+      
+        ._primarynavigation .sub {background-image:url('/sites/all/themes/hdf_new/img/black50pct.png') !important; background-repeat:no-repeat !important; background-position:left top !important;}
+      

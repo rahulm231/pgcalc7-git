@@ -1,0 +1,38 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * orpheuspro:
+ *   - http://typekit.com/eulas/000000000000000000016ea6
+ * textbook-new:
+ *   - http://typekit.com/eulas/0000000000000000000100f2
+ *   - http://typekit.com/eulas/0000000000000000000100f6
+ *
+ * © 2009-2019 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2018-11-16 12:20:29 UTC"}*/
+
+@import url("/sites/all/themes/arce2/css/p.css");
+
+@font-face {
+font-family:"orpheuspro";
+src:url("/sites/all/themes/arce2/cssAssets/l") format("woff2"),url("/sites/all/themes/arce2/cssAssets/d") format("woff"),url("/sites/all/themes/arce2/cssAssets/a") format("opentype");
+font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"textbook-new";
+src:url("/sites/all/themes/arce2/cssAssets/5c7fe0ac41622") format("woff2"),url("/sites/all/themes/arce2/cssAssets/5c7fe0ac755da") format("woff"),url("/sites/all/themes/arce2/cssAssets/5c7fe0aca5ed8") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"textbook-new";
+src:url("/sites/all/themes/arce2/cssAssets/5c7fe0ace0482") format("woff2"),url("/sites/all/themes/arce2/cssAssets/5c7fe0ad1585e") format("woff"),url("/sites/all/themes/arce2/cssAssets/5c7fe0ad46a25") format("opentype");
+font-style:normal;font-weight:700;
+}
+
+.tk-orpheuspro { font-family: "orpheuspro",serif; }
+.tk-textbook-new { font-family: "textbook-new",sans-serif; }

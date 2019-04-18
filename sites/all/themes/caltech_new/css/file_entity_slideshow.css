@@ -1,0 +1,36 @@
+div.file-entity-slideshow {
+  overflow: hidden;
+}
+ul.file-entity-slideshow {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+ul.file-entity-slideshow-pager {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 15px;
+}
+ul.file-entity-slideshow-pager li {
+  float: left;
+  margin: 0 15px 0 0;
+}
+ul.file-entity-slideshow-pager li.last {
+  margin-right: 0;
+}
+ul.file-entity-slideshow-pager li a {
+  display: block;
+}
+ul.file-entity-slideshow-pager div.file-video .content {
+  position: relative;
+}
+ul.file-entity-slideshow-pager div.file-video .play-button {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 35px 35px;
+  background-repeat: no-repeat;
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/video_play_dim.png) no-repeat center;
+}

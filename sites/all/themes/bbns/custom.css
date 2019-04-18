@@ -1,0 +1,38 @@
+#fsBannerLeft #main-menu ul {
+	padding-left: 20px !important;
+}
+
+#fsBannerLeft #main-menu ul ul li {
+    padding-left:0px;
+}
+	
+#fsBannerLeft li a, #fsBannerLeft #main-menu li {
+    line-height: 100%;
+    padding-bottom: 15px;
+}
+
+#fsBannerLeft .nav li.expanded ul > li.first{
+	padding-top: 10px;
+}
+
+.nav .expanded ul > li > a::before {
+    font-family: IcoMoon;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "";
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(0, 146, 209);
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: -10px;
+    font-variant: normal normal;
+}
+
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0px;
+}

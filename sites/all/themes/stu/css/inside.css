@@ -1,0 +1,657 @@
+/* Inside.css - Custom CSS Definitions for module-level elements */
+
+/* General Formatting */
+
+.DnnModule {
+    font-size: 14px;
+}
+    
+.DnnModule ul, ol {
+    padding: 0 0 0 3em
+ }
+
+.Normal,
+.NormalDisabled,
+.NormalDeleted {
+    color: #444;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.LeftSide 
+{
+    width: 50%;
+    float: left;
+}
+
+.RightSide 
+{
+    width: 50%;
+    display: inline-block;
+}
+
+/* Buttons */
+a.STUButton
+{
+    display: inline-block;
+    padding: 9px 9px;
+    margin-bottom: 9px;
+    cursor: pointer;
+    min-width: 75px;
+    *overflow: visible;
+    border: 1px solid #c2c2c2;
+    background: #eaeaea;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+a.STUButton:hover {
+        border-color: #0D569E;
+        background: #6cb6f3; /* Old browsers */
+        background: -moz-linear-gradient(top, #6cb6f3 0%, #4387d2 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6cb6f3), color-stop(100%,#4387d2)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #6cb6f3 0%,#4387d2 100%); /* Chrome10+,Safari5.1+ */
+        background: linear-gradient(top, #6cb6f3 0%,#4387d2 100%); /* W3C */
+        color: #fff;
+    }
+
+.STUButton:active {
+        border-color: #0D569E;
+        background: #1f66be; /* Old browsers */
+        background: -moz-linear-gradient(top, #1f66be 0%, #3085e0 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1f66be), color-stop(100%,#3085e0)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #1f66be 0%,#3085e0 100%); /* Chrome10+,Safari5.1+ */
+        background: linear-gradient(top, #1f66be 0%,#3085e0 100%); /* W3C */
+        -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+        box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+        color: #fff;
+    }
+
+.inside_img_container {
+    height: 411px; 
+    width: 811px; 
+    font-size:18px;
+    position:relative;
+}
+
+.inside_img_container img {
+    position:relative;
+}
+    
+.inside_img_leftbox {
+   position:absolute;
+   left: 0px; 
+   bottom:10%; 
+   width: auto; 
+   padding: 7px; 
+   background: #98012e;
+}
+
+.inside_img_leftbox span {
+   color: #ffffff; 
+   font-size: 100%; 
+}
+
+.inside_img_rightbox {
+   position:absolute;
+   right: 0px; 
+   bottom:10%; 
+   width: auto; 
+   padding: 7px; 
+   background: #98012e;
+}
+.inside_img_rightbox span {
+    color: #ffffff; 
+   font-size: 100%; 
+}
+
+/* Map and Video Iframes */
+
+ .google-maps {
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+      .youtube_page {
+        position: relative; 
+        padding-bottom: 56.25%; 
+        height: 0; 
+        overflow: hidden; 
+        max-width: 100%; 
+        height: auto;
+       
+    }
+    .youtube_page iframe {
+       position: absolute; 
+       top: 0; 
+       left: 0; 
+       width: 100%; 
+       height: 100%;
+    }
+ 
+/*Online Programs*/
+.non-collapse-card {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    color: #98012e;
+ }
+ 
+ .non-collapse-card .collapse-card__heading  {
+     cursor:inherit;
+     padding: 15px;
+     }
+ 
+ .non-collapse-card .collapse-card__title {
+     font-weight: bold;
+     white-space: inherit;
+     text-transform: uppercase;
+     margin-right: 175px;
+     
+     }
+ 
+ .non-collapse-card .online  {
+     background-color: #00457c;
+     font-size: 12px;
+     font-weight: bold;
+     padding: 2px 10px;
+     text-transform: uppercase;
+     float: right;
+     margin-left:5px;
+     margin-top: -22px;}
+     
+.non-collapse-card .online a {
+     color: #fff;}
+    
+ .non-collapse-card .online.one-year {margin-top: 0px}
+
+
+/* Homecoming */
+ 
+.Homecoming {padding: 15px 0;}
+.HomeDate {font-size: 16px; color: #263145;font-weight:bold;}
+.HomeTable {width: 100%; background-color: #dfe7ed;font-size:12px;}
+.Homecoming td {padding: 5px;}    
+.HomeTd1 {width: 19%;font-size: 13px;background-color:#beceda;}
+.HomeTd2 {width: 37%;font-size: 13px;background-color:#beceda}
+.HomeTd3 {width: 29%;font-size: 13px;background-color:#beceda}
+.HomeTd4 {width: 15%;font-size: 13px;background-color:#beceda}
+.HomeTdFull {background-color:#beceda}
+    
+
+    div.more {
+        cursor:pointer; 
+        color: #98012e;
+        font-weight: bold;
+     }
+     div.more:hover {
+         text-decoration: underline;}
+   
+    .on {
+    cursor:pointer;
+    }
+    .content {
+    /*display:none;*/
+    padding: 5px;
+    margin-bottom:5px;
+    }
+
+/* Student Achievement */
+
+.AchTable {
+    width: 95%;
+    background-color: #eeeeee;
+    border-spacing: 0px;
+    margin:auto;
+    }
+
+.AchTable thead>tr>td {
+    background-color: #d6d6d6 !important;
+    }
+    
+ table.AchTable > tbody > tr > td:first-child { background-color: #d6d6d6 !important;}
+
+.AchTable tr>td:nth-of-type(1n+2){
+    text-align: center;
+    }
+ 
+    
+.AchTable td {
+    padding: 2px 5px;
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+}
+
+/* Grad Admissions Reqs */
+
+.GRReqTable {
+    width: 100%;
+    background-color: #eeeeee;
+    border-spacing: 0px;
+    margin:auto;
+    font-size: 13px;
+    }
+
+.GRReqTable thead>tr>td {
+    background-color: #d6d6d6 !important;
+    height:40px;
+    }
+    
+ table.GRReqTable > tbody > tr > td:first-child  
+ {
+     background-color: #d6d6d6 !important;
+     height:40px;}
+
+.GRReqTable tr>td:nth-of-type(1n+2){
+    text-align: center;
+    }
+     
+.GRReqTable td {
+    padding: 2px 5px;
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+}
+
+.GRReqTable td.program {
+    width: 16%
+    }
+.GRReqTable td.letter,
+.GRReqTable td.writing,
+.GRReqTable td.resume,
+.GRReqTable td.tests,
+.GRReqTable td.interview {
+    width: 14%
+    }
+
+/*Side Info */
+#side-info { 
+    display: inline-block;
+	width: 240px;
+	float: right;
+	margin-top: 18px;
+	background: #DFDFDF;
+}
+
+#side-info .title {
+	background-color: #98012E;
+	font-size: 16px;
+	color: white;
+	width: 100%;
+}
+
+#side-info div {
+	margin-bottom: 3px;
+}
+
+#side-info span {
+	display: inline-block;
+	padding: 3px;
+    
+}
+
+#side-info span.right {
+	float: right;
+	text-align: right;
+}
+
+#side-info .photo {
+	width: 50px;
+	display: inline-block;
+	padding: 0 5px 0 0;
+}
+
+#side-info .photo img {
+	display: block;
+  border-radius: 50%;
+  margin-right: 5px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#side-info .info {
+	vertical-align: top;
+	width: 175px;
+	display: inline-block;
+}
+
+#side-info .info .name {
+	font-size: 14px;
+    line-height: 15px;
+	/*font-weight: bold;*/
+}
+
+#side-info .info .position {
+	font-variant: small-caps;
+	font-size: 13px;
+    line-height: 15px;
+}
+
+#side-info .info .contact {
+	font-size: 13px;
+    line-height: 15px;
+}
+
+#main-content {
+	display: inline-block;
+	width: 550px;
+	float: left;
+	margin: 10px 10px 0 0;
+}
+
+
+/** Staff **/
+.profile {
+	width: 100%;
+	display: block;
+	margin-bottom: 25px;
+}
+
+.profile .photo {
+	width: 160px;
+	display: inline-block;
+	padding: 0 5px 0 0;
+}
+
+.profile .photo img {
+	display: block;
+}
+
+.profile .info {
+	vertical-align: top;
+	width: 640px;
+	display: inline-block;
+}
+
+.profile .name {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.profile .position {
+	font-variant: small-caps;
+	font-size: 14px;
+}
+
+.profile .contact {
+	font-size: 14px;
+}
+
+.profile .bio {
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+/** Faculty **/
+.faculty {
+	width: 100%;
+	display: block;
+	margin-bottom: 25px;
+}
+
+.faculty .photo {
+	width: 160px;
+	display: inline-block;
+	padding: 0 5px 0 0;
+}
+
+.faculty .photo img {
+	display: block;
+}
+
+.faculty .info {
+	vertical-align: top;
+	width: 640px;
+	display: inline-block;
+	/*width: 100%;
+	display: block;*/
+}
+
+.faculty .name {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.faculty .education,
+.faculty .school {
+	font-size: 14px;
+}
+
+.faculty .position {
+	font-variant: small-caps;
+	font-size: 14px;
+}
+
+.faculty .contact {
+	font-size: 14px;
+}
+
+.faculty .bio {
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+/* Biography */
+.biography {
+	width: 100%;
+	display: block;
+	margin-bottom: 25px;
+}
+
+.biography .photo {
+	width: 310px;
+    float: left;
+	display: inline-block;
+	padding: 0 5px 0 0;
+}
+
+.biography .photo img {
+	display: block;
+}
+
+.biography .info {
+	/*vertical-align: top;
+	width: 490px;
+	display: inline-block;*/
+}
+
+@media only screen and (min-width: 1260px) 
+
+/* Image with Subtitle */
+{
+    .inside_img_container {
+ width: 100%; 
+ height:auto;}
+ }
+ 
+@media only screen and (max-width: 1055px) {
+
+/* Image with Subtitle */
+
+    .inside_img_container {
+ width: 100%; 
+ height:auto;}
+ 
+ #side-info { 
+		margin: 0 auto;
+		float: none;
+	}
+
+	#main-content {
+		width: 100%;
+	}
+	
+	.profile .info {
+		width: 100%;
+	}
+ 
+ }
+ 
+@media only screen and (max-width: 940px){
+
+.LeftSide 
+{
+    width: 100%;
+    float: none;
+}
+
+.RightSide 
+{
+    width: 100%;
+    display: inline-block;
+}
+
+
+/* Image with Subtitle */
+
+    .inside_img_container {
+ width: 100%;
+ height:auto;}
+ }
+ 
+@media only screen and (max-width: 840px) {
+
+/* Image with Subtitle */
+
+    .inside_img_container {
+ width: 100%;
+ height:auto;}
+ }
+ 
+@media only screen and (max-width: 776px) {
+
+/* Image with Subtitle */
+
+    .inside_img_container {
+ width: 100%;
+ height:auto;}
+ }
+ 
+@media only screen and (max-width: 750px) {
+
+/* Image with Subtitle */
+
+    .inside_img_container {
+ width: 100%;
+ height:auto;}
+ 
+  .GradTables {
+  margin-left: -1em;
+  margin-right: -1em;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1em;
+}
+
+.GradTables table.GRReqTable{
+  width: 100%;
+  min-width: 35.5em;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+/*Online Programs */ 
+.non-collapse-card .online {
+    margin-left: 0;
+    margin-top: 5px;
+    float: inherit;
+    display: inline-block;
+}
+      
+.non-collapse-card .online.one-year {
+    text-align: center;width: 30px;
+}
+       
+.non-collapse-card .collapse-card__title {
+    margin-right: 0;
+    }
+       
+.non-collapse-card .oncampus {
+    float: left;
+    margin-right: 5px;
+ }
+ 
+ 
+ }
+ 
+@media only screen and (max-width: 560px) {
+
+/* Image with Subtitle */
+
+    .inside_img_container {
+ width: 100%; 
+ height:auto;}
+ }
+ 
+@media only screen and (max-width: 524px){
+
+/* Image with Subtitle */
+
+    .inside_img_container {
+ width: 100%; 
+ height:auto;}
+ }
+
+@media only screen and (max-width: 524px) {
+
+/* Image with Subtitle */
+
+ .inside_img_container {
+    height:auto; 
+    width: 100%; 
+    position:relative;
+}
+.inside_img_container img {
+    position:relative;
+}
+    
+.inside_img_leftbox {
+   position:absolute;
+   color: #ffffff; 
+   font-size: 85%; 
+   width: auto; 
+   padding: 3px; 
+   background: #98012e;
+}
+
+.inside_img_leftbox span {
+   font-size: 80%; 
+    }
+.inside_img_rightbox {
+   position:absolute;
+   color: #ffffff; 
+   font-size: 85%; 
+   width: auto; 
+   padding: 3px; 
+   background: #98012e;
+}
+
+.inside_img_rightbox span {
+   font-size: 80%; 
+}
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

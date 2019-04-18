@@ -1,0 +1,36 @@
+.pg-content-body {
+  font-size: 16px;
+  color: #444444;
+}
+
+.pg-wrap h1 {
+  font-size: 45px;
+  color: #341c47;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+  background: #341c47;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: -14px;
+  left: 5px;
+  content: '\f0c9';
+  font-family: 'FontAwesome';
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  content: '\f05c';
+  font-family: 'FontAwesome';
+}
+

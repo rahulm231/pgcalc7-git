@@ -1,0 +1,62 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2013 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Synthview Type Design
+ * License URL: http://www.fontspring.com/fflicense/synthview
+ *
+ *
+ */
+
+@import "/sites/all/themes/bmm/css/icon-style.css";
+
+@font-face {
+    font-family: 'novecento_sans_widenormal';
+    src: url('/sites/all/themes/bmm/cssAssets/Novecentosanswide-Normal-webfont.eot');
+    src: url('/sites/all/themes/bmm/cssAssets//sites/all/themes/bmm/cssAssets/Novecentosanswide-Normal-webfont.eot') format('embedded-opentype'),
+         url('/sites/all/themes/bmm/cssAssets/Novecentosanswide-Normal-webfont.woff') format('woff'),
+         url('/sites/all/themes/bmm/cssAssets/Novecentosanswide-Normal-webfont.ttf') format('truetype'),
+         url('/sites/all/themes/bmm/cssAssets/Novecentosanswide-Normal-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'novecento_sans_widemedium';
+    src: url('/sites/all/themes/bmm/cssAssets/Novecentosanswide-Medium-webfont.eot');
+    src: url('/sites/all/themes/bmm/cssAssets//sites/all/themes/bmm/cssAssets/Novecentosanswide-Medium-webfont.eot') format('embedded-opentype'),
+         url('/sites/all/themes/bmm/cssAssets/Novecentosanswide-Medium-webfont.woff') format('woff'),
+         url('/sites/all/themes/bmm/cssAssets/Novecentosanswide-Medium-webfont.ttf') format('truetype'),
+         url('/sites/all/themes/bmm/cssAssets/Novecentosanswide-Medium-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'novecento_sans_widelight';
+    src: url('/sites/all/themes/bmm/cssAssets/Novecentosanswide-Light-webfont.eot');
+    src: url('/sites/all/themes/bmm/cssAssets//sites/all/themes/bmm/cssAssets/Novecentosanswide-Light-webfont.eot') format('embedded-opentype'),
+         url('/sites/all/themes/bmm/cssAssets/Novecentosanswide-Light-webfont.woff') format('woff'),
+         url('/sites/all/themes/bmm/cssAssets/Novecentosanswide-Light-webfont.ttf') format('truetype'),
+         url('/sites/all/themes/bmm/cssAssets/Novecentosanswide-Light-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

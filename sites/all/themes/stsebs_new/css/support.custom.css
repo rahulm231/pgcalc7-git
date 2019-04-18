@@ -1,0 +1,32 @@
+/* Custom CSS from the support team. */
+
+/*
+*  Ticket 8447639
+*  Hide media file name title on media player.
+*  06/20/16 - James B
+*/
+
+.fsMediaPlayer .fsMediaTitle {
+    display: none;
+}
+
+/* End Section */
+
+/*
+ * 
+ * 6/29/16
+ * Mike E
+ * Change icon for navigation to chevron-up/chevron-down
+ */
+@media (max-width: 799px) {
+  .nav-third > header > .fsElementTitle:after, .portal-nav > header > .fsElementTitle:after, .portal-left-nav > header > .fsElementTitle:after {
+    content: "\f078";
+    font-family: "FontAwesome";
+  }
+}
+@media (max-width: 799px) {
+  .active-nav > header > .fsElementTitle:after {
+    content: "\f077";
+    font-family: "FontAwesome";
+  }
+}

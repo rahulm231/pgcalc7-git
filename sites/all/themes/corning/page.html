@@ -1,0 +1,880 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><meta name="Generator" content="Drupal 7 (http://drupal.org)">
+<link rel="canonical" href="/get-involved/give">
+<link rel="shortlink" href="/node/52557">
+<link rel="shortcut icon" href="/sites/all/themes/corning/linked/favicon.ico" type="image/vnd.microsoft.icon">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/corning/css/9ae38426050c793a26b8ddb9177bd795.css" media="all">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/corning/css/d6027e9acde1a20270183ab07d88ddac.css" media="all">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/corning/css/6c599e79182fdec113179ed7a841b8d6.css" media="all">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/corning/css/bd16e0ba069c70788d2293ae4b0ac61d.css" media="all">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/corning/css/791b739aad5b43d78efc562818daf8a4.css" media="all">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/corning/css/3704f4ddfca31a23d0a4ba7468202ed2.css" media="all">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/corning/css/6c82f03ac151315fe709126286409a89.css" media="screen and (max-width: 1199px)">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/corning/css/861b602ae28d09990f6000bb525445be.css" media="screen and (min-width: 1200px)">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/corning/css/1d5770040fb33f29dc6a2a5b37050cc7.css" media="print">
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/corning/css/11944aafddcc41732e15c9f62447af4a.css" media="all" />
+<![endif]--><!--[if IE 7]>
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/corning/css/fc549e97eea5c9e16515c85bd03c7aec.css" media="all" />
+<![endif]--><!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/corning/css/7b39e415732097fe4df8cf0d8796f074.css" media="all" />
+<![endif]--><!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/corning/css/20490269ed86050c04c950887d40d939.css" media="all" />
+<![endif]--><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(h,o,t,j,a,r){
+ h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+ h._hjSettings={hjid:"321664",hjsv:6};
+ a=o.getElementsByTagName('head')[0];
+ r=o.createElement('script');r.async=1;
+ r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+ a.appendChild(r);
+})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+//--><!]]>
+</script><script type="text/javascript" src="/sites/all/themes/corning/js/57dd2325e9e181826c48e2c244b21a44.js"></script><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+//--><!]]>
+</script><script type="text/javascript" src="/sites/all/themes/corning/js/jquery-migrate-3.0.0.min.js"></script><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery && window.jQuery.migrateWarnings || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery-migrate/3/jquery-migrate.min.js'>\x3C/script>")
+//--><!]]>
+</script><script type="text/javascript" src="/sites/all/themes/corning/js/3093ba24f1c5a1a8e6d6a2215f7226d2.js"></script><script type="text/javascript" src="/sites/all/themes/corning/js/a6dbd608d06b5b9df6d0976f59408e29.js"></script><script type="text/javascript" src="/sites/all/themes/corning/js/e2a4ba5c9c279057b1666228144fa2a6.js"></script><script type="text/javascript" src="/sites/all/themes/corning/js/eb872b0049f735881c8b1647d71a216b.js"></script><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+ (function ($) {
+ $(function() {
+ $('#video-link-1068541').colorbox({
+ iframe: true,
+ innerWidth: 640,
+ innerHeight: 480
+ });
+ });
+ })(jQuery);
+ 
+//--><!]]>
+</script><script type="text/javascript" src="/sites/all/themes/corning/js/91693e1ad8b8676cbf285b5adcf726ac.js"></script><script type="text/javascript">
+<!--//--><![CDATA[//>
+<script type="text/javascript" src="/sites/all/themes/corning/js/4f14d4c43c8173305b24f28f5c29b858.js"></script><script type="text/javascript" src="/sites/all/themes/corning/js/galleria.js"></script><script type="text/javascript" src="/sites/all/themes/corning/js/galleria.twelve.min.js"></script><script type="text/javascript" src="/sites/all/themes/corning/js/8e904b36cfe5786a869c3c391fdec411.js"></script><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function ($) {$(document).ready(function() {$(".mlt-title").truncateLines({lines:2});});})(jQuery);
+//--><!]]>
+</script><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function ($) {$(document).ready(function() {$(".pane-system-main-menu .menu a").truncateLines({lines:3});});})(jQuery);
+//--><!]]>
+</script><script type="text/javascript" src="/sites/all/themes/corning/js/99e7c66624591ce706b3322f44d69a1c.js"></script><script type="text/javascript" src="/sites/all/themes/corning/js/167070aefb7ec52f376bd43c8cf65be6.js"></script><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cmog","theme_token":"MLl11NLsr-Cnew22LtmvJxdVhigGMIBLOezoaAwqqHM","jquery_version":"3.1","js":{"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/3.1\/jquery.min.js":1,"1":1,"\/\/code.jquery.com\/jquery-migrate-3.0.0.min.js":1,"2":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery.form\/4\/jquery.form.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.button.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.resizable.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.dialog.min.js":1,"misc\/form.js":1,"misc\/states.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/livestream\/livestream.js":1,"sites\/all\/modules\/custom\/cloudzoom\/js\/cloudzoom.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/custom\/corning\/js\/jquery.ui.touch-punch.min.js":1,"sites\/all\/modules\/custom\/cmog_customizations\/cmog_customizations.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/libraries\/jquery.imagesloaded\/jquery.imagesloaded.min.js":1,"sites\/all\/modules\/contrib\/field_slideshow\/field_slideshow.js":1,"sites\/all\/modules\/custom\/corning\/js\/banner.js":1,"misc\/progress.js":1,"sites\/all\/modules\/custom\/commerce_corning\/js\/add_to_cart.js":1,"3":1,"sites\/all\/modules\/custom\/corning\/js\/glass-dictionary-filter.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"4":1,"sites\/all\/modules\/custom\/corning\/js\/adapt.config.js":1,"sites\/all\/modules\/custom\/corning\/galleria\/galleria.js":1,"sites\/all\/modules\/custom\/corning\/galleria\/themes\/twelve\/galleria.twelve.min.js":1,"sites\/all\/modules\/custom\/corning\/js\/jquery.scrollTo.js":1,"sites\/all\/modules\/custom\/corning\/js\/corning.js":1,"sites\/all\/modules\/custom\/corning\/js\/jquery.truncatelines.js":1,"5":1,"6":1,"sites\/all\/modules\/custom\/corning\/js\/collection-set.js":1,"misc\/textarea.js":1,"sites\/default\/themes\/cmog\/js\/search.js":1,"sites\/all\/modules\/custom\/megamenus\/js\/megamenus.js":1,"sites\/default\/themes\/cmog\/js\/mailchimp-form.js":1,"sites\/all\/libraries\/cloudzoom\/cloud-zoom.1.0.2.min.js":1,"sites\/all\/modules\/custom\/corning\/js\/ckeditor_path.js":1,"sites\/all\/modules\/custom\/corning\/js\/adroll.js":1,"sites\/default\/themes\/cmog\/js\/event-tracking.js":1,"sites\/default\/themes\/cmog\/js\/polyfills.js":1},"css":{"sites\/all\/themes\/ninesixty\/styles\/framework\/reset.css":1,"sites\/all\/themes\/ninesixty\/styles\/framework\/text.css":1,"sites\/all\/themes\/ninesixty\/styles\/framework\/960.css":1,"sites\/default\/themes\/cmog\/css\/960.css":1,"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/features\/cmog_masonry_grids\/cmog_masonry_grids.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/features\/studio_20th_anniversary_submissions\/studio_20th_anniversary_submissions.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/libraries\/ckeditor\/skins\/kama\/editor.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/field_slideshow\/field_slideshow.css":1,"sites\/all\/modules\/custom\/megamenus\/css\/megamenus.css":1,"sites\/all\/libraries\/cloudzoom\/cloud-zoom.css":1,"sites\/all\/libraries\/font-gibson\/font-gibson.css":1,"sites\/all\/themes\/ninesixty\/styles\/styles.css":1,"sites\/default\/themes\/cmog\/css\/cmog.css":1,"sites\/default\/themes\/cmog\/css\/admin.css":1,"sites\/default\/themes\/cmog\/css\/jquery.ui.theme.css":1,"sites\/default\/themes\/cmog\/css\/960-shrink.css":1,"sites\/default\/themes\/cmog\/css\/1200.css":1,"sites\/default\/themes\/cmog\/css\/print.css":1,"sites\/default\/themes\/cmog\/css\/ie6.css":1,"sites\/default\/themes\/cmog\/css\/ie7.css":1,"sites\/default\/themes\/cmog\/css\/ie8.css":1,"sites\/default\/themes\/cmog\/css\/ie9.css":1}},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"returnFocus":true,"maxWidth":"90%","maxHeight":"90%","initialWidth":"300","initialHeight":"100","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"corning_ckeditor":{"path":"\/sites\/all\/modules\/custom\/corning"},"12ColumnTokens":{"public:\/\/images\/20110519GH_0278.jpg":"C6_G7gXp"},"field_slideshow":{"field-slideshow-1":{"fx":"fade","speed":"1000","timeout":"4000","pause":1,"start_on_hover":0,"carousel_visible":"3","carousel_scroll":"1","carousel_speed":"500","carousel_vertical":0,"carousel_circular":0,"carousel_follow":0,"carousel_skin":"","pager":"number","controls":[]}},"ajax":{"edit-product-id":{"callback":"commerce_cart_add_to_cart_form_attributes_refresh","event":"change","url":"\/system\/ajax","submit":{"_triggering_element_name":"product_id"}},"edit-line-item-fields-submit":{"callback":"commerce_corning_ajax_cart_form","wrapper":"block-commerce-cart-cart","effect":"fade","progress":{"type":"throbber"},"event":"mousedown","keypress":true,"prevent":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Add to cart"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/get-involved\/give":true,"\/system\/acquia-connector-status?key=d415b4e0e8d379c843967e848cf15e32b54cff51\u0026nonce=c443bcccb4a759af6b53cb7b9f50e9cb\u0026stamp=1531231790":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"collectionSet":{"loggedIn":false,"node":"52557","addToSetLink":"\u003Ca href=\u0022\/user\/login?destination=node\/52557\u0022\u003ESave To My Collection\u003C\/a\u003E","collectionSetCreateForm":"\u003Cform action=\u0022\/get-involved\/give\u0022 method=\u0022post\u0022 id=\u0022corning-collection-set-edit-set-form\u0022 accept-charset=\u0022UTF-8\u0022\u003E\u003Cdiv\u003E\u003Cdiv class=\u0022form-item form-type-textfield form-item-set-title\u0022\u003E\n \u003Clabel for=\u0022edit-set-title\u0022\u003ETitle \u003C\/label\u003E\n \u003Cinput type=\u0022text\u0022 id=\u0022edit-set-title\u0022 name=\u0022set_title\u0022 value=\u0022\u0022 size=\u002260\u0022 maxlength=\u0022128\u0022 class=\u0022form-text\u0022 \/\u003E\n\u003C\/div\u003E\n\u003Cdiv class=\u0022form-item form-type-textarea form-item-set-description\u0022\u003E\n \u003Clabel for=\u0022edit-set-description\u0022\u003EDescription \u003C\/label\u003E\n \u003Cdiv class=\u0022form-textarea-wrapper resizable\u0022\u003E\u003Ctextarea id=\u0022edit-set-description\u0022 name=\u0022set_description\u0022 cols=\u002260\u0022 rows=\u00223\u0022 class=\u0022form-textarea\u0022\u003E\u003C\/textarea\u003E\u003C\/div\u003E\n\u003C\/div\u003E\n\u003Cdiv class=\u0022form-item form-type-checkbox form-item-set-private\u0022\u003E\n \u003Cinput type=\u0022checkbox\u0022 id=\u0022edit-set-private\u0022 name=\u0022set_private\u0022 value=\u00221\u0022 class=\u0022form-checkbox\u0022 \/\u003E \u003Clabel class=\u0022option\u0022 for=\u0022edit-set-private\u0022\u003EPrivate Set \u003C\/label\u003E\n\n\u003Cdiv class=\u0022description\u0022\u003EOnly viewable by you.\u003C\/div\u003E\n\u003C\/div\u003E\n\u003Cinput type=\u0022hidden\u0022 name=\u0022form_build_id\u0022 value=\u0022form--nCxbDyZkeGiFEOYUV56_NWdzsZGW-0lQvQbPUeeqGg\u0022 \/\u003E\n\u003Cinput type=\u0022hidden\u0022 name=\u0022form_id\u0022 value=\u0022corning_collection_set_edit_set_form\u0022 \/\u003E\n\u003C\/div\u003E\u003C\/form\u003E"},"states":{"#edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups":{"collapsed":{":input[name=\u0022mailchimp_lists[mailchimp_join_our_mailing_lists][subscribe]\u0022]":{"checked":false}}}},"cloudzoom":{"settings":"showTitle: 0"}});
+//--><!]]>
+</script><link rel="apple-touch-icon-precomposed" sizes="144x144" href="/sites/default/themes/cmog/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/sites/default/themes/cmog/images/favicons/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="/sites/default/themes/cmog/images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/sites/default/themes/cmog/images/favicons/favicon-16x16.png" sizes="16x16">
+<meta name="application-name" content=" ">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="mstile-144x144.png">
+<title>Give | Corning Museum of Glass</title>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-52557 node-type-page show-grid" original-class="html not-front not-logged-in no-sidebars page-node page-node- page-node-52557 node-type-page show-grid">
+ <img src="/sites/all/themes/corning/img/cmog-print-logo.png" class="print-only" original-class="print-only"><div id="skip-link">
+ <a href="#main-content" class="element-invisible element-focusable" original-class="element-invisible element-focusable">Skip to main content</a>
+ </div>
+ <div id="cmog_ajax_cart">
+ </div>
+<div id="page" class="clearfix" original-class="clearfix">
+ <!-- begin header -->
+ <div id="site-header" class="clearfix" original-class="clearfix">
+ <div id="branding-wrapper">
+ <div class="container-16 container-wide-20 clearfix" original-class="container-16 container-wide-20 clearfix">
+ <div id="logo" class="grid-10 grid-wide-12" original-class="grid-10 grid-wide-12">
+ <h1 id="site-name"><a href="https://www.cmog.org/" rel="home" title="Home">Corning Museum of Glass</a></h1>
+ 
+ </div>
+ 
+ <div id="header-menu">
+ <div id="search-box" class="grid-3 grid-wide-4" original-class="grid-3 grid-wide-4"><form action="/" method="post" id="apachesolr-panels-search-block" accept-charset="UTF-8"><div>
+<div class="form-item form-type-textfield form-item-apachesolr-panels-search-form" original-class="form-item form-type-textfield form-item-apachesolr-panels-search-form">
+ <label class="element-invisible" original-class="element-invisible" for="edit-apachesolr-panels-search-form">Search </label>
+ <input title="Search..." type="text" id="edit-apachesolr-panels-search-form" name="apachesolr_panels_search_form" value="Search..." size="15" maxlength="128" class="form-text" original-class="form-text">
+</div>
+<input type="hidden" name="form_build_id" value="form-vcCjO1sIHrku4he9U5oaNlh_gDGFaw8s7Jcyq9gGTqw"><input type="hidden" name="form_id" value="apachesolr_panels_search_block"><div class="form-actions form-wrapper" original-class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" original-class="form-submit"></div>
+</div></form></div>
+ 
+ <div id="user-menu">
+ <ul class="menu" original-class="menu">
+<li class="first leaf" original-class="first leaf">
+<a href="https://www.cmog.org/cart" id="cart-link" rel="nofollow" class="grid-1" original-class="grid-1">Cart<span class="cart-quantity empty" original-class="cart-quantity empty"></span></a><div id="hover_cart"></div>
+</li>
+<li class="last leaf" original-class="last leaf"><a href="https://www.cmog.org/user/login?destination=node/52557" id="login-link" rel="nofollow" class="grid-1" original-class="grid-1" style="text-align: right;">Login</a></li>
+</ul>
+</div> 
+ </div>
+ 
+ </div>
+ </div>
+<!-- end branding wrapper -->
+ 
+ <div id="nav-wrapper">
+ <div class="container-16 container-wide-20 clearfix" original-class="container-16 container-wide-20 clearfix">
+ <div id="site-menu" class="grid-16 grid-wide-20 clearfix" original-class="grid-16 grid-wide-20 clearfix">
+ <div class="item-list" original-class="item-list"><ul class="megamenu main-menu inline" original-class="megamenu main-menu inline" id="main-menu">
+<li class="menu-358 first" original-class="menu-358 first">
+<a href="https://www.cmog.org/visit" class="menu-358" original-class="menu-358">Visit</a><div class="item-list" original-class="item-list"><ul class="menu-358" original-class="menu-358">
+<li class="first last" original-class="first last"><div class="container-8" original-class="container-8">
+ <div class="grid-4 alpha" original-class="grid-4 alpha">
+ <ul class="mega-list" original-class="mega-list">
+<li class="expanded" original-class="expanded">
+<a href="https://www.cmog.org/about">About</a>
+ </li>
+<li class="expanded" original-class="expanded">
+<a href="https://www.cmog.org/visit/plan-your-visit">Plan Your Visit</a>
+ <ul>
+<li><a href="https://www.cmog.org/visit/hours-and-admission">Admission</a></li>
+ <li><a href="https://www.cmog.org/visit/getting-here">Directions</a></li>
+ <li><a href="https://reservations.cmog.org">Tickets</a></li>
+ </ul>
+</li>
+ <li><a href="https://www.cmog.org/visit/make-your-own-glass">Make Your Own Glass</a></li>
+ <li><a href="https://www.cmog.org/visit/schools-groups-and-scouts">Schools, Groups &amp; Scouts</a></li>
+ <li><a href="https://www.cmog.org/visit/calendar">What's Happening Today</a></li>
+<li><a href="https://www.cmog.org/events">Events</a></li>
+ </ul>
+</div>
+ <div class="grid-4 omega" original-class="grid-4 omega">
+ <a class="callout-link" original-class="callout-link" href="https://www.cmog.org/visit/plan-your-visit/50-reasons"><div class="callout-item alpha grid-4" original-class="callout-item alpha grid-4">
+<img alt="" class="alpha grid-4" original-class="alpha grid-4" src="/sites/all/themes/corning/img/SS2_6066_0_0.jpg" typeof="foaf:Image"><div class="callout-markup" original-class="callout-markup">50 Reasons to Visit</div>
+ </div></a>
+ </div>
+</div></li>
+</ul></div>
+</li>
+<li class="menu-357" original-class="menu-357">
+<a href="https://www.cmog.org/collection" class="menu-357" original-class="menu-357">Collection</a><div class="item-list" original-class="item-list"><ul class="menu-357" original-class="menu-357">
+<li class="first last" original-class="first last"><div class="container-8" original-class="container-8">
+ <div class="grid-4 alpha" original-class="grid-4 alpha">
+ <ul class="mega-list" original-class="mega-list">
+<li class="expanded" original-class="expanded">
+<a href="https://www.cmog.org/collection/exhibitions">Exhibitions</a>
+ <ul>
+<li><a href="https://www.cmog.org/collection/exhibitions/past">Past</a></li>
+ <li><a href="https://www.cmog.org/collection/exhibitions">Current</a></li>
+ <li><a href="https://www.cmog.org/collection/exhibitions/upcoming">Upcoming</a></li>
+ </ul>
+</li>
+ <li><a href="https://www.cmog.org/collection/galleries">Galleries</a></li>
+ <li><a href="https://www.cmog.org/collection/innovation-center">Innovation Center</a></li>
+ <li><a href="https://www.cmog.org/collection/conservation">Conservation</a></li>
+ <li><a href="https://www.cmog.org/collection/rakow-commission">Rakow Commission</a></li>
+ <li><a href="https://www.cmog.org/collection-sets">Collection Sets</a></li>
+ </ul>
+</div>
+ <div class="grid-4 omega" original-class="grid-4 omega">
+ <p></p>
+<form class="corning-quick-search-form" original-class="corning-quick-search-form" action="" method="post" id="corning-quick-search-form" accept-charset="UTF-8"><div>
+<div class="form-item form-type-textfield form-item-search" original-class="form-item form-type-textfield form-item-search">
+ <input placeholder="Search Collection..." type="text" id="edit-search" name="search" value="" size="60" maxlength="128" class="form-text" original-class="form-text">
+</div>
+<input type="hidden" name="search_redirect" value="collection/search"><input type="submit" id="edit-submit--3" name="op" value="Search" class="form-submit" original-class="form-submit"><input type="hidden" name="form_build_id" value="form-ZHuWXj3NVKoDkT71MR8Juz8yRe68ZBXTgps2n4RE1Bc"><input type="hidden" name="form_id" value="corning_quick_search_form">
+</div></form>
+ <p><a href="https://www.cmog.org/collection/search">Browse the Glass Collection</a></p>
+ </div>
+</div></li>
+</ul></div>
+</li>
+<li class="menu-359" original-class="menu-359">
+<a href="https://www.cmog.org/glassmaking" class="menu-359" original-class="menu-359">Glassmaking</a><div class="item-list" original-class="item-list"><ul class="menu-359" original-class="menu-359">
+<li class="first last" original-class="first last">
+<div class="container-8" original-class="container-8">
+ <div class="grid-4 alpha" original-class="grid-4 alpha">
+ <ul class="mega-list" original-class="mega-list">
+<li class="expanded" original-class="expanded">
+<a href="https://www.cmog.org/glassmaking/demos">Glass Demos</a>
+ <ul>
+<li><a href="https://www.cmog.org/glassmaking/demos/hot-glass-show">Hot Glass Demos</a></li>
+ <li><a href="https://www.cmog.org/glassmaking/demos/flameworking">Flameworking</a></li>
+ <li><a href="https://www.cmog.org/glassmaking/demos/optical-fiber">Optical Fiber</a></li>
+ <li><a href="https://www.cmog.org/glassmaking/demos/glassbreaking">Glassbreaking</a></li>
+ </ul>
+</li>
+ <li class="expanded" original-class="expanded">
+<a href="https://www.cmog.org/glassmaking/studio">The Studio</a>
+ <ul>
+<li><a href="https://www.cmog.org/glassmaking/studio/classes">Take Classes</a></li>
+ <li><a href="https://www.cmog.org/glassmaking/studio/scholarships">Scholarships</a></li>
+ <li><a href="https://www.cmog.org/glassmaking/studio/rentals">Rentals</a></li>
+ <li><a href="https://www.cmog.org/glassmaking/studio/residencies">Residencies</a></li>
+ <li><a href="https://www.cmog.org/glassmaking/studio/programs">Special Programs</a></li>
+ </ul>
+</li>
+ <li class="expanded" original-class="expanded">
+<a href="https://www.cmog.org/visit/make-your-own-glass">Make Your Own Glass Experiences</a>
+ <ul></ul>
+</li>
+ <li><a href="https://www.cmog.org/glassmaking/demos/hot-glass-demos/glassbarge">GlassBarge</a></li>
+ </ul>
+</div>
+ <div class="grid-4 omega" original-class="grid-4 omega">
+ <a class="callout-link" original-class="callout-link" href="https://www.cmog.org/glassmaking/studio/classes"><div class="callout-item alpha grid-4" original-class="callout-item alpha grid-4">
+<img alt="" class="alpha grid-4" original-class="alpha grid-4" src="/sites/all/themes/corning/img/take-classes_0.jpg" typeof="foaf:Image"><div class="callout-markup" original-class="callout-markup">Take Classes</div>
+ </div></a>
+ <a class="callout-link" original-class="callout-link" href="https://www.cmog.org/glassmaking/demos/hot-glass-show"><div class="callout-item alpha grid-4" original-class="callout-item alpha grid-4">
+<img alt="" class="alpha grid-4" original-class="alpha grid-4" src="/sites/all/themes/corning/img/hot-glass-show_1.jpg" typeof="foaf:Image"><div class="callout-markup" original-class="callout-markup">Hot Glass Demos</div>
+ </div></a>
+ </div>
+</div>
+</li>
+</ul></div>
+</li>
+<li class="menu-360" original-class="menu-360">
+<a href="https://www.cmog.org/research" class="menu-360" original-class="menu-360">Research</a><div class="item-list" original-class="item-list"><ul class="menu-360" original-class="menu-360">
+<li class="first last" original-class="first last"><div class="container-8" original-class="container-8">
+ <div class="grid-4 alpha" original-class="grid-4 alpha">
+ <ul class="mega-list" original-class="mega-list">
+<li><a href="https://www.cmog.org/research/library">Rakow Research Library</a></li>
+ <li class="expanded" original-class="expanded">
+<a href="https://www.cmog.org/research/all-about-glass">All About Glass</a>
+ <ul>
+<li><a href="https://www.cmog.org/node/52591/bundle/article">Articles</a></li>
+ <li><a href="https://www.cmog.org/node/52591/bundle/video">Videos</a></li>
+ <li><a href="https://www.cmog.org/research/glass-dictionary">Glass Dictionary</a></li>
+ <li><a href="https://www.cmog.org/node/52591/bundle/library">Virtual Books</a></li>
+ </ul>
+</li>
+ <li class="expanded" original-class="expanded">
+<a href="https://www.cmog.org/research/publications">Museum Publications</a>
+ <ul>
+<li><a href="https://www.cmog.org/research/publications/new-glass-review">New Glass Review</a></li>
+ <li><a href="https://www.cmog.org/research/publications/journal-glass-studies">Journal of Glass Studies</a></li>
+ </ul>
+</li>
+ 
+ <li><a href="https://www.cmog.org/research/opportunities-for-scholars">Opportunities for Scholars</a></li>
+ <li><a href="https://www.cmog.org/research/scientific">Scientific Research</a></li>
+ </ul>
+</div>
+ <div class="grid-4 omega" original-class="grid-4 omega">
+ <p></p>
+<form class="corning-quick-search-form" original-class="corning-quick-search-form" action="" method="post" id="corning-quick-search-form--2" accept-charset="UTF-8"><div>
+<div class="form-item form-type-textfield form-item-search" original-class="form-item form-type-textfield form-item-search">
+ <input placeholder="Search Collection..." type="text" id="edit-search--2" name="search" value="" size="60" maxlength="128" class="form-text" original-class="form-text">
+</div>
+<input type="hidden" name="search_redirect" value="research/library-search"><input type="submit" id="edit-submit--4" name="op" value="Search" class="form-submit" original-class="form-submit"><input type="hidden" name="form_build_id" value="form-y5ZCZtj9Kl9aK0iHBJBN1RtYnDB7lxHg7C7jZTKvBfg"><input type="hidden" name="form_id" value="corning_quick_search_form">
+</div></form><p></p>
+ <p><a href="https://www.cmog.org/research/library-search" onclick="_gaq.push(['_trackEvent', 'Mega Menu', 'Link', 'Browse the Library Collection']);">Browse the Library Collection</a></p>
+ </div>
+</div></li>
+</ul></div>
+</li>
+<li class="menu-361" original-class="menu-361">
+<a href="https://www.cmog.org/programs" class="menu-361" original-class="menu-361">Programs</a><div class="item-list" original-class="item-list"><ul class="menu-361" original-class="menu-361">
+<li class="first last" original-class="first last"><div class="container-8" original-class="container-8">
+ <div class="grid-4 alpha" original-class="grid-4 alpha">
+ <ul class="mega-list" original-class="mega-list">
+<li><a href="https://www.cmog.org/programs/lectures-seminars">Lectures &amp; Seminars</a></li>
+ <li><a href="https://www.cmog.org/programs/tours">Gallery Tours &amp; Activities</a></li>
+ <li><a href="https://www.cmog.org/programs/2300">2300°</a></li>
+<li><a href="https://www.cmog.org/programs/guest-artists">Guest Artist Series</a></li>
+ <li><a href="https://www.cmog.org/programs/classes">Classes</a></li>
+ <li><a href="https://www.cmog.org/programs/family">Kids &amp; Family Programs</a></li>
+ <li><a href="https://www.cmog.org/programs/live-streaming">Live Streaming</a></li>
+<li><a href="https://www.cmog.org/programs/seasonal">Seasonal</a></li>
+ </ul>
+</div>
+ <div class="grid-4 omega" original-class="grid-4 omega">
+ <a href="https://www.cmog.org/visit/calendar" class="callout-link" original-class="callout-link"><div class="callout-item alpha grid-4" original-class="callout-item alpha grid-4">
+<img alt="" class="alpha grid-4" original-class="alpha grid-4" src="/sites/all/themes/corning/img/Calendar_thumb_home_page_0.jpg" typeof="foaf:Image"><div class="callout-markup" original-class="callout-markup">What's Happening Today</div>
+ </div></a>
+ </div>
+</div></li>
+</ul></div>
+</li>
+<li class="menu-362 active-trail" original-class="menu-362 active-trail">
+<a href="https://www.cmog.org/get-involved" class="menu-362 active-trail" original-class="menu-362 active-trail">Get Involved</a><div class="item-list" original-class="item-list"><ul class="menu-362 active-trail" original-class="menu-362 active-trail">
+<li class="first last" original-class="first last">
+<div class="container-8" original-class="container-8">
+ <div class="grid-4 alpha" original-class="grid-4 alpha">
+ <ul class="mega-list" original-class="mega-list">
+<li><a href="https://www.cmog.org/get-involved/membership">Membership</a></li>
+<li><a href="https://www.cmog.org/get-involved/give/ennion-society">Ennion Society</a></li>
+ <li><a href="https://www.cmog.org/get-involved/give">Give</a></li>
+ <li><a href="https://www.cmog.org/get-involved/volunteer">Volunteer</a></li>
+ <li><a href="https://www.cmog.org/get-involved/teen-programs">Teen Programs</a></li>
+ <li><a href="https://www.cmog.org/get-involved/internships">Internship Opportunities</a></li>
+ </ul>
+</div>
+ <div class="grid-4 omega" original-class="grid-4 omega">
+ <a href="https://www.cmog.org/get-involved/membership" class="callout-link" original-class="callout-link"><div class="callout-item alpha grid-4" original-class="callout-item alpha grid-4">
+<img alt="" class="alpha grid-4" original-class="alpha grid-4" src="/sites/all/themes/corning/img/member_0.jpg" typeof="foaf:Image"><div class="callout-markup" original-class="callout-markup">Become a Member</div>
+ </div></a>
+ </div>
+</div>
+</li>
+</ul></div>
+</li>
+<li class="menu-1950 last" original-class="menu-1950 last">
+<a href="https://www.cmog.org/shop" class="menu-1950" original-class="menu-1950">Shop</a><div class="item-list" original-class="item-list"><ul class="menu-1950" original-class="menu-1950">
+<li class="first last" original-class="first last">
+<div class="container-8" original-class="container-8">
+ <div class="grid-4 alpha" original-class="grid-4 alpha">
+ <ul class="mega-list" original-class="mega-list">
+<li><a href="https://shops.cmog.org/" target="_blank">The Shops</a></li>
+ <li><a href="https://www.cmog.org/shop/shops-events">Shops Events</a></li>
+ </ul>
+</div>
+ <div class="grid-4 omega" original-class="grid-4 omega">
+ <a href="https://shops.cmog.org" target="_blank" class="callout-link" original-class="callout-link"><div class="callout-item alpha grid-4" original-class="callout-item alpha grid-4">
+<img alt="" class="alpha grid-4" original-class="alpha grid-4" src="/sites/all/themes/corning/img/shops_gudenrathBottles_0.jpg" typeof="foaf:Image"><div class="callout-markup" original-class="callout-markup">Shop Now</div>
+ </div></a>
+ </div>
+</div>
+</li>
+</ul></div>
+</li>
+</ul></div> </div>
+ </div>
+ </div>
+ </div>
+ <!-- end header region -->
+ <!--<div id="site-subheader" class="prefix-1 suffix-1 clearfix" original-class="prefix-1 suffix-1 clearfix">
+ 
+ </div> -->
+<div class="container-16 container-wide-20 clearfix" original-class="container-16 container-wide-20 clearfix">
+ <div id="main" class="column grid-16 grid-wide-20" original-class="column grid-16 grid-wide-20">
+ <!-- Hide the page title 
+ <h1 class="title" original-class="title" id="page-title">Give</h1>
+ -->
+ 
+ <div class="tabs" original-class="tabs"></div>
+ 
+ <div id="main-content" class="region clearfix" original-class="region clearfix">
+ <div class="region region-content" original-class="region region-content">
+ <div id="block-system-main" class="block block-system" original-class="block block-system">
+ 
+ <div class="content" original-class="content">
+ <div id="banner-rotator">
+ 
+<div class="panel-pane pane-views pane-banner-rotator" original-class="panel-pane pane-views pane-banner-rotator">
+ 
+ 
+ <div class="pane-content" original-class="pane-content">
+ <div class="view view-banner-rotator view-id-banner_rotator view-display-id-block_1 view-dom-id-496fed77fd8c70616bcd8c685de9a97c" original-class="view view-banner-rotator view-id-banner_rotator view-display-id-block_1 view-dom-id-496fed77fd8c70616bcd8c685de9a97c">
+ 
+ 
+ 
+ <div class="view-content" original-class="view-content">
+ <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" original-class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+ 
+ <div class="views-field views-field-field-image-rotator" original-class="views-field views-field-field-image-rotator"> <div class="field-content" original-class="field-content">
+<div id="field-slideshow-1-wrapper" class="field-slideshow-wrapper" original-class="field-slideshow-wrapper">
+ 
+ 
+ 
+ <div class="field-slideshow field-slideshow-1 effect-fade timeout-4000 with-pager with-controls" original-class="field-slideshow field-slideshow-1 effect-fade timeout-4000 with-pager with-controls" style="width:1600px; height:320px">
+ <div class="field-slideshow-slide field-slideshow-slide-1 even first" original-class="field-slideshow-slide field-slideshow-slide-1 even first">
+ <img class="field-slideshow-image field-slideshow-image-1" original-class="field-slideshow-image field-slideshow-image-1" typeof="foaf:Image" src="/sites/all/themes/corning/img/Corning-Museum-TPP-6569_0.jpg" width="1600" height="320" alt="">
+</div>
+ <div class="field-slideshow-slide field-slideshow-slide-2 odd" original-class="field-slideshow-slide field-slideshow-slide-2 odd" style="display:none;">
+ <img class="field-slideshow-image field-slideshow-image-2" original-class="field-slideshow-image field-slideshow-image-2" typeof="foaf:Image" src="/sites/all/themes/corning/img/20110519GH_0374_1.jpg" width="1600" height="320" alt="">
+</div>
+ <div class="field-slideshow-slide field-slideshow-slide-3 even" original-class="field-slideshow-slide field-slideshow-slide-3 even" style="display:none;">
+ <img class="field-slideshow-image field-slideshow-image-3" original-class="field-slideshow-image field-slideshow-image-3" typeof="foaf:Image" src="/sites/all/themes/corning/img/20110519GH_0338_2.jpg" width="1600" height="320" alt="">
+</div>
+ <div class="field-slideshow-slide field-slideshow-slide-4 odd" original-class="field-slideshow-slide field-slideshow-slide-4 odd" style="display:none;">
+ <img class="field-slideshow-image field-slideshow-image-4" original-class="field-slideshow-image field-slideshow-image-4" typeof="foaf:Image" src="/sites/all/themes/corning/img/Contemporary2_2.jpg" width="1600" height="320" alt="">
+</div>
+ <div class="field-slideshow-slide field-slideshow-slide-5 even last" original-class="field-slideshow-slide field-slideshow-slide-5 even last" style="display:none;">
+ <img class="field-slideshow-image field-slideshow-image-5" original-class="field-slideshow-image field-slideshow-image-5" typeof="foaf:Image" src="/sites/all/themes/corning/img/Heineman-new-3_0.jpg" width="1600" height="320" alt="">
+</div>
+ </div>
+ 
+ 
+ <div id="field-slideshow-1-pager" class="field-slideshow-pager slides-5" original-class="field-slideshow-pager slides-5"></div>
+</div>
+</div> </div> </div>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+</div> </div>
+ 
+ </div>
+</div>
+<div id="breadcrumbs" class="container-16 container-wide-20" original-class="container-16 container-wide-20">
+ <h2 class="element-invisible" original-class="element-invisible">You are here</h2>
+<!--------------REMOVING THEIR BREAD CRUMBS----------------------<div class="breadcrumb" original-class="breadcrumb">
+<a href="https://www.cmog.org/">Home</a> » <a href="https://www.cmog.org/get-involved">Get Involved</a>
+</div>--------------------------END OF REMOVING THEIR BREAD CRUMBS--------------------------------------->
+ </div>
+<div id="page-title" class="container-16 container-wide-20" original-class="container-16 container-wide-20">
+ <div class="grid-16 grid-wide-20 alpha omega" original-class="grid-16 grid-wide-20 alpha omega">
+ 
+<div class="panel-pane pane-page-title" original-class="panel-pane pane-page-title">
+ 
+<!-----------------------------REMOVING THE PAGE TITLE ON ALL PAGES------------------ <div class="pane-title-wrap" original-class="pane-title-wrap">
+ <h2 class="pane-title" original-class="pane-title">Planned Giving</h2>------------------------------------>
+ </div>
+ 
+<!----TEXT ABOVE NAV BAR------------------>
+ 
+ <div class="pane-content" original-class="pane-content">
+<a href="http://plannedgiving.cmog.org/" style="text-decoration: none; margin-top: 30px;">
+ <h1 class="heading" original-class="heading">Planned Giving</h1></a>
+ </div>
+ 
+ </div>
+ </div>
+ <div class="grid-4 alpha sidebar-left" original-class="grid-4 alpha sidebar-left">
+ 
+<div class="panel-pane pane-block pane-system-main-menu" original-class="panel-pane pane-block pane-system-main-menu">
+ 
+ 
+ 
+ <div class="pane-content" original-class="pane-content">
+ <ul class="menu" original-class="menu">
+<li class="first collapsed" original-class="first collapsed"><a href="https://www.cmog.org/visit">Visit</a></li>
+<li class="collapsed" original-class="collapsed"><a href="https://www.cmog.org/collection">Collection</a></li>
+<li class="collapsed" original-class="collapsed"><a href="https://www.cmog.org/glassmaking">Glassmaking</a></li>
+<li class="collapsed" original-class="collapsed"><a href="https://www.cmog.org/research">Research</a></li>
+<li class="collapsed" original-class="collapsed"><a href="https://www.cmog.org/programs">Programs</a></li>
+<li class="expanded active-trail" original-class="expanded active-trail">
+<a href="https://www.cmog.org/get-involved" class="active-trail" original-class="active-trail">Get Involved</a><ul class="menu" original-class="menu">
+<li class="first collapsed" original-class="first collapsed"><a href="https://www.cmog.org/get-involved/membership">Membership</a></li>
+<li class="collapsed" original-class="collapsed"><a href="https://www.cmog.org/get-involved/give/ennion-society">Ennion Society</a></li>
+<li class="leaf active-trail" original-class="leaf active-trail"><a href="https://www.cmog.org/get-involved/give" class="active-trail active" original-class="active-trail active">Give</a></li>
+<li class="collapsed" original-class="collapsed"><a href="https://www.cmog.org/get-involved/volunteer">Volunteer</a></li>
+<li class="collapsed" original-class="collapsed"><a href="https://www.cmog.org/get-involved/teen-programs">Teen Programs</a></li>
+<li class="last leaf" original-class="last leaf"><a href="https://www.cmog.org/get-involved/internships">Internships</a></li>
+</ul>
+</li>
+<li class="last collapsed" original-class="last collapsed"><a href="https://www.cmog.org/shop">Shop</a></li>
+</ul>
+</div>
+ 
+ </div>
+ </div>
+ <div class="grid-12 grid-wide-16 omega" original-class="grid-12 grid-wide-16 omega">
+ <div class="grid-12 grid-wide-16 alpha omega" original-class="grid-12 grid-wide-16 alpha omega">
+ <div class="grid-8 grid-wide-12 alpha content-main" original-class="grid-8 grid-wide-12 alpha content-main">
+ 
+<div class="panel-pane pane-node-content" original-class="panel-pane pane-node-content">
+ 
+ 
+ 
+ <div class="pane-content" original-class="pane-content">
+ <div id="node-52557" class="node node-page clearfix" original-class="node node-page clearfix" about="/get-involved/give" typeof="sioc:Item foaf:Document">
+ <span property="dc:title" content="" class="rdf-meta element-hidden" original-class="rdf-meta element-hidden"></span>
+ 
+ <div class="content clearfix" original-class="content clearfix">
+ <div class="field field-name-body field-type-text-with-summary field-label-hidden" original-class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items" original-class="field-items"><div class="field-item even" original-class="field-item even" property="content:encoded">
+<p>The Corning Museum of Glass is a not-for-profit educational institution, home to the world’s most comprehensive collection of glass, the world’s foremost library on glass and glassmaking, and one of the top glassmaking schools in the world.</p>
+<p>Your donations help to support the Museum’s mission and its many activities. You can make a general donation to the Museum’s operating fund, or choose to target your donation to one of our funds described below. We appreciate your support.</p>
+<p>For more information, or specific donation requests (such as "in honor," "in memory," "anonymous," etc.), please contact the Advancement Office at +1 (607) 438-5555 or <a href="mailto:development@cmog.org">development@cmog.org</a>.</p>
+<p>If you are interested donating or selling a glass object to the Museum, please visit our <a href="https://libanswers.cmog.org/curatorial/faq/158977" target="_blank">Ask A Glass Question</a> page for further information.</p>
+</div></div></div> </div>
+ 
+ 
+</div>
+ </div>
+ 
+ </div>
+<div class="panel-separator" original-class="panel-separator"></div>
+<div class="panel-pane pane-views pane-cart-donation" original-class="panel-pane pane-views pane-cart-donation">
+ 
+ <div class="pane-title-wrap" original-class="pane-title-wrap">
+ <h2 class="pane-title" original-class="pane-title">Add a Donation</h2>
+ </div>
+ 
+ 
+ <div class="pane-content" original-class="pane-content">
+ <div class="view view-cart-donation view-id-cart_donation view-display-id-default view-dom-id-ebfc13d6cc870168b561f51547d484ee" original-class="view view-cart-donation view-id-cart_donation view-display-id-default view-dom-id-ebfc13d6cc870168b561f51547d484ee">
+ 
+ 
+ 
+ <div class="view-content" original-class="view-content">
+ <div class="views-row views-row-1 views-row-odd views-row-first views-row-last" original-class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+ <div id="node-892744" class="node node-museum-donation clearfix" original-class="node node-museum-donation clearfix" about="/content/donate-0" typeof="sioc:Item foaf:Document">
+ <h2>
+ <a href="https://www.cmog.org/content/donate-0">Donate</a>
+ </h2>
+ <span property="dc:title" content="Donate" class="rdf-meta element-hidden" original-class="rdf-meta element-hidden"></span>
+ 
+ <div class="content clearfix" original-class="content clearfix">
+ <div class="field field-name-field-product field-type-commerce-product-reference field-label-hidden" original-class="field field-name-field-product field-type-commerce-product-reference field-label-hidden"><div class="field-items" original-class="field-items"><div class="field-item even" original-class="field-item even"><form class="commerce-add-to-cart commerce-cart-add-to-cart-form-260-90-91-92-94-3961-95-3966 in-stock" original-class="commerce-add-to-cart commerce-cart-add-to-cart-form-260-90-91-92-94-3961-95-3966 in-stock" autocomplete="off" action="/get-involved/give" method="post" id="commerce-cart-add-to-cart-form-260-90-91-92-94-3961-95-3966" accept-charset="UTF-8"><div>
+<div class="form-item form-type-select form-item-product-id" original-class="form-item form-type-select form-item-product-id">
+ <select id="edit-product-id" name="product_id" class="form-select" original-class="form-select"><option value="260" selected>Studio Scholarship and Residency Contribution</option>
+<option value="90">General Operating Contribution</option>
+<option value="91">Conservation Contribution</option>
+<option value="92">Education Program Contribution</option>
+<option value="94">Glass Acquisition Contribution</option>
+<option value="3961">GlassBarge Contribution</option>
+<option value="95">Library Acquisition Contribution</option>
+<option value="3966">Studio Expansion Contribution</option></select>
+</div>
+<input type="hidden" name="form_build_id" value="form-GQ9vN11lppxKjL_SSrwtvNZK5ScNDIrFC6SrxiqO4eY"><input type="hidden" name="form_id" value="commerce_cart_add_to_cart_form_260_90_91_92_94_3961_95_3966"><input type="hidden" name="quantity" value="1"><div id="edit-line-item-fields" class="form-wrapper" original-class="form-wrapper">
+<div class="field-type-number-integer field-name-field-donation-amount field-widget-number form-wrapper" original-class="field-type-number-integer field-name-field-donation-amount field-widget-number form-wrapper" id="edit-line-item-fields-field-donation-amount"><div id="line-item-fields-field-donation-amount-add-more-wrapper">
+<div class="form-item form-type-textfield form-item-line-item-fields-field-donation-amount-und-0-value" original-class="form-item form-type-textfield form-item-line-item-fields-field-donation-amount-und-0-value">
+ <label for="edit-line-item-fields-field-donation-amount-und-0-value">Donation Amount </label>
+ <span class="field-prefix" original-class="field-prefix">$</span> <input type="text" id="edit-line-item-fields-field-donation-amount-und-0-value" name="line_item_fields[field_donation_amount][und][0][value]" value="100" size="12" maxlength="10" class="form-text" original-class="form-text">
+</div>
+</div></div>
+<div id="group_gift_membership"><!-- Dependency Group Loads Here --></div>
+<input type="submit" id="edit-line-item-fields-submit" name="op" value="Add to cart" class="form-submit" original-class="form-submit">
+</div>
+</div></form></div></div></div> </div>
+ 
+ 
+</div>
+ </div>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+</div> </div>
+ 
+ </div>
+<div class="panel-separator" original-class="panel-separator"></div>
+<div class="panel-pane pane-fieldable-panels-pane pane-fpid-80" original-class="panel-pane pane-fieldable-panels-pane pane-fpid-80">
+ 
+ 
+ 
+ <div class="pane-content" original-class="pane-content">
+ <div class="fieldable-panels-pane" original-class="fieldable-panels-pane">
+ <div class="field field-name-field-body field-type-text-long field-label-hidden" original-class="field field-name-field-body field-type-text-long field-label-hidden"><div class="field-items" original-class="field-items"><div class="field-item even" original-class="field-item even">
+<h2 class="heading" original-class="heading">Donate to Funds</h2>
+<div class="grid-8 grid-wide-12 alpha" original-class="grid-8 grid-wide-12 alpha">
+ <div class="grid-4 grid-wide-6 alpha" original-class="grid-4 grid-wide-6 alpha">
+ <p><img alt="General Operating Contribution" class="image-6_column alpha" original-class="image-6_column alpha" src="/sites/all/themes/corning/img/20110519GH_0278_0.jpg" title="General Operating Contribution"></p>
+ <p><strong>General Operating Contribution</strong></p>
+ <p>Each year, The Corning Museum of Glass relies on contributions from friends to help us maintain and care for the most comprehensive collection of glass in the world, educate and inspire visitors about glass via exhibitions, publications, and programs, and provide today’s artists with the best resources possible to help them further their work in glass.</p>
+ </div>
+ <div class="grid-4 grid-wide-6 omega" original-class="grid-4 grid-wide-6 omega">
+ <p><img alt="Transportation Fund for Youth Programs" class="image-6_column alpha" original-class="image-6_column alpha" src="/sites/all/themes/corning/img/School-bus-fund.jpg" title="Transportation Fund for Youth Programs"></p>
+ <p><strong>Transportation Fund for Youth Programs</strong></p>
+ <p>Support education programs at the Museum by donating to our Transportation Fund for Youth Programs. We are proud to partner with regional schools and support our local youth with visits to the Museum for experiences that spark their interest in art and science.</p>
+ </div>
+</div>
+<div class="grid-8 grid-wide-12 alpha" original-class="grid-8 grid-wide-12 alpha">
+ <div class="grid-4 grid-wide-6 alpha" original-class="grid-4 grid-wide-6 alpha">
+ <p><img alt="The Scholarship and Residency Fund at The Studio" class="image-6_column alpha" original-class="image-6_column alpha" src="/sites/all/themes/corning/img/20100921GH_270_0.jpg" title="The Scholarship and Residency Fund at The Studio"></p>
+ <p><a href="https://www.cmog.org/glassmaking/studio/scholarships"><strong>The Scholarship and Residency Fund at The Studio</strong></a></p>
+ <p>Gifts to The Studio scholarship and residency programs support artists working in glass. Donations provide scholarships to promising artists and students from all over the world. This fund also supports month-long artist residencies to help artists further their work in glass.</p>
+ </div>
+ <div class="grid-4 grid-wide-6 omega" original-class="grid-4 grid-wide-6 omega">
+ <p><img alt="Library Acquisition Fund" class="image-6_column alpha" original-class="image-6_column alpha" src="/sites/all/themes/corning/img/b6a0ae43c34136df7140bd896b2de84a.jpg" title="Library Acquisition Fund"></p>
+ <p><strong>Library Acquisition Fund</strong></p>
+ <p>The Juliette K. and Leonard S. Rakow Research Library of The Corning Museum of Glass is the world’s foremost library on the art and history of glass and glassmaking. Your gifts help us to acquire, maintain, and care for the Library’s extensive collection on the subject of glass.</p>
+ </div>
+</div>
+<div class="grid-8 grid-wide-12 alpha" original-class="grid-8 grid-wide-12 alpha">
+ <div class="grid-4 grid-wide-6 alpha" original-class="grid-4 grid-wide-6 alpha">
+ <p><img alt="Glass Acquisition Fund" class="image-6_column alpha" original-class="image-6_column alpha" src="/sites/all/themes/corning/img/20110519GH_0310.jpg" title="Glass Acquisition Fund"></p>
+ <p><strong>Glass Acquisition Fund</strong></p>
+ <p>The Corning Museum of Glass maintains the most comprehensive glass collection in the world. The Museum actively collects, preserves and displays objects from 35 centuries of glassmaking history. Donations to the Glass Acquisition Fund support new acquisitions to the Museum’s collection.</p>
+ </div>
+ <div class="grid-4 grid-wide-6 omega" original-class="grid-4 grid-wide-6 omega">
+ <p><img alt="Education Program Fund" class="image-6_column alpha" original-class="image-6_column alpha" src="/sites/all/themes/corning/img/IMG_7793.jpg" title="Education Program Fund"></p>
+ <p><strong>Education Program Fund</strong></p>
+ <p>Gifts to the Education Program Fund support education programming at the Museum. These programs range from activities for area youth, families, and teens, provide assistance to help school groups experience the Museum, and foster the possibility of learning about glass for people of all ages.</p>
+ </div>
+</div>
+<div class="grid-8 grid-wide-12 alpha" original-class="grid-8 grid-wide-12 alpha">
+ <div class="grid-4 grid-wide-6 alpha" original-class="grid-4 grid-wide-6 alpha">
+ <p><img alt="Conservation Fund" class="image-6_column alpha" original-class="image-6_column alpha" src="/sites/all/themes/corning/img/Koob_conservation_2006.4.jpg" title="Conservation Fund"></p>
+ <p><strong>Conservation Fund</strong></p>
+ <p>Gifts to the Conservation Fund are used to care for glass objects, books, and works on paper that are in need of repair or preservation. By donating to this fund, you are helping us maintain the most comprehensive collection of glass in the world.</p>
+ </div>
+ <div class="grid-4 grid-wide-6 omega" original-class="grid-4 grid-wide-6 omega">
+ <p><img alt="Studio Expansion Contribution" class="image-6_column alpha" original-class="image-6_column alpha" src="/sites/all/themes/corning/img/studio_exterior_crop.jpg" title="Studio Expansion Contribution"></p>
+ <p><a href="https://www.cmog.org/studio-expansion"><strong>Studio Expansion Contribution</strong></a></p>
+ <p>For more than 20 years, The Studio has been a leader in the international glass community and a creative resource for the region. Our programming has outpaced our capacity, and we are making plans to grow our facility. We look forward to sharing our plans as they unfold.</p>
+ </div>
+</div>
+</div></div></div>
+</div>
+ </div>
+ 
+ </div>
+ </div>
+ <div class="grid-4 omega sidebar-right" original-class="grid-4 omega sidebar-right">
+ 
+<div class="panel-pane pane-fieldable-panels-pane pane-fpid-158" original-class="panel-pane pane-fieldable-panels-pane pane-fpid-158">
+ 
+ <div class="pane-title-wrap" original-class="pane-title-wrap">
+ <h2 class="pane-title" original-class="pane-title">Ennion Society</h2>
+ </div>
+ 
+ 
+ <div class="pane-content" original-class="pane-content">
+ <div class="fieldable-panels-pane" original-class="fieldable-panels-pane">
+ <div class="field field-name-field-body field-type-text-long field-label-hidden" original-class="field field-name-field-body field-type-text-long field-label-hidden"><div class="field-items" original-class="field-items"><div class="field-item even" original-class="field-item even">
+<p><img alt="" class="image-4_column alpha omega" original-class="image-4_column alpha omega" height="78" src="/sites/all/themes/corning/img/ennion-thumb2.jpg" width="220">Donors who make annual gifts of $1,200 or more can become part of the Museum's Ennion Society.</p>
+<p><a class="more-link" original-class="more-link" href="https://www.cmog.org/get-involved/give/ennion-society">learn more</a></p>
+</div></div></div>
+</div>
+ </div>
+ 
+ </div>
+<div class="panel-separator" original-class="panel-separator"></div>
+<div class="panel-pane pane-inline-video" original-class="panel-pane pane-inline-video">
+ 
+ <div class="pane-title-wrap" original-class="pane-title-wrap">
+ <h2 class="pane-title" original-class="pane-title">CMoG in 2 Minutes</h2>
+ </div>
+ 
+ 
+ <div class="pane-content" original-class="pane-content">
+ <a id="video-link-1068541" href><img typeof="foaf:Image" src="/sites/all/themes/corning/img/_NewWing_ScottFrancis.jpg" alt="CMOG in 2 Minutes" title="CMOG in 2 Minutes"></a> </div>
+ 
+ </div>
+<div class="panel-separator" original-class="panel-separator"></div>
+<div class="panel-pane pane-morelikethis" original-class="panel-pane pane-morelikethis">
+ 
+ <div class="pane-title-wrap" original-class="pane-title-wrap">
+ <h2 class="pane-title" original-class="pane-title">More Like This</h2>
+ </div>
+ 
+ 
+ <div class="pane-content" original-class="pane-content">
+ <div class="item-list" original-class="item-list"><ul class="cmog-mlt" original-class="cmog-mlt">
+<li class="first" original-class="first">
+<div class="mlt-result" original-class="mlt-result">
+ <div class="grid-1 alpha" original-class="grid-1 alpha">
+ <a href="https://www.cmog.org/get-involved"><img typeof="foaf:Image" src="/sites/all/themes/corning/img/20091217GH_034_0.jpg" width="40" height="40" alt="Get Involved" title="Get Involved"></a> </div>
+ <div class="mlt-content" original-class="mlt-content">
+ <a href="https://www.cmog.org/get-involved" class="mlt-title" original-class="mlt-title">Get Involved</a> <div class="mlt-type" original-class="mlt-type">page</div>
+ </div>
+</div>
+</li>
+<li>
+<div class="mlt-result" original-class="mlt-result">
+ <div class="grid-1 alpha" original-class="grid-1 alpha">
+ <a href="https://www.cmog.org/get-involved/give/ennion-society"><img typeof="foaf:Image" src="/sites/all/themes/corning/img/ennion-thumb.jpg" width="40" height="40" alt="Ennion Society" title="Ennion Society"></a> </div>
+ <div class="mlt-content" original-class="mlt-content">
+ <a href="https://www.cmog.org/get-involved/give/ennion-society" class="mlt-title" original-class="mlt-title">Ennion Society</a> <div class="mlt-type" original-class="mlt-type">page</div>
+ </div>
+</div>
+</li>
+<li>
+<div class="mlt-result" original-class="mlt-result">
+ <div class="grid-1 alpha" original-class="grid-1 alpha">
+ <a href="https://www.cmog.org/get-involved/volunteer"><img typeof="foaf:Image" src="/sites/all/themes/corning/img/VolMain1.jpg" width="40" height="40" alt="Volunteer" title="Volunteer"></a> </div>
+ <div class="mlt-content" original-class="mlt-content">
+ <a href="https://www.cmog.org/get-involved/volunteer" class="mlt-title" original-class="mlt-title">Volunteer</a> <div class="mlt-type" original-class="mlt-type">page</div>
+ </div>
+</div>
+</li>
+<li>
+<div class="mlt-result" original-class="mlt-result">
+ <div class="grid-1 alpha" original-class="grid-1 alpha">
+ <a href="https://www.cmog.org/glassmaking/studio/scholarships"><img typeof="foaf:Image" src="/sites/all/themes/corning/img/20100826GH_157_1.jpg" width="40" height="40" alt="Scholarships" title="Scholarships"></a> </div>
+ <div class="mlt-content" original-class="mlt-content">
+ <a href="https://www.cmog.org/glassmaking/studio/scholarships" class="mlt-title" original-class="mlt-title">Scholarships</a> <div class="mlt-type" original-class="mlt-type">page</div>
+ </div>
+</div>
+</li>
+<li class="last" original-class="last">
+<div class="mlt-result" original-class="mlt-result">
+ <div class="grid-1 alpha" original-class="grid-1 alpha">
+ <a href="https://www.cmog.org/get-involved/teen-programs"><img typeof="foaf:Image" src="/sites/all/themes/corning/img/SS1_2851_0.jpg" width="40" height="40" alt="Teen Programs" title="Teen Programs"></a> </div>
+ <div class="mlt-content" original-class="mlt-content">
+ <a href="https://www.cmog.org/get-involved/teen-programs" class="mlt-title" original-class="mlt-title">Teen Programs</a> <div class="mlt-type" original-class="mlt-type">page</div>
+ </div>
+</div>
+</li>
+</ul></div> </div>
+ 
+ </div>
+<div class="panel-separator" original-class="panel-separator"></div>
+<div class="panel-pane pane-views-panes pane-faq-widget-panel-pane-1" original-class="panel-pane pane-views-panes pane-faq-widget-panel-pane-1">
+ 
+ <div class="pane-title-wrap" original-class="pane-title-wrap">
+ <h2 class="pane-title" original-class="pane-title">
+ <a href="https://www.cmog.org/frequently-asked-questions">FAQ</a> </h2>
+ </div>
+ 
+ 
+ <div class="pane-content" original-class="pane-content">
+ <div class="view view-faq-widget view-id-faq_widget view-display-id-panel_pane_1 view-dom-id-1832e8fe277771a67942536b48dd3c19" original-class="view view-faq-widget view-id-faq_widget view-display-id-panel_pane_1 view-dom-id-1832e8fe277771a67942536b48dd3c19">
+ 
+ 
+ 
+ <div class="view-content" original-class="view-content">
+ <div class="views-row views-row-1 views-row-odd views-row-first" original-class="views-row views-row-1 views-row-odd views-row-first">
+ 
+ <div class="views-field views-field-title" original-class="views-field views-field-title"> <span class="field-content" original-class="field-content"><a href="https://www.cmog.org/frequently-asked-questions">What is a curator?</a>
+</span> </div> </div>
+ <div class="views-row views-row-2 views-row-even" original-class="views-row views-row-2 views-row-even">
+ 
+ <div class="views-field views-field-title" original-class="views-field views-field-title"> <span class="field-content" original-class="field-content"><a href="https://www.cmog.org/frequently-asked-questions">Can you identify my Pyrex?</a>
+</span> </div> </div>
+ <div class="views-row views-row-3 views-row-odd" original-class="views-row views-row-3 views-row-odd">
+ 
+ <div class="views-field views-field-title" original-class="views-field views-field-title"> <span class="field-content" original-class="field-content"><a href="https://www.cmog.org/frequently-asked-questions">Can I bring my object to the Museum for identification or donation?</a>
+</span> </div> </div>
+ <div class="views-row views-row-4 views-row-even" original-class="views-row views-row-4 views-row-even">
+ 
+ <div class="views-field views-field-title" original-class="views-field views-field-title"> <span class="field-content" original-class="field-content"><a href="https://www.cmog.org/frequently-asked-questions">Can you tell me more about an object in your collection?</a>
+</span> </div> </div>
+ <div class="views-row views-row-5 views-row-odd views-row-last" original-class="views-row views-row-5 views-row-odd views-row-last">
+ 
+ <div class="views-field views-field-title" original-class="views-field views-field-title"> <span class="field-content" original-class="field-content"><a href="https://www.cmog.org/frequently-asked-questions">Can you tell me how much my glass is worth, or how rare it is?</a>
+</span> </div> </div>
+ </div>
+ 
+ 
+ 
+ <div class="more-link" original-class="more-link">
+ <a href="https://www.cmog.org/frequently-asked-questions">More</a> </div>
+ 
+ 
+</div> </div>
+ 
+ </div>
+ </div>
+ </div>
+ <div class="grid-12 grid-wide-16 alpha omega" original-class="grid-12 grid-wide-16 alpha omega">
+ 
+<div class="panel-pane pane-save-to-my-collection" original-class="panel-pane pane-save-to-my-collection">
+ 
+ 
+ 
+ <!------------------------------REMOVING THIS--------------------SAVE TO MY COLLECTION--------------------<div class="pane-content" original-class="pane-content">
+ <div class="user-collection-sets" original-class="user-collection-sets"></div> </div>----------------------------------------------------------------------------------->
+ 
+ </div>
+ </div>
+ </div>
+ <div class="grid-16 grid-wide-20 alpha omega" original-class="grid-16 grid-wide-20 alpha omega">
+ </div>
+</div>
+ </div>
+</div>
+ </div>
+ </div>
+ </div>
+</div>
+<!-- end main content --> 
+<div class="container-16 container-wide-20 clearfix page-footer" original-class="container-16 container-wide-20 clearfix page-footer">
+ <div id="footer" class="grid-16 grid-wide-20" original-class="grid-16 grid-wide-20">
+ <div class="grid-11 grid-wide-15 alpha" original-class="grid-11 grid-wide-15 alpha">
+ <div class="region region-footer-left" original-class="region region-footer-left">
+ <div id="block-menu-menu-footer-menu" class="block block-menu" original-class="block block-menu">
+ 
+ <div class="content" original-class="content">
+ <ul class="menu" original-class="menu">
+<li class="first leaf" original-class="first leaf"><a href="https://www.cmog.org/about">About</a></li>
+<li class="leaf" original-class="leaf"><a href="https://www.cmog.org/contact">Contact</a></li>
+<li class="leaf" original-class="leaf"><a href="https://www.cmog.org/frequently-asked-questions">FAQ</a></li>
+<li class="collapsed" original-class="collapsed"><a href="https://www.cmog.org/employment">Employment</a></li>
+<li class="collapsed" original-class="collapsed"><a href="https://www.cmog.org/press-center">Press Center</a></li>
+<li class="collapsed" original-class="collapsed"><a href="https://www.cmog.org/rights-and-reproductions">Rights &amp; Reproductions</a></li>
+<li class="collapsed" original-class="collapsed"><a href="https://www.cmog.org/facility-rental">Facility Rental</a></li>
+<li class="last leaf" original-class="last leaf"><a href="https://blog.cmog.org">Blog</a></li>
+</ul>
+</div>
+</div>
+<div id="block-block-2" class="block block-block" original-class="block block-block">
+ 
+ <div class="content" original-class="content">
+ <div class="grid-1 alpha" original-class="grid-1 alpha"><a class="watermark" original-class="watermark" href="#">Corning Museum of Glass</a></div>
+<div class="grid-11 omega" original-class="grid-11 omega">
+ <p>The Corning Museum of Glass - One Museum Way - Corning, NY 14830 800.732.6845 or 607.937.5371<br>
+ © 2002 - <?php echo date('Y'); ?> Corning Museum of Glass. All Rights Reserved.  <a href="https://www.cmog.org/privacy-policy">Privacy Policy</a> | <a href="https://www.cmog.org/terms-use">Terms of Use</a><br><span class="footer-language" original-class="footer-language">Visitor Information In: <a href="https://www.cmog.org/node/689512">中文</a> | <a href="https://www.cmog.org/node/689513">Español | </a><a href="https://www.cmog.org/node/689514">한글</a> | <a href="https://www.cmog.org/node/689515">Français</a> | <a href="https://www.cmog.org/node/689516">Italiano</a> | <a href="https://www.cmog.org/node/689517">Deutsch</a> | <a href="https://www.cmog.org/node/689518">日本語</a> | <a href="https://www.cmog.org/node/689519">עברית</a> | <a href="https://www.cmog.org/node/883010">Pусский</a></span></p>
+</div> </div>
+</div>
+ </div>
+ </div>
+ <div class="grid-5 omega" original-class="grid-5 omega">
+ <div class="region region-footer-right" original-class="region region-footer-right">
+ <div id="block-block-3" class="block block-block" original-class="block block-block">
+ 
+ <div class="content" original-class="content">
+ <ul class="social-list" original-class="social-list">
+<li class="facebook" original-class="facebook"><a href="https://www.facebook.com/corningmuseumofglass" onclick="_gaq.push(['_trackEvent', 'Social Icon', 'Link', 'Facebook']);" target="_blank">facebook</a></li>
+ <li class="twitter" original-class="twitter"><a href="https://twitter.com/corningmuseum" onclick="_gaq.push(['_trackEvent', 'Social Icon', 'Link', 'Twitter']);" target="_blank">twitter</a></li>
+ <li class="tumblr" original-class="tumblr"><a href="https://cmog.tumblr.com/" onclick="_gaq.push(['_trackEvent', 'Social Icon', 'Link', 'Tumblr']);" target="_blank">tumblr</a></li>
+ <li class="youtube" original-class="youtube"><a href="https://www.youtube.com/user/corningmuseumofglass" onclick="_gaq.push(['_trackEvent', 'Social Icon', 'Link', 'Youtube']);" target="_blank">youtube</a></li>
+ <li class="pinterest" original-class="pinterest"><a href="https://pinterest.com/corningmuseum/" onclick="_gaq.push(['_trackEvent', 'Social Icon', 'Link', 'Pinterest']);" target="_blank">pinterest</a></li>
+</ul>
+</div>
+</div>
+<div class="mailchimp-trigger content" original-class="mailchimp-trigger content">
+<div class="form-item form-type-textfield" original-class="form-item form-type-textfield">
+ <label>Join our mailing list </label>
+ <input class="footer-subscribe-email form-text" original-class="footer-subscribe-email form-text" placeholder="Subscribe..." type="text" size="20" maxlength="128">
+</div>
+<input class="footer-subscribe-button form-submit" original-class="footer-subscribe-button form-submit" type="submit" name="op" value="Go">
+</div>
+<div id="block-mailchimp-lists-join-our-mailing-lists" class="block block-mailchimp-lists" original-class="block block-mailchimp-lists">
+ 
+ <div class="content" original-class="content">
+ <form class="mailchimp-lists-user-subscribe-form" original-class="mailchimp-lists-user-subscribe-form" action="/system/acquia-connector-status?key=d415b4e0e8d379c843967e848cf15e32b54cff51&amp;nonce=c443bcccb4a759af6b53cb7b9f50e9cb&amp;stamp=1531231790" method="post" id="mailchimp-lists-user-subscribe-form-join-our-mailing-lists" accept-charset="UTF-8"><div>
+<div id="mailchimp-newsletter-join_our_mailing_lists" class="mailchimp-newsletter-wrapper" original-class="mailchimp-newsletter-wrapper">
+<div id="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-title" class="form-item form-type-item" original-class="form-item form-type-item">
+ Sign me up for email communications from CMOG.
+</div>
+<div class="form-item form-type-textfield form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-mergevars-EMAIL" original-class="form-item form-type-textfield form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-mergevars-EMAIL">
+ <label for="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-mergevars-email">Email Address <span class="form-required" original-class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-mergevars-email" name="mailchimp_lists[mailchimp_join_our_mailing_lists][mergevars][EMAIL]" value="" size="25" maxlength="128" class="form-text required" original-class="form-text required">
+</div>
+<div class="form-item form-type-textfield form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-mergevars-FIRSTNAME" original-class="form-item form-type-textfield form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-mergevars-FIRSTNAME">
+ <label for="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-mergevars-firstname">First Name </label>
+ <input type="text" id="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-mergevars-firstname" name="mailchimp_lists[mailchimp_join_our_mailing_lists][mergevars][FIRSTNAME]" value="" size="25" maxlength="128" class="form-text" original-class="form-text">
+</div>
+<div class="form-item form-type-textfield form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-mergevars-LASTNAME" original-class="form-item form-type-textfield form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-mergevars-LASTNAME">
+ <label for="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-mergevars-lastname">Last Name </label>
+ <input type="text" id="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-mergevars-lastname" name="mailchimp_lists[mailchimp_join_our_mailing_lists][mergevars][LASTNAME]" value="" size="25" maxlength="128" class="form-text" original-class="form-text">
+</div>
+<input type="hidden" name="mailchimp_lists[mailchimp_join_our_mailing_lists][mergevars][MMERGE6]" value="*|MMERGE3|*"><input type="hidden" name="mailchimp_lists[mailchimp_join_our_mailing_lists][mergevars][SIGNUP]" value=""><fieldset class="form-wrapper" original-class="form-wrapper" id="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups">
+<legend><span class="fieldset-legend" original-class="fieldset-legend">Interests (Check all that apply)</span></legend>
+<div class="fieldset-wrapper" original-class="fieldset-wrapper">
+<div class="form-item form-type-checkboxes form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989" original-class="form-item form-type-checkboxes form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989">
+ <label for="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989">Email Interests </label>
+ <div id="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989" class="form-checkboxes mailchimp-newsletter-interests-1" original-class="form-checkboxes mailchimp-newsletter-interests-1">
+<div class="form-item form-type-checkbox form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-Collections-&amp;-Publications" original-class="form-item form-type-checkbox form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-Collections-&amp;-Publications">
+ <input class="mailchimp-newsletter-interests-1 form-checkbox" original-class="mailchimp-newsletter-interests-1 form-checkbox" type="checkbox" id="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-collections-publications" name="mailchimp_lists[mailchimp_join_our_mailing_lists][interest_groups][4989][Collections &amp; Publications]" value="Collections &amp; Publications"><label class="option" original-class="option" for="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-collections-publications">Collections &amp; Publications </label>
+</div>
+<div class="form-item form-type-checkbox form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-Family-friendly-Activities" original-class="form-item form-type-checkbox form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-Family-friendly-Activities">
+ <input class="mailchimp-newsletter-interests-1 form-checkbox" original-class="mailchimp-newsletter-interests-1 form-checkbox" type="checkbox" id="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-family-friendly-activities" name="mailchimp_lists[mailchimp_join_our_mailing_lists][interest_groups][4989][Family-friendly Activities]" value="Family-friendly Activities"><label class="option" original-class="option" for="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-family-friendly-activities">Family-friendly Activities </label>
+</div>
+<div class="form-item form-type-checkbox form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-Programs-&amp;-Lectures" original-class="form-item form-type-checkbox form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-Programs-&amp;-Lectures">
+ <input class="mailchimp-newsletter-interests-1 form-checkbox" original-class="mailchimp-newsletter-interests-1 form-checkbox" type="checkbox" id="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-programs-lectures" name="mailchimp_lists[mailchimp_join_our_mailing_lists][interest_groups][4989][Programs &amp; Lectures]" value="Programs &amp; Lectures"><label class="option" original-class="option" for="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-programs-lectures">Programs &amp; Lectures </label>
+</div>
+<div class="form-item form-type-checkbox form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-Make-Your-Own-Glass-Experiences" original-class="form-item form-type-checkbox form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-Make-Your-Own-Glass-Experiences">
+ <input class="mailchimp-newsletter-interests-1 form-checkbox" original-class="mailchimp-newsletter-interests-1 form-checkbox" type="checkbox" id="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-make-your-own-glass-experiences" name="mailchimp_lists[mailchimp_join_our_mailing_lists][interest_groups][4989][Make Your Own Glass Experiences]" value="Make Your Own Glass Experiences"><label class="option" original-class="option" for="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-make-your-own-glass-experiences">Make Your Own Glass Experiences </label>
+</div>
+<div class="form-item form-type-checkbox form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-The-Studio-Programs-and-Classes" original-class="form-item form-type-checkbox form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-The-Studio-Programs-and-Classes">
+ <input class="mailchimp-newsletter-interests-1 form-checkbox" original-class="mailchimp-newsletter-interests-1 form-checkbox" type="checkbox" id="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-the-studio-programs-and-classes" name="mailchimp_lists[mailchimp_join_our_mailing_lists][interest_groups][4989][The Studio Programs and Classes]" value="The Studio Programs and Classes"><label class="option" original-class="option" for="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-the-studio-programs-and-classes">The Studio Programs and Classes </label>
+</div>
+<div class="form-item form-type-checkbox form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-Educator-and-School-Programs" original-class="form-item form-type-checkbox form-item-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-Educator-and-School-Programs">
+ <input class="mailchimp-newsletter-interests-1 form-checkbox" original-class="mailchimp-newsletter-interests-1 form-checkbox" type="checkbox" id="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-educator-and-school-programs" name="mailchimp_lists[mailchimp_join_our_mailing_lists][interest_groups][4989][Educator and School Programs]" value="Educator and School Programs"><label class="option" original-class="option" for="edit-mailchimp-lists-mailchimp-join-our-mailing-lists-interest-groups-4989-educator-and-school-programs">Educator and School Programs </label>
+</div>
+</div>
+</div>
+</div>
+</fieldset>
+</div>
+<input type="submit" id="edit-submit" name="op" value="Submit" class="form-submit" original-class="form-submit"><input type="hidden" name="form_build_id" value="form-VlioAaZVDvhMUHLgWHZrEF9TW4kpyteMLfZdoZu0FHs"><input type="hidden" name="form_id" value="mailchimp_lists_user_subscribe_form_join_our_mailing_lists">
+</div></form> </div>
+</div>
+ </div>
+ </div>
+ </div>
+</div>
+<!-- end footer --> 
+</div>
+<!-- end #page -->
+ 
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d1426910fc","applicationID":"89489538","transactionName":"NVcDYUpXCxYAUhZZWwwdNEdRGQwLBVQaHkQKQg==","queueTime":0,"applicationTime":20,"atts":"GRAAFwJNGBg=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+</body>
+</html>

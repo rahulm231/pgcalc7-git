@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Install, uninstall, and update hooks for the PGCalc Resource Block module.
+ */
+
+/**
+ * Enable the PGCalc config feature.
+ */
+function pgc_resource_block_update_7100() {
+  module_enable(array('pgc_config'));
+}

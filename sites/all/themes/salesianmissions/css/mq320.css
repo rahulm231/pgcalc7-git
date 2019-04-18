@@ -1,0 +1,223 @@
+/******************************
+*MediaQuery 320
+******************************/
+@media screen and (max-width: 740px){
+  /************************
+  *HEADER
+  ************************/
+  div#iframe{
+    margin-top: 0;
+  }
+  #block-block-8.block .inner{
+    margin-left: 0
+  }
+  #block-block-8 #header-contact-us{
+    margin-right: 0px;
+    padding-right: 0px;  
+  }
+  #block-block-8 a{
+    font-size: 11px ;
+  }
+  #header-response #quote{
+    margin-top: 0;
+  }
+  #header-response #quote{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  #menu p {
+    text-align: center;
+  }
+  .top-bar, .top-bar ul.left > li, .top-bar ul.right > li{
+    background: #6E492A;
+  }
+  /************************
+  *SOCIAL   
+  ************************/
+  #header-response .icon-twitter{
+    background: url(/sites/all/themes/salesianmissions/cssAssets/social-twitter.png) no-repeat !important;
+    width: 30px !important;
+    height: 30px !important;
+  }
+  #header-response .icon-facebook{
+    background: url(/sites/all/themes/salesianmissions/cssAssets/social-facebook.png) no-repeat !important;
+    width: 30px !important;
+    height: 30px !important;
+  }
+  #header-response .icon-youtube{
+    background: url(/sites/all/themes/salesianmissions/cssAssets/social-youtube.png) no-repeat !important;
+    width: 30px !important;
+    height: 30px !important;
+  }
+  div.fusion-right{
+    float: none;
+    width: 100%;
+  }
+  #block-block-2 a.icon-facebook, #block-block-2 a.icon-twitter, #block-block-2 a.icon-youtube{
+    top: -4px;
+  }
+  #header-response .fusion-right-content p{
+    text-align: center;
+  }
+  /************************
+  *PANELS OF HOME
+  ************************/
+  #pid-front-page h2, .dark{
+    width: 100%;
+  }
+  .panel-left{
+    padding-right: 0px;
+  }
+  .panel-right{
+    padding-left: 0px;
+  }
+  #first_line > div > div > img, #second_line > div > div > img, #third_line > div > div > img{
+    display: block;
+    float: none;
+    margin: 0 auto !important;
+  }
+  #first_line + br, #second_line + br, #third_line + br{
+    display: none;
+  }
+  #first_line > div > div > p, #second_line > div > div > p, #third_line > div > div > p{
+    overflow: hidden;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  #pid-front-page #second_line .background_default p a{
+    margin-right: 0px;
+  }
+  #third_line .panel-right p a{
+    margin-top: 20px;
+  }
+  /************************
+  *FOOTER
+  *************************/
+  .grid12-8{
+    width: 100%;
+  }
+  #footer-wrapper-fundation #footer a.logo{
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+  #footer-wrapper-fundation #footer .copy-class{
+    display: block;
+    text-align: center;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 10px;
+  }
+  #footer-wrapper-fundation #footer #block-search-0{
+    clear: both;
+  }
+  #footer-wrapper-fundation #footer #block-block-5{ 
+    text-align: center;
+    font-size: 14px;
+  }
+  .grid12-4{
+    width: 100%;
+  }
+  #block-block-5 p.last big{
+    float: none;
+    font-size: 14px;
+  }
+  #edit-search-block-form-3-wrapper input[type="text"], #edit-search-block-form-3-wrapper{
+    width: 100%;
+    float: none;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  form input.form-submit{
+    margin: 0 auto;
+    -webkit-appearance: none;
+    font-size: 14px;
+    width: 50%;
+    display: block;
+  }
+  #footer-menu-responsive #block-block-7 .content img{
+    display: block;
+    margin: 0 auto;
+  }
+
+  #footer-menu-responsive #block-block-7 .content small{
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    margin: 15px 0px;
+  }
+  #footer-menu-responsive #block-block-7 .content small br{
+    display: none;
+  }
+  /*
+   * Fix Home
+   */
+  #logo-1 img{
+    width: 80%;
+    max-width: 294px;
+  }
+  #logo-1{
+    text-align: center;
+  }
+  div#block-block-5 div.inner div.content p{
+    font-size: 11px;
+    font-family: Arial;
+  }
+  #block-block-2{
+    padding: 0;
+  }
+  #block-block-2 a.icon-facebook, #block-block-2 a.icon-twitter, #block-block-2 a.icon-youtube{
+    top: 0;
+  }
+  div#menu{
+    min-width: 0;
+  }
+  #block-block-3 .inner a {
+  margin: 10px 0 10px 0;
+  }
+  /**************************
+  *don-bosco
+  ***************************/
+  form[id*="webform-client-form-"] div > *{display: block; width: 100% !important;}
+  div#main, div#menu{ min-width: 1px;}
+  .grid12-12{ width: 100%;}
+  #webform-component-don-bosco{ padding-right: 0 !important;}
+  #pid-don-bosco #content-inner-inner{ margin: 0 15px;}
+  #pid-don-bosco h1{ font-size: 20px;}
+  #pid-don-bosco form.webform-client-form, #pid-don-bosco form.newsletter-form, #pid-don-bosco form.tell-more{
+    padding: 0;
+  }
+  #pid-don-bosco #webform-component-group--tittle-block span, #pid-don-bosco #webform-component-group--tittle span{ font-size: 20px;}
+  #pid-don-bosco #webform-component-group--download-text img{ float: none; width: 60%; display: block; margin: 0 auto;}
+  /*#pid-don-bosco form[id*="webform-client-form-"] input, #pid-don-bosco form[id*="webform-client-form-"] label{ width: 100%; display: block}*/
+  #pid-don-bosco #webform-component-group--name, #pid-don-bosco #webform-component-group--last-name{ float: none; width: 100%;}
+  #pid-don-bosco #webform-component-group--confirmed .form-item > label{ margin-right: 0 !important;}
+  #pid-don-bosco #webform-component-group--confirmed .form-item > .form-checkboxes{ width: 20px !important;}
+  #pid-don-bosco #webform-component-group--confirmed .form-item > .form-checkboxes label{ width: 100%;}
+  #pid-don-bosco #webform-component-group--confirmed > .form-item > label { width: 230px !important;}
+  #pid-don-bosco form[id*="webform-client-form"] input.form-submit{ width: 236px !important;}
+  #block-block-4 .content{ text-align: center;}
+  #block-block-4 .content a{ float: none; margin: 0 auto;}
+  #postscript-top {width: 100%;}
+  input#edit-submit-2{ float: none !important;}
+
+  /**************************
+  *don-bosco thank you
+  ***************************/
+  #content-inner-inner h1{ font-size: 20px; line-height: 1;}
+  #pid-node-28273-done #main-group{ width: 100%;}
+  #pid-node-28273-done #content-inner-inner{ margin: 0 15px;}
+  #pid-node-28273-done .webform-confirmation img{ margin: 0 auto !important;}
+  #img-sidebar{ position: relative; display: block; margin: 10px auto 10px; top: 0; right: 0;}
+  div#webform-component-zip-downloader {display: none;}
+  div#column1{width:100% !important;}
+
+}
+
+
+
+
+
+
+
+

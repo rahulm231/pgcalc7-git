@@ -1,0 +1,30 @@
+﻿.btn-primary {
+    color: #fff;
+    background-color: #48873b;
+    border-color: #35642b;
+    transition: all ease-in-out 0.25s;
+}
+
+    .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+        color: #48873b;
+        background-color: #aed0a6;
+        border-color: #48873b;
+    }
+
+    .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+        color: #48873b;
+        background-color: #aed0a6;
+        border-color: #48873b;
+    }
+
+    .btn-primary:hover {
+        color: #48873b;
+        background-color: #aed0a6;
+        border-color: #48873b;
+    }
+
+    .btn-primary.focus, .btn-primary:focus {
+        color: #48873b;
+        background-color: #aed0a6;
+        border-color: #48873b;
+    }

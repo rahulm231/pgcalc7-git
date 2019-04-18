@@ -1,0 +1,1141 @@
+<?php
+define('PGC_SYNC_FAILED', 0);
+define('PGC_SYNC_SUCCESSFUL', 1);
+define('PGC_SYNC_NEEDS_REVIEW', 2);
+define('PGC_SYNC_FORCED', 3);
+define('PGC_SYNC_SKIPPED', 4);
+define('PGC_SYNC_COMPLETED', 5);
+define('PGC_LOCKED', -1);
+define('PGC_SYNC_MENU_NEW', 0);    
+
+function pgc_sync_menu() {
+  $menu = array();
+
+  $menu['admin/pgc-sync'] = array(
+    'title' => 'Synchronization',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_sync_node_select_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+  );
+
+  $menu['admin/pgc-sync/nodes'] = array(
+    'title' => 'Nodes',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_sync_node_select_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+    'weight' => 0,
+  );
+
+  $menu['admin/pgc-sync/nodes/force-skip/fields/%/%'] = array(
+    'title' => 'Choose fields to force/skip',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_sync_force_skip_fields_form', 5, 6),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/nodes/sites'] = array(
+    'title' => 'Choose sites',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_sync_node_sites_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/nodes/fields/%'] = array(
+    'title' => 'Choose fields',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_sync_node_fields_form', 4),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/log/nodes'] = array(
+    'title' => 'Node Log',
+    'page callback' => 'pgc_sync_node_log_archive',
+    'page arguments' => array(),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 1,
+  );
+  
+  // #PGCS-264 - Starts  
+  $menu['admin/pgc-sync/log/nodes/redirect/%'] = array(
+    'title' => 'Node Sync Redirect',
+    'page callback' => 'pgc_sync_node_log_redirect',
+    'page arguments' => array(5),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+  // #PGCS-264 - Ends
+
+  $menu['admin/pgc-sync/log/nodes/%'] = array(
+    'title' => 'Node Sync Details',
+    'page callback' => 'pgc_sync_node_log',
+    'page arguments' => array(4),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/log/nodes/%/complete/%'] = array(
+    'title' => 'Node Sync Details',
+    'page callback' => 'pgc_sync_mark_log_complete',
+    'page arguments' => array(4, 6),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/menu'] = array(
+    'title' => 'Menu items',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_sync_menu_select_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 3,
+  );
+
+  $menu['admin/pgc-sync/menu/sites'] = array(
+    'title' => 'Site selection',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_sync_menu_sites_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/log/menu'] = array(
+    'title' => 'Menu Log',
+    'page callback' => 'pgc_sync_menu_log_archive',
+    'page arguments' => array(),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 4,
+  );
+
+  $menu['admin/pgc-sync/log/menu/%'] = array(
+    'title' => 'Menu Item Sync Details',
+    'page callback' => 'pgc_sync_menu_log',
+    'page arguments' => array(4),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/global-variables'] = array(
+    'title' => 'Variables',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_sync_global_variables_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 5,
+  );
+
+  $menu['admin/pgc-sync/global-variables/sites'] = array(
+    'title' => 'Site selection',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_sync_global_variables_sites_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/log/global-variables'] = array(
+    'title' => 'Variable Log',
+    'page callback' => 'pgc_sync_global_variables_log_archive',
+    'page arguments' => array(),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 6,
+  );
+
+  $menu['admin/pgc-sync/log/global-variables/%'] = array(
+    'title' => 'Variable Sync Details',
+    'page callback' => 'pgc_sync_global_variables_log',
+    'page arguments' => array(4),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/global-variables/force/%/%'] = array(
+    'title' => 'Force a variable',
+    'page callback' => 'pgc_sync_global_variables_force',
+    'page arguments' => array(4, 5),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/global-variables/skip/%/%'] = array(
+    'title' => 'Skip a variable',
+    'page callback' => 'pgc_sync_global_variables_skip',
+    'page arguments' => array(4, 5),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/global-variables/complete/%/%'] = array(
+    'title' => 'Complete a variable',
+    'page callback' => 'pgc_sync_global_variables_complete',
+    'page arguments' => array(4, 5),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  // Example Variables
+  $menu['admin/pgc-sync/example-variables'] = array(
+    'title' => 'Ex Variables',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_sync_example_variables_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 7,
+  );
+
+  $menu['admin/pgc-sync/example-variables/sites'] = array(
+    'title' => 'Site selection',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_sync_example_variables_sites_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/log/example-variables'] = array(
+    'title' => 'Ex Variable Log',
+    'page callback' => 'pgc_sync_example_variables_log_archive',
+    'page arguments' => array(),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 8,
+  );
+
+  $menu['admin/pgc-sync/log/example-variables/%'] = array(
+    'title' => 'Ex Variable Sync Details',
+    'page callback' => 'pgc_sync_example_variables_log',
+    'page arguments' => array(4),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/example-variables/force/%/%'] = array(
+    'title' => 'Force a variable',
+    'page callback' => 'pgc_sync_example_variables_force',
+    'page arguments' => array(4, 5),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/example-variables/skip/%/%'] = array(
+    'title' => 'Skip a variable',
+    'page callback' => 'pgc_sync_example_variables_skip',
+    'page arguments' => array(4, 5),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $menu['admin/pgc-sync/example-variables/complete/%/%'] = array(
+    'title' => 'Complete a variable',
+    'page callback' => 'pgc_sync_example_variables_complete',
+    'page arguments' => array(4, 5),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_sync'),
+    'file' => 'pgc_sync.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  return $menu;
+}
+
+/**
+ * Implements hook_theme().
+ */
+function pgc_sync_theme($existing, $type, $theme, $path) {
+  return array(
+    'pgc_sync_updated_nodes_table' => array(
+      'render element' => 'element'
+    ),
+    'pgc_sync_variables_table' => array(
+      'render element' => 'element'
+    ),
+    'pgc_sync_example_variables_table' => array(
+      'render element' => 'element'
+    ),
+    'pgc_sync_menu_items_table' => array(
+      'render element' => 'element'
+    ),
+    'pgc_sync_node_log' => array(
+      'variables' => array(
+        'sync_info' => NULL,
+        'sync_items' => NULL,
+      ),
+      'path' => $path . '/templates',
+      'template' => 'pgc-sync-node-log'
+    ),
+    'pgc_sync_menu_log' => array(
+      'variables' => array(
+        'sync_info' => NULL,
+        'sync_items' => NULL,
+      ),
+      'path' => $path . '/templates',
+      'template' => 'pgc-sync-menu-log'
+    ),
+    'pgc_sync_global_variables_log' => array(
+      'variables' => array(
+        'sync_info' => NULL,
+        'sync_items' => NULL,
+      ),
+      'path' => $path . '/templates',
+      'template' => 'pgc-sync-global-variables-log'
+    ),
+    'pgc_sync_example_variables_log' => array(
+      'variables' => array(
+        'sync_info' => NULL,
+        'sync_items' => NULL,
+      ),
+      'path' => $path . '/templates',
+      'template' => 'pgc-sync-example-variables-log'
+    ),
+  );
+}
+
+/**
+ * Static for now, editable later
+ */
+function pgc_sync_get_sync_fields($type) {
+  $fields = array();
+  $fields['homepage'] = array(
+    'title',
+    'body',
+    'field_featured_item_1_title',
+    'field_featured_item_1_detail',
+    'field_featured_item_2_title',
+    'field_featured_item_2_detail',
+    'field_featured_item_3_title',
+    'field_featured_item_3_detail',
+    'field_featured_item_4_title',
+    'field_featured_item_4_detail',
+    'status',
+    'summary',
+  );
+
+  $fields['general_content'] = array(
+    'title',
+    'body',
+    'status',
+    'summary',
+  );
+
+  $fields['gift_type'] = array(
+    'title',
+    'body',
+    'field_how_gift_helps_overview',
+    'field_how_gift_helps_text_1',
+    'field_how_gift_helps_text_2',
+    'field_how_gift_helps_text_3',
+    'field_gift_type_details',
+    'field_gift_type_example',
+    'status',
+    'summary',
+  );
+
+  $fields['landing_page'] = array(
+    'title',
+    'body',
+    'status',
+    'summary',
+  );
+
+  return $fields[$type];
+}
+
+function pgc_sync_get_domains() {
+  $domains = array();
+  if(strpos(DRUPAL_ROOT, '/Development') === false) {
+    foreach (new DirectoryIterator('/var/www/marketing_services') as $fileInfo) {
+      if($fileInfo->isDir() && !$fileInfo->isDot() && $fileInfo->getFilename() !== 'pgcalc_master') {
+        $filePath = '/var/www/marketing_services/'.$fileInfo->getFileName().'/drupal/domain.txt';
+        $domain = file_get_contents($filePath);
+        if($domain) {
+          $domains[$fileInfo->getFileName()] = preg_replace('~[\r\n]+~', '', $domain);
+        }
+      }
+    }
+  }
+  else {
+    $domains = array('sync' => 'http://sync.pgcalc.com');
+  }
+
+  return $domains;
+}
+
+function pgc_sync_get_domain_from_sitename($site_name) {
+  if(strpos(DRUPAL_ROOT, '/Development') === false) {
+    $domains = array();
+    $filePath = '/var/www/marketing_services/'.$site_name.'/drupal/domain.txt';
+    $domain = file_get_contents($filePath);
+    if($domain) {
+      $domains[$site_name] = preg_replace('~[\r\n]+~', '', $domain);
+    }
+  } else {
+    $domains = array('sync' => 'http://sync.pgcalc.com');
+  }
+
+  return $domains;
+}
+
+function pgc_sync_execute_ex_variable_sync($sync_data, $sites) {
+  set_time_limit(600);
+  // Add ability to sync a specific domain (if something fails or to force)
+  if(!is_array($sites))
+    $domains = pgc_sync_get_domain_from_sitename($sites);
+  else if($sites == null)
+    $domains = pgc_sync_get_domains();
+  else
+    $domains = $sites;
+
+  $sync_results = array();
+  $sync_data = serialize($sync_data);
+  foreach($domains as $site_name => $domain) {
+    if(strpos($domain, 'http') === false)
+      $domain = 'http://'.$domain;
+
+    $url = $domain.'/pgc-sync-client/example-variables';
+
+    $response = drupal_http_request($url, array('headers' => array('Content-Type' => 'application/x-www-form-urlencoded'), 'method' => 'POST', 'data' => $sync_data));
+    $sync_result = new stdClass;
+
+    if($response->code == 200) {
+      if(unserialize($response->data)) {
+        $sync_result->data = unserialize($response->data);
+        $sync_result->status = $sync_result->data->status;
+      }
+      else {
+        $sync_result->status = 'fail';
+        $sync_result->error = 'Invalid JSON returned from '.$domain.' - please check site configuration.';
+      }
+    }
+    else {
+      $sync_result->status = 'fail';
+      $sync_result->error = 'Unable to connect to sync client on domain: '. $domain .' - Please contact system support';
+    }
+
+    $sync_results[$site_name] = $sync_result;
+  }
+
+  return $sync_results;
+}
+
+function pgc_sync_execute_menu_sync($sync_data, $sites) {
+  set_time_limit(600);
+  // Add ability to sync a specific domain (if something fails or to force)
+  if(!is_array($sites))
+    $domains = pgc_sync_get_domain_from_sitename($sites);
+  else if($sites == null)
+    $domains = pgc_sync_get_domains();
+  else
+    $domains = $sites;
+
+  $sync_results = array();
+  $sync_data = serialize($sync_data);
+  foreach($domains as $site_name => $domain) {
+    if(strpos($domain, 'http') === false)
+      $domain = 'http://'.$domain;
+
+    $url = $domain.'/pgc-sync-client/menu/new';
+
+    $response = drupal_http_request($url, array('headers' => array('Content-Type' => 'application/x-www-form-urlencoded'), 'method' => 'POST', 'data' => $sync_data));
+    $sync_result = new stdClass;
+    if($response->code == 200) {
+      if(unserialize($response->data)) {
+        $sync_result->data = unserialize($response->data);
+        $sync_result->status = $sync_result->data->status;
+      }
+      else {
+        $sync_result->status = 'fail';
+        $sync_result->error = 'Invalid JSON returned from '.$domain.' - please check site configuration.';
+      }
+    }
+    else {
+      $sync_result->status = 'fail';
+      $sync_result->error = 'Unable to connect to sync client on domain: '. $domain .' - Please contact system support';
+    }
+
+    $sync_results[$site_name] = $sync_result;
+  }
+
+  return $sync_results;
+}
+
+function pgc_sync_execute_variable_sync($sync_data, $sites) {
+  set_time_limit(600);
+  // Add ability to sync a specific domain (if something fails or to force)
+  if(!is_array($sites))
+    $domains = pgc_sync_get_domain_from_sitename($sites);
+  else if($sites == null)
+    $domains = pgc_sync_get_domains();
+  else
+    $domains = $sites;
+
+  $sync_results = array();
+  $sync_data = serialize($sync_data);
+  foreach($domains as $site_name => $domain) {
+    if(strpos($domain, 'http') === false)
+      $domain = 'http://'.$domain;
+
+    $url = $domain.'/pgc-sync-client/global-variables';
+    $response = drupal_http_request($url, array('headers' => array('Content-Type' => 'application/x-www-form-urlencoded'), 'method' => 'POST', 'data' => $sync_data));
+    $sync_result = new stdClass;
+    if($response->code == 200) {
+      if(unserialize($response->data)) {
+        $sync_result->data = unserialize($response->data);
+        $sync_result->status = $sync_result->data->status;
+      }
+      else {
+        $sync_result->status = 'fail';
+        $sync_result->error = 'Invalid JSON returned from '.$domain.' - please check site configuration.';
+      }
+    }
+    else {
+      $sync_result->status = 'fail';
+      $sync_result->error = 'Unable to connect to sync client on domain: '. $domain .' - Please contact system support';
+    }
+
+    $sync_results[$site_name] = $sync_result;
+  }
+
+  return $sync_results;
+}
+
+/**
+ * Performs a synchronization. Returns a synchronization ID.
+ * @param $nid
+ * @param $sync_data
+ * @param null $site_name
+ * @return array
+ */
+function pgc_sync_execute_sync($nid, $sync_data, $sites = null) {
+  set_time_limit(600);
+  // Add ability to sync a specific domain (if something fails or to force)
+  if(!is_array($sites))
+    $domains = pgc_sync_get_domain_from_sitename($sites);
+  else if($sites == null)
+    $domains = pgc_sync_get_domains();
+  else
+    $domains = $sites;
+
+  $sync_results = array();
+  $serialized_sync_data = serialize($sync_data);
+  foreach($domains as $site_name => $domain) {
+    if(strpos($domain, 'http') === false)
+      $domain = 'http://'.$domain;
+
+    if(is_array($sync_data)) {
+      $url = $domain.'/pgc-sync-client/nodes';
+    } else {
+      $url = $domain.'/pgc-sync-client/node/new';
+    }
+
+    $response = drupal_http_request($url, array('headers' => array('Content-Type' => 'application/x-www-form-urlencoded'), 'method' => 'POST', 'data' => $serialized_sync_data));
+    $sync_result = new stdClass;
+    if($response->code == 200) {
+      if(unserialize($response->data)) {
+        $sync_result->data = unserialize($response->data);
+        $sync_result->status = $sync_result->data['status'];
+      }
+      else {
+        $sync_result->status = 'fail';
+        $sync_result->error = 'Invalid JSON returned from '.$domain.' - please check site configuration.';
+      }
+    }
+    else {
+      $sync_result->status = 'fail';
+      $sync_result->error = 'Unable to connect to sync client on domain: '. $domain .' - Please contact system support';
+    }
+
+    $sync_results[$site_name] = $sync_result;
+  }
+  //@todo: should we cancel all sync actions (new revision) if one site fails?
+  // would need a status property on the sync_results array
+  return $sync_results;
+}
+
+/**
+ * Builds an array containing the old and new sync field values
+ * for the given node.
+ * @param $nid
+ * @param $sync_fields
+ * @return array
+ */
+function pgc_sync_build_sync_data($nid, $sync_fields) {
+  $node = node_load($nid);
+  $revisions = node_revision_list($node);
+  $keys = array_keys($revisions);
+  $old_node = node_load($nid, $revisions[$keys[1]]->vid);
+  $sync_data = array();
+  foreach($sync_fields as $field) {
+    // Special handling for title field (different data structure)
+    if($field == 'title') {
+      $sync_data[$node->uuid]['new']['title'] = $node->title;
+      $sync_data[$node->uuid]['old']['title'] = $old_node->title;
+    }
+    else if($field == 'status') {
+      $sync_data[$node->uuid]['new']['status'] = $node->status;
+      $sync_data[$node->uuid]['old']['status'] = $old_node->status;
+    }
+    else if($field == 'summary') {
+      $sync_data[$node->uuid]['new']['summary'] = $node->body[LANGUAGE_NONE][0]['summary'];
+      if(isset($old_node->body[LANGUAGE_NONE][0]['summary']))
+        $sync_data[$node->uuid]['old']['summary'] = $old_node->body[LANGUAGE_NONE][0]['summary'];
+      else
+        $sync_data[$node->uuid]['old']['summary'] = '';
+    }
+    else if(isset($node->{$field}[LANGUAGE_NONE])) {
+      $sync_data[$node->uuid]['new'][$field] = $node->{$field}[LANGUAGE_NONE][0]['value'];
+      $sync_data[$node->uuid]['old'][$field] = $old_node->{$field}[LANGUAGE_NONE][0]['value'];
+    }
+  }
+
+  return $sync_data;
+}
+
+/**
+ * Creates a new revision for each of the synced nodes
+ * this way the previous revision can be compared against the current
+ * revision on the client sites, and the new revision can be passed
+ * as the update.
+ *
+ * If $changed_unsynced contains field names, those fields will be copied
+ * from the previous revision into the current revision before a new revision
+ * is created.
+ *
+ * @param $nid
+ * @param $changed_unsynced
+ */
+function pgc_sync_create_revision($nid, $changed_unsynced = array()) {
+  $node_new = node_load($nid, null, true);
+  if(count($changed_unsynced)) {
+    $sync_data = pgc_sync_build_sync_data($nid, $changed_unsynced);
+    $node_old = node_load($nid, null, true);
+    foreach($changed_unsynced as $field) {
+      if($field == 'title') {
+        $node_old->title = $sync_data[$node_old->uuid]['old']['title'];
+      }
+      else if($field == 'status') {
+        $node_old->status = $sync_data[$node_old->uuid]['old']['status'];
+      }
+      else {
+        $node_old->{$field}[LANGUAGE_NONE][0]['value'] = $sync_data[$node_old->uuid]['old'][$field];
+        $node_old->{$field}[LANGUAGE_NONE][0]['safe_value'] = $sync_data[$node_old->uuid]['old'][$field];
+      }
+    }
+    node_save($node_old);
+  }
+  $node_new->revision = 1;
+  $node_new->log = 'Revision created by pgc_sync on ' . format_date(time(), 'medium');
+  node_save($node_new);
+}
+
+function pgc_sync_get_changed_fields($nid) {
+  $node = node_load($nid);
+  $revisions = node_revision_list($node);
+  $keys = array_keys($revisions);
+  $old_node = node_load($nid, $revisions[$keys[1]]->vid);
+  $sync_fields = pgc_sync_get_sync_fields($node->type);
+  $changed_fields = array();
+  // Allow user to select which fields they wish to sync
+  foreach($sync_fields as $field) {
+    if($field == 'title') {
+      if($node->title != $old_node->title)
+        $changed_fields[] = $field;
+    }
+    else if($field == 'status') {
+      if($node->status != $old_node->status)
+        $changed_fields[] = $field;
+    }
+    else if($field == 'summary') {
+      if(isset($node->body[LANGUAGE_NONE][0]['summary'])) {
+        if(isset($old_node->body[LANGUAGE_NONE][0]['summary'])) {
+          if($node->body[LANGUAGE_NONE][0]['summary'] != $old_node->body[LANGUAGE_NONE][0]['summary']) {
+            $changed_fields[] = $field;
+          }
+        } else {
+          $changed_fields[] = $field;
+        }
+      }
+    }
+    else if(isset($node->{$field}[LANGUAGE_NONE]) && isset($old_node->{$field}[LANGUAGE_NONE])) {
+      if($node->{$field}[LANGUAGE_NONE][0]['value'] != $old_node->{$field}[LANGUAGE_NONE][0]['value']) {
+        $changed_fields[] = $field;
+      }
+    }
+  }
+  return $changed_fields;
+}
+
+function pgc_sync_log_sync($nid, $data, $name) {
+  global $user;
+  $node = node_load($nid);
+  $vid = $node->vid;
+  $sync_id = db_insert('pgc_node_sync')
+    ->fields(array(
+      'nid' => $nid,
+      'vid' => $vid,
+      'uid' => $user->uid,
+      'title' => $node->title,
+      'type' => $node->type,
+      'timestamp' => time(),
+      'status' => 1,
+      'name' => $name,
+    ))
+    ->execute();
+  $sync_status = PGC_SYNC_SUCCESSFUL;
+  foreach($data as $site => $result) {
+    switch($result->status) {
+      case 'fail':
+        $status = PGC_SYNC_FAILED;
+        break;
+      case 'success':
+        $status = PGC_SYNC_SUCCESSFUL;
+        break;
+      case 'needs_review':
+        $status = PGC_SYNC_NEEDS_REVIEW;
+        break;
+    }
+
+    foreach($result->data['updates'] as $field) {
+      $record_id = db_insert('pgc_node_sync_items')
+        ->fields(array(
+          'sync_id' => $sync_id,
+          'site_name' => $site,
+          'field' => $field,
+          'master' => '',
+          'client' => '',
+          'status' => PGC_SYNC_SUCCESSFUL,
+        ))
+        ->execute();
+    }
+    if($result->status == 'needs_review') {
+      foreach($result->data['differences'] as $field => $values) {
+        $record_id = db_insert('pgc_node_sync_items')
+          ->fields(array(
+            'sync_id' => $sync_id,
+            'site_name' => $site,
+            'field' => $field,
+            'master' => $values['master'],
+            'client' => $values['client'],
+            'status' => PGC_SYNC_NEEDS_REVIEW,
+          ))
+          ->execute();
+      }
+    }
+    if($status != PGC_SYNC_SUCCESSFUL)
+      $sync_status = PGC_SYNC_NEEDS_REVIEW;
+  }
+
+  if($sync_status !== PGC_SYNC_SUCCESSFUL) {
+    db_update('pgc_node_sync')
+      ->fields(array(
+        'status' => $sync_status
+      ))
+      ->condition('id', $sync_id, '=')
+      ->execute();
+  }
+
+  return $sync_id;
+}
+
+function pgc_sync_get_status_string($status) {
+  switch($status) {
+    case -1:
+      return 'Locked';
+    case 0:
+      return 'Failed';
+    case 1:
+      return 'Successful';
+    case 2:
+      return 'Needs review';
+    case 3:
+      return 'Forced';
+    case 4:
+      return 'Skipped';
+    case 5:
+      return 'Completed';
+  }
+}
+
+function pgc_sync_create_new_base_db() {
+  set_time_limit(120);
+  $timestamp = time();
+  system('cd '.DRUPAL_ROOT.'; mv ../pgcalcbase.sql.gz ../syncbackups/pgcalcbase'.$timestamp.'.sql.gz; drush sql-dump --gzip --result-file=../pgcalcbase.sql');
+  drupal_set_message("Sync automatically created a new base database import file with most recent changes.");
+}
+
+function pgc_sync_menu_link_insert($link) {
+  if($link['menu_name'] == 'main-menu') {
+    $mlid = $link['mlid'];
+    $path = $link['link_path'];
+    if(strpos($path, 'node/') === 0) {
+      $nid = str_replace('node/', '', $path);
+      $node = node_load($nid);
+      $uuid = $node->uuid;
+      $weight = $link['weight'];
+      $plid = $link['plid'];
+      $parent_uuid = '';
+      if($plid !== 0) {
+        $parent_item = menu_link_load($plid);
+        $parent_path = $parent_item['link_path'];
+        if(strpos($parent_path, 'node/') === 0) {
+          $parent_nid = str_replace('node/', '', $parent_path);
+          $parent_node = node_load($parent_nid);
+          $parent_uuid = $parent_node->uuid;
+        }
+      }
+
+      $title = $link['link_title'];
+      $enabled = $link['enabled'];
+      $vid = db_insert('pgc_sync_menu_log')
+        ->fields(array(
+          'mlid' => $mlid,
+          'uuid' => $uuid,
+          'title' => $title,
+          'parent' => $parent_uuid,
+          'timestamp' => time(),
+          'status' => PGC_SYNC_MENU_NEW,
+          'enabled' => $enabled,
+          'weight' => $weight,
+        ))
+        ->execute();
+    }
+  }
+}
+
+function pgc_sync_menu_sync_log($sync_mlid, $sync_name, $sync_results) {
+  global $user;
+  $menu_item = menu_link_load($sync_mlid);
+  $sync_id = db_insert('pgc_menu_sync')
+    ->fields(array(
+      'mlid' => $sync_mlid,
+      'uid' => $user->uid,
+      'title' => $menu_item['link_title'],
+      'timestamp' => time(),
+      'status' => $sync_results == 'error' ? PGC_SYNC_FAILED : PGC_SYNC_SUCCESSFUL,
+      'name' => $sync_name,
+    ))
+    ->execute();
+  $sync_status = PGC_SYNC_SUCCESSFUL;
+  foreach($sync_results as $site => $result) {
+    switch($result->status) {
+      case 'fail':
+        $status = PGC_SYNC_FAILED;
+        $error = $result->error;
+        break;
+      case 'success':
+        $status = PGC_SYNC_SUCCESSFUL;
+        break;
+    }
+    $record_id = db_insert('pgc_menu_sync_items')
+      ->fields(array(
+        'sync_id' => $sync_id,
+        'site_name' => $site,
+        'error' => isset($error) ? $error : '',
+        'status' => $status,
+      ))
+      ->execute();
+    if($status !== PGC_SYNC_SUCCESSFUL)
+      $sync_status = PGC_SYNC_FAILED;
+  }
+
+  if($sync_status !== PGC_SYNC_SUCCESSFUL) {
+    db_update('pgc_menu_sync')
+      ->fields(array(
+        'status' => $sync_status
+      ))
+      ->condition('id', $sync_id, '=')
+      ->execute();
+  } else {
+    db_update('pgc_sync_menu_log')
+      ->fields(array(
+        'status' => PGC_SYNC_SUCCESSFUL
+      ))
+      ->condition('mlid', $sync_mlid, '=')
+      ->execute();
+  }
+  return $sync_id;
+}
+
+function pgc_sync_log_variable_sync($sync_variable, $sync_variable_value, $prev_value, $sync_result, $sync_name) {
+  global $user;
+  $sync_id = db_insert('pgc_global_variable_sync')
+    ->fields(array(
+      'variable' => $sync_variable,
+      'uid' => $user->uid,
+      'value' => $sync_variable_value,
+      'old_value' => $prev_value,
+      'timestamp' => time(),
+      'status' => 1,
+      'name' => $sync_name,
+    ))
+    ->execute();
+
+  $sync_status = PGC_SYNC_SUCCESSFUL;
+
+  foreach($sync_result as $site => $result) {
+    $status = 0;
+    switch($result->status) {
+      case 'fail':
+        $status = PGC_SYNC_FAILED;
+        break;
+      case 'success':
+        $status = PGC_SYNC_SUCCESSFUL;
+        break;
+      case 'needs_review':
+        $status = PGC_SYNC_NEEDS_REVIEW;
+        break;
+    }
+
+    if(isset($result->error))
+      $error = $result->error;
+    elseif(isset($result->data->error))
+      $error = $result->data->error;
+    else
+      $error = '';
+
+    $record_id = db_insert('pgc_global_variable_sync_items')
+      ->fields(array(
+        'sync_id' => $sync_id,
+        'site_name' => $site,
+        'error' => $error,
+        'value' => isset($result->data->value) ? $result->data->value : '',
+        'status' => $status,
+      ))
+      ->execute();
+
+    if($status != PGC_SYNC_SUCCESSFUL)
+      $sync_status = PGC_SYNC_NEEDS_REVIEW;
+  }
+
+  if($sync_status !== PGC_SYNC_SUCCESSFUL) {
+    db_update('pgc_global_variable_sync')
+      ->fields(array(
+        'status' => $sync_status
+      ))
+      ->condition('id', $sync_id, '=')
+      ->execute();
+  }
+
+  return $sync_id;
+}
+
+function pgc_sync_log_ex_variable_sync($sync_data, $sync_result, $sync_name) {
+  global $user;
+  $fields = array(
+    'variable' => $sync_data->variable,
+    'uid' => $user->uid,
+    'timestamp' => time(),
+    'status' => 1,
+    'name' => $sync_name,
+    'weight' => $sync_data->weight,
+    'comment' => $sync_data->comment,
+    'decimals' => $sync_data->decimals,
+  );
+
+  if(isset($sync_data->new_formula)) {
+    $fields['formula'] = $sync_data->new_formula;
+    if(isset($sync_data->prev_formula))
+      $fields['old_formula'] = $sync_data->prev_formula;
+  }
+  else if(isset($sync_data->new_value)) {
+    $fields['value'] = $sync_data->new_value;
+    if(isset($sync_data->prev_value))
+      $fields['old_value'] = $sync_data->prev_value;
+  }
+
+  $sync_id = db_insert('pgc_example_variable_sync')
+    ->fields($fields)
+    ->execute();
+
+  $sync_status = PGC_SYNC_SUCCESSFUL;
+
+  foreach($sync_result as $site => $result) {
+    $status = 0;
+    switch($result->status) {
+      case 'fail':
+        $status = PGC_SYNC_FAILED;
+        break;
+      case 'success':
+        $status = PGC_SYNC_SUCCESSFUL;
+        break;
+      case 'needs_review':
+        $status = PGC_SYNC_NEEDS_REVIEW;
+        break;
+    }
+
+    if(isset($result->error))
+      $error = $result->error;
+    elseif(isset($result->data->error))
+      $error = $result->data->error;
+    else
+      $error = '';
+
+    $record_id = db_insert('pgc_example_variable_sync_items')
+      ->fields(array(
+        'sync_id' => $sync_id,
+        'site_name' => $site,
+        'error' => $error,
+        'value' => isset($result->data->value) ? $result->data->value : '',
+        'formula' => isset($result->data->formula) ? $result->data->formula : '',
+        'status' => $status,
+      ))
+      ->execute();
+
+    if($status != PGC_SYNC_SUCCESSFUL)
+      $sync_status = PGC_SYNC_NEEDS_REVIEW;
+  }
+
+  if($sync_status !== PGC_SYNC_SUCCESSFUL) {
+    db_update('pgc_example_variable_sync')
+      ->fields(array(
+        'status' => $sync_status
+      ))
+      ->condition('id', $sync_id, '=')
+      ->execute();
+  }
+
+  return $sync_id;
+}
+
+/* #PGCS-264 - Batch Process */
+function pgc_sync_node_batch($form, &$form_state, $sync_data) {
+	
+  
+  $sites = $_SESSION['sync_sites'];
+  // Add ability to sync a specific domain (if something fails or to force)
+  if(!is_array($sites))
+    $domains = pgc_sync_get_domain_from_sitename($sites);
+  else if($sites == null)
+    $domains = pgc_sync_get_domains();
+  else
+    $domains = $sites;
+
+  $sync_results = array();
+  $serialized_sync_data = serialize($sync_data);
+  
+  $operations = array();
+  foreach($domains as $site_name => $domain) {  	
+	$operations[] = array(
+	  'pgc_sync_node_batch_operation', 
+	  array($site_name, $domain, $sync_data, $serialized_sync_data),
+	);
+  }  
+  
+  $batch = array(
+    'title' => t('Synchronize Node Data'), 
+    'operations' => $operations, 
+    'finished' => 'pgc_sync_node_batch_finished', 
+    'init_message' => t('Initializing...'), 
+	'progress_message' => t('Operation @current out of @total.'),
+	'error_message' => t('Synchronize Node Data received a error.'),
+  );
+  return $batch;
+}
+
+
+function pgc_sync_node_batch_operation($site_name, $domain, $sync_data, $serialized_sync_data , &$context){
+	if(strpos($domain, 'http') === false)
+      $domain = 'http://'.$domain;
+
+    if(is_array($sync_data)) {
+      $url = $domain.'/pgc-sync-client/nodes';
+    } else {
+      $url = $domain.'/pgc-sync-client/node/new';
+    }
+	
+
+    $response = drupal_http_request($url, array('headers' => array('Content-Type' => 'application/x-www-form-urlencoded'), 'method' => 'POST', 'data' => $serialized_sync_data));
+	
+	watchdog("Synchronization", $serialized_sync_data);
+	watchdog("Synchronization", $url);
+	
+    $sync_result = new stdClass;
+    if($response->code == 200) {
+      if(unserialize($response->data)) {
+        $sync_result->data = unserialize($response->data);
+        $sync_result->status = $sync_result->data['status'];
+      }
+      else {
+        $sync_result->status = 'fail';
+        $sync_result->error = 'Invalid JSON returned from '.$domain.' - please check site configuration.';
+      }
+    }
+    else {
+      $sync_result->status = 'fail';
+      $sync_result->error = 'Unable to connect to sync client on domain: '. $domain .' - Please contact system support';	  
+	  watchdog('Synchronization', $sync_result->error);
+    }
+	
+	$sync_results[$site_name] = $sync_result;
+	$context['results'][$site_name] = $sync_result;
+}
+
+function pgc_sync_node_batch_finished($success, $results, $operations){
+	if ($success) {
+		$_SESSION['sync_results'] = $results;
+		watchdog("Synchronization", '<pre>' . print_r( $results, true) . '</pre>');
+		drupal_set_message(t('@count sites  processed.', array('@count' => count($results))));
+  		
+	} else {
+		// An error occurred.
+		// $operations contains the operations that remained unprocessed.
+		$error_operation = reset($operations);
+		drupal_set_message(t('An error occurred while processing @operation with arguments : @args', array('@operation' => $error_operation[0], '@args' => print_r($error_operation[0], TRUE))));
+	}
+}
+//#PGCS-264 - Ends here //

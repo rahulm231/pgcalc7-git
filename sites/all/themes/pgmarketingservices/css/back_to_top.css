@@ -1,0 +1,30 @@
+#backtotop {
+  background:#1e5f3a url(/sites/all/themes/pgmarketingservices/cssAssets/backtotop.png) no-repeat center center;;
+  bottom: 20px;
+  cursor: pointer;
+  display: none;
+  height: 40px;
+  position: fixed;
+  right: 20px;
+  text-indent: -9999px;
+  width: 40px;
+  z-index: 99;
+  border-radius:20px;
+}
+
+#backtotop:hover {
+  opacity: 0.8;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #backtotop {
+    background: url(/sites/all/themes/pgmarketingservices/cssAssets/backtotop2x.png) no-repeat center center;
+    background-size: 70px 70px;
+  }
+}
+
+@media print {
+  #backtotop {
+    visibility: hidden;
+  }
+}

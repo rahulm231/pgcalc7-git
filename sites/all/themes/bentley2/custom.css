@@ -1,0 +1,83 @@
+#giftCompare img
+{
+	padding-left: 30%;
+}
+
+#main{
+	border-top: none !important;
+}
+
+input[type="radio"]{
+	height:auto;
+	width:auto;
+}
+
+#block-block-1061 h1.subhead a{
+	font-size:18px;
+}
+
+.pg-content-body .child-page{
+	padding:0px;
+	padding-bottom:20px;
+}
+
+#block-pgc-misc-blocks-mobilenav ul li {
+    list-style-image: none;
+    list-style-type: none;
+}
+
+#block-pgc-misc-blocks-mobilenav ul li a{
+	display:inline-block;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	width:auto;
+	height: 50px;
+}
+
+.webform-component-radios .form-type-radio input{
+	vertical-align: baseline;
+}
+
+#webform-component-i-we-have-included-bentley-university-in-my-our-estate-plans-and-accept-membership-in-the-1917-legacy-society{
+	position:relative;
+}
+
+#webform-component-i-we-have-included-bentley-university-in-my-our-estate-plans-and-accept-membership-in-the-1917-legacy-society label span{
+	position:absolute;
+	right:0px;
+}
+
+.webform-component-select_or_other input.select-or-other-other.form-text{
+	width:82%;
+}
+
+div.select-or-other div.form-type-textfield{
+	display:block !important;
+}
+
+#block-block-1101 a{
+	border-top:none;
+	color:#fff;
+	background:none;
+}
+
+body.one-sidebar.sidebar-first #main{
+	background:none;
+}
+
+@media only screen and (max-width: 999px) {
+	aside.sidebars{
+		display:none;
+	}
+	
+	div#main  div#content{
+		float:none;
+		width:100%;
+		margin:0px;
+	}
+	
+	.pg-wrap h1{
+		margin-bottom:10px;
+	}
+}

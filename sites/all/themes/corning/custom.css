@@ -1,0 +1,36 @@
+.pg-content-body .node-landing-page .details h2 a{
+	text-decoration:none;
+}
+
+#block-system-main-menu #main-menu li a {
+    font-family: "Gibson",Arial,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0px 5px 9px 10px;
+    display: block;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+
+.megamenu#main-menu li > a:hover, .megamenu#main-menu li:hover > a{
+    margin-bottom: -10px;
+    position: relative;
+    z-index: 999;
+    background-clip: padding-box;
+    background-color: #fff !important;
+    color: #000 !important;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.menu-360 .grid-4 p a:hover{
+    color: #000 !important;
+}
+
+.content .pane-page-title h2{
+	margin-bottom:0px;
+	padding-bottom:0px;
+}

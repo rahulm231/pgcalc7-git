@@ -1,0 +1,78 @@
+/**
+ * 8408788
+ * 7/30/15
+ * Chris Batt
+ * Vertical aligning the top of the image to the topo of the event table. 
+ */
+.pagetype_calendar .verbose_event  {
+	padding-top: 0;
+}
+.pagetype_calendar .verbose_event h2 {
+	margin-top: 0;
+}
+.pagetype_calendar .verbose_event table td {
+	vertical-align: top;
+}
+
+/* End Section */
+
+/**
+ * 8411399
+ * 8/18/15
+ * Chris Batt
+ * Customizing the pagepop "x" to close.
+ */
+
+@media screen {
+	div[aria-labelledby="ui-dialog-title-pagePopModal"] .ui-dialog-titlebar {
+	    opacity: .9;
+	    width: 20px;
+	    position: absolute;
+	    right: 0;
+	    z-index: 2;
+	    height: 20px;
+	}
+	div[aria-labelledby="ui-dialog-title-pagePopModal"] .ui-dialog-titlebar:hover {
+	    opacity: 1;
+	}
+	div[aria-labelledby="ui-dialog-title-pagePopModal"] .ui-dialog-titlebar a {
+	    opacity: 1;
+		margin-right: 8px;
+		color: #ffffff;
+	}
+	#pagePopModal .pagePopSlide img {
+		width: 100%;
+		height: auto;
+	}
+	#pagePopModal .pagePopSlide p {
+		margin: 0;
+	}
+	#pagePopModal .pagePopSlide {
+		padding: 0;
+	}
+	#pagePopModal .sliderContainer {
+		width:  100%!important;
+	}
+	#pagePopModal {
+		padding: 0;
+	}
+}
+
+/* End Section */
+
+/**
+ *
+ * Ticket: 8414751
+ * Author: Joel C.
+ * Make blog title's display consistently on blog list and blog single post page
+ * This makes title on blog list match blog post.
+ *
+ */
+
+.blogTopicTitle > a {
+  color: inherit;
+  font-family: inherit !important;
+  font-weight: inherit;
+}
+
+/* End Section */

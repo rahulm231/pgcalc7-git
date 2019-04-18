@@ -1,0 +1,19 @@
+.pg-page-btns .pgc-title-btn{
+	font-size: 18px;
+}
+
+nav#main-menu ul li a{
+	background:none;
+	border:none;
+}
+
+div.main-content{
+	padding-top:0px;
+}
+
+@media only screen and (max-width: 999px) {
+	
+  nav.sidebar{
+  	display:none;
+  }
+}

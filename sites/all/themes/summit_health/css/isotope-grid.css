@@ -1,0 +1,70 @@
+
+/* ---- isotope options ------ */
+#isotope-options {
+  background: none;
+  border-top: 1px solid rgba(234, 234, 234, 1);
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+  font-size: 0.9em;
+  margin-bottom: 40px;
+}
+#isotope-options ul, #isotope-options ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#isotope-options ul li {
+  display: inline;
+  float: left;
+  margin-right: 2em;
+}
+#isotope-options ul li a {
+  padding: 10px 0;
+  display: block;
+}
+
+/* -------- isotope grid -------- */
+#isotope-container {
+  margin: -20px 0 0 -20px;
+}
+.isotope-element {
+  float: left;
+  width: 225px;
+  height: 150;
+  margin: 20px 0 0 20px;
+  background: none;
+}
+.isotope-element img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.grid3 .isotope-element {
+  width: 306px;
+  height: 225px;
+}
+.grid2 .isotope-element {
+  width: 470px;
+  height: 305px;
+}
+.grid2.style2 .isotope-element {
+  width: 470px;
+  height: 470px;
+  margin-bottom: 20px;
+}
+.grid1 .isotope-element {
+  width: 100%;
+  height: 300px;
+  padding: 0;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+}
+.grid1 .isotope-element .image {
+  width: 460px;
+  float: left;
+  overflow: hidden;
+  margin-right: 40px;
+}
+.grid2.style2 .isotope-element .image {
+  margin-bottom: 10px;
+}

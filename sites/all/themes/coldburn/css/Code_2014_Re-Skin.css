@@ -1,0 +1,734 @@
+/*
+   ----------------------------------------------------------------
+   MAIN STYLE SHEET - School
+   ----------------------------------------------------------------
+
+*/
+.form-actions {
+    text-align: center;
+}
+
+#webform-component-first-name, #webform-component-last-name, #webform-component-email-address {
+    width:600px;
+    height:30px;
+}
+
+#webform-component-first-name label {
+}
+
+#edit-submitted-first-name, #edit-submitted-last-name, #edit-submitted-email-address {
+    width:450px;
+    float:right;
+}
+
+.title a:active {
+    background: #004C97 !important;
+    color:#fff !important;
+}
+
+.pgc-title-btn {
+  background: #ffffff !important;
+}
+
+.pgc-title-btn span {
+    color: #808080 !important;
+}
+
+#pgc-contact-block li a:hover {
+  color: #808080 !important;
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+    padding-left: 0px !important;
+    margin-bottom: 10px !important;
+}
+
+#pgc-contact-block li {
+    line-height: 140% !important;
+}
+/*
+#pgc-contact-block li.line_1 {
+    margin-bottom: 3px !important;
+}
+*/
+#pgc-contact-block li.line_2 a {
+    color: #00a9e0;
+}
+
+.icon-gift::before,.icon-staff::before {
+    content: none !important;
+}
+
+#pgc-contact-block li span {
+    padding-right: 0px !important;
+}
+
+#giftCompare td {
+    padding: 10px 20px 10px 20px !important;
+}
+
+#giftGuide .gg-btn-submit {
+    border-radius: 0px !important;
+}
+
+#giftCompare .gc-btn {
+    border-radius: 0px !important;
+}
+
+ul {
+    margin-left:-25px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+    font-size: 0em !important;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+    padding: 0px 0 !important;
+    margin: 0px 0 !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+.pg-gift-details .accordion-switch a {
+    color: #fff !important;
+}
+
+#main-menu li a {
+    line-height: 21px !important;
+    border-color: #D8D8D8 !important;
+    padding: 5px 25px 5px 15px !important;
+}
+
+#main-menu li.expanded a {
+/*    background: #004C97 url('/sites/all/themes/pgcalc_master/img/menu-arrow-down.png') center right no-repeat !important;*/
+}
+
+#main-menu ul ul li a {
+    padding-left: 30px !important;
+}
+
+#main-menu li.active-trail a {
+    /*! background: #004C97 !important; */
+/*    color: #00a9e0 !important;*/
+}
+
+#main-menu ul ul {
+    padding-left: 0px !important;
+}
+
+#main-menu li.collapsed a:hover {
+/*    background: #99D6EA url('/sites/all/themes/pgcalc_master/img/menu-arrow-right.png') center right no-repeat !important;*/
+}
+
+#main-menu li a:hover {
+    /*background: #99D6EA none repeat scroll 0% 0% !important;*/
+    color: #fff !important;
+}
+
+#block-system-main-menu h2 a {
+    line-height: 32px !important;
+    /*! color: #00a9e0 !important; */
+    border-top: 1px #d2d4d3 solid;
+}
+
+#block-system-main-menu h2 a:hover {
+    background: #004C97 !important;
+    color:white !important;
+}
+
+#main-menu li.expanded ul a {
+    /*! color: #004C97 !important; */
+}
+
+#main-menu ul li.expanded a {
+    color: #00a9e0 !important;
+}
+
+#main-menu li.expanded ul ul li a {
+    background: #FFF none repeat scroll 0% 0% !important;
+    font-family: "calibri",sans-serif !important;
+    color: #004C97 !important;
+}
+
+#main-menu li.active-trail a:hover {
+    background: #004C97 none repeat scroll 0% 0% !important;
+    color: #fff !important;
+}
+
+#main-menu li.expanded ul a:hover {
+    color: #000 !important;
+}
+
+#main-menu li.expanded ul ul li a.active {
+    background: #99D6EA none repeat scroll 0% 0% !important;
+}
+
+#main-menu li.expanded ul li a.active {
+    color: #00a9e0 !important;
+}
+
+/* =========================================
+	Customized CSS
+=========================================== */
+#topcontainer{
+  margin-bottom:40px !important;
+}
+/* =========================================
+	Common Site Elements
+=========================================== */
+body {
+  font-family: "calibri",sans-serif;
+  font-weight:400;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0.5em 0;
+	line-height:1em;
+	color:#004c97;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+	font-weight: 500;
+}
+
+.large, .large td { font-size: 14px !important; }
+
+h1{ font-size:1.6em;margin-top:0; }
+h2{ font-size:1.4em; }
+h3{ font-size:1.2em; }
+h4{ font-size:1em; }
+h5{ font-size:.9em; }
+h6{ font-size:.9em; }
+p { margin:1em 0; }
+
+#contentdiv p:first-child {
+    /*! margin-top:-4px; */
+}
+
+
+#logo_link { 
+	position: absolute;
+	margin: 0px;
+	width: 226px;
+        height: 88px;
+	text-indent: -9999px;
+}
+
+#contentdiv {
+	padding: 0px 20px 30px 21px;
+}
+
+#contentdiv a{
+    text-decoration:none;
+/*  font-family: "calibri",sans-serif;
+    */ /*! color: #004c97; */
+}
+
+#contentdiv a:hover{
+      color:#808080;
+}
+
+#topbanner {
+         background:url("/sites/all/themes/coldburn/cssAssets/ColburnLogov2.png") no-repeat left bottom;
+display:block;
+         height:128px;
+
+}
+
+.newspubdate {
+    font-style: normal;
+}
+ul.sub_list {
+    border:none;
+}
+a.sub_title, a.sub_title:link, a.sub_title:hover, a.sub_title:visited, a.sub_title_on, a.sub_title_on:link, a.sub_title_on:hover, a.sub_title_on:visited {
+    border:none;
+}
+#leftbanner {
+    padding-top:2px;
+}
+#rightbanner {
+     padding-right:2px;
+}
+/* =========================================
+	Doctype Element fix
+=========================================== */
+
+#leftbanner img, #rightbanner img, #bottombanner img, .mainNav img { vertical-align: top; }
+
+#topbanner a img, #leftbanner a img, #rightbanner a img, #bottombanner a img { border: 0px !important; }
+
+/* =========================================
+	Misc Site Elements
+=========================================== */
+
+.headerPhoto img { vertical-align: top; }
+.headerPhoto p { margin: 0px; }
+
+.footerLinks a { text-decoration: none; }
+.footerLinks a:hover { text-decoration: underline; }
+#controls {
+    display:none;
+}
+#mc_1, #mc_2 {
+   padding:0;
+}
+
+/* =========================================
+	Page Search Elements
+=========================================== */
+
+#keywords {
+        background: none transparent;
+	width: 140px;
+	height: 18px;
+	color: #9b9c9f;
+	padding: 0 2px;
+	margin-top: 0px !important; *margin-top:0px;
+	vertical-align: top;
+	display: inline;
+	border: 2px solid #cbcacd;
+        border-right:none;
+   font-family: "garamond",serif;
+        font-size:13px!important;
+}
+#ss_div form {
+	display:inline;
+	vertical-align: top;
+}
+
+#ss_div {
+	vertical-align: top;
+	margin: 0 0 0 10px;
+        float:left;
+}
+/* =========================================
+	Hierarchy + Page Tools
+=========================================== */
+
+.hier {
+	display:inline;
+}
+
+.hiersect {
+	position: absolute;
+	margin: 27px 0 0 132px;
+	height: auto;
+	width: 600px;
+	color: #fff;
+	font-size: 11px;
+}
+
+.tools {
+	position: absolute;
+	margin: 129px 0 0 738px;
+	text-align: right !important;
+	width: 150px;
+	padding-right: 0;
+	color: #fff;
+}
+
+/* =========================================
+	Nav + Quicklink Dropdowns
+=========================================== */
+
+#nav_menus div {
+	position:absolute; top:0px; left:0px;
+   font-family: "garamond",serif;
+	width:173px;
+	margin:0 0 0 0;
+	padding:0 0 10px 0;
+	FILTER: alpha(opacity=90);
+	-moz-opacity: .9;
+	opacity: .9;
+	-khtml-opacity: .9;
+}
+
+#nav_menus ul {
+	list-style-type:none;
+   font-family: "garamond",serif;
+width: 143px;
+	margin:0;
+	padding:0;
+	background:#808080 none;
+        text-align:center;
+}
+
+#nav_menus li {
+	padding: 0;
+   font-family: "garamond",serif;
+        border-bottom:solid 1px #FFF;
+}
+
+#nav_menus a {
+	display:block;
+   font-family: "calibri";
+	text-decoration:none;
+	padding: 6.8px;
+	font-size: 12px;
+	color:#fff;
+}
+
+#nav_menus a:hover {
+	background:#505050;
+   font-family: "calibri";
+	color:#FFF;
+}
+
+#dhtmlmenu_1485 {
+    width:139px!important;
+    margin-left:-1px!important;
+}
+#dhtmlmenu_1598 {
+    width:135px!important;
+}
+#dhtmlmenu_1599 {
+    width:139px!important;
+}
+#dhtmlmenu_2327 {
+    width:154px!important;
+}
+#dhtmlmenu_1566 {
+    width:152px!important;
+}
+#ql_menu {
+	position:absolute; top:0px; left:0px;
+	width:173px;
+	margin:0 0 0 0;
+	padding:0 0 10px 0;
+        background: url('../images/dropbottom.png') bottom left no-repeat;
+	FILTER: alpha(opacity=90);
+	-moz-opacity: .9;
+	opacity: .9;
+	-khtml-opacity: .9;
+}
+
+#ql_menu ul {
+	list-style-type:none;
+	margin:0;
+	padding:0 1px;
+	background:#808080 url('../images/droptop.png') bottom left no-repeat;
+}
+#ql_menu br {
+	display:none;
+}
+
+#ql_menu li {
+        padding: 2px 0 3px 0;
+	background: url('../images/dropborder.gif') bottom left no-repeat;  
+}
+
+#ql_menu a {
+	display:block;
+	text-decoration:none;
+	padding: 6px;
+	color:#fff;
+}
+
+#ql_menu a:hover {
+	background:#808080;
+	color:#808080;
+}
+.topNav {
+    width:100%;
+margin-left: 31px;
+    display:block;
+}
+.topNav ul {
+    list-style-type:none;
+    padding:0;
+    margin:15px 0 0 0;
+    font-size:19px;
+}
+.topNav li {
+    border-left:solid 1px #d2d4d3;
+width: 143px;
+    float:left;
+}
+.topNav li:last-child {
+    border-right:solid 1px #d2d4d3;
+}
+
+.topNav a {
+    float:left;
+    padding:7px 44px;
+    color:#004c97;
+    text-decoration:none;
+}
+
+.btmNav {
+    float:left;
+    margin:0 0 0 240px!important;
+}
+.btmNav ul {
+   list-style-type:none;
+    padding:0;
+    margin:0; 
+}
+.btmNav li {
+    float:left;
+    border-right:solid 1px #d2d4d3;
+}
+.btmNav li:last-child, .btmNav li.last {
+    border:none;
+}
+.btmNav a {
+    text-decoration:none;
+    padding:0 10px;
+    font-size:14px;
+    color:#00a9e0;
+}
+.btmNav a:visited, .btmNav a:active {
+    color:#00a9e0;
+}
+.btmNav a:hover {
+    color:#CCC!important;
+}
+.btmItems {
+    float:right;
+}
+#socialIcons {
+    float:left;
+    margin:2px 0 0 0;
+    list-type-style:none;
+    padding:0;
+}
+#socialIcons li {
+    padding-right:2px;
+    display:inline;
+}
+/* =========================================
+	Vertical Navigation
+=========================================== */
+
+.navmod {
+    border-top:solid 1px #D2D4D3;
+}
+.navmod a, .navmod ul li a {
+    color:#808080;
+}
+.navmod a, .navmod ul li a span {
+    font-size:16px!important;
+}
+.navmod li a:hover, .navmod li a.navon {
+     color:#FFF;
+}
+.navmod ul li a:hover span {
+    color:#000;
+}
+.navmod ul ul li a span {
+    color:#000;
+ font-family: "calibri",sans-serif !important;
+font-size: 14px !important;
+}
+.navmod ul ul li a:hover span {
+    color:#000000;
+}
+.navmod ul.navmodsub ul.navmodsub ul.navmodsub li a span {
+    color:#99d6ea!important;
+}
+.navmod ul.navmodsub ul.navmodsub ul.navmodsub li a.navon span {
+    color:#FFF!important;
+}
+.navmod ul.navmodsub ul.navmodsub ul.navmodsub li a:hover span {
+    color:#99d6ea!important;
+}
+.navmod ul.navmodsub ul.navmodsub ul.navmodsub ul.navmodsub li a span {
+    color:#AAAAAA!important;
+}
+.navmod ul.navmodsub ul.navmodsub ul.navmodsub ul.navmodsub li a.navon span {
+    color:#FFF!important;
+}
+.navmod ul.navmodsub ul.navmodsub ul.navmodsub ul.navmodsub li a:hover span {
+    color:#99d6ea!important;
+}
+.navmod li:nth-of-type(1) a:hover, .navmod li:nth-of-type(1) a.navon, #navtable_543 .nav_history  {
+    background-color:#004c97;
+    color:#FFF;
+letter-spacing: 1px; 
+}
+
+.navmod li:nth-of-type(2) a:hover, .navmod li:nth-of-type(2) a.navon, #navtable_544 .nav_history {
+    background-color:#004c97;
+    color:#FFF;
+}
+.navmod li:nth-of-type(3) a:hover, .navmod li:nth-of-type(3) a.navon, #navtable_545 .nav_history {
+    background-color:#004c97;
+    color:#FFF;
+}
+
+.navmod li:nth-of-type(4) a:hover, .navmod li:nth-of-type(4) a.navon, #navtable_546 .nav_history {
+    background-color:#004c97;
+    color:#FFF;
+}
+
+.navmod li:nth-of-type(5) a:hover, .navmod li:nth-of-type(5) a.navon, #navtable_547 .nav_history {
+    background-color:#004c97;
+    color:#FFF;
+}
+
+.navmod li:nth-of-type(6) a:hover, .navmod li:nth-of-type(6) a.navon, #navtable_530 .nav_history {
+    background-color:#004c97;
+    color:#FFF;
+}
+.navmod li:nth-of-type(7) a:hover, .navmod li:nth-of-type(7) a.navon, #navtable_530 .nav_history {
+    background-color:#004c97;
+    color:#FFF;
+}
+.navmod li:nth-of-type(8) a:hover, .navmod li:nth-of-type(8) a.navon, #navtable_582 .nav_history {
+    background-color:#004c97;
+    color:#FFF;
+}
+.navmod li:nth-of-type(n+9) a:hover, .navmod li:nth-of-type(n+9) a.navon, #navtable_530 .nav_history {
+    background-color:#004c97;
+    color:#FFF;
+}
+#navtable_543 ul li a.navon {
+    background-color:#99d6ea!important;
+}
+#navtable_543 ul li a.navon span {
+    color:#000000!important;
+}
+#navtable_544 ul li a.navon {
+    background-color:#99d6ea!important;
+}
+#navtable_544 ul li a.navon span {
+    color:#000000!important;
+}
+#navtable_545 ul li a.navon {
+    background-color:#99d6ea!important;
+}
+#navtable_545 ul li a.navon span {
+    color:#000000!important;
+}
+#navtable_546 ul li a.navon {
+    background-color:#99d6ea!important;
+}
+#navtable_546 ul li a.navon span {
+    color:#000000!important;
+}
+#navtable_547 ul li a.navon {
+    background-color:#99d6ea!important;
+}
+#navtable_547 ul li a.navon span {
+    color:#000000!important;
+}
+#navtable_582 ul li a.navon {
+    background-color:#99d6ea!important;
+}
+#navtable_582 ul li a.navon span {
+    color:#000000;
+}
+#navtable_530 ul li a.navon {
+    background-color:#99d6ea!important;
+}
+#navtable_530 ul li a.navon span {
+    color:#000000;
+}
+
+/* =========================================
+	Left Banner News
+=========================================== */
+
+#leftbanner .newspostitem {
+    padding-bottom:10px;
+}
+#leftbanner .newspostitem a {
+    color:#808080;
+    font-weight:400;
+    text-decoration:none;
+}
+#leftbanner .newspostitem a:hover {
+    color:#CCC;
+}
+.conservatoryNews {
+    border-top:solid 1px #004c97;
+    border-bottom:solid 1px #004c97;
+}
+.conservatoryNews h2 {
+    color:#004c97;
+}
+.performingartsNews {
+    border-top:solid 1px #004c97;
+    border-bottom:solid 1px #004c97;
+}
+.performingartsNews h2 {
+    color:#004c97;
+}
+.academyNews {
+    border-top:solid 1px #004c97;
+    border-bottom:solid 1px #004c97;
+}
+.academyNews h2 {
+    color:#004c97;
+}
+.danceNews {
+    border-top:solid 1px #004c97;
+    border-bottom:solid 1px #004c97;
+}
+.danceNews h2 {
+    color:#004c97;
+}
+.adultNews {
+    border-top:solid 1px #004c97;
+    border-bottom:solid 1px #004c97;
+}
+.adultNews h2 {
+    color:#004c97;
+}
+
+/* =========================================
+	Right Banner Items
+=========================================== */
+
+.rolloverImg a:hover img {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  opacity: 0.6;
+}
+.sectionTitle {
+    height:75px;
+    width:224px;
+    text-align:center;
+    font-size:22px;
+    line-height:22px;
+    display:table-cell;
+    vertical-align:middle;
+}
+.yui-calendar .calnavleft {
+    background: url("/sites/all/themes/coldburn/cssAssets/arrow_lft.png") no-repeat scroll 0 0 transparent !important;
+}
+.yui-calendar .calnavright {
+    background: url("/sites/all/themes/coldburn/cssAssets/arrow_rt.png") no-repeat scroll 0 0 transparent !important;
+}
+#feedicons {
+    margin:0 0 0 -50px;
+}
+.required {
+    color: #004c97;
+}
+#poweredby {
+    padding-top: 75px;
+}
+.calnavhover .options_titlebar {
+    border:none 0px transparent!important;
+    display:none!important;
+}
+.calnavhover .buttons {
+    background-color: #808080;
+    color: white;
+    font-weight: bold;
+    padding:2px!important;
+}
+.calendar_titlebar {
+    border: none!important;
+    border-bottom:solid 1px #CDCDCD!important;
+    border-top:solid 1px #CDCDCD!important;
+}
+
+
+.gtranslate { position: absolute; margin-top: 40px; margin-left: -730px;}
+.goog-te-gadget-simple .goog-te-menu-value {color:#818285 !important;} .goog-te-gadget-icon {display:none;} .goog-te-gadget-simple {padding:2px 5px 4px 5px; border-top: 1px solid #d5d5d5; }
+/* Custom CSS to change some link colors. */
+.newsposttitle > a {color:black;}
+.pagetype_misc_search .text_misc a {color:black;}

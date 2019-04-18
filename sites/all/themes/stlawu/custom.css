@@ -1,0 +1,133 @@
+#block-pgc-contact-block-pgc-contact-block{
+    font-size: 12px;
+    font-family: open_sansregular,arial;
+    line-height: 1.5em;
+    color: #666;
+    margin-top:10px;
+}
+
+#block-pgc-contact-block-pgc-contact-block h2.title{
+    color: #4b2b23;
+    font-family: open_sansbold,arial;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+#block-pgc-contact-block-pgc-contact-block .title-bar{
+  color: #4b2b23;
+  margin: 10px 0;
+}
+
+#block-pgc-contact-block-pgc-contact-block .views-field-nothing{
+  color: #4b2b23;
+}
+
+#block-pgc-slideshow-block-pgc-slideshow-block{
+	margin-top:10px;
+}
+
+
+#tabs-wrapper{
+	margin-top:60px;
+}
+
+
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+	margin-top:0px !important;
+}
+
+div.webform-component-textfield, div.webform-component-email{
+	text-align:left !important;
+	width:auto !important;
+	height: auto !important;
+}
+
+#webform-component-names, #webform-component-class-years, #webform-component-address, #webform-component-city-state-zip, #webform-component-dates-of-birth, #webform-component-will-or-living-amount, #webform-component-ira-retirement-value, #webform-component-life-insurance-value, #webform-component-charitable-trust-value, #webform-component-donor-advised-amount, #webform-component-other-gift-and-value, #webform-component-specific-dollar-amount, #webform-component-percentage, #webform-component-contingency{
+	text-align:center !important;
+}
+
+#node-153 #edit-submitted-preferred-phone{
+	width:76%;
+}
+
+#node-153 #edit-submitted-other-phone{
+	width: 80%;
+}
+
+#node-153 #edit-submitted-webform-component-preferred-email{
+	width:77%;
+}
+
+#node-153 #edit-submitted-webform-component-address-field{
+	width:85%;
+}
+
+#node-153 #edit-submitted-webform-component-class-years{
+	width:82%;
+}
+
+#node-153 #edit-submitted-your-name{
+	width:85%;
+}
+
+#edit-submitted-name, #edit-submitted-address-1, #edit-submitted-address-2, #edit-submitted-city, #edit-submitted-state, #edit-submitted-postal-code, #edit-submitted-country, #edit-submitted-e-mail, #edit-submitted-home-phone, #edit-submitted-brokerage-financial-institution-name, #edit-submitted-broker-contact-name, #edit-submitted-broker-contact-phone, #edit-submitted-broker-contact-fax, #edit-submitted-anticipated-transfer-date, #edit-submitted-stock-name, #edit-submitted-number-of-shares{
+	width: 60% !important;
+}
+
+@media only screen and (max-device-width: 960px) {
+  .section-departments #block-views-department-ct-block-1, .section-departments #block-views-department-ct-block-2 {
+    /* width: 714px !important; */
+  }
+}
+
+@media only screen and (max-width: 999px) {
+	.section-departments #page #block-slu-site-custom-slu-dept-primary-menu{
+		float: none;
+    	display: none;
+	}
+	.section-departments #block-views-department-ct-block-1, .section-departments #block-views-department-ct-block-2{
+		width: auto !important;
+	    float: none;
+	    margin: 29px;    	
+	}
+	#tabs-wrapper{
+		margin-top:0px;
+	}
+}
+
+/* Print page */
+
+.pg-wrap .pgc-print a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.pgc-print-preview{
+	font-family: polyregular,arial,sans-serif !important;
+}
+
+
+.pgc-print-preview .node a{
+	color: #4b2b23;
+}
+
+@media print {
+    .pgc-print-preview .node-homepage p img{
+    	width: 33% !important;
+    	height: auto !important;
+    }
+    .pgc-print-preview .node-general-content .field-item > p img{
+    	width: 30% !important;
+    	height: auto !important;
+    }
+    .pgc-stories > div{
+    	width:30% !important;
+    	margin:5px !important;
+    	float:left;
+    }
+    .pgc-stories > div img{
+    	width:90% !important;
+    	height: auto !important;
+    }
+    
+}

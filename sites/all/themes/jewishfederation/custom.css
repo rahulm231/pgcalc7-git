@@ -1,0 +1,25 @@
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0;
+}
+
+@media screen and (max-width: 415px) {
+  .pg-content-inline-blocks{
+  	float: none;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  body{
+  	background: none;
+  }
+  
+  .pg-page-header{
+  	padding-top:5px;
+  }
+  
+  aside.sidebars{
+  	display:none;
+  }
+  
+}

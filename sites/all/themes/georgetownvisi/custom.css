@@ -1,0 +1,104 @@
+@import "/sites/all/themes/georgetownvisi/css/fonts.css"; 
+
+#fsHeader .nav-main.is-fixed .fsNavLevel1 > a:before, .no-hero #fsHeader .nav-main .fsNavLevel1 > a:before {
+	background: url(/sites/all/themes/georgetownvisi/img/monogram.png) !important;
+}
+
+.header-top .seo-content p {
+	font-weight: bold !important;
+}
+.nav-utility-header ul li a {
+	font-weight: bold !important;
+}
+.nav-main .fsNavLevel1 li a {
+	font-weight: bold !important;
+}
+ul.fsNavLevel1 li a.active:before {
+	position: absolute;
+	top: 0;
+	content: '';
+	width: 10px;
+	height: 100%;
+	background: #ffe320;
+}
+ul.fsNavLevel1 .content > ul > li > a.active:before {
+	left: -22px;
+}
+ul.fsNavLevel1 .content > ul > li > ul > li > a.active:before {
+	left: -30px;
+}
+ul.fsNavLevel1 .content > ul > li > ul > li > ul > li > a.active:before {
+	left: -45px;
+}
+#fsPageBodyWrapper #fsPageBody #fsBannerLeft {
+	padding-top: 40px
+}
+#fsPageBodyWrapper #fsPageBody .fsElementContent {
+	padding-top: 40px
+}
+.fsNavPageInfo .fsNavPageThumbnail {
+	padding-left: 20px;
+}
+#titlebar-links .pgc-font-size a {
+	position: static !important;
+}
+#block-pgc-contact-block-pgc-contact-block ul li a {
+	position: static !important;
+}
+.nav-utility-header .fsNavLevel1 > li.fsNavParentPage > a::after {
+	content: "\f107";
+	font-family: "FontAwesome";
+	font-size: 18px;
+}
+.search-trigger-container::after {
+	content: "\f002";
+	font-family: "FontAwesome";
+}
+.nav-social .fsNavLevel1 [href*="facebook"]::before {
+	content: "\f09a";
+	font-family: "FontAwesome";
+}
+.nav-social .fsNavLevel1 [href*="twitter"]::before {
+	content: "\f099";
+	font-family: "FontAwesome";
+}
+.nav-social .fsNavLevel1 [href*="instagram"]::before {
+	content: "\f16d";
+	font-family: "FontAwesome";
+}
+.nav-social .fsNavLevel1 [href*="youtube"]::before {
+	content: "\f167";
+	font-family: "FontAwesome";
+}
+.pg-content-body ul {
+	list-style: none;
+	width: 65%;
+}
+.pg-content-body ul li {
+	position: relative;
+}
+.pg-content-body ul li:before {
+	content: '';
+	position: absolute;
+	top: 7px;
+	left: -20px;
+	width: 10px;
+	height: 10px;
+	background: #ffe320;
+	border-radius: 50%;
+}
+
+.header-image, header .interior-hero, .site-info-container {
+	display: none;
+}
+
+.pgc-brochure-body-text p{
+	font-family: "Gotham A", "Gotham B", sans-serif;
+}
+
+@media only screen and (max-width: 999px) {
+
+	#fsBannerLeft {
+		display: none;
+	}
+}

@@ -1,0 +1,71 @@
+#divResearchRss {
+  display: table;
+}
+.feedrow {
+  display: table-row;
+}
+.feeditem {
+  display: table-cell;
+}
+.feed-container-title {
+  margin-top: 10px;
+}
+.feed-container-date {
+  color: grey;
+}
+div.feedrow p {
+  text-align: left;
+}
+.rss-feed-image > .thumbnail {
+    height: 155px;
+}
+.rss-feed-image img {
+    position: absolute;
+    width: 360px;
+    margin-top: -50px;
+    clip: rect(50px 360px 205px 0px);
+}
+@media (max-width: 1200px) {
+    .rss-feed-image > .thumbnail {
+        height: 124px;
+    }
+    .rss-feed-image img {
+        position: absolute;
+        width: 290px;
+        margin-top: -30px;
+        clip: rect(30px 290px 154px 0px);
+    }
+}
+@media (max-width: 980px) {
+    .rss-feed-image > .thumbnail {
+        height: 93px;
+    }
+    .rss-feed-image img {
+        position: absolute;
+        width: 218px;
+        margin-top: -15px;
+        clip: rect(15px 218px 108px 0px);
+    }
+}
+@media (max-width: 768px) {
+    .rss-feed-image > .thumbnail {
+        height: auto;
+    }
+    .rss-feed-image img {
+        position: relative;
+        width: 100%;
+        margin-top: 0px;
+        clip: none;
+    }
+    .feeditem {
+        margin: 0px 0px 25px 0px;
+        border-bottom: 1px dashed #d2d2d2;
+    }
+    .feed-container-excerpt {
+        margin-bottom: 20px;
+    }
+    .feedrow>div:last-child {
+        border-bottom: none;
+        margin-bottom: 0px;
+    }
+}

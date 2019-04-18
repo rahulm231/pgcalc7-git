@@ -1,0 +1,24 @@
+@media only screen and (max-width: 999px) {
+	
+  .dialog-off-canvas-main-canvas .col-sm-4.bs-region.bs-region--right{
+display: none;
+  }
+  #block-pgc-misc-blocks-mobilenav
+  {
+  	top: 25px !important;
+  }
+  .pg-wrap
+  {
+  	margin-left: 15px;
+  }
+  .path-node .footer.container
+  {
+  	padding-bottom: 0px !important;
+  }
+}
+
+#block-system-main .child-page
+{
+  padding: 0px;
+    padding-bottom: 20px;
+}

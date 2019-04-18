@@ -1,0 +1,80 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * effra:
+ *   - http://typekit.com/eulas/00000000000000000001787b
+ *   - http://typekit.com/eulas/00000000000000000001787c
+ *   - http://typekit.com/eulas/00000000000000000001787f
+ *   - http://typekit.com/eulas/000000000000000000017879
+ *   - http://typekit.com/eulas/00000000000000000001787d
+ * ff-tisa-web-pro:
+ *   - http://typekit.com/eulas/00000000000000003b9b0789
+ *   - http://typekit.com/eulas/00000000000000003b9b0788
+ *   - http://typekit.com/eulas/00000000000000003b9b0784
+ *   - http://typekit.com/eulas/00000000000000003b9b0785
+ *
+ * © 2009-2018 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2018-07-12 16:31:49 UTC"}*/
+
+@import url("/sites/all/themes/uusc/css/p.css");
+
+@font-face {
+font-family:"ff-tisa-web-pro";
+src:url("/sites/all/themes/uusc/cssAssets/l") format("woff2"),url("/sites/all/themes/uusc/cssAssets/d") format("woff"),url("/sites/all/themes/uusc/cssAssets/a") format("opentype");
+font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"ff-tisa-web-pro";
+src:url("/sites/all/themes/uusc/cssAssets/5b50b87788a3f") format("woff2"),url("/sites/all/themes/uusc/cssAssets/5b50b877bbec9") format("woff"),url("/sites/all/themes/uusc/cssAssets/5b50b877eef96") format("opentype");
+font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"ff-tisa-web-pro";
+src:url("/sites/all/themes/uusc/cssAssets/5b50b8782d0ae") format("woff2"),url("/sites/all/themes/uusc/cssAssets/5b50b8785e0de") format("woff"),url("/sites/all/themes/uusc/cssAssets/5b50b8788c884") format("opentype");
+font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"ff-tisa-web-pro";
+src:url("/sites/all/themes/uusc/cssAssets/5b50b878c2ef1") format("woff2"),url("/sites/all/themes/uusc/cssAssets/5b50b87906ca8") format("woff"),url("/sites/all/themes/uusc/cssAssets/5b50b8797765f") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"effra";
+src:url("/sites/all/themes/uusc/cssAssets/5b50b879a8372") format("woff2"),url("/sites/all/themes/uusc/cssAssets/5b50b879d44c4") format("woff"),url("/sites/all/themes/uusc/cssAssets/5b50b87a0f76d") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"effra";
+src:url("/sites/all/themes/uusc/cssAssets/5b50b87a3d33c") format("woff2"),url("/sites/all/themes/uusc/cssAssets/5b50b87a6cf1a") format("woff"),url("/sites/all/themes/uusc/cssAssets/5b50b87a9968c") format("opentype");
+font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"effra";
+src:url("/sites/all/themes/uusc/cssAssets/5b50b87acb7a3") format("woff2"),url("/sites/all/themes/uusc/cssAssets/5b50b87b04deb") format("woff"),url("/sites/all/themes/uusc/cssAssets/5b50b87b3311b") format("opentype");
+font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"effra";
+src:url("/sites/all/themes/uusc/cssAssets/5b50b87b6306a") format("woff2"),url("/sites/all/themes/uusc/cssAssets/5b50b87b92ffa") format("woff"),url("/sites/all/themes/uusc/cssAssets/5b50b87bc299c") format("opentype");
+font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"effra";
+src:url("/sites/all/themes/uusc/cssAssets/5b50b87c061a9") format("woff2"),url("/sites/all/themes/uusc/cssAssets/5b50b87c347ea") format("woff"),url("/sites/all/themes/uusc/cssAssets/5b50b87c66d24") format("opentype");
+font-style:normal;font-weight:500;
+}
+
+.tk-ff-tisa-web-pro { font-family: "ff-tisa-web-pro",serif; }
+.tk-effra { font-family: "effra",sans-serif; }

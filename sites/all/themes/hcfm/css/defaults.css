@@ -1,0 +1,9 @@
+.sh-twitter .count {display:none!important;}
+.grid #comment-form form.hs-form {position: relative;}
+.grid #comment-form form.hs-form .hsformerror em {display:none;}
+.grid #comment-form form.hs-form .hsformerror p {font-size:0px;}
+.grid #comment-form form.hs-form .hsformerror p:after {content:"Please complete all mandatory fields.";font-size:16px;line-height:1em;}
+.grid #comment-form form.hs-form .hsformerror+.hsformerror {display:none!important;}
+html.hs-inline-edit #hs_cos_wrapper_post_body {font-size: 14px;}
+form.hs-form .hs_error_rollup {display:none!important;}
+.grid .hs_recaptcha.hs-form-field {display:block;clear:both;}

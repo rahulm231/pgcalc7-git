@@ -1,0 +1,101 @@
+/*-------------------------------------------	
+	Carnegie Mellon University
+	Giving CSS Only
+	July 2011
+	web-feedback@andrew.cmu.edu
+-------------------------------------------*/
+
+header h1 {margin-top: 61px}
+
+#scroll {
+    background-position: -74px 0;
+	height: 188px;
+	top:35%;
+}
+#home #scroll {top:58%}
+#scroll:hover, #scroll:focus {background-position:-111px 0}
+
+header nav ul li {padding-right: 56px}
+header nav ul li ul li a, header nav ul li ul li a:visited {width: 176px}
+
+article#feature h1 {font-size:40px}
+article#feature a small {
+	font-size: 12px;
+    font-weight: normal;
+}
+article#feature p {font-size:14px}
+article#feature img {
+	bottom: 40%;
+    box-shadow: none;
+    position: absolute;
+    right: 1em;
+}
+article#feature aside, section#subfeatures article, #promo a {width: 300px}
+article#feature aside {
+	float:right;
+	margin: -20px 0 0 20px;
+}
+article#feature aside a.btn, a.btn.large, article#feature aside a.btn:visited, a.btn.large:visited {
+	background:url(/sites/all/themes/carnegiemellon/cssAssets/sprites-bg-btns.png) repeat-x scroll 0 -122px #4d3940;
+	color:#fff;
+	font-family: Helvetica, Verdana, sans-serif;
+	font-size:16px;
+	font-weight: bold;
+    height: auto;
+    margin: 0.35em 0;
+    max-height: 38px;
+	padding: 0.8em 14px 0.6em;
+    position: relative;
+	text-decoration:none;
+    width: 272px;
+}
+article#feature aside a.btn.red, a.btn.large.red {
+	background-color:#7f0000;
+	background-position:0 0;
+}
+article#feature aside a.btn:hover, article#feature aside a.btn:focus, a.btn.large:hover, a.btn.large:focus {
+	background-color:#c55902;
+	background-position: 0 -61px;
+}
+a.btn.large {
+	font-weight:normal;
+	margin-right:1em;
+	width:auto;
+}
+
+footer nav ul li {width: 160px}
+
+/*-------------------------------------------	
+	Give Template
+-------------------------------------------*/
+
+body#give-template {background: url(/sites/all/themes/carnegiemellon/cssAssets/bg-redbar.png) repeat-x scroll 0 0 #fff !important} /* !important rule needed until jQuery 1.6.2 releases */
+#give-template header {height:auto}
+#give-template header h1 {
+	background-image: url(/sites/all/themes/carnegiemellon/cssAssets/make-a-gift-online.gif);
+	height: 40px;
+	margin-top:20px;
+}
+#give-template header h2 {font-size:24px}
+#give-template header img {
+	box-shadow:0.25em 0.25em 0 rgba(153, 153, 153, 0.42);
+	margin-top:60px;
+	max-height:300px;
+	max-width:100%;
+}
+#give-template section#content {
+	background: url(/sites/all/themes/carnegiemellon/cssAssets/sprites-bg-btns.png) repeat-x scroll 0 -412px transparent;
+	margin: 50px 0 0;
+    padding: 0;
+    width: 100%;
+}
+#give-template section#content div#form {
+	margin: 0 auto;
+    padding-top: 30px;
+    width: 960px;
+}
+#give-template footer {
+	background-color: #fff;
+    background-image: none;
+	margin-top: 80px;
+}

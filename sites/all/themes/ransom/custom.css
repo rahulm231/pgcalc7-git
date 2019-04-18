@@ -1,0 +1,27 @@
+#block-system-main-menu h2 a{
+	background:none;
+}
+
+.background-carousel .bg-images{
+	height: 79%;
+}
+
+.background-carousel .bg-images .bg-image{
+	height: 80%;
+}
+
+@media only screen and (max-width: 999px) {
+	
+  .region-menu #block-system-main-menu{
+  	display:none;
+  }
+  
+  #layout_region_1 ul{
+  	display:block;
+  }
+  
+  #layout_region_1 li img{
+	width:100% !important;
+	height:auto !important;
+  }
+}

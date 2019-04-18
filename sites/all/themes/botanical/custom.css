@@ -1,0 +1,71 @@
+.pg-page-header h1{
+	float:none;
+}
+
+#block-pgc-titlebar-block-pgc-titlebar-block .content, .pg-page-btns{
+	margin-top:0px !important;
+}
+
+
+
+#block-blockify-blockify-page-title{
+	border-bottom: 1px solid #c9d7b2;
+}
+
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0;
+}
+
+.pg-content-body .child-page{
+	padding-top:0px;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	padding:0px;
+	background-color:#365a0c;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: -8px;
+    top: -8px;
+    position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn{
+	padding:0px;
+	margin-top:5px;
+	margin-right:5px;
+}
+
+@media only screen and (max-device-width: 768px) {
+	#SubPageBodyContentRight{
+		display:none;
+	}
+	#SubPageBodyContentLeft, #SubPageBodyContentLeftTitle {
+	    float: none;
+	    width: 100%;
+	}
+	#SubPageBodyContentLeftTitleHeader{
+		width:100%;
+		/*background-repeat:repeat;*/
+	}
+	#SubPageBodyContentLeftTitleContent, #SubPageBodyContentLeftTitleFooter {
+    	width: auto;
+    	/*background-repeat:repeat;*/
+    }
+    #SubPageBodyContentLeft .ContentPane{
+    	width:auto;
+    	margin:10px;
+    }
+    	
+}
+
+@media only screen and (max-width: 567px) {
+	/*
+  .pg-content-inline-blocks{
+  	float:none;
+  	margin-left:0;
+  }*/
+}

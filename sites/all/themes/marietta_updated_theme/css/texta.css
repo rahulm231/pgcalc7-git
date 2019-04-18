@@ -1,0 +1,446 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3104302, 2015-10-07T16:32:11-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: TextaAlt-Thin by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-thin/
+ *
+ * Webfont: Texta-BlackIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/black-italic/
+ *
+ * Webfont: Texta-BoldIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/bold-italic/
+ *
+ * Webfont: Texta-Bold by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/bold/
+ *
+ * Webfont: Texta-Black by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/black/
+ *
+ * Webfont: Texta-Book by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/book/
+ *
+ * Webfont: Texta-BookIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/book-italic/
+ *
+ * Webfont: Texta-HeavyIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/heavy-italic/
+ *
+ * Webfont: Texta-Heavy by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/heavy/
+ *
+ * Webfont: Texta-It by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/italic/
+ *
+ * Webfont: Texta-LightIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/light-italic/
+ *
+ * Webfont: Texta-Light by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/light/
+ *
+ * Webfont: Texta-MediumIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/medium-italic/
+ *
+ * Webfont: Texta-Medium by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/medium/
+ *
+ * Webfont: Texta-Regular by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/regular/
+ *
+ * Webfont: Texta-ThintIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/thin-italic/
+ *
+ * Webfont: Texta-Thin by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/thin/
+ *
+ * Webfont: TextaAlt-BlackIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-black-italic/
+ *
+ * Webfont: TextaAlt-Black by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-black/
+ *
+ * Webfont: TextaAlt-BoldIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-bold-italic/
+ *
+ * Webfont: TextaAlt-Bold by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-bold/
+ *
+ * Webfont: TextaAlt-BookIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-book-italic/
+ *
+ * Webfont: TextaAlt-Book by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-book/
+ *
+ * Webfont: TextaAlt-HeavyIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-heavy-italic/
+ *
+ * Webfont: TextaAlt-Heavy by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-heavy/
+ *
+ * Webfont: TextaAlt-It by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-italic/
+ *
+ * Webfont: TextaAlt-LightIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-light-italic/
+ *
+ * Webfont: TextaAlt-Light by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-light/
+ *
+ * Webfont: TextaAlt-MediumIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-medium-italic/
+ *
+ * Webfont: TextaAlt-Medium by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-medium/
+ *
+ * Webfont: TextaAlt-Regular by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-regular/
+ *
+ * Webfont: TextaAlt-ThintIt by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/alt-thin-italic/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3104302
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2014 by Daniel Hernandez &amp; Miguel Hernandez. All rights reserved.
+ *
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("/sites/all/themes/marietta_updated_theme/css/2f5e2e");
+
+
+@font-face {
+  font-family: 'Texta-Regular';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_E_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_E_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_E_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_E_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_E_0.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: 'Texta-It';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_9_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_9_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_9_0.woff2') format('woff2'),url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_9_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_9_0.ttf') format('truetype');
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: 'Texta-Bold';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_3_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_3_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_3_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_3_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_3_0.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: 'Texta-BoldIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_2_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_2_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_2_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_2_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_2_0.ttf') format('truetype');
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: 'Texta-Black';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_4_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_4_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_4_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_4_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_4_0.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 800;
+}
+
+
+@font-face {
+  font-family: 'Texta-BlackIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1_0.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 800;
+}
+
+/*
+@font-face {
+  font-family: 'Texta-Book';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_5_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_5_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_5_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_5_0.woff') format('woff'),url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_5_0.ttf') format('truetype');}
+
+
+@font-face {
+  font-family: 'Texta-BookIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_6_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_6_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_6_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_6_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_6_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Texta-HeavyIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_7_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_7_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_7_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_7_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_7_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Texta-Heavy';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_8_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_8_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_8_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_8_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_8_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Texta-LightIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_A_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_A_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_A_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_A_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_A_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Texta-Light';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_B_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_B_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_B_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_B_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_B_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Texta-MediumIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_C_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_C_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_C_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_C_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_C_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Texta-Medium';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_D_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_D_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_D_0.woff2') format('woff2'),url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_D_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_D_0.ttf') format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Texta-ThintIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_F_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_F_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_F_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_F_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_F_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Texta-Thin';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_10_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_10_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_10_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_10_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_10_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-Thin';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_0_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_0_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_0_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_0_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_0_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TextaAlt-BlackIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_11_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_11_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_11_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_11_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_11_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-Black';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_12_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_12_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_12_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_12_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_12_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-BoldIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_13_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_13_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_13_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_13_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_13_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-Bold';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_14_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_14_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_14_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_14_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_14_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-BookIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_15_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_15_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_15_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_15_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_15_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-Book';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_16_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_16_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_16_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_16_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_16_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-HeavyIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_17_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_17_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_17_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_17_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_17_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-Heavy';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_18_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_18_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_18_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_18_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_18_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-It';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_19_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_19_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_19_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_19_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_19_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-LightIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1A_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1A_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1A_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1A_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1A_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-Light';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1B_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1B_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1B_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1B_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1B_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-MediumIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1C_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1C_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1C_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1C_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1C_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-Medium';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1D_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1D_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1D_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1D_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1D_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-Regular';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1E_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1E_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1E_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1E_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1E_0.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TextaAlt-ThintIt';
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1F_0.eot');
+  src: url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1F_0.eot?#iefix') format('embedded-opentype'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1F_0.woff2') format('woff2'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1F_0.woff') format('woff'),
+       url('/sites/all/themes/marietta_updated_theme/cssAssets/2F5E2E_1F_0.ttf') format('truetype');
+}
+*/

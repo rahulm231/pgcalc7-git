@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]> <html lang="en-US" class="lt-ie9" original-class="lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><html lang="en-US">
+<!--<![endif]--><head>
+<meta charset="utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"87d38be11c","applicationID":"11580779","transactionName":"JVgLEhBaXg4BSxgTWQFSFkkKVFwGCFxoEFQTUA==","queueTime":0,"applicationTime":968,"agent":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwMPVVVUGwIBUVlSAAYO"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);</script><title>Ways to Give - Buckingham Browne &amp; Nichols</title>
+<link rel="icon" href="/uploaded/favicon.ico">
+<meta name="description" content="Ways to Give - Buckingham Browne &amp; Nichols">
+<meta name="keywords" content="Ways to Give, Buckingham Browne &amp; Nichols">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="canonical" href="https://www.bbns.org/support-bbn/ways-to-give">
+<meta property="og:url" content="http://www.bbns.org/support-bbn/ways-to-give">
+<meta property="og:description" content="Ways to Give - Buckingham Browne &amp; Nichols">
+<meta property="og:title" content="Ways to Give - Buckingham Browne &amp; Nichols">
+<meta property="og:type" content="website">
+<link href="/sites/all/themes/bbns/css/66185b3e6c58695412616513af368a94.css" media="all" rel="stylesheet">
+<!-- CF Styles Manager --><link href="/sites/all/themes/bbns/css/styles.cfm" media="screen" rel="stylesheet">
+<link href="/sites/all/themes/bbns/css/main.css" media="all" rel="stylesheet">
+<link href="/sites/all/themes/bbns/css/support.custom.css" media="all" rel="stylesheet">
+<script src="/sites/all/themes/bbns/js/fa64649ea7da3d2190ca747e14d53681.js"></script><script src="/sites/all/themes/bbns/js/zsl3bny.js"></script><script>try{Typekit.load({ async: true });}catch(e){}</script><meta name="google-site-verification" content="O83Q8VIC2ASb3FRnqQDeI1PWjAeP7PmQmEUm9Mj4Epc">
+<script type="text/javascript">
+ (function(window) {
+ window.FS.currentPage = {
+ dateFormat: 'md',
+ timeFormat: '12'
+ }
+ })(window);
+ </script>
+</head>
+<body class="fsHasHeader fsHasLeftBanner fsHasMenu fsHasFooter fsHasOneColumnLayout fsSection157 fsHasTheme2" original-class="fsHasHeader fsHasLeftBanner fsHasMenu fsHasFooter fsHasOneColumnLayout fsSection157 fsHasTheme2" data-pageid="162">
+ 
+<noscript>
+ <iframe src="//www.googletagmanager.com/ns.html?id=GTM-P3BGC7" height="0" width="0" style="display:none;visibility:hidden">
+ </iframe>
+ </noscript>
+ <script>
+ (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+ '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+ })(window,document,'script','dataLayer','GTM-P3BGC7');
+ </script><div id="fsPageWrapper">
+ <div id="fsMenu">
+ <div class=" fsMenu fsStyleAutoclear" original-class=" fsMenu fsStyleAutoclear" id="fsEl_493">
+ <div class="fsElement fsContainer mobile-nav-container" original-class="fsElement fsContainer mobile-nav-container" id="fsEl_3248">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsNavigation fsList mobile-main-nav" original-class="fsElement fsNavigation fsList mobile-main-nav" id="fsEl_3249">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/about">About BB&amp;N</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/admission/welcome-from-the-director">Admission</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses">Our Campuses</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics">Academics</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts">Arts</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/athletics">Athletics</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/news-events/latest-news-from-bbn">News &amp; Events</a>
+ </li>
+ <li class="fsNavCurrentPageAncestor" original-class="fsNavCurrentPageAncestor">
+ <a href="http://www.bbns.org/support-bbn">Support BB&amp;N</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+<div class="fsElement fsContent mobile-util-nav" original-class="fsElement fsContent mobile-util-nav" id="fsEl_3250">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <ul>
+<li><a href="http://www.bbns.org/fs/pages/2" data-page-name="Home">Summer</a></li>
+<li>
+<a href="#" target="_blank">Make a Gift</a> </li>
+<li>
+<a href="http://www.bbns.org/fs/pages/167" data-page-name="Alumni/ae">Alumni A/E</a> </li>
+<li><a href="http://www.bbns.org/fs/pages/166" data-page-name="Parents">Parents</a></li>
+</ul>
+<p><br></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+ </div>
+ <header id="fsHeader"><div class=" fsBanner fsStyleAutoclear" original-class=" fsBanner fsStyleAutoclear" id="fsEl_4351">
+ <div class="fsElement fsContainer header-top-placeholder" original-class="fsElement fsContainer header-top-placeholder" id="fsEl_4352">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContainer header-top-container" original-class="fsElement fsContainer header-top-container" id="fsEl_4353">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContainer header-top-container-inner" original-class="fsElement fsContainer header-top-container-inner" id="fsEl_4354">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsNavigation fsList nav-main" original-class="fsElement fsNavigation fsList nav-main" id="fsEl_4355">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li class="fsNavParentPage" original-class="fsNavParentPage">
+ <a href="http://www.bbns.org/about">About BB&amp;N</a>
+ <div class="fsNavPageInfo" original-class="fsNavPageInfo">
+ <div class="menu-set-container">
+ <div class="fsNavPageThumbnail" original-class="fsNavPageThumbnail"><img src="/sites/all/themes/bbns/img/nav-image-1.jpg"></div>
+ <ul class="fsNavLevel2" original-class="fsNavLevel2"><li>
+ <a href="http://www.bbns.org/about/welcome-from-the-head-of-school">Welcome from Head of School Rebecca T. Upham</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/mission-values">Mission &amp; Values</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/quick-facts">Quick Facts</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/bbn-cambridge">BB&amp;N &amp; Cambridge</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/diversity">Diversity</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/history-tradition">History &amp; Tradition</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/leadership">Leadership</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/health-services">Health Services</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/employment-opportunities">Employment Opportunities</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/faculty-staff-directory">Faculty &amp; Staff Directory</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/summer-bbn">Summer @ BB&amp;N</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/contact-us-directions">Contact Us &amp; Directions</a>
+ </li>
+ </ul>
+ <div class="fsNavPageDescription" original-class="fsNavPageDescription">
+<a href="http://www.bbns.org/uploaded/PDFs/Upper_School/US_Fact_Sheet_2015.pdf" class="fs_style_36" original-class="fs_style_36" target="_blank" data-file-name="US_Fact_Sheet_2015.pdf">US FACT Sheet 2015-2016</a>
+<a href="http://www.bbns.org/fs/pages/158" class="fs_style_45" original-class="fs_style_45" data-page-name="Make a Gift Now">Make a Gift Now</a>
+<a href="http://www.bbns.org/fs/pages/116" class="fs_style_50" original-class="fs_style_50" data-page-name="Summer @ BB&amp;N">Summer @ BB&amp;N</a>
+</div></div></div>
+ </li>
+ <li class="fsNavParentPage" original-class="fsNavParentPage">
+ <a href="http://www.bbns.org/admission/welcome-from-the-director">Admission</a>
+ <div class="fsNavPageInfo" original-class="fsNavPageInfo">
+ <div class="fsNavPageDescription" original-class="fsNavPageDescription">
+<div class="menu-set-container"> 
+ <div class="fsNavPageThumbnail" original-class="fsNavPageThumbnail"><img src="/sites/all/themes/bbns/img/nav-admission.jpg"></div>
+ <ul class="fsNavLevel2" original-class="fsNavLevel2"><li>
+ <a href="http://www.bbns.org/admission/welcome-from-the-director">Welcome from the Director</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/admission/why-choose-bbn">Why Choose BB&amp;N?</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/admission/bbn-viewbooks">BB&amp;N Viewbooks</a>
+ </li>
+ <li>
+ <a href="https://pws.inresonance.com/school/bbns/inquiry.php" target="_blank">Online Inquiry Form</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/admission/how-to-apply">How to Apply</a>
+ </li>
+ <li>
+ <a href="https://pws.inresonance.com/school/bbns/index.php" target="_blank">Online Application Form</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/admission/tuition-financial-aid">Tuition &amp; Financial Aid</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/admission/admission-tour-guides">Admission Tour Guides</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/admission/transportation-options">Transportation Options</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/admission/international-applicants">International Applicants</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/admission/meet-the-admissions-staff">Meet the Admissions Staff</a>
+ </li>
+ </ul>
+ <div class="fsNavPageDescription" original-class="fsNavPageDescription">
+<a href="http://www.bbns.org/fs/pages/626" class="fs_style_34" original-class="fs_style_34" data-page-name="Open House">Open House 2016</a>
+<a href="http://www.bbns.org/fs/pages/121" class="fs_style_36" original-class="fs_style_36" data-page-name="Why Choose BB&amp;N?">
+Admission Viewbooks</a>
+</div></div>
+</div>
+ </li>
+ <li class="fsNavParentPage" original-class="fsNavParentPage">
+ <a href="http://www.bbns.org/our-campuses">Our Campuses</a>
+ <div class="fsNavPageInfo" original-class="fsNavPageInfo">
+ <div class="menu-set-container"> 
+ <div class="fsNavPageThumbnail" original-class="fsNavPageThumbnail"><img src="/sites/all/themes/bbns/img/nav-image-2.jpg"></div>
+ <div class="fsElement fsContainer sub-nav-set campus-sub-nav">
+   <div class="fsElementContent">
+     <div class="fsElement fsContainer left-container">
+	   <div class="fsElementContent">
+         <div class="fsElement fsContent nav-parent">
+		   <div class="fsElementContent">
+    		 <p><a href="/fs/pages/132" data-page-name="Lower School Campus">Lower School Campus</a></p>
+		   </div>
+		 </div>
+		 <div class="fsElement fsNavigation fsList nav">
+		   <div class="fsElementContent">
+    	     <nav>
+        	   <ul class="fsNavLevel1">
+                 <li>
+				   <a href="http://www.bbns.org/our-campuses/lower-school-campus/directors-welcome">Director's Welcome</a>
+				 </li>
+				 <li>
+				   <a href="http://www.bbns.org/our-campuses/lower-school-campus/meet-our-faculty-staff">Meet Our Faculty &amp; Staff</a>
+				 </li>
+				 <li>
+				   <a href="http://www.bbns.org/our-campuses/lower-school-campus/special-programs">Special Programs</a>
+				 </li>
+				 <li>
+				   <a href="http://www.bbns.org/our-campuses/lower-school-campus/after-school-programs">After School Programs</a>
+				 </li>
+				 <li>
+				   <a href="http://www.bbns.org/our-campuses/lower-school-campus/teacher-training-institute">Teacher Training Institute</a>
+				 </li>
+        	   </ul>
+			 </nav>
+		   </div>
+	     </div>
+		 <div class="fsElement fsContent nav-parent">
+		   <div class="fsElementContent">
+	       <p><a href="http://www.bbns.org/fs/pages/133" data-page-name="Middle School Campus">Middle School Campus</a></p>
+	     </div>
+       </div>
+		<div class="fsElement fsNavigation fsList nav">
+		  <div class="fsElementContent">
+	        <nav>
+	          <ul class="fsNavLevel1">
+	            <li>
+				  <a href="http://www.bbns.org/our-campuses/middle-school-campus/directors-welcome">Director's Welcome</a>
+				</li>
+				<li>
+					<a href="http://www.bbns.org/our-campuses/middle-school-campus/meet-our-faculty-staff">Meet Our Faculty &amp; Staff</a>
+				</li>
+				<li>
+					<a href="http://www.bbns.org/our-campuses/middle-school-campus/lunch-service">Lunch Service</a>
+				</li>
+				<li>
+					<a href="http://www.bbns.org/our-campuses/middle-school-campus/after-school-program">After School Program</a>
+				</li>
+				<li>
+					<a href="http://www.bbns.org/our-campuses/middle-school-campus/special-programs">Special Programs</a>
+				</li>
+				<li>
+					<a href="http://www.bbns.org/our-campuses/middle-school-campus/clubs-organizations">Clubs &amp; Organizations</a>
+				</li>
+	          </ul>
+			</nav>
+		  </div>
+		</div>
+  	  </div>
+  	</div>
+	<div class="fsElement fsContainer right-container">
+	  <div class="fsElementContent">
+        <div class="fsElement fsContent nav-parent">
+		  <div class="fsElementContent">
+    		<p><a href="http://www.bbns.org/fs/pages/134" data-page-name="Upper School Campus">Upper School Campus</a></p>
+		  </div>
+		</div>
+		<div class="fsElement fsNavigation fsList nav">
+		  <div class="fsElementContent">
+		    <nav>
+		      <ul class="fsNavLevel1">
+		        <li>
+				  <a href="http://www.bbns.org/our-campuses/upper-school-campus/directors-welcome">Director's Welcome</a>
+				</li>
+				<li>
+					<a href="http://www.bbns.org/our-campuses/upper-school-campus/meet-our-faculty-staff">Meet Our Faculty &amp; Staff</a>
+				</li>
+				<li>
+					<a href="http://www.bbns.org/our-campuses/upper-school-campus/special-programs">Special Programs</a>
+				</li>
+				<li>
+					<a href="http://www.bbns.org/our-campuses/upper-school-campus/clubs-organizations">Clubs &amp; Organizations</a>
+				</li>
+				<li>
+					<a href="http://www.bbns.org/our-campuses/upper-school-campus/community-service">Community Service</a>
+				</li>
+				<li>
+					<a href="http://www.bbns.org/our-campuses/upper-school-campus/college-counseling">College Counseling</a>
+				</li>		
+		      </ul>
+			</nav>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+ <div class="fsNavPageDescription" original-class="fsNavPageDescription">
+<a href="http://www.bbns.org/fs/pages/219" class="fs_style_40" original-class="fs_style_40" data-page-name="After School Programs">LS After School Program</a>
+<a href="http://www.bbns.org/fs/pages/266" class="fs_style_42" original-class="fs_style_42" data-page-name="Pricing">MS Lunch Ordering</a>
+<a href="http://www.bbns.org/uploaded/PDFs/Upper_School/US_Fact_Sheet_2015.pdf" class="fs_style_36" original-class="fs_style_36" target="_blank" data-file-name="US_Fact_Sheet_2015.pdf">US Fact Sheet 2015-2016</a>
+<a href="http://www.bbns.org/fs/pages/128" class="fs_style_34" original-class="fs_style_34" data-page-name="Transportation Options">Transportation Options</a>
+</div></div></div>
+ </li>
+ <li class="fsNavParentPage" original-class="fsNavParentPage">
+ <a href="http://www.bbns.org/academics">Academics</a>
+ <div class="fsNavPageInfo" original-class="fsNavPageInfo">
+ <div class="menu-set-container"> 
+ <div class="fsNavPageThumbnail" original-class="fsNavPageThumbnail"><img src="/sites/all/themes/bbns/img/nav-academics.jpg"></div>
+ <div class="fsElement fsContainer sub-nav-set academics-sub-nav">
+   <div class="fsElementContent">
+     <div class="fsElement fsContainer left-container">
+	   <div class="fsElementContent">
+    	 <div class="fsElement fsContent nav-parent">
+		   <div class="fsElementContent">
+    	     <p><a href="http://www.bbns.org/fs/pages/136" data-page-name="Lower School Academics">Lower School Academics</a></p>
+		   </div>
+		 </div>
+		 <div class="fsElement fsNavigation fsList nav">
+		   <div class="fsElementContent">
+    	     <nav>
+        	   <ul class="fsNavLevel1">
+            	 <li>
+				   <a href="http://www.bbns.org/academics/lower-school-academics/meet-our-faculty-staff">Meet Our Faculty &amp; Staff</a>
+				 </li>
+				 <li>
+				   <a href="http://www.bbns.org/academics/lower-school-academics/curriculum-overviewskill-map">Curriculum Overview/Skill Map</a>
+				 </li>
+				 <li>
+				   <a href="http://www.bbns.org/academics/lower-school-academics/departments">Departments</a>
+				 </li>
+				 <li>
+					<a href="http://www.bbns.org/academics/lower-school-academics/library">Library</a>
+				 </li>
+				 <li>
+					<a href="http://www.bbns.org/academics/lower-school-academics/technology">Technology</a>
+				 </li>
+				 <li>
+					<a href="http://www.bbns.org/academics/lower-school-academics/student-support">Student Support</a>
+				 </li>
+        	</ul>
+		  </nav>
+		</div>
+	  </div>
+	  <div class="fsElement fsContent nav-parent">
+	    <div class="fsElementContent">
+		  <p><a href="http://www.bbns.org/fs/pages/137" data-page-name="Middle School Academics">Middle School Academics</a></p>		
+		</div>
+	  </div>
+	  <div class="fsElement fsNavigation fsList nav">	
+	    <div class="fsElementContent">
+	      <nav>
+	        <ul class="fsNavLevel1">
+	          <li>
+				<a href="http://www.bbns.org/academics/middle-school-academics/meet-our-faculty-staff">Meet Our Faculty &amp; Staff</a>
+			  </li>
+			  <li>
+				<a href="http://www.bbns.org/academics/middle-school-academics/departments">Departments</a>
+			  </li>
+			  <li>
+				<a href="http://www.bbns.org/academics/middle-school-academics/library">Library</a>
+			  </li>
+			  <li>
+				<a href="http://www.bbns.org/academics/middle-school-academics/technology">Technology</a>
+			  </li>
+			  <li>
+				<a href="http://www.bbns.org/academics/middle-school-academics/student-support">Student Support</a>
+			  </li>	
+	        </ul>
+		  </nav>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <div class="fsElement fsContainer right-container">
+    <div class="fsElementContent">
+      <div class="fsElement fsContent nav-parent">
+		<div class="fsElementContent">
+    	  <p><a href="http://www.bbns.org/fs/pages/138" data-page-name="Upper School Academics">Upper School Academics</a></p>
+		</div>
+	  </div>
+	  <div class="fsElement fsNavigation fsList nav">
+		<div class="fsElementContent">
+    	  <nav>
+        	<ul class="fsNavLevel1">
+              <li>
+				<a href="http://www.bbns.org/academics/upper-school-academics/meet-our-faculty-staff">Meet Our Faculty &amp; Staff</a>
+			  </li>
+			  <li>
+				<a href="http://www.bbns.org/academics/upper-school-academics/departments">Departments</a>
+			  </li>
+			  <li>
+				<a href="http://www.bbns.org/academics/upper-school-academics/library">Library</a>
+			  </li>
+			  <li>
+				<a href="http://www.bbns.org/academics/upper-school-academics/technology">Technology</a>
+			  </li>
+			  <li>
+				<a href="http://www.bbns.org/academics/upper-school-academics/global-online-academy">Global Online Academy</a>
+			  </li>
+			  <li>
+				<a href="http://www.bbns.org/uploaded/PDFs/Upper_School/Program_Planning_Guide_2016-17.pdf?1458223750482" target="_blank">Program Planning Guide</a>
+			  </li>
+			  <li>
+				<a href="http://www.bbns.org/academics/upper-school-academics/student-support">Student Support</a>
+			  </li>
+        	</ul>
+		  </nav>
+		</div>
+	  </div>
+	</div>
+  </div>
+ </div>
+</div>
+ <div class="fsNavPageDescription" original-class="fsNavPageDescription">
+<a href="http://www.bbns.org/uploaded/PDFs/Upper_School/Exam_Information_and_Schedule_Dec_2016_.pdf" class="fs_style_36" original-class="fs_style_36" target="_blank" data-file-name="Exam_Information_and_Schedule_Dec_2016_.pdf"><span id="selection-marker-1" class="redactor-selection-marker" original-class="redactor-selection-marker"></span>US Winter Exam Information<span id="selection-marker-2" class="redactor-selection-marker" original-class="redactor-selection-marker"></span></a>
+<a href="http://www.bbns.org/cf_news/view.cfm?newsid=355" class="fs_style_40" original-class="fs_style_40" target="_blank">Zack Mcleod '10 Honored At Middle School Motto Assembly</a>
+<a href="http://www.bbns.org/uploaded/PDFs/Upper_School/Program_Planning_Guide_2016-17_7.19.16.pdf" class="fs_style_36" original-class="fs_style_36" target="_blank" data-file-name="Program_Planning_Guide_2016-17_7.19.16.pdf">US Program Planning Guide</a>
+</div></div></div>
+ </li>
+ <li class="fsNavParentPage" original-class="fsNavParentPage">
+ <a href="http://www.bbns.org/arts">Arts</a>
+ <div class="fsNavPageInfo" original-class="fsNavPageInfo">
+ <div class="menu-set-container"> 
+ <div class="fsNavPageThumbnail" original-class="fsNavPageThumbnail"><img src="/sites/all/themes/bbns/img/nav-arts.jpg"></div>
+ <div class="fsElement fsContainer sub-nav-set arts-sub-nav">
+   <div class="fsElementContent">
+     <div class="fsElement fsContainer left-container">
+	   <div class="fsElementContent">
+    	 <div class="fsElement fsContent nav-parent">
+		   <div class="fsElementContent">
+    	     <p><a href="http://www.bbns.org/fs/pages/140" data-page-name="Lower School Arts">Lower School Arts</a></p>
+		   </div>
+		 </div>
+		 <div class="fsElement fsNavigation fsList nav">
+		   <div class="fsElementContent">
+    	     <nav>
+        	   <ul class="fsNavLevel1">
+            	 <li>
+				   <a href="http://www.bbns.org/arts/lower-school-arts/visual-arts">Visual Arts</a>
+				 </li>
+				 <li>
+					<a href="http://www.bbns.org/arts/lower-school-arts/music">Music</a>
+				 </li>
+				 <li>
+					<a href="http://www.bbns.org/arts/lower-school-arts/drama">Drama</a>
+				 </li>
+        	   </ul>
+			 </nav>
+		   </div>
+		 </div>
+		 <div class="fsElement fsContent nav-parent">
+		   <div class="fsElementContent">
+		   <p><a href="http://www.bbns.org/fs/pages/141" data-page-name="Middle School Arts">Middle School Arts</a></p>
+		 </div>
+	</div>
+	<div class="fsElement fsNavigation fsList nav">
+	  <div class="fsElementContent">
+    	<nav>
+          <ul class="fsNavLevel1">
+            <li>
+			  <a href="http://www.bbns.org/arts/middle-school-arts/grade-7-program">Grade 7 Program</a>
+			</li>
+			<li>
+				<a href="http://www.bbns.org/arts/middle-school-arts/grade-8-program">Grade 8 Program</a>
+			</li>
+			<li>
+				<a href="http://www.bbns.org/arts/middle-school-arts/performing-ensembles">Performing Ensembles</a>
+			</li>
+          </ul>
+		</nav>
+	  </div>
+	</div>
+  </div>
+</div>
+<div class="fsElement fsContainer right-container">
+  <div class="fsElementContent">
+    <div class="fsElement fsContent nav-parent">
+	  <div class="fsElementContent">
+    	<p><a href="http://www.bbns.org/fs/pages/134" data-page-name="Upper School Campus">Upper School Arts</a></p>
+	  </div>
+	</div>
+	<div class="fsElement fsNavigation fsList nav">
+	  <div class="fsElementContent">
+	    <nav>
+	      <ul class="fsNavLevel1">
+	        <li>
+			  <a href="http://www.bbns.org/arts/upper-school-arts/art-history">Art History</a>
+		    </li>
+			<li>
+				<a href="http://www.bbns.org/arts/upper-school-arts/ceramics">Ceramics</a>
+			</li>
+			<li>
+				<a href="http://www.bbns.org/arts/upper-school-arts/dance">Dance</a>
+			</li>
+			<li>
+				<a href="http://www.bbns.org/arts/upper-school-arts/design-architecture">Design &amp; Architecture</a>
+			</li>
+			<li>
+				<a href="http://www.bbns.org/arts/upper-school-arts/drawing-painting">Drawing &amp; Painting</a>
+			</li>
+			<li>
+				<a href="http://www.bbns.org/arts/upper-school-arts/film-video">Film &amp; Video</a>
+			</li>
+			<li>
+				<a href="http://www.bbns.org/arts/upper-school-arts/music">Music</a>
+			</li>
+			<li>
+				<a href="http://www.bbns.org/arts/upper-school-arts/photography">Photography</a>
+			</li>
+			<li>
+				<a href="http://www.bbns.org/arts/upper-school-arts/theater">Theater</a>
+			</li>
+			<li>
+				<a href="http://www.bbns.org/arts/upper-school-arts/woodworking">Woodworking</a>
+			</li>
+			<li>
+				<a href="http://www.bbns.org/arts/upper-school-arts/course-descriptions">Course Descriptions</a>
+			</li>
+	        </ul>
+		  </nav>
+	    </div>
+	  </div>
+	</div>
+  </div>
+</div>
+</div>
+ <div class="fsNavPageDescription" original-class="fsNavPageDescription">
+<a href="http://www.bbns.org/cf_news/view.cfm?newsid=357" class="fs_style_42" original-class="fs_style_42" target="_blank">Visiting Artist Speaks With Middle Schoolers About Public Art</a>
+<a href="http://www.bbns.org/fs/pages/151" class="fs_style_34" original-class="fs_style_34" data-page-name="Arts Calendar">All School Arts Calendar</a>
+<a href="http://www.bbns.org/page.cfm?p=782" class="fs_style_36" original-class="fs_style_36" target="_blank">BB&amp;N Juior Gives Back With Summer Ballet Project</a>
+</div></div></div>
+ </li>
+ <li class="fsNavParentPage" original-class="fsNavParentPage">
+ <a href="http://www.bbns.org/athletics">Athletics</a>
+ <div class="fsNavPageInfo" original-class="fsNavPageInfo">
+ <div class="menu-set-container"> 
+ <div class="fsNavPageThumbnail" original-class="fsNavPageThumbnail"><img src="/sites/all/themes/bbns/img/nav-athletics.jpg"></div>
+ <div class="fsElement fsContainer sub-nav-set athletics-sub-nav">
+   <div class="fsElementContent">
+     <div class="fsElement fsContainer left-container">
+	   <div class="fsElementContent">
+    	 <div class="fsElement fsContent nav-parent">
+		   <div class="fsElementContent">
+    	     <p><a href="http://www.bbns.org/fs/pages/144" data-page-name="Lower School Athletics">Lower School Athletics</a></p>
+		   </div>
+		 </div>
+		 <div class="fsElement fsNavigation fsList nav">
+		   <div class="fsElementContent">
+		     <nav>
+		       <ul class="fsNavLevel1">
+		         <li>
+				   <a href="https://sites.google.com/a/bbns.org/coach-bourget-s-site/?pli=1" target="_blank">Physical Education</a>
+			     </li>
+				 <li>
+					<a href="http://www.bbns.org/athletics/lower-school-athletics/sixth-grade-program">Sixth Grade Program</a>
+				 </li>
+		       </ul>
+			 </nav>
+		   </div>
+		 </div>
+		 <div class="fsElement fsContent nav-parent">
+		   <div class="fsElementContent">
+		     <p><a href="http://www.bbns.org/fs/pages/145" data-page-name="Middle School Athletics">Middle School Athletics</a></p>
+		   </div>
+		 </div>
+		 <div class="fsElement fsNavigation fsList nav">
+		   <div class="fsElementContent">
+		     <nav>
+		       <ul class="fsNavLevel1">
+		         <li>
+				   <a href="http://www.bbns.org/athletics/middle-school-athletics/athletics-policies">Athletics Policies</a>
+				 </li>
+				 <li>
+					<a href="http://www.bbns.org/athletics/middle-school-athletics/waivers-exemptions">Waivers &amp; Exemptions</a>
+				 </li>
+				 <li>
+					<a href="http://www.bbns.org/athletics/directions-to-bbn-fields-facilities">Directions to BB&amp;N Fields &amp; Facilities</a>
+				 </li>
+		       </ul>
+			 </nav>
+		   </div>
+		 </div>
+	   </div>
+	 </div>
+	 <div class="fsElement fsContainer right-container">
+	   <div class="fsElementContent">
+	     <div class="fsElement fsContent nav-parent">
+		   <div class="fsElementContent">
+	    	 <p><a href="http://www.bbns.org/fs/pages/420" data-page-name="Athletics Staff">Athletics Staff</a></p>
+		   </div>
+		 </div>
+		 <div class="fsElement fsContent nav-parent">
+		   <div class="fsElementContent">
+		     <p><a href="http://www.bbns.org/fs/pages/146" data-page-name="Upper School Athletics">Upper School Athletics</a></p>
+		   </div>
+		 </div>
+		 <div class="fsElement fsNavigation fsList nav">		
+		   <div class="fsElementContent">
+		     <nav>
+		       <ul class="fsNavLevel1">
+		         <li>
+				   <a href="http://www.bbns.org/athletics/upper-school-athletics/athletics-policies">Athletics Policies</a>
+				 </li>
+				 <li>
+					<a href="http://www.bbns.org/athletics/upper-school-athletics/waivers-exemptions">Waivers &amp; Exemptions</a>
+				 </li>
+				 <li>
+					<a href="http://www.bbns.org/athletics/upper-school-athletics/health-fitness-program">Health &amp; Fitness Program</a>
+				 </li>
+		       </ul>
+			 </nav>
+		   </div>
+		 </div>
+	   </div>
+	 </div>
+   </div>
+</div>
+ <div class="fsNavPageDescription" original-class="fsNavPageDescription">
+<a href="http://www.bbns.org/fs/pages/411" class="fs_style_40" original-class="fs_style_40" data-page-name="Sixth Grade Program">Grade 6 Interscholastic Program</a>
+<a href="http://www.bbns.org/fs/pages/152" class="fs_style_42" original-class="fs_style_42" data-page-name="Athletics Calendar"> Athletics Calendar</a>
+<a href="http://www.bbns.org/uploaded/images/Athletics/athletics_handbook_EDITED_GB_(1).pdf" class="fs_style_34" original-class="fs_style_34" target="_blank" data-file-name="athletics_handbook_EDITED_GB_(1).pdf">Athletics Handbook 2016-2017</a>
+<a href="http://www.bbns.org/fs/pages/633" target="_blank" class="fs_style_36" original-class="fs_style_36"> Athletics Announcements</a>
+</div></div></div>
+ </li>
+ <li class="fsNavParentPage" original-class="fsNavParentPage">
+ <a href="http://www.bbns.org/news-events/latest-news-from-bbn">News &amp; Events</a>
+  <div class="fsNavPageInfo" original-class="fsNavPageInfo">
+ <div class="menu-set-container"> 
+ <div class="fsNavPageThumbnail" original-class="fsNavPageThumbnail"><img src="/sites/all/themes/bbns/img/nav-news.jpg"></div>
+ <ul class="fsNavLevel2" original-class="fsNavLevel2"><li>
+ <a href="http://www.bbns.org/news-events/latest-news-from-bbn">Latest News from BB&amp;N</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/news-events/events-calendar">Events Calendar</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/news-events/key-dates-calendar">Key Dates Calendar</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/news-events/arts-calendar">Arts Calendar</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/news-events/athletics-calendar">Athletics Calendar</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/news-events/alumniae-calendar">Alumni/ae Calendar</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/news-events/bbn-videos">BB&amp;N Videos</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/news-events/media-gallery">Media Gallery</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/news-events/bbn-publications">BB&amp;N Publications</a>
+ </li>
+ </ul>
+ <div class="fsNavPageDescription" original-class="fsNavPageDescription">
+<a href="https://issuu.com/bbn-cambridge/docs/bb_n_arp_15_110/1" class="fs_style_45" original-class="fs_style_45" target="_blank">2015-2016 Report of Giving</a>
+<a href="https://issuu.com/bbn-cambridge/docs/summer_2016/1" class="fs_style_36" original-class="fs_style_36" target="_blank"><em>The Bulletin</em> Summer 2016</a>
+</div></div></div>
+ </li>
+ <li class="fsNavParentPage fsNavCurrentPageAncestor" original-class="fsNavParentPage fsNavCurrentPageAncestor">
+ <a href="http://www.bbns.org/support-bbn">Support BB&amp;N</a>
+ <div class="fsNavPageInfo" original-class="fsNavPageInfo">
+ <div class="menu-set-container"> 
+ <div class="fsNavPageThumbnail" original-class="fsNavPageThumbnail"><img src="/sites/all/themes/bbns/img/nav-support.jpg"></div>
+ <ul class="fsNavLevel2" original-class="fsNavLevel2"><li>
+ <a href="http://www.bbns.org/support-bbn/make-a-gift-now">Make a Gift Now</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/make-a-gift-nowbbn-day-of-giving">BB&amp;N's Day of Giving</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/why-support-bbn">Why Support BB&amp;N</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/areas-to-support">Areas to Support</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/the-bbn-fund">The BB&amp;N Fund</a>
+ </li>
+ <li class="fsNavCurrentPage" original-class="fsNavCurrentPage">
+ <a href="http://www.bbns.org/support-bbn/ways-to-give">Ways to Give</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/volunteer">Volunteer</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/contact-external-affairs-office">Contact External Affairs Office</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/2015-2016-report-of-giving">2015-2016 Report of Giving</a>
+ </li>
+ </ul>
+ <div class="fsNavPageDescription" original-class="fsNavPageDescription">
+<a href="http://www.bbns.org/fs/pages/158" class="fs_style_45" original-class="fs_style_45" data-page-name="Make a Gift Now">Make a Gift Now</a>
+<a href="http://www.bbns.org/fs/pages/161" class="fs_style_36" original-class="fs_style_36" data-page-name="The BB&amp;N Fund">The BB&amp;N Fund</a>
+<a href="http://www.bbns.org/fs/pages/163" class="fs_style_34" original-class="fs_style_34" data-page-name="Volunteer">Volunteer</a>
+</div></div></div>
+ </li>
+ </ul></nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fsElement fsContainer header-bottom-container subpage-bottom" original-class="fsElement fsContainer header-bottom-container subpage-bottom" id="fsEl_4356">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContainer header-container" original-class="fsElement fsContainer header-container" id="fsEl_4357">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContainer header-inner" original-class="fsElement fsContainer header-inner" id="fsEl_4358">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContent site-info-container" original-class="fsElement fsContent site-info-container" id="fsEl_4359">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <h1><a href="http://www.bbns.org/">School Name</a></h1>
+</div>
+</div>
+<div class="fsElement fsContainer header-right" original-class="fsElement fsContainer header-right" id="fsEl_4360">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContainer quick-links-container" original-class="fsElement fsContainer quick-links-container" id="fsEl_4361">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContent quick-links-text" original-class="fsElement fsContent quick-links-text" id="fsEl_4362">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <a href="#" class="quick-link-btn" original-class="quick-link-btn">Quick Links</a>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList quick-links-drop" original-class="fsElement fsNavigation fsList quick-links-drop" id="fsEl_4363">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/news-events/events-calendar">BB&amp;N Calendar</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/handbooks">Student Handbooks</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/news-events/key-dates-calendar">Key Dates Calendar</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/employment-opportunities">Employment Opportunities</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/faculty-staff-directory">Faculty &amp; Staff Directory</a>
+ </li>
+ <li>
+ <a href="http://www.amerasport.com/Buckingham-Browne-Nichols-BBN-BBN/departments/1029/" target="_blank">BB&amp;N Products</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/about/contact-us-directions">Directions</a>
+ </li>
+ <li>
+ <a href="http://www.classbook.com/bookStore/shoppingCart/home.asp" target="_blank">Online Bookstore</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/admission/how-to-apply">Applying to BB&amp;N</a>
+ </li>
+ <li>
+ <a href="http://vanguard.bbns.org/wordpress/" target="_blank">The Vanguard</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+</div>
+</div>
+<div class="fsElement fsContent top-utility-links" original-class="fsElement fsContent top-utility-links" id="fsEl_4364">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <ul>
+<li><a href="http://www.bbns.org/fs/pages/116" data-page-name="Summer @ BB&amp;N">Summer</a></li>
+ <li><a href="http://www.bbns.org/fs/pages/158" data-page-name="Make a Gift Now">Make a Gift</a></li>
+ <li><a href="http://www.bbns.org/fs/pages/167" data-page-name="Alumni/ae">Alumni/ae</a></li>
+ <li><a href="http://www.bbns.org/fs/pages/166" data-page-name="Parents">Parents</a></li>
+</ul>
+</div>
+</div>
+<div class="fsElement fsContent header-search-area" original-class="fsElement fsContent header-search-area" id="fsEl_4365">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <a class="search-btn" original-class="search-btn"></a>
+<div class="top-search" original-class="top-search">
+ <form method="get" action="http://www.bbns.org/search-results">
+ <input placeholder="What can we help you find?" type="text" name="q">
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fsElement fsContainer subpage-banner" original-class="fsElement fsContainer subpage-banner" id="fsEl_4366">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContent subpage-banner-left" original-class="fsElement fsContent subpage-banner-left" id="fsEl_4367" style="background-image: url('/sites/all/themes/bbns/cssAssets/giftplanningbanner_370.jpg');">
+ <div class="fsElementContent" original-class="fsElementContent">
+ 
+</div>
+</div>
+<div class="fsElement fsContent subpage-banner-right" original-class="fsElement fsContent subpage-banner-right" id="fsEl_4368" style="background-image: url('/sites/all/themes/bbns/cssAssets/giftplanningbanner_682.jpg');">
+ <div class="fsElementContent" original-class="fsElementContent">
+ 
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fsElement fsSharedContainer nav-elements" original-class="fsElement fsSharedContainer nav-elements" id="fsEl_4369">
+ 
+<div class="fsElement fsContainer" original-class="fsElement fsContainer" id="fsEl_3041_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContainer sub-nav-set academics-sub-nav" original-class="fsElement fsContainer sub-nav-set academics-sub-nav" id="fsEl_3043_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContainer left-container" original-class="fsElement fsContainer left-container" id="fsEl_3044_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContent nav-parent" original-class="fsElement fsContent nav-parent" id="fsEl_3049_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p><a href="http://www.bbns.org/fs/pages/136" data-page-name="Lower School Academics">Lower School Academics</a></p>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList nav" original-class="fsElement fsNavigation fsList nav" id="fsEl_3047_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/academics/lower-school-academics/meet-our-faculty-staff">Meet Our Faculty &amp; Staff</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/lower-school-academics/curriculum-overviewskill-map">Curriculum Overview/Skill Map</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/lower-school-academics/departments">Departments</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/lower-school-academics/library">Library</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/lower-school-academics/technology">Technology</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/lower-school-academics/student-support">Student Support</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+<div class="fsElement fsContent nav-parent" original-class="fsElement fsContent nav-parent" id="fsEl_3051_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p><a href="http://www.bbns.org/fs/pages/137" data-page-name="Middle School Academics">Middle School Academics</a></p>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList nav" original-class="fsElement fsNavigation fsList nav" id="fsEl_3052_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/academics/middle-school-academics/meet-our-faculty-staff">Meet Our Faculty &amp; Staff</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/middle-school-academics/departments">Departments</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/middle-school-academics/library">Library</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/middle-school-academics/technology">Technology</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/middle-school-academics/student-support">Student Support</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+</div>
+</div>
+<div class="fsElement fsContainer right-container" original-class="fsElement fsContainer right-container" id="fsEl_3045_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContent nav-parent" original-class="fsElement fsContent nav-parent" id="fsEl_3053_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p><a href="http://www.bbns.org/fs/pages/138" data-page-name="Upper School Academics">Upper School Academics</a></p>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList nav" original-class="fsElement fsNavigation fsList nav" id="fsEl_3054_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/academics/upper-school-academics/meet-our-faculty-staff">Meet Our Faculty &amp; Staff</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/upper-school-academics/departments">Departments</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/upper-school-academics/library">Library</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/upper-school-academics/technology">Technology</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/upper-school-academics/global-online-academy">Global Online Academy</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/uploaded/PDFs/Upper_School/Program_Planning_Guide_2016-17.pdf?1458223750482" target="_blank">Program Planning Guide</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/academics/upper-school-academics/student-support">Student Support</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fsElement fsContainer sub-nav-set campus-sub-nav" original-class="fsElement fsContainer sub-nav-set campus-sub-nav" id="fsEl_3056_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContainer left-container" original-class="fsElement fsContainer left-container" id="fsEl_3057_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContent nav-parent" original-class="fsElement fsContent nav-parent" id="fsEl_3058_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p><a href="http://www.bbns.org/fs/pages/132" data-page-name="Lower School Campus">Lower School Campus</a></p>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList nav" original-class="fsElement fsNavigation fsList nav" id="fsEl_3059_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/our-campuses/lower-school-campus/directors-welcome">Director's Welcome</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/lower-school-campus/meet-our-faculty-staff">Meet Our Faculty &amp; Staff</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/lower-school-campus/special-programs">Special Programs</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/lower-school-campus/after-school-programs">After School Programs</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/lower-school-campus/teacher-training-institute">Teacher Training Institute</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+<div class="fsElement fsContent nav-parent" original-class="fsElement fsContent nav-parent" id="fsEl_3060_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p><a href="http://www.bbns.org/fs/pages/133" data-page-name="Middle School Campus">Middle School Campus</a></p>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList nav" original-class="fsElement fsNavigation fsList nav" id="fsEl_3061_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/our-campuses/middle-school-campus/directors-welcome">Director's Welcome</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/middle-school-campus/meet-our-faculty-staff">Meet Our Faculty &amp; Staff</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/middle-school-campus/lunch-service">Lunch Service</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/middle-school-campus/after-school-program">After School Program</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/middle-school-campus/special-programs">Special Programs</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/middle-school-campus/clubs-organizations">Clubs &amp; Organizations</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+</div>
+</div>
+<div class="fsElement fsContainer right-container" original-class="fsElement fsContainer right-container" id="fsEl_3062_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContent nav-parent" original-class="fsElement fsContent nav-parent" id="fsEl_3063_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p><a href="http://www.bbns.org/fs/pages/134" data-page-name="Upper School Campus">Upper School Campus</a></p>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList nav" original-class="fsElement fsNavigation fsList nav" id="fsEl_3064_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/our-campuses/upper-school-campus/directors-welcome">Director's Welcome</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/upper-school-campus/meet-our-faculty-staff">Meet Our Faculty &amp; Staff</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/upper-school-campus/special-programs">Special Programs</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/upper-school-campus/clubs-organizations">Clubs &amp; Organizations</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/upper-school-campus/community-service">Community Service</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/our-campuses/upper-school-campus/college-counseling">College Counseling</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fsElement fsContainer sub-nav-set arts-sub-nav" original-class="fsElement fsContainer sub-nav-set arts-sub-nav" id="fsEl_3305_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContainer left-container" original-class="fsElement fsContainer left-container" id="fsEl_3306_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContent nav-parent" original-class="fsElement fsContent nav-parent" id="fsEl_3307_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p><a href="http://www.bbns.org/fs/pages/140" data-page-name="Lower School Arts">Lower School Arts</a></p>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList nav" original-class="fsElement fsNavigation fsList nav" id="fsEl_3308_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/arts/lower-school-arts/visual-arts">Visual Arts</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/lower-school-arts/music">Music</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/lower-school-arts/drama">Drama</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+<div class="fsElement fsContent nav-parent" original-class="fsElement fsContent nav-parent" id="fsEl_3309_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p><a href="http://www.bbns.org/fs/pages/141" data-page-name="Middle School Arts">Middle School Arts</a></p>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList nav" original-class="fsElement fsNavigation fsList nav" id="fsEl_3310_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/arts/middle-school-arts/grade-7-program">Grade 7 Program</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/middle-school-arts/grade-8-program">Grade 8 Program</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/middle-school-arts/performing-ensembles">Performing Ensembles</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+</div>
+</div>
+<div class="fsElement fsContainer right-container" original-class="fsElement fsContainer right-container" id="fsEl_3311_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContent nav-parent" original-class="fsElement fsContent nav-parent" id="fsEl_3312_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p><a href="http://www.bbns.org/fs/pages/134" data-page-name="Upper School Campus">Upper School Arts</a></p>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList nav" original-class="fsElement fsNavigation fsList nav" id="fsEl_3313_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/arts/upper-school-arts/art-history">Art History</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/upper-school-arts/ceramics">Ceramics</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/upper-school-arts/dance">Dance</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/upper-school-arts/design-architecture">Design &amp; Architecture</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/upper-school-arts/drawing-painting">Drawing &amp; Painting</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/upper-school-arts/film-video">Film &amp; Video</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/upper-school-arts/music">Music</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/upper-school-arts/photography">Photography</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/upper-school-arts/theater">Theater</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/upper-school-arts/woodworking">Woodworking</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/arts/upper-school-arts/course-descriptions">Course Descriptions</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fsElement fsContainer sub-nav-set athletics-sub-nav" original-class="fsElement fsContainer sub-nav-set athletics-sub-nav" id="fsEl_3314_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContainer left-container" original-class="fsElement fsContainer left-container" id="fsEl_3315_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContent nav-parent" original-class="fsElement fsContent nav-parent" id="fsEl_3316_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p><a href="http://www.bbns.org/fs/pages/144" data-page-name="Lower School Athletics">Lower School Athletics</a></p>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList nav" original-class="fsElement fsNavigation fsList nav" id="fsEl_3317_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="https://sites.google.com/a/bbns.org/coach-bourget-s-site/?pli=1" target="_blank">Physical Education</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/athletics/lower-school-athletics/sixth-grade-program">Sixth Grade Program</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+<div class="fsElement fsContent nav-parent" original-class="fsElement fsContent nav-parent" id="fsEl_3318_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p><a href="http://www.bbns.org/fs/pages/145" data-page-name="Middle School Athletics">Middle School Athletics</a></p>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList nav" original-class="fsElement fsNavigation fsList nav" id="fsEl_3319_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/athletics/middle-school-athletics/athletics-policies">Athletics Policies</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/athletics/middle-school-athletics/waivers-exemptions">Waivers &amp; Exemptions</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/athletics/directions-to-bbn-fields-facilities">Directions to BB&amp;N Fields &amp; Facilities</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+</div>
+</div>
+<div class="fsElement fsContainer right-container" original-class="fsElement fsContainer right-container" id="fsEl_3320_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContent nav-parent" original-class="fsElement fsContent nav-parent" id="fsEl_3323_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p><a href="http://www.bbns.org/fs/pages/420" data-page-name="Athletics Staff">Athletics Staff</a></p>
+</div>
+</div>
+<div class="fsElement fsContent nav-parent" original-class="fsElement fsContent nav-parent" id="fsEl_3321_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p><a href="http://www.bbns.org/fs/pages/146" data-page-name="Upper School Athletics">Upper School Athletics</a></p>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList nav" original-class="fsElement fsNavigation fsList nav" id="fsEl_3322_4369">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/athletics/upper-school-athletics/athletics-policies">Athletics Policies</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/athletics/upper-school-athletics/waivers-exemptions">Waivers &amp; Exemptions</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/athletics/upper-school-athletics/health-fitness-program">Health &amp; Fitness Program</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ </header><div id="fsPageBodyWrapper">
+ <div id="fsPageBody" class="fsStyleAutoclear" original-class="fsStyleAutoclear">
+ <div id="fsBannerLeft">
+ <div class=" fsBanner fsStyleAutoclear" original-class=" fsBanner fsStyleAutoclear" id="fsEl_8">
+ <div class="fsElement fsNavigation fsList nav-sub" original-class="fsElement fsNavigation fsList nav-sub" id="fsEl_44">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/support-bbn/make-a-gift-now">Make a Gift Now</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/make-a-gift-nowbbn-day-of-giving">BB&amp;N's Day of Giving</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/why-support-bbn">Why Support BB&amp;N</a>
+ </li>
+ <li class="fsNavParentPage" original-class="fsNavParentPage">
+ <a href="http://www.bbns.org/support-bbn/areas-to-support">Areas to Support</a>
+ <div class="fsNavPageInfo" original-class="fsNavPageInfo">
+ <ul class="fsNavLevel2" original-class="fsNavLevel2">
+<li>
+ <a href="http://www.bbns.org/support-bbn/areas-to-support/endowment-spendable-funds">Endowment &amp; Spendable Funds</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/areas-to-support/senior-parents-gift">Senior Parents' Gift</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/areas-to-support/name-a-theater-seat">Name a Theater Seat</a>
+ </li>
+ </ul>
+</div>
+ </li>
+ <li class="fsNavParentPage" original-class="fsNavParentPage">
+ <a href="http://www.bbns.org/support-bbn/the-bbn-fund">The BB&amp;N Fund</a>
+ <div class="fsNavPageInfo" original-class="fsNavPageInfo">
+ <ul class="fsNavLevel2" original-class="fsNavLevel2">
+<li>
+ <a href="http://www.bbns.org/support-bbn/the-bbn-fund/the-1974-leadership-society">The 1974 Leadership Society</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/the-bbn-fund/reunion-giving">Reunion Giving</a>
+ </li>
+ </ul>
+</div>
+ </li>
+ <li class="fsNavCurrentPage fsNavParentPage" original-class="fsNavCurrentPage fsNavParentPage">
+ <a href="http://www.bbns.org/support-bbn/ways-to-give">Ways to Give</a>
+ <div class="fsNavPageInfo" original-class="fsNavPageInfo">
+ <ul class="fsNavLevel2" original-class="fsNavLevel2">
+<li>
+ <a href="http://bbns.plannedgiving.org/" target="_blank">Gift Planning</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/ways-to-give/matching-gifts">Matching Gifts</a>
+ </li>
+ </ul>
+</div>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/volunteer">Volunteer</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/support-bbn/contact-external-affairs-office">Contact External Affairs Office</a>
+ </li>
+ <li class="fsNavParentPage" original-class="fsNavParentPage">
+ <a href="http://www.bbns.org/support-bbn/2015-2016-report-of-giving">2015-2016 Report of Giving</a>
+ <div class="fsNavPageInfo" original-class="fsNavPageInfo">
+ <ul class="fsNavLevel2" original-class="fsNavLevel2">
+<li>
+ <a href="http://www.bbns.org/uploaded/PDFs/External_Affairs/Head_of_School_Report_of_Giving_14-15.pdf?1445001694981" target="_blank">Message from Head of School Rebecca T. Upham</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/uploaded/PDFs/External_Affairs/Financial_Reports_Report_of_Giving_14-15.pdf?1445001784843" target="_blank">Financial Reports</a>
+ </li>
+ <li>
+ <a href="http://issuu.com/bbn-cambridge/docs/bb_n_arp_15_110?e=4381991/39728400" target="_blank">Full Report of Giving</a>
+ </li>
+ </ul>
+</div>
+ </li>
+ </ul></nav>
+</div>
+</div>
+</div>
+ </div>
+ <main id="fsPageContent"><h1 class="fsPageTitle" original-class="fsPageTitle">Gift Planning</h1>
+ <div class="fsPageLayout fsLayout fsOneColumnLayout fsStyleAutoclear" original-class="fsPageLayout fsLayout fsOneColumnLayout fsStyleAutoclear" id="fsEl_664">
+ <div class=" fsDiv fsStyleAutoclear" original-class=" fsDiv fsStyleAutoclear" id="fsEl_665">
+ <div class="fsElement fsContent" original-class="fsElement fsContent" id="fsEl_666">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <h3 class="Normal1" original-class="Normal1">Credit Card</h3>
+<p class="Normal1" original-class="Normal1">Giving to BB&amp;N by credit card is secure, easy, and fast. Use your Visa, Mastercard, or American Express card to make your gift using our <a href="http://www.bbns.org/fs/pages/158">online giving form</a>.</p>
+<p class="Normal1" original-class="Normal1">If you prefer, you can make a gift by credit card by calling us at 617-800-2724. Please have the following information ready when you call: credit card number, expiration date, gift amount, and what youâd like your gift to support.</p>
+<h3 class="Normal1" original-class="Normal1">Check</h3>
+<p class="Normal1" original-class="Normal1">Please send your check, payable to BB&amp;N, to :<br><br>Buckingham Browne &amp; Nichols School<br>Office of External Affairs<br>80 Gerry's Landing Road<br>Cambridge, MA 02138-5512.</p>
+<h3 class="Normal1" original-class="Normal1">Gifts of Securities</h3>
+<p class="Normal1" original-class="Normal1">If you would like to make a gift of securities, please contact Meg Macri for detailed stock transfer instruction: 617-800-2724 or <a target="_self" href="mailto:mmacri@bbns.org">mmacri@bbns.org</a></p>
+<h3 class="Normal1" original-class="Normal1">Corporate Matching Gifts</h3>
+<p class="Normal1" original-class="Normal1">The impact of your gift could be doubled or tripled by a corporate match made by your or your spouseâs or partnerâs employer. A complete list of the corporations with matching gift programs for secondary schools is available by clicking <a href="http://www.matchinggifts.com/bbns/" target="_blank">here.</a></p>
+<h3 class="Normal1" original-class="Normal1">Gift Planning</h3>
+<p class="Normal1" original-class="Normal1">As you plan to provide for your familyâs future, please remember that you can extend your support by planning a gift that makes a lasting impact on BB&amp;N and also benefits you and/or your loved ones. </p>
+<ul>
+<li class="Normal1" original-class="Normal1">You can provide for BB&amp;N in your will.</li>
+<li class="Normal1" original-class="Normal1">You can receive quarterly payments in return for your gift through a charitable gift annuity.</li>
+<li class="Normal1" original-class="Normal1">You can donate your house, continue to live there, and receive a tax break.</li>
+</ul>
+<p class="Normal1" original-class="Normal1">Learn more about these and other options on our <a target="_blank" href="http://bbns.plannedgiving.org/">Planned Giving page</a>.</p>
+<p class="Normal1" original-class="Normal1">The Almy Society recognizes the generosity of the alumni/ae, parents, grandparents, and friends who have remembered the School in their estate plans through wills, trusts, or other planned gift arrangements. Members are listed in our Annual Report of Giving.</p>
+<p class="Normal1" original-class="Normal1">For more information, <a href="http://buckingham.redesign.finalsite.com/page.cfm?p=671" target="_blank">click here</a> or contact Janet Rosen, Director of Capital Programs, at 617-800-2729.</p>
+</div>
+</div>
+</div>
+</div>
+ </main>
+</div>
+ </div>
+ <footer id="fsFooter"><div class=" fsBanner fsStyleAutoclear" original-class=" fsBanner fsStyleAutoclear" id="fsEl_9">
+ <div class="fsElement fsContainer footer-container" original-class="fsElement fsContainer footer-container" id="fsEl_2533">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContainer footer-container-inner" original-class="fsElement fsContainer footer-container-inner" id="fsEl_2536">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContainer footer-container-left" original-class="fsElement fsContainer footer-container-left" id="fsEl_2566">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <div class="fsElement fsContent footer-container-left-top" original-class="fsElement fsContent footer-container-left-top" id="fsEl_2571">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p>Buckingham Browne &amp; Nichols School
+</p>
+<p>A PreK-12 day school for bright, engaged learners
+</p>
+</div>
+</div>
+<div class="fsElement fsContent footer-container-left-meddle" original-class="fsElement fsContent footer-container-left-meddle" id="fsEl_2574">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <p>80 Gerry's Landing Road
+</p>
+<p>Cambridge, MA 02138
+</p>
+<p>617-547-6100
+</p>
+<p><a href="http://www.bbns.org/fs/pages/117" data-page-name="Contact Us &amp; Directions">Contact Us</a>
+</p>
+</div>
+</div>
+<div class="fsElement fsNavigation fsList footer-container-left-bottom" original-class="fsElement fsNavigation fsList footer-container-left-bottom" id="fsEl_2573">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <nav><ul class="fsNavLevel1" original-class="fsNavLevel1">
+<li>
+ <a href="http://www.bbns.org/site-map">Site Map</a>
+ </li>
+ <li>
+ <a href="http://www.bbns.org/privacy-policy">Privacy Policy</a>
+ </li>
+ </ul></nav>
+</div>
+</div>
+</div>
+</div>
+<div class="fsElement fsContent footer-container-right" original-class="fsElement fsContent footer-container-right" id="fsEl_2537">
+ <div class="fsElementContent" original-class="fsElementContent">
+ <a href="https://www.facebook.com/buckinghambrownenichols/" target="_blank">facebook</a>
+<a href="https://twitter.com/BBNSchool" target="_blank">twitter</a>
+<a href="https://www.instagram.com/bbnschool/" target="_blank">instagram</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ </footer><div id="fsPoweredByFinalsite">
+ <div>
+ <a href="http://www.finalsite.com" target="_blank">Powered by Finalsite</a>
+ </div>
+ </div>
+</div>
+<script src="/sites/all/themes/bbns/js/bcae917f9b10e762a83339522b6ad3fe.js"></script><script src="/sites/all/themes/bbns/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+.main h1{
+  font-family:Georgia, serif;
+  color:#EB192C;
+  font-size:3.6em;
+  line-height:1.4;
+  padding:0;
+  margin:30px 0 10px 0;
+  font-weight:400;
+}
+
+.main ul{
+  padding:0;
+  margin:0 0 20px 0;
+  font-family:'aktiv-grotesk-std', Arial, sans-serif;
+  font-size:1.6em;
+  line-height:1.6;
+  list-style:none;
+}
+
+.main li { 
+    padding-left:30px; 
+    text-indent:-16px;
+    margin-bottom:20px;
+}
+
+.main li:before {
+    content: "•";
+    color:#EB192C;
+    padding-right:10px;
+}
+
+a.link-to-form:link, a.link-to-form:visited{
+  font-weight:bold;
+  color:#EB192C;
+  text-decoration:underline;
+}
+
+a.link-to-form:hover{
+  color:#131318;
+  text-decoration:none;
+}
+
+form .gpg-interest{
+  padding: 20px 0 0 0;
+  margin: 20px 0 20px 0;
+  border-top: 1px solid #D7D7D8;
+  /*border-bottom: 1px solid #D7D7D8;*/
+}
+
+form .gpg-interest p{
+  color:#131318;
+  font-weight:bold;
+}
+
+.form-container ul{
+  padding:20px 0 20px 0;
+  margin:0;
+  list-style:none;
+  font-size:1.6em;
+  font-family:'aktiv-grotesk-std', Arial, sans-serif;
+  line-height:1.6;
+}
+
+.form-container li:before {
+    content: "•";
+    color:#EB192C;
+    padding-right:10px;
+}
+
+.required{
+  padding:5px 15px 0 15px;
+  border-top:1px solid #D7D7D8;
+  border-bottom:1px solid #D7D7D8;
+}
+
+.required p{
+  font-size:1.2em;
+  margin:0;
+  padding:0 0 5px 0;
+}
+
+ /*Landscape phones and down */
+@media (max-width: 480px) {
+  .logo{
+    padding:0 25% 10px 25%;
+  }
+  .main h1{
+    font-family:Georgia, serif;
+    color:#EB192C;
+    font-size:2.4em;
+    line-height:1.4;
+    padding:0;
+    margin:20px 0 10px 0;
+    font-weight:400;
+  }
+
+  .main h2, .main h3{
+    font-weight:700;
+    color:#6C6D70;
+    font-size:1.4em;
+    padding:10px 0 10px 0;
+    margin:0 0 20px 0;
+    border-top:2px solid #D7D7D8;
+    border-bottom:2px solid #D7D7D8;
+    border-left:0px;
+    border-right:0px;
+    line-height:1.2;
+    background-color:#F7F7F7;
+  }
+  .main ul{
+    padding:0;
+    margin:0 0 20px 0;
+    font-size:2em;
+    font-family:'aktiv-grotesk-std', Arial, sans-serif;
+    line-height:1.8;
+    list-style:none;
+  }
+  .form-container{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-bottom:1px solid #D7D7D8;
+  }
+
+  .form-container h1{
+    padding:20px 0 20px 0;
+    margin:0;
+    font-size:2.4em;
+    line-height:1.4;
+  }
+}

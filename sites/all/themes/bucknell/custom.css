@@ -1,0 +1,126 @@
+.full_bg.wallpaper{
+	height: 440px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.pg-page-header{
+	margin-top:15px;
+}
+
+.header-text{
+	margin-bottom:10px !important;
+}
+
+#block-system-main-menu h2{
+	padding-right:20px;
+}
+
+#block-system-main-menu h2 a{
+	display:block;
+}
+
+aside.mobile-full #block-system-main-menu{
+	background: #fff;
+    border-top: 5px solid #a7a8aa;
+    margin-left: 0px;
+    padding-left: 15px;
+    border-left: 1px solid #a7a8aa;
+    border-right: 1px solid #a7a8aa;
+    border-bottom: 1px solid #a7a8aa;
+}
+
+#giftGuide input[type="radio"]{
+	margin:5px !important;
+}
+
+li a, .image a, h3 a, .pg-page-btns a, .pg-node h2 a{
+	border-bottom:none !important;
+}
+
+.pg-content-body .child-page{
+	padding:0px;
+	padding-bottom:20px;
+}
+
+.pg-node ul li, .subnav-mobile-mask ul li{
+	list-style:none;
+}
+
+.pg-node ul>li:before {
+    background: #0082ba;
+}
+
+#giftGuide .note {
+    margin: 5px 0 20px 20px !important;
+}
+
+#giftGuide .gg-btn-back, #giftGuide .gg-btn-submit, #giftGuide #Reset{
+	width:auto;
+}
+
+.details ul#main-menu li a:hover{
+	border-bottom: 1px solid #59cbe8 !important;
+}
+
+.details ul#main-menu li a.active{
+	border-bottom: 1px solid #59cbe8 !important;
+}
+
+aside.sidebar{
+	margin-top:54px;
+}
+
+.block.history{
+	display:none;
+}
+
+section#x86184 article.roller-item{
+	padding: 20px 30px;
+}
+
+@media only screen and (max-width: 767px) {
+	.wallpaper-media{
+		height:81% !important;
+	}
+}
+
+@media only screen and (max-width: 999px) {
+	
+  aside.mobile-full #block-system-main-menu {
+    display: none;
+}
+
+  aside.mobile-full #block-pgc-contact-block-pgc-contact-block {
+    display: none;
+}
+
+
+.roller-canister{
+    width: auto !important;
+    transform: none !important;
+}
+.content_roller.enabled .roller-viewport {
+    height: auto !important;
+}
+
+aside.mobile-full.tablet-full.desktop-3.max-4.sidebar{
+	margin-top:0px;
+}
+.content_block.bordered .details
+{
+	padding: 0px;
+}
+
+.content_block
+{
+	padding: 0px;
+}
+#block-pgc-misc-blocks-mobilenav .header-mobile
+{
+	    margin-top: 15px;
+}
+}

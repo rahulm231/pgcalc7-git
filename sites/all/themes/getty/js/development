@@ -1,0 +1,520 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>   <html class="no-js lt-ie9" lang="en" ng-app="quartz"> <![endif]-->
+<!--[if IE 9]><html class="no-js ie9" lang="en" ng-app="quartz"><![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" ng-app="quartz"> <!--<![endif]-->
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Support Us | About the Getty</title>
+
+	<meta name="robots" content="index,follow">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<meta property="og:title" content="Support Us | About the Getty">
+	<meta property="og:site_name" content="About the Getty">
+	<meta property="og:description" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="">
+
+	<link rel="shortcut icon" href="/global/r/images/getty_logo_favicon.ico">
+	<link rel="apple-touch-icon img_src" href="/global/r/images/getty_logo_favicon.png">
+<!--
+/* @license
+ * MyFonts Webfont Build ID 2577370, 2013-06-10T18:14:07-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Humanist 531 by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/humanist-531/humanist-531/
+ * 
+ * Webfont: Humanist 531 Bold by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/humanist-531/bold/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2577370
+ * Webfonts copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * 
+ * Copyright 2013 MyFonts Inc
+*/
+
+-->	
+	<link rel="stylesheet" href="/global/r/css/normalize.css">
+	<link rel="stylesheet" href="/global/r/css/app.css">
+	<link rel="stylesheet" href="/global/r/css/helpers.css">
+	<link rel="stylesheet" href="/global/r/css/about.css">
+
+	<!--[if lte IE 9]>
+	<link rel="stylesheet" href="/global/r/css/ie.css">
+	<![endif]-->
+	<script type="text/javascript" src="/global/r/js/vendor/jquery.js"></script>
+	<script type="text/javascript" src="/global/r/js/vendor/jquery.getscripts.js"></script>
+	<script type="text/javascript" src="/global/r/js/getty.set-sections.js"></script>
+	<script type="text/javascript" src="/global/r/js/getty.get-includes.js"></script>
+	<script type="text/javascript" src="/global/r/js/getty.get-left-nav.js"></script>
+
+	<script type="text/javascript">
+		// load the rest of our head scripts.
+		// In order to add any for this page specifically, just push into the array:
+		// getty_header_script_array.push("/global/r/js/vendor/jquery.fittext.js","/global/r/js/vendor/jquery.mCustomScrollbar.concat.min.js");
+		getty_header_script_array.push(
+			"/global/r/js/vendor/jquery.mCustomScrollbar.concat.min.js",
+			"/global/r/js/vendor/jquery.cycle2.min.js",
+			"/global/r/js/vendor/jquery.cycle2.swipe.min.js",
+			"/global/r/js/vendor/jquery.fittext.js"
+		);
+		ajax_header_scripts(getty_header_script_array);
+	</script>
+
+	<!--[if !IE 9]><!-->
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "e01daac0-22e7-400b-8a4b-2f79ffbcdb5f", doNotHash: true, onhover: false});</script>
+	<!--<![endif]-->
+
+	<script type="text/javascript">
+	var navArray = new Array();	
+	</script>	
+
+<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-NRDC63K');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Analytics start -->
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-8087223-1', 'auto');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+    </script>
+    <!-- Google Analytics end -->
+    <!-- Google Analytics: to handle pdfs, docs, xls start -->
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $("a[href$='pdf'],a[href$='rtf'],a[href$='doc'],a[href$='xls'],a[href*='bit.ly']a[href$='csv'],a[href$='json'],a[href$='zip'],a[href$='ppt'],a[href*='epub'],a[href*='mobi']").each(function(index) {
+            pdfLabel = $(this).attr('href');
+            pdfOnClick = "ga('send', 'pageview','" + pdfLabel + "');";
+            $(this).attr("onClick", pdfOnClick);
+        });
+    });
+    </script>
+    <!-- Google Analytics: to handle pdfs, docs, xls end  -->
+	<!-- Google Analytics: to handle outbound links start -->
+	<script>
+	/**
+	* Function that tracks a click on an outbound link in Google Analytics.
+	* This function takes a valid URL string as an argument, and uses that URL string
+	* as the event label.
+	* Need to add to the onclick attribute to links. Ex: <a href="http://www.example.com" onclick="trackOutboundLink('http://www.example.com'); return false;">Check out example.com</a>
+	*/
+	var trackOutboundLink = function(url) {
+	   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+		 function () {
+		 document.location = url;
+		 }
+	   });
+	}
+	</script>
+	<!-- Google Analytics: to handle outbound links end -->
+
+</head>
+
+<body class="" ng-controller="quartzMainController">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRDC63K"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	<section id="mobile-panel-nav" class="mobile-panel hide-for-print show-for-medium-down">
+		<div id="mobile-panel-wrap" class="top-bar-section">
+			<ul id="mobile-panel-nav-sections">
+				<li>
+					<!-- leave no space between these, as they're inline-block, and whitespace messes up layout-->
+					<a href="http://www.getty.edu">Getty.edu</a><span class="icon-remove icon-large close"></span>
+				</li>
+				<li class="divider"></li>
+				<li id="mobile-panel-nav-sections-container" class="has-dropdown">
+					<a id="mobile-panel-nav-section-name" href="/">The Getty</a>
+					<ul id="mobile-panel-nav-section-nav-container" class="dropdown">
+					</ul>
+				</li>
+			</ul>
+			<ul id="mobile-panel-nav-extras">
+				<li class="divider"></li>
+			</ul>
+		</div>
+	</section>
+	<div id="wrapper">
+		<div id="site-alert" class="essential hide"></div>
+		<div id="global-nav-wrapper" class="row collapse"></div>
+		<div id="banner" class="row collapse hide-on-print hide-for-medium-down">
+			<div class="small-12 columns">
+				<h1>
+					<a id="getty-logo" href="/" title="The Getty homepage"><span class="icon-getty-logo pull-left"></span></a>
+					<a id="section-title" href="/about/">About the Getty</a>
+				</h1>
+			</div>
+		</div>
+
+		<div class="row hide-on-print hide-for-medium-down" id="level2-nav">
+			<div class="small-12">
+				<nav class="top-bar">
+					<section class="top-bar-section">
+						<ul id="level2-nav-container" class="left"></ul>
+					</section>
+				</nav>
+			</div>
+		</div>
+
+<div class="row">
+	<div class="small-12 columns" id="main">
+
+		<div class="row" id="fullpage-hero">
+			<section id="hero">
+				<!-- <div id="" class="small-12 landing-carousel"> -->
+					<!-- <span class="carousel-pager-wrap"><span class="carousel-pager"></span></span> -->
+					<!-- <div id="carousel"> -->
+						<figure>
+							<a href="#">
+								<img data-interchange="[/about/development/images/center_aerial_hero_sm.jpg, (sm)], [/about/development/images/center_aerial_hero_med.jpg, (med)], [/about/development/images/center_aerial_hero_lrg.jpg, (lrg)]" data-uuid="1db33af9-0da7-ec00-d8e4-56a054988ae9" src="/about/development/images/center_aerial_hero_lrg.jpg">
+								<noscript>
+									&lt;img src="/about/development/images/center_aerial_hero_lrg.jpg"&gt;
+								</noscript>
+							</a>
+						</figure>
+					<!-- </div> -->
+				<!-- </div> -->
+			</section>
+		</div>
+
+		<div class="row" id="utilities-row" style="padding: 0px 0.625em 9px;">
+			<!-- print, share -->
+					<div id="utility-display" class="small-1 small-push-11 columns hide-on-print">
+						<span class="icon-cog icon-border pull-right show-for-small"></span>
+					</div>
+					<div id="utilities" class="medium-3 medium-push-9 small-11 small-pull-1 columns hide-on-print"></div>
+					<div class="medium-9 large-9 medium-pull-3 small-11 small-pull-1 columns">
+				<h2>Support Us</h2>
+				<h6></h6>
+			</div>
+		</div><!-- / utilities-row -->
+
+		<div class="row" id="content">
+			<div id="center-column" class="small-12 columns">
+
+				<div class="row">
+				<!-- One column iteration  0 -->
+
+					<div class="small-12 columns hide-for-print ">
+
+<!-- Include TPL -->
+
+						<p>When we combine our efforts with your support, the result is extraordinary. Please join us. Your gifts will help us to take our exhibitions and special initiatives to new heights, while engaging and educating audiences of all ages.<br/><br/><br/></p>
+
+<!-- end iterate -->
+
+				<!-- end inner tpl -->
+
+					</div>
+
+				</div>
+					<!-- iteration  0 -->
+
+				<div class="row">
+				<!-- One column iteration  1 -->
+
+				</div>
+					<!-- iteration  1 -->
+
+				<div class="row">
+				<!-- Two column iteration 1 -->
+
+	<! -- Format is 0   -->
+
+						<! -- Format is 0  0 -->
+						<! -- Col is 0   -->
+							<div class="small-12 medium-6 columns ">
+
+<!-- Include TPL -->
+
+					<figure><a href="/about/development/patron_program.html">
+						<img src="/about/development/images/councils.jpg" alt=""/></a>
+						<figcaption></figcaption>
+					</figure>
+
+<!-- end iterate -->
+
+				<!-- end inner tpl -->
+
+					</div>
+
+	<! -- Format is 0   -->
+
+							<div class="small-12 medium-6 columns ">
+
+				<a href="/about/development/patron_program.html">
+					<h4>Getty Patron Program</h4></a>
+
+<!-- Include TPL -->
+
+						<p>Express your passion for art by becoming a partner in the Getty's work as a cultural institution dedicated to the presentation, conservation, and interpretation of the world's artistic legacy. Patrons receive benefits that deepen their connections to us.
+<br /><br />
+<a href="/about/development/patron_program.html">Getty Patron Program &nbsp;&nbsp;<span class="icon-angle-right"></span></a></p>
+
+<!-- end iterate -->
+
+				<!-- end inner tpl -->
+
+					</div>
+
+				</div>
+
+				<div class="row">
+				<!-- One column iteration  2 -->
+
+				</div>
+					<!-- iteration  2 -->
+
+				<div class="row">
+				<!-- Two column iteration 2 -->
+
+	<! -- Format is 0   -->
+
+						<! -- Format is 0  0 -->
+						<! -- Col is 0   -->
+							<div class="small-12 medium-6 columns ">
+
+<!-- Include TPL -->
+
+					<figure><a href="/about/development/exhibitions_initiatives.html">
+						<img src="/about/development/images/special_initiatives.jpg" alt=""/></a>
+						<figcaption></figcaption>
+					</figure>
+
+<!-- end iterate -->
+
+				<!-- end inner tpl -->
+
+					</div>
+
+	<! -- Format is 0   -->
+
+							<div class="small-12 medium-6 columns ">
+
+				<a href="/about/development/exhibitions_initiatives.html">
+					<h4>Exhibitions and Special Initiatives</h4></a>
+
+<!-- Include TPL -->
+
+						<p>Support our dynamic array of exhibitions, as well as innovative projects that strengthen the understanding and preservation of visual arts in Los Angeles and beyond. The Getty’s special initiatives involve collaboration among Getty programs, as well as partner organizations around the globe. This broad intellectual exchange results in stellar exhibitions, as well as groundbreaking research and conservation efforts. 
+<br />
+<a href="/about/development/exhibitionsupport.html">Exhibition Support &nbsp;&nbsp;<span class="icon-angle-right"></span></a>
+<br>
+<a href="http://www.getty.edu/about/development/exhibitions_initiatives.html">Special Initiatives &nbsp;&nbsp;<span class="icon-angle-right"></span></a>
+<br></p>
+
+<!-- end iterate -->
+
+				<!-- end inner tpl -->
+
+					</div>
+
+				</div>
+
+				<div class="row">
+				<!-- One column iteration  3 -->
+
+				</div>
+					<!-- iteration  3 -->
+
+				<div class="row">
+				<!-- Two column iteration 3 -->
+
+	<! -- Format is 0   -->
+
+						<! -- Format is 0  0 -->
+						<! -- Col is 0   -->
+							<div class="small-12 medium-6 columns ">
+
+<!-- Include TPL -->
+
+					<figure><a href="/about/development/business_community.html">
+						<img src="/about/development/images/corporate.jpg" alt=""/></a>
+						<figcaption></figcaption>
+					</figure>
+
+<!-- end iterate -->
+
+				<!-- end inner tpl -->
+
+					</div>
+
+	<! -- Format is 0   -->
+
+							<div class="small-12 medium-6 columns ">
+
+				<a href="/about/development/business_community.html">
+					<h4>Support from the Business Community</h4></a>
+
+<!-- Include TPL -->
+
+						<p>Strengthen your brand by aligning with one of the world's most renowned art and philanthropic institutions. 
+
+<br/><br/><a href="/about/development/business_community.html#partner">Corporate Partner Program &nbsp;&nbsp;<span class="icon-angle-right"></span></a></p>
+
+<!-- end iterate -->
+
+				<!-- end inner tpl -->
+
+					</div>
+
+				</div>
+
+				<div class="row">
+				<!-- One column iteration  4 -->
+
+				</div>
+					<!-- iteration  4 -->
+
+				<div class="row">
+				<!-- Two column iteration 4 -->
+
+	<! -- Format is 0   -->
+
+						<! -- Format is 0  0 -->
+						<! -- Col is 0   -->
+							<div class="small-12 medium-6 columns ">
+
+<!-- Include TPL -->
+
+					<figure><a href="/about/development/giving.html">
+						<img src="/about/development/images/individual_giving.jpg" alt=""/></a>
+						<figcaption></figcaption>
+					</figure>
+
+<!-- end iterate -->
+
+				<!-- end inner tpl -->
+
+					</div>
+
+	<! -- Format is 0   -->
+
+							<div class="small-12 medium-6 columns ">
+
+				<a href="/about/development/giving.html">
+					<h4>About Giving to the Getty</h4></a>
+
+<!-- Include TPL -->
+
+						<p><a href="waystogive.html">Ways to Give &nbsp;&nbsp;<span class="icon-angle-right"></span></a>
+<br/><a href="faq.html">Frequently Asked Questions &nbsp;&nbsp;<span class="icon-angle-right"></span></a>
+<br/><br/><a href="https://community.getty.edu/donation-tribute" class="button round" target="_blank">&nbsp;Donate Now&nbsp;</a></p>
+
+<!-- end iterate -->
+
+				<!-- end inner tpl -->
+
+					</div>
+
+				</div>
+
+				<div class="row">
+				<!-- One column iteration  5 -->
+
+					<div class="small-12 columns hide-for-print ">
+
+<!-- Include TPL -->
+
+						<p><div class="row">
+    <div class="small-6 medium-6 large-5 small-centered medium-centered large-centered columns">
+	<ul class="small-block-grid-3 medium-block-grid-5 centered">
+	<li><a href="http://blogs.getty.edu/iris/" title="The J. Paul Getty Trust on the Iris" target="_blank"><span class="fc-webicon iris medium"></span></a></li>
+	<li><a href="http://www.twitter.com/gettymuseum" title="The J. Paul Getty Museum on Twitter" target="_blank"><span class="fc-webicon twitter medium"></span></a></li>
+	<li><a href="http://www.youtube.com/gettytrust" title="The J. Paul Getty Trust on Youtube" target="_blank"><span class="fc-webicon youtube medium"></span></a></li>
+	<li><a href="http://www.soundcloud.com/the-getty" title="The J. Paul Getty Trust on Soundcloud" target="_blank"><span class="fc-webicon soundcloud medium"></span></a></li>
+        </ul>
+    </div>
+</div></p>
+
+<!-- end iterate -->
+
+				<!-- end inner tpl -->
+
+					</div>
+
+				</div>
+					<!-- iteration  5 -->
+
+				<div class="row">
+				<!-- One column iteration  6 -->
+
+					<div class="small-12 columns hide-for-print ">
+
+<!-- Include TPL -->
+
+						<p></p><div id="about-mission" class="small-12 columns tile landing-mission">
+  <div class="row">
+    <div class="small-12 columns text-center"><p>The J. Paul Getty Trust is a cultural and philanthropic institution dedicated to critical thinking in the presentation, conservation, and interpretation of the world's artistic legacy.</p></div></div></div><p></p>
+
+<!-- end iterate -->
+
+				<!-- end inner tpl -->
+
+					</div>
+
+				</div>
+					<!-- iteration  6 -->
+
+				<div class="row">
+				<!-- One column iteration  7 -->
+
+				</div>
+					<!-- iteration  7 -->
+
+			</div>
+
+<!-- to use See More -->
+<!--script src="/global/r/js/getty.exhibitions.js" type="text/javascript"></script-->
+
+			</div><!-- /#content -->
+		</div><!-- /#main -->
+	</div><!-- /.row -->
+
+</div><!-- /#wrapper -->
+<!-- DEBUG INFO: {iw_value name="$DEBUG_STR /}   --> 
+<!-- Footer -->
+	<footer id="footer" class="row"></footer>
+	<script type="text/javascript">
+		getty_chrome_includes();
+	</script>
+
+<script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
+<script type="text/javascript" src="/global/r/js/components/zinc/blogs.feed.js"></script>
+</body>
+</html>
+
+
+

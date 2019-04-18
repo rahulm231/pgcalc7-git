@@ -1,0 +1,398 @@
+body.page-master-calendar .date-heading h3 {
+  font-weight: normal;
+}
+body.page-master-calendar .panel-flexible {
+  position: relative;
+}
+body.page-master-calendar .panel-flexible-inside {
+  margin-top: 40px;
+}
+body.page-master-calendar .master-calendar-sidebar {
+  width: 260px;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+body.page-master-calendar .master-calendar-sidebar .date-heading h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+body.page-master-calendar .master-calendar-sidebar .calendar-calendar th.days {
+  background: none;
+  border: none;
+  text-align: right;
+  color: #333;
+  padding-bottom: 8px;
+}
+body.page-master-calendar .master-calendar-sidebar #master_calendar_quick_links {
+  display: table;
+  width: 100%;
+}
+body.page-master-calendar .master-calendar-sidebar #master_calendar_quick_links a {
+  font-size: 12px;
+  text-transform: uppercase;
+  display: table-cell;
+  text-align: center;
+  width: 25%;
+}
+body.page-master-calendar .master-calendar-sidebar #master_calendar_quick_links a:first-child {
+  text-align: left;
+  width: 20%;
+}
+body.page-master-calendar .master-calendar-sidebar #master_calendar_quick_links a:nth-child(2) {
+  width: 33%;
+}
+body.page-master-calendar .master-calendar-sidebar #master_calendar_quick_links a:last-child {
+  text-align: right;
+}
+body.page-master-calendar .master-calendar-sidebar .mini-calendar {
+  width: 100%;
+}
+body.page-master-calendar .master-calendar-sidebar .mini-calendar .view-header .date-nav-wrapper {
+  margin: 0;
+}
+body.page-master-calendar .master-calendar-sidebar .mini-calendar .view-header .date-nav-wrapper .date-nav {
+  padding: 0;
+  margin: 0;
+}
+body.page-master-calendar .master-calendar-sidebar .mini-calendar .view-header .date-nav-wrapper .date-nav .pager .date-prev {
+  margin: 0;
+  left: 0;
+  right: auto;
+}
+body.page-master-calendar .master-calendar-sidebar .mini-calendar .today {
+  background: none;
+}
+body.page-master-calendar .master-calendar-sidebar #master_calendar_filter.divisions span.dynatree-checkbox {
+  display: block;
+  float: left;
+  margin-left: 0;
+}
+body.page-master-calendar .master-calendar-sidebar #master_calendar_filter {
+  margin-top: 60px;
+}
+body.page-master-calendar .master-calendar-sidebar #master_calendar_filter h4 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #333;
+}
+body.page-master-calendar .master-calendar-sidebar #master_calendar_filter ul.dynatree-container {
+  white-space: normal;
+  border: none;
+  font-family: Vaud, sans-serif;
+}
+body.page-master-calendar .master-calendar-sidebar #master_calendar_filter span.dynatree-checkbox {
+  margin-left: 0;
+}
+body.page-master-calendar .master-calendar-sidebar #master_calendar_filter span.dynatree-node a {
+  font-size: 12px;
+  padding-bottom: 5px;
+  width: 150px;
+  color: #666;
+}
+body.page-master-calendar .master-calendar-sidebar #master_calendar_filter #master_calendar_submit {
+  margin-top: 5px;
+}
+body.page-master-calendar .master-calendar-sidebar #master_calendar_filter.divisions span.dynatree-connector {
+  display: none;
+}
+body.page-master-calendar .master-calendar-sidebar #events_search {
+  position: relative;
+  height: 60px;
+  margin-top: 20px;
+}
+body.page-master-calendar .master-calendar-sidebar #events_search .views-exposed-widget {
+  padding: 0;
+}
+body.page-master-calendar .master-calendar-sidebar #events_search .form-item-keys input {
+  float: left;
+  width: 180px;
+  height: 24px;
+  padding-left: 5px;
+  border: 2px solid #cfcfcf;
+  margin-top: 20px;
+  border-right: 0;
+  background-color: white;
+}
+body.page-master-calendar .master-calendar-sidebar #events_search .form-item-keys input .search-textfield {
+  padding: 0;
+  border: 0;
+  text-align: right;
+  font-size: 14px;
+  height: 26px;
+  line-height: 26px;
+  outline: 0;
+  width: 180px;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
+}
+body.page-master-calendar .master-calendar-sidebar #events_search .form-item-keys input .search-textfield.has-content {
+  color: black;
+}
+body.page-master-calendar .master-calendar-sidebar #events_search .form-item-time-range {
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+body.page-master-calendar .master-calendar-sidebar #events_search .form-item-time-range label {
+  font-weight: normal;
+}
+body.page-master-calendar .master-calendar-sidebar #events_search .views-submit-button input {
+  position: absolute;
+  top: 0;
+  left: 180px;
+  width: 31px;
+  height: 30px;
+  padding: 0;
+  margin-top: 20px;
+  background: url(/sites/all/themes/caltech_new/cssAssets/search_button.png) no-repeat;
+  border: none;
+  text-indent: -9999999px;
+  text-align: center;
+}
+body.page-master-calendar .master-calendar-main {
+  margin-top: 10px;
+  width: 690px;
+}
+body.page-master-calendar .master-calendar-main #lecture-series-name h2,
+body.page-master-calendar .master-calendar-main #event-sponsor-name h2 {
+  margin: 0;
+  margin-bottom: 1em;
+}
+body.page-master-calendar .master-calendar-main .date-heading h3 {
+  font-size: 25px;
+  line-height: 28px;
+  color: black;
+}
+body.page-master-calendar .master-calendar-main .date-nav-wrapper {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+body.page-master-calendar .master-calendar-main .date-nav-wrapper .date-nav {
+  padding: 0;
+}
+body.page-master-calendar .master-calendar-main .pager .date-prev,
+body.page-master-calendar .master-calendar-main .pager .date-next {
+  background: none;
+  top: 6px;
+}
+body.page-master-calendar .master-calendar-main .pager .date-prev a,
+body.page-master-calendar .master-calendar-main .pager .date-next a {
+  text-transform: uppercase;
+  color: #ff6e1e;
+  margin: 0;
+}
+body.page-master-calendar .master-calendar-main .pager .date-prev {
+  margin-left: 0;
+  left: 0;
+  right: auto;
+}
+body.page-master-calendar .master-calendar-main .pane-title {
+  display: none;
+}
+body.page-master-calendar .master-calendar-main .pane-master-calendar-event-search .pane-title,
+body.page-master-calendar .master-calendar-main .pane-master-calendar-event-search-past .pane-title,
+body.page-master-calendar .master-calendar-main .pane-master-calendar-events-by-sponsor-and-series .pane-title {
+  display: block;
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: normal;
+}
+body.page-master-calendar .master-calendar-main table.events:first-child th {
+  padding-top: 10px;
+}
+body.page-master-calendar .master-calendar-main table.events {
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+body.page-master-calendar .master-calendar-main table.events tr.calendar-item {
+  font-size: 14px;
+}
+body.page-master-calendar .master-calendar-main table.events tbody td {
+  padding: 5px 0;
+}
+body.page-master-calendar .master-calendar-main table.events th {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  color: black;
+  border: none;
+  font-size: 14px;
+  font-weight: normal;
+}
+body.page-master-calendar .master-calendar-main table.events td.event-date {
+  width: 135px;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+body.page-master-calendar .master-calendar-main table.events td.event-date.filtered {
+  width: 175px;
+}
+body.page-master-calendar .master-calendar-main table.events td.event-date div {
+  float: left;
+  white-space: nowrap;
+}
+body.page-master-calendar .master-calendar-main table.events td.ical-feed {
+  width: 40px;
+  padding-left: 20px;
+}
+body.page-master-calendar .master-calendar-main table.events td.ical-feed a {
+  float: right;
+}
+body.page-master-calendar .master-calendar-main .feed-icon {
+  margin: 10px 0;
+}
+body.page-master-calendar .master-calendar-main .feed-icon .filtered-ical-description {
+  font-size: 11px;
+}
+body.page-master-calendar .master-calendar-main .event-location {
+  color: #888;
+  font-style: italic;
+}
+body.page-master-calendar .master-calendar-main .speakers {
+  color: #888;
+}
+body.page-master-calendar .master-calendar-main .speakers ul li {
+  list-style: none;
+  margin-left: 0;
+}
+body.page-master-calendar .master-calendar-main .speakers .field-collection-view-links {
+  display: none;
+}
+body.mobile.page-master-calendar .panel-flexible-inside,
+body.page-master-calendar-mobile .panel-flexible-inside {
+  margin-top: 5px;
+}
+body.mobile.page-master-calendar .master-calendar-sidebar,
+body.page-master-calendar-mobile .master-calendar-sidebar {
+  display: none;
+  width: 280px;
+  padding: 0 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 0;
+  position: static;
+}
+body.mobile.page-master-calendar .master-calendar-sidebar .date-heading,
+body.page-master-calendar-mobile .master-calendar-sidebar .date-heading {
+  margin: 0;
+}
+body.mobile.page-master-calendar .master-calendar-sidebar .date-heading h3,
+body.page-master-calendar-mobile .master-calendar-sidebar .date-heading h3 {
+  font-size: 25px;
+}
+body.mobile.page-master-calendar .master-calendar-sidebar table.mini,
+body.page-master-calendar-mobile .master-calendar-sidebar table.mini {
+  font-size: 20px;
+}
+body.mobile.page-master-calendar .master-calendar-sidebar #events_search .form-item-keys input,
+body.page-master-calendar-mobile .master-calendar-sidebar #events_search .form-item-keys input {
+  width: 233px;
+  height: 20px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+body.mobile.page-master-calendar .master-calendar-sidebar #events_search .views-submit-button input,
+body.page-master-calendar-mobile .master-calendar-sidebar #events_search .views-submit-button input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  left: 247px;
+}
+body.mobile.page-master-calendar #dates_and_filters_button,
+body.page-master-calendar-mobile #dates_and_filters_button {
+  float: right;
+  font-size: 14px;
+  margin-right: 10px;
+}
+body.mobile.page-master-calendar #master_calendar_quick_links a,
+body.page-master-calendar-mobile #master_calendar_quick_links a {
+  font-size: 16px;
+}
+body.mobile.page-master-calendar .master-calendar-main,
+body.page-master-calendar-mobile .master-calendar-main {
+  width: 280px;
+  margin-left: 0;
+  padding: 0 10px;
+}
+body.mobile.page-master-calendar .master-calendar-main .inside,
+body.page-master-calendar-mobile .master-calendar-main .inside {
+  padding: 0;
+}
+body.mobile.page-master-calendar .master-calendar-main .date-heading,
+body.page-master-calendar-mobile .master-calendar-main .date-heading {
+  padding-top: 5px;
+  margin-top: 0;
+}
+body.mobile.page-master-calendar .master-calendar-main .date-heading h3,
+body.page-master-calendar-mobile .master-calendar-main .date-heading h3 {
+  font-size: 20px;
+}
+body.mobile.page-master-calendar .master-calendar-main .pane-title,
+body.page-master-calendar-mobile .master-calendar-main .pane-title {
+  font-size: 15px;
+}
+body.mobile.page-master-calendar .master-calendar-main .pager li,
+body.page-master-calendar-mobile .master-calendar-main .pager li {
+  position: static;
+  margin: 0;
+}
+body.mobile.page-master-calendar .master-calendar-main .pager li.date-prev,
+body.page-master-calendar-mobile .master-calendar-main .pager li.date-prev {
+  float: left;
+}
+body.mobile.page-master-calendar .master-calendar-main .pager li.date-next,
+body.page-master-calendar-mobile .master-calendar-main .pager li.date-next {
+  float: right;
+}
+body.mobile.page-master-calendar .master-calendar-main .pager a,
+body.page-master-calendar-mobile .master-calendar-main .pager a {
+  font-size: 10px;
+}
+body.mobile.page-master-calendar .master-calendar-main table.events,
+body.page-master-calendar-mobile .master-calendar-main table.events {
+  margin-top: 5px;
+}
+body.mobile.page-master-calendar .master-calendar-main table.events thead tr,
+body.page-master-calendar-mobile .master-calendar-main table.events thead tr {
+  margin-bottom: 10px;
+}
+body.mobile.page-master-calendar .master-calendar-main table.events tr.calendar-item,
+body.page-master-calendar-mobile .master-calendar-main table.events tr.calendar-item {
+  display: block;
+  position: relative;
+  margin-bottom: 5px;
+}
+body.mobile.page-master-calendar .master-calendar-main table.events td,
+body.page-master-calendar-mobile .master-calendar-main table.events td {
+  display: block !important;
+  width: 260px;
+  padding: 0;
+}
+body.mobile.page-master-calendar .master-calendar-main table.events td.event-date.filtered,
+body.page-master-calendar-mobile .master-calendar-main table.events td.event-date.filtered {
+  width: 260px;
+}
+body.mobile.page-master-calendar .master-calendar-main table.events td.event-date div,
+body.page-master-calendar-mobile .master-calendar-main table.events td.event-date div {
+  float: none;
+  display: inline;
+  white-space: normal;
+}
+body.mobile.page-master-calendar .master-calendar-main table.events td.event-info,
+body.page-master-calendar-mobile .master-calendar-main table.events td.event-info {
+  padding-left: 10px;
+  font-size: 12px;
+}
+body.mobile.page-master-calendar .master-calendar-main table.events a.ical-icon,
+body.page-master-calendar-mobile .master-calendar-main table.events a.ical-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+body.mobile.page-master-calendar .master-calendar-main .view-empty,
+body.page-master-calendar-mobile .master-calendar-main .view-empty {
+  margin-top: 10px;
+  text-align: center;
+}
+/*# sourceMappingURL=master_calendar.css.map */

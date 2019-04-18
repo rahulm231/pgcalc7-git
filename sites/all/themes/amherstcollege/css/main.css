@@ -1,0 +1,789 @@
+/* ==================================================================
+	 Screen Sizes
+================================================================== */
+/* ==================================================================
+	 Global Sizes
+================================================================== */
+/**need to account for sealHeight as well**/
+ /* ==================================================================
+	 Colors (names from http://chir.ag/projects/name-that-color)
+================================================================== */
+/**purple used in tooltip glyphicon **/
+/**used in classlink for the info glyphs in datatables **/
+/**alternate row bckgd in datatables, details row, and panel-heading background**/
+/**only used for border in grants file upload form. this is also the default bootstrap color for a panel border **/
+/**only used in .radio-border **/
+ /* ==================================================================
+	 Amherst Colors
+================================================================== */
+/* body text on white background */
+/* banner background */
+/* navs and buttons */
+/* links within body text, do not use otherwise */
+/* links on black background */
+/* buttons */
+/* button hover */
+/* this came in on willa's template but is not in any variable file */
+/* ==================================================================
+	 Images
+================================================================== */
+/* ==================================================================
+	 Fonts
+================================================================== */
+/**
+Font Family
+**/
+/* specify in media queries */
+/**
+Font Weights
+**/
+/**
+Font Sizes
+**/
+/* ==================================================================
+	 Mixins
+================================================================== */
+/**Media Queries**/
+/** adjust padding while adding a bottom border **/
+/** use on fonts that need a hover state (links) **/
+/** Accepts font size in rem for full display
+	$sizeValue is the value at full display
+	$reduction should be the decimal representation of the percent to reduce
+	$reduce is passed only if we should reduce.
+**/
+html {
+  background: white;
+  font-size: 100%;
+  /*to override bootstrap font-size here*/
+  position: relative;
+  min-height: 100%; }
+
+body {
+  font-family: lato, -apple-system, Roboto, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+  width: 100%;
+  min-width: 300px;
+  font-size: 100%;
+  /*to override bootstrap font-size here*/
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 22em; }
+
+main .container {
+  padding: 1em; }
+
+.margin-bottom-10 {
+  margin-bottom: 10px; }
+
+.embed-large {
+  width: 100%;
+  height: 500px; }
+
+/* ==================================================================
+	 Width and Wrap Definitions (to replace inline styles)
+================================================================== */
+.width-25 {
+  width: 25px; }
+
+.width-50 {
+  width: 50px; }
+
+.width-70 {
+  width: 70px; }
+
+.width-75 {
+  width: 75px; }
+
+.width-80 {
+  width: 80px; }
+
+.width-100 {
+  width: 100px; }
+
+.width-max-100 {
+  max-width: 100px; }
+
+.width-max-120 {
+  max-width: 120px; }
+
+.width-140 {
+  width: 140px; }
+
+.width-150 {
+  width: 150px; }
+
+.width-160 {
+  width: 160px; }
+
+.width-180 {
+  width: 180px; }
+
+.width-200 {
+  width: 200px; }
+
+.width-300 {
+  width: 200px; }
+
+.word-wrap {
+  word-wrap: break-word; }
+
+.width-max-500 {
+  max-width: 500px; }
+
+.no-margin {
+  margin: 0; }
+
+.cursor-pointer {
+  cursor: pointer; }
+
+/* ==================================================================
+	 Color Definitions (to replace inline styles)
+================================================================== */
+.color-mint {
+  color: #2db995; }
+
+.color-red-bright {
+  color: #D74C4C; }
+
+p a:not(.btn), td a:not(.btn) {
+  color: #7800a0;
+  text-decoration: none;
+  padding-bottom: .125em;
+  border-bottom: 1px solid #DFBFFF; }
+  p a:not(.btn):hover, td a:not(.btn):hover {
+    color: #4D2F71;
+    /* main purple */
+    text-decoration: none;
+    padding-bottom: .125em;
+    border-bottom: 1px solid #4D2F71;
+    /* main purple underline */ }
+
+td a.no-underline {
+  padding-bottom: 0;
+  border-bottom: none; }
+  td a.no-underline:hover {
+    padding-bottom: 0;
+    border-bottom: none; }
+
+a {
+  color: #614486;
+  cursor: pointer;
+  cursor: hand; }
+  a:hover {
+    color: #7800a0; }
+
+a.white {
+  color: white; }
+  a.white:hover {
+    color: white; }
+
+a.accordion:focus {
+  outline: none; }
+
+hr {
+  border: 1px solid #ccc;
+  border-bottom-width: 0; }
+
+/* TYPOGRAPHY */
+p, ul, ol {
+  font: 400 1em/160% lato, -apple-system, Roboto, arial, sans-serif;
+  color: #555; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #34204D;
+  line-height: 130%; }
+
+h1 {
+  font-size: 1.82rem;
+  letter-spacing: -.03em;
+  font-weight: 400;
+  margin-top: 0; }
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 2.6rem; } }
+
+h2 {
+  font-size: 1.6rem;
+  letter-spacing: -.02em;
+  margin-top: 0; }
+  @media only screen and (min-width: 768px) {
+    h2 {
+      font-size: 2rem; } }
+
+h3 {
+  font-size: 1.28rem;
+  font-weight: 400;
+  letter-spacing: -.02em;
+  margin-top: 0; }
+  @media only screen and (min-width: 768px) {
+    h3 {
+      font-size: 1.6rem; } }
+
+h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .03em; }
+
+h5 {
+  font-size: 1.1rem; }
+
+/** PAGER BUTTONS **/
+.pager li > input {
+  padding: 5px 14px;
+  border: transparent;
+  border-radius: 2px;
+  outline: none; }
+
+.btn-header {
+  /** use this for buttons outside of forms (in the header area) that may need space **/
+  margin: 2em 0 2em 0; }
+
+.btn-margin-right {
+  margin-right: 10px; }
+
+.btn-danger {
+  background: #D74C4C;
+  color: white; }
+
+.btn-danger:hover {
+  background: #BA3A1D; }
+
+/** DataTables **/
+.dataTables_info {
+  clear: both;
+  float: left; }
+
+.dataTables_paginate {
+  float: right;
+  text-align: right; }
+
+/* Two button pagination - previous / next */
+div.dataTables_wrapper div.dataTables_filter {
+  text-align: left !important; }
+
+div.dataTables_wrapper div.dataTables_filter label {
+  font-weight: bold; }
+
+/* Formatting for hidden row in datatables */
+.table-details {
+  background-color: #d9d5e4; }
+
+td.details {
+  background-color: #d9d5e4 !important; }
+
+td.centered {
+  text-align: center; }
+
+td.right {
+  text-align: right; }
+
+tr.details {
+  /**only used in classlink for detail sections in datatables**/
+  background-color: #d9d5e4 !important; }
+
+.form-control {
+  color: #333; }
+
+.form-text {
+  padding-top: 7px; }
+
+.form-date {
+  width: 31%;
+  display: inline; }
+
+.form-field-small {
+  width: 100px; }
+
+.radio-border {
+  min-height: 34px;
+  padding: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border: 1px solid #e1e1e8;
+  border-radius: 4px; }
+
+.radio-noborder {
+  min-height: 34px;
+  padding: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border: 1px;
+  border-radius: 4px; }
+
+input[type="radio"] {
+  margin-right: 5px; }
+
+/**
+Because we use control-label, we need to adjust the margin for checkboxes.
+In the case of Grants, I was not using control label so I will override this
+in grants.css to set the margin back to 0
+**/
+input[type="checkbox"] {
+  margin: .75em 0 0 0; }
+
+select.form-control {
+  -webkit-appearance: inherit;
+  -moz-appearance: inherit;
+  background-position: right 50%;
+  background-repeat: no-repeat;
+  background-image: url(/sites/all/themes/amherstcollege/cssAssets/select-arrows.svg);
+  padding: .5em;
+  padding-right: 1.5em; }
+
+.question-label {
+  font-weight: normal; }
+
+.required-field {
+  color: #D74C4C;
+  font-size: 20px;
+  vertical-align: middle;
+  line-height: 12px; }
+
+.select2-container .select2-choice {
+  height: 34px !important; }
+
+legend {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: none; }
+
+.form-control::-ms-clear {
+  display: none; }
+
+.row-options {
+  /**this may be better suited as a global style to define a bottom margin **/
+  margin-bottom: 10px; }
+
+.form-horizontal .control-label {
+  text-align: left; }
+.form-horizontal .required-label:after {
+  content: '\00a0*';
+  color: #D74C4C;
+  font-size: 20px;
+  vertical-align: middle;
+  line-height: 12px; }
+
+/**the input attached to the browse btn for file uploads**/
+.btn-file {
+  overflow: hidden;
+  height: 34px; }
+  .btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+    z-index: 1; }
+
+/* Form errors */
+form .error,
+form .error-message {
+  background: none;
+  color: #D74C4C;
+  font-weight: bold;
+  font-size: 14px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: none;
+  border: none;
+  margin: 0;
+  padding: 5px 0 0 0; }
+
+header {
+  background-color: #4D2F71;
+  color: white;
+  font-size: .9em;
+  height: 80px; }
+  header .header-logo {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center; }
+    header .header-logo .logo {
+      height: 30px;
+      margin-top: 1.5em; }
+      @media only screen and (min-width: 768px) {
+        header .header-logo .logo {
+          width: 375px;
+          height: 40px;
+          margin-bottom: 10px;
+          margin-top: 0; } }
+    @media only screen and (min-width: 768px) {
+      header .header-logo {
+        text-align: left; } }
+  @media only screen and (min-width: 768px) {
+    header {
+      padding: 2.5em 4em 0;
+      height: 120px; } }
+
+header a {
+  color: white;
+  text-decoration: none;
+  border: 0; }
+
+/* ==================================================================
+	 Main Site Navigation
+================================================================== */
+.navbar-default {
+  padding: 0;
+  background-color: #EEE;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  border: none;
+  color: #614486; }
+  .navbar-default .container {
+    padding-left: 0; }
+    @media only screen and (min-width: 992px) {
+      .navbar-default .container {
+        padding-left: 15px; } }
+  .navbar-default .navbar-header {
+    padding-left: 1em;
+    margin-left: 0; }
+    .navbar-default .navbar-header .navbar-toggle {
+      float: left; }
+    .navbar-default .navbar-header .navbar-brand {
+      font-size: inherit;
+      color: #614486;
+      padding: 15px 0;
+      margin-left: 0; }
+      @media only screen and (min-width: 992px) {
+        .navbar-default .navbar-header .navbar-brand:hover {
+          padding-bottom: 12px;
+          border-bottom: 3px solid #614486;
+          border-left: none; } }
+      .navbar-default .navbar-header .navbar-brand > .glyphicon-home {
+        padding-right: 3px; }
+    @media only screen and (min-width: 992px) {
+      .navbar-default .navbar-header {
+        padding: 0; } }
+  .navbar-default .navbar-collapse {
+    padding-right: 0; }
+    .navbar-default .navbar-collapse > .navbar-nav {
+      margin: 0; }
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #614486;
+    background-color: #EEE;
+    border-left: 10px solid #614486;
+    padding-left: 15px; }
+    @media only screen and (min-width: 992px) {
+      .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+        padding-bottom: 12px;
+        border-bottom: 3px solid #614486;
+        border-left: none;
+        padding-left: 1px;
+        padding-right: 1px; } }
+  .navbar-default .navbar-nav > li {
+    border-bottom: 1px solid white; }
+    .navbar-default .navbar-nav > li > a {
+      color: #614486; }
+      .navbar-default .navbar-nav > li > a:hover {
+        color: #614486;
+        border-left: 10px solid #614486;
+        padding-left: 5px; }
+        @media only screen and (min-width: 992px) {
+          .navbar-default .navbar-nav > li > a:hover {
+            padding-left: 1px;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #614486;
+            border-left: none; } }
+      .navbar-default .navbar-nav > li > a:focus {
+        color: #614486; }
+      @media only screen and (min-width: 992px) {
+        .navbar-default .navbar-nav > li > a {
+          padding-left: 1px;
+          padding-right: 1px;
+          margin-left: 20px;
+          border-bottom: none; } }
+    @media only screen and (min-width: 992px) {
+      .navbar-default .navbar-nav > li {
+        margin-left: 1em;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-bottom: none; } }
+    @media only screen and (min-width: 768px) {
+      .navbar-default .navbar-nav > li {
+        margin: 0; } }
+  .navbar-default .navbar-right li {
+    border-bottom: none;
+    padding: 1em;
+    color: #614486; }
+    .navbar-default .navbar-right li:hover {
+      background-color: #EEE; }
+    .navbar-default .navbar-right li a {
+      color: #614486; }
+    @media only screen and (min-width: 992px) {
+      .navbar-default .navbar-right li {
+        padding-top: 12px;
+        padding-left: 1em;
+        padding-right: 0;
+        padding-bottom: 0; } }
+  @media only screen and (min-width: 768px) {
+    .navbar-default {
+      padding: 0; } }
+  @media only screen and (min-width: 992px) {
+    .navbar-default {
+      padding: 0 1em 0 1em; } }
+
+.no-underline:hover {
+  text-decoration: none; }
+
+.badge {
+  background-color: #D74C4C;
+  font-size: 11px; }
+
+/* ==================================================================
+	 Sub Navigation
+================================================================== */
+.nav-tabs li.active a {
+  background-color: white; }
+  .nav-tabs li.active a:hover {
+    background-color: white; }
+  .nav-tabs li.active a:active {
+    background-color: white; }
+
+footer {
+  background-color: #4D2F71;
+  font-size: .9em;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 18em; }
+  @media only screen and (min-width: 768px) {
+    footer {
+      padding: 2.5em 4em 2em;
+      min-height: 22em; } }
+  footer a {
+    color: white;
+    text-decoration: none;
+    border: 0; }
+    footer a:hover {
+      color: white; }
+    footer a:active {
+      color: white; }
+    footer a:focus {
+      color: white; }
+
+.footer-row {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 12em;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px; }
+  .footer-row > .col-seal {
+    background-image: url(/sites/all/themes/amherstcollege/cssAssets/seal.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    height: 100%;
+    width: 33%; }
+    @media only screen and (min-width: 768px) {
+      .footer-row > .col-seal {
+        background-position: top left;
+        width: 16.66667%; } }
+  .footer-row .footer-copy {
+    top: 25%; }
+    @media only screen and (min-width: 992px) {
+      .footer-row .footer-copy {
+        top: 45%; } }
+
+.scroll-up {
+  max-width: 1140px;
+  margin: 0 auto;
+  border-top: 1px solid #614486; }
+  .scroll-up .scroll-col {
+    width: 100%;
+    text-align: center; }
+  .scroll-up .scroll-col span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    color: white;
+    background: #80699E;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    padding: 8px 0 8px 3px; }
+    .scroll-up .scroll-col span:hover {
+      background-color: #614486; }
+
+.glyphicon {
+  top: 2px; }
+
+.glyphicon-plus-sign {
+  color: #2db995;
+  font-size: 22px; }
+
+.glyphicon-more-info {
+  font-size: 22px; }
+
+.glyphicon-cog {
+  font-size: 20px;
+  color: white; }
+  .glyphicon-cog:hover {
+    background-color: #310067; }
+  .glyphicon-cog:focus {
+    background-color: #310067; }
+
+.glyphicon-check, .glyphicon-unchecked {
+  font-size: 20px; }
+
+.glyphicon-remove {
+  color: #D74C4C; }
+
+/** Color Classes- maybe move this elsewhere? 
+	Named with prefix font bc we may also want
+	to define bckgd colors at some point.
+**/
+.font-christalle {
+  color: #614486; }
+
+.font-boston-blue {
+  color: #4D2F71; }
+
+/** Notices and Errors **/
+.success {
+  clear: both;
+  color: white;
+  background: #2db995;
+  padding: 1em 2em;
+  margin-bottom: 18px;
+  font-size: 1em; }
+
+.error {
+  clear: both;
+  color: white;
+  background: #D74C4C;
+  padding: 1em 2em;
+  margin-bottom: 18px;
+  font-size: 1em; }
+
+.errorFlash {
+  clear: both;
+  color: white;
+  background: #D74C4C;
+  padding: 1em 2em;
+  margin-bottom: 18px;
+  font-size: 1em; }
+
+p.error {
+  clear: both;
+  color: white;
+  background: #D74C4C;
+  padding: 1em 2em;
+  margin-bottom: 18px;
+  font-size: 1em; }
+
+.notice {
+  clear: both;
+  color: white;
+  background: #D74C4C;
+  padding: 1em 2em;
+  margin-bottom: 18px;
+  font-size: 1em; }
+
+/**this is only for cakephp system msg. do we really need to style these? **/
+/** Elements **/
+#url-rewriting-warning {
+  display: none; }
+
+.tooltip-top, a.tooltip-top:link, a.tooltip-top:visited, a.tooltip-top:hover, a.tooltip-top:active {
+  color: #34204D;
+  text-decoration: none; }
+
+.tooltip-inner {
+  background-color: #34204D; }
+
+.tinymce-body {
+  background-color: white; }
+  .tinymce-body p {
+    max-width: 100%;
+    margin: 10px; }
+
+.jumbotron {
+  padding: 5px;
+  text-align: center;
+  vertical-align: text-top;
+  margin-bottom: 20px; }
+
+.modal-backdrop.fade.in {
+  opacity: 0.5;
+  filter: alpha(opacity=50); }
+
+.list-group-item {
+  padding: 5px 15px; }
+
+#progress-bar {
+  padding: 0px 0px 50px 0px;
+  list-style-type: none;
+  line-height: 1.5em;
+  text-align: center; }
+  #progress-bar li {
+    float: left;
+    padding: 4px 0px 4px 30px;
+    color: #614486;
+    position: relative;
+    border: 2px solid white;
+    background: #EEE; }
+    #progress-bar li:first-child:nth-last-child(1), #progress-bar li:first-child:nth-last-child(1) ~ li {
+      width: 100%; }
+    #progress-bar li:first-child:nth-last-child(2), #progress-bar li:first-child:nth-last-child(2) ~ li {
+      width: 50%; }
+    #progress-bar li:first-child:nth-last-child(3), #progress-bar li:first-child:nth-last-child(3) ~ li {
+      width: 33.33333%; }
+    #progress-bar li:first-child:nth-last-child(4), #progress-bar li:first-child:nth-last-child(4) ~ li {
+      width: 25%; }
+    #progress-bar li:first-child:nth-last-child(5), #progress-bar li:first-child:nth-last-child(5) ~ li {
+      width: 20%; }
+    #progress-bar li:last-child {
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px; }
+    #progress-bar li:first-child {
+      border-top-left-radius: 2px;
+      border-bottom-left-radius: 2px; }
+    #progress-bar li:not(:last-child):after {
+      content: '';
+      border-left: 16px solid #EEE;
+      border-top: 16px solid transparent;
+      border-bottom: 16px solid transparent;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      z-index: 20; }
+    #progress-bar li:not(:first-child):before {
+      content: '';
+      border-left: 16px solid white;
+      border-top: 16px solid transparent;
+      border-bottom: 16px solid transparent;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    #progress-bar li.active-step {
+      background: #34204D;
+      color: white; }
+      #progress-bar li.active-step:after {
+        border-left-color: #34204D; }
+      #progress-bar li.active-step a {
+        color: white; }
+    #progress-bar li.completed-step {
+      background: #80699E;
+      color: white; }
+      #progress-bar li.completed-step:after {
+        border-left-color: #80699E; }
+      #progress-bar li.completed-step a {
+        color: white; }
+
+/*# sourceMappingURL=main.css.map */

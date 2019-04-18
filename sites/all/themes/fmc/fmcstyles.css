@@ -1,0 +1,85 @@
+/* Remove some table borders so that the button in the last row does not get
+ * boxed in. */
+#giftCompare table {
+  border: none;
+}
+
+#giftCompare table tr {
+  border: none;
+}
+
+/* minor banner modifications to accommodate the mobile menu. */
+
+#pgc-banner {
+  position: relative;
+}
+
+#pgc-banner img {
+  display: block;
+}
+
+/* mobile menu goodness */
+.mobile-menu-header {
+  background: rgba(37,64,81,.8);
+  height: 3em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: none;
+}
+
+.mobile-menu-trigger {
+  position: absolute;
+  color: white;
+  cursor: pointer;
+  right: .5em;
+  top: .5em;
+  font-size: 1.5em;
+}
+
+.fm-content .apos-rich-text #block-pgc-slideshow-block-pgc-slideshow-block .block-menu a {
+  font-family: 'Sentinel A', 'Sentinel B', 'Times New Roman', serif;
+  font-weight: normal;
+}
+
+#block-pgc-slideshow-block-pgc-slideshow-block .block-menu {
+  margin-top: -20px;
+  border-bottom: 3px solid #1a3e6e;
+  background: white;
+  padding: .5em 1em 0;
+  display: none;
+}
+
+#block-pgc-slideshow-block-pgc-slideshow-block .block-menu h2 a {
+  color: #2d2d2d;
+}
+
+@media only screen and (max-width: 960px) {
+  .fm-column-6 {
+    float: none;
+  }
+  #pgc-region-sidebar {
+    display: none;
+    width: auto;
+    padding: 0;
+    position: absolute;
+  }
+  #pgc-wrap-main {
+    width: 100%;
+  }
+  #pgc-region-main {
+    float: none;
+    margin: auto;
+    width: 100%;
+  }
+
+  .apos-rich-text #pgc-banner div,
+  .fm-content .apos-rich-text #block-pgc-slideshow-block-pgc-slideshow-block ul {
+    margin: 0;
+  }
+
+  .fm-content .apos-rich-text #block-pgc-slideshow-block-pgc-slideshow-block ul li {
+    list-style-type: none;
+  }
+
+}

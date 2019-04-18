@@ -1,0 +1,92 @@
+/*
+ * jQuery wooslider v2.0
+ * http://www.woothemes.com/wooslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+/* This is the setup that was used on the iModules Responsive Demo */
+
+/* flex slider*/
+/*************************************/
+.rotator{position:relative;}
+.rotator ol, .flex ul {margin:0px;padding:0px;}
+.rotator ol.flex-control-nav {display:none;z-index:1;position:relative;margin:-50px 0 0 0;height:20px;width:auto;float:right;padding:1% 2%;}
+.rotator ol.flex-control-nav li{list-style-type:none;float:left;text-indent:-9999em;margin-right:15px;}
+.rotator ol.flex-control-nav li a {display:block;width:20px;height:20px;background-color:#999a93;text-indent:-9999em;-moz-border-radius: 12px;border-radius: 12px;behavior: url(/sites/all/themes/cooper/cssAssets/PIE.htc);}
+.rotator ol.flex-control-nav li a.flex-active{background-color:#f58220;}
+.flex-direction-nav {display:block;position:absolute;right:0;bottom:0px;Height:79px;margin:0;}
+.flex-direction-nav li {list-style-type: none;}
+.flex-direction-nav li a{display:block;clear:both;width:39px;height:39px;text-indent:-9999em;}
+.flex-direction-nav li a.flex-prev {background:url(/sites/all/themes/cooper/cssAssets/rot-prev.png) no-repeat top left;position:absolute;bottom:0;right:0;}
+.flex-direction-nav li a.flex-next {background:url(/sites/all/themes/cooper/cssAssets/rot-next.png) no-repeat top left;position:absolute;top:0;right:0;}
+.flex-direction-nav li a.flex-prev:hover {background:url(/sites/all/themes/cooper/cssAssets/rot-prev-hover.png) no-repeat top left;position:absolute;bottom:0;right:0;}
+.flex-direction-nav li a.flex-next:hover {background:url(/sites/all/themes/cooper/cssAssets/rot-next-hover.png) no-repeat top left;position:absolute;top:0;right:0;}
+
+
+.rotator ul.slides{margin:0px;padding:0px;position:relative;} 
+.rotator ul.slides li.flex_slide  {list-style-type:none;}
+
+.flex_slide {position:relative;}
+.flex-caption {
+	color: #fff;
+	padding: 30px;
+	background:url(/sites/all/themes/cooper/cssAssets/rot-bg-overlay.png) repeat;
+    z-index:999999;
+	height:auto;
+	margin:0;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:100%;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    width:370px;
+}
+.flex-caption-content {text-align:left;}
+.rotator .imodLink {color:#fff;margin:0;padding:0;}
+.rotator .imodLink a{color:#00adee;font-weight:bold;}
+.rotator .imodLink a:hover{color:#fff;}
+.rotator .imodPreview {font-size:.875em;max-width:75%;min-height:90px;height:auto!important;height:90px;}
+.rotator .imodPreview a{color:#00adee;}
+.rotator .imodPreview a:hover{color:#fff;}
+
+/*****************************************************/
+
+/* Anything less than iPad Portrait */
+@media only screen and (max-width: 767px) {
+    
+    .structMidRotWrapper.container {width:100%;}
+    .structMidRotWrapper.container .grid_12 {width:100%;padding:0;}
+ .flex-direction-nav {display:none;}
+.rotator ol.flex-control-nav {display:block;z-index:1;position:relative;margin:0 0 0 0;width:100%;padding:.65em 0 .5em 0;text-align:center;background-color:#343434;}
+.rotator ol.flex-control-nav li{list-style-type:none;display:inline;text-indent:-9999em;margin:0 10px;text-align:center;float:none;}
+.rotator ol.flex-control-nav li a {width:18px;text-align:center;height:18px;background-color:#fff;text-indent:-9999em;-moz-border-radius: 1px;border-radius: 12px;behavior: url(/sites/all/themes/cooper/cssAssets/PIE.htc);display:inline-block;}
+.rotator ol.flex-control-nav li a.flex-active{background-color:#00adee;}
+
+.flex-caption {
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	text-align: center;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	background:none;
+	background-color:#454444;
+	z-index:999;
+	height:auto;
+	margin:0;
+	position:relative;
+	width:100%;
+}
+.flex-caption-content {padding:.75em;}
+.rotator h2 {padding:0;text-align:center!important;}
+.rotator h2.imodLink a{font-size:.75em;color:#fff;text-decoration:none;padding:0;}
+.rotator .imodPreview {display:none;}
+}
+
+
+

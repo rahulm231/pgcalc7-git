@@ -1,0 +1,129 @@
+<?php
+
+/**
+ * @file
+ * Generate the print preview pages and provide print settings.
+ */
+
+/** 
+ * Implements hook_menu().
+ */
+function pgc_print_setting_menu(){
+
+  $items = array();   
+	
+  $items['pgc-print/%']=array(
+    'title' => t('Print'),
+    'page callback'=>'_pgc_print_preview',
+    'page arguments' => array(1),
+    'access callback' => TRUE,
+    'type' => MENU_CALLBACK,
+  );
+  
+  $items['admin/config/pgcalc'] = array(
+    'title' => 'PgCalc Custom Modules',
+    'description' => 'Configure PgCalc Custom Modules',
+    'position' => 'right',
+    'weight' => -2,
+    'page callback' => 'system_admin_menu_block_page',
+    'access arguments' => array('access administration pages'),
+    'file' => 'system.admin.inc',
+    'file path' => drupal_get_path('module', 'system'),
+  );  
+  
+  $items['admin/config/pgcalc/print'] = array(
+    'title' => 'PgCalc Print Settings',
+    'description' => 'Configure settings for print preivew',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_print_setting_config_form'),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'pgc_print_setting.admin.inc',
+  );
+  
+  return $items;
+}
+
+/**
+ * Implements hook_theme().
+ *
+ * @param $existing
+ * @param $type
+ * @param $theme
+ * @param $path
+ *
+ * @return array
+ */
+function pgc_print_setting_theme($existing, $type, $theme, $path) {
+  return array(    
+    'pgc_print_preview' => array (
+      'path' => $path,
+      'template' => 'page--pgc-print',
+	),
+  );
+}
+
+function pgc_print_setting_preprocess_page(&$variables) {
+  global $base_url;
+  if(strpos(current_path(), 'pgc-print/')!==FALSE){
+    if(variable_get('pgc_print_logo')!=''){
+	  $print_logo = variable_get('pgc_print_logo');
+	  $file_uri   = file_load($print_logo) -> uri;
+	  $file_url   = parse_url(file_create_url($file_uri));
+	  $variables['print_logo']  = $base_url."/".$file_url['path'];
+	}else{
+	  $variables['print_logo']  = "";
+	}
+    if(variable_get('pgc_print_border')!=''){
+	  $variables['print_border'] = variable_get('pgc_print_border');	  
+	}else{
+	  $variables['print_border'] = "";
+	}
+  }
+}
+
+
+function pgc_print_setting_preprocess_html(&$variables) {
+	
+  if(strpos(current_path(), 'pgc-print/')!==FALSE){
+  	if ($variables['page']['page_top']['toolbar']['#access']) {   
+      $variables['page']['page_top']['toolbar']['#access'] = false;
+    }
+
+	drupal_add_css (drupal_get_path('module','pgc_print_setting').'/css/pgc_print_setting.css');	 
+  }
+  
+}
+
+/**
+ * Implements hook_theme_registry_alter().
+ */
+function pgc_print_setting_theme_registry_alter(&$theme_registry) {
+  $module_path = drupal_get_path('module', 'pgc_print_setting');
+  $template_file_objects = drupal_find_theme_templates($theme_registry, '.tpl.php', $module_path);
+  foreach ($template_file_objects as $key => $template_file_object) {
+    if (!isset($theme_registry[$key]['theme path']) || !preg_match('#/themes/#', $theme_registry[$key]['theme path'])) {
+      $theme_registry[$key]['theme path'] = $module_path;
+      $theme_registry[$key] = array_merge($theme_registry[$key], $template_file_object);
+      $theme_registry[$key]['type'] = 'module';
+    }
+  }
+}
+
+/*
+ * Callback for Print preview page
+ */
+function _pgc_print_preview($nid){
+
+  global $base_url;
+  $node = node_load($nid); 
+  
+  $elements = node_view($node, 'full');
+  
+  $full = drupal_render($elements); 
+  if(strpos($node->title, '<none>')===FALSE){
+  	drupal_set_title($node->title); 
+  }else{
+  	drupal_set_title("");
+  }
+  return $full;
+}

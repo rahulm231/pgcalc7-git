@@ -1,0 +1,138 @@
+#textArea{
+	padding:0px;
+}
+
+.pg-page-header-top{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.pg-page-header-top .pg-breadcrumb-links{
+	border-top: none;
+	border-bottom: none;
+	padding:0px;
+	margin:0px;
+}
+
+.pg-page-header-top .pg-breadcrumb{
+	width:50%;
+	display:inline-block;
+}
+
+
+.pg-page-header .pg-page-btns{
+	float: right;
+    margin-top: 20px;
+}
+
+.pg-breadcrumb{
+	width:63%;
+	display:inline-block;
+}
+.pg-page-header h1{
+    padding-top: 20px;	
+}
+
+
+.addthis_counter.addthis_pill_style a.atc_s {
+    font-size: 0;
+}
+
+#sidebar .custom-contact-us{
+	webkit-box-shadow: 0px 0px 0px #ffffff;
+    -moz-box-shadow: 0px 0px 0px #ffffff;
+    box-shadow: 0px 0px 4px #fff;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 8px 8px 0px 0px;
+    border: #b9d6dc solid 2px;
+    behavior: url(/PIE.htc);
+    width: 230px;
+    margin-left: 50px;
+    margin-top:10px;    
+	text-align:center;
+}
+
+#sidebar .custom-contact-us h2{
+	margin-bottom:0;
+	text-transform: none !important;
+}
+
+#sidebar .custom-contact-us h2 a {
+    display: block;
+    background: #006576;
+    line-height: 40px;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    -moz-border-radius: 0px 0px 0 0;
+    -webkit-border-radius: 0px 0px 0 0;
+    border-radius: 5px 5px 0 0;
+    text-decoration: none;
+    behavior: url(/PIE.htc);
+}
+
+#sidebar .custom-contact-us .content{
+	background: #EAF0F2;
+	padding: 15px;
+	font-size: 12px;
+	color: #333;
+}
+
+#sidebar .custom-contact-us .content a{
+	color: #333;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	width:auto;
+	background-color: #006576;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: 0px;
+    top: -9px;
+    position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+    content: "\f05c";
+    font-family: "FontAwesome";
+    font-size: 50px;
+    left: -9px;
+    top: -1px;
+    position: absolute;
+  }
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn {
+    border: none;
+}
+
+@media only screen and (max-width: 999px) {
+  body{
+  	background:none;
+  }
+  body, #container, #globalNav, #mainContent, #textArea, #footer, #footer ul{
+  	width:auto;
+  }
+  #headerImage, #headerImage img{
+  	width:100%;
+  	height:auto;
+  }
+  #headerCaption, #contentArea > a, #contentArea > #nav, #sidebar #block-system-main-menu{
+  	display:none;
+  }
+  .pg-wrap,  #footer{
+  	margin:10px;
+  }
+  #textArea, #sidebar{
+  	float:none;
+  }
+  
+  .pg-page-btns, .pg-breadcrumb{
+	width:100% !important;
+  }
+}

@@ -1,0 +1,34 @@
+#PageFooterSupportContent p
+{
+	margin-top:0px;
+}
+
+#PageFooterSupportContent .FooterTitleText
+{
+	margin-bottom:10px;
+}
+
+/*--- DOTNETNUKE OVERRIDES ---*/
+
+/*--- Search ---*/
+#PageHeaderSearchBox .NormalTextBox
+{
+	width:120px;
+	height:14px;
+	
+	float:right;
+	margin:1px 40px 0px 0px;
+}
+
+#PageHeaderSearchBox a.MBGSearch:link
+{
+	/*position:absolute;*/
+	float:none;
+	
+}
+
+.BH .DNNEmptyPane, .SNR .DNNEmptyPane, .GH .DNNEmptyPane, .JFK .DNNEmptyPane, #PageBody .DNNEmptyPane
+{
+	display:none; /*--- Corrects an issue in IE 7 where a gap was displaying above the page headers where the slideshow pane sits when the slideshow pane does not contain any content. ---*/
+}
+

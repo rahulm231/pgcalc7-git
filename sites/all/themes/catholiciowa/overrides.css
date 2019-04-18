@@ -1,0 +1,247 @@
+.pg-content-body {
+  font-family: arial;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.pg-wrap h1 {
+  font-family: Arial, san serif;
+  text-decoration: none;
+  color: #0c893f;
+}
+
+.pg-wrap h2 {
+  font-size: 34px;
+  font-family: Arial, san serif;
+  text-decoration: none;
+  color: #7d2381;
+}
+
+.pg-wrap h3 {
+  font-size: 30px;
+  font-family: Arial, san serif;
+  text-decoration: none;
+  color: #0c893f;
+}
+
+.pg-wrap h4 {
+  font-size: 30px;
+  font-family: Arial, san serif;
+  text-decoration: none;
+  color: #1b75ba;
+}
+
+.pg-wrap a {
+  text-decoration: none;
+}
+
+#block-system-main-menu h2 a {
+  display: block;
+  line-height: 60px;
+  margin-bottom: 0;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  font-family: 'Crimson Text', sans-serif;
+  text-align: left;
+  padding: 0;
+  text-decoration: none;
+  behavior: url(/PIE.htc);
+}
+
+#main-menu {
+  padding: 0;
+  margin: 0;
+}
+
+#main-menu li {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+  list-style: none;
+  
+}
+
+#main-menu li a {
+  font-family: arial, san serif;
+  font-size: 16px;
+  color: #000000;
+  font-weight: normal;
+  display: block;
+  border: 0;
+  padding: 5px 5px 10px 0px;
+  text-decoration: none;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+#main-menu li a:hover {
+  color: #ffffff;
+}
+
+#main-menu li a.active {
+  color: #7d2381;
+}
+
+#main-menu ul {
+  font-family: arial, san serif;
+  color: #000000;
+  font-weight: normal;
+  display: block;
+  border: 0;
+  font-size: 16px;
+  padding: 0px 0px 0px 10px;
+}
+
+#main-menu ul li a.active {
+  color: #7d2381;
+}
+
+#main-menu li.expanded ul ul li a {
+  font-size: 16px;
+  padding: 5px 0px 5px 5px;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  background: #7d2381;
+  color: #fff;
+  padding: 7px;
+  border: 1px solid #000;
+  font-size: 18px;
+}
+
+.pg-wrap table tr td {
+  color: #000;
+  padding: 7px;
+  border: 1px solid #000;
+  font-size: 18px;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #1b75ba;
+  padding: 10px;
+  behavior: url(/PIE.htc);
+  width: 310px;
+  margin-left: 15px;
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #fff;
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 25px;
+  padding: 10px;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  color: #fff;
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 17px;
+}
+
+#pgc-contact-block li a:hover {
+  color: #000000;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #7d2381;
+  : ;
+  padding: 0px 06px;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block .title {
+  color: #fff;
+}
+
+#pgc-contact-footer-block li a {
+  color: #fff;
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 20px;
+}
+
+#pgc-contact-footer-block li a:hover {
+  color: #000000;
+}
+
+#pgc_resource_block {
+  background: #7d2381;
+  behavior: url(/PIE.htc);
+  padding: 15px 20px;
+}
+
+#pgc_resource_block a {
+  color: #fff;
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 17px;
+}
+
+#pgc_resource_block a:hover {
+  color: #000000;
+}
+
+.pg-gift-details .accordion-switch {
+  border-top: 0px solid #ccc;
+  border-bottom: 0px solid #ccc;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #0c893f;
+  padding: 10px 20px 10px 20px;
+  border: 0px solid #3774ab;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Crimson Text', sans-serif;
+  display: block;
+  font-size: 25px;
+  font-weight: normal;
+  : ;
+  line-height: 40px;
+  behavior: url(/PIE.htc);
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #7d2381;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  font-family: Arial, san serif;
+  font-size: 13px;
+  font-style: normal;
+  text-transform: none;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a:hover {
+  color: #7d2381;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #0c893f;
+}
+

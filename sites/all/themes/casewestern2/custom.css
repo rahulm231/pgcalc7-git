@@ -1,0 +1,49 @@
+.page-header .page-header-menu .hor-menu .navbar-nav>li>a{
+	padding-right:44px;
+}
+
+.block-pgc-slideshow-block #pgc-banner img{
+	width:100%;
+	height:auto;
+}
+
+#block-system-main-menu .content > ul > li.collapsed, #block-system-main-menu .content > ul > li.leaf{
+	display:none;
+}
+
+.pg-content-body .child-page{
+	padding:0px;
+	padding-bottom:20px;
+}
+
+.pg-content-body .child-page .thumbnail{
+	border: none;
+    width: 100px;
+    height: auto;
+}
+
+.pg-content-body #node-2 .child-page .details > .link, .pg-content-body #node-57 .child-page .details > .link, .pg-content-body #node-8 .child-page .details > .link, .pg-content-body #node-14 .child-page .details > .link, .pg-content-body #node-27 .child-page .details > .link, .pg-content-body #node-36 .child-page .details > .link, .pg-content-body #node-15 .child-page .details > .link{
+	display:none;
+}
+
+#giftGuide a{
+	display: inline-block;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+#giftGuide a:after{
+	content:'Learn More';
+	float: left;
+    font-size: 18px;
+    line-height: 16px;
+    margin: 0;
+    text-indent: 0;
+}
+
+@media only screen and (max-width: 999px) {
+	
+  #block-pgc-titlebar-block-pgc-titlebar-block{
+  	margin-bottom:20px;
+  }
+}

@@ -1,0 +1,25 @@
+/*************************** Toggle Box ***************************/
+
+p.toggle {
+background-repeat: no-repeat;
+background-position: 0px -6px;
+font-size: 16px;
+padding: 0 0 10px 23px;
+cursor: pointer;
+}
+p.toggle a {
+text-decoration: none;
+display: block;
+}
+p.toggle-active {
+background-position: -30px -30px;
+}
+.toggle-box {
+clear:both;
+margin: 0 0 50px 0;
+overflow: hidden;
+}
+p.toggle {
+background-image: url(/sites/all/themes/becker/cssAssets/sprite.png);
+font-size: 14px;
+}

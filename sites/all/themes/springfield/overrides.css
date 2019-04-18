@@ -1,0 +1,343 @@
+#pgc-wrap-main {
+  : ;
+  width: 960px;
+}
+
+#pgc-region-sidebar {
+  : ;
+  float: left;
+  width: 220px;
+  padding-right: 30px;
+}
+
+#pgc-region-main {
+  : ;
+  float: left;
+  width: 710px;
+}
+
+.pg-content-body {
+  margin-top: -10px;
+}
+
+.pg-wrap h1 {
+  font-size: 2em;
+  margin-bottom: -25px;
+}
+
+.pg-wrap h2 {
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+.pg-wrap h3 {
+  : ;
+  font-size: 1.17em;
+}
+
+.pg-wrap h4 {
+  : ;
+  font-size: 1em;
+}
+
+.pg-wrap a {
+  : ;
+  text-decoration: none;
+}
+
+.pg-wrap a:hover {
+  text-decoration: underline;
+}
+
+.pg-wrap p {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+#block-system-main-menu {
+  margin: 30px;
+}
+
+#block-system-main-menu h2 a {
+  display: block;
+  line-height: 45px;
+  margin-bottom: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.4625rem;
+  font-weight: bold;
+  font-family: "quatro-slab",serif;
+  text-align: left;
+  padding: 0;
+  text-decoration: none;
+  margin-top: -100px;
+}
+
+#main-menu {
+  padding: 0;
+  margin: 0;
+}
+
+#main-menu li {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+  list-style: none;
+}
+
+#main-menu li a {
+  font-size: .89em;
+  font-family: "proxima-nova",sans-serif;
+  color: #3d3935;
+  font-weight: normal;
+  display: block;
+  background: #fff;
+  padding: 10px 25px 15px 20px;
+  border: 0;
+  line-height: 7px;
+  margin-top: 2px;
+  text-decoration: none;
+}
+
+#main-menu li a:hover {
+  text-decoration: underline;
+  color: #ae1630;
+}
+
+#main-menu li.expanded a {
+  background: #fff url('/sites/all/themes/pgcalc_master/img/menu-arrow-down.png') center right no-repeat !important;
+}
+
+#main-menu li.collapsed a {
+  background: #fff url('/sites/all/themes/pgcalc_master/img/menu-arrow-right.png') center right no-repeat !important;
+}
+
+#main-menu li.expanded ul li a {
+  background-image: none !important;
+  border-bottom: 0;
+  font-size: .89em;
+  padding: 5px 20px 10px 35px;
+  line-height: 20px;
+}
+
+#main-menu ul li a.active {
+  color: #ae1630;
+  text-decoration: underline;
+}
+
+#main-menu ul li a:hover {
+  color: #ae1630;
+}
+
+#main-menu li.expanded ul ul li a {
+  background-image: none !important;
+  font-size: .80em;
+  padding: 7px 20px 5px 48px;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #ae1630;
+  padding: 20px;
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #fff;
+  font-size: 1.4625rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li {
+  list-style: none;
+  : ;
+  padding-left: none;
+}
+
+#pgc-contact-block li:hover {
+  : ;
+}
+
+#pgc-contact-block li a {
+  font-size: .89em;
+  color: #fff;
+}
+
+#pgc-contact-block li a:hover {
+  : ;
+}
+
+#pgc-contact-block li span {
+  : ;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  margin-top: 20px;
+  background: #ae1630;
+  padding: 10px 20px;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block .title {
+  : ;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#pgc-contact-footer-block {
+  : ;
+}
+
+#pgc-contact-footer-block li {
+  : ;
+}
+
+#pgc-contact-footer-block li:hover {
+  : ;
+}
+
+#pgc-contact-footer-block li a {
+  : ;
+  color: #fff;
+}
+
+#pgc-contact-footer-block li a:hover {
+  : ;
+}
+
+#pgc-contact-footer-block li span {
+  : ;
+}
+
+#pgc_resource_block {
+  background: #ae1630;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+#pgc_resource_block a {
+  font-size: .89em;
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #ae1630;
+  padding: 0 15px;
+  color: #fff;
+  display: block;
+  font-size: .9em;
+  font-weight: normal;
+  margin: 10px 0;
+  line-height: 40px;
+  Text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #3d3935;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.pg-breadcrumb {
+  : ;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+  font-family: "proxima-nova",sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  font-family: "proxima-nova",sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a:hover {
+  color: #3d3935;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+  background: #ae1630;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+  content: "\f0c9";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: -14px;
+  left: 5px;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+  content: "\f05c";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+
+.pgc-brochure-bg-top {
+  background: #c2c2c2;
+}
+
+.pgc-brochure-header-text {
+  background: #ae1630;
+  color: #fff;
+}
+
+.pgc-brochure-title {
+  color: #ae1630;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color: #ae1630;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color: #ae1630;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color: #ae1630;
+}
+
+.pgc-brochure-footer-text {
+  background-color: #ae1630;
+}
+
+.pgc-brochure-footer-title {
+  color: #c2c2c2;
+}
+
+span.pgc-brochure-footer-contact {
+  color: #c2c2c2;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #ae1630;
+}
+

@@ -1,0 +1,2312 @@
+@import url('/sites/all/themes/summit_health/css/grid.css');
+@import url('isotope-/sites/all/themes/summit_health/css/grid.css');
+@import url('/sites/all/themes/summit_health/css/column.css');
+
+#block-system-main-menu h2 a {
+  color: #49a7b7 !important;
+  background-color: #fff !important;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+    background-color: rgba(73,167,183,0.8) !important;
+    width: 97% !important;
+    height: 45px !important;
+}
+
+#block-pgc-misc-blocks-mobilenav .control-container .control {
+    width: 36px !important;
+    height: 20px !important;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    font-size: 45px;
+    left: -7px;
+    top: -13px;
+    position: absolute;
+}
+
+/* #top-bar blocks. */
+#top-bar p {
+  margin: 0;
+}
+#top-bar div.section {
+  text-align: center;
+}
+#top-bar .block {
+  font-size: 0.8em;
+  margin: 0 auto;
+  padding: 0.8em 0;
+}
+#top-bar .block .content {
+  margin: 0;
+  padding: 0;
+}
+#top-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#top-bar ul li {
+  float: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+#top-bar ul a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 10px;
+}
+#top-bar .block-locale ul li {
+  display: inline;
+  padding: 0 0.5em;
+}
+
+/* ------------------ Header ------------------ */
+#header div.section {
+  text-align: center;
+}
+#logo {
+  padding: 10px 0 0 15px;
+  display: block;
+}
+#logo img{
+  margin: 0em;
+}
+#name-and-slogan {
+  margin: 0;
+  padding: 10px 10px 0 15px;
+}
+#site-name {
+  font-size: 1.6em;
+  color: #686868;
+  font-weight: bold;
+  line-height: .5em;
+}
+h1#site-name {
+  margin: 0;
+}
+#site-name a {
+  font-weight: normal;
+}
+#site-slogan {
+  font-size: 0.929em;
+  margin-top: 5px;
+  word-spacing: 0.1em;
+  font-style: italic;
+}
+
+/* Region header blocks. */
+.region-header .block {
+  font-size: 0.857em;
+  margin: 0 auto;
+  padding: 0;
+}
+.region-header .block .content {
+  margin: 0;
+  padding: 0;
+}
+.region-header .form-text {
+  background: #fefefe;
+  background: rgba(255, 255, 255, 0.7);
+  border-color: #ccc;
+  border-color: rgba(255, 255, 255, 0.3);
+  margin-right: 2px; /* LTR */
+  width: 120px;
+}
+.region-header .form-text:hover,
+.region-header .form-text:focus,
+.region-header .form-text:active {
+  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
+}
+.region-header .form-required {
+  color: #eee;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* Region header block menus. */
+.region-header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.region-header ul li{
+  float: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.region-header ul a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.4em 10px;
+}
+/* Language switcher block in region header. */
+.region-header .block-locale ul li {
+  display: inline;
+  padding: 0 0.5em;
+}
+
+/* --------------- Navigation select box selector------------ */
+
+#navigation .selector {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-weight: bold;
+  line-height: 45px;
+  text-indent: 30px;
+  height: 45px;
+  width: 100%;
+  display: -moz-inline-box;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  *display: inline;
+  cursor: pointer !important;
+  text-align: left
+}
+#navigation .selector:hover {
+  opacity: 1;
+  -moz-opacity: 1;
+  -webkit-opacity: 1;
+}
+#navigation .selector select:focus {
+  outline: 0;
+}
+#navigation .selector span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 60px;
+}
+#navigation .selector select {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 45px;
+  background: none;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#navigation .selector option {
+  padding: 10px 30px;
+}
+  
+/* ---- main menu -----*/
+
+#main-menu {
+  z-index: 99999;
+  display: none;
+}
+#main-menu ul.menu {
+  font-size: 1em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#main-menu ul.menu li{
+  float: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#main-menu ul.menu a {
+  display: block;
+  text-decoration: none;
+  padding: 0.4em 10px;
+}
+#main-menu ul.menu li.first a {
+  padding-left: 0;
+}
+#main-menu ul.menu li.last a {
+  padding-right: 0;
+}
+#main-menu ul.menu li {
+  position: relative;
+  margin-bottom: 1px;
+}
+#main-menu ul.menu ul {
+  display: none;
+  padding: 0;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 170px;
+  z-index: 99999;
+}
+#main-menu ul.menu ul li {
+  font-size: 12px;
+  display: block;
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+#main-menu ul.menu ul li.expanded a:after, #main-menu ul.menu ul li.expanded li.expanded a:after,
+#main-menu ul.menu ul li.expanded li.expanded li.expanded a:after {
+  content: " »";
+}
+#main-menu ul.menu ul li.expanded li a:after, #main-menu ul.menu ul li.expanded li.expanded li a:after,
+#main-menu ul.menu ul li.expanded li.expanded li.expanded li a:after {
+  content: "";
+}
+#main-menu ul.menu ul li a, #main-menu ul.menu li li.first a, #main-menu ul.menu li li.last a {
+  height: auto;
+  text-indent: 0px;
+  padding: 0.4em 10px;
+  line-height: 21px;
+}
+#main-menu ul.menu ul ul {
+  display: none;
+  top: -1px;
+  left: 170px;
+}
+#main-menu ul.menu ul li:hover ul {
+  display: block;
+}
+/*---- location map fixing --- */
+#main-menu ul.menu li:hover ul, #main-menu ul.menu li:hover ul li:hover ul {
+  display: block;
+}
+#main-menu ul.menu li:hover ul ul, #main-menu ul.menu ul li:hover ul ul {
+  display: none;
+}
+
+/* ------------- banner area ------------ */
+
+#banner-area{
+  overflow: hidden;
+}
+#banner-area .block .content {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ----------------- Featured ----------------- */
+
+#featured {
+  font-weight: normal;
+  line-height: 1.4;
+}
+#featured h2 {
+  line-height: 1;
+}
+#featured p {
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------- #highlighted ----------------- */
+#highlighted h2 {
+  margin: 0 0 5px 0;
+}
+#highlighted p:last-child,
+#highlighted ul:last-child,
+#highlighted .content p:last-child {
+  margin-bottom: 0;
+}
+#highlighted p:first-child,
+#highlighted .content p:first-child {
+  margin: 0;
+}
+
+/* --------------- System Tabs  --------------- */
+
+nav.tabs {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+.tabs ul.primary {
+  border-collapse: collapse;
+  height: auto;
+  line-height: normal;
+  padding: 0 3px;
+  margin: 0;
+  overflow: hidden;
+  border: none;
+  background: transparent url(/sites/all/themes/summit_health/cssAssets/tabs-border.png) repeat-x left bottom;
+  white-space: nowrap;
+}
+.tabs ul.primary li {
+  display: block;
+  float: left; /* LTR */
+  vertical-align: bottom;
+  margin: 0 5px 0 0; /* LTR */
+}
+.tabs ul.primary li.active a {
+  border-bottom: 1px solid #ffffff;
+}
+.tabs ul.primary li a {
+  color: #000;
+  background-color: #ededed;
+  border-color: #bbb;
+  border-style: solid solid none solid;
+  border-width: 1px;
+  height: 1.8em;
+  line-height: 1.9;
+  display: block;
+  font-size: 0.929em;
+  float: left; /* not LTR */
+  padding: 0 10px 3px;
+  margin: 0;
+  text-shadow: 0 1px 0 #fff;
+  -khtml-border-radius-topleft: 4px;
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -khtml-border-radius-topright: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.tabs ul.primary li.active a {
+  background-color: #ffffff;
+  border: 1px solid #bbb;
+  border-bottom: 1px solid #fff;
+}
+.tabs ul.secondary {
+  border-bottom: none;
+  margin: 5px;
+  padding: 0.5em 0;
+}
+.tabs ul.secondary li {
+  border-right: 1px solid #ccc; /* LTR */
+  display: block;
+  float: left; /* LTR */
+  margin: 0;
+  padding: 0 1em;
+}
+.tabs ul.secondary li:last-child {
+  border-right: none; /* LTR */
+}
+.tabs ul.secondary li:first-child {
+  padding-left: 0; /* LTR */
+}
+.tabs ul.secondary li a {
+  display: inline;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+}
+.tabs ul.secondary li a.active {
+  background: #f2f2f2;
+  border-bottom: none;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* ---------------- Messages  ----------------- */
+
+#messages {
+  padding: 20px 0 5px;
+  margin: 0 auto;
+}
+/*.featured #messages {
+  background: #f0f0f0;
+  background: rgba(30, 50, 10, 0.08);
+}*/
+div.messages {
+  margin: 20px 15px 0 15px;
+}
+
+/* ------------------- Help ------------------- */
+
+div.region-help {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+}
+#overlay div.region-help {
+  margin: 20px 0;
+}
+.region-help .block {
+  margin: 0;
+}
+#block-system-help {
+  background: url(/sites/all/themes/summit_health/cssAssets/5824abf436642.png) no-repeat 8px 5px #f0f8ff;
+  border: 0;
+  margin: 10px 10px 0;
+  padding: 0;
+  -khtml-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+#block-system-help p:last-child,
+#block-system-help ul:last-child,
+#block-system-help .content p:last-child {
+  margin-bottom: 0;
+}
+#block-system-help p:first-child,
+#block-system-help .content p:first-child {
+  margin-top: 0;
+}
+#block-system-help .content {
+  margin: 0;
+  padding: 7px 0 10px 40px;
+}
+
+
+/* ----------------- Content ------------------ */
+
+h1#page-title {
+  line-height: 1;
+}
+.node-teaser.sticky {
+  background: #f9f9f9;
+  background: rgba(0, 0, 0, 0.024);
+  border: 1px solid #d3d7d9;
+  padding: 0 15px 15px;
+}
+.node-teaser .content {
+  clear: none;
+}
+.field-type-taxonomy-term-reference, .field-type-link-field {
+  margin: 0 0 1em !important;
+}
+.field-type-taxonomy-term-reference .field-label {
+  margin: 0;
+  padding-right: 10px; /* LTR */
+}
+.field-type-taxonomy-term-reference .field-label,
+.field-type-taxonomy-term-reference ul.links {
+  font-size: 0.9em;
+  line-height: 1em;
+}
+.field-type-taxonomy-term-reference ul.links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.field-type-taxonomy-term-reference ul.links li {
+  float: left; /* LTR */
+  padding: 0 1em 0 0; /* LTR */
+  white-space: nowrap;
+}
+.field-type-taxonomy-term-reference ul.links li a {
+  background: url(/sites/all/themes/summit_health/cssAssets/tag.png) no-repeat left center;
+  padding-left: 16px;
+}
+footer.link-wrapper {
+  padding: 10px 8px;
+  margin: 20px 0 40px 0;
+  font-size: 0.9em;
+}
+footer.link-wrapper .meta {
+  display: inline;
+}
+.unpublished {
+  margin: -20px -15px 0;
+  padding: 20px 15px 0;
+}
+.unpublished .comment-text .comment-arrow {
+  border-left: 1px solid #fff4f4;
+  border-right: 1px solid #fff4f4;
+}
+footer.link-wrapper ul.links {
+  padding: 0;
+  margin: 0;
+}
+footer.link-wrapper ul.links li {
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+footer.link-wrapper ul.links li a {
+  display: inline-block;
+}
+footer.link-wrapper .node-readmore a {
+  float: right;
+  text-transform: capitalize;
+}
+footer.link-wrapper .node-readmore a:after {
+  content: " →";
+}
+
+.node-blog .field-name-field-blog-image img {
+  -webkit-transition: -webkit-transform 1.4s ease;
+  -moz-transition: -moz-transform 1.4s ease;
+  -o-transition: -o-transform 1.4s ease;
+  transition: transform 1.4s ease;
+  -webkit-transform: scale(1) rotate(0);
+  -moz-transform: scale(1) rotate(0);
+  -ms-transform: scale(1) rotate(0);
+  -o-transform: scale(1) rotate(0);
+  transform: scale(1) rotate(0);
+}
+.node-blog:hover .field-name-field-blog-image img {
+  -webkit-transform: scale(1.01) rotate(0.09deg);
+  -moz-transform: scale(1.01) rotate(0.09deg);
+  -ms-transform: scale(1.01) rotate(0.09deg);
+  -o-transform: scale(1.01) rotate(0.09deg);
+  transform: scale(1.01) rotate(0.09deg);
+}
+
+
+/* ------------------ Sidebar ----------------- */
+.sidebar .block {
+  margin: 0 0 40px 0;
+}
+.sidebar h2 {
+  padding-bottom: 5px;
+  text-shadow: 0 1px 0 #fff;
+  font-size: 1.071em;
+  line-height: 1.2;
+}
+.sidebar .block .content {
+  font-size: 0.92em;
+  line-height: 1.5;
+}
+.sidebar tbody {
+  border: none;
+}
+.sidebar tr.even,
+.sidebar tr.odd {
+  background: none;
+  border-bottom: 1px solid #d6d6d6;
+}
+.sidebar ul.menu, .sidebar ul.menu li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sidebar ul.menu li a {
+  background: url('/sites/all/themes/summit_health/cssAssets/arrow-ul.png') no-repeat center left;
+  display: block;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 10px 10px 10px 0;
+  text-indent: 10px;
+}
+.sidebar ul.menu ul {
+  margin-left: 15px;
+}
+.sidebar ul li.views-row {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sidebar ul li.views-row a {
+  background: url('/sites/all/themes/summit_health/cssAssets/arrow-ul.png') no-repeat center left;
+  display: block;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 10px 10px 10px 0;
+  text-indent: 10px;
+}
+
+
+/* -------------- Breadcrumbs   -------------- */
+
+.breadcrumb {
+  font-size: 0.8em;
+}
+
+/* -------------- User Profile   -------------- */
+
+.profile .user-picture {
+  float: left;
+  width: 150px;
+  margin-right: 40px;
+}
+.profile h3 {
+  border: none;
+}
+
+/* ----------------- Comments ----------------- */
+.comment h2.title {
+  margin-bottom: 1em;
+}
+.comment .field-name-field-user-picture img {
+  margin-left: 0; /* LTR */
+}
+.comment {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  display: table;
+  vertical-align: top;
+}
+.comment .attribution {
+  display: table-cell;
+  padding: 0 35px 0 0; /* LTR */
+  vertical-align: top;
+  overflow: hidden;
+}
+.comment .attribution img {
+  width: 80px;
+  height: auto;
+  margin: 0;
+  padding: 2px;
+  border: 1px solid #d3d7d9;
+}
+.comment .submitted p {
+  margin: 4px 0;
+  font-size: 0.92em;
+  line-height: 1;
+}
+.comment .submitted .comment-time {
+  font-size: 0.7em;
+}
+.comment .submitted .comment-permalink {
+  font-size: 0.7em;
+  text-transform: lowercase;
+}
+.comment .content {
+  font-size: 0.929em;
+  line-height: 1.6;
+}
+.comment .comment-arrow {
+  background: url('/sites/all/themes/summit_health/cssAssets/comment-arrow.gif') no-repeat 0 center transparent; /* LTR */
+  border-left: 1px solid;
+  border-right: 1px solid;
+  height: 40px;
+  margin-left: -36px; /* LTR */
+  margin-top: 10px;
+  position: absolute;
+  width: 20px;
+}
+.comment .comment-text {
+  padding: 0 25px 10px 35px;
+  border-left: 1px solid #d3d7d9;
+  display: table-cell;
+  vertical-align: top;
+  position: relative;
+  width: 100%;
+}
+.comment .indented {
+  margin-left: 40px; /* LTR */
+}
+.comment ul.links {
+  padding: 0 0 0.25em 0;
+}
+.comment ul.links li {
+  padding: 0 0.5em 0 0; /* LTR */
+}
+.comment.unpublished {
+  margin-right: 5px; /* LTR */
+  padding: 5px 2px 5px 5px; /* LTR */
+}
+.comment.unpublished .comment-text .comment-arrow {
+  border-left: 1px solid #fff4f4;
+  border-right: 1px solid #fff4f4;
+}
+
+/* ----- Comment form ------ */
+
+.comment-form label {
+  float: left; /* LTR */
+  font-size: 0.929em;
+  width: 120px;
+}
+.comment-form .form-type-textarea label {
+  float: none;
+}
+.comment-form .form-item,
+.comment-form .form-radios,
+.comment-form .form-type-checkbox,
+.comment-form .form-select {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.comment-form .form-type-checkbox,
+.comment-form .form-radios {
+  margin-left: 120px; /* LTR */
+}
+.comment-form .form-type-checkbox label,
+.comment-form .form-radios label {
+  float: none;
+  margin-top: 0;
+}
+.comment-form input.form-file {
+  width: auto;
+}
+.comment-form .form-text {
+  display: block;
+  margin: 0;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing:
+  border-box;
+  box-sizing: border-box;
+}
+.comment-form .form-item .description {
+  font-size: 0.786em;
+  line-height: 1.2;
+  margin-left: 120px; /* LTR */
+}
+.comment-form .resizable-textarea .grippie {
+  -khtml-border-bottom-left-radius: 0px;
+  -khtml-border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.comment-form details.filter-wrapper .details-wrapper,
+.comment-form .text-format-wrapper .form-item {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.filter-wrapper label {
+  width: auto;
+  float: none;
+}
+.filter-wrapper .form-select {
+  min-width: 120px;
+}
+.comment-form details.filter-wrapper .tips {
+  font-size: 0.786em;
+}
+#comment-body-add-more-wrapper .form-type-textarea label {
+  margin-bottom: 0.4em;
+}
+#edit-actions input {
+  margin-right: 0.6em; /* LTR */
+}
+
+/* ------------------ Footer ------------------ */
+
+#footer-columns, #footer {
+  font-size: 0.9em;
+}
+#footer-columns .block {
+  margin: 20px 0;
+}
+#footer-columns h2 {
+  border-bottom: 1px solid #555;
+  border-color: rgba(255, 255, 255, 0.15);
+  font-size: 1em;
+  letter-spacing: 0.08em;
+  margin-bottom: 0;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+}
+#footer-columns .content {
+  margin-top: 1.5em;
+}
+#footer-columns .content ul {
+  list-style: none;
+  padding-left: 0; /* LTR */
+  margin-left: 0;
+}
+#footer-columns .content li {
+  list-style: none;
+  margin: 0;
+  border-bottom: 1px solid #555;
+  border-color: rgba(255, 255, 255, 0.15);
+  line-height: 1.2;
+  padding: 0.8em 2px 0.8em 0; /* LTR */
+  overflow: hidden;
+}
+#footer-columns .content li.first, #footer-columns .content li.views-row-first {
+  padding-top: 0;
+}
+#footer-columns .content li.last, #footer-columns .content li.views-row-last {
+  border: none;
+}
+#footer-columns .field-content img{
+  margin: 0;
+}
+#footer {
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+#footer ul,
+#footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#footer li a {
+  float: left; /* LTR */
+  padding: 0 12px;
+  display: block;
+  border-right: 1px solid #555; /* LTR */
+  border-color: rgba(255, 255, 255, 0.15);
+}
+#footer li.first a {
+  padding-left: 0; /* LTR */
+}
+#footer li.last a {
+  padding-right: 0; /* LTR */
+  border-right: none; /* LTR */
+}
+#footer .block {
+  margin: 0;
+}
+#footer .block .content {
+  padding: 0.5em 0;
+  margin-top: 0;
+}
+#footer .block h2, #footer .block p {
+  margin: 0;
+}
+
+/* --------------- Search Form ---------------- */
+
+#search-block-form, #search-form {
+  white-space: nowrap;
+}
+#search-block-form input.form-text, #search-form input.form-text {
+  font-size: 1em;
+  padding: 5px 30px 5px 5px;
+  margin: 0;
+  width: 12em;
+  border: 1px solid #d2d2d2;
+  -khtml-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+#search-block-form input.form-submit, #search-form input.form-submit {
+  margin: 0;
+  padding: 0;
+  height: 17px;
+  width: 17px;
+  margin-left: -28px;
+  cursor: pointer;
+  text-indent: -9999px;
+  background: url('/sites/all/themes/summit_health/cssAssets/search-btn.png') no-repeat center top;
+  overflow: hidden;
+  border: none;
+  -khtml-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+#search-form input.form-text {
+  font-size: 0.9em;
+  margin: 0 5px;
+}
+#search-form input.form-submit {
+  margin: 0;
+}
+/* Search block in top bar. */
+#top-bar #search-block-form input.form-text {
+  border: 1px solid #fff;
+  padding: 3px 30px 3px 5px;
+  -khtml-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+#top-bar #search-block-form input.form-submit {
+  margin-left: -25px;
+}
+
+/* --------------- Search Results ---------------- */
+ol.search-results {
+  padding-left: 0;
+}
+.search-results li {
+  border-bottom: 1px solid #d3d7d9;
+  padding-bottom: 0.4285em;
+  margin-bottom: 0.5em;
+}
+.search-results li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 1em;
+}
+.search-results .search-snippet-info {
+  padding-left: 0;
+}
+
+/* -------------- Password Meter  ------------- */
+
+.confirm-parent,
+.password-parent {
+  width: 34em;
+}
+.password-parent,
+div.form-item div.password-suggestions {
+  position: relative;
+}
+.password-strength-text,
+.password-strength-title,
+div.password-confirm {
+  font-size: 0.82em;
+}
+.password-strength-text {
+  margin-top: 0.2em;
+}
+div.password-confirm {
+  margin-top: 2.2em;
+  width: 20.73em;
+}
+
+/* -------------- Pager ------------- */
+
+.item-list .pager {
+  font-size: 0.929em;
+}
+.item-list .pager li {
+  padding: 0;
+  margin: 0;
+}
+.item-list .pager a {
+  display: inline-block;
+  padding: 2px 8px;
+}
+.item-list .pager li.pager-current {
+  padding: 3px 7px;
+}
+.item-list .pager .pager-first a, .item-list .pager .pager-previous a{
+  padding: 30px 5px 5px;
+}
+.item-list .pager .pager-next a,
+.item-list .pager .pager-last a {
+  padding: 30px 5px 5px;
+}
+
+/*  ----- toolbar removed on lightbox2 display ------ */
+body.page-node-lightbox2 #toolbar {
+  display: none;
+}
+
+/* ------- flexslider banner ------ */
+
+body .flexslider {
+  margin: 0;
+  border: none;
+  background: none;
+  box-shadow: 0 0 0; 
+  -webkit-box-shadow: 0 0 0;
+  -moz-box-shadow: 0 0 0;
+  -o-box-shadow: 0 0 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+body .flexslider .slides {
+  margin: 0px auto;
+  padding: 0;
+  max-width: 960px;
+}
+body .flexslider .slides li .views-field .field-content img {
+  padding: 0;
+  margin: 0;
+}
+.view .flex-nav-container {
+  margin: 0px;
+}
+ol.flex-control-paging.flex-control-nav {
+  bottom: 20px;
+}
+ol.flex-control-paging.flex-control-nav li {
+  margin: 0 3px;
+}
+ol.flex-control-paging.flex-control-nav li a {
+  width: 8px;
+  height: 8px;
+}
+body .node-full .flexslider, body .node-teaser .flexslider {
+  margin-bottom: 1.5em;
+}
+
+
+/* ---- thumb slideshow banner ------ */
+
+.thumb-slideshow-banner {
+  position: relative;
+  margin: 0px auto;
+  max-width: 960px;
+}
+.thumb-slideshow-banner .views-field-body {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: #dcd8d8;
+}
+.thumb-slideshow-banner .views-row-even .views-field-body {
+  left: auto;
+  right: 5%;
+}
+.thumb-slideshow-banner h1, .thumb-slideshow-banner h2, .thumb-slideshow-banner h3,
+.thumb-slideshow-banner h4, .thumb-slideshow-banner h5, .thumb-slideshow-banner h6 {
+  color: #dcd8d8;
+}
+
+
+.thumb-slideshow-banner img {
+  vertical-align: bottom;
+}
+.thumb-slideshow-banner .views-slideshow-controls-bottom {
+  position: absolute;
+  z-index: 20;
+  bottom: 0;
+  width: 100%;
+  display: none;
+}
+.thumb-slideshow-banner .views-slideshow-controls-bottom .views_slideshow_pager_field {
+  text-align: center;
+}
+.thumb-slideshow-banner .views-slideshow-controls-bottom .views_slideshow_pager_field .views_slideshow_pager_field_item {
+  width: 40px;
+  height: auto;
+  float: none;
+  clear: none;
+  display: inline;
+  display: inline-block;
+  -webkit-transition: -webkit-transform 1.4s ease;
+  -moz-transition: -moz-transform 1.4s ease;
+  -o-transition: -o-transform 1.4s ease;
+  transition: transform 1.4s ease;
+  -webkit-transform: scale(1) rotate(0);
+  -moz-transform: scale(1) rotate(0);
+  -ms-transform: scale(1) rotate(0);
+  -o-transform: scale(1) rotate(0);
+  transform: scale(1) rotate(0);
+}
+.thumb-slideshow-banner .views-slideshow-controls-bottom .views_slideshow_pager_field .views_slideshow_pager_field_item.active {
+  -webkit-transform: scale(1.3) rotate(10deg);
+  -moz-transform: scale(1.3) rotate(10deg);
+  -ms-transform: scale(1.3) rotate(10deg);
+  -o-transform: scale(1.3) rotate(10deg);
+  transform: scale(1.3) rotate(10deg);
+  z-index: 10;
+}
+.thumb-slideshow-banner .views-slideshow-controls-bottom .views_slideshow_pager_field .views_slideshow_pager_field_item img {
+  border: 1px solid #fff;
+}
+
+/* ------- fractionslider ------ */
+
+.fractionslider-wrapper {
+  background: none repeat scroll 0 0 #1B1B1B;
+  border: 1px solid #000000;
+  box-shadow: 0 3px 5px #666666;
+}
+.fractionslider-wrapper .fractionslider {
+  height: 450px;
+}
+.fractionslider .views-field, .fractionslider .views-field a {
+  color: #fff;
+}
+.fractionslider-wrapper .fractionslider .slide {
+  margin: 0px auto;
+  max-width: 960px;
+  position: relative;
+}
+.fs-pager-wrapper {
+  position: relative;
+  text-align: center;
+  bottom: -420px;
+}
+
+
+/* ----- view sideshow cycle responsive -----*/
+
+.views_slideshow_cycle_main {
+  width: 100%;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .field-content {
+  max-width: 100%;
+  width: 100%;
+}
+.views_slideshow_cycle_main .field-content img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* --- field slideshow responsive ----- */
+
+.field-slideshow-wrapper .field-slideshow {
+  margin-bottom: 1.5em;
+}
+.field-slideshow-wrapper .field-slideshow, .field-slideshow-wrapper .field-slideshow .field-slideshow-slide {
+  width: auto !important;
+}
+.field-slideshow-slide img {
+  height: auto;
+  position: relative;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+
+/* ----- recent blog posts -----*/
+.recent-blog-posts .views-field-field-blog-image {
+  float: left;
+  display: inline;
+  width: 40px;
+  margin: 0 10px 0 0;
+}
+
+/* -------- jquery accordion and tabs ------- */
+.ui-widget{
+  font-size: 1em;
+}
+.jquery-ui-filter-accordion .jquery-ui-filter-accordion-header {
+  background: none;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+.jquery-ui-filter-tabs {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-color: #d3d3d3;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+.jquery-ui-filter-tabs ul.ui-tabs-nav {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-left: 1px solid #d3d3d3;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+.jquery-ui-filter-tabs ul.ui-tabs-nav li {
+  padding: 0;
+  margin: 0;
+  margin-top: -1px;
+  border: 1px solid #d3d3d3;
+  border-width: 1px 1px 0 0;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background: #fff url(/sites/all/themes/summit_health/cssAssets/bg-shade-light.png) repeat-x bottom left;
+}
+.jquery-ui-filter-tabs ul.ui-tabs-nav li.ui-tabs-selected {
+   border-color: #d3d3d3;
+   background: #fff;
+   padding-bottom: 0;
+}
+.jquery-ui-filter-tabs ul.ui-tabs-nav li a {
+  padding: 10px;
+}
+.jquery-ui-filter-tabs .jquery-ui-filter-tabs-container {
+  border: 1px solid #d3d3d3;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+
+/* -------- quick tabs ------- */
+
+.block-quicktabs .quicktabs-wrapper {
+  font-size: 1.08em;
+}
+.block-quicktabs .quicktabs-wrapper .quicktabs_main {
+  border: 1px solid #d3d3d3;
+  clear: both;
+  padding: 10px;
+  position: relative;
+  top: -1px;
+  background: #fff;
+}
+.block-quicktabs .quicktabs-wrapper ul.quicktabs-tabs {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.block-quicktabs .quicktabs-wrapper ul.quicktabs-tabs li {
+  float: left;
+  font-weight: normal;
+  list-style: none;
+  margin: 0;
+  height: 40px;
+  padding: 0;
+}
+.block-quicktabs .quicktabs-wrapper ul.quicktabs-tabs li a,
+.block-quicktabs .quicktabs-wrapper ul.quicktabs-tabs li a:visited {
+  float: left;
+  display: block;
+  height: 2.65em;
+  min-height: 2.95em;
+  line-height: 2.95em;
+  padding: 0 8px;
+  text-decoration: none;
+  border: 1px solid #d3d3d3;
+  border-left: none;
+  font-size: .95em;
+  background: #fff url(/sites/all/themes/summit_health/cssAssets/bg-shade-light.png) repeat-x bottom left;
+  position: relative;
+}
+.block-quicktabs .quicktabs-wrapper ul.quicktabs-tabs li.first a {
+  border-left: 1px solid #d3d3d3;
+}
+.block-quicktabs .quicktabs-wrapper ul.quicktabs-tabs li a:hover,
+.block-quicktabs .quicktabs-wrapper ul.quicktabs-tabs li.active a:hover {
+  text-decoration: none;
+}
+.block-quicktabs .quicktabs-wrapper ul.quicktabs-tabs li.active a {
+  background: #fff;
+  border-bottom: none;
+}
+.block-quicktabs .quicktabs-wrapper .quicktabs_main .content, .block-quicktabs .quicktabs-wrapper .quicktabs_main .block {
+  margin: 0px;
+  padding: 0px;
+}
+.block-quicktabs .quicktabs-wrapper .quicktabs_main ul {
+  padding: 0px;
+  margin: 0px -10px;
+  list-style: none;
+}
+.block-quicktabs .quicktabs-wrapper .quicktabs_main ul li {
+  border-bottom: 1px solid #d3d3d3;
+  display: block;
+  margin: 0;
+  padding: 10px;
+}
+.block-quicktabs .quicktabs-wrapper .quicktabs_main ul li.last {
+  border: none;
+}
+
+
+/* ---- page not found ---- */
+#notfound {
+  text-align: center;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  margin-top: 50px;
+  min-height: 350px;
+}
+.notfound-title, .accessdenied-title {
+  font-size: 9em;
+  margin: 0 0 10px 0;
+  line-height: 1em;
+}
+#accessdenied {
+  margin-top: 60px;
+  min-height: 350px;
+}
+.accessdenied-message {
+  text-align: center;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  margin-top: 20px;
+}
+
+
+/* ------ learn more --- */
+.learn-more {
+  text-align: right;
+}
+.learn-more a {
+  background: url('/sites/all/themes/summit_health/cssAssets/arrow-ul.png') no-repeat right center;
+  padding-right: 10px;
+}
+
+/* ------ follow links socail icons ---- */
+ul.follow-links {
+	overflow: hidden;
+	list-style: none;
+	margin: 0px;
+	padding: 0px
+}
+ul.follow-links li:before {
+	content: none;
+	margin: 0px;
+	padding: 0px;
+	float: none;
+}
+ul.follow-links li, .follow-links .follow-link-wrapper {
+  display: inline;
+  float: left;
+  margin-right: 4px;
+  margin-left: 0px;
+}
+.follow-links .follow-link-wrapper {
+  float: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.follow-links a {
+  width: 28px;
+  height: 28px;
+  padding: 0px;
+  margin: 0;
+  text-decoration: none !important;
+  display: inline;
+  display: inline-block;
+  background-color: #444444;
+  background-image: url('/sites/all/themes/summit_health/cssAssets/social-icons-white-sprite.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  color: #a0a0a0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  text-indent: 9999px;
+  font-size: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.follow-links a:hover {
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#footer .follow-links {
+  margin-top: -5px;
+}
+#footer .follow-links a, #top-bar .follow-links a {
+  opacity: 0.5;
+  background-color: transparent;
+}
+#footer .follow-links a:hover, #top-bar .follow-links a:hover {
+  opacity: 1;
+}
+
+.follow-links .follow-link-facebook {
+  background-position: -150px 0;
+  background-color: #4a6d9d;
+}
+.follow-links .follow-link-twitter {
+  background-position: -60px 0;
+  background-color: #3bc1ed;
+}
+.follow-links .follow-link-linkedin {
+  background-position: 0px -30px;
+  background-color: #0b7bb5;
+}
+.follow-links .follow-link-rss ,
+.follow-links .follow-link-this-site {
+  background-position: -270px -30px;
+  background-color: #fe8f00;
+}
+.follow-links .follow-link-dribbble {
+  background-position: -30px -30px;
+  background-color: #ef5a92;
+}
+.follow-links .follow-link-youtube {
+  background-position: -210px -30px;
+  background-color: #bf2f29;
+}
+.follow-links .follow-link-pinterest {
+  background-position: -60px -90px;
+  background-color: #cb1f25;
+}
+.follow-links .follow-link-vimeo {
+  background-position: -60px -30px;
+  background-color: #4c8ab0;
+}
+.follow-links .follow-link-flickr {
+  background-position: -90px 0;
+  background-color: #136dd5;
+}
+.follow-links .follow-link-tumblr {
+  background-position: -120px -30px;
+  background-color: #3d658d;
+}
+.follow-links .follow-link-googleplus, .follow-links .follow-link-google {
+  background-position: -270px -90px;
+  background-color: #d53824;
+}
+.follow-links .follow-link-digg {
+  background-position: -210px 0;
+  background-color: #205685;
+}
+.follow-links .follow-link-blogger {
+  background-position: -120px -60px;
+  background-color: #ff6501;
+}
+.follow-links .follow-link-skype {
+  background-position: -180px 0;
+  background-color: #36c4f3;
+}
+.follow-links .follow-link-deviantart {
+  background-position: -30px -120px;
+  background-color: #3e4e43;
+}
+.follow-links .follow-link-yahoo {
+  background-position: -90px -30px;
+  background-color: #9251a2;
+}
+.follow-links .follow-link-forrst {
+  background-position: 0 0;
+  background-color: #40833e;
+}
+.follow-links .follow-link-myspace {
+  background-position: -270px -60px;
+  background-color: #01277c;
+}
+.follow-links .follow-link-reddit {
+  background-position: 0px -120px;
+  background-color: #404040;
+}
+.follow-links [class^="follow-link-"]:last-child a {
+  float: none;
+  margin-right: 0;
+}
+
+
+/* ---- back to top ---*/
+#backtotop {
+  -webkit-background-size: 50px 50px;
+  -moz-background-size: 50px 50px;
+  -o-background-size: 50px 50px;
+  background-size: 50px 50px;
+  bottom: 5px;
+}
+#backtotop {
+  z-index: 100000;
+  -moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+/* --- contact info ---*/
+.address, .phone, .fax, .e-mail {
+  padding: 0 0 5px 25px;
+}
+#top-bar .phone {
+  line-height: 2.5em;
+  vertical-align: middle;
+}
+.address, .fax {
+  padding-bottom: 10px;
+}
+.address, .phone, .e-mail {
+  background-repeat: no-repeat;
+  background-position: left 2px;
+} 
+.address {
+  background-image: url('/sites/all/themes/summit_health/cssAssets/address-white.png');
+}
+.phone {
+  background-image: url('/sites/all/themes/summit_health/cssAssets/phone-white.png');
+}
+.e-mail {
+  background-image: url('/sites/all/themes/summit_health/cssAssets/email-white.png');
+}
+#main .address {
+  background-image: url('/sites/all/themes/summit_health/cssAssets/address.png');
+}
+#main .phone {
+  background-image: url('/sites/all/themes/summit_health/cssAssets/phone.png');
+}
+#main .e-mail {
+  background-image: url('/sites/all/themes/summit_health/cssAssets/email.png');
+}
+
+/* --- Twitter block  ----*/
+.twitter_block ul li {
+  background: url('/sites/all/themes/summit_health/cssAssets/twitter_footer.png') no-repeat left center;
+  padding-left: 30px !important;
+}
+
+/* -------- view ------- */
+.view .view-header, .view .view-footer {
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+
+
+/* ----- image hover animation ------*/
+.image {
+  position: relative;
+  overflow: hidden;
+}
+.image .image-hover:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+}
+.image a {
+  display:block;
+}
+.image .image-hover .image-hover-content {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 90%;
+  height: auto;
+}
+.image .link-icon, .image .zoom-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  text-indent: -9999px;
+  border-color: #e4e4e4 #d2d2d2 #b4b4b4;
+  overflow: hidden;
+  -khtml-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+}
+.image .link-icon {
+  background: #000 url('/sites/all/themes/summit_health/cssAssets/link.png') no-repeat center center;
+}
+.image .zoom-icon {
+  background: #000 url('/sites/all/themes/summit_health/cssAssets/zoom.png') no-repeat center center;
+}
+.image .image-hover .image-hover-content h4,
+.image .image-hover .image-hover-content h5 {
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+.image .image-hover .image-hover-content h4 {
+  margin-top: 5px;
+}
+.image .image-hover .image-hover-content h5 a{
+  display: inline;
+}
+
+/* ---- image hover animation set 2 ----- */
+.image .image-hover {
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  -webkit-transition: all 400ms linear;
+  -moz-transition: all 400ms linear;
+  -o-transition: all 400ms linear;
+  transition: all 400ms linear;
+  visibility:hidden;
+  opacity: 0;
+}
+.image:hover .image-hover {
+  visibility: visible;
+  opacity: 1;
+}
+.image .link-icon, .image .zoom-icon {
+  -webkit-transition-delay: 150ms;
+  -moz-transition-delay: 150ms;
+  -o-transition-delay: 150ms;
+  transition-delay: 150ms;
+  
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -o-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-transition-duration: 1100ms;
+  -moz-transition-duration: 1100ms;
+  -o-transition-duration: 1100ms;
+  transition-duration: 1100ms;
+
+  -webkit-transform: scale(0.3) rotate(0.09deg);
+  -moz-transform: scale(0.3) rotate(0.09deg);
+  -ms-transform: scale(0.3) rotate(0.09deg);
+  -o-transform: scale(0.3) rotate(0.09deg);
+  transform: scale(0.3) rotate(0.09deg);
+}
+.image:hover .link-icon, .image:hover .zoom-icon {
+  opacity: 1;
+  -webkit-transform: scale(1) rotate(0.09deg);
+  -moz-transform: scale(1) rotate(0.09deg);
+  -ms-transform: scale(1) rotate(0.09deg);
+  -o-transform: scale(1) rotate(0.09deg);
+  transform: scale(1) rotate(0.09deg);
+}
+.image img {
+  -webkit-transition: -webkit-transform 1.4s ease;
+  -moz-transition: -moz-transform 1.4s ease;
+  -o-transition: -o-transform 1.4s ease;
+  transition: transform 1.4s ease;
+  -webkit-transform: scale(1) rotate(0);
+  -moz-transform: scale(1) rotate(0);
+  -ms-transform: scale(1) rotate(0);
+  -o-transform: scale(1) rotate(0);
+  transform: scale(1) rotate(0);
+}
+.image:hover img {
+  -webkit-transform: scale(1.1) rotate(0.09deg);
+  -moz-transform: scale(1.1) rotate(0.09deg);
+  -ms-transform: scale(1.1) rotate(0.09deg);
+  -o-transform: scale(1.1) rotate(0.09deg);
+  transform: scale(1.1) rotate(0.09deg);
+}
+
+
+/* ----- testimonials ----*/
+.view-display-id-page .testimonials {
+  margin-bottom: 40px;
+}
+.view-display-id-page .views-row-last .testimonials {
+  margin-bottom: 0px;
+}
+
+.testimonials .testimonials-content {
+  border: 1px solid rgba(234, 234, 234, 1);
+  position: relative;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.testimonials .testimonials-content p {
+  margin: 0;
+}
+.testimonials .testimonials-content .bottom-aero {
+  background: #fff url('/sites/all/themes/summit_health/cssAssets/testimonials_aero.png') no-repeat left bottom;
+  width: 100%;
+  height: 16px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -13px;
+}
+.testimonials .author {
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+/* ------ faq page ------*/
+.faq-question-answer .faq-question {
+  background: url('/sites/all/themes/summit_health/cssAssets/toggle_plus.jpg') no-repeat center left;
+  padding: 5px 0 5px 25px;
+}
+.faq-question-answer .faq-qa-visible {
+  background: url('/sites/all/themes/summit_health/cssAssets/toggle_minus.jpg') no-repeat center left;
+  padding: 5px 0 5px 25px;
+}
+.faq-question-answer .faq-answer {
+  padding-left: 25px;
+
+}
+
+/* ------ skill bar -------- */
+.skillbar {
+  width: 100%;
+  height: 10px;
+  display: block;
+  background: #efefef;
+  margin-bottom: 10px;
+}
+.skillbar .skill-percentage {
+  display: block;
+  width: 0%;
+  height: 10px;
+}
+.skill-title {
+  margin: 0;
+  display: block;
+}
+.skillbar .skill-percentage {
+  -moz-animation: html5 2s ease-out;
+  -webkit-animation: html5 2s ease-out;
+}
+@-moz-keyframes html5 { 0%  { width:0px;} 100%{ }  }
+
+@-webkit-keyframes html5 { 0%  { width:0px;} 100%{ }  }
+
+/* ------ jcourcel ----- */
+.jcarousel-skin-default .jcarousel-container-horizontal {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.jcarousel-skin-default .jcarousel-clip-horizontal {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.jcarousel-skin-default .jcarousel-item {
+  padding: 0;
+  border: none;
+  width: 225px;
+  margin: 10px 20px 10px 0;
+  height: auto;
+}
+.jcarousel-skin-default .jcarousel-item img {
+  width: 100%;
+  height: auto;
+}
+.grid2 .jcarousel-skin-default .jcarousel-item {
+  width: 470px;
+}
+.grid3 .jcarousel-skin-default .jcarousel-item {
+  width: 306px;
+}
+.grid4 .jcarousel-skin-default .jcarousel-item {
+  width: 225px;
+}
+.grid5 .jcarousel-skin-default .jcarousel-item {
+  width: 176px;
+}
+.grid6 .jcarousel-skin-default .jcarousel-item {
+  width: 143px;
+}
+.grid7 .jcarousel-skin-default .jcarousel-item {
+  width: 120px;
+}
+.grid8 .jcarousel-skin-default .jcarousel-item {
+  width: 103px;
+}
+
+/**
+ * Horizontal Buttons
+ */
+.jcarousel-skin-default .jcarousel-next,
+.jcarousel-skin-default .jcarousel-prev {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.jcarousel-skin-default .jcarousel-next {
+  background-image: url('/sites/all/themes/summit_health/cssAssets/next_btn.png');
+}
+.jcarousel-skin-default .jcarousel-prev {
+  background-image: url('/sites/all/themes/summit_health/cssAssets/previous_btn.png');
+}
+.jcarousel-skin-default .jcarousel-prev-horizontal {
+  top: -30px;
+  left: 100%;
+  margin-left: -60px;
+}
+.jcarousel-skin-default .jcarousel-next-horizontal {
+  top: -30px;
+  right: 0;
+}
+.jcarousel-skin-default .jcarousel-prev-horizontal:hover, .jcarousel-skin-default .jcarousel-prev-horizontal:active,
+.jcarousel-skin-default .jcarousel-next-horizontal:hover, .jcarousel-skin-default .jcarousel-next-horizontal:active {
+  background-position: center center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/* ----- featured circle --- */
+.feature-circle {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  background:#7ab317;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  float: left;
+  margin-top: 7px;
+}
+.feature-circle img {
+  max-width:24px;
+  max-height:24px;
+}
+.buttonShadow {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3) inset, 0 -1px 1px rgba(0, 0, 0, 0.3) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3) inset, 0 -1px 1px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3) inset, 0 -1px 1px rgba(0, 0, 0, 0.3) inset;
+  transition: all .2s ease;
+  -o-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+}
+
+
+/* --- buttons --- */
+
+.button {
+  display: inline-block;
+  *display: inline;
+  padding: 7px 15px;
+  margin-bottom: 0.3em;
+  *margin-left: .3em;
+  font-size: 13px;
+  line-height: 18px;
+  *line-height: 20px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-image:-moz-linear-gradient(top,rgba(255,255,255,0.2),rgba(0,0,0,0.1));
+  background-image:-ms-linear-gradient(top,rgba(255,255,255,0.2),rgba(0,0,0,0.1));
+  background-image:-o-linear-gradient(top,rgba(255,255,255,0.2),rgba(0,0,0,0.1));
+  background-image:-webkit-linear-gradient(top,rgba(255,255,255,0.2),rgba(0,0,0,0.1));
+  background-image:linear-gradient(top,rgba(255,255,255,0.2),rgba(0,0,0,0.1));
+  background-repeat:repeat-x;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff',endColorstr='#e6e6e6',GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.button:first-child {
+  *margin-left:0;
+}
+.button:hover {
+  color: #333333;
+  text-decoration: none;
+  background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.2),rgba(0,0,0,0.1));
+  background-image:-ms-linear-gradient(bottom,rgba(255,255,255,0.2),rgba(0,0,0,0.1));
+  background-image:-o-linear-gradient(bottom,rgba(255,255,255,0.2),rgba(0,0,0,0.1));
+  background-image:-webkit-linear-gradient(bottom,rgba(255,255,255,0.2),rgba(0,0,0,0.1));
+  background-image:linear-gradient(bottom,rgba(255,255,255,0.2),rgba(0,0,0,0.1));
+  background-repeat:repeat-x;
+}
+.button-large {
+  padding: 12px 30px;
+  font-size: 15px;
+  line-height: normal;
+}
+.button-large [class^="icon-"] {
+  margin-top: 1px;
+}
+.button-small {
+  padding: 7px 12px;
+  font-size: 11px;
+ line-height: 16px;
+}
+.button-small [class^="icon-"] {
+  margin-top: -1px;
+}
+.button-mini {
+  padding: 5px 8px;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+.button-primary,.button-primary:hover,
+.button-warning,.button-warning:hover,
+.button-danger,.button-danger:hover,
+.button-success,.button-success:hover,
+.button-info,.button-info:hover,
+.button-inverse,.button-inverse:hover {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+}
+.button-primary {
+  background-color: #2777e7;
+  border-color: #0055cc #0055cc #003580;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#0088cc',endColorstr='#0055cc',GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+.button-warning {
+  background-color: #f89305;
+  border-color: #f89406 #f89406 #ad6704;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fbb450',endColorstr='#f89406',GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+.button-danger {
+  background-color: #e93d1a;
+  border-color: #c0452c #c0452c #1f6377;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#e05a3f',endColorstr='#c0452c',GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+.button-success {
+  background-color: #4abe4a;
+  border-color: #51a351 #51a351 #387038;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#62c462',endColorstr='#51a351',GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+.button-info {
+  background-color: #1eb0dc;
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#5bc0de',endColorstr='#2f96b4',GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+.button-inverse {
+  background-color: #322f2f;
+  border-color: #222222 #222222 #000000;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#555555',endColorstr='#222222',GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+
+/* ---- dropcaps -----*/
+
+.dropcap {
+  font-size: 60px;
+  padding: 0;
+  margin: 0 6px 0 0;
+  text-transform: uppercase;
+  float: left;
+  position: relative;
+  line-height: 1em;
+}
+.dropcap.circle {
+  background: #636262;
+  color: #fff;
+  font-size: 50px;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  border-radius: 70px;
+  text-align: center;
+  line-height: 70px;
+  width: 70px;
+  height: 70px;
+}
+.dropcap.square {
+  background: #636262;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  line-height: 70px;
+  width: 70px;
+  height: 70px;
+}
+
+/* ----- info box -----*/
+
+.info-box {
+  overflow: hidden;
+  padding: 28px 28px 27px 31px;
+  margin: 0 0 50px;
+}
+.info-box h2 {
+  margin: 0 0 7px;
+}
+.info-box p {
+  margin: 0 !important;
+}
+
+/* ---- text highlights --- */
+
+.highlight {
+  padding: 0 2px;
+  font-weight: normal;
+  font-style: normal;
+}
+.highlight.black {
+  background: #000;
+}
+.highlight.green {
+  background: green;
+}
+.highlight.red {
+  background: red;
+}
+.highlight.blue {
+  background: blue;
+}
+.highlight.yellow {
+  background: yellow;
+}
+
+/* ---- images ----- */
+.img-rounded, .img-circle, .img-polaroid {
+  padding: 4px;
+  box-shadow: 0 1px 3px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 0 1px 3px rgba(50, 50, 50, 0.3);
+  -webkit-box-shadow: 0 1px 3px rgba(50, 50, 50, 0.3);
+  background-color: #fff;
+}
+.img-rounded {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.img-circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.img-polaroid {
+  padding: 4px;
+}
+
+
+/*-------------pricing table---------------------*/
+.pricing-tables {
+  margin: 5px 0;
+  background: #fff;
+  padding: 5px;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 0 8px 0 rgba(0,0,0,0.1);
+}
+.pricing-tables ul, .pricing-tables ul li {
+  list-style: none;
+}
+.pricing-tables ul.package {
+  width: 100%;
+  text-align: center;
+  background: #f4f4f4;
+  margin: 0;
+  position: relative;
+}
+.pricing-tables ul.package li.package-name {
+  color: #fff;
+  font-weight: 400;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.pricing-tables ul.package li.package-price {
+  color: #fff;
+  font-weight: 600;
+  padding: 24px 0;
+  font-size: 32px;
+}
+.pricing-tables ul.package li.package-price span {
+  font-size:12px;
+  color:#e5e5e5;
+  font-weight:400;
+  display:block;
+}
+.pricing-tables ul.package li.package-signup {
+  background:#eee;
+  padding:12px 20px;
+  border-top:1px solid #d9d9d9;
+  text-align:center;
+}
+.pricing-tables ul.package ul {
+  margin:0;
+}
+.pricing-tables ul.package ul li.package-feature {
+  background:#f4f4f4;
+  padding:10px 0;
+  border-bottom:1px dotted #ccc;
+  margin:0 20px;
+}
+.pricing-tables ul.package ul li.package-feature:last-child {
+  border-bottom:0;
+}
+.pricing-tables ul.package.free li.package-name {
+  background:#848484;
+}
+.pricing-tables ul.package.free li.package-price {
+	background:#7B7B7B;
+}
+.pricing-tables ul.package.small li.package-name {
+  background:#777777;
+}
+.pricing-tables ul.package.small li.package-price {
+  background:#6f6f6f;
+}
+.pricing-tables ul.package.basic li.package-name {
+  background:#6B6B6B;
+}
+.pricing-tables ul.package.basic li.package-price {
+  background:#5B5B5B;
+}
+.pricing-tables ul.package.pro li.package-name {
+  background:#5B5B5B;
+}
+.pricing-tables ul.package.pro li.package-price {
+  background:#545454;
+}
+.pricing-tables ul.package.recommended {
+  background:#fff;
+  z-index:1;
+  box-shadow:0 0 20px 0 rgba(0,0,0,0.2),inset 0 0 0 4px #fff;
+  -webkit-box-shadow:0 0 20px 0 rgba(0,0,0,0.2),inset 0 0 0 4px #fff;-moz-box-shadow:0 0 20px 0 rgba(0,0,0,0.2),inset 0 0 0 4px #fff;transform:scale(1.037);
+  -moz-transform:scale(1.037);
+  -webkit-transform:scale(1.037);
+}
+.pricing-tables ul.package.recommended li.package-name {
+  padding:0;
+}
+.pricing-tables ul.package.recommended li.package-name div {
+  width:100%;
+  height:100%;
+  display:inline-block;
+  padding:10px 0;
+}
+.pricing-tables ul.package.recommended ul li.package-feature {
+  background:#fff;
+}
+
+
+.button [class^="icon-"],
+.button [class*=" icon-"] {
+  display: inline;
+}
+.button [class^="icon-"].icon-large,
+.button [class*=" icon-"].icon-large {
+  line-height: .9em;
+}
+.button [class^="icon-"].icon-spin,
+.button [class*=" icon-"].icon-spin {
+  display: inline-block;
+}
+
+/* ------ list styles --------- */
+ul.arrow li, ul.arrow2 li, ul.arrow3 li,
+ul.arrow4 li, ul.plus li, ul.pen li, ul.star li,
+ul.check li, ul.cross li, ul.disc li,
+ul.download li, ul.bookmark li {
+  list-style-position: inside;
+  *display: inline-block;
+  *padding-left: 0.5em;
+  *margin-left: -0.5em;
+}
+ul.arrow li {
+  list-style-image: url("/sites/all/themes/summit_health/cssAssets/arrow1.png");
+}
+ul.arrow2 li {
+  list-style-image: url("/sites/all/themes/summit_health/cssAssets/arrow2.png");
+}
+ul.arrow3 li {
+  list-style-image: url("/sites/all/themes/summit_health/cssAssets/arrow3.png");
+}
+ul.arrow4 li {
+  list-style-image: url("/sites/all/themes/summit_health/cssAssets/arrow4.png");
+}
+ul.plus li {
+  list-style-image: url("/sites/all/themes/summit_health/cssAssets/plus.png");
+}
+ul.pen li {
+  list-style-image: url("/sites/all/themes/summit_health/cssAssets/pen.png");
+}
+ul.star li {
+  list-style-image: url("/sites/all/themes/summit_health/cssAssets/star.png");
+}
+ul.check li {
+  list-style-image: url("/sites/all/themes/summit_health/cssAssets/ok.png");
+}
+ul.cross li {
+  list-style-image: url("/sites/all/themes/summit_health/cssAssets/cross.png");
+}
+ul.disc li {
+  list-style-image: url("/sites/all/themes/summit_health/cssAssets/disc.png");
+}
+ul.bookmark li {
+  list-style-image: url("/sites/all/themes/summit_health/cssAssets/bookmark.png");
+}
+ul.download li {
+  list-style-image: url("/sites/all/themes/summit_health/cssAssets/download.png");
+}
+
+/* ---- team member page ---- */
+
+body.node-type-team-member.page-node-lightbox2 h1.title {
+  margin: 0 0 0 280px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+body.page-node-lightbox2 .field-name-field-job-title {
+  margin: 0 0 10px 0;
+  letter-spacing: 0.03em;
+  font-size: 11px;
+}
+body.page-node-lightbox2 .node-team-member .field-name-field-member-image {
+  width: 250px;
+  float: left;
+  margin: -20px 30px 0 0;
+}
+body.page-node-lightbox2 .node-team-member .field-name-field-member-image  img {
+  padding: 4px;
+  box-shadow: 0 1px 3px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 0 1px 3px rgba(50, 50, 50, 0.3);
+  -webkit-box-shadow: 0 1px 3px rgba(50, 50, 50, 0.3);
+  background: #fff;
+}
+body.page-node-lightbox2 .node-team-member .field-name-body {
+  margin-top: 10px;
+}
+
+/*------- Action links ------- */
+nav.action-links-wrapper {}
+ul.action-links {
+  margin: 20px 10px 0;
+  padding: 0;
+  list-style: none;
+}
+ul.action-links li {
+  margin-bottom: 5px;
+  display: block;
+  float: left;
+}
+ul.action-links li a {
+  background: #f5f5f5;
+  border-bottom: 1px solid #eee;
+  color: #666;
+  display: block;
+  float: left;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 2em;
+  margin: 0 10px 0 0;
+  padding: 0 10px;
+  text-shadow: 0 1px 1px #fff;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  -moz-transition: background 0.2s ease-in;
+  -webkit-transition: background 0.2s ease-in;
+	-o-transition: background 0.2s ease-in;
+	-ms-transition: background 0.2s ease-in;
+  transition: background 0.2s ease-in;
+}
+ul.action-links li a:before {
+  content: "+ ";
+}
+ul.action-links li a:hover,
+ul.action-links li a:focus {
+  background: #ddd;
+  color: #666;
+  text-decoration: none;
+  border-bottom-color: #ccc;
+}
+
+
+/*----- fontawesome -----*/
+.col-md-3 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width:768px){
+  .col-md-3 {
+    width: 25%;
+    float: left;
+  }
+}

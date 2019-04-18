@@ -1,0 +1,753 @@
+/*
+Theme Name: Hope
+Theme URI: https://www.montereypremier.com/
+Description: A premium Child Theme for Divi
+Author: Andrea Walker
+Author URI: https://www.montereypremier.com/
+Template: Divi
+Version: 1.1
+*/
+
+/*------------------------------------------------*/
+/*-------------------[GENERAL]--------------------*/
+/*------------------------------------------------*/
+
+/*** TYPOGRAPHY SETUP ***/
+	p, .et_pb_text_inner {
+		font-family: 'Roboto Slab', serif;
+		line-height: 1.35em; }
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif; }
+
+	h1, .et_pb_bg_layout_dark h1, .et_pb_bg_layout_light h1 {
+		letter-spacing: 3px;
+		font-weight: 700; }
+
+	/* H1, H2 - Vertical Bar */
+	.et_pb_text_align_left.et_pb_bg_layout_dark h1,
+	.et_pb_text_align_left.et_pb_bg_layout_dark h2,
+	.et_pb_text_align_left.et_pb_bg_layout_light h1,
+	.et_pb_text_align_left.et_pb_bg_layout_light h2 {
+		padding-left: 10px; }
+	.et_pb_text_align_left.et_pb_bg_layout_dark h1::before,
+	.et_pb_text_align_left.et_pb_bg_layout_dark h2::before,
+	.et_pb_text_align_left.et_pb_bg_layout_light h1::before,
+	.et_pb_text_align_left.et_pb_bg_layout_light h2::before {
+		content: '';
+		position: absolute;
+		margin-left: -10px; }
+
+	h2, h3, h4 {
+		font-weight: 800;
+		letter-spacing: .15em; }
+
+	.fa_icon_color { border-radius: 50%; }
+
+/*** OVERLAY SETUP ***/
+	.et_pb_section.hope_section_background_overlay { background-color: transparent; }
+	.hope_section_background_overlay::before {
+		background-color: inherit !important;
+		content: '';
+		width: 100vw;
+		height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px; }
+
+/*** BUTTON SETUP ***/
+	.et_pb_button, .et_pb_newsletter_button.et_pb_button, .give-submit-button-wrap input {
+		font-family: 'Open Sans', sans-serif;
+		border: none;
+		text-transform: uppercase;
+		font-size: 14px;
+		letter-spacing: 1px;
+		font-weight: bold;
+		height: 2.75em;
+		padding: .6em 1em;
+		border-radius: 3px; }
+	.et_pb_button:hover {
+		padding: .6em 1em !important;
+		border: none !important; }
+	.et_pb_button:hover:after {
+		display: none; }
+
+/*** DIVIDER SETUP ***/
+	.left_divider_light, .left_divider_dark {
+		width: 11%;
+		min-width: 50px;
+		margin-top: 12px !important;
+		padding-bottom: 12px; }
+	.center_divider_light, .center_divider_dark {
+		width: 20%;
+		max-width: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 12px !important;
+		padding-bottom: 12px; }
+	.text_center_divider { /* Inherits the color according to Light/Dark setting */
+		width: 20%;
+		max-width: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 6px !important;
+		margin-bottom: 12px;
+		border: none; }
+	.text_left_divider { /* Inherits the color according to Light/Dark setting */
+		width: 11%;
+		min-width: 50px;
+		margin-left: 0px;
+		margin-right: auto;
+		margin-top: 6px !important;
+		margin-bottom: 12px;
+		border: none; }
+	#main-content { overflow: hidden; }
+
+/*------------------------------------------------*/
+/*------------------[HOMEPAGE]--------------------*/
+/*------------------------------------------------*/
+
+	.hope_hero_section {
+		min-height: 30vw;
+		background-position: right; }
+	.hope_hero_section .hero_image_row { padding-top: 8vw !important; }
+	.hope_hero_section p { font-style: italic; }
+
+	/*** 3 Column CTA Section ***/
+	.imagecta_3column_section, .cta_3column_row {
+		padding: 0px !important;
+		margin: 0px !important;
+		max-width: 100vw;
+		width: 100vw; }
+	.imagecta_3column_section .et_pb_column {padding: 3% 5% 2%;}
+	.imagecta_3column_section .et_pb_button { margin-top: 10px !important; }
+
+	/*** ABOUT US - Specialty Section ***/
+	.hope_specialtysection_icon {
+		position: absolute;
+		width: 25px;
+		top: 0px; }
+	.hope_specialtysection_icon i,
+	.hope_specialtysection_icon::after {
+		text-align: center;
+		padding: 6px;
+		width: 25px;
+		border-radius: 50%; }
+	.hope_specialtysection_snippet { padding-left: 35px !important; }
+	.hope_specialtysection_column2 { padding: 0px !important; }
+	.hope_specialtycolumn_header {
+		padding: 15px 0px;
+		text-align: center;
+		margin-bottom: 10px !important; }
+	.hope_specialtycolumn_header h4 { padding-bottom: 0px; }
+	.hope_specialtycolumn_counter { margin-bottom: 0px !important; }
+	.hope_specialtycolumn_counter p {
+		font-family: 'Roboto';
+		font-weight: 800 !important;
+		font-size: 45px !important; }
+	.hope_specialtysection_column2 .et_pb_text:nth-child(n+2) {
+		padding: 0px 20px;
+		margin-bottom: 10px !important; }
+	.hope_specialtysection_column2 .et_pb_divider { margin-bottom: 0px !important; }
+	.hope_specialtycolumn_cta {
+		font-weight: 800;
+		letter-spacing: .15em;
+		width: 100%;
+		border-radius: 0px;
+		padding-top: .85em;
+		height: 3.25em;
+		margin-bottom: 0px !important; }
+
+/*** OUR MISSION ***/
+	.mission_highlight_section .et_pb_row { padding-bottom: 10px; }
+	.mission_centered_icon {
+		position: absolute;
+		text-align: center;
+		border-radius: 50%;
+		width: 2.6em;
+		padding: .6em;
+		left: calc(50% - 1.3em);
+		margin-top: -.5em; }
+	.mission_centered_icon i,
+	.mission_centered_icon::after {
+		font-family: 'FontAwesome';
+		font-size: 18px !important; }
+
+	/* Our Mission - Screen Size Adjustments */
+	@media (min-width: 981px) {
+		.hope_section_background_overlay .et_pb_text_align_right.mission_highlight_text {
+			padding-right: 54%; }
+		.hope_section_background_overlay .et_pb_text_align_left.mission_highlight_text {
+			padding-left: 54%; } }
+	@media (max-width: 980px) {
+		.mission_highlight_section h3 { text-align: left; }
+		.mission_centered_icon {
+			left: initial;
+			right: 0px; } }
+
+/*** FEATURED STORY ***/
+	@media (min-width: 981px) {
+		.featured_story_section .et_pb_column_2_3 {
+			width: 60% !important; }
+		.featured_story_section .et_pb_column_1_3 {
+			width: 40% !important; }
+	}
+
+/*** NEXT EVENT ***/
+	.hope_nextevent_section .et_pb_divider {
+		width: 70%;
+		max-width: 70%;
+		margin-bottom: 0px !important; }
+	.hope_nextevent_section .et_pb_divider:nth-child(4) {
+		margin-bottom: 10px !important;	}
+	.hope_nextevent_section .et_pb_countdown_timer {
+		padding: 0px 0px;
+		margin-bottom: 0px !important; }
+	.hope_nextevent_column1 { padding: 30px; }
+	.hope_nextevent_section .et_pb_button {
+		width: 45%;
+		min-width: 150px; }
+
+	.hope_nextevent_section .et_pb_countdown_timer p:not(.label) {
+		font-weight: 800;
+		font-size: 38px !important; }
+	.hope_nextevent_section .et_pb_countdown_timer p.label {
+		font-size: .9em !important;
+		text-transform: uppercase !important; }
+	.hope_nextevent_section .et_pb_countdown_timer .days p.label,
+	.hope_nextevent_section .et_pb_countdown_timer .hours p.label,
+	.hope_nextevent_section .et_pb_countdown_timer .minutes p.label {
+		display: none; }
+	.hope_nextevent_section .et_pb_countdown_timer .days::after,
+	.hope_nextevent_section .et_pb_countdown_timer .hours::after,
+	.hope_nextevent_section .et_pb_countdown_timer .minutes::after {
+		display: block;
+		padding-top: 10px;
+		font-size: 12px; }
+	.hope_nextevent_section .et_pb_countdown_timer .days::after { content: 'DAYS'; }
+	.hope_nextevent_section .et_pb_countdown_timer .hours::after { content: 'HOURS'; }
+	.hope_nextevent_section .et_pb_countdown_timer .minutes::after { content: 'MINUTES'; }
+	.hope_nextevent_section .seconds.section.values { display: none; }
+	.hope_nextevent_section .sep { top: -27px !important; }
+	.hope_nextevent_section .sep:nth-child(2) { padding-left: 15px; }
+	.hope_nextevent_section .sep:nth-child(6) { display: none; }
+
+	/* Next Event - Screen Size Adjustments */
+	@media (max-width: 500px) {
+		.hope_nextevent_row { width: calc(100% - 20px); }
+		.et_pb_countdown_timer .section.values { width: 25%; } }
+
+
+/*** THEIR STORIES ***/
+	.hope_stories_section .et_pb_row { padding-bottom: 0px; }
+	.hope_stories_section .et_pb_divider {
+			margin-bottom: 5px !important;
+			padding-bottom: 0px; }
+	.hope_stories_column { padding-bottom: 45px; }
+	.hope_stories_column .et_pb_text {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-bottom: 0px !important; }
+	.hope_stories_section .et_pb_button {
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		width: 100%;
+		border-radius: 0px; }
+
+	.hope_stories_column { background-color: #ddd; }
+
+/*** OUR VOLUNTEERS ***/
+	.hope_volunteers_section, .hope_volunteers_section .et_pb_row {
+		padding: 0px !important; }
+	.hope_volunteers_section h2 { padding-top: 40px; }
+	.hope_volunteers_section h4 { padding-top: 15px; }
+
+	.hope_volunteers_image_row { margin-top: 20px; }
+	.hope_volunteers_image_row .et_pb_column{ padding-top: 25vw !important; }
+	.hope_volunteers_section .et_pb_button {
+		width: 100%;
+		border-radius: 0px; }
+
+	/* Hover Effect */
+	.hope_volunteers_column1, .hope_volunteers_column2, .hope_volunteers_column3 {
+		z-index: 3; }
+	.hope_volunteers_column1:hover, .hope_volunteers_column2:hover, .hope_volunteers_column3:hover {
+		z-index: 1; }
+
+	/* Hover Content */
+	.home_volunteers_text_row {
+		position: absolute;
+		bottom: 0px; }
+	.home_volunteers_text_row .et_pb_text, .home_volunteers_text_row .et_pb_divider {
+		margin-left: 20px !important;
+		margin-right: 20px !important; }
+	.home_volunteers_text_column1, .home_volunteers_text_column2, .home_volunteers_text_column3 {
+		z-index: 2; }
+	.home_volunteers_text_column1:hover, .home_volunteers_text_column2:hover, .home_volunteers_text_column3:hover {
+		z-index: 7; }
+	.home_volunteers_text_row .et_pb_button {
+		margin-top: 10px !important; }
+
+	/* Hide Hover Content On Mobile */
+	@media (max-width: 980px) {
+		.home_volunteers_text_row { display: none; } }
+
+
+/*-----------------------------------------------*/
+/*----------[ IMAGE CTA - 3 COLUMN ]-------------*/
+/*-----------------------------------------------*/
+
+	@media (min-width: 981px) {
+		.imagecta_3column_section, .imagecta_3column_section .et_pb_row {
+			padding: 0px !important; }
+		.imagecta_3column_section h6 { padding-top: 15px; }
+		.imagecta_3column_image_row { margin-top: 20px; }
+		.imagecta_3column_image_row .et_pb_column {
+			padding-top: 25vw !important; }
+
+		/* CTA Image */
+		.imagecta_3column_image img {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+			object-fit: cover; }
+
+		/* CTA Text */
+		.imagecta_3column_text {
+			position: absolute;
+			left: 0px;
+			height: 50px;
+			bottom: 0px;
+			padding: 0px 10% 20px; }
+		.imagecta_3column_text h4 {
+			text-align: center;
+			padding: 20px 0px !important; }
+
+		/* Hover Effect */
+		.imagecta_3column_column1 .imagecta_3column_text,
+		.imagecta_3column_column2 .imagecta_3column_text,
+		.imagecta_3column_column3 .imagecta_3column_text {
+			-webkit-transition: all .5s ease-in-out;
+			transition: all .5s ease-in-out; }
+		.imagecta_3column_column1:hover .imagecta_3column_text,
+		.imagecta_3column_column2:hover .imagecta_3column_text,
+		.imagecta_3column_column3:hover .imagecta_3column_text {
+			height: 150px;
+			bottom: 0px; }
+		.imagecta_3column_column1:hover h4,
+		.imagecta_3column_column2:hover h4,
+		.imagecta_3column_column3:hover h4 {
+			text-align: left !important;
+			padding-bottom: 10px !important; }
+	}
+
+	/* Image CTA - Screen Size Adjustments */
+	@media (max-width: 980px) {
+		.imagecta_3column_section {
+			padding-left: 10px !important;
+			padding-right: 25px !important; }
+		.imagecta_3column_section .et_pb_row:not(.imagecta_3column_image_row) {
+			padding: 20px 0px 0px !important; }
+		.imagecta_3column_section .et_pb_row:not(.imagecta_3column_image_row) .et_pb_column {
+			padding-bottom: 0px;
+			margin-bottom: 0px !important; }
+
+		.imagecta_3column_section .et_pb_column {
+			padding: 20px 0px; }
+		.imagecta_3column_column1 img,
+		.imagecta_3column_column2 img,
+		.imagecta_3column_column3 img {
+			position: relative;
+			z-index: 1;
+			max-height: 300px; }
+		.imagecta_3column_column1 .imagecta_3column_text,
+		.imagecta_3column_column2 .imagecta_3column_text,
+		.imagecta_3column_column3 .imagecta_3column_text {
+			position: relative;
+			z-index: 0;
+			height: 300px;
+			padding: 10% 5%; }
+
+		/* Image - 1 & 3 */
+		.imagecta_3column_column1 img,
+		.imagecta_3column_column3 img {
+			float: left;
+			padding-right: 5%;}
+
+		/* Image - 2 */
+		.imagecta_3column_column2 img {
+			float: right;
+			padding-left: 5%;}
+	}
+	@media (max-width: 700px) {
+		.imagecta_3column_column1 img,
+		.imagecta_3column_column2 img,
+		.imagecta_3column_column3 img {
+			width: 50vw;
+			height: 300px;
+			object-fit: cover; }
+	}
+	@media (max-width: 500px) {
+		.imagecta_3column_image_row, .imagecta_3column_image_row .et_pb_column {
+			padding-top: 10px; }
+		.imagecta_3column_section img {
+			float: none;
+			position: relative;
+			z-index: 1;
+			width: 90%;
+			max-height: 200px;
+			padding: 0px; }
+		.imagecta_3column_section .imagecta_3column_text {
+			width: 90%;
+			margin: auto;
+			height: initial;
+		}
+	}
+
+
+/*------------------------------------------------*/
+/*-------------------[FOOTER]---------------------*/
+/*------------------------------------------------*/
+
+/*** FOOTER CONTACT INFO ***/
+	.footer_contact_info_section { padding: 20px 0px; }
+	.footer_contact_info_section .et_pb_column_1_3 .et_pb_module {
+		margin-bottom: 0px !important; }
+	.footer_contact_info_section p { font-size: 16px !important; }
+	.footer_contact_info_section .fa { padding-right: 20px; }
+	.footer_contact_info_section .fa-mobile {
+		padding-right: 25px;
+		font-size: 150%; }
+
+	/* SOCIAL ICONS */
+	.footer_contact_info_section .et_pb_social_media_follow li a.icon {
+		width: 22px;
+		height: 22px; }
+	.footer_contact_info_section .et_pb_social_media_follow li a.icon::before {
+		font-size: 12px !important;
+		line-height: 22px;
+		width: 22px !important; }
+	.footer_contact_info_section .et_pb_social_media_follow li a {
+		margin-right: 20px; }
+
+	/* FOOTER SIGNUP FORM */
+	.footer_contact_info_section .et_pb_newsletter_button.et_pb_button {
+		width: 40%;
+		margin-left: 60%; }
+	.footer_contact_info_section .et_pb_newsletter_form p input {
+		font-style: italic; }
+	
+	/* Padding Fix for Firefox */
+	.gecko .et_pb_contact p input {
+		padding: 0px 16px !important; }
+
+	/* PURCHASE TODAY BUTTON */
+	.footer_contact_info_section .et_pb_button_15:hover {
+		padding: .6em 1em .6em 2em!important; }
+
+/*** FOOTER CONTACT FORM ***/
+	.footer_contact_form_section { padding: 0px; }
+	.footer_contact_form_section input { height: 40px; }
+
+	/* Reveal Contact Form On Scroll */
+	@media (min-height: 800px) and (min-width: 981px) {
+		.footer_contact_info_section {
+			margin-bottom: calc( 25vw + 300px ); }
+		.footer_contact_form_section {
+			position: fixed;
+			z-index: -1;
+			bottom: 50px;
+			width: 100%; }
+		.footer_copyright_section {
+			position: fixed;
+			bottom: 0px;
+			width: 100%;
+			z-index: -1; }
+	}
+
+/*** FOOTER COPYRIGHT ***/
+	.footer_copyright_section { padding: 0px !important; }
+	@media (max-width: 980px) {
+		.footer_copyright_section { padding-bottom: 50px !important; } }
+
+/*------------------------------------------------*/
+/*------------[ FIXED MOBILE FOOTER --------------*/
+/*------------------------------------------------*/
+
+/* Position & Setup */
+	@media (min-width: 981px) { 
+		#fixed_mobile_footer { display: none !important; } }
+
+	#fixed_mobile_footer {
+		bottom: 0;
+		width: 100%;
+		left: 0;
+		position: fixed;
+		vertical-align: middle;
+		z-index: 99;
+		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5); }
+	.fixed_mobile_footer_section .et_pb_column.et_pb_column_1_3 {
+		width: 33% !important; }
+	.fixed_mobile_footer_section.et_pb_row {
+		max-width: 100% !important; width: 100% !important; }
+	#fixed_mobile_footer h4 { letter-spacing: 0px; }
+	body.et-fb #fixed_mobile_footer { display: none; }
+
+
+/*--------------------------------------------------*/
+/*------------------[ SUBPAGES ]--------------------*/
+/*--------------------------------------------------*/
+
+/*** THEIR STORY ***/
+	.theirstory_text_column {
+		padding: 40px 20px;
+		border-top: solid 5px #022B4C;
+		border-bottom: solid 5px #022B4C; }
+
+	.theirstory_image_column { overflow: hidden; }
+	.theirstory_image_column .et_pb_image img {
+		position: absolute;
+		height: 110%;
+		width: auto !important;
+		max-width: none;
+		top: 0px;
+		left: 50%;
+		transform: translate(-50%, -5%); }
+
+/*** OUR STORY ***/
+	.hope_preview_blog_section p em {
+		color: #000;
+		line-height: 150%; }
+	.ourstory_testimonial_section {
+		padding-top: 0px !important;
+		margin-top: 0px; }
+
+/*** CONTACT PAGE ***/
+	.contact_map_section::before {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 50%;
+		content: ''; }
+	.contact_map_section { padding-bottom: 20px !important; }
+	.contact_info_section { padding: 0px !important; }
+	.contact_info_section .et_pb_row_inner { padding-top: 0px; }
+
+	/* Contact Info Column */
+	.contact_info_section i { font-size: 170%; }
+	.contact_info_section i.fa-mobile { font-size: 220%; }
+	.contact_info_section h4 { letter-spacing: 4px; }
+	.contact_info_section .et_pb_column_single { padding-top: 0px; }
+
+	/* Contact Form */
+	.contact_info_section input { height: 40px; }
+
+	/* Contact Page - Screen Size Adjustments */
+	@media (max-width: 980px) {
+		.contact_info_section .et_pb_column_single {
+			padding-bottom: 20px !important;
+			margin-bottom: 50px !important; } }
+
+/*** VOLUNTEER TODAY ***/
+	.volunteer_specialty_section { padding-bottom: 0px !important; }
+	.volunteer_specialty_section p {
+		padding-left: 10px;
+		line-height: 175%; }
+	.volunteer_specialty_section .et_pb_column_single {
+		width: 100% !important; }
+	.volunteer_specialty_section .volunteer_image_1row {
+		overflow: hidden;
+		height: 35%; }
+	.volunteer_image_2row {
+		overflow: hidden;
+		height: 35% !important;
+		margin-top: -12px; }
+	.volunteer_image_2row .et_pb_column:first-child {
+		padding-right: 3px !important; }
+	.volunteer_image_2row .et_pb_column:last-child {
+		padding-left: 3px !important; }
+	.hope_light_contactform input { height: 40px; }
+
+/*** DONATE TODAY ***/
+	.give-submit-button-wrap input { width: 120px; }
+	#give_checkout_user_info { margin: 20px 0px; }
+
+/*--------------------------------------------------*/
+/*------------------[ FEATURES ]--------------------*/
+/*--------------------------------------------------*/
+
+/*** HOPE SLIM HERO SECTION ***/
+	.hope_slimhero_section {
+		padding: 4vw 0px !important;
+		background-position: right; }
+	.hope_slimhero_section p { font-style: italic; }
+
+/*** HOPE ACCORDION MODULE ***/
+	.hope_accordion .et_pb_toggle {
+		padding: 0px;
+		margin: 0px !important; }
+	.hope_accordion .et_pb_toggle_title { padding: 7px 20px !important; }
+	.hope_accordion .et_pb_toggle_title::before { right: 20px; }
+	.hope_accordion .et_pb_toggle_content { padding: 20px !important; }
+
+/*** HOPE BAR COUNTER MODULE ***/
+	.hope_bar_counter .et_pb_counter_title {
+		text-transform: uppercase;
+		padding-bottom: 10px;
+		font-weight: bold;
+		letter-spacing: 1px; }
+
+/*** HOPE CIRCLE COUNTER MODULE ***/
+	.hope_circle_counter .percent-value { display: none; }
+	.hope_circle_counter.et_pb_circle_counter::before {
+		position: absolute;
+		top: 42%;
+		left: 0px;
+		width: 100%;
+		text-align: center;
+		font-size: 28px;
+		font-weight: bold; }
+
+/*** HOPE BLOG MODULE ***/
+	.hope_blog_module h2 { text-transform: uppercase; }
+	.hope_blog_module .et_pb_post p.post-meta { text-transform: capitalize; }
+
+	.hope_blog_module a.more-link {
+		line-height: 3em;
+		padding-left: 75%;
+		margin-right: -10%;
+		text-transform: uppercase;
+		font-weight: bold; }
+
+/*** HOPE TESTIMONIAL SLIDER ***/
+	.hope_testimonial_slider .et-pb-controllers { display: none; }
+	.hope_testimonial_slider .et_pb_slides, .hope_testimonial_slider .et_pb_slide,  .hope_testimonial_slider .et-pb-active-slide {
+		padding: 0px !important; }
+	.hope_testimonial_slider .et_pb_slide .et_pb_container.clearfix {
+		min-height: initial !important;
+		padding: 40px 0px; }
+	.hope_testimonial_slider .et_pb_slider_container_inner {
+		display: block;
+		background-color: rgba(0,0,0,0) !important;   }
+	.hope_testimonial_slider .et_pb_slide_description {
+		text-shadow: none !important;
+		padding: 0px !important;  }
+	.hope_testimonial_slider .et_pb_slide_content {
+		margin: 0px 7% !important;  }
+	.hope_testimonial_slider .et_pb_slide_title {
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 1.5em !important;
+		text-shadow: none;
+		padding-bottom: 1.25em; }
+	.hope_testimonial_slider .et_pb_slide_title::before {
+		content: '';
+		position: absolute;
+		margin-top: 1.5em;
+		left: calc(50% - 25px);
+		width: 50px; }
+
+
+/*------------------------------------------------*/
+/*---------------[ CTA SECTIONS ]-----------------*/
+/*------------------------------------------------*/
+
+/*** 3 Column CTA Section ***/
+	.threecolumn_cta_section, .cta_3column_row {
+		padding: 0px !important;
+		margin: 0px !important;
+		max-width: 100vw;
+		width: 100vw; }
+	.threecolumn_cta_section .et_pb_column { padding: 30px 5% 20px; }
+	.threecolumn_cta_section .et_pb_button { margin-top: 10px !important; }
+
+/*** Slim CTA Section ***/
+	.slim_cta_section { padding: 0px !important; }
+	.slim_cta_section .et_pb_button { padding: 8px 20px 8px 30px !important; }
+	.slim_cta_section .et_pb_button::before {
+		display: inline-block !important;
+		opacity: 1;
+		font-family: 'FontAwesome';
+		content: '\f004';
+		font-size: 110%;
+		position: relative;
+		margin-right: 8px; }
+	.slim_cta_section .et_pb_button:hover { padding: 8px 20px 8px 30px !important; }
+
+/*------------------------------------------------*/
+/*------------------[ CAUSES ]--------------------*/
+/*------------------------------------------------*/
+	.project_hero_section { padding: 0px !important; }
+	.project_hero_section::before {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 50%;
+		content: ''; }
+
+	.project_info_section { padding: 0px !important; }
+	.project_info_section .et_pb_row:first-child {  padding-top: 0px; }
+
+	.project_portfolio_section { padding: 0px !important; }
+	.project_portfolio_section .et_overlay { opacity: .75 !important; }
+
+	.project_cta_section { padding: 0px !important; }
+	.project_cta_section .et_pb_button {
+		padding: 8px 20px 8px 30px !important; }
+	.project_cta_section .et_pb_button::before {
+		display: inline-block !important;
+		opacity: 1;
+		font-family: 'FontAwesome';
+		content: '\f004';
+		font-size: 110%;
+		position: relative;
+		margin-right: 8px; }
+	.project_cta_section .et_pb_button:hover {
+		padding: 8px 20px 8px 30px !important; }
+
+
+/*------------------------------------------------*/
+/*------------------[ EVENTS ]--------------------*/
+/*------------------------------------------------*/
+
+	.project_eventinfo_section { padding: 0px !important; }
+	.project_eventinfo_section .et_pb_row:first-child {  padding-top: 0px; }
+
+	.project_eventinfo_section .et_pb_column_single { padding-top: 0px; }
+	.project_eventinfo_section i { font-size: 170%; }
+	.project_eventinfo_section h4 { letter-spacing: 4px; }
+
+	.project_remember_section { padding-bottom: 0px !important; }
+	.project_remember_section .et_pb_row { padding: 40px; }
+	.project_remember_section .et_pb_text:first-child { margin-bottom: 15px; }
+	.project_remember_section .center_divider_dark { margin-bottom: 5px !important; }
+
+	.project_register_section input {
+		background-color: transparent !important;
+		border: solid 1px #ddd !important;
+		height: 45px !important; }
+	.project_register_section button { width: 130px; }
+
+	/* Events - Screen Size Adjustments */
+	@media (max-width: 980px) {
+		.project_eventinfo_section .et_pb_column_single {
+			padding-bottom: 20px !important;
+			margin-bottom: 50px !important; } }
+
+
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*-----[ IT IS NOT RECOMMENDED TO ADD CUSTOM CSS HERE ]-----*/
+/*-----[ USE THE CUSTOM CSS BOX IN DIVI THEME OPTIONS ]-----*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+
+
+
+
+

@@ -1,0 +1,177 @@
+.pg-wrap h1 {
+  color: #2b313a;
+}
+
+.pg-wrap a:hover {
+  text-decoration: underline;
+}
+
+#block-system-main-menu h2 a {
+  display: block;
+  background: #fff;
+  line-height: 40px;
+  margin-bottom: 0;
+  color: #017db0;
+  : ;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  padding: 0;
+  text-decoration: none;
+  behavior: url(/PIE.htc);
+}
+
+#main-menu {
+  color: #017db0;
+}
+
+#main-menu li {
+  color: #017db0;
+}
+
+#main-menu li a {
+  color: #017db0;
+}
+
+#main-menu li a:hover {
+  color: #000000;
+  background: #f3b720;
+}
+
+#main-menu li.expanded a {
+  color: #017db0;
+}
+
+#main-menu li a.active {
+  color: #000000;
+  background: #f3b720;
+}
+
+#main-menu li.active-trail a:hover {
+  color: #000000;
+  background: #f3b720;
+}
+
+#main-menu ul li {
+  color: #017db0;
+}
+
+#main-menu li.expanded ul li a {
+  color: #017db0;
+}
+
+#main-menu ul li a.active {
+  color: #000000;
+  background: #f3b720;
+}
+
+#main-menu ul li a:hover {
+  color: #000000;
+  background: #f3b720;
+}
+
+#main-menu ul ul li:hover {
+  color: #000000;
+  background: #f3b720;
+}
+
+#main-menu ul ul li a:hover {
+  color: #000000;
+  background: #f3b720;
+}
+
+#main-menu ul ul li a.active {
+  color: #000000;
+  background: #f3b720;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  background: #d3d3d3;
+  color: #000;
+  font-size: 1em;
+  padding: 7px;
+  border: 0px solid #000;
+}
+
+.pg-wrap table tr td {
+  color: #000;
+  background: #fff;
+  padding: 7px;
+  border: 0px solid #000;
+}
+
+#pgc_resource_block {
+  background: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 15px 20px;
+  -webkit-box-shadow: 0px 0px 4px #666;
+  -moz-box-shadow: 0px 0px 4px #666;
+  box-shadow: 0px 0px 4px #666;
+  text-align: center;
+  behavior: url(/PIE.htc);
+}
+
+#pgc_resource_block a {
+  color: #017dbd;
+}
+
+#pgc_resource_block a:hover {
+  color: #ef4137;
+}
+
+.pg-gift-details .accordion-switch {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #017dbd;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 15px;
+  border: 1px solid #017dbd;
+  color: #fff;
+  display: block;
+  font-size: .9em;
+  font-weight: normal;
+  margin: 10px 0;
+  line-height: 40px;
+  behavior: url(/PIE.htc);
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #ef4137;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  color: #017bd0;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a:hover {
+  color: #2b313a;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #017dbd;
+}
+

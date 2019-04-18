@@ -1,0 +1,25 @@
+.amount{text-align:right;text-transform:uppercase;font-size:1.15em}
+.countDays,.countHours,.countMinutes,.countSeconds{display:inline-block}
+.countDiv{color:#888;font-size:2em;padding:0 5px;line-height:45px;vertical-align:top}
+.digits{text-align:center}
+.event-date,
+.event-time{margin-top:0;margin-bottom:0;line-height:normal;}
+.event-title{margin-bottom:0}
+.position{display:inline-block;overflow:hidden;font-size:2em;height:45px;line-height:45px;width:15px}
+#countdownBox{margin:10px 0;min-width:300px}
+#countdownBox h2{font-size:25px;margin:0}
+#countdownBox h3{margin:0}
+@media all and (min-width:480px) {
+.amount{font-size:1em}
+.countDiv{font-size:4em;padding:0 10px;line-height:45px;vertical-align:top}
+.position{font-size:4em;height:45px;line-height:45px;width:30px}
+.timer{padding:10px 0}
+#countdownBox{margin:0 15px}
+#countdownBox h2{font-size:33px;font-weight:700;letter-spacing:-1px}
+#countdownBox .event{padding-top:10px}
+}
+@media all and (min-width:1044px) {
+.timer{float:right;padding:20px 0}
+.timer h3{text-align:center} 
+#countdownBox .event{float:left;text-align:right;padding-top:15px}
+}

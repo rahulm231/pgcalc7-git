@@ -1,0 +1,101 @@
+.mainContent ul {
+	list-style: outside;
+    padding-left: 50px;
+}
+.mainContent ul li {
+	list-style-type: disc;
+}
+.mainContent ul li ul li {
+	list-style-type: circle;
+}
+.fad-results .result > div[class^="col-"]:last-of-type div[class^="col-"]:first-of-type span:nth-of-type(1).special, .fad-results .result > div[class^="col-"]:last-of-type div[class^="col-"]:first-of-type span:nth-of-type(2).special {
+	margin-bottom:0px;
+	line-height: 1.25;
+}
+.fad-results .result span.special {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+    color: black;
+    display: block;
+    line-height: 1.25;
+	height:auto;
+	margin:0 !important;
+}
+.fad-results .result .location-fad {
+	padding-top:20px;
+}
+
+body footer {
+    margin-top: 100px;
+}
+footer footer {
+	margin-top: 0;
+}
+.text-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.ce-detail .class-info-desc p {
+	float:none;
+}
+.ourTeam .doc-box .doc-contact h4 {color:#000;}
+.ce-drop-mob .btn.btn-link.btn-link-forward {width:auto;}
+.search-head-wrapper .ce-drop-mob .form-group {
+    padding: 0px 10px;
+    width: calc(100% / 4.3);
+}
+.search-head-wrapper.news-room-search .ce-drop-mob .form-group {
+	width: calc(100% / 4);
+}
+.news-room-search .new-list-input .btn.btn-link.btn-link-forward {
+	padding-right:50px;
+}
+.locations-serve .search-head-wrapper .form-group.loc-search-keyword {
+	width:80%;
+}
+.locations-serve .search-head-wrapper .form-group.loc-search-submit {
+	width:20%
+}
+.service-line .grey-block .service-block .side-block.teal-block {
+	height:auto;
+}
+.locations-serve .search-head-wrapper .loc-input-wrapper {
+	position:relative;
+}
+.locations-serve .search-head-wrapper .loc-input-wrapper a#searchGlass {
+	top: 0 !important;
+    right: 30px;
+}
+@media screen and (max-width: 767px) {
+	body .result-data-left span {
+		position:relative;left:0 !important;
+	}
+	#contacts-locations .block-location span {
+		color:#000;
+	}
+	#contacts-locations .block-location span.phone {
+		margin-top:20px;
+	}
+	.individual-site .services .row.row-sm div[class^="col-"] .card img {
+		width:9%;
+	}
+	.ce-drop-mob .btn.btn-link.btn-link-forward {
+	    width: 100% !important;
+	}
+}

@@ -1,0 +1,41 @@
+.pg-content-body {
+  font-size: 18px;
+}
+
+.pg-wrap a:hover {
+  text-decoration: none;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  background: #999999;
+  color: #fff;
+  font-size: 1em;
+  padding: 7px;
+  border: 1px solid #999999;
+}
+
+.pg-wrap table tr td {
+  padding: 7px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+  color: #999999;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  font-size: 1em;
+  font-style: normal;
+  text-transform: none;
+  color: #999999;
+}
+

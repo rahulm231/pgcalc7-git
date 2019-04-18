@@ -1,0 +1,29 @@
+section.white{
+	padding-bottom:0px !important;
+}
+
+section.page-nav .slash ul li:after{
+	margin: 0 2.125rem !important;
+}
+
+.node-landing-page .details h2 a{
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 999px) {
+	
+  .slick-list .slick-track
+  {
+  	    width: 264% !important;
+  }
+
+  .slick-track .item.slick-slide.slick-current
+  {
+  	width: inherit !important;
+  }
+ section.large-grid .carousel .item h2
+{
+width: inherit !important;
+}
+
+}

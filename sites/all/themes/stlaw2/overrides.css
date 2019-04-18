@@ -1,0 +1,244 @@
+.pg-wrap h1 {
+  color: #4d3126;
+}
+
+.pg-wrap h2 {
+  color: #c4122f;
+  display: inline-block;
+  font-family: Oregon;
+  font-size: 1rem;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.pg-wrap a {
+  text-decoration: none;
+}
+
+.pg-wrap a:hover {
+  text-decoration: none;
+}
+
+.pg-wrap a:visited {
+  text-decoration: none;
+}
+
+.pg-wrap a:active {
+  text-decoration: none;
+}
+
+#block-system-main-menu {
+  border-top: 5px solid #c4122f;
+  box-shadow: 0 0 12px #979797;
+}
+
+#block-system-main-menu h2 a {
+  text-decoration: none !important;
+  text-align: left !important;
+}
+
+#main-menu {
+  list-style: none;
+  padding: 0;
+}
+
+#main-menu li {
+  padding: 10px;
+  border-bottom: 1px solid #979797;
+}
+
+#main-menu li:hover {
+  background-color: #c4122f;
+  color: #fff;
+  transition: color .12s ease-out,background-color .12s ease-out;
+}
+
+#main-menu li a {
+  text-decoration: none;
+  color: #673b2c;
+  font-family: Gotham,sans-serif !important;
+  text-transform: none !important;
+}
+
+#main-menu li:hover a {
+  color: #fff;
+  transition: color .12s ease-out;
+}
+
+#main-menu ul {
+  background: transparent;
+}
+
+#main-menu ul li {
+  padding: 5px 5px;
+  line-height: 1em;
+  border-bottom: 0;
+  background: transparent;
+}
+
+#main-menu ul li:hover {
+  background-color: rgba(255,255,255,0.5);
+  color: #c4122f !important;
+  transition: color .12s ease-out,background-color .12s ease-out;
+}
+
+#main-menu li.expanded ul li a {
+  font-size: 12px;
+  background: transparent;
+}
+
+.pg-wrap table {
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.pg-wrap table tr th {
+  background: #aa2933;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+}
+
+.pg-wrap table tr td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.pg-wrap ul {
+  font-size: .875rem;
+}
+
+.pg-wrap ol {
+  font-size: .875rem;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  border-right: 5px solid #c4122f;
+  box-shadow: 0 0 12px #979797;
+  padding: 20px;
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #c4122f;
+  font-family: EB Garamond,serif;
+  font-size: 1.5rem;
+  text-align: left;
+  text-transform: none;
+}
+
+#pgc-contact-block li a {
+  color: #000;
+  font-family: Gotham,sans-serif;
+}
+
+#pgc-contact-block li span {
+  font-size: 16px;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  border-top: 5px solid #c4122f;
+  box-shadow: 0 0 12px #979797;
+  padding: 15px;
+}
+
+#pgc-contact-footer-block li a {
+  color: #000;
+  font-family: Gotham,sans-serif;
+}
+
+#pgc-contact-footer-block li span {
+  font-size: 16px;
+}
+
+#pgc_resource_block {
+  border-radius: .25rem;
+  color: #fff;
+  display: inline-block;
+  font-family: Oregon,sans-serif;
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: 1;
+  min-width: 7.25rem;
+  padding: 1rem .75em 1rem .7em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background .24s ease-out;
+  background-color: #aa2933;
+}
+
+#pgc_resource_block a {
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch {
+  border: 0;
+  border-radius: .25rem;
+  color: #fff;
+  display: inline-block;
+  font-family: Oregon,sans-serif;
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: 1;
+  min-width: 7.25rem;
+  padding: 1rem .75em 1rem .7em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background .24s ease-out;
+  background-color: #4d3126;
+  width: 100%;
+}
+
+.pg-gift-details .accordion-switch a {
+  color: #fff;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+  border: 0;
+  border-radius: .25rem;
+  color: #fff;
+  display: inline-block;
+  font-family: Oregon,sans-serif;
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: 1;
+  min-width: 7.25rem;
+  padding: 1rem .75em 1rem .7em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background .24s ease-out;
+  background-color: #4d3126;
+  width: 100%;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+  content: "\f0c9";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: -14px;
+  left: 5px;
+  color: #fff;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+  content: "\f05c";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  color: #fff;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #aa2933;
+}
+

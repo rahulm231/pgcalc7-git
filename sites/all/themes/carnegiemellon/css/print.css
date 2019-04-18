@@ -1,0 +1,33 @@
+/*-------------------------------------------	
+	Carnegie Mellon University
+	Alumni & Giving CSS Template for Print
+	July 2011
+	web-feedback@andrew.cmu.edu
+-------------------------------------------*/
+
+body, .btn, button, input, #wordmark, section#content, footer {background:none transparent !important} /* Opera prints background images and colors */
+
+header nav, .social-media, .login, #search, #scroll, #plaid, footer nav, .error, article#feature aside {display:none}
+
+header, article#feature, section#subfeatures, #promo a, section#content, section#content article, section#content article img, footer {width:auto}
+
+header {height:110px}
+header h1 {margin-top: 0}
+
+article#feature img {
+	height:auto;
+	width:100%;
+}
+
+article#feature, section#content {margin-top:10px}
+article#feature img {float:none}
+
+.phark {text-indent:0}
+
+button, .btn, .btn:visited, a.btn.large, a.btn.large:visited, input {
+	background-color:#fff;
+	background-image: none;
+	color:#464646;
+}
+
+#give-template header img {margin-top:0}

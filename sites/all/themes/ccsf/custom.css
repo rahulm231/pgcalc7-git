@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Proxima Nova;
+    src: url(cssAssets/175.otf);
+}
+
+body, footer, #bb-header span, #bb-banner .bb-caption h1, h3, .footer-bucket-3 h4, input, #bb-footer .bb-nav__footer-sitemap-wrap .footer-sitemap>li>a {
+	font-family: "Proxima Nova" !important;
+}
+
+body:not(.home) #bb-wrapper {
+    display: block !important;
+}
+
+.at4-visually-hidden {
+    position: absolute;
+    clip: rect(1px,1px,1px,1px);
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+.at-resp-share-element .at-share-btn{
+	display: inline-block;
+    margin: 0 2px 5px;
+    padding: 5px;
+    overflow: hidden;
+    line-height: 0;
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border: 0;
+    font-family: helvetica neue,helvetica,arial,sans-serif;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 999px) {
+	
+  aside.bb-sidebar1, .bb-section__inner #social-share{
+  	display:none;
+  }
+}

@@ -1,0 +1,20 @@
+.pg-page-btns a, .block-pgc-contact-block a, .node-landing-page a, .block-pgc-resource-block a, .pg-breadcrumb-links a{
+	background: none !important;
+}
+
+.node-landing-page a:hover, .pg-breadcrumb-links a:hover{
+	color:#23527c !important;
+}
+
+
+.pgc-title-btn a, .node-landing-page a, .pg-breadcrumb-links a, .accordion-switch a{
+	text-decoration:none !important;
+}
+
+
+@media only screen and (max-width: 999px) {
+	
+  #left-nav-wrapper{
+  	display:none;
+  }
+}

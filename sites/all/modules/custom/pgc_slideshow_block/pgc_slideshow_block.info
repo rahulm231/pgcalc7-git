@@ -1,0 +1,9 @@
+name = PGCalc Slideshow Block
+description = Generates a block which looks for a slide image fields on a node and displays either a single image or a slideshow
+
+configure = admin/config/pgcalc/pgcs_slideshow
+
+package = PGCalc
+version = VERSION
+permissions = /
+core = 7.x

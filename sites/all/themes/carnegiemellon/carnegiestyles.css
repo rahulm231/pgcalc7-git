@@ -1,0 +1,44 @@
+#giftCompare .gc-btn{
+background:none;
+max-height:none;
+height:auto;
+}
+section#content article #giftCompare img{
+margin-bottom:0;
+}
+
+.pg-content-body{
+	min-height:200px;
+}
+
+.webform-client-form > div > .form-item, .webform-client-form .form-actions{
+	margin-bottom:20px;
+}
+
+.webform-client-form .form-item input, .webform-client-form .form-actions input{
+	box-shadow:none;
+}
+
+.webform-client-form .form-item #edit-submitted-phone{
+	margin-left: 24px;
+    width: 64%;
+    border: 1px solid #ccc;
+}
+
+.webform-client-form .form-item #edit-submitted-email{
+	margin-left: 16px;
+    width: 64%;
+    border: 1px solid #ccc;
+}
+
+.webform-client-form .form-item #edit-submitted-city{
+	margin-left: 35px;
+}
+
+.webform-client-form .form-item #edit-submitted-address{
+	margin-left: 10px;
+}
+
+.webform-client-form .form-item #edit-submitted-name{
+	margin-left: 10px;
+}

@@ -1,0 +1,47 @@
+#block-system-main-menu h2 a{
+	background:none !important;
+	color: #900 !important;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: -10px;
+    top: -3px;
+    position: absolute;
+}
+
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+	body{
+		width:auto;
+		margin:-2px 10px 10px 10px;
+	}
+	#pgc-wrap-main, section#content, #block-pgc-misc-blocks-mobilenav .header-mobile{
+		width:auto;
+	}
+	#block-pgc-misc-blocks-mobilenav .header-mobile{
+		padding:0px;
+		height:62px;
+	}
+	section#content article{
+		width:auto;
+		margin:auto;
+	}
+	#pgc-region-sidebar{
+		display:none;
+	}
+	#pgc-region-main{
+		float:none;
+		width:auto;
+		margin:auto;
+	}
+
+	header, footer, #ContentFooterNav, footer nav{
+		min-width:0 !important;
+		width:auto !important;
+	}
+}

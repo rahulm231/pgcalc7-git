@@ -1,0 +1,244 @@
+#pgc-wrap-main {
+  width: 960px;
+}
+
+#pgc-region-sidebar {
+  float: left;
+  width: 220px;
+  padding-right: 30px;
+}
+
+#pgc-region-main {
+  float: left;
+  width: 710px;
+  padding-left: 10px;
+}
+
+.pg-wrap a {
+  text-decoration: none;
+}
+
+.pg-wrap a:hover {
+  text-decoration: none;
+}
+
+#block-system-main-menu h2 a {
+  display: block;
+  line-height: 30px;
+  margin-bottom: 0;
+  color: #cccccc;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: normal;
+  : ;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  background: #333333;
+  color: #fff;
+  font-size: 1em;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+.pg-wrap table tr td {
+  color: #000;
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+.pg-wrap ul {
+  color: #333333;
+}
+
+.pg-wrap ul li {
+  color: #333333;
+}
+
+.pg-wrap ol {
+  color: #333333;
+}
+
+.pg-wrap ol li {
+  color: #333333;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #eeeeee;
+  border-top: #333333 solid 3px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 0px #ffffff;
+  -moz-box-shadow: 0px 0px 0px #ffffff;
+  box-shadow: 0px 0px 4px #ffffff;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #333333;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  color: #333333;
+  font-size: .9em;
+}
+
+#pgc-contact-block li a:hover {
+  color: #c8102e;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #333333;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  padding: 10px 20px;
+  -webkit-box-shadow: 0px 0px 0px #666;
+  -moz-box-shadow: 0px 0px 0px #666;
+  box-shadow: 0px 0px 4px #666;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block .title {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#pgc-contact-footer-block li a {
+  color: #fff;
+}
+
+#pgc-contact-footer-block li a:hover {
+  color: #c8102e;
+}
+
+#pgc_resource_block {
+  background: #eeeeee;
+  border-top: #333333 solid 3px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  padding: 15px 10px;
+  -webkit-box-shadow: 0px 0px 0px #ffffff;
+  -moz-box-shadow: 0px 0px 0px #ffffff;
+  box-shadow: 0px 0px 4px #ffffff;
+  text-align: center;
+}
+
+#pgc_resource_block a {
+  color: #333333;
+  font-size: 0.9em;
+}
+
+#pgc_resource_block a:hover {
+  color: #c8102e;
+}
+
+.pg-gift-details .accordion-switch {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #eeeeee;
+  border: 0px solid  #333333;
+  : ;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  padding: 0 15px;
+  color: #333333;
+  display: block;
+  font-size: .9em;
+  font-weight: normal;
+  margin: 10px 0;
+  line-height: 40px;
+  behavior: url(/PIE.htc);
+  text-decoration: none;
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #333333;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+}
+
+.pgc-brochure-bg-top {
+  background: #333333;
+}
+
+.pgc-brochure-header-text {
+  background: #c8102e;
+  color: #fff;
+}
+
+.pgc-brochure-title {
+  color: #c8102e;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color: #c8102e;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color: #333333;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color: #c8102e;
+}
+
+.pgc-brochure-footer-text {
+  background-color: #333;
+}
+
+.pgc-brochure-footer-title {
+  color: #c8102e;
+}
+
+span.pgc-brochure-footer-contact {
+  color: #c8102e;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #333333;
+}
+

@@ -1,0 +1,47 @@
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0;
+}
+
+.webform-client-form .form-item{
+	margin-bottom:15px;
+}
+
+.webform-client-form .form-item lable{
+	display: inherit;
+    margin-bottom: 10px;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	width:auto;
+	background-color: #FFCC00;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: 0px;
+    top: -15px;
+    position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+    content: "\f05c";
+    font-family: "FontAwesome";
+    font-size: 2.75rem;
+    left: 0px;
+    top: -3px;
+    position: absolute;
+  }
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn {
+    border: none;
+}
+
+@media screen and (max-width: 999px) {
+	#pgc-region-sidebar{
+		display:none;
+	}
+	#pgc-wrap-main, #pgc-region-main, #block-pgc-contact-block-pgc-contact-footer-block{
+		width:100%;
+	}
+}

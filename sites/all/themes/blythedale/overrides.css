@@ -1,0 +1,280 @@
+.pg-wrap h1 {
+  color: #7251BC;
+}
+
+#block-system-main-menu h2 a {
+  display: block;
+  line-height: 60px;
+  margin-bottom: 0;
+  color: #D44564;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Raleway",sans-serif;
+  text-align: left;
+  padding: 0;
+  text-decoration: none;
+  behavior: url(/PIE.htc);
+  border-bottom: 1px solid #e4e4e4;
+}
+
+#main-menu {
+  padding: 0;
+  margin: 0;
+}
+
+#main-menu li {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+  list-style: none;
+}
+
+#main-menu li a {
+  font-family: "Lato",sans-serif;
+  color: #3C3C3C;
+  font-size: 13px;
+  font-weight: 700;
+  display: block;
+  background: #fff;
+  : ;
+  padding: 1.25em 0;
+  border: 0;
+  border-bottom: 1px solid #e4e4e4;
+  text-decoration: none;
+}
+
+#main-menu li a:hover {
+  color: #D44564;
+  text-decoration: none;
+}
+
+#main-menu li a.active {
+  color: #F68E37;
+}
+
+#main-menu li.expanded ul li a {
+  border-bottom: 0;
+  font-size: 14px;
+  padding: 10px 20px 10px 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+#main-menu li.expanded ul ul li a {
+  border-bottom: 0;
+  font-size: 14px;
+  padding: 10px 20px 10px 40px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  background: #7251bc;
+  color: #fff;
+  font-size: 1em;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+.pg-wrap table tr td {
+  color: #000;
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #7251bc;
+  padding: 20px;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #fff;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  color: #fff;
+}
+
+#pgc-contact-block li a:hover {
+  color: #f68e37;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #7251bc;
+  padding: 10px 20px;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block .title {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#pgc-contact-footer-block li a {
+  color: #ffffff;
+}
+
+#pgc-contact-footer-block li a:hover {
+  color: #f67e37;
+}
+
+#pgc_resource_block {
+  background: #fffffff;
+  border: 2px #f68e37 solid;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  padding: 15px 20px;
+  text-align: center;
+  behavior: url(/PIE.htc);
+}
+
+#pgc_resource_block a {
+  color: #f68e37;
+}
+
+#pgc_resource_block a:hover {
+  color: #7251bc;
+}
+
+.pg-gift-details .accordion-switch {
+  border-top: 0px solid #ccc;
+  border-bottom: 0px solid #ccc;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #F68E37;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  padding: 0 15px;
+  border: 2px solid #F68E37;
+  color: #ffffff;
+  display: block;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 10px 0;
+  line-height: 40px;
+  behavior: url(/PIE.htc);
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #ffffff;
+  text-decoration: none;
+  color: #f68e37;
+}
+
+.pg-gift-details .accordion-switch:hover a {
+  : ;
+}
+
+.pg-gift-details .accordion-switch span {
+  : ;
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+  background: #7251bc;
+  opacity: 0.5  (to make it transparent);
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+  content: "\f0c9";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: -14px;
+  left: 5px;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+  content: "\f05c";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+
+.pgc-brochure-bg-top {
+  background: #f68e37;
+}
+
+.pgc-brochure-header-text {
+      background: #7251bc;
+  color: #fff;
+}
+
+.pgc-brochure-title {
+  color: #7251bc;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color: #7251bc;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color: #f68e37;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color: #f68e37;
+}
+
+.pgc-brochure-footer-text {
+      background: #7251bc;
+}
+
+.pgc-brochure-footer-title {
+  color: #f68e37;
+}
+
+span.pgc-brochure-footer-contact {
+  color: #f68e37;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #f68e37;
+}
+
+.pg-page-btns .pgc-title-btn a {
+  color: #ffffff;
+}
+

@@ -1,0 +1,326 @@
+@import url(/sites/all/themes/carnegiemellon/css/appstyles.css);
+@import url(/sites/all/themes/carnegiemellon/css/megaDD.css);
+
+/* General Style
+---------------------------------------------*/
+
+.PageTitleHeader, .PageSubTitleHeader {font-weight:bold;margin:0;padding:2px 5px 3px 0;}
+.PageTitleHeader {font-size:24px;line-height:24px;}
+.PageSubTitleHeader {font-size:20px; line-height:24px;}
+#PageTitle, .PageTitleHeader { display:none;}
+
+.clearing{clear:both;height:0;margin:0;padding:0;line-height:0;margin-top:-7px;}
+.clearBoth{clear:both;}
+.clearRight{clear:right;}
+.clearLeft{clear:left;}
+.invisibleButAccessible{display:none;}
+.Error,.error {width:auto!important}
+table.TableLayout_Business td {width:14%!important} 
+table.TableLayout_Default td {width:14%!important} 
+table.TableLayout_Inox td {width:14%!important} 
+table.TableLayout_Mac td {width:14%!important} 
+table.TableLayout_Modern td {width:14%!important} 
+table.TableLayout_Orange td {width:14%!important} 
+table.TableLayout_Outlook td {width:14%!important} 
+table.TableLayout_Stylish td {width:14%!important} 
+table.TableLayout_Sunny td {width:14%!important} 
+table.TableLayout_Telerik td {width:14%!important} 
+table.TableLayout_WebBlue td {width:14%!important}
+
+/* HEAD ELEMENTS
+---------------------------------------------*/
+.simple header h1 {background:none!important; height:auto!important;}
+.simple header h1.phark {overflow:auto!important;text-indent:0!important;}
+
+header aside.login {}
+aside.login ul {margin:0; padding:0; list-style:none;}
+aside.login ul li {float:left; line-height:22px;}
+aside.login ul li#FirstTimeLogin {display:none;}
+aside.login ul li#Login {display:none;}
+aside.login ul li#ContactUs {display:none;}
+
+#ContentSearch img[src='/images/spacer.gif'] {background:none; height:auto; width:auto; margin:0;}
+
+#ContentSupport a {float:left; position:relative!important;}
+
+#CmsMasterMenu td {vertical-align:middle;}
+#ContentMemberTools {float:left;margin:0px;padding:0;}
+#ContentMemberTools ul {list-style:none;margin:0;padding:0;}
+#ContentMemberTools li {float:left;padding:0;}
+#ContentMemberTools a {}
+#ContentSearch img {background:url(/sites/all/themes/carnegiemellon/cssAssets/btn_search_off.png) no-repeat top left; display:inline-block; height:19px; width:18px; margin:0 0 0 4px;}
+#ContentSearch img:hover {background:url(/sites/all/themes/carnegiemellon/cssAssets/btn_seach_on.png) no-repeat top left;  }
+#ContentSearch .SearchModuleSpacer {display:none;}
+
+section#content {min-height:425px;}
+input[type="text"], input[type="password"], textarea {box-shadow: 0.20em 0.20em 0 0 rgba(153, 153, 153, 0.42);}
+/* Login Page Elements */
+#divLogin #divUsername label,
+#divLogin #divPassword label {margin: 10px 0 5px;display:block;}
+#divLogin #divRemember label {display:inline-block; margin:0 0 0 5px;}
+article#feature .HoverToolBarHeader img, article#feature img.imod-BouncyImage {height:auto; width:auto;margin:0; float:none; display:inline-block; position:relative; left:0; top:0;}
+article#feature img[src='/images/spacer.gif'], article#feature img[src='/images/icons/v2/common/image_rotator_edit.gif'], article#feature img[alt='Edit'] {height:auto; width:auto;float:none;}
+
+section#content article .EventsHeader img {margin:0;}
+.EventsHeader td {padding:2px;}
+nav#ContentTopNav > ul li a:hover {z-index:10;}
+.ie7.error {padding:5px 10px 5px 25px;}
+aside.events table {width:240px;}
+.promo {width:300px; float:left; margin-right:20px;}
+section#content article #rg_rts ul {margin:0; padding:0;}
+section#content article #rg_rts ul li {padding:0;}
+section#content article ul.rtsUL {margin:0; padding:0;}
+nav#ContentLeftNav ul#nav3 a {color:#464646;}
+nav#ContentLeftNav ul#nav4 a {color:#464646;}
+
+/* Login Elements */
+#ContentLogin .divLoginStructContainer {float:right; margin:0 0px 0 0;}
+#ContentLogin .instructions,
+#ContentLogin .remember,
+#ContentLogin .divLoginLinks,
+#ContentLogin .labelUserName,
+#ContentLogin .labelPassword {display:none;}
+#ContentLogin .divLoginUserNameRow, 
+#ContentLogin .divLoginPasswordRow, 
+#ContentLogin .divLoginInputs, 
+#ContentLogin .divLoginButtonRow {float:left;}
+#ContentLogin input.button {background: url("/sites/all/themes/carnegiemellon/cssAssets/sprites-bg-btns.png") repeat-x scroll 0 -183px #CCCCCC; color: #FFFFFF; display: inline-block; font-size: 11px; line-height: 1; max-height: 25px; text-decoration: none;border: 0 none; cursor: pointer; font-family: Verdana,Helvetica,sans-serif; height: 25px; margin: 0.5em 0; padding: 0 0.75em 2px;}
+#ContentLogin input.button:hover {background-position:0 -209px;}
+#ContentLogin input.cancelButton {display:none;}
+#ContentLogin input.loginButton {background:url(/sites/all/themes/carnegiemellon/cssAssets/btn_search_off.png) no-repeat top left #999; display:inline-block; height:20px; width:18px; margin:0 0 0 4px; text-indent:-99999px;}
+#ContentLogin input.loginButton:hover {background:url(/sites/all/themes/carnegiemellon/cssAssets/btn_seach_on.png) no-repeat top left #CA6602;  }
+#ContentLogin small {float:left;/* margin:8px 0 0;*/}
+header aside.login a.help {position:absolute; right:0;}
+#ContentLogin .error {background-image: none; font-size: 9px; margin: 0; padding: 3px 10px; position: absolute; top: 25px; width: 431px !important;}
+#ContentLogin .divLogoutPanel {display:none;}
+#ContentLogin .loggedin {float:right; margin:0 0px 0 0;*float:none!important;}
+#ContentLogin .welcome {float:left; margin-top:0px;font-weight:bold; color:#999;}
+
+article#feature .mainTxt {float:left; width:640px;}
+article#feature .sideButtons {float:right; margin:41px 0 0 20px;}
+article#feature .sideButtons > div {background: url("/sites/all/themes/carnegiemellon/cssAssets/sprites-bg-btns.png") repeat-x scroll 0 -122px #4D3940; color: #FFFFFF; font-family: Helvetica,Verdana,sans-serif; font-size: 16px; font-weight: bold; height: auto;  margin: 0.35em 0; max-height: 38px; padding: 0.8em 14px 0.6em; position: relative; text-decoration: none; width: 272px; cursor:pointer; float:left; clear:both;box-shadow: 0.20em 0.20em 0 0 rgba(153, 153, 153, 0.42);}
+article#feature .sideButtons > div.red {background-position:0 0; background-color:#7F0000;}
+article#feature .sideButtons > div:hover {background-position:0 -61px; background-color:#c55902;}
+article#feature .sideButtons a {color:#fff; background:url(/sites/all/themes/carnegiemellon/img/icon-raquo.png) no-repeat right center; text-decoration:none; display:block; width:100%;}
+
+/* Revision 1 Changes */
+header nav {top: -21px;}
+header nav ul li {padding-right: 50px}
+.alt {background-color:#ddd} /* Can table rows in the edit profile/account sections be alternated? */
+
+td {
+    padding:4px;
+    width:auto !important;
+}
+
+.DataGridHeader, .EventsHeader, .EventDonationDetail, .CampaignsHeader, td.PageManagerHeader, tr.PageManagerHeader, .Profile {
+    border:0 none !important;
+    font-weight:bold;
+}
+#home article img {box-shadow: .25em .25em 0 0 rgba(153, 153, 153, 0.42)}
+a.btn, button, input[type="submit"], input[type="button"] {
+	background:url(/sites/all/themes/carnegiemellon/cssAssets/sprites-bg-btns.png) repeat-x scroll 0 -183px #ccc;
+	box-shadow: .25em .25em 0 0 rgba(153, 153, 153, 0.42);
+	color: #fff;
+	display: inline-block;
+	font-size: 11px;
+	height: 19px;
+	line-height: 1;
+	max-height: 25px;
+	padding: 6px 8px 0;
+	text-decoration: none;
+}
+a.btn.red, button.red, input[type="submit"].red, input[type="submit"].red {
+	background-position:0 -235px;
+	color:#fff;
+}
+a.btn:hover, a.btn:focus, button:hover, button:focus, input[type="submit"]:hover, input[type="submit"]:focus, input[type="button"]:hover, input[type="button"]:focus {background-position:0 -209px}
+a.btn:hover, a.btn:focus, a.btn:visited, button:hover, button:focus, button:visited, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:visited, input[type="button"]:hover, input[type="button"]:focus, input[type="button"]:visited {color:#fff}
+
+button, input[type="submit"], input[type="button"] {
+	border: 0 none;
+	cursor: pointer;
+	font-family:Verdana, Helvetica, sans-serif;
+	height: 25px;
+	margin: 0.5em 0.5em 0.5em 0;
+	padding: 0 0.75em 2px;
+}
+
+header aside.login .error a {float:none; margin:0;}
+#ContentLogin .error {background-image: none; font-size: 9px; margin: 0; padding: 3px 10px; position: absolute; top: 25px; width: 520px !important; right:0;}
+#ContentLogin .divLogoutPanel {display:none;}
+#ContentLogin .loggedin {float:right; margin:0 0px 0 0;}
+#ContentLogin .welcome {float:left; margin-top:0px;font-weight:bold; color:#999;}
+
+body.give-template {background: url(/sites/all/themes/carnegiemellon/cssAssets/bg-redbar.png) repeat-x scroll 0 0 #fff !important}
+#give-template header img[src="/images/spacer.gif"] {display:none;}
+#give-template header img[title="Edit Image Rotator"],
+#give-template header img[alt="Edit"] {box-shadow:none; margin:0; width:auto;}
+
+section#content article, section#content div#form {line-height: 1.25em}
+
+article select, div#form select, article input, div#form input, article textarea, div#form textarea, article option, div#form option {margin-right: 5px !important}
+
+div#form label {padding:6px 0 2px}
+
+/* custom updates - 7/10/14 */
+.contactIcons {margin-top:0px;}
+.contactIcons .split10left,
+.contactIcons .split20left {padding-right:0;}
+footer {margin-top:20px;}
+.contactIcons h2 {padding:0; line-height:normal;}
+.contactIcons ul {margin:0; padding:0; list-style:none;}
+.contactIcons ul li {line-height:18px; padding:0 0 10px;}
+.contactIcons ul li.text {line-height:normal;}
+#promo .contactIcons ul li a,
+.contactIcons ul li a {width:auto; float:none;  color:#464646; text-decoration:none;}
+.contactIcons ul li img {float:left; margin-right:8px;}
+
+#home .contactIcons ul {}
+#home .contactIcons ul li {}
+
+#ContentContactInfo {margin-top:60px;}
+#ContentContactInfo li {float:left; padding-right:30px;}
+#ContentContactInfo li.text {line-height:18px;}
+
+/* Form Elements
+---------------------------------------------*/
+#ContentMiddle {position:relative;}
+.formbreadcrumbs {position:absolute; top:0; left:0;}
+.formbreadcrumbs span:hover {background-color:#c55902;background-position: 0 -61px;}
+.formbreadcrumbs .idbmsBreadcrumbActive {background: url("/sites/all/themes/carnegiemellon/cssAssets/sprites-bg-btns.png") repeat-x scroll 0 0 #7F0000; color: #FFFFFF; font-family: Helvetica,Verdana,sans-serif; font-size: 16px; font-weight: normal; height: auto; margin: 0.35em 1em 0 0; max-height: 38px; padding: 0.8em 14px 0.6em; position: relative; text-decoration: none; width: auto;}
+.formbreadcrumbs .idbmsBreadcrumbSeparator {display:none;}
+.formbreadcrumbs .idbmsBreadcrumb {background: url("/sites/all/themes/carnegiemellon/cssAssets/sprites-bg-btns.png") repeat-x scroll 0 -122px #4D3940; color: #FFFFFF; font-family: Helvetica,Verdana,sans-serif; font-size: 16px; font-weight: normal; height: auto; margin: 0.35em 1em 0 0; max-height: 38px; padding: 0.8em 14px 0.6em; position: relative; text-decoration: none; width: auto;}
+a.idbmsBreadcrumbLink {text-decoration:none;}
+
+.form #ContentMiddleLayoutFormBiline {display:block; width:100%; padding:0 0 3em; line-height:1.35em;}
+
+.form input[type="checkbox"], .form input[type="radio"] {margin: 0.25em;}
+.form #ContentMiddle .error {display: inline-block; margin: 50px 0 -25px; width: 487px !important;}
+.form #ContentMiddle .success {display: inline-block; margin: 50px 0 -25px; width: 487px !important;}
+
+.IMOD894 td.idbmsInstanceColumnInput input[type='submit']{background:none; box-shadow:none; color:#D17702; text-decoration:underline; margin:0; padding:0; height:auto; font-size:12px;min-height:13px;}
+td.idbmsInstanceColumnInput .error {top:0;}
+
+/* BODY ELEMENTS
+---------------------------------------------*/
+aside#give-now {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+aside#give-now a {width:100%}
+.ie7 aside#give-now a {width:115px;}
+aside#give-now a img {position:absolute; right:18px; top:16px;}
+
+section#content nav {top:6em}
+
+/* Redesigned form page */
+.main #give-template header h1 {
+	background-image: url(/sites/all/themes/carnegiemellon/cssAssets/make-a-gift.gif);
+	margin: 40px 0 32px;
+}
+
+.giveHdr #give-template header h1 {
+	background-image:none;
+	margin: 0;
+	height:auto;
+}
+
+.main #give-template aside {
+	background-color:#fff;
+	border: 1px solid #ccc;
+	box-shadow: 6px 6px 0 0 rgba(153, 153, 153, 0.42);
+	padding: 10px 18px;
+	position:absolute;
+	right:0;
+	top:0;
+	width: 160px;
+}
+
+.main #give-template section#content {
+	background-position: 0 -390px;
+	margin: 0;
+}
+
+.main #give-template section#content div#form {
+	min-height:200px;
+	padding: 0 210px 0 0;
+	position: relative;
+	width: 750px;
+}
+
+.main #give-template section#content #form ul {
+	list-style:none;
+	margin-bottom:5em;
+}
+
+.main #give-template section#content #form .error ul {
+	list-style:none;
+	margin-bottom:0;
+}
+.main #give-template section#content #form .error h2 {
+	color:red;
+	font-size:10px; 
+	font-weight:bold;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#ContentMiddle .error {color:#BF0000 !important;}
+
+.main #give-template section#content #form ul li {display:inline}
+.main #give-template section#content #form ul li a {
+	color: #464646;
+	font-family: Helvetica,Verdana,sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.1;
+	margin-right: 70px;
+	padding: 9px 0 20px;
+	text-decoration:none;
+}
+.main #give-template section#content #form ul li:last-child a {margin-right:0}
+.main #give-template section#content #form ul li a.active {
+	background:url(/sites/all/themes/carnegiemellon/cssAssets/icon-arrow-down.png) no-repeat scroll center 32px transparent;
+	color: #900;
+}
+.main #give-template #ContentMiddleLayoutFormTitle {float:left; width:100%; margin:60px 0 0;}
+.main #give-template #ContentMiddle {position:static;}
+
+.main #give-template .formbreadcrumbs {position:absolute; top:0; left:0;}
+.main #give-template .formbreadcrumbs span {display:inline;color: #464646;
+	font-family: Helvetica,Verdana,sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.1;
+	margin-right: 70px;
+	padding: 9px 0 20px;
+	text-decoration:none;}
+.main #give-template .formbreadcrumbs span:hover {}
+.main #give-template .formbreadcrumbs .idbmsBreadcrumbActive {background:url(/sites/all/themes/carnegiemellon/cssAssets/icon-arrow-down.png) no-repeat scroll center 32px transparent;color: #900;}
+.main #give-template .formbreadcrumbs .idbmsBreadcrumbSeparator {display:none;}
+.main #give-template .formbreadcrumbs .idbmsBreadcrumb {background:none; max-height:auto;}
+.main #give-template a.idbmsBreadcrumbLink {text-decoration:none;}
+
+input[type="checkbox"], input[type="radio"] {
+    margin: 0.25em 0.25em 0.25em 0;
+}
+
+.main #give-template .success {display:none;}
+
+#give-template header img {margin-top:3em;}
+#give-template section#content {margin:30px 0 0;}
+#give-template header img.no-shadow {box-shadow:none}
+
+.Error,.error {width:auto!important;} 
+.main #give-template section#content #form .error ul li {display:block; line-height:normal;}
+#form #rg_pnlPageHeader {display:none;}
+#form h1#ContentMiddleLayoutFormTitle {display:none;}
+
+#TB_ajaxContent.TB_modal {overflow:hidden;}
+
+/* RIGHT COLUMN
+---------------------------------------------*/
+
+/* Footer Elements 
+---------------------------------------------*/

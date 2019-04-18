@@ -1,0 +1,48 @@
+﻿body {
+}
+
+
+
+.artistLinks a
+{
+    text-decoration: none;
+}
+
+.quote  a
+{
+    text-decoration: none;
+}
+
+.down-arr
+{
+    cursor: default;
+}
+
+p.no-after:after{content:none;}
+
+p.currentPage {
+    display: inline-block;
+    padding-right: 2px;
+}
+
+#paginationBlock
+{
+    margin-top: 20px;
+}
+
+
+
+.fancybox-inner
+{
+    height: auto !important;
+}
+
+@media screen and (min-width: 1358px) {
+    .bannerContainer{
+        max-width: 84.875rem !important;
+        margin-left:auto;
+        margin-right:auto;
+        display: flex;
+        flex-flow:row wrap;
+    }
+}

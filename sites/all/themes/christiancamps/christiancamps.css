@@ -1,0 +1,38 @@
+.nav>li>a {
+	display: inline;
+}
+#main-menu {
+	margin-top: 10px;
+}
+#main-menu li {
+	margin-bottom: 12px;
+}
+#main-menu li.active-trail a {
+	color: #c88f3a;
+}
+nav.page-menu-mobile .widget-container li > a.active,
+#main-menu li a.active {
+        color: #361f11;
+}
+#main-menu li a {
+	padding: 0;
+}
+nav.page-menu-mobile .widget-container li a.icon,
+#main-menu li a.icon {
+	background: url('/sites/all/themes/christiancamps/cssAssets/icon.png');
+	background-position: -14px 0;
+}
+nav.page-menu-mobile .widget-container li.active-trail a.icon,
+#main-menu li.active-trail a.icon {
+        background-position: 0 0;
+}
+nav.page-menu-mobile .widget-container li.active-trail ul,
+aside.sidebar .widget-container li.active-trail ul {
+	display: block;
+}
+
+@media only screen and (max-width: 999px) {
+	.pg-wrap h1{
+		margin-top:0px;
+	}
+}

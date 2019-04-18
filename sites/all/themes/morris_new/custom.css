@@ -1,0 +1,19 @@
+aside.right-sidebar ul.parent-sidebar-menu #block-system-main-menu{
+  margin-bottom:45px;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile .ss-rows:before{
+	content:"";
+}
+
+#node-34 .pg-featured-links{
+	display:none;
+}
+
+
+@media only screen and (max-width: 999px) {
+	
+  aside.right-sidebar ul.parent-sidebar-menu #block-system-main-menu{
+    display:none;
+  }
+}

@@ -1,0 +1,112 @@
+/* $Id: grid12-960.css,v 1.1.2.1 2009/12/02 00:47:46 sociotech Exp $ */
+
+/* Layout - 12 column grid, 960px fixed width, 20px gutters
+-------------------------------------------------------------- */
+
+/* grid widths */
+.grid12-1 {width: 80px;}
+.grid12-2 {width: 160px;}
+.grid12-3 {width: 240px;}
+.grid12-4 {width: 320px;}
+.grid12-5 {width: 400px;}
+.grid12-6 {width: 480px;}
+.grid12-7 {width: 560px;}
+.grid12-8 {width: 640px;}
+.grid12-9 {width: 720px;}
+.grid12-10 {width: 800px;}
+.grid12-11 {width: 880px;}
+.grid12-12 {width: 960px;}
+
+/* block indents */
+.grid12-indent-1 {margin-left: 80px;}
+.grid12-indent-2 {margin-left: 160px;}
+.grid12-indent-3 {margin-left: 240px;}
+.grid12-indent-4 {margin-left: 320px;}
+.grid12-indent-5 {margin-left: 400px;}
+.grid12-indent-6 {margin-left: 480px;}
+.grid12-indent-7 {margin-left: 560px;}
+.grid12-indent-8 {margin-left: 640px;}
+.grid12-indent-9 {margin-left: 720px;}
+.grid12-indent-10 {margin-left: 800px;}
+.grid12-indent-11 {margin-left: 880px;}
+
+/* gutters (2 x margin) */
+.block .inner {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* hack to fix node-top & node-bottom being off-grid */
+#content-content .node .first .inner {
+    margin-right: 20px;
+}
+
+body,
+div.full-width {
+  min-width: 960px;
+}
+/**************************
+*don-bosco
+***************************/
+#pid-don-bosco #main-group{ width: 100%;}
+form.webform-client-form, form.newsletter-form, form.tell-more, #pid-don-bosco .node-unpublished{ background-color: #ffffff !important;}
+
+#webform-component-don-bosco{ width: 50%; float: left; padding-right: 20px;}
+#webform-component-don-bosco span{ font-size: 16px; color: #aa001f; font-weight: bold;}
+#pid-don-bosco form fieldset{ width: 50%; border: none; float: left; background-color: #faf1e4; border: 1px solid #F4DBC1; border-bottom: none !important;
+margin-bottom: 0; padding: 20px 15px; margin-top: 0;
+}
+#pid-don-bosco form[id*="webform-client-form"] legend{ display: none;}
+#pid-don-bosco form[id*="webform-client-form"] label{ font-size: 16px; font-weight: bold; color: #000;}
+#pid-don-bosco form[id*="webform-client-form"] input.form-submit{ margin: 0 auto; display: block; background: url(/sites/all/themes/salesianmissions/cssAssets/button-form.png) no-repeat; width: 236px; height: 52px; border: none; text-indent: -9999px;}
+#pid-don-bosco #webform-component-group--confirmed .form-item > * { float: right;}
+#pid-don-bosco #webform-component-group--confirmed .form-item > .form-checkboxes{ float: left; margin: 0;}
+#pid-don-bosco #webform-component-group--confirmed .form-item > .form-checkboxes > * { margin: 0;}
+#pid-don-bosco #webform-component-group--confirmed .form-item > label{ margin-right: 28px !important;}
+#pid-don-bosco #webform-component-group--confirmed .form-item label{ font-size: 14px !important; font-weight: normal !important;}
+#pid-don-bosco #webform-component-group--confirmed .form-checkboxes > .form-item > label.option{ margin-right: 0 !important;}
+#pid-don-bosco #webform-component-group--tittle-block span, #pid-don-bosco #webform-component-group--tittle span{ color: #005190; font-size: 24px; font-weight: bold;}
+#pid-don-bosco #webform-component-group--download-text {overflow: hidden;}
+#pid-don-bosco #webform-component-group--download-text p{ font-size: 14px;}
+#pid-don-bosco #webform-component-group--download-text img{ float: left;}
+#pid-don-bosco #webform-component-group--name, #pid-don-bosco #webform-component-group--last-name{ float: left; width: 50%;}
+#pid-don-bosco #edit-actions{ float: right; background-color: #faf1e4; border: 1px solid #F4DBC1; border-top: none !important; width: 50%; padding-bottom: 20px;}
+#pid-don-bosco #edit-submitted-group-email{ max-width: 97%;}
+#pid-don-bosco #edit-submitted-group-confirmed-1 { display:inline-block; margin-top:3px;}
+
+
+/**************************
+*THANK YOU
+***************************/
+
+
+.webform-confirmation h1{ border-bottom: none; font-size: 20px;}
+
+#facebook-button, #twitter-button{ float: left;}
+#facebook-button a, #twitter-button a{ float: left; text-align: left; font-size: 14px; font-family: 'PT Sans', sans-serif; font-weight: bold; 
+margin-left: 5px; text-decoration: none; width: 145px;} 
+#facebook-button img, #twitter-button img{ float: left; margin: 0 5px 20px !important;}
+#facebook-button span, #twitter-button span{ font-size: 18px;}
+#twitter-button a{ color: #009DDC;}
+#content-inner-inner{ margin: 0 25px;}
+.block ul, .block ol{ margin-left: 3em;}
+#content-inner-inner #content-content .links{ display: none !important;}
+#content-inner-inner #content-content img{ vertical-align: middle;}
+
+#pid-node-28273-done #main-group, #pid-node-28273-done #main-content, #pid-node-28273-done #content-group, #pid-node-28273-done #content-region{ width: 100%;}
+
+#img-sidebar{ position: absolute; top: 60px; right: 0;}
+
+
+/**************************
+*FOOTER
+***************************/
+#block-block-30 .legal{
+	margin: 0px 0 20px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+
+

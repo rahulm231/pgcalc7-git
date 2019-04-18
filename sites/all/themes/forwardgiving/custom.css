@@ -1,0 +1,59 @@
+#stamatsMenu li a:hover, #stamatsMenu li a:focus, #stamatsMenu li.active a.menuitem, #stamatsMenu li a.active {
+    background-color: #009549;
+    border-bottom: 3px solid #009549;
+}
+
+div#logo{
+	width: 65%;
+}
+
+#logo img {
+    height: auto !important;
+    width: 100% !important;
+}
+
+.pg-page-header{
+	margin-bottom:10px;
+}
+
+.pg-content-footer{
+	margin-top:20px;
+}
+
+.node-webform label{
+	width:6%;
+}
+
+.node-webform .form-item{
+	margin-bottom: 10px;
+}
+
+.node-webform .webform-component-radios label{
+	width:100%;
+}
+
+.node-webform .webform-component-radios .form-type-radio{
+	display:inline-block;
+}
+
+.node-webform .webform-component-radios .form-type-radio input, .node-webform .webform-component-radios .form-type-radio label{
+	display:inline;
+}
+
+.contentTop .row{
+	margin-top:20px;
+}
+
+.pg-wrap
+{
+	padding-left: 130px;
+    padding-right: 170px;
+}
+
+@media only screen and (max-width: 999px) {
+	
+  .pg-wrap{
+ 	padding-left: 34px;
+    padding-right: 30px;
+  }
+}

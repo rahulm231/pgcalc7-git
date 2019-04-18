@@ -1,0 +1,1126 @@
+/* line 1, ../../src/sass/ie7.scss */
+body {
+  overflow: hidden;
+}
+
+/* line 4, ../../src/sass/ie7.scss */
+legend {
+  margin-left: -7px;
+}
+
+/* line 8, ../../src/sass/ie7.scss */
+.sub-1 .secondary-content {
+  zoom: 1;
+}
+
+/* line 12, ../../src/sass/ie7.scss */
+.primary-header {
+  clear: both;
+  zoom: 1;
+}
+
+/* line 16, ../../src/sass/ie7.scss */
+header {
+  zoom: 1;
+  display: block;
+}
+
+/* line 20, ../../src/sass/ie7.scss */
+.breadcrumb {
+  zoom: 1;
+}
+
+/* line 24, ../../src/sass/ie7.scss */
+.secondary-header {
+  zoom: 1;
+}
+
+/* line 30, ../../src/sass/ie7.scss */
+.billing .methods li {
+  zoom: 1;
+}
+
+/* line 40, ../../src/sass/ie7.scss */
+.secondary-section {
+  /* I believe these are not needed anymore after the rework of the modules
+  display: block;
+  position: relative;
+  */
+}
+/* line 46, ../../src/sass/ie7.scss */
+.secondary-section .secondary-content {
+        /*
+        display: block;
+        position: relative;
+        zoom: 1;
+		*/
+}
+
+/* line 57, ../../src/sass/ie7.scss */
+#supporters .content-boxes .content-box {
+  margin-left: 16px;
+}
+
+/* line 60, ../../src/sass/ie7.scss */
+.article-slider, .aspot-slider, .story-quote-module, .my-impact-section .section-inner {
+  border: 2px solid #ececec !important;
+}
+
+/* line 65, ../../src/sass/ie7.scss */
+.aspot-slider .sidebar-panel {
+  width: 204px;
+}
+
+/* line 70, ../../src/sass/ie7.scss */
+.inner-right-rail .content-sidebar .sidebar-slider {
+  width: 204px;
+}
+
+/* line 76, ../../src/sass/ie7.scss */
+.post-section .aspot-img-overlay, .default-aspot .aspot-img-overlay, .content-sidebar .aspot-img-overlay, .grid-row .aspot-img-overlay, .bspot-item .aspot-img-overlay, #ftr .promo-box-area .aspot-img-overlay {
+  border: 2px solid #ececec !important;
+}
+
+/* line 82, ../../src/sass/ie7.scss */
+#ftr .promo-box-area .promo-image {
+  float: left;
+}
+
+/* line 87, ../../src/sass/ie7.scss */
+.action .bw {
+  background-color: progid:DXImageTransform.Microsoft.gradient(enabled='false', startColorstr=#FB2E41, endColorstr=#D60215);
+}
+/* line 90, ../../src/sass/ie7.scss */
+.action .button {
+  width: auto;
+  overflow: visible;
+}
+
+/* line 96, ../../src/sass/ie7.scss */
+#enter-donation-amount {
+  width: 240px;
+}
+
+/* line 100, ../../src/sass/ie7.scss */
+.donation-amount-options .tribute-wrap #tribute-type {
+  width: 110px;
+}
+
+/* line 104, ../../src/sass/ie7.scss */
+.donate-payment .payment-secondary .split-section-header .extra-link {
+  margin-top: 0;
+}
+
+/* line 108, ../../src/sass/ie7.scss */
+.payment-options .methods-list li {
+  margin-left: 64px;
+}
+
+/* line 112, ../../src/sass/ie7.scss */
+.payment-options .action-external input {
+  display: block;
+  font-size: 0;
+  line-height: 0;
+}
+
+/* line 118, ../../src/sass/ie7.scss */
+.layout-banner {
+  position: relative;
+}
+
+/* line 123, ../../src/sass/ie7.scss */
+.accordion-group .accordion-header a {
+  zoom: 1;
+}
+
+/* line 130, ../../src/sass/ie7.scss */
+.main-tab .tabs-list {
+  zoom: 1;
+}
+/* line 135, ../../src/sass/ie7.scss */
+.main-tab .tabs-list li.current a {
+  zoom: 1;
+}
+
+/* line 144, ../../src/sass/ie7.scss */
+.long-title-tab .tabbody {
+  zoom: 1;
+}
+
+/* line 149, ../../src/sass/ie7.scss */
+.donation-confirmation-summary .post-section-wrap {
+  margin-bottom: -42px;
+}
+
+/* line 153, ../../src/sass/ie7.scss */
+.partners-detail-wrap {
+  border: 1px solid #cccccc;
+}
+
+/* line 157, ../../src/sass/ie7.scss */
+.no-border {
+  background-image: none !important;
+}
+
+/* line 162, ../../src/sass/ie7.scss */
+.our-work-landing .aspot-slider {
+  margin: 18px 0 -40px;
+  background: url('/sites/all/themes/arc/cssAssets/what-we-do-bg.png') 0 0 no-repeat;
+  padding-top: 9px;
+  padding-left: 10px;
+  width: 763px;
+  height: 300px;
+}
+
+/* line 175, ../../src/sass/ie7.scss */
+.full-width-layout,
+.full-width-layout .primary-content,
+.inner-right-rail.full-width-layout,
+.inner-right-rail.full-width-layout .primary-content {
+  overflow: visible;
+}
+
+/*
+.full-width-layout .primary-content .image-caption.box-image {
+    width: auto;
+    
+    &.align-left {
+        width: 214px;
+    }
+}
+.inner-right-rail .primary-content .image-caption.box-image {
+    width: 512px;
+    
+    &.align-left {
+        width: 214px;
+    }
+}
+*/
+/* line 197, ../../src/sass/ie7.scss */
+.inner-right-rail.full-width-layout .primary-content .image-caption.box-image,
+.inner-right-rail.default-layout .primary-content .image-caption.box-image {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+/* line 212, ../../src/sass/ie7.scss */
+.donation-amount-options .control-header .text {
+  width: auto;
+}
+/* line 217, ../../src/sass/ie7.scss */
+.donation-amount-options .checkbox-wrap label {
+  width: auto;
+}
+/* line 220, ../../src/sass/ie7.scss */
+.donation-amount-options .checkbox-wrap .label {
+  width: 240px;
+}
+/* line 223, ../../src/sass/ie7.scss */
+.donation-amount-options .checkbox-wrap .label .name-wrap input {
+  width: 231px;
+}
+/* line 229, ../../src/sass/ie7.scss */
+.donation-amount-options .fixed-amounts .radio-wrap {
+  margin-left: 20px;
+}
+/* line 232, ../../src/sass/ie7.scss */
+.donation-amount-options .fixed-amounts .radio-wrap:first-child {
+  margin-left: 30px;
+}
+
+/* line 239, ../../src/sass/ie7.scss */
+.courses-landing #container {
+  position: relative;
+  z-index: 1;
+}
+/* line 243, ../../src/sass/ie7.scss */
+.courses-landing .search-content {
+  background: #fff;
+  width: 236px;
+}
+/* line 246, ../../src/sass/ie7.scss */
+.courses-landing .search-content .search-field {
+  height: 18px;
+}
+/* line 249, ../../src/sass/ie7.scss */
+.courses-landing .search-content .button {
+  height: 23px;
+}
+/* line 256, ../../src/sass/ie7.scss */
+.courses-landing .checkbox-filters input[type="checkbox"] {
+  margin: -3px;
+}
+
+/* line 263, ../../src/sass/ie7.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 266, ../../src/sass/ie7.scss */
+#panels .panel {
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 274, ../../src/sass/ie7.scss */
+.chapter-landing .lastest-section .secondary-content,
+.chapter-landing .upcoming-section .secondary-content {
+  zoom: 1;
+}
+
+/* line 282, ../../src/sass/ie7.scss */
+.active-filter-list li {
+  display: inline;
+  line-height: 16px;
+  white-space: nowrap;
+}
+/* line 286, ../../src/sass/ie7.scss */
+.active-filter-list li a {
+  display: inline-block;
+}
+
+/* line 293, ../../src/sass/ie7.scss */
+.cause-mod .info {
+  background: #fafafa;
+}
+
+/* line 298, ../../src/sass/ie7.scss */
+.pagination-header .tools-wrap {
+  display: block;
+  float: right;
+  position: relative;
+}
+/* line 303, ../../src/sass/ie7.scss */
+.pagination-header .tools-wrap .pagination {
+  display: block;
+  float: left;
+}
+/* line 307, ../../src/sass/ie7.scss */
+.pagination-header .tools-wrap .pagination ul {
+  float: left !important;
+}
+/* line 311, ../../src/sass/ie7.scss */
+.pagination-header .tools-wrap .show-count {
+  display: block;
+  float: left;
+}
+/* line 316, ../../src/sass/ie7.scss */
+.pagination-header h1 {
+  float: left;
+}
+
+/* line 320, ../../src/sass/ie7.scss */
+.simple-dropdown .menu-inner {
+  position: relative;
+}
+
+/* line 328, ../../src/sass/ie7.scss */
+#donate .other-item-module .module-header img {
+  position: relative;
+}
+/* line 336, ../../src/sass/ie7.scss */
+#donate .aspot-single .box-image img {
+  float: none;
+}
+/* line 342, ../../src/sass/ie7.scss */
+#donate .tribute-type-fieldset textarea {
+  width: auto;
+}
+
+/* line 349, ../../src/sass/ie7.scss */
+.list-filter-tool .action {
+  margin-top: -6px;
+}
+
+/* line 353, ../../src/sass/ie7.scss */
+input[type="radio"],
+input[type="checkbox"] {
+  position: static;
+  margin-top: -3px;
+}
+
+/* line 358, ../../src/sass/ie7.scss */
+.content-search-common input {
+  line-height: 19px;
+}
+
+/* line 364, ../../src/sass/ie7.scss */
+#take-a-class .learn-program-post .sub-content {
+  zoom: 1;
+}
+
+/* line 370, ../../src/sass/ie7.scss */
+.aspot-img-full .aspot-img {
+  position: relative;
+  z-index: -1;
+}
+
+/* line 378, ../../src/sass/ie7.scss */
+.related-stories-section .secondary-content {
+  zoom: 1;
+}
+
+/* line 384, ../../src/sass/ie7.scss */
+.box-image > img {
+  float: none;
+  margin-bottom: -2px;
+}
+
+/* line 391, ../../src/sass/ie7.scss */
+.downloadable-section .secondary-content {
+  zoom: 1;
+}
+
+/* line 397, ../../src/sass/ie7.scss */
+.tell-your-story #tag-your-story fieldset .legend-wrap {
+  zoom: 1;
+}
+
+/* line 402, ../../src/sass/ie7.scss */
+.catalog-list-table td.actions {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 407, ../../src/sass/ie7.scss */
+#chapter .locations-list .locations-row {
+  display: block;
+  margin-left: 0;
+  overflow: visible;
+  width: auto;
+}
+/* line 413, ../../src/sass/ie7.scss */
+#chapter .locations-list .locations-row .location-item {
+  display: block;
+  margin: 0px 28px 0px 0;
+}
+
+/* line 419, ../../src/sass/ie7.scss */
+.chapter-leadership .volunteer-list .volunteer-row {
+  display: block;
+  margin-left: 0;
+  overflow: visible;
+  width: auto;
+}
+/* line 425, ../../src/sass/ie7.scss */
+.chapter-leadership .volunteer-list .volunteer-row .volunteer-item {
+  display: block;
+  margin: 0px 28px 0px 0;
+}
+
+/* line 431, ../../src/sass/ie7.scss */
+.register-for-classes {
+  border: 1px solid #ececec;
+  border-bottom: 3px solid #ed1b1e;
+}
+
+/* line 436, ../../src/sass/ie7.scss */
+.utility-nav {
+  display: block;
+  float: none;
+  width: auto;
+}
+/* line 441, ../../src/sass/ie7.scss */
+.utility-nav .nav-list {
+  clear: both;
+  display: block;
+  float: none;
+  text-align: right;
+  width: auto;
+}
+/* line 449, ../../src/sass/ie7.scss */
+.utility-nav .nav-item {
+  float: none;
+  display: inline;
+  zoom: 1;
+}
+
+/* line 457, ../../src/sass/ie7.scss */
+.steps-list li {
+  zoom: 1;
+}
+
+/* line 462, ../../src/sass/ie7.scss */
+.press-release-list {
+  zoom: 1;
+}
+
+/* line 466, ../../src/sass/ie7.scss */
+#search-results .result-list {
+  zoom: 1;
+}
+
+/* line 471, ../../src/sass/ie7.scss */
+form.search-form input.search-submit {
+  overflow: hidden;
+  padding-top: 18px;
+}
+
+/* line 478, ../../src/sass/ie7.scss */
+.image-topic-box.button-right .action-shadow {
+  display: block;
+  float: none;
+}
+
+/* line 502, ../../src/sass/ie7.scss */
+textarea.input-high,
+select.input-high,
+input[type="date"].input-high,
+input[type="datetime"].input-high,
+input[type="datetime-local"].input-high,
+input[type="email"].input-high,
+input[type="month"].input-high,
+input[type="number"].input-high,
+input[type="password"].input-high,
+input[type="search"].input-high,
+input[type="tel"].input-high,
+input[type="text"].input-high,
+input[type="time"].input-high,
+input[type="url"].input-high,
+input[type="week"].input-high {
+  height: 20px;
+}
+
+/* line 508, ../../src/sass/ie7.scss */
+.service-blocks li figure {
+  border: 2px solid #f1f1f1;
+  margin-bottom: 0px !important;
+  padding-bottom: 6px !important;
+}
+/* line 513, ../../src/sass/ie7.scss */
+.service-blocks li .figwrap {
+  margin-bottom: 12px !important;
+}
+
+/* line 521, ../../src/sass/ie7.scss */
+.date-pickers-wrap .field {
+  width: 70px;
+}
+
+/* line 529, ../../src/sass/ie7.scss */
+.upcoming-events .secondary-content {
+  overflow: hidden;
+}
+/* line 532, ../../src/sass/ie7.scss */
+.upcoming-events .upcoming-list {
+  zoom: 1;
+}
+
+/* line 541, ../../src/sass/ie7.scss */
+.your-results-module .module-content {
+  zoom: 1;
+}
+
+/* line 548, ../../src/sass/ie7.scss */
+.iframe-wrapper iframe {
+  border: none;
+}
+
+/* line 554, ../../src/sass/ie7.scss */
+.video-content .box-image {
+  padding-bottom: 6px;
+}
+
+/* line 560, ../../src/sass/ie7.scss */
+.photo-album .box-image {
+  padding-bottom: 3px;
+}
+
+/* line 566, ../../src/sass/ie7.scss */
+.partners-right-sidebar.box-image {
+  zoom: 1;
+}
+
+/* line 573, ../../src/sass/ie7.scss */
+.paper-section .box-image {
+  zoom: 1;
+}
+
+/* line 579, ../../src/sass/ie7.scss */
+.select-donation-cause #custom-amount {
+  width: 74px;
+}
+
+/* line 586, ../../src/sass/ie7.scss */
+.donate-confirmation .share-impact-section .box-image {
+  zoom: 1;
+}
+
+/* line 594, ../../src/sass/ie7.scss */
+#donate .select-cause-list .select-cause-row {
+  zoom: 1;
+}
+
+/* line 601, ../../src/sass/ie7.scss */
+.donate-landing #container {
+  position: relative;
+  z-index: 3;
+}
+/* line 606, ../../src/sass/ie7.scss */
+.donate-landing .other-ways .simple-dropdown {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 613, ../../src/sass/ie7.scss */
+.shopping-cart-table .simple-table tfoot .foot-note td {
+  width: auto;
+}
+
+/* line 617, ../../src/sass/ie7.scss */
+.content-boxes {
+  display: inline;
+}
+
+/* line 621, ../../src/sass/ie7.scss */
+.stacked-3-narrow {
+  display: inline;
+}
+
+/* line 627, ../../src/sass/ie7.scss */
+.course-table .summary.shown {
+  z-index: 1;
+}
+
+/* line 634, ../../src/sass/ie7.scss */
+#home-aspot .panel-link {
+  background-image: url(about:blank);
+}
+
+/* line 640, ../../src/sass/ie7.scss */
+.content-sidebar .suggested-promo {
+  zoom: 1;
+}
+
+/* line 671, ../../src/sass/ie7.scss */
+.no-borderradius #donate.quickdonate .checkout-steps .checkout-steps-inner .steps-list .step-item .step-count span {
+  background: transparent url('/sites/all/themes/arc/cssAssets/bg-step-count-span.png') no-repeat center center;
+}
+/* line 674, ../../src/sass/ie7.scss */
+.no-borderradius #donate.quickdonate .checkout-steps .checkout-steps-inner .steps-list .step-item.current .step-count span {
+  background: transparent url('/sites/all/themes/arc/cssAssets/bg-step-count-span-current.png') no-repeat center center;
+}
+/* line 677, ../../src/sass/ie7.scss */
+.no-borderradius #donate.quickdonate .checkout-steps .checkout-steps-inner .steps-list .step-item.complete .step-count span {
+  background: transparent url('/sites/all/themes/arc/cssAssets/bg-step-count-span-complete.png') no-repeat center center;
+}
+
+/* line 684, ../../src/sass/ie7.scss */
+#donate.quickdonate #tribute-name {
+  width: 422px;
+}
+/* line 687, ../../src/sass/ie7.scss */
+#donate.quickdonate #from-date {
+  width: 115px;
+}
+/* line 690, ../../src/sass/ie7.scss */
+#donate.quickdonate .background-fill {
+  padding-bottom: 40px;
+}
+/* line 693, ../../src/sass/ie7.scss */
+#donate.quickdonate .controls-footer {
+  margin-bottom: 0px;
+}
+/* line 696, ../../src/sass/ie7.scss */
+#donate.quickdonate header.primary-header {
+  margin-bottom: 29px;
+}
+/* line 701, ../../src/sass/ie7.scss */
+#donate.quickdonate .field.left input[type="text"], #donate.quickdonate .field.left input[type="tel"], #donate.quickdonate .field.right input[type="text"], #donate.quickdonate .field.right input[type="tel"], #donate.quickdonate .field-wrap.left input[type="text"], #donate.quickdonate .field-wrap.left input[type="tel"], #donate.quickdonate .field-wrap.right input[type="text"], #donate.quickdonate .field-wrap.right input[type="tel"] {
+  width: 195px;
+}
+/* line 706, ../../src/sass/ie7.scss */
+#donate.quickdonate .field.phone-wrap input[type="text"], #donate.quickdonate .field.phone-wrap input[type="tel"], #donate.quickdonate .field-wrap.phone-wrap input[type="text"], #donate.quickdonate .field-wrap.phone-wrap input[type="tel"] {
+  width: 195px;
+}
+/* line 711, ../../src/sass/ie7.scss */
+#donate.quickdonate .field.card-cvv-wrap input[type="text"], #donate.quickdonate .field.card-cvv-wrap input[type="tel"], #donate.quickdonate .field-wrap.card-cvv-wrap input[type="text"], #donate.quickdonate .field-wrap.card-cvv-wrap input[type="tel"] {
+  width: 115px;
+}
+/* line 716, ../../src/sass/ie7.scss */
+#donate.quickdonate .field.zip-code-wrap input[type="text"], #donate.quickdonate .field.zip-code-wrap input[type="tel"], #donate.quickdonate .field-wrap.zip-code-wrap input[type="text"], #donate.quickdonate .field-wrap.zip-code-wrap input[type="tel"] {
+  width: 109px;
+}
+/* line 720, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="text"], #donate.quickdonate .field input[type="tel"], #donate.quickdonate .field-wrap input[type="text"], #donate.quickdonate .field-wrap input[type="tel"] {
+  border: solid 1px #cccccc;
+  height: 42px;
+  font-size: 18px;
+  color: #333333;
+  /* Firefox 18- */
+  /* Firefox 19+ */
+  /* Firefox 18- */
+  /* Firefox 19+ */
+  height: auto;
+  padding: 12px 12px 10px;
+  width: 444px;
+}
+/* line 656, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="text"]::-webkit-input-placeholder, #donate.quickdonate .field input[type="tel"]::-webkit-input-placeholder, #donate.quickdonate .field-wrap input[type="text"]::-webkit-input-placeholder, #donate.quickdonate .field-wrap input[type="tel"]::-webkit-input-placeholder {
+  color: #9f9fa3;
+}
+/* line 657, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="text"]:-moz-placeholder, #donate.quickdonate .field input[type="tel"]:-moz-placeholder, #donate.quickdonate .field-wrap input[type="text"]:-moz-placeholder, #donate.quickdonate .field-wrap input[type="tel"]:-moz-placeholder {
+  color: #9f9fa3;
+}
+/* line 658, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="text"]::-moz-placeholder, #donate.quickdonate .field input[type="tel"]::-moz-placeholder, #donate.quickdonate .field-wrap input[type="text"]::-moz-placeholder, #donate.quickdonate .field-wrap input[type="tel"]::-moz-placeholder {
+  color: #9f9fa3;
+}
+/* line 659, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="text"]:-ms-input-placeholder, #donate.quickdonate .field input[type="tel"]:-ms-input-placeholder, #donate.quickdonate .field-wrap input[type="text"]:-ms-input-placeholder, #donate.quickdonate .field-wrap input[type="tel"]:-ms-input-placeholder {
+  color: #9f9fa3;
+}
+/* line 656, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="text"]::-webkit-input-placeholder, #donate.quickdonate .field input[type="tel"]::-webkit-input-placeholder, #donate.quickdonate .field-wrap input[type="text"]::-webkit-input-placeholder, #donate.quickdonate .field-wrap input[type="tel"]::-webkit-input-placeholder {
+  color: #cccccc;
+}
+/* line 657, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="text"]:-moz-placeholder, #donate.quickdonate .field input[type="tel"]:-moz-placeholder, #donate.quickdonate .field-wrap input[type="text"]:-moz-placeholder, #donate.quickdonate .field-wrap input[type="tel"]:-moz-placeholder {
+  color: #cccccc;
+}
+/* line 658, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="text"]::-moz-placeholder, #donate.quickdonate .field input[type="tel"]::-moz-placeholder, #donate.quickdonate .field-wrap input[type="text"]::-moz-placeholder, #donate.quickdonate .field-wrap input[type="tel"]::-moz-placeholder {
+  color: #cccccc;
+}
+/* line 659, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="text"]:-ms-input-placeholder, #donate.quickdonate .field input[type="tel"]:-ms-input-placeholder, #donate.quickdonate .field-wrap input[type="text"]:-ms-input-placeholder, #donate.quickdonate .field-wrap input[type="tel"]:-ms-input-placeholder {
+  color: #cccccc;
+}
+/* line 727, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="password"]#signin-password, #donate.quickdonate .field-wrap input[type="password"]#signin-password {
+  border: solid 1px #cccccc;
+  height: 42px;
+  font-size: 18px;
+  color: #333333;
+  /* Firefox 18- */
+  /* Firefox 19+ */
+  height: auto;
+  padding: 12px 12px 10px;
+  /* Firefox 18- */
+  /* Firefox 19+ */
+}
+/* line 656, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="password"]#signin-password::-webkit-input-placeholder, #donate.quickdonate .field-wrap input[type="password"]#signin-password::-webkit-input-placeholder {
+  color: #9f9fa3;
+}
+/* line 657, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="password"]#signin-password:-moz-placeholder, #donate.quickdonate .field-wrap input[type="password"]#signin-password:-moz-placeholder {
+  color: #9f9fa3;
+}
+/* line 658, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="password"]#signin-password::-moz-placeholder, #donate.quickdonate .field-wrap input[type="password"]#signin-password::-moz-placeholder {
+  color: #9f9fa3;
+}
+/* line 659, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="password"]#signin-password:-ms-input-placeholder, #donate.quickdonate .field-wrap input[type="password"]#signin-password:-ms-input-placeholder {
+  color: #9f9fa3;
+}
+/* line 656, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="password"]#signin-password::-webkit-input-placeholder, #donate.quickdonate .field-wrap input[type="password"]#signin-password::-webkit-input-placeholder {
+  color: #cccccc;
+}
+/* line 657, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="password"]#signin-password:-moz-placeholder, #donate.quickdonate .field-wrap input[type="password"]#signin-password:-moz-placeholder {
+  color: #cccccc;
+}
+/* line 658, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="password"]#signin-password::-moz-placeholder, #donate.quickdonate .field-wrap input[type="password"]#signin-password::-moz-placeholder {
+  color: #cccccc;
+}
+/* line 659, ../../src/sass/ie7.scss */
+#donate.quickdonate .field input[type="password"]#signin-password:-ms-input-placeholder, #donate.quickdonate .field-wrap input[type="password"]#signin-password:-ms-input-placeholder {
+  color: #cccccc;
+}
+/* line 733, ../../src/sass/ie7.scss */
+#donate.quickdonate .field select, #donate.quickdonate .field-wrap select {
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  padding-left: 12px;
+  color: #333333;
+}
+/* line 740, ../../src/sass/ie7.scss */
+#donate.quickdonate .field .input-replace, #donate.quickdonate .field-wrap .input-replace {
+  height: 44px;
+  font-size: 18px;
+  line-height: 44px;
+  color: #333333;
+  margin-top: -17px;
+}
+/* line 751, ../../src/sass/ie7.scss */
+#donate.quickdonate .quickdonation-options .fixed-amounts .selected label {
+  overflow: hidden;
+  background-color: #56a0d3;
+}
+/* line 754, ../../src/sass/ie7.scss */
+#donate.quickdonate .quickdonation-options .fixed-amounts .selected label a:hover, #donate.quickdonate .quickdonation-options .fixed-amounts .selected label a:active, #donate.quickdonate .quickdonation-options .fixed-amounts .selected label a:focus {
+  text-decoration: none;
+}
+/* line 760, ../../src/sass/ie7.scss */
+#donate.quickdonate .quickdonation-options .fixed-amounts .other-amount-wrap input#other-donation-amount {
+  color: #CCCCCC;
+  border: solid 1px #cccccc;
+  width: 109px;
+  height: 30px;
+  padding-top: 15px;
+}
+/* line 768, ../../src/sass/ie7.scss */
+#donate.quickdonate .quickdonation-options .fixed-amounts .other-amount-wrap.selected input#other-donation-amount {
+  color: #fff;
+  background-color: #56a0d3;
+  border-color: #3c7fad;
+}
+/* line 777, ../../src/sass/ie7.scss */
+#donate.quickdonate .quickdonation-options .cause-selector .control-header {
+  margin-bottom: 15px;
+}
+/* line 780, ../../src/sass/ie7.scss */
+#donate.quickdonate .quickdonation-options .cause-selector .menu-wrap {
+  overflow: hidden;
+}
+/* line 786, ../../src/sass/ie7.scss */
+#donate.quickdonate .methods-list #credit-card-toggle {
+  float: left;
+  width: 310px;
+}
+/* line 789, ../../src/sass/ie7.scss */
+#donate.quickdonate .methods-list #credit-card-toggle label {
+  padding-left: 5px;
+}
+/* line 793, ../../src/sass/ie7.scss */
+#donate.quickdonate .methods-list #paypal-toggle {
+  width: 92px;
+  float: right;
+  padding-bottom: 3px;
+}
+/* line 797, ../../src/sass/ie7.scss */
+#donate.quickdonate .methods-list #paypal-toggle label {
+  padding-left: 5px;
+  padding-bottom: 3px;
+}
+/* line 802, ../../src/sass/ie7.scss */
+#donate.quickdonate .methods-list .card-images {
+  margin-left: 4px;
+}
+/* line 804, ../../src/sass/ie7.scss */
+#donate.quickdonate .methods-list .card-images div {
+  margin-right: 4px;
+}
+/* line 809, ../../src/sass/ie7.scss */
+#donate.quickdonate .billing-address {
+  padding-top: 30px;
+}
+/* line 812, ../../src/sass/ie7.scss */
+#donate.quickdonate #signin-email {
+  width: 192px;
+}
+/* line 815, ../../src/sass/ie7.scss */
+#donate.quickdonate #signin-password {
+  width: 200px;
+}
+/* line 820, ../../src/sass/ie7.scss */
+#donate.quickdonate .action-wrap .action.quickdonate-btn .bw {
+  position: static;
+}
+/* line 822, ../../src/sass/ie7.scss */
+#donate.quickdonate .action-wrap .action.quickdonate-btn .bw #quickDonateBtn.button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/* line 830, ../../src/sass/ie7.scss */
+#donate.quickdonate .payment-info-wrap {
+  display: block;
+  float: left;
+}
+
+
+/* line 845, ../../src/sass/ie7.scss */
+.donate-step-v3 .fixed-amounts .selected label {
+  overflow: hidden;
+  background-color: #56a0d3;
+}
+/* line 848, ../../src/sass/ie7.scss */
+.donate-step-v3 .fixed-amounts .selected label a:hover, .donate-step-v3 .fixed-amounts .selected label a:active, .donate-step-v3 .fixed-amounts .selected label a:focus {
+  text-decoration: none;
+}
+/* line 853, ../../src/sass/ie7.scss */
+.donate-step-v3 .fixed-amounts .other-amount-wrap {
+  height: 37px !important;
+}
+/* line 856, ../../src/sass/ie7.scss */
+.donate-step-v3 .fixed-amounts .other-amount-wrap input#other-donation-amount {
+  color: #CCCCCC;
+  border: solid 1px #cccccc;
+  width: 109px;
+  height: 30px;
+  padding-top: 15px;
+}
+/* line 864, ../../src/sass/ie7.scss */
+.donate-step-v3 .fixed-amounts .other-amount-wrap.selected input#other-donation-amount {
+  color: #fff;
+  background-color: #56a0d3;
+  border-color: #3c7fad;
+}
+
+/* line 881, ../../src/sass/ie7.scss */
+.no-boxshadow #tribute.tribute-donate .send-card-fields .action {
+  background: url('/sites/all/themes/arc/cssAssets/big-button-box-shadow-right.png') no-repeat right top;
+  margin-top: 0;
+  margin-right: 0;
+}
+/* line 885, ../../src/sass/ie7.scss */
+.no-boxshadow #tribute.tribute-donate .send-card-fields .action .action-shadow {
+  background: url('/sites/all/themes/arc/cssAssets/big-button-box-shadow-left.png') no-repeat left top;
+  padding: 3px 0px 3px 5px;
+}
+/* line 889, ../../src/sass/ie7.scss */
+.no-boxshadow #tribute.tribute-donate .send-card-fields .action .action-shadow .bw input {
+  height: 35px;
+}
+/* line 896, ../../src/sass/ie7.scss */
+.no-boxshadow #tribute.tribute-donate .personalize-mail-card.anon {
+  margin-bottom: 20px;
+}
+
+/* line 903, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .tribute-donate-layout {
+  border: 1px solid #dedede;
+}
+/* line 907, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .tribute-donate-layout .tribute-send-message .message {
+  background: url('/sites/all/themes/arc/cssAssets/icon-s44616efca3.png') 125px -3071px;
+  background-repeat: no-repeat;
+}
+
+/* line 917, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .send-a-card input[type="text"], #tribute.tribute-donate .send-a-card textarea {
+  width: 417px;
+}
+/* line 922, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .send-a-card .tribute-fields .date-pickers-wrap .field .field-inner input[type="text"], #tribute.tribute-donate .send-a-card .tribute-fields .time-wrap .field .field-inner input[type="text"] {
+  padding-top: 12px;
+  height: 32px;
+}
+/* line 928, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .send-a-card .tribute-fields .date-pickers-wrap .field .field-inner {
+  background: none;
+}
+/* line 931, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .send-a-card .tribute-fields .date-pickers-wrap .field .field-inner input[type="text"] {
+  width: 269px;
+}
+/* line 936, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .send-a-card .tribute-fields .time-wrap .field .field-inner input[type="text"] {
+  width: 88px;
+}
+/* line 941, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .send-a-card .rco-tooltip-wrap {
+  width: 20px;
+}
+/* line 947, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .field input[type="text"], #tribute.tribute-donate .field input[type="tel"], #tribute.tribute-donate .field-wrap input[type="text"], #tribute.tribute-donate .field-wrap input[type="tel"] {
+  border: solid 1px #cccccc;
+  height: 42px;
+  font-size: 18px;
+  color: #333333;
+  /* Firefox 18- */
+  /* Firefox 19+ */
+  /* Firefox 18- */
+  /* Firefox 19+ */
+  height: auto;
+  padding: 12px 12px 10px;
+}
+/* line 657, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .field input[type="text"]::-webkit-input-placeholder, #tribute.tribute-donate .field input[type="tel"]::-webkit-input-placeholder, #tribute.tribute-donate .field-wrap input[type="text"]::-webkit-input-placeholder, #tribute.tribute-donate .field-wrap input[type="tel"]::-webkit-input-placeholder {
+  color: #9f9fa3;
+}
+/* line 658, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .field input[type="text"]:-moz-placeholder, #tribute.tribute-donate .field input[type="tel"]:-moz-placeholder, #tribute.tribute-donate .field-wrap input[type="text"]:-moz-placeholder, #tribute.tribute-donate .field-wrap input[type="tel"]:-moz-placeholder {
+  color: #9f9fa3;
+}
+/* line 659, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .field input[type="text"]::-moz-placeholder, #tribute.tribute-donate .field input[type="tel"]::-moz-placeholder, #tribute.tribute-donate .field-wrap input[type="text"]::-moz-placeholder, #tribute.tribute-donate .field-wrap input[type="tel"]::-moz-placeholder {
+  color: #9f9fa3;
+}
+/* line 660, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .field input[type="text"]:-ms-input-placeholder, #tribute.tribute-donate .field input[type="tel"]:-ms-input-placeholder, #tribute.tribute-donate .field-wrap input[type="text"]:-ms-input-placeholder, #tribute.tribute-donate .field-wrap input[type="tel"]:-ms-input-placeholder {
+  color: #9f9fa3;
+}
+/* line 657, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .field input[type="text"]::-webkit-input-placeholder, #tribute.tribute-donate .field input[type="tel"]::-webkit-input-placeholder, #tribute.tribute-donate .field-wrap input[type="text"]::-webkit-input-placeholder, #tribute.tribute-donate .field-wrap input[type="tel"]::-webkit-input-placeholder {
+  color: #cccccc;
+}
+/* line 658, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .field input[type="text"]:-moz-placeholder, #tribute.tribute-donate .field input[type="tel"]:-moz-placeholder, #tribute.tribute-donate .field-wrap input[type="text"]:-moz-placeholder, #tribute.tribute-donate .field-wrap input[type="tel"]:-moz-placeholder {
+  color: #cccccc;
+}
+/* line 659, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .field input[type="text"]::-moz-placeholder, #tribute.tribute-donate .field input[type="tel"]::-moz-placeholder, #tribute.tribute-donate .field-wrap input[type="text"]::-moz-placeholder, #tribute.tribute-donate .field-wrap input[type="tel"]::-moz-placeholder {
+  color: #cccccc;
+}
+/* line 660, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .field input[type="text"]:-ms-input-placeholder, #tribute.tribute-donate .field input[type="tel"]:-ms-input-placeholder, #tribute.tribute-donate .field-wrap input[type="text"]:-ms-input-placeholder, #tribute.tribute-donate .field-wrap input[type="tel"]:-ms-input-placeholder {
+  color: #cccccc;
+}
+/* line 957, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .send-card-fields .field-wrap .field input[type="text"] {
+  width: 350px;
+}
+/* line 962, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .send-card-fields .city-wrap .field input[type="text"] {
+  width: 182px;
+}
+/* line 965, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .send-card-fields .state-wrap select {
+  width: 66px;
+  margin-left: 22px;
+}
+/* line 969, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .send-card-fields .zip-code-wrap .field input[type="text"] {
+  width: 62px;
+}
+/* line 972, ../../src/sass/ie7.scss */
+#tribute.tribute-donate .send-card-fields .action .action-wrap {
+  width: 98%;
+}
+
+/* line 981, ../../src/sass/ie7.scss */
+.tribute-donate .dedicate-radio-options .radio-wrap.selected label {
+  color: #fff;
+  background-color: #56a0d3;
+  border-color: #3c7fad;
+}
+/* line 988, ../../src/sass/ie7.scss */
+.tribute-donate .dedicate-radio-options label {
+  cursor: pointer;
+}
+/* line 994, ../../src/sass/ie7.scss */
+.tribute-donate .other-amount-wrap input#other-donation-amount {
+  color: #CCCCCC;
+  border: solid 1px #cccccc;
+  width: 109px;
+  height: 30px;
+  padding-top: 15px;
+}
+/* line 1002, ../../src/sass/ie7.scss */
+.tribute-donate .other-amount-wrap.selected input#other-donation-amount {
+  color: #fff;
+  background-color: #56a0d3;
+  border-color: #3c7fad;
+}
+/* line 1010, ../../src/sass/ie7.scss */
+.tribute-donate #other-donation-amount {
+  height: 22px !important;
+  width: 193px !important;
+}
+/* line 1016, ../../src/sass/ie7.scss */
+.tribute-donate .dedicate-radio-options .tribute-person {
+  width: 290px !important;
+  height: 33px;
+  padding: 12px 3px 0px 12px;
+}
+
+/* line 1025, ../../src/sass/ie7.scss */
+.tribute-fixed-amounts .radio-wrap {
+  margin-left: 0px !important;
+}
+/* line 1029, ../../src/sass/ie7.scss */
+.tribute-fixed-amounts .radio-wrap.selected label {
+  color: #fff;
+  background-color: #56a0d3;
+  border-color: #3c7fad;
+}
+
+/* line 1039, ../../src/sass/ie7.scss */
+.mail-tribute-address address {
+  border: 1px solid whitesmoke;
+}
+
+/* line 1045, ../../src/sass/ie7.scss */
+.tribute-payment-options .field input[type="text"] {
+  width: 92%;
+}
+/* line 1049, ../../src/sass/ie7.scss */
+.tribute-payment-options .billing-name {
+  width: 100%;
+}
+/* line 1054, ../../src/sass/ie7.scss */
+.tribute-payment-options .billing-name .field input {
+  width: 85% !important;
+}
+/* line 1057, ../../src/sass/ie7.scss */
+.tribute-payment-options .billing-name .field .last-name {
+  width: 83% !important;
+}
+/* line 1063, ../../src/sass/ie7.scss */
+.tribute-payment-options .float-wraps {
+  padding-bottom: 5px;
+}
+/* line 1068, ../../src/sass/ie7.scss */
+.tribute-payment-options .mobile-phone .hint {
+  margin-top: -22px;
+}
+
+/* line 1075, ../../src/sass/ie7.scss */
+#donate.donate-amount .other-amount-wrap {
+  height: 34px !important;
+}
+/* line 1079, ../../src/sass/ie7.scss */
+#donate.donate-amount #other-donation-amount {
+  padding-top: 7px !important;
+  height: 24px !important;
+  width: 90px !important;
+  margin-top: -1px;
+  display: block;
+}
+
+/* line 1089, ../../src/sass/ie7.scss */
+#donate.quickdonate .control-fieldset {
+  position: relative;
+  z-index: 1;
+}
+/* line 1094, ../../src/sass/ie7.scss */
+#donate.quickdonate .cause-selector {
+  z-index: 1000;
+}
+/* line 1098, ../../src/sass/ie7.scss */
+#donate.quickdonate .field-wrap .label.info {
+  position: static !important;
+}
+/* line 1102, ../../src/sass/ie7.scss */
+#donate.quickdonate .rco-tooltip {
+  margin-left: 25px !important;
+}
+/* line 1106, ../../src/sass/ie7.scss */
+#donate.quickdonate .tribute-wrap .rco-tooltip {
+  margin-top: 40px !important;
+}
+/* line 1110, ../../src/sass/ie7.scss */
+#donate.quickdonate .toggle-donation-content {
+  position: relative;
+}
+/* line 1113, ../../src/sass/ie7.scss */
+#donate.quickdonate .toggle-donation-content .icon {
+  top: -35px !important;
+}
+.size-container {
+    overflow: hidden;
+    width: 277px;
+    display: block;
+    background: url('/sites/all/themes/arc/cssAssets/icon-s80ec5b5a67.png') no-repeat scroll 75% -5464px transparent;
+    border: 1px solid #ccc;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.size-container select {
+    width: 298px;
+    height: 50px;
+    border: 0px;
+    background-color: transparent;
+    cursor:pointer;
+    -webkit-appearance: none;
+	display:inline;
+}

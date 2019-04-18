@@ -1,0 +1,17 @@
+body{
+	text-align:left;
+}
+
+h2.title a:before{
+  content:url('img/minus_l.gif');	
+  position: relative;
+  top: 5px;
+  left: -2px;
+}
+
+@media print {
+  .pgc-print-preview .node-homepage p > a > img{
+     width:150px !important;
+  	 height:150px !important;
+  }
+}

@@ -1,0 +1,88 @@
+.searchBox label{
+    font-size: 1em;
+    font-weight: bold;
+    color: #444;
+    display: block;
+    float: left;
+    padding-top: 8px;
+	padding-right:10px;
+}
+.searchBox input[type="text"]{
+    text-indent:1px;
+    padding:0 0 0 22px;
+    width:120px;
+    background:#fff;
+    border:1px solid #ddd;
+    color:#444;
+    line-height:20px;
+    font-weight:bold;
+    -webkit-transition:width 0.5s ease-in-out;
+    cursor:pointer;
+}
+button {background: none;
+    border: none;
+    font-size: 1.3em;
+    color: #444;
+}
+.searchInputContainer input {
+    background: #ffffff;
+    margin-top:0;
+    font-size: 14px;
+}
+.searchInputContainer input {
+    top: 0;
+    right: 0;
+    border: 0;
+    outline: 0;
+    background: #dcddd8;
+    width: auto;
+    height: 36px;
+    margin: 0;
+    padding: 0 52px 0 20px;
+    font-size: 15px;
+}
+@media only screen and (min-width: 768px) {
+	.searchArea.expanded .searchBox, .searchArea .searchBox {
+		border:none;
+	}
+	.searchBox input[type="text"]:focus{
+		width:700px;
+		outline:none;
+		border:1px solid #444;
+		cursor:text;
+	}
+	.searchArea #dnnMenu{
+		border-right: 1px solid #000;
+	}
+	.navbar-nav>li>a {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+}	
+@media only screen and (max-width: 767px){
+	.classicSearchContainer {
+		width: 100%;
+		display: block;
+	}
+	#CSU-search-box{
+		width:75%;
+	}
+	.searchInputContainer{
+		padding-top:5px;
+	}
+}
+@media only screen and (max-width: 370px){
+	.classicSearchContainer label{
+		display:block;
+		width:100%;
+	}
+	.classicSearchContainer button{
+		margin-top:32px;
+	}
+	.classicSearchContainer input[type=text]{
+		width:100%;
+	}
+	.searchInputContainer{
+		width:75%;
+	}
+}

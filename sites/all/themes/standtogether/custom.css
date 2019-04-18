@@ -1,0 +1,67 @@
+.st-page ul li::before, .st-page-reduced ul li::before {
+	content: "";
+}
+
+.pg-node ul li {
+	list-style: disc;
+	/* text-indent: inherit;*/
+}
+
+.node-landing-page .child-pages h2 a {
+	text-decoration: none;
+}
+
+#block-system-main-menu .content > ul {
+    margin: auto;
+    width: 62%;
+}
+
+#block-system-main-menu .content > ul > li{
+	position:relative;
+}
+
+#block-system-main-menu .content ul li {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#block-system-main-menu .content ul li a {
+	color: #8e8c8a;
+	text-decoration: none;
+}
+
+#block-system-main-menu .content ul li a:hover {
+	color: #0090d4;
+	text-decoration: none;
+}
+
+.pg-content-body .field-item.even ul {
+	padding-bottom: 20px;
+}
+
+section.container > div{
+	position:relative;	
+	z-index:99999;
+}
+
+section.container > article{
+	position:relative;	
+	z-index:999;
+}
+
+@media only screen and (max-width: 999px) {
+	.menu.align-right.show-for-small-only {
+		display: none;
+	}
+	#block-system-main-menu {
+		display: none;
+	}
+	#block-pgc-misc-blocks-mobilenav {
+		top: 0px !important;
+	}
+	.subnav-mobile-mask > ul#main-menu {
+		display: grid;
+	}
+
+}
+

@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+#socialShare, #sideCol { display: none }
+#leftNav .mainLink { font-size: 1.2em }
+#leftNav li.navLink { padding-top: 9px; padding-bottom: 9px; }
+#pageWrapper { position: relative; background-color: #fff  }
+#pageWrapper #rightCol { padding: 8px }
+/*#pageWrapper #rightCol img { height: auto }*/
+/*CTM Tab */
+#ctmTabWrap, .slide-out-div { width: 1px; height: 1px; display: none }
+/* sub navigation styles */
+#subNav, .newsBox { margin-bottom: 10px; background-color: #F3F3F3; z-index: 9999; pointer-events: auto; }
+.newsBox { margin: 0 0 25px 20px; border: 1px solid #CBCBCB; }
+#subNav h2, .newsBox h2 { background-color: #006752; color: #fff; padding: 6px 12px; text-align: center }
+#subNav ul, .newsBox ul { list-style: none; padding: 0; margin: 0 }
+#subNav li { padding: 5px 15px; font-size: .85em; background-image: url(/sites/all/themes/skidmore/cssAssets/nav-border-dk.png); background-position: bottom; background-repeat: repeat-x }
+#subNav li:last-child { background-image: none; padding-bottom: 8px }
+#subNav ul a { color: #767676; text-decoration: none }
+#subNav ul a:hover { color: #fd9417 }
+.navMargin { margin-left: 20px; margin-right: 20px }
+@media screen and (max-width: 499px){
+#rightCol img { max-width: 99% }
+#subNav { width: 100% }
+}
+@media screen and (min-width: 500px) {
+#pageWrapper { min-width: 935px; width: 92%; max-width: 1035px; }
+#logo-light { display: none }
+#leftNav { margin-top: 47px; padding: 0 }
+/* quick link changes */
+.quickLinks { -moz-box-shadow: -2px 0 5px -2px #666; -webkit-box-shadow: -2px 0 5px -2px #666; box-shadow: -2px 0 5px -2px #666 }
+/* navigation changes */
+li.navLink ul { -moz-box-shadow: 1px 0 3px #ccc; -webkit-box-shadow: 1px 0 3px #ccc; box-shadow: 1px 0 3px #ccc }
+/* right content column */
+#pageWrapper #rightCol { position: relative; float: left; overflow: hidden; margin-top: 100px; margin-right: 5px; padding: 10px 0 40px 5px; min-width: 490px; width: 69%; z-index: 8 }
+@media screen and (max-width: 1040px) {
+	#pageWrapper #rightCol { width: 70% }
+}@media screen and (min-width: 1041px) and (max-width: 1080px) {
+	#pageWrapper #rightCol { width: 71% }
+}@media screen and (min-width: 1081px) and (max-width: 1100px) {
+	#pageWrapper #rightCol { width: 71.5% }
+}@media screen and (min-width: 1101px) {
+	#pageWrapper #rightCol { width: 72.5% }
+}
+#mainContent { position: relative; padding-right: 20px; }
+#pageWrapper #rightCol img { max-width: 100%; height: auto }
+/* side column */
+#sideCol { display: block; position: relative; float: right; width: 24%; max-width: 170px; padding: 3px 8px 0 10px; margin: 0; z-index: 99999;  }
+#newsCol { display: block; position: relative; float: right; width: 30%; max-width: 225px; /*margin: 0 0 0 10px*/  }
+/* sub navigation styles */
+#subNav { float: right; max-width: 190px; border: 2px solid #CBCBCB }
+#subNav h2 { background-color: #006752; }
+.newsBox li { padding: 8px 15px; font-size: .85em; border-bottom: 1px solid #CBCBCB }
+.newsBox li:last-child { border-bottom: 0 }
+.newsBox li a { text-decoration: none }
+
+/* social share icons */
+#socialShare { display: block; position: absolute; right: -74px; top: 0; padding: 12px 0 12px 8px; background-color: #fff; width: 66px;/* border */
+	-moz-border-radius: 0 5px 5px 0; -webkit-border-radius: 0 5px 5px 0; -khtml-border-radius: 0 5px 5px 0; border-radius: 0 5px 5px 0;}
+#socialShare ul { list-style: none; padding: 0; margin: 0 }	
+#socialShare ul li { padding: 0 0 6px 0 }
+#socialShare .st_facebook_hcount { background-image: url(/sites/all/themes/skidmore/cssAssets/facebook_20x20.png); background-repeat: no-repeat }
+#socialShare .st_twitter_hcount { background-image: url(/sites/all/themes/skidmore/cssAssets/twitter_20x20.png); background-repeat: no-repeat }
+#socialShare .st_googleplus_hcount { background-image: url(/sites/all/themes/skidmore/cssAssets/google_20x20.png); background-repeat: no-repeat }
+#socialShare .st_email_hcount { background-image: url(/sites/all/themes/skidmore/cssAssets/email_20x20.png); background-repeat: no-repeat }
+#socialShare .st_pinterest_hcount { background-image: url(/sites/all/themes/skidmore/cssAssets/icon-pinterest-20.png); background-repeat: no-repeat; }
+#socialShare .st-facebook-counter, #socialShare .st-twitter-counter, #socialShare .stButton_gradient, #socialShare .stButton, #socialShare .st-email-counter, #socialShare .st-pinterest-counter { display: none }
+#socialShare .stArrow { margin-left: 18px; }
+footer { bottom: 33px; }
+/* facebook button */
+.connect_button_container { display: none }
+}

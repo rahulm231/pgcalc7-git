@@ -1,0 +1,111 @@
+.content{
+	padding-bottom:0px;
+}
+
+#block-pgc-contact-block-pgc-contact-block, #block-system-main-menu, #block-pgc-resource-block-pgc-resource-block{
+	margin-bottom: 31px;
+    font-size: 17px;
+    color: #1f1f1f;
+    background: #cbcccd;    
+}
+
+#block-pgc-resource-block-pgc-resource-block{
+	padding: 10px 15px;
+}
+
+
+
+#block-system-main-menu .content ul li a.active-trail:after{
+	content:"\f078";
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:12px;
+	position: absolute;
+    top: 5px;
+    right: 25px;
+}
+
+ul#menu-preheader {
+    float: right;
+}
+
+#menu-preheader {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu-preheader > li {
+    float: left;
+    position: relative;
+}
+
+input#search-box {
+    color: #222;
+}
+
+.menu-search input[type=search] {
+    box-sizing: border-box;
+    background: #ededed url(https://www.plymouth.edu/wp-content/themes/psu/images/search-icon.png) no-repeat 9px center;
+    background-size: 14px;
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 26px;
+    margin: 6px 10px;
+    width: 90px;
+    height: 30px;
+    -webkit-border-radius: 8em;
+    -moz-border-radius: 8em;
+    border-radius: 8em;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+#menu-preheader > li > a {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/*
+
+#block-system-main-menu .content ul li.expanded.active-trail > a{
+	background: #9b9c9d;
+    color: #11573f;
+    font-weight: bold;
+}
+
+#block-system-main-menu .content > ul > li.active-trail ul li a{
+	padding-left:15px;
+}
+
+#block-system-main-menu .content ul > li.expanded.active-trail > ul > li.expanded.active-trail > ul >li{
+    border-top: 1px dashed #fff;
+    background: #e5e6e7;
+    color: #1f1f1f;
+}
+
+#block-system-main-menu .content ul > li.expanded.active-trail > ul > li.expanded.active-trail > ul >li.active-trail{
+    background: #bbbcbd;
+    color: #11573f;
+}
+
+#block-system-main-menu .content ul li.collapsed > a:after{
+	content:"\f078";
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:12px;
+}
+
+#block-system-main-menu .content ul li.expanded > a:after{
+	content:"\f077";
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:12px;
+}
+*/	

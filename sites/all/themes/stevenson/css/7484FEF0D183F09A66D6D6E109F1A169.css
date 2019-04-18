@@ -1,0 +1,555 @@
+
+#test  .class {
+}
+li.call_to_action_apply:hover {
+	box-shadow : none;
+	cursor : pointer;
+}
+li.call_to_action_apply a {
+	display : block;
+	color : #fff;
+	font-size : 14px;
+	line-height : normal;
+	font-family : "Merriweather Sans", sans-serif;
+	font-weight : 300;
+	padding : 15px 15px 15px 35px;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_apply.png);
+	background-repeat : no-repeat;
+	background-position : 10px center;
+}
+li.call_to_action_plan_visit:hover {
+	box-shadow : none;
+	cursor : pointer;
+}
+li.call_to_action_plan_visit a {
+	display : block;
+	color : #fff;
+	font-size : 14px;
+	line-height : normal;
+	font-family : "Merriweather Sans", sans-serif;
+	font-weight : 300;
+	padding : 15px 15px 15px 35px;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_visit.png);
+	background-repeat : no-repeat;
+	background-position : 10px center;
+}
+li.call_to_action_attend_event:hover {
+	box-shadow : none;
+	cursor : pointer;
+}
+li.call_to_action_attend_event a {
+	display : block;
+	color : #fff;
+	font-size : 14px;
+	line-height : normal;
+	font-family : "Merriweather Sans", sans-serif;
+	font-weight : 300;
+	padding : 15px 15px 15px 35px;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_calendar.png);
+	background-repeat : no-repeat;
+	background-position : 10px center;
+}
+li.call_to_action_request_info:hover {
+	box-shadow : none;
+	cursor : pointer;
+}
+li.call_to_action_request_info a {
+	display : block;
+	color : #fff;
+	font-size : 14px;
+	line-height : normal;
+	font-family : "Merriweather Sans", sans-serif;
+	font-weight : 300;
+	padding : 15px 15px 15px 35px;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_info.png);
+	background-repeat : no-repeat;
+	background-position : 10px center;
+}
+li.call_to_action_chat:hover {
+	box-shadow : none;
+	cursor : pointer;
+}
+li.call_to_action_chat a {
+	display : block;
+	color : #fff;
+	font-size : 14px;
+	line-height : normal;
+	font-family : "Merriweather Sans", sans-serif;
+	font-weight : 300;
+	padding : 15px 15px 15px 35px;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_chat.png);
+	background-repeat : no-repeat;
+	background-position : 10px center;
+}
+li.call_to_action_update_info:hover {
+	box-shadow : none;
+	cursor : pointer;
+}
+li.call_to_action_update_info a {
+	display : block;
+	color : #fff;
+	font-size : 16px;
+	line-height : normal;
+	font-family : "Merriweather Sans", sans-serif;
+	padding : 15px 15px 15px 35px;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_address_book.png);
+	background-repeat : no-repeat;
+	background-position : 10px center;
+}
+li.call_to_action_submit_note:hover {
+	box-shadow : none;
+	cursor : pointer;
+}
+li.call_to_action_submit_note a {
+	display : block;
+	color : #fff;
+	font-size : 16px;
+	line-height : normal;
+	font-family : "Merriweather Sans", sans-serif;
+	padding : 15px 15px 15px 40px;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_newspaper.png);
+	background-repeat : no-repeat;
+	background-position : 10px center;
+}
+.box {
+	background-color : #fff;
+	margin-top : 10px;
+	padding-bottom : 15px;
+}
+.box_title_wrapper {
+	overflow : hidden;
+}
+.box_title {
+	float : left;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_blue_box.png);
+	background-repeat : no-repeat;
+	background-position : 7px bottom;
+}
+.alert_content {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_warning.png);
+	background-repeat : no-repeat;
+	background-position : left center;
+	padding-left : 45px;
+	min-height : 33px;
+}
+.title_bar_pink {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_pink.png);
+	background-repeat : no-repeat;
+	background-position : 20px bottom;
+	overflow : auto;
+	z-index : 9990;
+	position : relative;
+}
+.title_bar_blue_dark {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_blue_dark.png);
+	background-repeat : no-repeat;
+	background-position : 20px bottom;
+	overflow : auto;
+	z-index : 9990;
+	position : relative;
+}
+.title_bar_blue_light {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_blue_light.png);
+	background-repeat : no-repeat;
+	background-position : 20px bottom;
+	overflow : auto;
+	z-index : 9990;
+	position : relative;
+}
+.title_bar_red {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_red.png);
+	background-repeat : no-repeat;
+	background-position : 20px bottom;
+	overflow : auto;
+	z-index : 9990;
+	position : relative;
+}
+a.link {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_link_list.png);
+	background-repeat : no-repeat;
+	background-position : left 6px;
+	padding-left : 15px;
+	display : inline-block;
+}
+ul.link_list {
+	margin : 0;
+	padding : 0;
+	list-style : none;
+}
+ul.link_list li:last-child {
+	border-bottom : 0;
+}
+ul.link_list a {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_link_list.png);
+	background-repeat : no-repeat;
+	background-position : left 10px;
+	padding : 5px 5px 5px 15px;
+	display : inline-block;
+}
+a.icon_rss {
+	text-indent : -9999px;
+	width : 30px;
+	height : 30px;
+	display : inline-block;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_rss.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	background-color : #0c4d44;
+	border-radius : 20px;
+	transition : background-color 0.5s ease-out;
+}
+a.icon_rss:hover {
+	background-color : #b3d335;
+}
+a.icon_facebook {
+	text-indent : -9999px;
+	width : 30px;
+	height : 30px;
+	display : inline-block;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_facebook.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	background-color : #0c4d44;
+	border-radius : 20px;
+	transition : background-color 0.5s ease-out;
+}
+a.icon_facebook:hover {
+	background-color : #b3d335;
+}
+a.icon_twitter {
+	text-indent : -9999px;
+	width : 30px;
+	height : 30px;
+	display : inline-block;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_twitter.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	background-color : #0c4d44;
+	border-radius : 20px;
+	transition : background-color 0.5s ease-out;
+}
+a.icon_twitter:hover {
+	background-color : #b3d335;
+}
+a.icon_youtube {
+	text-indent : -9999px;
+	width : 30px;
+	height : 30px;
+	display : inline-block;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_youtube.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	background-color : #0c4d44;
+	border-radius : 20px;
+	transition : background-color 0.5s ease-out;
+}
+a.icon_youtube:hover {
+	background-color : #b3d335;
+}
+a.icon_instagram {
+	text-indent : -9999px;
+	width : 30px;
+	height : 30px;
+	display : inline-block;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_instagram.png );
+	background-repeat : no-repeat;
+	background-position : center;
+	background-color : #0c4d44;
+	border-radius : 20px;
+	transition : background-color 0.5s ease-out;
+}
+a.icon_instagram:hover {
+	background-color : #b3d335;
+}
+a.icon_flickr {
+	text-indent : -9999px;
+	width : 30px;
+	height : 30px;
+	display : inline-block;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_flickr.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	background-color : #0c4d44;
+	border-radius : 20px;
+	transition : background-color 0.5s ease-out;
+}
+a.icon_flickr:hover {
+	background-color : #b3d335;
+}
+a.icon_pinterest {
+	text-indent : -9999px;
+	width : 30px;
+	height : 30px;
+	display : inline-block;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_pinterest.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	background-color : #0c4d44;
+	border-radius : 20px;
+	transition : background-color 0.5s ease-out;
+}
+a.icon_pinterest:hover {
+	background-color : #b3d335;
+}
+a.icon_linkedin {
+	text-indent : -9999px;
+	width : 30px;
+	height : 30px;
+	display : inline-block;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_linkedin.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	background-color : #0c4d44;
+	border-radius : 20px;
+	transition : background-color 0.5s ease-out;
+}
+a.icon_linkedin:hover {
+	background-color : #b3d335;
+}
+a.link_outlook {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_outlook.png) !important;
+	background-repeat : no-repeat !important;
+	background-position : left !important;
+	padding : 10px 10px 10px 35px !important;
+}
+a.link_blackboard {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_blackboard.png) !important;
+	background-repeat : no-repeat !important;
+	background-position : left !important;
+	padding : 10px 10px 10px 35px !important;
+}
+a.link_email {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_email.png) !important;
+	background-repeat : no-repeat !important;
+	background-position : left !important;
+	padding : 5px 5px 5px 25px !important;
+	display : inline-block !important;
+	font-size : 12px;
+}
+.details {
+}
+.content {
+	width : 100%;
+}
+.campus_callouts {
+}
+.question {
+}
+.contact {
+}
+.title {
+}
+.desc {
+}
+.callout {
+	color : #666;
+}
+table.styled_table {
+	width : 100%;
+	border-collapse : collapse;
+}
+table.styled_table th {
+	color : #6e5c58;
+	text-align : left;
+	padding : 0 10px 5px;
+	font-size : 16px;
+}
+table.styled_table td {
+	padding : 5px 10px;
+	vertical-align : top;
+}
+table.styled_table a {
+	text-decoration : underline;
+}
+.intro_text {
+	font-size : 16px;
+}
+ul.link_list li {
+	border-bottom : 1px dotted #cfd1d5;
+	padding : 5px 0;
+}
+ul.link_list.no_arrows a {
+	background-image : none;
+	padding : 5px;
+}
+.audiences {
+}
+ul.padded_ul {
+	padding : 0 0 0 15px;
+	margin : 10px 0 0 10px;
+}
+ul.padded_ul li {
+	padding-bottom : 5px;
+}
+.styled_table {
+}
+a.more_button {
+	background-color : #b4d333;
+	display : inline-block;
+	color : #004d43;
+	text-align : center;
+	text-transform : uppercase;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 12px;
+	line-height : normal;
+	text-decoration : none;
+	border-radius : 5px;
+	padding : 7px 15px;
+	margin-top : 20px;
+}
+a.more_button:hover {
+	background-color : #7c9905;
+	color : #fff;
+}
+hr {
+	background-color : #dfdfdf;
+	border : 0;
+	height : 1px;
+}
+a.back_to_top {
+	font-size : 12px;
+	padding : 0 0 4px 13px;
+	display : block;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_back_to_top.png);
+	background-repeat : no-repeat;
+	background-position : left 8px;
+	border-bottom : 1px solid #dfdfdf;
+}
+a.link_catalog {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_catalog.png) !important;
+	background-repeat : no-repeat !important;
+	background-position : left !important;
+	padding : 10px 10px 10px 35px !important;
+}
+ol.no_style li {
+	list-style-type : none;
+	padding-bottom : 10px;
+}
+ol.no_style {
+	padding-left : 10px;
+}
+.floating_content {
+}
+.image {
+}
+li.call_to_action_apply {
+	background-color : #d83e01;
+	box-shadow : 0 0 40px 0 #a83b10 inset;
+	transition : box-shadow 0.3s ease;
+}
+li.call_to_action_plan_visit {
+	background-color : #0194d8;
+	box-shadow : 0 0 40px 0 #1077a7 inset;
+	transition : box-shadow 0.3s ease;
+}
+li.call_to_action_attend_event {
+	background-color : #0194d8;
+	box-shadow : 0 0 40px 0 #1077a7 inset;
+	transition : box-shadow 0.3s ease;
+}
+li.call_to_action_request_info {
+	background-color : #ca1264;
+	box-shadow : 0 0 40px 0 #951d53 inset;
+	transition : box-shadow 0.3s ease;
+}
+li.call_to_action_chat {
+	background-color : #068170;
+	box-shadow : 0 0 40px 0 #136a5e inset;
+	transition : box-shadow 0.3s ease;
+}
+li.call_to_action_update_info {
+	background-color : #0096db;
+	box-shadow : 0 0 40px 0 #007db7 inset;
+	transition : box-shadow 0.3s ease;
+}
+li.call_to_action_submit_note {
+	background-color : #cc1168;
+	box-shadow : 0 0 40px 0 #b1115b inset;
+	transition : box-shadow 0.3s ease;
+}
+#history .year {
+	font-weight : bold;
+	font-size : 16px;
+	color : #999;
+	max-width : 100px;
+	border-bottom : solid thin;
+	border-color : #999;
+}
+#history p {
+	margin-top : 0;
+}
+.styled_form {
+}
+#history .illustration {
+	color : #666;
+	padding-top : 20px;
+	max-width : 400px;
+}
+#history .illustration img {
+	border : 10px solid #ddd;
+}
+.profile_pic {
+	border : 10px solid #ddd;
+}
+table.simple_table {
+	margin : 0 20px 20px;
+}
+table.simple_table td {
+	padding : 10px 20px 2px 0;
+	border-bottom : 1px solid #ccc;
+}
+table.simple_table th {
+	text-align : left;
+	border-bottom : 2px solid #777;
+	padding : 10px 20px 10px 0;
+	font-size : 1.1em;
+}
+tr.bar td {
+	border-bottom : 2px solid #777;
+}
+td {
+	padding-right : 20px;
+}
+.default_calendar .eventcalwrapper .SECalendarViewletItem {
+	width : 100%;
+}
+.default_calendar .eventcalwrapper .SECalendarViewletDetails .eventcalevent {
+	font-weight : normal;
+}
+.container_right .callout {
+	border : 2px solid #e0dede;
+	padding : 10px;
+}
+.faq li {
+	margin-bottom : 15px;
+}
+.faq li p {
+	margin-left : 25px;
+}
+a.icon_vimeo {
+}
+.request_info_button {
+}
+.request_info_button:hover {
+}
+.vbottom {
+	vertical-align : bottom;
+}
+.img_caption {
+	font-size : 0.95em;
+	color : #666;
+	background-color : #eee;
+	padding : 10px;
+}
+.photo-caption {
+	color : #999;
+	font-size : 0.9em;
+}
+table.styled_table > tbody > tr:nth-child(even) {
+	background-color : #f1f1f1;
+}
+table.styled_table > tbody > tr:nth-child(odd) {
+	background-color : #fff;
+}
+table.styled_table td.programs {
+}

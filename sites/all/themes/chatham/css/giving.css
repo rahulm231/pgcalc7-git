@@ -1,0 +1,43 @@
+nav ul#main-nav li {margin-right:1.2em;} 
+nav ul#main-nav a:link {text-transform:uppercase;font-size:0.9em;}
+.sidemenu { font-size:95%;}
+.sidemenu .home {font-size:105%;}
+.sidemenu a {padding-left:10px;width:170px;}
+.sidemenu li.home {padding-left:8px;}
+.sidemenu li a.home {
+	font-weight:bold;
+	color:#717171;
+	font-size:100%;
+	padding-left:0px;}
+
+#sidemenu #make-a-gift {text-align:center;}
+#sidemenu #make-a-gift img {margin:0}
+
+/*----------- END HEADER AND NAVIGATION STYLES -----------*/
+
+/*----------- HOMEPAGE STYLES ----------------------------*/
+
+
+
+/*----------- END HOMEPAGE STYLES ------------------------*/
+
+/*----------- FOOTER STYLES ---------------=--------------*/
+
+#footer-outer {height:230px;}
+
+/*----------- END FOOTER STYLES --------------------------*/
+
+
+.contact b {color:#555;font-size:1.2em;} 
+#right-side-content {float:right;width:200px;margin-top:10px;}
+#right-side-content h2 {background-color:#cad1b0; padding:10px 0; margin:0; width:100%; text-align:center; color:#717171; font-weight:normal; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; font-size:100%;}
+.side-content {float:left;width:100%;line-height:1.6em;background-color:#f1f1f1;margin-top:3px;}
+.side-content a {color:#777;} 
+.side-content ul {font-size:95%; padding:10px 5px 10px 10px; margin:0 0 0 20px;}
+.side-content li:hover,.side-content li:hover a, .side-content a:hover {color:#e19000; } 
+
+
+@media only screen and (min-width: 775px) { 
+	#sidemenu #make-a-gift {text-align:left;}
+	#sidemenu #make-a-gift img {border-top:3px solid #dde1d0;border-bottom:3px solid #dde1d0;}
+}

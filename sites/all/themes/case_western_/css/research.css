@@ -1,0 +1,112 @@
+p a {
+    color: #3168a6;
+}
+
+a:hover {
+    color: #333;
+}
+
+.aboutbox {
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.aboutbox p {
+    font-size: 40px;
+}
+
+.aboutbox h5 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.aboutbox a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.schoollist a {
+    color: #3168a6;
+    font-size: 28px;
+}
+
+.schoollist li {
+    padding: 1em;
+}
+
+.schoollist {
+    margin-left: 5em;
+}
+
+h2 a {
+    color: #3168a6;
+}
+
+.cbp-ig-title-lg {
+    font-size: 5em !important;
+}
+
+.cbp-ig-title {
+    font-size: 1.25em !important;
+    line-height: 1.5em !important;
+}
+
+.cbp-ig-grid {
+    display: table;
+    width: 100%;
+}
+
+.cbp-ig-grid li {
+    display: table-cell;
+    width: 33.3%;
+    height: auto;
+    border-top: none !important;
+}
+
+.itemRow3 {
+    display: table-row;
+}
+
+.cbp-ig-grid li>h2 {
+    padding-bottom: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+@media (max-width: 979px) {
+    .cbp-ig-title-lg {
+        font-size: 3em !important;
+        padding: 10px 0 10px 0 !important;
+        margin: 30px 0 10px 0 !important;
+    }
+    .cbp-ig-title {
+        font-size: 1em !important;
+        line-height: 1.25em !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .cbp-ig-title-lg {
+        font-size: 3em !important;
+        margin: 10px 0 !important;
+        padding: 10px 0 0px 0 !important;
+    }
+    .cbp-ig-title {
+        font-size: 1em !important;
+        line-height: 1.25em !important;
+    }
+    .itemRow3 {
+        display: block;
+    }
+    .cbp-ig-grid li {
+        width: 100%;
+        border-bottom: 1px dashed #d2d2d2;
+    }
+    .cbp-ig-grid div:last-child li:nth-child(3) {
+        border-bottom: none;
+    }
+    .cbp-ig-grid li>h2 {
+        margin: 10px 0 !important;
+    }
+}

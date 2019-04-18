@@ -1,0 +1,320 @@
+<?php
+
+/**
+ * Implementation of hook_theme().
+ * @param $existing
+ * @param $type
+ * @param $theme
+ * @param $path
+ * @return array
+ */
+function pgc_contact_block_theme($existing, $type, $theme, $path) {
+  return array(
+    'pgc_contact_block' => array(
+      'variables' => array(
+        'title' => NULL,
+        'lines' => NULL,
+      ),
+      'path' => $path,
+      'template' => 'pgc-contact-block'
+    ),
+    'pgc_contact_footer_block' => array(
+      'variables' => array(
+        'title' => NULL,
+        'lines' => NULL,
+      ),
+      'path' => $path,
+      'template' => 'pgc-contact-footer-block'
+    ),
+  );
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function pgc_contact_block_block_info() {
+  $blocks['pgc_contact_block'] = array(
+    'info' => t('Contact block'),
+    // This is the default.
+    'cache' => DRUPAL_CACHE_PER_ROLE,
+  );
+  $blocks['pgc_contact_footer_block'] = array(
+    'info' => t('Contact footer block'),
+    // This is the default.
+    'cache' => DRUPAL_CACHE_PER_ROLE,
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_configure().
+ */
+function pgc_contact_block_block_configure($delta = '') {
+  $form = array();
+  switch ($delta) {
+    case 'pgc_contact_block':
+      $icons = array('Staff', 'Call', 'Brochure', 'Gift', 'Talk', 'Email');
+      $icon_options = drupal_map_assoc($icons);
+      $form['lines'] = array(
+        '#type' => 'fieldset',
+        '#title' => t('Contact Methods'),
+        '#description' => 'You may set up to 4 different contact methods, each with their own icon and link.',
+        '#tree' => TRUE,
+      );
+
+      // Pull in the serialized array of lines.
+      $default_values = variable_get('contact_block_lines', FALSE);
+      if ($default_values) {
+        $default_values = unserialize($default_values);
+      }
+
+      for ($i = 1; $i < 5; $i++) {
+        // Check if values are set so PHP doesn't throw warnings.
+        $title = isset($default_values['line_' . $i]['title']) ? $default_values['line_' . $i]['title'] : '';
+        $icon = isset($default_values['line_' . $i]['icon']) ? $default_values['line_' . $i]['icon'] : '';
+        $link = isset($default_values['line_' . $i]['link']) ? $default_values['line_' . $i]['link'] : '';
+        $form['lines']['line_' . $i] = array(
+          '#type' => 'fieldset',
+          '#title' => t('Method') . " $i",
+          '#attributes' => array('class' => array('container-inline')),
+        );
+        $form['lines']['line_' . $i]['icon'] = array(
+          '#type' => 'select',
+          '#title' => t('Icon'),
+          '#options' => $icon_options,
+          '#default_value' => $icon,
+        );
+        $form['lines']['line_' . $i]['title'] = array(
+          '#type' => 'textfield',
+          '#title' => t('Text'),
+          '#size' => 60,
+          '#default_value' => $title,
+        );
+        $form['lines']['line_' . $i]['link'] = array(
+          '#type' => 'textfield',
+          '#title' => t('Link'),
+          '#size' => 60,
+          '#default_value' => $link,
+        );
+      }
+      break;
+
+    case 'pgc_contact_footer_block':
+      $icons = array('Staff', 'Call', 'Brochure', 'Gift', 'Talk', 'Email');
+      $icon_options = drupal_map_assoc($icons);
+      $form['lines'] = array(
+        '#type' => 'fieldset',
+        '#title' => t('Contact Methods'),
+        '#description' => 'You may set up to 2 different contact methods, each with their own icon and link.',
+        '#tree' => TRUE,
+      );
+
+      // Pull in the serialized array of lines.
+      $default_values = variable_get('contact_footer_block_lines', FALSE);
+      if ($default_values) {
+        $default_values = unserialize($default_values);
+      }
+
+      for ($i = 1; $i < 3; $i++) {
+        // Check if values are set so PHP doesn't throw warnings.
+        $title = isset($default_values['line_' . $i]['title']) ? $default_values['line_' . $i]['title'] : '';
+        $icon = isset($default_values['line_' . $i]['icon']) ? $default_values['line_' . $i]['icon'] : '';
+        $link = isset($default_values['line_' . $i]['link']) ? $default_values['line_' . $i]['link'] : '';
+        $form['lines']['line_' . $i] = array(
+          '#type' => 'fieldset',
+          '#title' => t('Method') . " $i",
+          '#attributes' => array('class' => array('container-inline')),
+        );
+        $form['lines']['line_' . $i]['icon'] = array(
+          '#type' => 'select',
+          '#title' => t('Icon'),
+          '#options' => $icon_options,
+          '#default_value' => $icon,
+        );
+        $form['lines']['line_' . $i]['title'] = array(
+          '#type' => 'textfield',
+          '#title' => t('Text'),
+          '#size' => 60,
+          '#default_value' => $title,
+        );
+        $form['lines']['line_' . $i]['link'] = array(
+          '#type' => 'textfield',
+          '#title' => t('Link'),
+          '#size' => 60,
+          '#default_value' => $link,
+        );
+      }
+      break;
+  }
+  return $form;
+}
+
+/**
+ * Implements hook_block_save().
+ */
+function pgc_contact_block_block_save($delta = '', $edit = array()) {
+  switch ($delta) {
+    case 'pgc_contact_block':
+      if (isset($edit['title'])) {
+        variable_set('contact_block_title', $edit['title']);
+      }
+      $lines = serialize($edit['lines']);
+      variable_set('contact_block_lines', $lines);
+      break;
+
+    case 'pgc_contact_footer_block':
+      if (isset($edit['title'])) {
+        variable_set('contact_footer_block_title', $edit['title']);
+      }
+      $lines = serialize($edit['lines']);
+      variable_set('contact_footer_block_lines', $lines);
+      break;
+  }
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function pgc_contact_block_block_view($delta = '') {
+  switch ($delta) {
+    case 'pgc_contact_block':
+      $block['subject'] = variable_get('contact_block_title', 'Talk to Us');
+      $block['content']['#markup'] = theme('pgc_contact_block', array('lines' => unserialize(variable_get('contact_block_lines'))));
+      break;
+
+    case 'pgc_contact_footer_block':
+      $block['subject'] = '';
+      $vars = array(
+        'title' => variable_get('contact_footer_block_title', 'Get Started: Talk to Us'),
+        'lines' => unserialize(variable_get('contact_footer_block_lines')),
+      );
+      $block['content']['#markup'] = theme('pgc_contact_footer_block', $vars);
+      break;
+  }
+  return $block;
+}
+
+/**
+ * Implements hook_views_api().
+ */
+function pgc_contact_block_views_api() {
+  return array("api" => "3.0");
+}
+
+/**
+ * Implements hook_views_default_views().
+ */
+function pgc_contact_block_views_default_views() {
+  $views = array();
+
+  $view = new view();
+  $view->name = 'contacts';
+  $view->description = 'Used to display Contact nodes on the Contact page';
+  $view->tag = 'default';
+  $view->base_table = 'node';
+  $view->human_name = 'Contacts';
+  $view->core = 7;
+  $view->api_version = '3.0';
+  $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
+
+  /* Display: Master */
+  $handler = $view->new_display('default', 'Master', 'default');
+  $handler->display->display_options['title'] = 'Contacts';
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['access']['type'] = 'perm';
+  $handler->display->display_options['cache']['type'] = 'none';
+  $handler->display->display_options['query']['type'] = 'views_query';
+  $handler->display->display_options['exposed_form']['type'] = 'basic';
+  $handler->display->display_options['pager']['type'] = 'none';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
+  /* Footer: Global: Unfiltered text */
+  $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['content'] = '<div class="clear"></div>';
+  /* Field: Content: Photo */
+  $handler->display->display_options['fields']['field_contact_photo']['id'] = 'field_contact_photo';
+  $handler->display->display_options['fields']['field_contact_photo']['table'] = 'field_data_field_contact_photo';
+  $handler->display->display_options['fields']['field_contact_photo']['field'] = 'field_contact_photo';
+  $handler->display->display_options['fields']['field_contact_photo']['label'] = '';
+  $handler->display->display_options['fields']['field_contact_photo']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_contact_photo']['element_default_classes'] = FALSE;
+  $handler->display->display_options['fields']['field_contact_photo']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_contact_photo']['settings'] = array(
+    'image_style' => 'medium',
+    'image_link' => '',
+  );
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
+  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title']['element_wrapper_type'] = 'div';
+  $handler->display->display_options['fields']['title']['element_wrapper_class'] = 'name';
+  $handler->display->display_options['fields']['title']['element_default_classes'] = FALSE;
+  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
+  /* Field: Content: Position */
+  $handler->display->display_options['fields']['field_position']['id'] = 'field_position';
+  $handler->display->display_options['fields']['field_position']['table'] = 'field_data_field_position';
+  $handler->display->display_options['fields']['field_position']['field'] = 'field_position';
+  $handler->display->display_options['fields']['field_position']['label'] = '';
+  $handler->display->display_options['fields']['field_position']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_position']['element_wrapper_type'] = 'div';
+  $handler->display->display_options['fields']['field_position']['element_wrapper_class'] = 'position';
+  $handler->display->display_options['fields']['field_position']['element_default_classes'] = FALSE;
+  $handler->display->display_options['fields']['field_position']['hide_empty'] = TRUE;
+  $handler->display->display_options['fields']['field_position']['type'] = 'text_plain';
+  /* Field: Content: Telephone number */
+  $handler->display->display_options['fields']['field_telephone_number']['id'] = 'field_telephone_number';
+  $handler->display->display_options['fields']['field_telephone_number']['table'] = 'field_data_field_telephone_number';
+  $handler->display->display_options['fields']['field_telephone_number']['field'] = 'field_telephone_number';
+  $handler->display->display_options['fields']['field_telephone_number']['label'] = 'Phone';
+  $handler->display->display_options['fields']['field_telephone_number']['element_type'] = '0';
+  $handler->display->display_options['fields']['field_telephone_number']['element_wrapper_type'] = 'div';
+  $handler->display->display_options['fields']['field_telephone_number']['element_wrapper_class'] = 'phone';
+  $handler->display->display_options['fields']['field_telephone_number']['element_default_classes'] = FALSE;
+  $handler->display->display_options['fields']['field_telephone_number']['hide_empty'] = TRUE;
+  $handler->display->display_options['fields']['field_telephone_number']['type'] = 'text_plain';
+  /* Field: Content: Email address */
+  $handler->display->display_options['fields']['field_email_address']['id'] = 'field_email_address';
+  $handler->display->display_options['fields']['field_email_address']['table'] = 'field_data_field_email_address';
+  $handler->display->display_options['fields']['field_email_address']['field'] = 'field_email_address';
+  $handler->display->display_options['fields']['field_email_address']['label'] = 'Email';
+  $handler->display->display_options['fields']['field_email_address']['alter']['make_link'] = TRUE;
+  $handler->display->display_options['fields']['field_email_address']['alter']['path'] = 'mailto:[field_email_address-value]';
+  $handler->display->display_options['fields']['field_email_address']['element_type'] = '0';
+  $handler->display->display_options['fields']['field_email_address']['element_wrapper_type'] = 'div';
+  $handler->display->display_options['fields']['field_email_address']['element_wrapper_class'] = 'email';
+  $handler->display->display_options['fields']['field_email_address']['element_default_classes'] = FALSE;
+  $handler->display->display_options['fields']['field_email_address']['hide_empty'] = TRUE;
+  $handler->display->display_options['fields']['field_email_address']['type'] = 'text_plain';
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'contact' => 'contact',
+  );
+
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block');
+  $views[$view->name] = $view;
+
+// return views
+  return $views;
+}

@@ -1,0 +1,479 @@
+
+nly screen and (max-width:960px) {
+#scroll {
+    display:none
+}
+}
+
+@media only screen and (max-width:45em) {
+
+body,body.give-template {
+    background:url(/sites/all/themes/carnegiemellon/cssAssets/bg-redbar.gif) repeat-x scroll 0 0 #fff!important;
+    font-size:100%;
+    line-height:1.35em
+}
+
+header,article#feature,section,footer nav,#plaid div,.error,.success,.warning {
+    width:auto!important
+}
+
+header {
+    height:auto;
+    padding:0 20px
+}
+
+header aside.login {
+    position:relative;
+    left:0;
+    top:0;
+    padding:1em 20px 2em 0;
+    clear:both
+}
+
+header aside.login ul#nav4 li {
+    clear:both;
+    float:left
+}
+
+#wordmark {
+    background-image:url(/sites/all/themes/carnegiemellon/cssAssets/sprites.png);
+    background-position:0 -62px;
+    height:38px;
+    width:100%
+}
+
+#ContentFooterNav{
+    width:940px;
+}
+
+aside.login ul li {
+    clear:both
+}
+
+header aside.login a,header aside.login input {
+    margin:0 0 10px;
+    display:block;
+    float:none!important
+}
+
+aside.login #undefined__drag,header aside.social-media,header aside#search,header nav,#scroll,#plaid {
+    display:none
+}
+
+aside.social-media {
+    height:auto;
+    width:auto;
+    display:none;
+}
+
+section#content article li,section#content article dt,section#content article dd {
+    padding:10px!important
+}
+
+.social-media a {
+    background:url(/sites/all/themes/carnegiemellon/cssAssets/sprites.png) no-repeat 0 0 transparent;
+    display:inline-block;
+    float:none;
+    height:48px;
+    margin-right:5px;
+    width:48px
+}
+
+.social-media a.facebook:hover,.social-media a.facebook:focus {
+    background-position:0 0
+}
+
+.social-media a.twitter {
+    background-position:-50px 0
+}
+
+.social-media a.twitter:hover,.social-media a.twitter:focus {
+    background-position:-50px 0
+}
+
+.social-media a.linkedin {
+    background-position:-100px 0
+}
+
+.social-media a.linkedin:hover,.social-media a.linkedin:focus {
+    background-position:-100px 0
+}
+
+.social-media a.youtube {
+    background-position:-150px 0
+}
+
+.social-media a.youtube:hover,.social-media a.youtube:focus {
+    background-position:-150px 0
+}
+
+.social-media a.flickr {
+    background-position:-250px 0;
+    display:none
+}
+
+.social-media a.flickr:hover,.social-media a.flickr:focus {
+    background-position:-250px 0;
+    display:none
+}
+
+.social-media a.more,footer nav aside .social-media .more {
+    background-position:-200px 0;
+    box-shadow:none;
+    width:24px
+}
+
+.social-media a.more:hover,.social-media a.more:focus,footer nav aside .social-media .more:hover,footer nav aside .social-media .more:focus {
+    background-position:-200px 0
+}
+
+header aside#search {
+    float:right;
+    max-width:300px;
+    overflow:hidden;
+    padding:10px 0;
+    position:relative;
+    right:0;
+    top:0
+}
+
+article#feature img {
+    float:none;
+    margin-bottom:.5em
+}
+
+#home .events {
+    float:none;
+    margin:0;
+    width:auto!important
+}
+
+aside#give-now {
+    display:inline-block;
+    left:20px;
+    padding-top:3em;
+    position:relative
+}
+
+iframe {
+    max-width:100%!important
+}
+
+section#content article {
+    margin-left:0;
+    padding:0 20px;
+    width:auto!important;
+    clear:both!important
+}
+
+section#content article img,h1 img,#home article img,.promo a img {
+    border:none 0!important;
+    box-shadow:none!important;
+    height:auto!important;
+    max-width:100%!important;
+    padding:0!important
+}
+
+section#content article table img {
+    margin-bottom:0;
+    min-width:20px
+}
+
+section#content article table img[title=Required] {
+    min-width:0
+}
+
+section#content article aside {
+    float:none;
+    padding:0;
+    width:auto!important
+}
+
+section#content article ul,section#content article dl,section#content article ol {
+    margin:0
+}
+
+h1,h2,h3,h4,h5,h6,section#subfeatures h1 {
+    font-size:1.8em
+}
+
+h2 {
+    font-size:1.3em
+}
+
+section#subfeatures p,h3,h4,h5,h6 {
+    font-size:1em
+}
+
+table {
+    font-size:100%;
+    max-width:100%;
+    min-width:0!important;
+    width:auto!important
+}
+
+td,tr,tbody,table {
+    white-space:normal!important
+}
+
+section#content nav {
+    border-bottom:0;
+    margin-top:3em;
+    padding:1em 20px;
+    position:relative;
+    top:0;
+    width:auto!important
+}
+
+td,tr,tbody,section#content nav ul,section#content nav ul ul,section#content nav ul ul li,section#content nav ul ul li.standard,section#content nav ul ul li.ancestor,section#content nav ul ul li.parent,section#content nav ul ul li.active,section#content nav ul ul ul,section#content nav ul ul ul ul,section#content nav ul ul ul ul ul {
+    font-size:100%
+}
+
+a.btn,button,input.button,a.btn:hover,a.btn:focus,button:hover,button:focus,input.button:hover,input.button:focus {
+    background:url(../images/sprites-bg-btns.png) repeat-x scroll 0 0 #900;
+    font-size:1em;
+    height:auto;
+    max-height:100%;
+    padding:8px 10px
+}
+
+article#feature .sideButtons>div {
+    background:none #464646;
+    width:auto!important;
+    float:none;
+    padding:1em 14px .8em;
+    max-height:100%;
+    margin:1em 0
+}
+
+article#feature .sideButtons a {
+    padding-right:10%;
+    width:90%
+}
+
+blockquote {
+    margin:0!important;
+    padding:0!important
+}
+
+footer {
+    font-size:.8em;
+    min-width:0;
+    padding:2em 20px 3em;
+    width:940px;
+}
+
+footer nav {
+    display:block;
+    font-size:1em;
+    padding:0 0 5em
+}
+
+footer nav ul li {
+   /* width:auto;
+    float:none */
+    margin-right:5px;
+}
+
+footer nav ul li a {
+    display:inline-block;
+    line-height:1.5em;
+    padding-top:1.5em;
+    width:auto
+}
+
+footer nav ul li ul li a {
+    padding-top:.5em
+}
+
+footer nav aside {
+    /* float:none; */
+    margin-top:2.5em
+}
+
+article#feature,article#feature .sideButtons,article#feature .mainTxt {
+    float:none;
+    margin:0;
+    padding:0;
+    width:auto!important
+}
+
+article#feature {
+    padding:3em 20px 0
+}
+
+article#feature p,article#feature .sideButtons>div {
+    font-size:1em
+}
+
+article#feature a small,p small,small {
+    font-size:.8em
+}
+
+article#feature,section#content {
+    margin-top:0
+}
+
+section#subfeatures article,section#subfeatures aside,#promo a {
+    float:none;
+    margin:0;
+    width:auto!important;
+    padding:2em 20px 0
+}
+
+#promo {
+    margin-top:3em
+}
+
+.promo {
+    float:none;
+    margin:3em 0 0;
+    width:auto!important
+}
+
+.floatleft,.floatright {
+    display:block;
+    float:none;
+    margin:.5em 0
+}
+
+input,textarea,fieldset {
+    max-width:100%;
+    width:auto!important
+}
+
+select {
+    width:100%!important
+}
+
+#structFrnds,#structFrnds .structFrnd {
+    width:auto!important;
+    min-width:100%!important
+}
+
+#structFrnds .pad,#structFrnds .structLft .pad {
+    padding:0!important
+}
+
+#structFrnds li a {
+    padding:.5em 1.8em!important;
+    width:auto!important
+}
+
+.imod_RichPanelGenericHeader {
+    background-image:none!important
+}
+
+#dHelpFrame,.HelpContent,.HelpIcons,.ControlWindow {
+    left:0!important;
+    width:auto!important
+}
+
+section#content nav ul ul ul ul li.active a {
+    color:#900!important
+}
+
+.RadPicker {
+    width:auto!important
+}
+
+#initium-boxes #left {
+    float:none!important;
+    width:auto!important;
+    background:#fff!important;
+    border:0 none!important;
+    border-radius:10px!important
+}
+
+#initium-boxes #right {
+    width:auto!important;
+    float:none!important;
+    border:0!important
+}
+
+#initium-boxes #i_dialog2 {
+    width:100%!important;
+    height:auto!important;
+    padding:0!important;
+    left:auto!important;
+    position:absolute!important;
+    top:25em!important
+}
+
+.logo_PNG {
+    display:none!important
+}
+
+#initium-boxes #initium_example {
+    border:none!important;
+    width:auto!important
+}
+
+#initium-boxes #upBtn {
+    margin-top:0!important;
+    margin-left:0!important;
+    position:relative!important;
+    top:2em!important;
+    left:1em!important
+}
+
+#initium-boxes #dnBtn {
+    margin-top:0!important;
+    margin-left:0!important;
+    position:relative!important;
+    top:2em!important;
+    left:1.5em!important
+}
+
+#give-template section#content {
+    background-image:none;
+    margin:0
+}
+
+#give-template section#content div#form {
+    width:auto
+}
+
+#promo,.snippetrow #promo {
+    padding:2em 20px 0
+}
+
+#promo a,.snippetrow #promo a {
+    padding:0
+}
+
+.snippetrow li {
+    padding:10px 0 0
+}
+
+.snippetrow {
+    text-align:left;
+    padding-top:10px
+}
+
+#promo .contactIcons ul li a,.contactIcons ul li a,.snippetrow #promo .contactIcons ul li a {
+    color:#d17702;
+    text-decoration:underline
+}
+
+#promo .promo:last-child {
+    padding-left:0
+}
+}
+
+#ContentMiddle .idbmsOuterTable_User .RadPicker input[type="text"] {
+    width:100%!important
+}
+
+header nav ul li {
+    padding-right:21px!important
+}
+
+nav#ContentTopNav #DonorResources ul#nav3 li a {
+    float:right
+}
+
+td ul,td ol {
+    margin-left:40px;
+    padding-bottom:1.5em
+}

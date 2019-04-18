@@ -1,0 +1,222 @@
+/****************   CUSTOM STYLES   ***********************/
+
+/* Global Typography */
+h1 {color:#00678F;}
+h1#page-title {color:white;}
+h2,h3 {color:#00678F;}
+div#breadcrumb {color:white;}
+.ui-widget-content a {color:#49a7b7;}
+a:hover {color:#636262; text-decoration:underline;}
+.bginline {color:white; background-color:#00678F; display:inline; float:left;}
+.clear-both {clear:both; margin-top:10px;}
+div.breadcrumb a {color:white;}
+.pad {padding:1.2em; box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.gallery {display:block; margin-left:auto; margin-right:auto;}
+hr {border-top:1px solid #cccccc;}
+
+@font-face {
+    font-family:'aller_lightregular';
+    src: url('/sites/all/themes/summit_health/cssAssets/aller_lt-webfont.eot');
+    src: url('/sites/all/themes/summit_health/cssAssets/aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/sites/all/themes/summit_health/cssAssets/aller_lt-webfont.woff') format('woff'),
+         url('/sites/all/themes/summit_health/cssAssets/aller_lt-webfont.ttf') format('truetype'),
+         url('/sites/all/themes/summit_health/cssAssets/aller_lt-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Global theme changes */
+div#top-bar {background:#00678F; padding:5px 0;}
+#main {margin-top:25px;}
+
+/* Optional appearance classes */
+.box {border:1px solid #ccc; box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; margin-bottom:.5em;}
+.grey {background-color:#f5f5f5; box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.info {background-color:#cef2f8; border-top:3px solid #333; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+
+/* Fix for the first set of drop-downs in the main menu, padding was not displaying correctly  */
+#main-menu ul.menu li.first ul.menu li a {padding: 0.4em 10px;}
+
+/* Front page Banner block title */
+div#block-views-classic-flex-banner-block h2 {display:none; visibility:none;}
+
+/*Front page - Summit Tools */
+article#node-6895 div.grid3 .col p {width:90%;}
+article#node-6895 div.grid3 .col h3 {width:90%; background-color:#00678f; padding-left:5px;}
+article#node-6895 div.grid3 .col h3 a {color:white; text-shadow:none;}
+
+/* Front page Services block */
+/* .view-front-services .inlineservices {display:inline-block; vertical-align:top; margin-bottom:0.2em; width:25%; *display:inline; *margin-right:0.2em; *zoom:1;} */
+div#block-views-front-services-block-2 {margin:20px 0;}
+
+/* Front page News Slideshow View  */
+div#postscript-bottom {margin-top:15px;}
+div#postscript-bottom div#block-views-news-slideshow-block {background:#eaeaea; padding:10px; margin-top:20px;}
+
+/* Space between header images and content */
+div.field-name-body {padding-top:10px;}
+
+/* Change font for Your Locations, Team, Service */
+div.field-name-field-assoc-location div.field-label, div.field-name-field-assoc-provider div.field-label, div.field-name-field-associated-service div.field-label
+{color:#00678F; font-weight:500; font-size:1.5em; margin:0 0 .6em 0; letter-spacing:-.055em;}
+
+/* Margin for Your Locations, Team, Service */
+div.field-name-field-assoc-location, div.field-name-field-assoc-provider, div.field-name-field-associated-service {margin-bottom:20px;}
+
+/* Search box in top corner of all pages, always displayed with an error class */
+.region-header form#views-exposed-form-search-page .form-item input.error {border:1px solid #cccccc;}
+.region-header form#views-exposed-form-search-page input.form-submit {margin-top:0;}
+#top-bar .region-top-bar-right .block {padding:0;}
+
+/* Find-a-Provder page and results pages */
+form#views-exposed-form-find-a-provider-page-with-page-title-1 {padding:1.2em; background-color:#f5f5f5;border:1px solid #ccc; box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; margin-bottom:1em;}
+form#views-exposed-form-find-a-provider-page-with-page-title-2 {padding:1.2em; background-color:#f5f5f5;border:1px solid #ccc; box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; margin-bottom:1em;}
+div.view-find-a-provider .button {margin-bottom:2em;}
+div.view-find-a-provider .views-row {margin-bottom:3em;}
+
+/*  Provider images and pages*/
+.views-field-field-provider-photo-path img, .provider-img img{width:75px; max-width:75px;}
+.docphoto img {background:none repeat scroll 0 0 #ffffff; border:1px solid #ccc; box-shadow:2px 2px 6px 3px rgba(0, 0, 0, 0.15); padding:4px;}
+#node-summit-providers-full-group-provider-photo img {background:none repeat scroll 0 0 #ffffff; border:1px solid #ccc; box-shadow:2px 2px 6px 3px rgba(0, 0, 0, 0.15); padding:4px; width:150px; max-width:150px;}
+#node-summit-providers-full-group-provider-photo, #node-summit-providers-full-group-addresses, #node-summit-providers-full-group-other-info {width:33%; display:inline; float:left; padding-bottom:20px;}
+#node-summit-providers-full-group-addresses p {margin:0;}
+#node-summit-providers-full-group-addresses a {padding-bottom:10px; margin-bottom:10px;}
+#node-summit-providers-full-group-other-info .field-label, #node-summit-providers-full-group-other-info h3.field-label{font-weight:normal; font-size:100%; color:#00678F;}
+#node-summit-providers-full-group-biography {clear:both;}
+table.non-wish-provider img.img-doc {width:75px; max-width:75px;}
+p.mobiledial {display:none; visibility:none;}
+.provideraddr {padding-bottom:10px;}
+div#block-views-find-a-provider-block-1 {padding-top:25px;}
+.field-type-taxonomy-term-reference ul.links li {float:none; padding:0; white-space:nowrap; line-height:1.5; font-size:100%;}
+
+/* All Services landing page */
+.view-services-landing .inlineservices {display:inline-block; vertical-align:top; margin-bottom:0.3em; width:33%; *display:inline; *margin-right:0.3em; *zoom:1;}
+./* Patient Portal & Button Styling (used throughout site) */
+.button {background:#fff url('/sites/all/themes/summit_health/cssAssets/bg-shade-light.png') repeat-x center bottom; border:1px solid #e4e4e4; border-bottom:1px solid #b4b4b4; border-left-color:#d2d2d2; border-right-color:#d2d2d2;
+  color:#3a3a3a; cursor:pointer; font-weight:normal; text-align:center; margin-top:1.6em; margin-bottom:0; margin-right:0.6em; padding:5px 17px; -webkit-border-radius:4px; border-radius:4px;}
+.button:hover {background:none; background-color:#ccc;}
+article#node-6972 .col-one-half, article#node-6972 .columns {box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+
+/* Geo Locations - Search and other styling  */
+input#edit-field-geofield-distance-distance {width:30px;}
+#node-summit-health-location-geo-full-group-arrive, #node-summit-health-location-geo-full-group-hours, #node-summit-health-location-geo-full-group-contact {width:32%; display:inline; float:left; padding-bottom:20px; padding-right:1%;}
+.node-summit-health-location-geo .field-name-body {clear:both; padding-top:20px;}
+.view-Locations-Geo h3 {margin: 0 0 0 0;}
+.view-Locations-Geo h2 {margin: .7em 0 0 0; font-size:1.7em;}
+div#block-views-geo-locations-all-block {margin-top:40px;}
+.views-field-field-geofield-distance {padding-bottom:20px;}
+.views-field-field-geofield-distance span.field-content {font-weight:bold;}
+form#views-exposed-form-locationsgeo-page {padding-bottom:10px;}
+#node-summit-health-address-full-group-our-address, #node-summit-health-address-full-group-our-building, #node-summit-health-address-full-group-our-location {width:32%; display:inline; float:left; padding-bottom:20px; padding-right:1%;} 
+#node-summit-health-address-default-group-our-address, #node-summit-health-address-default-group-our-building, #node-summit-health-address-default-group-our-location {width:32%; display:inline; float:left; padding-bottom:20px; padding-right:1%;} 
+article.node-summit-health-location-geo article.node-summit-health-address h2 a {text-decoration:none; color:#00678F; cursor:none;}
+article.node-summit-health-location-geo article.node-summit-health-address h2 a:hover {text-decoration:none; color:#00678F; cursor:none;}
+body.page-node-7015 .region-content .block {margin:0 0 20px 0;}
+.node-summit-health-location-geo .field-name-body .field-label {color:#00678F; font-weight:500; font-size:1.5em; margin:0 0 .6em 0; letter-spacing:-.055em;}
+
+/* Locations landing pages and Help & Highlighted regions */
+div.view-emergency-care-landing-page .col-one-third .innerbg {margin-bottom:2em;}
+div.view-emergency-care-landing-page .views-row:nth-child(3n+1){clear:both;}
+div.view-emergency-care-landing-page .view-header {padding-left:20px;}
+div.view-emergency-care-landing-page h3 {background-color:#f4f4f4;}
+.locationwrapper {padding-bottom:2em;}
+.locationwrapper  h3 {margin: 0 0 0 0;}
+.addresswrapper, .imagewrapper {float:left; padding-bottom:3em;}
+.addresswrapper {width:65%;}
+.imagewrapper {clear:right; width:35%;}
+.waitingwrapper h3 {color:#cc3333;}
+h1.waitingnumber {margin:0; padding:0; color:#99ba04; font-weight:800; font-size:1.4em; display:inline; padding-left:10px;}
+div.view-emergency-care-landing-page h3.waitingnumber {color:#99ba04; margin-bottom:0; padding-bottom:0; background-color:#ffffff;}
+h3.waitingnumber {color:#99ba04; margin-bottom:0; padding-bottom:0;}
+.xsmall {font-size:80%;}
+div.region-help {min-height:215px; border-top:1px solid #eaeaea; border-bottom:1px solid #eaeaea; text-shadow:1px 1px #ffffff; background-color:#f4f4f4; background-image:url(/sites/all/themes/summit_health/cssAssets/banner-shadow.png); background-repeat:no-repeat; background-position:top center;
+		padding:1em 0 1em 1em;}
+.region-help #block-block-31 {vertical-align:top; width:24%; display:inline-block; padding-top:10px;}
+#block-views-167e59faa3fc1715b9f64a1e9b75ca3c {vertical-align:top; width:72%; display:inline-block; padding-left:3%; padding-top:10px; border-left:1px solid #ccc; clear:right;}
+#highlighted .block {border:0; background-color:white; background-image:none;}
+
+
+/* Classes & Events */
+.node-classic-class-event-registration .field-name-field-cost {margin:10px 0;}
+#block-views-classes-events-block .views-row-last {margin-bottom:1em;}
+#block-views-classes-events-block h3 {margin-bottom:0;}
+#block-views-classes-events-block-1 h2 {font-size:1.4em; border-bottom:1px solid rgba(234, 234, 234, 1);}
+#block-views-classes-events-block-1 h3 {font-size:1.2em; line-height:20px; margin-bottom:0;}
+#block-views-classes-events-block-1 .views-row {margin-bottom:1em;}
+#block-views-classes-events-block-2 {margin:0; padding-bottom:1.5em; border-bottom:1px solid rgba(234, 234, 234, 1);}
+
+/* Ecards */
+div.view-summit-ecards {padding:10px;}
+div.view-summit-ecards h3 {background-color:#dcf1f9; padding:3px 0 3px 2px;}
+td.ecardcat {padding:0 15px;}
+td.ecardcat img {border:1px solid gray;}
+td.ecardcat a:link, td.ecardcat a:active, td.ecardcat a:visited, td.ecardcat a:hover {text-decoration:none; color:gray;}
+div.node-cardcontent {margin:0 20px 5px; border:2px solid gray;}
+form#ecard-form-create-ecard .form-item-mail-to {display:none;}
+form#ecard-form-create-ecard .form-item-mail-from {}
+form#ecard-form-create-ecard .form-item-card-delivered {display:none;}
+div#ecard-image {width:49%; float:left; border-right:1px solid gray;}
+div#ecard-body {width:49%; float:right;}
+div.spacer {clear:both;}
+.ecard {font-size:18px; line-height:2em;}
+.ecard .content {margin:10px 0;}
+#cardcontent #printlogo {display:none;}
+div#stamp {float:right;}
+#patientinfo, .ecard2 {display:none; visibility:none;}
+
+/* Donations */
+.commerce-paypal-ec-icon, .commerce-paypal-bml-icon {margin-bottom:10px;}
+
+/* Truven */
+.truven-footer a {text-decoration:none;}
+.truven-footer #footer-columns .content li {display:inline-block; padding: 0.4em 4px; border:none;}
+
+/* Search Results */
+div.view-search img {width:100px;}
+div.view-search div.views-row-last {margin-bottom:20px;}
+div.view-search h3 {border-bottom:1px solid rgba(234, 234, 234, 1);}
+
+/* Responsive embedded videos */
+.video-responsive {overflow:hidden; position:relative; padding-bottom:75%; padding-top:30px;}
+.video-responsive iframe,.video-responsive object, .video-responsive embed {left:0; top:0; height:100%; width:100%; position:absolute;}
+
+/****************   CUSTOM MEDIA QUERIES   ***********************/
+@media all and (max-width: 53em) and (min-width: 38em) {
+   .view-services-landing .inlineservices {width:49%;}
+   div#block-menu-block-2 {display:none; visibility:none;}
+   #navigation {margin: 1em 2px;}
+   div.view-emergency-care-landing-page .col-one-third .innerbg {border:1px solid #ccc; box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; margin-bottom:.5em; padding:1em;}
+}
+
+
+   
+
+@media all and (max-width: 37em) {
+   .view-services-landing .inlineservices, .view-emergency-care-landing-page .inlinelocations, .location-landing-plus-wait .inlinelocations {width:100%; padding-bottom:10px;}
+   div#block-menu-block-2 {display:none; visibility:none;}
+   div#block-views-exp-search-page {width:75%; margin:0 auto;}
+   #navigation {margin: 1em 2px;}
+   #node-summit-health-location-geo-full-group-arrive, #node-summit-health-location-geo-full-group-hours, #node-summit-health-location-geo-full-group-contact  {width:100%; display:block; float:none;}
+   #node-summit-health-address-full-group-our-address, #node-summit-health-address-full-group-our-building, #node-summit-health-address-full-group-our-location {width:100%; display:block; float:none;}
+   #node-summit-health-address-default-group-our-address, #node-summit-health-address-default-group-our-building, #node-summit-health-address-default-group-our-location {width:100%; display:block; float:none;}
+   div#ecard-image {width:100%; float:none; border-right:none;}
+   div#ecard-body {width:100%; float:none;}
+   div.node-cardcontent {margin:0; border:none;}
+   div.node-cardcontent input {width:98%;}
+   #node-summit-providers-full-group-provider-photo, #node-summit-providers-full-group-addresses, #node-summit-providers-full-group-other-info {width:100%; display:block; float:none;}
+   table.non-wish-provider img {display:none; visibility:none;}
+   .node-summit-health-location-geo .field-name-field-mobile-dial {display:inline; margin-top:20px;}
+   .node-summit-health-location-geo .field-name-field-mobile-dial a::before {content: url('/sites/all/themes/summit_health/cssAssets/mobiledial.png');}	
+   p.mobiledial {display:block;}
+   p.mobiledial a::before{content: url('/sites/all/themes/summit_health/cssAssets/mobiledial.png');}
+   input.geofield-proximity-origin {width:95%;}
+   .addresswrapper, .imagewrapper {float:none; padding-bottom:1em; width:100%}
+   .imagewrapper {margin-left:3%}
+   div.region-help {height:auto; clear:both; display:block;}
+   .region-help #block-block-31 {width:100%; float:none; display:block; border-bottom:1px solid #ccc;}
+   #block-views-167e59faa3fc1715b9f64a1e9b75ca3c {width:100%; float:none; display:block; padding-left:0; padding-top:10px; border-left:none;}
+   form#views-exposed-form-find-a-provider-page-with-page-title-1 select#edit-field-provider-srch-specialties-tid, form#views-exposed-form-find-a-provider-page-with-page-title-2 select#edit-field-provider-srch-specialties-tid--2 {width:99%;}		
+   div.view-emergency-care-landing-page .col-one-third .innerbg {border:1px solid #ccc; box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; margin-bottom:.5em; padding:1em;}
+
+}
+

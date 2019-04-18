@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]>
+<html class="iem7" original-class="iem7" lang="en" dir="ltr">
+<![endif]--><!--[if lte IE 6]>
+<html class="lt-ie9 lt-ie8 lt-ie7" original-class="lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr">
+<![endif]--><!--[if (IE 7)&(!IEMobile)]>
+<html class="lt-ie9 lt-ie8" original-class="lt-ie9 lt-ie8" lang="en" dir="ltr">
+<![endif]--><!--[if IE 8]>
+<html class="lt-ie9" original-class="lt-ie9" lang="en" dir="ltr">
+<![endif]--><!--[if (gte IE 9)|(gt IEMobile 7)]>
+<!--><html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]--><head><meta charset="utf-8"><link rel="shortcut icon" href="/sites/all/themes/mthc/linked/favicon.ico" type="image/vnd.microsoft.icon"><meta name="Generator" content="Drupal 7 (http://drupal.org)"><title><?php print $head_title; ?></title><meta name="MobileOptimized" content="width"><meta name="HandheldFriendly" content="true"><meta name="viewport" content="width=device-width"><meta http-equiv="cleartype" content="on"><link type="text/css" rel="stylesheet" href="/sites/all/themes/mthc/css/e0f89fd939c80f5844b5c348d67fa470.css" media="all"><link type="text/css" rel="stylesheet" href="/sites/all/themes/mthc/css/4c48f63b2453c4eb3e84de0a33f82e13.css" media="all"><link type="text/css" rel="stylesheet" href="/sites/all/themes/mthc/css/252cafe4fd1f0653fd527f6b1f8b5791.css" media="all"><link type="text/css" rel="stylesheet" href="/sites/all/themes/mthc/css/1268671e363ea4b963abefe1eb316c94.css" media="all"><script src="/sites/all/themes/mthc/js/73b1b36a6a69754c8f75c92373ec28dd.js"></script><script src="/sites/all/themes/mthc/js/679a09f215330391375b2eb35b45938b.js"></script><script src="/sites/all/themes/mthc/js/22ccfcec78727ab2faf18199c6f39b43.js"></script><script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-5122237-11"]);_gaq.push(["_setDomainName", "none"]);_gaq.push(["_setAllowLinker", true]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script><script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"sitetheme","theme_token":"Me7_0Z3KAdWtVgIxP3NtKIHBiFEL1KD_Vd7XHdXo9uU","js":{"sites\/all\/themes\/sitetheme\/js\/script.js":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/geo_filter\/geo_filter.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/oembed\/oembed.base.css":1,"sites\/all\/modules\/contrib\/shib_auth\/shib_auth.css":1,"sites\/all\/themes\/sitetheme\/system.menus.css":1,"sites\/all\/themes\/sitetheme\/system.messages.css":1,"sites\/all\/themes\/sitetheme\/system.theme.css":1,"sites\/all\/themes\/sitetheme\/css\/styles.css":1,"sites\/all\/themes\/sitetheme\/css\/twitter_block.css":1,"sites\/all\/themes\/sitetheme\/fonts\/ss-social.css":1,"sites\/all\/themes\/sitetheme\/fonts\/ss-standard.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"nice_menus_options":{"delay":"600","speed":"fast"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip","trackDomainMode":"2","trackCrossDomains":["https:\/\/www.mtholyoke.edu","https:\/\/secure.www.alumniconnections.com\/olc\/pub\/MHO\/onlinegiving\/showGivingForm.jsp"]}});</script><!--[if lt IE 9]>
+<script src="/sites/all/themes/mthc/js/html5-respond.js"></script>
+<![endif]-->
+<?php
+print $head;
+print $styles;
+print $scripts;
+?>
+<!--[if IE 7]>
+<link rel="stylesheet" href="/sites/all/themes/pgcalc_master/ie7/ie7.css">
+<![endif]-->
+</head>
+<?php
+print $page_top;
+print $page;
+print $page_bottom;
+?>
+</html>

@@ -1,0 +1,247 @@
+#block-system-main-menu h2 a {
+  display: block;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  color: #e76127;
+  padding: 0;
+}
+
+#main-menu {
+  padding: 0;
+  margin: 0;
+}
+
+#main-menu li a {
+  font-size: 15px;
+  color: #6d6e71;
+  font-weight: normal;
+  display: block;
+  background: #fff;
+  padding: 5px 3px 5px 14px;
+  border: 0;
+  text-decoration: none;
+  line-height: 150%;
+}
+
+#main-menu li a:hover {
+  background: #6d6e71;
+  color: #ffffff;
+}
+
+#main-menu li a.active {
+  color: #0094c9;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  background: #006880;
+  color: #fff;
+  font-size: 1em;
+  padding: 7px;
+  border: 1px solid #999;
+}
+
+.pg-wrap table tr th:first-child {
+  : ;
+}
+
+.pg-wrap table tr th:last-child {
+  : ;
+}
+
+.pg-wrap table tr th:only-child {
+  : ;
+}
+
+.pg-wrap table tr td {
+  : ;
+  color: #000;
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #999;
+}
+
+.pg-wrap table tr td:first-child {
+  : ;
+}
+
+.pg-wrap table tr td:last-child {
+  : ;
+}
+
+.pg-wrap table tr td:only-child {
+  : ;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #006880;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #fff;
+  font-size: 27px;
+  padding: 0;
+  margin: 0;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  color: #fff;
+}
+
+#pgc-contact-block li a:hover {
+  color: #0094c9;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #006880;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block .title {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#pgc-contact-footer-block li a {
+  color: #fff;
+}
+
+#pgc-contact-footer-block li a:hover {
+  color: #0094c9;
+}
+
+#pgc_resource_block {
+  background: #e76127;
+  border-radius: 5px;
+  padding: 15px 20px;
+  text-align: center;
+  behavior: url(/PIE.htc);
+}
+
+#pgc_resource_block a {
+  color: #ffffff;
+}
+
+#pgc_resource_block a:hover {
+  color: #000000;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #e76127;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 15px;
+  : ;
+  color: #ffffff;
+  display: block;
+  font-size: .9em;
+  font-weight: normal;
+  margin: 10px 0;
+  line-height: 40px;
+  behavior: url(/PIE.htc);
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #006880;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+  background: #e76127;
+  opacity: 0.5  (to make it transparent);
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+  content: "\f0c9";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: -14px;
+  left: 5px;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+  content: "\f05c";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+
+.pgc-brochure-bg-top {
+  background-color: #e76127;
+}
+
+.pgc-brochure-header-text {
+  background-color: #006880;
+  color: #ffffff;
+}
+
+.pgc-brochure-title {
+  color: #e76127;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color: #006880;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color: #e76127;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color: #e76127;
+}
+
+.pgc-brochure-footer-text {
+  background-color: #006880;
+  color: #ffffff;
+}
+
+.pgc-brochure-footer-title {
+  color: #ffffff;
+}
+
+span.pgc-brochure-footer-contact {
+  color: #ffffff;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #e76127;
+}
+

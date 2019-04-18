@@ -1,0 +1,235 @@
+.pg-wrap h2 {
+  font-size: 25px;
+}
+
+.pg-wrap h3 {
+  font-size: 20px;
+}
+
+#block-system-main-menu h2 a {
+  display: block;
+  line-height: 20px;
+  margin-bottom: 0;
+  color: #00aaee;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#main-menu li a.active {
+  font-weight: bold !important;
+}
+
+#main-menu li.expanded ul li a {
+  padding: 5px 10px 5px 30px;
+}
+
+#main-menu ul li a.active {
+  font-weight: bold !important;
+}
+
+#main-menu li.expanded ul ul li a {
+  padding: 5px 10px 5px 40px;
+}
+
+#main-menu ul ul li a.active {
+  font-weight: bold !important;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  background: #0077cc;
+  color: #fff;
+  font-size: 1em;
+  padding: 7px;
+  border: 1px solid #004876;
+}
+
+.pg-wrap table tr td {
+  color: #004876;
+  background: #fff;
+  padding: 7px;
+  padding-left: 18px;
+  border: 1px solid #004876;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #0077cc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 4px #666;
+  -moz-box-shadow: 0px 0px 4px #666;
+  box-shadow: 0px 0px 4px #666;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #fff;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  color: #fff;
+}
+
+#pgc-contact-block li a:hover {
+  color: #00aaee;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #0077cc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  -webkit-box-shadow: 0px 0px 4px #666;
+  -moz-box-shadow: 0px 0px 4px #666;
+  box-shadow: 0px 0px 4px #666;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block .title {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#pgc-contact-footer-block li a {
+  color: #fff;
+}
+
+#pgc-contact-footer-block li a:hover {
+  color: #00aaee;
+}
+
+#pgc_resource_block {
+  background: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 15px 20px;
+  -webkit-box-shadow: 0px 0px 4px #666;
+  -moz-box-shadow: 0px 0px 4px #666;
+  box-shadow: 0px 0px 4px #666;
+  text-align: center;
+  behavior: url(/PIE.htc);
+}
+
+#pgc_resource_block a {
+  color: #0077cc;
+}
+
+#pgc_resource_block a:hover {
+  color: #00aaee;
+}
+
+.pg-gift-details .accordion-switch {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #004876;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 15px;
+  border: 1px solid #004876;
+  color: #00aaee;
+  display: block;
+  font-size: .7em;
+  font-weight: normal;
+  margin: 10px 0;
+  line-height: 40px;
+  behavior: url(/PIE.htc);
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #00aaee;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+  display: none;
+  font-size: .8em;
+  font-style: normal;
+  text-transform: none;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  font-size: .8em;
+  font-style: normal;
+  text-transform: none;
+}
+
+.pgc-brochure-bg-top {
+  background: #0077cc;
+}
+
+.pgc-brochure-header-text {
+  background: #004876;
+  color: #ffffff;
+}
+
+.pgc-brochure-title {
+  color: #0ae;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color: #0077cc;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color: #004876;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color: #0077cc;
+}
+
+.pgc-brochure-footer-text {
+  background: #004876;
+  color: #ffffff;
+}
+
+.pgc-brochure-footer-title {
+  color: #0ae0ae;
+}
+
+span.pgc-brochure-footer-contact {
+  color: #0ae;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #0077cc;
+}
+
+.pgc-font-color1 {
+  color: #004876;
+}
+
+.pgc-font-color2 {
+  color: #0ae;
+}
+

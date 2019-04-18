@@ -1,0 +1,612 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+function pgc_variables_menu() {
+  $items['admin/custom-variables'] = array(
+    'title' => 'Variables',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_variables_config_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_variables'),
+    'file' => 'pgc_variables.admin.inc',
+  );
+  $items['admin/custom-variables/text'] = array(
+    'title' => 'Variables',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_variables_config_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_variables'),
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+    'file' => 'pgc_variables.admin.inc',
+    'weight' => 0,
+  );
+  $items['admin/custom-variables/examples'] = array(
+    'title' => 'Ex Variables',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_variables_calculated_examples_config_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_variables'),
+    'type' => MENU_LOCAL_TASK,
+    'file' => 'pgc_variables.admin.examples.inc',
+    'weight' => 1,
+  );
+  $items['admin/custom-variables/import'] = array(
+    'title' => 'Import Ex Variables',
+    'page callback' => 'pgc_variables_import_form',
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_variables'),
+    'type' => MENU_LOCAL_TASK,
+    'file' => 'pgc_variables.admin.examples.inc',
+    'weight' => 2,
+  );
+  $items['admin/custom-variables/calculated-tables'] = array(
+    'title' => 'Calculated Tables',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_variables_calculated_config_form'),
+    'access callback' => 'user_access',
+    'access arguments' => array('administer pgc_variables'),
+    'type' => MENU_LOCAL_TASK,
+    'file' => 'pgc_variables.admin.inc',
+    'weight' => 3,
+  );
+  return $items;
+}
+
+function pgc_variables_permission() {
+  return array(
+    'administer pgc_variables' => array(
+      'title' => t('Administer PG Calc variables'),
+      'description' => t('Access to PG Calc variables admin pages'),
+    ),
+    'administer pgc_variables_ws' => array(
+      'title' => t('Administer PG Calc variables WS calls'),
+      'description' => t('If disabled, sets web service call fields to readonly'),
+    ),
+  );
+}
+
+function pgc_variables_filter_info() {
+  $filters['filter_pgc_variables'] = array(
+    'title' => t('PGCalc Variables'),
+    'description' => t("PGCalc Variables looks for variables with the format: [variable_name]."),
+    'prepare callback' => '_pgc_variables_filter_prepare',
+    'process callback' => '_pgc_variables_filter_process',
+    'tips callback' => '_pgc_variables_tips',
+  );
+  return $filters;
+}
+
+function _pgc_variables_tips($filter, $format, $long = FALSE) {
+  return "PG Calc custom variables enabled.";
+}
+
+function _pgc_variables_filter_process($text, $filter) {
+  $variables = variable_get('pgc_variables', null);
+  $variables = unserialize($variables);
+  $variables_calculated = variable_get('pgc_variables_calculated', null);
+  $variables_calculated = unserialize($variables_calculated);
+  $variables_ex = pgc_variables_load_ex_variables();
+
+  $var_map = array();
+  if (is_array($variables)) {
+    foreach ($variables as $var) {
+      $var_map[$var['name']] = $var['value'];
+    }
+  }
+  if (is_array($variables_calculated)) {
+    foreach ($variables_calculated as $key => $val) {
+      if (strpos($key, 'gift_amount') || strpos($key, 'payamt') || strpos($key, 'deduction')) {
+        $val = number_format($val, 0, '.', ',');
+      }
+      $var_map[$key] = $val;
+    }
+  }
+  if (is_array($variables_ex)) {
+    foreach ($variables_ex as $key => $val) {
+      $var_map[$val['name']] = $val['value'];
+    }
+  }
+
+  if (count($var_map)) {
+    preg_match_all('/\[([a-z0-9_-]+)]/i', $text, $matches);
+    foreach ($matches[0] as $key => $val) {
+      if ($val != "[0]" && isset($var_map[$matches[1][$key]])) {
+        $text = str_replace($val, $var_map[$matches[1][$key]], $text);
+      }
+    }
+  }
+  return $text;
+}
+
+/**
+ * Implements hook_theme().
+ */
+function pgc_variables_theme($existing, $type, $theme, $path) {
+  $themes = array(
+    'variable_drag_components' => array(
+      'render element' => 'element'
+    ),
+  );
+  return $themes;
+}
+
+function pgc_variables_load_ex_variables() {
+  $variables = array();
+  $result = db_select('pgc_ex_variables', 'v')
+      ->fields('v')
+      ->execute();
+
+  while ($variable = $result->fetchAssoc()) {
+    $variables[] = $variable;
+  }
+
+  return $variables;
+}
+
+function pgc_variables_load_ex_variables_keyed() {
+  $variables = array();
+  $result = db_select('pgc_ex_variables', 'v')
+      ->fields('v')
+      ->execute();
+
+  while ($variable = $result->fetchAssoc()) {
+    $variables[$variable['name']] = $variable;
+  }
+
+  return $variables;
+}
+
+/**
+ * This function can perform Gift Annuity and Deferred Gift Annuity calculations
+ * To perform a GA calculation, leave the date field empty
+ * To perform a DGA calculation, specify a date at least a year into the future
+ * @param $gift_amount
+ * @param $age1
+ * @param $age2
+ * @param string $gar_table
+ * @param string $payment_date
+ * @param null $cost_basis
+ * @return bool|mixed
+ */
+function _pgc_variables_ga_calculation($gift_amount, $age1, $age2 = -1, $gar_table = 'acgacurrent.gar', $payment_date = '', $cost_basis = null) {
+  $gift_date = date("m/d/Y");
+
+  $calcParams = new stdClass;
+  $calcParams->GiftDate = $gift_date;
+  $calcParams->GiftTerm = 'a';
+  $calcParams->GiftAmount = $gift_amount;
+  $calcParams->CostBasis = $cost_basis ? $cost_basis : $gift_amount;
+  $calcParams->PayoutFrequency = "q";
+  $calcParams->PayoutTiming = "e";
+  $calcParams->PropertyType = "c";
+  if (strlen($payment_date) > 0)
+    $calcParams->Recalculate = 1;
+  else
+    $calcParams->Recalculate = 0;
+  $calcParams->Age1 = $age1;
+  $calcParams->Age2 = $age2;
+  $calcParams->Birthdate1 = "";
+  $calcParams->Birthdate2 = "";
+  $calcParams->WSGUID = "26C8BB00-6F7D-4C60-9420-DDB7E0D1676C";
+  $calcParams->DonorBeneficiary = "n";
+  $calcParams->GARTable = $gar_table;
+  if (strlen($payment_date))
+    $calcParams->FirstPaymentDate = $payment_date;
+  $calcParams->PaymentRoundingMethod = 'a';
+  $calcParams->IRSDiscountRate = -1;
+  $calcParams->LogInput = 'MS Ex Variable';
+  $annuityRate = _pgc_variables_annuity_rate_lookup($calcParams);
+  if (!$annuityRate) {
+    return false;
+  }
+  $calcParams->LogInput = 'MS Calculated Table';
+  $calcParams->PaymentRate = $annuityRate;
+  $url = variable_get('pgc_ws_url', 'https://test.pgcalc.com/CheetahSheetsServerTest/Service1.svc')
+    . '/PGC_GiftAnnuityCalculation';
+  $resp = pgc_variables_http_request($url, array(
+    'method' => 'POST',
+    'data' => json_encode($calcParams),
+    'headers' => array('Content-Type' => 'text'),
+  ));
+
+  if ($resp->code == 200 && json_decode($resp->data)) {
+    if ($data = json_decode($resp->data)) {
+      if ($data->Status == 'Valid') {
+        return $data;
+      }
+    }
+  }
+  return false;
+}
+
+function _pgc_variables_annuity_rate_lookup($calcParams) {
+  $url = variable_get('pgc_ws_url', 'https://test.pgcalc.com/CheetahSheetsServerTest/Service1.svc')
+    . '/PGC_AnnuityRateLookup';
+  $resp = pgc_variables_http_request($url, array(
+    'method' => 'POST',
+    'data' => json_encode($calcParams),
+    'headers' => array('Content-Type' => 'text'),
+  ));
+
+  if ($resp->code == 200 && json_decode($resp->data)) {
+    if ($data = json_decode($resp->data)) {
+      if ($data->Status == 'Valid') {
+        return $data->PaymentRate;
+      }
+    }
+  }
+
+  return false;
+}
+
+function _pgc_variables_gift_annuity_rate_lookup($age1, $age2 = -1, $gar_table = 'acgacurrent.gar') {
+  $gift_date = date("m/d/Y");
+  $calcParams = new stdClass;
+  $calcParams->GiftDate = $gift_date;
+  $calcParams->GiftTerm = 'a';
+  $calcParams->PayoutFrequency = "q";
+  $calcParams->PayoutTiming = "e";
+  $calcParams->PropertyType = "c";
+  $calcParams->Recalculate = 0;
+  $calcParams->Age1 = $age1;
+  $calcParams->Age2 = $age2;
+  $calcParams->Birthdate1 = "";
+  $calcParams->Birthdate2 = "";
+  $calcParams->WSGUID = "26C8BB00-6F7D-4C60-9420-DDB7E0D1676C";
+  $calcParams->DonorBeneficiary = "n";
+  $calcParams->GARTable = $gar_table;
+  $calcParams->LogInput = 'MS Calculated Table';
+
+  $url = variable_get('pgc_ws_url', 'https://test.pgcalc.com/CheetahSheetsServerTest/Service1.svc')
+    . '/PGC_AnnuityRateLookup';
+  $resp = pgc_variables_http_request($url, array(
+    'method' => 'POST',
+    'data' => json_encode($calcParams),
+    'headers' => array('Content-Type' => 'text'),
+  ));
+
+  if ($resp->code == 200 && json_decode($resp->data)) {
+    if ($data = json_decode($resp->data)) {
+      if ($data->Status == 'Valid') {
+        return $data->PaymentRate;
+      }
+    }
+  }
+
+  return false;
+}
+
+function _pgc_variables_calculation($call, $args) {
+  $calcParams = new stdClass;
+
+  foreach ($args as $key => $val) {
+    $calcParams->$key = $val;
+  }
+
+  if (isset($args['GiftDate'])) {
+    if (strpos($args['GiftDate'], 'now') > -1) {
+      if (strpos($args['GiftDate'], '+')) {
+        $e = explode('+', $args['GiftDate']);
+        $time = strtotime('+' . $e[1] . ' day');
+      }
+      else {
+        $time = time();
+      }
+      $calcParams->GiftDate = date("m/d/Y", $time);
+    }
+  }
+
+  if (isset($args['FirstPaymentDate'])) {
+    if (strpos($args['FirstPaymentDate'], 'now') > -1) {
+      if (strpos($args['FirstPaymentDate'], '+')) {
+        $e = explode('+', $args['FirstPaymentDate']);
+        $time = strtotime('+' . $e[1] . ' day');
+      }
+      else {
+        $time = time();
+      }
+      $calcParams->FirstPaymentDate = date("m/d/Y", $time);
+    }
+  }
+
+  $url = variable_get('pgc_ws_url', 'https://test.pgcalc.com/CheetahSheetsServerTest/Service1.svc') . "/$call";
+  $resp = pgc_variables_http_request($url, array(
+    'method' => 'POST',
+    'data' => json_encode($calcParams),
+    'headers' => array('Content-Type' => 'text'),
+  ));
+  // Prepare to log the call and the response.
+  $params = array(
+    '%url' => $url,
+    '%method' => 'POST',
+    '%data' => json_encode($calcParams),
+    '%headers' => 'Content-Type: text',
+    '%response' => $resp->code,
+    '%result' => ($resp->code == 200) ? $resp->data : '',
+  );
+
+  if ($resp->code == 200 && json_decode($resp->data)) {
+    if ($data = json_decode($resp->data)) {
+      watchdog('pgc_variables', 'Successful call to web services: url = %url, method = %method, data = %data, headers = %headers, response code = %response, raw result = %result', $params, WATCHDOG_INFO);
+      return $data;
+    }
+  }
+  else {
+    watchdog('pgc_variables', 'Bad response from web services: url = %url, method = %method, data = %data, headers = %headers, response code = %response, raw result = %result', $params, WATCHDOG_ERROR);
+    $output = new stdClass();
+    $output->Status = 'Unable to connect to web service. Response code: ' . $resp->code;
+    return $output;
+  }
+}
+
+function pgc_variables_update_ex_variable($variable, $formula, $value, $decimals, $weight, $comment) {
+  if (strlen($formula)) {
+    $formula_result = pgc_variables_process_formula(array('name' => $variable, 'decimals' => $decimals), $formula);
+    if ($formula_result['status'] == 'success') {
+      db_update('pgc_ex_variables')
+          ->fields(array(
+            'formula' => $formula,
+            'value' => $formula_result['value'],
+            'decimals' => $decimals,
+            'weight' => $weight,
+            'comment' => $comment,
+          ))
+          ->condition('name', $variable, '=')
+          ->execute();
+      return array('status' => 'success');
+    }
+    else {
+      return array('status' => 'fail', 'error' => $formula_result['error']);
+    }
+  }
+  else {
+    db_update('pgc_ex_variables')
+        ->fields(array(
+          'value' => $value,
+          'decimals' => $decimals,
+          'weight' => $weight,
+          'comment' => $comment,
+        ))
+        ->condition('name', $variable, '=')
+        ->execute();
+    return array('status' => 'success');
+  }
+}
+
+function pgc_variables_process_formula($variable, $formula, $variables = null) {
+  require_once(drupal_get_path('module', 'pgc_variables') . '/classes/eos.class.php');
+  $eqEOS = new eqEOS();
+  $skipEq = false;
+  // If no variables were passed, load them from the table (this happens during sync)
+  if ($variables == null)
+    $variables = pgc_variables_load_ex_variables_keyed();
+
+  // Replace any variables
+  preg_match_all('/\[([a-z0-9_-]+)]/i', $formula, $matches);
+  foreach ($matches[0] as $key => $val) {
+    if (isset($variables[$matches[1][$key]]) && isset($variables[$matches[1][$key]]['value']) && strlen($variables[$matches[1][$key]]['value'])) {
+      $formula = str_replace($val, str_replace(',', '', $variables[$matches[1][$key]]['value']), $formula);
+    }
+    else {
+      return array('status' => 'error', 'error' => 'Undefined or broken variable <em>' . $matches[1][$key] . '</em> in formula for <em>' . $variable['name'] . '</em>');
+    }
+  }
+  // Look for Customer Portal field calls
+  preg_match_all('/(GC_PGC)\(([^).]+)\)/i', $formula, $matches);
+  if (count($matches[0])) {
+    for ($i = 0; $i < count($matches[0]); $i++) {
+      $arg_string = str_replace(' ', '', $matches[2][$i]);
+      $args_ex = explode(',', $arg_string);
+      $args = array();
+      foreach ($args_ex as $arg) {
+        $arg_ex = explode(':', $arg);
+        $args[$arg_ex[0]] = $arg_ex[1];
+      }
+      ;
+      $gc_field_result = pgc_variables_gc_field_call($args);
+      if (is_array($gc_field_result)) {
+        watchdog('pgc_variables', 'Error making field call for variable %var', array('%var' => $variable['name']), WATCHDOG_ERROR);
+        return array('status' => 'error', 'error' => 'Error making field call for variable <em>' . $variable['name'] . '.</em> Please check your parameters and try again.');
+      }
+      else {
+        $formula = str_replace($matches[0], $gc_field_result, $formula);
+      }
+    }
+    $skipEq = true;
+  }
+
+  // Look for Web Service calls
+  preg_match_all('/(WS_PGC_\w+)\(([^)]+)\)/i', $formula, $matches);
+  if (count($matches[0])) {
+    for ($i = 0; $i < count($matches[0]); $i++) {
+      $call = substr($matches[1][$i], 3);
+      $arg_string = str_replace(' ', '', $matches[2][$i]);
+      $args_ex = explode(',', $arg_string);
+      $args = array();
+      foreach ($args_ex as $arg) {
+        $arg_ex = explode(':', $arg);
+        $args[$arg_ex[0]] = $arg_ex[1];
+      }
+      $args += array('LogInput' => 'MS Ex Variable');
+      $ws_result = pgc_variables_ws_call($call, $args);
+      if (is_array($ws_result)) {
+        $message = t('Error making web service call for variable %var: %error',
+          array('%var' => $variable['name'], '%error' => $ws_result['error']));
+        watchdog('pgc_variables', $message, array(), WATCHDOG_ERROR);
+        return array('status' => 'error', 'error' => $message);
+      }
+      else {
+        $formula = str_replace($matches[0], $ws_result, $formula);
+      }
+    }
+  }
+  if (!$skipEq) {
+    // Try to solve the formula
+    try {
+      $value = $eqEOS->solveIF($formula);
+    } catch (Exception $e) {
+      return array('status' => 'error', 'error' => 'Error processing formula for variable <em>' . $variable['name'] . '</em>: ' . $e->getMessage());
+    }
+  }
+  else {
+    $value = $formula;
+  }
+  if (is_numeric($value)) {
+    if (strlen($variable['decimals'])) {
+      $value = number_format($value, $variable['decimals'], '.', ',');
+    }
+    else {
+      $value = number_format($value, 0, '.', ',');
+    }
+  }
+  return array('status' => 'success', 'value' => $value);
+}
+
+function pgc_variables_add_ex_variable($variable, $formula, $value, $decimals, $weight, $comment) {
+  if (strlen($formula)) {
+    $formula_result = pgc_variables_process_formula(array('name' => $variable, 'decimals' => $decimals), $formula);
+    if ($formula_result['status'] == 'success') {
+      try {
+        db_insert('pgc_ex_variables')
+            ->fields(array(
+              'name' => $variable,
+              'formula' => $formula,
+              'value' => $formula_result['value'],
+              'decimals' => $decimals,
+              'weight' => $weight,
+              'comment' => $comment,
+            ))
+            ->execute();
+      } catch (PDOException $e) {
+        drupal_set_message('Error return from database (this is probably due to an "em" instead of a "-"): ' . print_r($e, true), 'error');
+        return array('status' => 'fail', 'error' => 'Bad value in data');
+      }
+      return array('status' => 'success');
+    }
+    else {
+      return array('status' => 'fail', 'error' => $formula_result['error']);
+    }
+  }
+  else {
+    try {
+      db_insert('pgc_ex_variables')
+          ->fields(array(
+            'name' => $variable,
+            'formula' => '',
+            'value' => $value,
+            'decimals' => $decimals,
+            'weight' => $weight,
+            'comment' => $comment,
+          ))
+          ->execute();
+    } catch (PDOException $e) {
+      drupal_set_message('Error return from database (this is probably due to an "em" instead of a "-"): ' . print_r($e, true), 'error');
+      return array('status' => 'fail', 'error' => 'Bad value in data');
+    }
+    return array('status' => 'success');
+  }
+}
+
+function pgc_variables_gc_field_call($args) {
+  $url = 'https://www.giftcalcs.com/field/' . $args['portal_id'] . '/' . $args['profile_type'] . '/' . $args['field'];
+  $resp = drupal_http_request($url, array(
+    'method' => 'GET',
+    'headers' => array('Content-Type' => 'text'),
+  ));
+
+  // Prepare to log the call and the response code.
+  $params = array(
+    '%url' => $url,
+    '%method' => 'GET',
+    '%headers' => 'Content-Type: text',
+    '%response' => $resp->code,
+  );
+  $message = 'Call to giftcalcs: response code = %response, url = %url, method = %method, headers = %headers';
+
+  if ($resp->code == 200) {
+    if ($resp->data != 'fail')
+      return $resp->data;
+    else
+      watchdog('pgc_variables', $message, $params, WATCHDOG_ERROR);
+      return array('status' => 'fail', 'error' => 'Unable to retrieve value for field ' . $args['field'] . '.
+      Please check your parameters and try again.');
+  }
+  watchdog('pgc_variables', $message, $params, WATCHDOG_ERROR);
+  return array('status' => 'fail', 'error' => 'Unable to retrieve value for field ' . $args['field'] . '.
+      Please check your parameters and try again.');
+}
+
+function pgc_variable_get($variable) {
+  $result = db_select('pgc_ex_variables', 'n')
+      ->fields('n')
+      ->condition('name', $variable, '=')
+      ->range(0, 1)
+      ->execute();
+  return $result->rowCount() ? $result->fetchAssoc() : false;
+}
+
+/**
+ * Performs an HTTP request.
+ *
+ * This is a replacement for drupal_http_request() using libcurl, for cases
+ * where drupal_http_request() is not working. It recognizes the following keys
+ * in the $options parameter:
+ * - method (anything other than 'POST' is treated like 'GET')
+ * - headers
+ * - data
+ *
+ * The returned object will contain the following properties:
+ * - code
+ * - data
+ *
+ * It does not do any sanity checks before invoking cURL.
+ *
+ * @todo Test with more than one header.
+ */
+function pgc_variables_http_request($url, array $options = array()) {
+  $ch = curl_init($url);
+
+  // Do not send the response to the browser.
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+
+  // Include the headers in the response.
+  curl_setopt($ch, CURLOPT_HEADER, 1);
+
+  if (isset($options['method']) && $options['method'] == 'POST') {
+    curl_setopt($ch, CURLOPT_POST, TRUE);
+  }
+
+  if (isset($options['headers'])) {
+    $headers = array();
+    foreach ($options['headers'] as $name => $value) {
+      $headers[] = trim($name) . ': ' . trim($value);
+    }
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $options['headers']);
+  }
+
+  if (isset($options['data'])) {
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $options['data']);
+  }
+
+  $response = curl_exec($ch);
+  curl_close($ch);
+
+  $result = new stdClass();
+
+  if (empty($response)) {
+    $result->code = 0;
+    $result->data = '';
+  }
+  else {
+    // Borrowed, slightly modified, from drupal_http_request().
+    list($headers, $result->data)
+      = preg_split("/\r\n\r\n|\n\n|\r\r/", $response, 2);
+    $headers = preg_split("/\r\n|\n|\r/", $headers);
+    list($protocol, $result->code, $status_message)
+      = explode(' ', trim(array_shift($headers)), 3);
+  }
+
+  return $result;
+}

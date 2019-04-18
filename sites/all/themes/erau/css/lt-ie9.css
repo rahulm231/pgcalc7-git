@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#photos, #photos .film_roll_child {
+  height: 324px!important;
+}
+#photos .film_roll_child {
+  max-width: 1300px;
+}
+#logo img {
+  width: normal;
+}
+
+#header-row .middle {
+  display: block;
+}
+#header-row .middle div {
+  display: block;
+  vertical-align: middle;
+}

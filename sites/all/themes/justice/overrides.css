@@ -1,0 +1,271 @@
+.pg-content-body {
+  font-size: 14px;
+}
+
+.pg-wrap a {
+  text-decoration: none;
+  font-family: "futura-pt",sans-serif;
+  font-size: 16px;
+}
+
+.pg-wrap a:hover {
+  font-size: 16px;
+}
+
+.pg-wrap a:visited {
+  font-size: 16px;
+}
+
+.pg-wrap a:active {
+  font-size: 16px;
+}
+
+#block-system-main-menu {
+  padding: none;
+  margin: none;
+  background: #fff;
+}
+
+#block-system-main-menu h2 a {
+  list-style-image: none;
+  list-style-type: none;
+  background: #e2ddcb;
+  margin: none;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+#main-menu {
+  padding: 0;
+  margin: 0;
+}
+
+#main-menu li {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+  list-style: none;
+}
+
+#main-menu li a {
+  text: #ffffff;
+}
+
+#main-menu li a:hover {
+  text-decoration: none;
+  background: #70a6c8;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+#main-menu li:hover a {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+#main-menu li.expanded a {
+  : rl('/sites/all/themes/pgcalc_master/img/menu-arrow-down.png') center right no-repeat !important;
+}
+
+#main-menu li.collapsed a {
+  : rl('/sites/all/themes/pgcalc_master/img/menu-arrow-right.png') center right no-repeat !important;
+}
+
+#main-menu li a.active {
+  background: #002d56;
+  margin-left: -10px;
+  margin-right: -10px;
+  color: #ffffff;
+}
+
+#main-menu li.active-trail a {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+#main-menu li.active-trail a:hover {
+  background: #70a6c8;
+}
+
+#main-menu ul li a:hover {
+  background: #70a6c8;
+}
+
+#main-menu ul ul li a:hover {
+  background: #70a6c8;
+}
+
+#main-menu ul ul li a.active {
+  margin-left: 40px;
+}
+
+#main-menu ul ul li.active-trail {
+  background: #70a6c8;
+}
+
+#main-menu ul ul li.active-trail:hover {
+  background: #6098D1;
+}
+
+.pg-wrap ol li {
+  list-style-position: inside;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #80002a;
+  padding: 17px;
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: white;
+  font-family: "futura-pt",sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  color: #fff;
+  font-family: "futura-pt",sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #80002a;
+  padding: 10px 20px;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block .title {
+  color: #fff;
+  font-family: "futura-pt",sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#pgc-contact-footer-block li a {
+  color: #fff;
+  font-family: "futura-pt",sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: block;
+  font-size: 14px;
+}
+
+#pgc_resource_block {
+  background: #006579;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #006579;
+  padding: 15px 15px;
+  text-align: center;
+}
+
+#pgc_resource_block a {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "futura-pt",sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+#pgc_resource_block span {
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #002d56;
+  padding: 0 15px;
+  color: #ffffff;
+  display: block;
+  font-size: .7em;
+  font-family: "futura-pt",sans-serif;
+  font-weight: 800;
+  margin: 10px 0;
+  line-height: 40px;
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #80002A;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  text-transform: uppercase;
+  font-family: "futura-pt",sans-serif;
+  font-weight: 700;
+  color: #002d56;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 30px 0 0 0;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+  content: "\f05c";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  position: absolute;
+  top: 0px;
+  left: 8px;
+}
+
+.pgc-brochure-bg-top {
+  background: #006579;
+}
+
+.pgc-brochure-header-text {
+  background: #80002a;
+  color: #fff;
+}
+
+.pgc-brochure-title {
+  color: #80002a;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color: #80002a;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color: #006579;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color: #006579;
+}
+
+.pgc-brochure-footer-text {
+  background: #80002a;
+}
+
+.pgc-brochure-footer-title {
+  color: #fff;
+}
+
+span.pgc-brochure-footer-contact {
+  color: #fff;
+  font-weight: 600;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #002d56;
+}
+

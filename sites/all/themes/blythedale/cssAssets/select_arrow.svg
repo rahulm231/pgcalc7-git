@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 50">
+  
+  <defs>
+    <linearGradient id="svg-arrow-gradient" gradientTransform="rotate(90)">
+      <stop offset="50%" stop-color="#fafafa"/>
+      <stop offset="50%" stop-color="#e8e8e8"/>
+    </linearGradient>
+  </defs>
+    
+  <path style="fill: url(#svg-arrow-gradient)" d="M0,0 h18 v50 H0 z"/>
+  <path style="stroke: #ccc" d="M0,0 v50"/>
+  <path style="fill: #787878" d="M4,23 h10 l-5,4 z"/>
+
+</svg>

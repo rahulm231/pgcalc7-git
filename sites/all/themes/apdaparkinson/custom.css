@@ -1,0 +1,110 @@
+.site-content{
+	background-color:#fff;
+}
+
+.pgc-title-btn [class^="icon-"]:before, .block-pgc-contact-block [class^="icon-"]:before, .block-pgc-resource-block [class^="icon-"]:before, .pg-gift-details [class^="icon-"]:before, .pg-content-footer [class^="icon-"]:before, .pgc-title-btn [class*=" icon-"]:before, .block-pgc-contact-block [class*=" icon-"]:before, .block-pgc-resource-block [class*=" icon-"]:before, .pg-gift-details [class*=" icon-"]:before, .pg-content-footer [class*=" icon-"]:before {
+    font-family: 'pgcalc-marketing' !important;
+}
+
+.pgc-title-btn [class^="icon-"]::before{
+	margin-right:0px !important;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	width:auto;
+	background-color: #48a23f;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: 0px;
+    top: -15px;
+    position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+    content: "\f05c";
+    font-family: "FontAwesome";
+    font-size: 2.75rem;
+    left: 1px;
+    top: -4px;
+    position: absolute;
+  }
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn {
+    border: none;
+}
+
+p#breadcrumbs a, #menu-footer-widget-menu li a, div.textwidget a.social, .pg-breadcrumb a{
+	display:inline-block;
+}
+
+/*
+aside#chapter-inner-sidebar #block-system-main-menu ul{
+	margin:0px;
+}
+*/
+#chapter-inner-sidebar .widget li a:hover{
+	background-color: RGBA(89, 203, 232, .2);
+}
+
+#chapter-inner-sidebar .widget li a{
+    width: auto;
+    display: inline;
+}
+
+/*
+#chapter-inner-sidebar .widget ul.nav > li >a{
+	font-size: 1.1em;
+    color: #001E60;
+    border-bottom: 2px solid #005EB8;
+    font-family:'Montserrat';
+}
+*/
+#chapter-inner-sidebar .widget ul.nav > li >a:hover{
+	background-color: RGBA(89, 203, 232, .2);
+    border-bottom: 2px solid #59CBE8;
+}
+
+#chapter-inner-sidebar .widget .content > ul.nav > li >a:before{
+	font-size: 1.1em;
+    color: #001E60;
+}
+
+#chapter-inner-sidebar .widget  .content > ul.nav > li >a:hover:before{
+	font-family: 'fontawesome';
+    content: '\f078';
+    display: inline-block;
+    margin-right: .4em;
+}
+
+#chapter-inner-sidebar .widget  .content > ul.nav > li ul li a:hover:before{
+	font-family: 'fontawesome';
+    content: '\f078';
+    display: inline-block;
+    margin-right: .4em;
+    color:#005EB8
+}
+
+.pg-content-body .detail a, .pg-content-body .link a, .node-general-content ul li a, .node-landing-page ul li a, .accordion-item a, .node-general-content p a{
+	display: inline-block;	
+}
+
+.pg-content-body .detail a:hover, .pg-content-body .link a:hover, .accordion-item a:hover, .node-general-content p a:hover  {
+	background-color: RGBA(89, 203, 232, .2);
+	border-bottom: 2px solid #005EB8;		
+}
+
+.node-general-content ul li a:hover, .node-landing-page ul li a:hover{
+	background-color: RGBA(89, 203, 232, .2);
+}
+
+@media only screen and (max-width: 999px) {
+	
+  aside#chapter-inner-sidebar #block-system-main-menu{
+  	display:none;
+  }
+  
+  .main-navigation div.menu-main-menu-container ul{display:none;list-style:none;margin:0;padding-left:0}
+}

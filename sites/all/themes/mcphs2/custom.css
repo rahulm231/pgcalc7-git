@@ -1,0 +1,35 @@
+#block-system-main-menu > .content > ul > li.expanded > a::after {
+    content: "\f106";
+    font-family: "FontAwesome";
+    width: auto;
+    height: 10px;
+    position: absolute;
+    font-size: 22px;
+    right: 35px;
+}
+#block-system-main-menu > .content > ul > li.collapsed > a::after {
+    content: "\f107";
+    font-family: "FontAwesome";
+    width: auto;
+    height: 10px;
+    position: absolute;
+    font-size: 22px;
+    right: 35px;
+}
+#main-menu li.collapsed a {
+    background: none !important;
+}
+#block-system-main-menu li a:focus {
+    outline: 2px solid #4D4F53;
+}
+.error{
+	background: none;
+    border: none;
+}
+
+@media only screen and (max-width: 999px) {
+    
+  #block-system-main-menu{
+    display: none;
+  }
+}

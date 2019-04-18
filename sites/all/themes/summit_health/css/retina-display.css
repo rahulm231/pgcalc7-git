@@ -1,0 +1,83 @@
+/* ----------------- High-resolution-ready (retina-ready) -----------------------------*/
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (   min--moz-device-pixel-ratio: 1.5),
+only screen and (     -o-min-device-pixel-ratio: 3/2),
+only screen and (    -ms-min-device-pixel-ratio: 1.5),
+only screen and (        min-device-pixel-ratio: 1.5)
+{
+
+  #navigation .selector {
+    background-image: url("/sites/all/themes/summit_health/cssAssets/responsive-nav@2x.png");
+    background-size: 55px 45px;
+  }
+  /* --- search button --- */
+  #search-block-form input.form-submit, #search-form input.form-submit {
+    background-image: url('/sites/all/themes/summit_health/cssAssets/search-btn@2x.png');
+    background-size: 17px 17px;
+  }
+
+  /*-- jcourcel next previous button ---*/
+  .jcarousel-skin-default .jcarousel-next {
+    background-image: url("/sites/all/themes/summit_health/cssAssets/next_btn@2x.png");
+    background-size: 6px 10px;
+  }
+ .jcarousel-skin-default .jcarousel-prev {
+    background-image: url("/sites/all/themes/summit_health/cssAssets/previous_btn@2x.png");
+    background-size: 6px 10px;
+  }
+  
+  /* -- follow icons ---*/
+  .follow-links a {
+    background-image: url('/sites/all/themes/summit_health/cssAssets/social-icons-white-sprite@2x.png');
+    background-size: 333px 182px;
+  }
+  
+  /* --- sidebar menu ---- */
+  .sidebar ul.menu li a, .sidebar ul li.views-row a, .learn-more a {
+    background: url('/sites/all/themes/summit_health/cssAssets/arrow-ul@2x.png') no-repeat center left;
+    background-size: 6px 10px;
+  }
+  
+  /* --- image hover --- */
+  .image .link-icon {
+    background-image: url('/sites/all/themes/summit_health/cssAssets/link@2x.png');
+    background-size: 17px 17px;
+  }
+  .image .zoom-icon {
+    background-image: url('/sites/all/themes/summit_health/cssAssets/zoom@2x.png');
+    background-size: 16px 16px;
+  }
+  
+  /* --- contact icons ---*/
+  .address {
+    background-image: url('/sites/all/themes/summit_health/cssAssets/address-white@2x.png');
+    background-size: 20px 16px;
+  }
+  .phone {
+    background-image: url('/sites/all/themes/summit_health/cssAssets/phone-white@2x.png');
+    background-size: 16px 16px;
+  }
+  .e-mail {
+    background-image: url('/sites/all/themes/summit_health/cssAssets/email-white@2x.png');
+    background-size: 18px 15px;
+  }
+  #main .address {
+    background-image: url('/sites/all/themes/summit_health/cssAssets/address@2x.png');
+    background-size: 20px 16px;
+  }
+  #main .phone {
+    background-image: url('/sites/all/themes/summit_health/cssAssets/phone@2x.png');
+    background-size: 16px 16px;
+  }
+  #main .e-mail {
+    background-image: url('/sites/all/themes/summit_health/cssAssets/email@2x.png');
+    background-size: 18px 15px;
+  }
+
+  @media all and (max-width: 850px) {
+
+  }
+
+} /* end: media query */

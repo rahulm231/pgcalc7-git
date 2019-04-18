@@ -1,0 +1,42 @@
+/* LICENSE & DETAILS
+   ==================================================
+
+	Theme Name: Joyn Child Theme
+	Theme URI: http://joyn.swiftideas.com
+	Description: An Incredible Responsive Multi-Purpose WordPress Theme - Designed & Developed by Swift Ideas ( www.swiftideas.net )
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Template: joyn
+	Version: 1.0
+	Author: Swift Ideas
+	Author URI: www.swiftideas.net
+
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+   ==================================================
+*/
+
+/* --------------------------------------------
+	CHILD THEME CSS
+-------------------------------------------- */
+
+#js-grid-lightbox-gallery {
+    height: 930px!important;
+}
+
+/* Fix sticky header Alt logo */
+.logo-alt-version .is-sticky #logo img.standard, .logo-alt-version #mobile-logo img.standard {
+    display: none !important;
+}
+
+.logo-alt-version #mobile-logo .retina {
+    display:none !important;
+}
+
+.logo-alt-version .is-sticky #logo img.retina, .logo-alt-version #mobile-logo img.retina {
+        display: none !important;
+}
+.logo-alt-version .is-sticky #logo img.alt-logo, .logo-alt-version #mobile-logo img.alt-logo {
+    display: inline-block;
+}

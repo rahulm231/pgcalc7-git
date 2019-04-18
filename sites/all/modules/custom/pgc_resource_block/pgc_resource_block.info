@@ -1,0 +1,7 @@
+name = PGCalc Resource Block
+description = Generates a block which looks for a resource field on a node and displays a link if found
+package = PGCalc
+dependencies[] = pgc_config
+version = VERSION
+permissions = /
+core = 7.x

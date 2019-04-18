@@ -1,0 +1,1 @@
+This module creates a different template for "Content Only Pages" content type. Removes all current theme's CSS and applies the one which was uploaded using "Upload CSS" field.

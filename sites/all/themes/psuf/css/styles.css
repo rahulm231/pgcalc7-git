@@ -1,0 +1,135 @@
+.sidebar-first-wrapper #block-system-main-menu #main-menu li a {
+    margin: 0;
+    color: #333333;
+    font-size: 1.2rem;
+    font-weight:bold;
+}
+
+.sidebar-first-wrapper #block-system-main-menu #main-menu li.collapsed a, 
+.sidebar-first-wrapper #block-system-main-menu #main-menu li.expanded a, 
+.sidebar-first-wrapper #block-system-main-menu #block-system-main-menu ul > li > a {
+    font-size: 1.2rem;
+}
+
+.sidebar-first-wrapper #block-system-main-menu #main-menu li.expanded:hover > a, 
+.sidebar-first-wrapper #block-system-main-menu ul li:hover a:hover {
+    font-weight: bold;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul ul#main-menu {
+    position: relative;
+    margin-left: 0;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul ul#main-menu li {
+    padding-left: 0;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul ul#main-menu li a.active,
+.sidebar-first-wrapper #block-system-main-menu #main-menu li.expanded ul li a.active {
+   font-weight: bold;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul li:hover li {
+    border-bottom: none;
+    background: white;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul li:hover li {
+    border-bottom: none;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul {
+    /* background: white; */
+    border: none;
+}
+
+.sidebar-first-wrapper .block {
+    background: white;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul li {
+    padding: 7px 0 5px 27px;
+    width: 100%;
+}
+
+.sidebar-first-wrapper #block-system-main-menu #main-menu li.expanded ul li a {
+    font-size: 1.2rem;
+    padding: 5px 0;
+    color: #333333;
+    font-weight:normal;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul li:hover {
+    text-decoration: underline;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul li {
+    border-bottom: 1px solid #bada6f;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul li.expanded {
+    border-bottom: 1PX SOLID #bada6f;
+}
+
+.pg-page-header .pg-page-btns {
+    margin-top: 10px;
+}
+
+#giftGuide .header-text {
+    font-size: 20px !important;
+}
+
+#giftGuide {
+    font-size: 14px;
+}
+
+/* additions 8/4 */
+.sidebar-first-wrapper #block-system-main-menu h2 {
+    display: block;
+    background: none;
+    color: black;
+}
+
+.sidebar-first-wrapper #block-system-main-menu h2 a {
+    background: none;
+    color: black;
+    font-weight: normal;
+    font-size: 1.4rem;
+    font-family: "Roboto",Arial,sans-serif;
+    line-height: 1;
+    padding: 10px 0;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul li a {
+    text-transform: none;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul {
+    margin-left: 20px;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul li {
+    border-bottom: none;
+}
+
+.sidebar-first-wrapper #block-system-main-menu ul li.expanded {
+    border-bottom: none;
+}
+
+.sidebar-first-wrapper #block-system-main-menu #main-menu li a {
+    font-weight: normal;
+}
+
+.sidebar-first-wrapper #block-system-main-menu #main-menu li a.active-trail {
+    font-weight: bold;
+}
+
+.sidebar-first-wrapper .block {
+    border-bottom: 1px solid #bada6f;
+    border-radius: 0;
+}
+
+.sidebar-first-wrapper #block-system-main-menu #main-menu li.expanded ul li a {
+    padding: 0;
+}

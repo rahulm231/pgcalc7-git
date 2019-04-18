@@ -1,0 +1,81 @@
+.hero {
+	min-height: 358px !important;
+}
+
+.sub-menu li a {
+	letter-spacing: 0px;
+}
+
+.sub-menu li {
+    margin: 0 20px 0 0;
+}
+
+.flex-direction-nav {
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.85);
+}
+
+.info-panel-left .btn-info {
+     width:             220px;
+   /* IE8+ - must be on one line, unfortunately */ 
+   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=3.061616997868383e-16, M12=1, M21=-1, M22=3.061616997868383e-16, SizingMethod='auto expand')";
+   
+   /* IE6 and 7 */ 
+   filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=3.061616997868383e-16,
+            M12=1,
+            M21=-1,
+            M22=3.061616997868383e-16,
+            SizingMethod='auto expand');
+
+
+   /*
+    * To make the transform-origin be the middle of
+    * the object.    Note: These numbers
+    * are approximations.  For more accurate results,
+    * use Internet Explorer with this tool.
+    */
+   margin-left: 80px; 
+   margin-top: -92px;
+   top: 0;
+   outline: none;
+} 
+
+.bordered-headline h1:after {
+	display: none;
+} 
+
+.info-panel-left .btn-info {
+  right:-109px;
+  width:161px;
+}
+
+.ie8 .info-window-wrap .btn-info {
+  display: block;
+  padding: 10px 20px;
+  position: relative;
+  left: -40px;
+  top: 0px;
+  z-index: 98;
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  width: 230px;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  outline: none;
+  }
+  
+.ie8 .btn-info i {
+    color: white;
+    font-size: 18px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+    outline: none;
+}
+
+.ie8 .btn-info:hover {
+    background: #333333;
+    color: white; 
+    }

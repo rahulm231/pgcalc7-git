@@ -1,0 +1,53 @@
+nav#ContentTopNav ul#nav2 {
+	margin: 0; padding: 0;
+	float:left;
+	width: 100%;
+	list-style: none;
+	font-size: 1.1em;
+}
+nav#ContentTopNav ul#nav2 li {
+	position: relative; /*--Important--*/
+}
+nav#ContentTopNav ul#nav2 li a {
+	float: left;
+}
+nav#ContentTopNav ul#nav2 li:hover a, 
+nav#ContentTopNav ul#nav2 li a:hover,
+nav#ContentTopNav ul#nav2 li ul:hover { } /*--Hover State--*/
+nav#ContentTopNav ul#nav2 a.home {}
+nav#ContentTopNav ul#nav2 li .sub {
+	position: absolute; /*--Important--*/
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: .25em .25em 0 0 rgba(153, 153, 153, 0.42);
+	left: -.75em;
+	padding: 0.7em .75em .5em 0.71em;
+	position: absolute;
+	display: none;
+	top:-10px;
+	display: none; /*--Hidden for those with js turned off--*/
+	z-index:997;
+}
+nav#ContentTopNav ul#nav2 li.last .sub { left:-73px;}
+nav#ContentTopNav ul#nav2 li.last .sub > a {float:right;}
+nav#ContentTopNav ul#nav2 li .sub ul{
+	list-style: none;
+	margin: 4px 0 0; padding: 0;
+	float: left;
+	position:relative;
+	display:block;
+	background:none;
+	border:none;
+	box-shadow:none;
+	left:0;
+	top:0;
+	z-index:999;
+}
+nav#ContentTopNav ul#nav2 .sub ul li {
+	width: 100%; /*--Override parent list item--*/
+	color: #fff;
+}
+nav#ContentTopNav ul#nav2 .sub ul li h2 {}
+nav#ContentTopNav ul#nav2 .sub ul li h2 a {}
+nav#ContentTopNav ul#nav2 .sub ul li a {}
+nav#ContentTopNav ul#nav2 .sub ul li a:hover {}

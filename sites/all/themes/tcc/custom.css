@@ -1,0 +1,49 @@
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: 10px;
+    top: -7px;
+    position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+    content: "\f05c";
+    font-family: "FontAwesome";
+    font-size: 55px;
+    left: -9px;
+    top: -9px;
+    position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn {
+    border: none;
+}
+
+#block-pgc-slideshow-block-pgc-slideshow-block + #block-pgc-misc-blocks-mobilenav {
+    top: -81px;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	width:auto;
+	background-color: #005296;
+}
+
+@media only screen and (max-width: 767px) {
+	
+  .pg-content-inline-blocks{
+  	float:none;
+  	margin-left:0;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  
+  .aside{
+  	display:none;
+  } 
+  
+}

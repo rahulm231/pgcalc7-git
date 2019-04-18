@@ -1,0 +1,103 @@
+﻿body {font-family: Verdana, Geneva, sans-serif; font-size: 14px; line-height: 26px; }
+h2, .pagebrown { font-family: Georgia, "Times New Roman", Times, serif; font-size: 20px; color: #8B6A28; }
+a {
+	color: #003366;
+	text-decoration: underline;
+}
+iframe { max-width: 95%; }
+img { border: none; outline: none; }
+input { outline: none; }
+blockquote { border: none; }
+.max { width: 100%; }
+
+.tb { padding: 10px 0; }
+.sn { text-transform: uppercase; }
+    .sn a { text-decoration: none; color: #005991; }
+.box { background-color: #9f834c; display: inline-block; width: 8px; height: 8px; margin: 0 7px; }
+.container { background-image: none; background-color: transparent; }
+.bd { overflow: auto; clear: both; background-image: url(images/d-3_04.jpg); background-color: #FFF; }
+.bdy { background-image: url('/sites/all/themes/wif/cssAssets/tanfade-bg-sm.jpg'); background-repeat: repeat-x; background-color: #fff; }
+.nv { background-color: #8b6a28 }
+.slideshow { overflow: hidden; }
+    .slideshow img { width: 100%; }
+	
+.navbar { background-color: #8b6a28 !important; text-align: center; margin-bottom: 0; }
+    .navbar a { text-decoration: none; font-size:1.1em; }
+.navbar-default { background-color: transparent; border: none; }
+
+.resize { font-family: Georgia, 'Times New Roman', Times, serif; color: #005991; font-size: 16px; }
+    .resize a { font-size: 16px; color: #069; font-weight: bold; font-family: Verdana, Geneva, sans-serif; }
+    .resize .req {
+	color: #003366;
+	text-decoration: underline;
+	font-weight: normal;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.2em;
+}
+
+.ico > div { min-height: 125px !important; }
+.foot { background-color:#12274a; color: #fff; padding: 20px 0; font-family: Verdana, Geneva, sans-serif; margin-top: 60px; text-align: center;  font-size: 13px; color: #FFF; }
+    .foot a { color: #fff; }
+    .foot .tag { font-family: Georgia, "Times New Roman", Times, serif; font-size: 18px; line-height: 25px; font-variant: small-caps; }
+#pagecopy { font-family: Verdana, Geneva, sans-serif; font-size: 14px; line-height: 26px; text-align: left; padding: 20px 40px 30px 20px; }
+.pagebrown { font-family: Georgia, "Times New Roman", Times, serif; font-size: 20px; color: #8b6a28; }
+
+.pageblue { font-family: Georgia, "Times New Roman", Times, serif; font-size: 20px; color: #036; }
+
+#lncontent { font-family: Georgia, "Times New Roman", Times, serif; font-size: 18px; line-height: 25px; color: #094d78; margin-left: 30px; background-image: url(images/left-flower.gif); text-align: left; }
+    #lncontent a { color: #1F4681; text-decoration: none; /*line-height:15px;*/ border-bottom: solid 1px #cecece; padding: 10px 0; display: block; }
+    
+        #lncontent a:visited { color: #1F4681; }
+        #lncontent a:hover { color: #F60; }
+        #lncontent a:active { color: #1F4681; }
+
+.leadin-blue {
+	font-weight: bold;
+	color: #1F4681;
+	text-transform: none;
+}
+.leadin-brown { font-weight: bold; color: #8B6A59; }
+.leadin-red { font-weight: bold; color: #990000; }
+.hed-ln { font-family: Georgia, "Times New Roman", Times, serif; font-size: 20px; font-variant: small-caps; color: #8B6A28; text-align: left; line-height: 1.3em; }
+
+.loc-nav  { text-align:center; margin-left:30px}
+.loc-nav > a { border-bottom: solid 2px #cecece; display: block; font-size: 18px; line-height:1em; vertical-align:middle; padding: 12px 0; text-decoration:none; color:#1f4681;font-family: Georgia, "Times New Roman", Times, serif; }
+    .loc-nav h2 { font-family: Georgia, "Times New Roman", Times, serif; color: #8b6a28 !important; margin-top: 40px; } 
+    .loc-nav .box {display:none;}
+
+.non { border-bottom: none 0 !important; }
+blockquote {font-weight:normal; font-size: 14px;}
+
+@media screen {
+    .nav { }
+        .nav li { background-image: url(/sites/all/themes/wif/cssAssets/blockbg.gif); background-repeat: no-repeat; background-position: top left; }
+            .nav li:first-of-type { background-image: none; }
+        .nav a { color: #FFF !important; }
+}
+
+@media (min-width: 768px) {
+    #pagecopy { min-height: 600px; }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .collapse { display: none !important; }
+}
+
+@media (max-width: 991px) {
+    .navbar-header { float: none; }
+    .navbar-toggle { display: block; }
+    .navbar-collapse { border-top: 1px solid transparent; box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); }
+        .navbar-collapse.collapse { display: none !important; }
+    .navbar-nav { float: none !important; margin: 7.5px -15px; }
+        .navbar-nav > li { float: none; }
+            .navbar-nav > li > a { padding-top: 10px; padding-bottom: 10px; }
+    .navbar-text { float: none; margin: 15px 0; }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { display: block !important; }
+    .collapsing { overflow: hidden !important; }
+}
+
+@media (min-width:1199px) {
+    .nav a { font-size: 1.1em !important; padding: 15px 22px !important; display: block; }
+}
+.navbar-brand  { color:#fff !important }

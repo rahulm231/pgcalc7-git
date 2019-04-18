@@ -1,0 +1,153 @@
+<?php
+/**
+ * @file
+ * Create the resource block.
+ *
+ * This pulls the following fields off the node and displays them, usually in
+ * the right sidebar.
+ * - field_resource_text
+ * - field_resource_icon
+ * - field_resource_file or field_resource_url
+ * Typically, the file or url is a PDF brochure.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function pgc_resource_block_theme($existing, $type, $theme, $path) {
+  return array(
+    'pgc_resource_block' => array(
+      'variables' => array(
+        'text' => NULL,
+        'icon' => NULL,
+        'url' => NULL,
+        'target' => NULL,
+      ),
+      'path' => $path,
+      'template' => 'pgc-resource-block',
+    ),
+  );
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function pgc_resource_block_block_info() {
+  $blocks['pgc_resource_block'] = array(
+    'info' => t('Resource block'),
+    'cache' => DRUPAL_NO_CACHE,
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function pgc_resource_block_block_view($delta = '') {
+  $block = array();
+  switch ($delta) {
+    case 'pgc_resource_block':
+	  $resources = array();
+      if (arg(0) == 'node' && is_numeric(arg(1)) && !arg(2)) {
+        $node = node_load(arg(1));
+        if (isset($node->field_resource_text[$node->language])) {
+          $resource_text = $node->field_resource_text[$node->language][0]['value'];
+          if (isset($node->field_resource_icon[$node->language])) {
+            $resource_icon = $node->field_resource_icon[$node->language][0]['value'];
+          }
+          else {
+            $resource_icon = 'none';
+          }
+          if (isset($node->field_resource_file[$node->language][0]['uri'])) {
+            $resource_url = check_url(file_create_url($node->field_resource_file[$node->language][0]['uri']));
+          }
+          elseif (isset($node->field_resource_url[$node->language][0]['value'])) {
+            $resource_url = check_url($node->field_resource_url[$node->language][0]['value']);
+          }else{
+          	$resource_url = "";
+          }       
+
+          $resources['R1'] = array(
+            'text' => check_plain($resource_text),
+            'icon' => drupal_html_class($resource_icon),
+            'url' => $resource_url,
+            //'target' => $target,
+          );          
+        }
+		
+		if (isset($node->field_resource_text_2[$node->language])) {
+          $resource_text = $node->field_resource_text_2[$node->language][0]['value'];
+          if (isset($node->field_resource_icon_2[$node->language])) {
+            $resource_icon = $node->field_resource_icon_2[$node->language][0]['value'];
+          }
+          else {
+            $resource_icon = 'none';
+          }
+          if (isset($node->field_resource_file_2[$node->language][0]['uri'])) {
+            $resource_url = check_url(file_create_url($node->field_resource_file_2[$node->language][0]['uri']));
+          }
+          elseif (isset($node->field_resource_url_2[$node->language][0]['value'])) {
+            $resource_url = check_url($node->field_resource_url_2[$node->language][0]['value']);
+          }else{
+          	$resource_url = "";
+          }       
+
+          $resources['R2'] = array(
+            'text' => check_plain($resource_text),
+            'icon' => drupal_html_class($resource_icon),
+            'url' => $resource_url,
+          );          
+        }
+		
+		if (isset($node->field_resource_text_3[$node->language])) {
+          $resource_text = $node->field_resource_text_3[$node->language][0]['value'];
+          if (isset($node->field_resource_icon_3[$node->language])) {
+            $resource_icon = $node->field_resource_icon_3[$node->language][0]['value'];
+          }
+          else {
+            $resource_icon = 'none';
+          }
+          if (isset($node->field_resource_file_3[$node->language][0]['uri'])) {
+            $resource_url = check_url(file_create_url($node->field_resource_file_3[$node->language][0]['uri']));
+          }
+          elseif (isset($node->field_resource_url_3[$node->language][0]['value'])) {
+            $resource_url = check_url($node->field_resource_url_3[$node->language][0]['value']);
+          }else{
+          	$resource_url = "";
+          }         
+
+          $resources['R3'] = array(
+            'text' => check_plain($resource_text),
+            'icon' => drupal_html_class($resource_icon),
+            'url' => $resource_url,
+          );          
+        }
+		
+		if(!empty($resources)){
+		   if (isset($node->field_resource_open_new[$node->language])) {
+            $resource_open_new = $node->field_resource_open_new[$node->language][0]['value'];
+          }
+          else {
+            $resource_open_new = 0;
+          }
+          $target = $resource_open_new ? '_blank' : '_self';
+		  
+		  $output = '';		  
+		  foreach($resources as $resource){
+		  	$variables = array(
+		  	  'text'=>$resource['text'],
+		  	  'icon'=>$resource['icon'],
+		  	  'url'=>$resource['url'],
+		  	  'target' => $target,
+			);
+			
+			$output.= theme('pgc_resource_block', $variables);
+		  }
+		  $block['subject'] = '';
+	  	  $block['content']['#markup'] = $output;
+	    }
+      }	  
+      break;
+  }
+  return $block;
+}

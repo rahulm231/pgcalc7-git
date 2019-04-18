@@ -1,0 +1,287 @@
+﻿.main-content .hold .lnk-more {
+    border:0;
+    color:#00849c;
+    cursor:pointer;
+    text-align:left;
+    text-decoration:underline;
+    width:100%;
+}
+
+.footer .footer-info address strong {
+    display:none;
+}
+
+.footer .footer-info p {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font: 11px/14px Verdana, Arial, Helvetica, sans-serif;
+    color: #ffd74e;
+    display: inline-block;
+}
+
+.footer .footer-info p:before {
+    float:left;
+    background: #ffd74e;
+    width:1px;
+    height:11px;
+    content: '';
+    margin:2px 15px 0 0;
+}
+
+.addthis_toolbox {
+    float:left;
+    margin-right:20px;
+    top: auto !important; /* ADDED */
+    left: auto !important; /* ADDED */
+}
+
+.item .addthis_toolbox {
+    float:none;
+    margin-bottom:6px;
+}
+
+.contentPicker {
+    border: 1px solid #CBE7F5;
+    height:350px;
+}
+.highlightText {
+    color: #980036;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 4px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+/* one column */
+.main-content .one-column-section {
+    float:right;
+    width:980px;
+}
+
+/* homepage top dropzone */
+#homepage-topzone .header {
+    margin-top: 50px;
+}
+
+/* homepage twitter */
+div#twitterWidget ul {
+    margin:0;
+    padding:10px 0 0 0;
+}
+div#twitterWidget ul li {
+    list-style-type:none;
+    padding:10px 0;
+}
+    div#twitterWidget ul li div {
+        padding:5px 0 0 0;
+    }
+        div#twitterWidget ul li div a {
+            padding-right:10px;
+            font-size:12px;
+        }
+
+/* event detail map */
+div#map {
+    height:300px;
+}
+div#map-canvas {
+    margin-top:20px;
+}
+
+/* event registration */
+div.design_content {
+    background:none !important;
+}
+div.event-summary {
+    margin-bottom:20px;
+}
+
+/* right column */
+ul.columnwidgetlist {
+    margin:0;
+    padding:0;
+}
+
+div.subcol ul.columnwidgetlist li.PBItem {
+    margin-bottom:65px; /* CHANGED FROM 15px */
+}
+
+/* outcomes & stories */
+ul.outcomes-list img {
+    width:45px;
+    height:45px;
+}
+
+/* facebook widget */
+div.fb-like-box {
+    background: white;
+}
+
+/* majors */
+.majors {
+    overflow:visible !important;
+}
+
+.majors-drop {
+    z-index:9999;
+}
+.majors-select-block .majors-drop p span {
+	padding:5px 10px;
+    font-size:14px;
+    font-weight:bold;
+}
+.majors-select-block .majors-drop>div>ul>li span{
+	padding-left:20px;
+    font-size:13px; 
+    font-weight:bold;
+}
+
+.RadScheduler .rsMonthView .rsWrap,    
+.RadScheduler .rsMonthView .rsAptOut,    
+.RadScheduler .rsMonthView .rsAptMid,    
+.RadScheduler .rsMonthView .rsApt   
+{    
+    height: auto !important;    
+}   
+    
+.RadScheduler .rsMonthView .rsAptIn,   
+.RadScheduler .rsMonthView .rsAptContent   
+{   
+    height: 100% !important;   
+}   
+    
+.RadScheduler .rsMonthView .rsApt    
+{    
+    position: static !important;    
+}
+
+.rsToday {
+    display:none;
+}
+.rsContent .tooltip dt {
+    clear:left;
+    float:left;
+    margin-right:5px;
+}
+.rsContent .tooltip dd {
+    float:left;
+}
+.rsContent .tooltip ul {
+    clear:both;
+}
+
+.rsContentScrollArea {
+    overflow:visible !important;
+}
+
+.rsAptDelete {
+    display: none !important;
+}
+
+.blog-filter ul li {
+    padding:0 !important;
+    margin:0 !important;
+    background:none !important;
+    list-style-type:none;
+}
+    .blog-filter ul li a {
+        text-decoration:none;
+        font-weight:bold;   
+    }
+
+/*#scsRegistrationIframe {
+    height:600px;
+}
+
+#formIFrame {
+    height:600px;
+}
+
+#iFrameHelper {
+    display: none;
+}*/
+
+.ui-widget {
+    overflow:initial !important;
+}
+
+/* AUDIENCE */
+.headline .lnk-paw {
+    margin-right: 10px;
+}
+.headline ul {
+    float: right;
+}
+.headline li:before {
+    position: absolute;
+    top: 0;
+    content: '';
+    display: block;
+    height: 61px;
+    width: 1px;
+    overflow: hidden;
+    -moz-box-shadow: 1px 0 1px rgba(252,0,90,0.5), inset 1px 0 1px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 1px 0 1px rgba(252,0,90,0.5), inset 1px 0 1px rgba(0,0,0,0.2);
+    box-shadow: 1px 0 1px rgba(252,0,90,0.5)*/, inset 1px 0 1px rgba(0,0,0,0.2);
+}
+.headline li {
+    text-align: center;
+    width: 16% !important;
+    padding: 0 0 !important;
+}
+    .headline li a {
+        display: block;
+        padding: 0 !important;
+        height: 61px;
+        width: 100%;
+        line-height: 61px;
+        text-align: center;
+    }
+        .headline li a span {
+            display: inline-block;
+            padding: 0 10px;
+            vertical-align: middle;
+            line-height: normal;
+        }
+    .headline li.donate-button {
+        width: 20% !important;
+    }
+        .headline li.donate-button a { /* padding:0;width:125px;height:40px;margin:9px 0 0; */
+            float: right;
+            width: auto;
+            height: auto;
+            display: inline-block;
+            margin: 15px 0;
+            border: 1px solid #cd9d0b;
+            background: rgb(232,202,105)*/;
+            background: -moz-linear-gradient(-45deg, rgba(232,202,105,1) 0%, rgba(235,218,162,1) 50%, rgba(232,202,105,1) 100%);
+            background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(232,202,105,1)), color-stop(50%,rgba(235,218,162,1)), color-stop(100%,rgba(232,202,105,1)));
+            background: -webkit-linear-gradient(-45deg, rgba(232,202,105,1) 0%,rgba(235,218,162,1) 50%,rgba(232,202,105,1) 100%);
+            background: -ms-linear-gradient(-45deg, rgba(232,202,105,1) 0%,rgba(235,218,162,1) 50%,rgba(232,202,105,1) 100%);
+            background: linear-gradient(135deg, rgba(232,202,105,1) 0%,rgba(235,218,162,1) 50%,rgba(232,202,105,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ca69', endColorstr='#e8ca69',GradientType=1 );
+            text-align: center;
+            text-transform: uppercase;
+            font: 13px/14px 'ITCFranklinGothicW01-Bk 812650', Arial, Helvetica, sans-serif;
+            color: #2b2923;
+            text-shadow: 1px 1px 1px #fff;
+            text-decoration: none;
+            padding: 5px 0;
+            display: block;
+        }
+            .headline li.donate-button a span {
+                padding: 7px 10px !important;
+            }
+
+@media screen and (max-width: 780px) {
+    .nav-block.select-drop-panel .navigation p span {
+        display: block;
+        padding: 4px 15px;
+        background: #ededed url(/sites/all/themes/dean/cssAssets/bg-select-panel-nav.jpg) repeat-y 100% 0;
+        color: #3b3b3b;
+    }
+}

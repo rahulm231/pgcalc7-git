@@ -1,0 +1,996 @@
+
+
+/*************************************************************************************
+ Client Specific Stylesheet
+ --------------------------
+
+ Site: 
+ Stelter WD:  Trinity College                        
+ Date: 12/11/2015
+ Modified By: Matias
+ 				Chris Butzke -- 12/5/2016 -- Go Live
+ * Notes:
+	
+	BOOTSTRAP MEDIA QUERIES 
+	@media screen and (min-width: 768px) {}
+	@media screen and (min-width: 992px) {} 
+	@media screen and (min-width: 1200px) {}
+						 
+*************************************************************************************/
+
+@font-face {
+    font-family: 'trinity';
+    src: url('fonts/trinity.eot');
+    src: url('fonts/trinity.eot') format('embedded-opentype'),
+         url('fonts/trinity.woff2') format('woff2'),
+         url('fonts/trinity.woff') format('woff'),
+         url('fonts/trinity.ttf') format('truetype'),
+         url('fonts/trinity.svg#trinity') format('svg');
+}
+
+.stl-page-title {
+	/*font-size: 26px !important;*/
+	line-height: 32px !important;
+	margin-bottom: 10px !important; 
+
+	font: italic 500 30px/120% 'Sentinel A', 'Sentinel B', Times, Georgia, Serif;
+	margin: 0px 0px 15px 0px;
+}
+
+h2, h3, h4, h5 {
+	font-family: 'Sentinel A', 'Sentinel B', Times, Georgia, Serif!important;
+	color: #07193C!important;
+	margin: 0px 0px 15px 0px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+/* -------------------------------
+		Quicklinks
+------------------------------- */
+	.navbar.nav-small {margin: 0 0 15px 0;}
+	.nav-small .navbar-header {background-color:#07193C; border-bottom:none;margin:0;padding:0;} /* Main quicklinks background and bottom-border colors */
+		.nav-small .logo {background-color: #143156;margin: 0 auto;padding:20px 0;}
+		.nav-small .logo img {max-width:275px;}
+		.nav-small .navbar-toggle {background-color:#07193C; border-color:#07193C;} /* Quicklinks button background and border colors (button with three horizontal lines) */
+		.nav-small .navbar-toggle:hover, .nav-small .navbar-toggle:focus { background-color:#07193C; border-color:#07193C; }
+			.nav-small .navbar-toggle .icon-bar {background-color:#fff;} /* Horizontal bar color inside of Quicklinks button */
+			.nav-small .navbar-brand {color: #fff;}
+			.nav-small .navbar-brand:hover, .nav-small .navbar-brand:focus {color: #fff;}
+	.nav-small .navbar-collapse {border:none;border-bottom:7px solid #07193C;background:#07193C;margin: 0 -15px;overflow-x:hidden;-webkit-box-shadow:none;box-shadow:none;} /* Color of Quicklinks dropdown menu border */
+	.navbar-nav {margin: 10px 15px;padding:0 15px;}
+	.navbar-nav li {margin:0;padding:0 15px;border-bottom:none;}
+	.navbar-nav > li > a {color:#fff !important;padding:8px 0;text-transform:uppercase;text-decoration:none;}
+
+
+/*set the container width*/
+.stl-container {width: 940px;}
+/*any link style updates*/
+
+a {text-decoration: none !important;}
+
+a:visited {color: #0072BC;}
+
+/*does the main div need a background?*/
+div#stl-cms {}
+	#stl-cms {padding-bottom: 0px !important;}
+	.stl-copyright {padding-top: 40px;}
+	#stl-cms div.stl-container {
+    margin-bottom: -40px;
+}
+
+@media only screen and (max-width: 767px) {
+	body, p, table, tr, td, form, label, ul, ol, li, li a, span, blockquote {
+	    font-size: 14px !important;
+	    line-height: 1.5;
+	}
+}
+
+/*breadcrumbs will probably vary widely between sites*/
+/*Hide both breadcrumbs and share widget:  #stl-cms .stl-breadcrumbs {display:none;} */ 
+#stl-cms .breadcrumb {
+}
+.breadcrumb a {color: #ffffff; }
+.breadcrumb > li + li:before {
+    content: "/";
+}
+/*share wrapper is at the end of the breadcrumb bar*/
+.stl-share-wrapper {}
+
+/*left nav*/
+#stl-cms ul.stl-nav  {}
+#stl-cms ul.stl-nav li.onTrail > a {}
+
+/*set the button color, rounded corners (default) vs no rounded corners */
+#stl-cms .stl-button, .stlButton {background-color: #EEEEEE; color: #2f608b; border-radius:0;}
+/*home page journey buttons may be special*/
+#stl-cms  .stl-journey-paths .stl-button {font-size:1.3em;}
+
+/*sidebar items may want to be in boxes with a background - this may move into the site control */
+.learn-how-to-fund  {border: 1px solid #D9D9D9; background: #FFF; padding:0; margin-bottom:20px;}
+.learn-how-to-fund.subList ul { margin:15px 0;}
+.learn-how-to-fund.subList p {padding: 15px; display: none;}
+
+.learn-how-to-fund.subList h3 {
+	font-style: normal!important;
+    color: #34BCAB!important;
+    font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif!important;
+    background: transparent;
+    border-bottom: 1px solid #D9D9D9;
+    border-top: 6px solid #d7e6dd;
+    margin-bottom: 0!important;
+    padding-left: 20px!important;
+    font-weight: bold!important;
+    padding: 10px;
+    text-align: center;
+}
+
+#stl-whats-new, .pull-right , .GIfeature  {background: #FFF; padding:10px; margin-bottom:20px;}
+
+
+#stl-whats-new  ul {padding:0; margin: 0 0 0 10px ;}
+
+/*put what's new into a box with a header*/
+#stl-whats-new {border: 1px solid #D9D9D9; margin-bottom:20px;}
+#stl-whats-new  h3.stl-whats-new-title {background-color: #D9D9D9; color: black; padding:10px;}
+#stl-whats-new  ul {padding:10px; margin: 0 0 0 10px; list-style-type:none;}
+
+/*mouse over box border*/
+.popup-flyover {border-color: #2f608b;}
+
+
+.mfp-content input {font:inherit; width:100%; display:block; border:1px solid #ddd; padding:3px;}
+.mfp-content .stlButton {
+	width: 100%;
+}
+.mfp-content .stlButton {
+	border: 0;
+	background: #07193C;
+	color: white;
+}
+.mfp-content .mfp-close {color:#07193c !important; opacity:1;}
+
+#brochureform, #DCGAbrochureform, .white-popup-block {
+    background: #FFF;
+    padding: 30px 20px 20px;
+}
+
+.stl-white-popup {font-size:14px;}
+
+/****************************************
+		 Gift Exclusions (ge) 
+****************************************/	
+
+/*Charitable Gift Annuities 
+.ge-cga {display:none !important; visibility:hidden !important;}*/
+		
+/* Deferred Charitable Gift Annuities 
+.ge-dcga {display:none !important; visibility:hidden !important;} */
+
+/*Retained Life Estate 
+.ge-rle {display:none !important; visibility:hidden !important;}*/
+		
+/* Bargain Sale 
+.ge-bs {display:none !important; visibility:hidden !important;} */		
+
+/*Memorial Gift 
+.ge-mem {display:none !important; visibility:hidden !important;}*/	
+
+/*Endowed Gift 
+.ge-endow {display:none !important; visibility:hidden !important;}*/ 
+
+/*Donor Advised Funds 
+.ge-daf {display:none !important; visibility:hidden !important;}*/
+
+/* Charitable Remainder Unitrust 
+.ge-crut {display:none !important; visibility:hidden !important;} */
+
+.stl-journey-paths p
+{
+	background: -webkit-linear-gradient(left, rgba(255,255,255,1), rgba(255,0,0,0));
+    background: -o-linear-gradient(right, rgba(255,255,255,1), rgba(255,0,0,0));
+    background: -moz-linear-gradient(right, rgba(255,255,255,1), rgba(255,0,0,0));
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,0,0,0));
+    margin-top: 0;
+    padding: 0 15px 15px;
+}
+
+.stl-journey-paths h3
+{
+	background: -webkit-linear-gradient(left, rgba(255,255,255,1), rgba(255,0,0,0));
+    background: -o-linear-gradient(right, rgba(255,255,255,1), rgba(255,0,0,0));
+    background: -moz-linear-gradient(right, rgba(255,255,255,1), rgba(255,0,0,0));
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,0,0,0));
+    margin-bottom: 0 !important;
+    padding: 15px 15px 0;
+}
+
+#stl-cms div.stl-info-slider div.stl-slider-wrap ul li {padding: 3px 10px}
+
+#stl-cms .stl-journey-paths .stl-button {
+	border-bottom: 1px solid #D9D9D9;
+	border-top: 6px solid #d7e6dd;
+	background-color: white;
+	margin-bottom: 0px;
+	font-size: 13px!important;
+	font-weight: bold!important;
+	color: #34BCAB!important;
+	font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif!important;
+}
+#stl-cms div.stl-info-slider div.stl-slider-wrap {
+	margin: 0; background-image:none !important;
+}
+
+@media only screen and (max-width:767px) {
+	.stl-journey-paths h4 {font-size:16pt;}
+	.stl-journey-paths h4 a {color:#07193C;}
+	.stl-journey-paths h4 a span {display: none;}
+	.stl-journey-paths.journey-paths.adventure.clearfix p {padding:0;}
+	#journey-paths-details {display:block !important; height:auto !important; max-height:none !important; padding:0 15px;}
+}
+
+.middle-results .modal-header {padding: 20px 15px 0; border:none;}
+.middle-results .modal-header p {margin:0;}
+.middle-results .modal-header .close {margin-top:-10px;}
+#stl-cms ol.breadcrumb {
+	width: 70%;
+}
+.breadcrumb a:visited, .breadcrumb a:active {
+	color: #868686!important;
+}
+.breadcrumb a, .breadcrumb li.current {
+	color: #868686;
+	text-transform: uppercase;
+	font-size: 10px!important;
+	font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	padding-right: 10px;
+	font-style: normal!important;
+	font-weight: 500!important;
+}
+.breadcrumb > li + li:before {
+    content: " > ";
+}
+
+
+.breadcrumb a:hover {
+	color: #34BCAB;
+}
+
+.breadcrumb li.current 
+{
+	color: #0072bc;
+	font-style: italic;
+	font-size: 11px;
+}
+
+.sub-middle-section p, .sub-middle-section li {
+	font-family: 'Sentinel A', 'Sentinel B', Times, Georgia, Serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #686868;
+	font-size: 14px;
+	line-height: 150%;
+}
+.stl-breadcrumbs 
+{
+	padding-left: 240px;
+}
+
+.stl-center.sub-middle-section 
+{
+	
+}
+
+#stl-whats-new 
+{
+	padding: 0;
+}
+
+#stl-whats-new h3.stl-whats-new-title {
+    font-style: normal!important;
+    color: #34BCAB!important;
+    font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif!important;
+	background: transparent;
+	border-bottom: 1px solid #D9D9D9;
+	border-top: 6px solid #d7e6dd;
+	margin-bottom: 0!important;
+	padding-left: 20px!important;
+	font-weight: bold!important;
+}
+
+
+
+#stl-cms #rightnav {
+	margin-top: -15px !important;
+}
+/* 8/12/2016 */
+#stl-cms > ul.stl-nav > li.sectionhome.currentPage > a.selected {
+background-color: red!important;
+}
+/* 8/12/2016 */
+#rightnav > li.onTrail > a {
+	display: none !important;
+}
+#stl-cms ul#rightnav li a {
+	padding-left: 5px !important;
+	padding-top: 12px !important;
+	padding-bottom: 12px !important;
+	border: 0;
+	color: #143156;
+	font: normal 500 14px/120% 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#stl-cms ul.stl-nav li a:hover {
+	color: #34BCAB;
+}
+#stl-cms ul.stl-nav li {
+	padding: 0;
+    margin: 0;
+    background-image: url('client-css/css-images/divider.png');
+    background-repeat: repeat-x;
+    background-position: left bottom;
+}
+#stl-cms ul.stl-nav {
+	border: 0;
+}
+
+/*#stl-cms > ul.stl-nav > li a.current {
+	background-color: red !important;
+}*/
+
+/*ul.stl-nav*/
+
+@media only screen and (max-width:767px) {
+	ul#rightnav {margin:30px 0 0; border:none; border-radius:0;}
+	ul#rightnav li {background:transparent;}
+	ul#rightnav li a {
+		background:transparent;
+		padding-left: 5px !important;
+		padding-top: 12px !important;
+		padding-bottom: 12px !important;
+		border: none;
+		border-bottom:1px dotted #143156;
+		color: #143156;
+		font: normal 500 14px/120% 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	}
+
+	.stl-gift-illustrator-row .col-sm-12 {
+	    padding: 0;
+	}
+
+}
+
+
+.stl-page-header 
+{
+	display: none;
+}
+
+.eBrochure 
+{
+	border: 1px solid #D9D9D9;
+	padding: 10px 15px; position:relative;
+}
+h4.stl-ebro-title {
+	text-align: center;
+	margin:5px 0 10px;
+	color: #34BCAB !important;
+}
+.eBrochure .clear{
+	width: -webkit-calc(100% + 30px); width: calc(100% + 30px);
+	border-top: 1px solid #d7e6dd;
+	margin-left:-15px;
+}
+.eBrochure:before {
+    content: '';
+    display: block;
+    height: 6px;
+    width: 100%;
+    background: #d7e6dd;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media only screen and (min-width:768px) {
+	.main-copy .eBrochure{
+			width: 39.3% !important;
+	}
+}
+
+
+.GIfeature 
+{
+	border: 1px solid #D9D9D9;
+	padding: 0;
+}
+
+.GIfeature.clearfix p {
+    padding-right: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.GIfeature img {
+	float: left;
+	width: auto;
+	height: auto;	
+}
+
+.GIfeature a.stlButton 
+{
+	background-color: #fff;
+	display: inline;
+	float: none;
+	margin-left: 0;
+}
+
+/*
+.GIfeature a.stlButton:after 
+{
+	padding-left: 5px;
+	content: url(http://www.trincoll.edu/_layouts/images/tcMasterPage/display/backgrounds/footerLink.gif);
+}
+*/
+
+.case-study h3 a {color: #07193C;}
+.case-study h3 a span {display:none;}
+
+#stl_case-study {
+    display: block !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: hidden;
+}
+
+/****************************************
+		 Our Stories HomePage Section
+****************************************/
+
+@media screen and (max-width: 768px) {
+
+	.donor-stories-tab, .donor-stories {width: 100% !important}
+}
+#stl-cms > div > div > div.stl-col.stl-w-09.stl-center.sub-middle-section > div.main-copy > h1 {
+	color: #000000;
+}
+.donor-stories-tab {
+	width:620px;
+	background-color: white;
+	/*color: #34BCAB!important*/;
+	font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif!important;
+	background: transparent;
+	border: 1px solid #D9D9D9;
+	margin-bottom: 0!important;
+	padding: 20px 30px;
+	font-weight: bold;
+	margin: 10px 0px 0px 0px;
+	text-align: left;
+  	font-size: 14px;
+}
+.donor-stories {
+	margin-top:0px;
+	/*padding:20px;*/
+	/*border-left: 1px solid #D9D9D9;
+	border-right: 1px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;*/
+	width: 640px;
+}
+
+.donor-stories .stl-photo-left {
+	background:#ffffff;
+}
+
+.stl-photo-left, .donorpic {
+	float: left;
+    height: 90px;
+    width: 90px;
+    margin: 0px 25px 0px 0px;
+}
+
+.donor-title {
+  	font-size: 20px;
+  	font-weight: bold;
+  	font-style: normal!important;
+	color: #545550!important;
+	font-size: 18px;
+    line-height: 120%;
+    font-weight: normal;
+}
+
+.donor-title a {
+	color: #54554a;
+}
+
+.donor-title a:hover {
+	color: #34BCAB;
+}
+
+.donor-story {
+	font-size: 14px;
+    color: #868686;
+}
+
+@media only screen and (max-width:480px) {
+.stl-photo-left, .donorpic {
+    margin: 0 0 10px;
+}
+
+}
+/* -------------------- Jamin punchlist additions begin --------------------------*/
+
+
+
+ol.breadcrumb li:after
+{
+    padding-left: 5px;
+}
+
+ol.breadcrumb li.current:after
+{
+    content: "";
+}
+
+
+
+.navigationTactical > ul
+{
+    width: 260px;
+}
+
+.stl-slider-wrap > ul
+{
+    background-color: #34BCAB;
+    height: 100%;
+
+}
+
+.stl-slider-wrap > ul > li
+{
+    border-bottom: 0px !important;
+}
+
+.stl-slider-wrap > ul > li > a:before
+{
+    content: "\002022";
+    padding-right: 5px;
+}
+
+h3,
+.stl-page-subtitle {
+    font-size: 16pt;
+    /*color: #009999 !important*/;
+}
+h2.stl-page-subtitle {
+	font-weight: bold !important;
+}
+
+.stl-info-slider > .stl-button
+{
+    text-transform: uppercase;
+    font-size: 18px !important;
+    padding: 10px 0px !important;
+}
+
+.stl-whats-new-title
+{
+    text-transform: uppercase;
+    font-family: Arial,Helvetica,Verdana,Tahoma,sans-serif;
+    font-size: 20px;
+}
+#stl-whats-new > ul > li {
+	margin-bottom: 10px!important;
+}
+    
+#stl-whats-new > ul > li a {
+    color: #6b656c;
+    font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif!important;
+	font-style: italic;
+}
+#stl-whats-new > ul > li a:hover {
+	color: #34BCAB;
+}
+.stl-slider-wrap
+{
+    min-height: 167px !important;
+}
+
+
+.stlButton
+{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.stl-pepc-promo > .stlButton,
+.eBrochure > .stlButton
+{
+    background: #EEEEEE;
+    text-align: center;
+    display: block;
+    border: 1px darkgrey solid;
+}
+
+.stl-pepc-promo > .stlButton:hover, .eBrochure > .stlButton:hover {
+	border: 1px solid black;
+}
+
+.stl-not-sure > .stl-fl-left
+{
+    margin-top: 0 !important;
+}
+
+/* -------------------------------------
+		Not Sure How to Get Started
+------------------------------------- */
+.not-sure-where-to-being-questionnaire {padding:10px 20px 20px; font-family: 'Sentinel A', 'Sentinel B', Times, Georgia, Serif; font-weight: 400; font-style: normal; color: #686868; font-size: 14px; line-height: 1.5;}
+.not-sure-where-to-being-questionnaire .stl-page-header {display:block; font: italic 500 30px/120% 'Sentinel A', 'Sentinel B', Times, Georgia, Serif !important; text-transform: none; margin: 0; color:#000; padding:15px 0 5px;} /* Not Sure popup header */
+.not-sure-where-to-being-questionnaire ul {margin:10px 0px; list-style:none; padding-left:0;}
+		.not-sure-where-to-being-questionnaire ul li {margin:0 0 25px;}
+		.not-sure-where-to-being-questionnaire ul li.q1 > div {padding: 7px 15px 7px 33px; margin:10px 0; background:#143156; color:#fff;}
+		.not-sure-where-to-being-questionnaire ul li.q2 > div, .not-sure-where-to-being-questionnaire ul li.q3 > div {padding:0 0 0 33px;}
+		.not-sure-where-to-being-questionnaire ul li input {margin: 3px 10px 3px -23px; width:auto; background:transparent; vertical-align:top;}
+.not-sure-where-to-being-questionnaire p {font-size:14px; line-height:1.5; margin:0 0 5px;}
+.getting-started-suggestion a {padding-left:33px;}
+
+
+.learn-how-to-fund > ul > li
+{
+    margin-bottom: 5px;
+    color: #0072BC;
+}
+
+.GIfeature > h3
+{
+        font-style: normal!important;
+    color: #34BCAB!important;
+    font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif!important;
+    background: transparent;
+    border-bottom: 1px solid #D9D9D9;
+    border-top: 6px solid #d7e6dd;
+    margin-bottom: 0!important;
+    padding-left: 20px!important;
+    font-weight: bold!important;
+    padding: 10px;
+    text-align: center;
+}
+
+.next-steps h3 a {
+    color: #07193C;
+}
+ol#next-steps {
+    display: block !important;
+    height: auto !important;
+}
+
+.next-steps ol
+{
+    padding-left: 15px;
+}
+.next-steps ol > li
+{
+    margin-bottom: 20px;
+}
+.next-steps p, .next-steps span {
+	font-size: 14px;
+}
+
+.eBrochure > p
+{
+    line-height: 30px !important;
+    padding: 10px 10px 0 10px;
+    color: #6b656c;
+    font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif!important;
+    font-style: italic;
+}
+
+.stl-pepc-promo
+{
+    border: 1px solid #D9D9D9;
+    padding: 0px;
+}
+
+.stl-pepc-promo p {
+	font-style: normal!important;
+	color: #34BCAB!important;
+	font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif!important;
+	background: transparent;
+	border-bottom: 1px solid #D9D9D9;
+	border-top: 6px solid #d7e6dd;
+	margin-bottom: 0!important;
+	padding: 15px 20px!important;
+	margin-top: 0;
+	font-weight: bold!important;
+	text-align: center;
+}
+
+.stl-pepc-promo > .stlButton
+{
+	padding: 10px;
+    background: none;
+    margin: 10px;
+    background: #EEEEEE;
+    border: 1px darkgrey solid;
+}
+
+
+
+.mfp-content {
+	    font-family: 'Sentinel A', 'Sentinel B', Times, Georgia, Serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #686868;
+    font-size: 14px;
+    line-height: 150%;
+}
+/* -------------------- Jamin punchlist additions end --------------------------*/
+/****************************************
+		EBROCHURE PAGES
+****************************************/
+	/* Style heading to match interior page typography above */
+	#ebro-wrap blockquote {}
+	
+	/* table styling */
+	.ebro-table {margin:30px 0;}
+		.ebro-table > div {width:100%; margin:0;}
+		.ebro-table > div:first-child {margin-bottom:40px;}
+		.ebro-table table {width:100%;}
+			.ebro-table table tbody tr:first-child {background:#aaa; color:#fff;} /* Top row */
+			.ebro-table table tbody tr:nth-child(2) {background:#ccc; color:#fff;} /* Second row */
+			.ebro-table table tbody tr:nth-child(2n + 4) {background:#e4e4e4;} /* Every other row */
+			.ebro-table table tbody td {padding:3px; text-align:center;}
+	@media (min-width: 768px) {.ebro-table > div {width:40%; margin:0 4%; float:left;}
+
+
+	
+span.stl_ContactPhoto {
+    float: left;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 85px;
+        
+}
+
+.stl_ContactInfo {
+   width: 1000px;
+}
+
+
+/*--------------------------------------
+Client Overrides
+---------------------------------------*/
+#ctl00_PlaceHolderSearchArea_ctl00_S3031AEBA_go {width:28px !important; height:27px; display:inline-block; margin:0;}
+.mobile-site-160 a {
+    color: #94B0D5;
+}
+.mobile-site-160 a:hover, .mobile-site-160 a:focus {
+    color: #FFFFFF;
+}
+
+.single-banner.full-banner img {
+    width: 940px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.navigationFooter-160 a {
+	text-decoration: underline!important;
+}
+.navigationTactical-160 a {
+	font-size: 12px;
+}
+.s4-search input.ms-sbplain {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.navigationGateway-160 a {
+	font-size: 11px;
+}
+.navigationPrimary-160 a {
+	padding: 14px 15px!important;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 500;
+    color:#fff;
+}
+.navigationPrimary-160 {
+	box-shadow: none!important;
+}
+.navigationPrimary-160 li {
+	line-height: 17px!important;
+}
+.navigationTactical-160 {
+    margin: 8px 0 1px !important;
+}
+.siteHeader-160 {
+    padding: 20px 0px 11px 0px!important;
+}
+
+.owl-controls {
+	display: none !important;
+}
+
+.owl-carousel {
+	margin-bottom: 20px;
+}
+
+.navigationFooter-160 li {
+	line-height: 15px!important;
+}
+
+.stl-journey-paths.journey-paths.adventure.clearfix {
+	background: url(css-images/give.jpg);
+    margin: 35px 0;
+}
+
+
+
+@media screen and (min-width: 768px) {
+	.navigator-feature
+	{
+		width: 640px;
+		margin: 30px 0;
+	    border: 1px solid #D9D9D9;
+	    padding: 20px;
+	    color: #303030;
+	    font-size: 130%;
+	    font-family: georgia;
+	    line-height: 200%;
+	}
+
+	.navigator-feature h1 {
+	    text-transform: uppercase;
+	    font-family: Arial,Helvetica,Verdana,Tahoma,sans-serif;
+	    font-size: 21px;
+	    font-weight: normal;
+	    color: #0072BC;
+	    margin-bottom: 15px;
+	}
+
+}
+
+#stl-fund-it-container > div > ul > li:nth-child(1),
+#stl-fund-it-container > div > ul > li:nth-child(2),
+#stl-fund-it-container > div > ul > li:nth-child(3)
+{
+	width: 30%;
+	float: left;
+	margin-right: 0;
+}
+/* 8/12/2016 - Roberto's team */
+.trinity-college > #stl-page > #stl-cms > .stl-copyright p {
+    font-size: 9pt !important;
+    line-height: 9pt;
+}
+.stl-copyright, .stl-copyright p, #stl-page .stl-copyright, #stl-page .stl-copyright p, #stl-cms .stl-copyright, #stl-cms .stl-copyright p, .copyright, .copyright p, #stl-page .copyright, #stl-page .copyright p, #stl-cms .copyright, #stl-cms .copyright p {
+	font-size: 9pt !important;
+	padding-top: 40px;
+	margin-top: 60px;
+}
+span.cga-copyright {
+    font-size: 9pt;
+}
+/* end 8/12/2016 - Roberto's team */
+
+/* 8/15/2016 - Roberto's team */
+
+#stl-cms > div > div > div.stl-col.stl-w-09.stl-center.sub-middle-section > div:nth-child(2) > div > div > div.re-first.stl-clearfix > p > strong, #stl-cms > div > div > div.stl-col.stl-w-09.stl-center.sub-middle-section > div:nth-child(2) > div > div > p:nth-child(7) > a > strong, #stl-cms > div > div > div.stl-col.stl-w-09.stl-center.sub-middle-section > div:nth-child(2) > div > div > div.ge-rle.stl-clearfix > p > strong, #stl-cms > div > div > div.stl-col.stl-w-09.stl-center.sub-middle-section > div:nth-child(2) > div > div > div.ge-dcga.stl-clearfix > p > a > strong, #stl-cms > div > div > div.stl-col.stl-w-09.stl-center.sub-middle-section > div:nth-child(2) > div > div > div.ge-bs.stl-clearfix > p > strong, #stl-cms > div > div > div.stl-col.stl-w-09.stl-center.sub-middle-section > div:nth-child(2) > div > div > div.ge-crut.stl-clearfix > p:nth-child(2) > a > strong, #stl-cms > div > div > div.stl-col.stl-w-09.stl-center.sub-middle-section > div:nth-child(2) > div > div > div.ge-crut.stl-clearfix > p:nth-child(3) > a > strong, #stl-cms > div > div > div.stl-col.stl-w-09.stl-center.sub-middle-section > div:nth-child(2) > div > div > div.ge-crut.stl-clearfix > p:nth-child(4) > a > strong, #stl-cms > div > div > div.stl-col.stl-w-09.stl-center.sub-middle-section > div:nth-child(2) > div > div > div.ge-crut.stl-clearfix > p:nth-child(5) > a > strong {
+    color: #009999;
+}
+div.learn-how-to-fund p {
+    text-align: center;
+}
+.stl-selected {
+	font-weight: bold;
+	background-color: lightgrey;
+}
+#stl-cms > div > div > div.stl-col.stl-w-09.stl-center.sub-middle-section > div:nth-child(7) > div > div {
+    display: none;
+}
+/* CGA Copyright add */
+
+body.InteriorPage.charitable-gift-annuities #stl-cms .stl-copyright > p {
+    margin-top: 0;
+    padding: 0;
+}
+body.InteriorPage.charitable-remainder-trusts #stl-cms .stl-copyright:before {
+	font-size: 9pt;
+	line-height: 20px;
+    color: #686868;
+    content: "Minimum contribution for a charitable gift annuity is $10,000. Currently not available in Alabama, Arkansas, California, Hawaii, North Dakota, Tennessee and Washington.";
+}
+body.InteriorPage.charitable-remainder-trusts #stl-cms .stl-copyright > p {
+    margin-top: 0;
+    padding: 0;
+}
+body.InteriorPage.charitable-lead-trusts #stl-cms .stl-copyright:before {
+	font-size: 9pt;
+    color: #686868;
+    line-height: 20px;
+    content: "Minimum contribution for a charitable gift annuity is $10,000. Currently not available in Alabama, Arkansas, California, Hawaii, North Dakota, Tennessee and Washington.";
+}
+body.InteriorPage.charitable-lead-trusts #stl-cms .stl-copyright > p {
+    margin-top: 0;
+    padding: 0;
+}
+/* End of CGA Copyright add */
+
+
+/* 8/16/2016 - Roberto's team */
+body.Article.donor-stories {
+	width: 100%;
+	height: 100%
+	padding: 0;
+}
+#stl-cms > div > div > div.stl-col.stl-w-09.stl-center.sub-middle-section > div.main-copy > div > div > div.donor-stories {
+	padding: 20px;
+	border-left: 1px solid #D9D9D9;
+	border-right: 1px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;
+}
+.row.stl-main-copy-row a.stlButton.lightbox {
+	float: right;
+	display: inline-block;
+	width: 20%;
+	margin-left: 20px;
+}
+
+
+/* Out of the media query to be compatible with IE 11 */
+.pull-right.stl-pepc-promo p {
+		font-style: normal!important;
+	    color: #34BCAB!important;
+	    font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif!important;
+	    background: transparent;
+	    border-bottom: 1px solid #D9D9D9;
+	    border-top: 6px solid #d7e6dd;
+	    margin-bottom: 0!important;
+	    padding: 15px 20px!important;
+	    margin-top: 0;
+	    font-weight: bold!important;
+	    text-align: center;
+	}
+
+/* Out of the media query to be compatible with IE 11 */	
+	/* end 8/16/2016 - Roberto's team */
+
+/* START ROBERTO'S TEAM 09/30/2016 ------------------------------------------------------------ */
+
+h2.stl-page-subtitle {
+    color: #34BCAB !important;
+}
+span.stl_ContactPhoto {
+    margin-bottom: 0;
+}
+.learn-how-to-fund.subList ul {
+    margin-left: 0;
+}
+.learn-how-to-fund > ul > li {
+    width: 33%;
+    display: inline-block;
+}
+.learn-how-to-fund > ul > li:before { 
+	content:'\ffed'; 
+	margin-right:0.5em; 
+}
+
+
+@media screen and (min-width: 768px) {
+
+	.endowed-gifts #stl-cms div.case-study {
+		width: 380px;
+		position: relative;
+		top: -115px;
+	}
+	.endowed-gifts .row.stl-video-learn-row {
+	    position: relative;
+	    top: -60px;
+	}
+	.gi-right-promo {
+    	float: right;
+    	width: 25%;
+    	margin-left: 35px;
+	}
+
+}
+
+/* END ROBERTO'S TEAM 09/30/2016 ------------------------------------------------------------ */
+

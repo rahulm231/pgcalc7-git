@@ -1,0 +1,17 @@
+.accordion-menu-block .element-invisible {
+  width: 1px;
+}
+
+ul.accordion-nav-sub-menu {
+  display: none;
+}
+
+a.submenu-toggle {
+  float: right;
+}
+
+a.submenu-toggle:hover i,
+a.submenu-toggle:active i,
+a.submenu-toggle:focus i {
+  text-decoration: underline;
+}

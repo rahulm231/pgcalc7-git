@@ -1,0 +1,917 @@
+a.media-colorbox {
+  position: relative;
+  display: block;
+}
+div.file-video .play-button {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/sites/all/themes/caltech_new/cssAssets/57a4ecae26aa8.png) no-repeat center;
+  background-size: 64px 64px;
+}
+div.file-video .play-button:hover {
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/video_play.png);
+}
+div.grid_1 {
+  width: 50px;
+}
+div.grid_2 {
+  width: 100px;
+}
+div.grid_3 {
+  width: 150px;
+}
+div.grid_4 {
+  width: 200px;
+}
+div.grid_5 {
+  width: 250px;
+}
+div.grid_6 {
+  width: 300px;
+}
+div.grid_7 {
+  width: 350px;
+}
+div.grid_8 {
+  width: 400px;
+}
+div.grid_9 {
+  width: 450px;
+}
+div.grid_10 {
+  width: 500px;
+}
+div.grid_11 {
+  width: 550px;
+}
+div.grid_12 {
+  width: 600px;
+}
+div.grid_13 {
+  width: 650px;
+}
+div.grid_14 {
+  width: 700px;
+}
+div.grid_15 {
+  width: 750px;
+}
+div.grid_16 {
+  width: 800px;
+}
+div.grid_17 {
+  width: 850px;
+}
+div.grid_18 {
+  width: 900px;
+}
+div.grid_19 {
+  width: 950px;
+}
+div.grid_20 {
+  width: 1000px;
+}
+div.view-mode-teaser_grid_1 {
+  width: 40px;
+}
+div.view-mode-teaser_grid_2 {
+  width: 90px;
+}
+div.view-mode-teaser_grid_3 {
+  width: 140px;
+}
+div.view-mode-grid_4 {
+  width: 190px;
+}
+div.view-mode-grid_5 {
+  width: 240px;
+}
+div.view-mode-teaser_grid_6 {
+  width: 290px;
+}
+div.view-mode-teaser_grid_7 {
+  width: 340px;
+}
+div.view-mode-teaser_grid_8 {
+  width: 390px;
+}
+div.view-mode-teaser_grid_9 {
+  width: 440px;
+}
+div.view-mode-teaser_grid_10 {
+  width: 490px;
+}
+div.view-mode-teaser_grid_11 {
+  width: 540px;
+}
+div.view-mode-teaser_grid_12 {
+  width: 590px;
+}
+div.view-mode-teaser_grid_13 {
+  width: 640px;
+}
+div.view-mode-teaser_grid_14 {
+  width: 690px;
+}
+div.view-mode-teaser_grid_15 {
+  width: 740px;
+}
+div.view-mode-teaser_grid_16 {
+  width: 790px;
+}
+div.view-mode-teaser_grid_17 {
+  width: 840px;
+}
+div.view-mode-teaser_grid_18 {
+  width: 890px;
+}
+div.view-mode-teaser_grid_19 {
+  width: 940px;
+}
+div.view-mode-teaser_grid_20 {
+  width: 990px;
+}
+div.pane.grid_1 {
+  width: 40px;
+}
+div.pane.grid_2 {
+  width: 90px;
+}
+div.pane.grid_3 {
+  width: 140px;
+}
+div.pane.grid_4 {
+  width: 190px;
+}
+div.pane.grid_5 {
+  width: 240px;
+}
+div.pane.grid_6 {
+  width: 290px;
+}
+div.pane.grid_7 {
+  width: 340px;
+}
+div.pane.grid_8 {
+  width: 390px;
+}
+div.pane.grid_9 {
+  width: 440px;
+}
+div.pane.grid_10 {
+  width: 490px;
+}
+div.pane.grid_11 {
+  width: 540px;
+}
+div.pane.grid_12 {
+  width: 590px;
+}
+div.pane.grid_13 {
+  width: 640px;
+}
+div.pane.grid_14 {
+  width: 690px;
+}
+div.pane.grid_15 {
+  width: 740px;
+}
+div.pane.grid_16 {
+  width: 790px;
+}
+div.pane.grid_17 {
+  width: 840px;
+}
+div.pane.grid_18 {
+  width: 890px;
+}
+div.pane.grid_19 {
+  width: 940px;
+}
+div.pane.grid_20 {
+  width: 990px;
+}
+:not(.node-static-page-grid).bgcolor-white {
+  background-color: white;
+}
+:not(.node-static-page-grid).bgcolor-black {
+  background-color: black;
+}
+:not(.node-static-page-grid).bgcolor-orange {
+  background-color: #ff6e1e;
+}
+:not(.node-static-page-grid).bgcolor-lightgrey {
+  background-color: #ced0d1;
+}
+:not(.node-static-page-grid).bgcolor-midgrey {
+  background-color: #afafaf;
+}
+:not(.node-static-page-grid).bgcolor-darkgrey {
+  background-color: #696b73;
+}
+:not(.node-static-page-grid).bgcolor-verydarkgrey {
+  background-color: #616265;
+}
+:not(.node-static-page-grid).bgcolor-olivegreen {
+  background-color: #a9b734;
+}
+:not(.node-static-page-grid).bgcolor-purple {
+  background-color: #95348d;
+}
+:not(.node-static-page-grid).bgcolor-darkteal {
+  background-color: #005e5c;
+}
+:not(.node-static-page-grid).bgcolor-pink {
+  background-color: #f0628a;
+}
+:not(.node-static-page-grid).bgcolor-maroon {
+  background-color: #731b36;
+}
+:not(.node-static-page-grid).bgcolor-lightblue {
+  background-color: #00b4f0;
+}
+:not(.node-static-page-grid).bgcolor-mintgreen {
+  background-color: #00ad68;
+}
+:not(.node-static-page-grid).bgcolor-yellow {
+  background-color: #eedc00;
+}
+:not(.node-static-page-grid).bgcolor-teal {
+  background-color: #00b2b0;
+}
+:not(.node-static-page-grid).bgcolor-redorange {
+  background-color: #ef4638;
+}
+:not(.node-static-page-grid).bgcolor-darkyellow {
+  background-color: #febe10;
+}
+:not(.node-static-page-grid).bgcolor-darkolive {
+  background-color: #76871a;
+}
+:not(.node-static-page-grid).bgcolor-darkbluegreen {
+  background-color: #00506d;
+}
+.bgcolor-white .welcome {
+  background-color: white;
+}
+.bgcolor-black .welcome {
+  background-color: black;
+}
+.bgcolor-orange .welcome {
+  background-color: #ff6e1e;
+}
+.bgcolor-lightgrey .welcome {
+  background-color: #ced0d1;
+}
+.bgcolor-midgrey .welcome {
+  background-color: #afafaf;
+}
+.bgcolor-darkgrey .welcome {
+  background-color: #696b73;
+}
+.bgcolor-verydarkgrey .welcome {
+  background-color: #616265;
+}
+.bgcolor-olivegreen .welcome {
+  background-color: #a9b734;
+}
+.bgcolor-purple .welcome {
+  background-color: #95348d;
+}
+.bgcolor-darkteal .welcome {
+  background-color: #005e5c;
+}
+.bgcolor-pink .welcome {
+  background-color: #f0628a;
+}
+.bgcolor-maroon .welcome {
+  background-color: #731b36;
+}
+.bgcolor-lightblue .welcome {
+  background-color: #00b4f0;
+}
+.bgcolor-mintgreen .welcome {
+  background-color: #00ad68;
+}
+.bgcolor-yellow .welcome {
+  background-color: #eedc00;
+}
+.bgcolor-teal .welcome {
+  background-color: #00b2b0;
+}
+.bgcolor-redorange .welcome {
+  background-color: #ef4638;
+}
+.bgcolor-darkyellow .welcome {
+  background-color: #febe10;
+}
+.bgcolor-darkolive .welcome {
+  background-color: #76871a;
+}
+.bgcolor-darkbluegreen .welcome {
+  background-color: #00506d;
+}
+/* Print Styles */
+/* default print styles taken from html5 boilerplate */
+* {
+  background: transparent !important;
+  color: black !important;
+  text-shadow: none !important;
+  filter: none !important;
+  -ms-filter: none !important;
+}
+/* Black prints faster: h5bp.com/s */
+a,
+a:visited {
+  text-decoration: underline;
+}
+a[href]:after {
+  content: none;
+}
+/* do not display link URL - DanT, 10_OCT_2013 */
+abbr[title]:after {
+  content: none;
+}
+/* do not display link URL - DanT, 10_OCT_2013 */
+.ir a:after,
+a[href^="javascript:"]:after,
+a[href^="#"]:after {
+  content: "";
+}
+/* Don't show links for images, or javascript/internal links */
+pre,
+blockquote {
+  border: 1px solid #999;
+  page-break-inside: avoid;
+}
+thead {
+  display: table-header-group;
+}
+/* h5bp.com/t */
+tr,
+img {
+  page-break-inside: avoid !important;
+}
+/* added !important to style - DanT, 10_OCT_2013 */
+@page {
+  size: auto;
+  margin: 20mm 20mm 20mm 20mm;
+}
+p,
+h2,
+h3 {
+  orphans: 3;
+  widows: 3;
+}
+h2,
+h3 {
+  page-break-after: avoid;
+}
+/* print styles headers and footers, tertiary/article layout pages */
+div#ribbon {
+  display: none;
+}
+/* remove ribbon items - DanT, 23_OCT_2015 */
+div#main,
+div#bg {
+  background: white;
+}
+div#main:before {
+  display: block;
+  content: "Caltech";
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24pt;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+/* Moved Caltech name from before publish date to before main; changed font size to 24pt - DanT, 23_OCT_2015 */
+div.ds-main {
+  font-size: 11pt;
+}
+div.ds-main h2 {
+  font-size: 28pt;
+  line-height: 30pt;
+}
+/* changed font size from 28 to 24pt - DanT, 10_OCT_2013 */
+div.ds-main div.field-name-body p:first-child {
+  font-size: 13pt;
+}
+/* changed font size from 15 to 13pt - DanT, 10_OCT_2013 */
+div.ds-main p {
+  font-size: 11pt;
+}
+/* changed font size from 11 to 10pt - DanT, 10_OCT_2013 */
+img {
+  max-width: 500px !important;
+  height: auto !important;
+}
+div.ds-main div.field-name-field-images,
+div.ds-main div.field-name-field-assets,
+div.ds-main div.field-name-field-pr-links,
+div.ds-main div.field-name-news-tags {
+  width: 450px;
+  float: right;
+  clear: both;
+  margin-right: -250px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+/* float images and assets to right of text, with text wrap - DanT, 04_OCT_2013 */
+/* float related links and tags under image - DanT, 09_JAN_2015 */
+div.sharethis-wrapper {
+  display: none;
+}
+/* remove ShareThis items - DanT, 09_JAN_2015 */
+div.media-image {
+  width: 450px;
+  float: left;
+  margin: 0 25px 25px 0;
+}
+/* float embedded images with text wrap - DanT, 10_OCT_2013 */
+div#banner {
+  display: none;
+}
+/* remove banner containing logo, title, main menu */
+div.submenu {
+  display: none;
+}
+/* remove submenu items */
+nav#submenu {
+  display: none;
+}
+/* remove submenu items */
+div[class~='ds-tertiary-header'] {
+  display: none;
+}
+/* remove Back to All News and Subscribe to Now@Caltech tertiary headers - DanT, 23_OCT_2015 */
+div.jcarousel-container.jcarousel-container-horizontal {
+  width: 450px;
+  /* the width set to 450px required to mask out extra images */
+}
+div.ds-1col.file.file-image.file-image-jpeg.view-mode-full_grid_9 img {
+  width: 450px !important;
+  height: auto !important;
+  margin: 0 !important;
+}
+/* set image width on Article-like asset pages */
+div.item-list {
+  display: none;
+}
+/* remove thumbnail list of multiple images */
+/* restoring thumbnail list will cause width of content area to contract
+not sure why, if the list needs to be restored, we will need to revisit
+Dan T, 24_AUG_2012 */
+div#discover-more h1 {
+  padding-left: 0;
+}
+/* Set H1 headers on Frontpage/Homepage flush left - DanT, 23_OCT_2015 */
+div#news-and-events h1 {
+  padding-left: 0;
+}
+/* Set H1 headers on Frontpage/Homepage flush left - DanT, 23_OCT_2015 */
+div#infographics h1 {
+  padding-left: 0;
+}
+/* Set H1 headers on Frontpage/Homepage flush left - DanT, 23_OCT_2015 */
+div#social-media-block h1 {
+  padding-left: 0;
+}
+/* Set H1 headers on Frontpage/Homepage flush left - DanT, 23_OCT_2015 */
+div#footer {
+  display: none !important;
+}
+/* remove redesigned footer - DanT, 23_OCT_2015 */
+div#footer_content {
+  display: none !important;
+}
+/* remove CONNECT WITH CALTECH and social media links */
+div#social_media_block_carousel {
+  display: none !important;
+}
+/* remove social media footer links */
+ul#social-media-icons {
+  display: none !important;
+}
+/* remove social media icons from Frontpage/Homepage Connect with Caltech header bar - DanT, 23_OCT_2015 */
+span#cb_legalese {
+  display: none;
+}
+/* remove footer legalese */
+#cb_name {
+  display: none;
+}
+/* don't display name text - DanT, 09_JAN_2015 */
+#cb_address {
+  display: none;
+}
+/* don't display address - DanT, 10_OCT_2013 */
+#cb_copyright {
+  display: none;
+}
+/* don't display copyright - DanT, 10_OCT_2013 */
+/* print styles front page */
+/* print styles Grids */
+div#first-time {
+  display: none;
+}
+div#block-system-main div.pane {
+  display: block !important;
+  position: relative !important;
+  width: 100% !important;
+  margin: 30pt 0 0 0 !important;
+}
+div#block-system-main div.pane p {
+  font-size: 11pt;
+}
+div#block-system-main div.node-external-page div.file-video {
+  display: block !important;
+  position: relative !important;
+  width: 100% !important;
+  margin: 30pt 0 0 0 !important;
+}
+div#block-system-main div.group-left {
+  display: block !important;
+  position: relative !important;
+  float: none !important;
+  width: 100% !important;
+}
+div#block-system-main div.group-right {
+  display: block !important;
+  position: relative !important;
+  float: none !important;
+  width: 100% !important;
+}
+div#block-system-main div.pane.welcome div.field-name-body {
+  font-size: 12pt;
+  margin-top: 0 !important;
+  width: 100% !important;
+}
+div#block-system-main div.pane.welcome div.field-name-body p {
+  margin-top: 0 !important;
+}
+div#block-system-main div.pane a {
+  display: block !important;
+  position: relative !important;
+  font-size: 10pt;
+  margin: 0 !important;
+}
+div#block-system-main div.pane img {
+  display: block !important;
+  position: relative !important;
+  height: 300px !important;
+  width: auto !important;
+  margin: 0 !important;
+}
+div.event_callout.ds-news {
+  font-size: 10pt;
+}
+div.event_callout.ds-news div.field-name-field-news-event-line-prefix {
+  font-size: 16pt;
+  margin-top: 12pt;
+}
+/* print styles Calendar - ALL */
+div#block-menu-menu-calendar-menu {
+  display: none;
+}
+div.view.view-events-calendar div.view-filters {
+  display: none;
+}
+div.view-content div.item-list {
+  display: block !important;
+}
+ul.pager {
+  display: none;
+}
+/* print styles Calendar - Academic, Month */
+div.date-nav.item-list {
+  display: block !important;
+  margin-bottom: 0 !important;
+}
+div.view-content div.item-list {
+  display: block !important;
+}
+div.date-heading {
+  display: block !important;
+  font-size: 42pt !important;
+  text-align: left !important;
+}
+div.month-view td,
+th {
+  border-color: #000 !important;
+  font-size: 8pt !important;
+}
+tr.date-box a[href]:after {
+  content: none;
+}
+div.calendar-event-title {
+  display: block !important;
+  font-size: 8pt !important;
+  line-height: 10pt !important;
+  font-weight: normal !important;
+}
+div.calendar-event-title a {
+  font-size: 8pt !important;
+  font-weight: normal !important;
+  text-decoration: none;
+}
+div.calendar-event-title a[href]:after {
+  content: none;
+}
+div.item-list li.views-row {
+  display: block !important;
+  margin: 18pt 0 0 0 !important;
+  border-bottom: 1px solid #000 !important;
+}
+/* print styles Calendar - Mobile, Upcoming, Event, Public Events */
+.view-public-events-lecture-series h2,
+.panel-pane.pane-page-title h2 {
+  font-size: 24pt !important;
+  line-height: 26pt !important;
+  margin-top: 0 !important;
+}
+.view-public-events-lecture-series p,
+.panel-pane.pane-page-title p {
+  font-size: 11pt !important;
+}
+div.ds-1col.node.node-event.view-mode-teaser_listing,
+div.ds-1col.node.node-seminar.view-mode-teaser_listing,
+div.ds-1col.node.node-public-event.view-mode-teaser_listing,
+div.ds-1col.node.node-lecture-series.view-mode-teaser_listing,
+div.ds-1col.node.node-public-event {
+  display: block !important;
+  margin: 18pt 0 18pt 0 !important;
+  border-bottom: 1px solid #000 !important;
+}
+.node-event a,
+.node-seminar a,
+.node-public-event a,
+.node-lecture-series a {
+  text-decoration: none;
+}
+.node-event a[href]:after,
+.node-seminar a[href]:after,
+.node-public-event a[href]:after,
+.node-lecture-series a[href]:after {
+  content: none;
+}
+.node-event .field-name-field-event-date,
+.node-seminar .field-name-field-event-date,
+.node-public-event .field-name-field-event-date,
+.node-lecture-series .field-name-field-event-date {
+  font-size: 12pt !important;
+}
+.node-event .field-name-event-time .date-display-single,
+.node-seminar .field-name-event-time .date-display-single,
+.node-public-event .field-name-event-time .date-display-single,
+.node-lecture-series .field-name-event-time .date-display-single {
+  font-size: 9pt !important;
+}
+.node-event .field-name-location-display,
+.node-seminar .field-name-location-display,
+.node-public-event .field-name-location-display,
+.node-lecture-series .field-name-location-display {
+  font-size: 11pt !important;
+}
+.node-event .field-name-raw-title h2,
+.node-seminar .field-name-raw-title h2,
+.node-public-event .field-name-raw-title h2,
+.node-lecture-series .field-name-raw-title h2,
+.node-event .field-name-raw-title-link h2,
+.node-seminar .field-name-raw-title-link h2,
+.node-public-event .field-name-raw-title-link h2,
+.node-lecture-series .field-name-raw-title-link h2,
+.node-event .field-name-public-event-series-listing-link h2,
+.node-seminar .field-name-public-event-series-listing-link h2,
+.node-public-event .field-name-public-event-series-listing-link h2,
+.node-lecture-series .field-name-public-event-series-listing-link h2,
+.node-event .field-name-teaser-title h2,
+.node-seminar .field-name-teaser-title h2,
+.node-public-event .field-name-teaser-title h2,
+.node-lecture-series .field-name-teaser-title h2 {
+  font-size: 18pt !important;
+  line-height: 20pt !important;
+}
+.node-event .field-name-raw-title a,
+.node-seminar .field-name-raw-title a,
+.node-public-event .field-name-raw-title a,
+.node-lecture-series .field-name-raw-title a,
+.node-event .field-name-raw-title-link a,
+.node-seminar .field-name-raw-title-link a,
+.node-public-event .field-name-raw-title-link a,
+.node-lecture-series .field-name-raw-title-link a,
+.node-event .field-name-public-event-series-listing-link a,
+.node-seminar .field-name-public-event-series-listing-link a,
+.node-public-event .field-name-public-event-series-listing-link a,
+.node-lecture-series .field-name-public-event-series-listing-link a,
+.node-event .field-name-teaser-title a,
+.node-seminar .field-name-teaser-title a,
+.node-public-event .field-name-teaser-title a,
+.node-lecture-series .field-name-teaser-title a {
+  font-size: 18pt !important;
+  line-height: 20pt !important;
+}
+.node-event .field-name-teaser-title,
+.node-seminar .field-name-teaser-title,
+.node-public-event .field-name-teaser-title,
+.node-lecture-series .field-name-teaser-title {
+  margin-bottom: 18pt !important;
+}
+.node-event .field-name-seminar-title-display,
+.node-seminar .field-name-seminar-title-display,
+.node-public-event .field-name-seminar-title-display,
+.node-lecture-series .field-name-seminar-title-display {
+  font-size: 15pt !important;
+}
+.node-event .field-name-speaker-info,
+.node-seminar .field-name-speaker-info,
+.node-public-event .field-name-speaker-info,
+.node-lecture-series .field-name-speaker-info {
+  font-size: 12pt !important;
+  font-weight: bold !important;
+  margin-bottom: 18pt !important;
+}
+.node-event .field-name-field-event-description,
+.node-seminar .field-name-field-event-description,
+.node-public-event .field-name-field-event-description,
+.node-lecture-series .field-name-field-event-description,
+.node-event .field-name-field-description,
+.node-seminar .field-name-field-description,
+.node-public-event .field-name-field-description,
+.node-lecture-series .field-name-field-description {
+  font-size: 11pt !important;
+  margin-bottom: 18pt !important;
+}
+.node-event .field-name-body,
+.node-seminar .field-name-body,
+.node-public-event .field-name-body,
+.node-lecture-series .field-name-body {
+  font-size: 11pt !important;
+}
+.node-event .field-name-event-contact-info,
+.node-seminar .field-name-event-contact-info,
+.node-public-event .field-name-event-contact-info,
+.node-lecture-series .field-name-event-contact-info {
+  font-size: 11pt !important;
+  margin-top: 15pt !important;
+}
+.node-event .field-name-field-event-sponsor-reference,
+.node-seminar .field-name-field-event-sponsor-reference,
+.node-public-event .field-name-field-event-sponsor-reference,
+.node-lecture-series .field-name-field-event-sponsor-reference {
+  font-size: 11pt !important;
+  margin-top: 15pt !important;
+}
+.node-event .field-name-field-event-sponsor-reference div.field-label,
+.node-seminar .field-name-field-event-sponsor-reference div.field-label,
+.node-public-event .field-name-field-event-sponsor-reference div.field-label,
+.node-lecture-series .field-name-field-event-sponsor-reference div.field-label {
+  font-weight: bold;
+}
+/* print styles News and Experts */
+.pane-content h2 {
+  font-size: 18pt !important;
+}
+.view-all-experts p {
+  font-size: 11pt !important;
+}
+.node-news,
+.node-campus-announcement,
+.node-expert {
+  /* removed field name title font family change - DanT, 10_OCT_2013 */
+  /* added field-name-written-by - DanT, 10_OCT_2013 */
+  /* added font size change - DanT, 10_OCT_2013 */
+  /* added font size and style change - DanT, 10_OCT_2013 */
+}
+.node-news .field-name-post-date,
+.node-campus-announcement .field-name-post-date,
+.node-expert .field-name-post-date,
+.node-news .field-name-publish-date,
+.node-campus-announcement .field-name-publish-date,
+.node-expert .field-name-publish-date {
+  font-size: 9pt !important;
+}
+.node-news .field-name-listing-title h2,
+.node-campus-announcement .field-name-listing-title h2,
+.node-expert .field-name-listing-title h2,
+.node-news .field-name-title h2,
+.node-campus-announcement .field-name-title h2,
+.node-expert .field-name-title h2,
+.node-news .field-name-listing-title h4,
+.node-campus-announcement .field-name-listing-title h4,
+.node-expert .field-name-listing-title h4,
+.node-news .field-name-title h4,
+.node-campus-announcement .field-name-title h4,
+.node-expert .field-name-title h4 {
+  font-size: 16pt !important;
+  line-height: 18pt !important;
+  font-weight: bold !important;
+}
+.node-news .field-name-listing-title a,
+.node-campus-announcement .field-name-listing-title a,
+.node-expert .field-name-listing-title a,
+.node-news .field-name-title a,
+.node-campus-announcement .field-name-title a,
+.node-expert .field-name-title a {
+  font-size: 16pt !important;
+  line-height: 18pt !important;
+  font-weight: bold !important;
+  text-decoration: none;
+}
+.node-news .field-name-listing-title a[href]:after,
+.node-campus-announcement .field-name-listing-title a[href]:after,
+.node-expert .field-name-listing-title a[href]:after,
+.node-news .field-name-title a[href]:after,
+.node-campus-announcement .field-name-title a[href]:after,
+.node-expert .field-name-title a[href]:after {
+  font-size: 16pt !important;
+  line-height: 18pt !important;
+  font-weight: bold !important;
+  content: none;
+}
+.node-news .field-name-field-writer,
+.node-campus-announcement .field-name-field-writer,
+.node-expert .field-name-field-writer,
+.node-news .field-name-news-writer,
+.node-campus-announcement .field-name-news-writer,
+.node-expert .field-name-news-writer,
+.node-news .field-name-written-by,
+.node-campus-announcement .field-name-written-by,
+.node-expert .field-name-written-by {
+  font-size: 11pt !important;
+  font-style: italic !important;
+}
+.node-news .field-name-field-caption,
+.node-campus-announcement .field-name-field-caption,
+.node-expert .field-name-field-caption {
+  font-size: 9pt !important;
+}
+.node-news .field-name-credit-sane-label,
+.node-campus-announcement .field-name-credit-sane-label,
+.node-expert .field-name-credit-sane-label {
+  font-size: 8pt !important;
+  font-style: italic !important;
+}
+.node-news .field-name-body,
+.node-campus-announcement .field-name-body,
+.node-expert .field-name-body {
+  font-size: 11pt !important;
+}
+.node-news .field-name-field-title,
+.node-campus-announcement .field-name-field-title,
+.node-expert .field-name-field-title {
+  font-size: 11pt !important;
+}
+.node-news .field-name-field-phone,
+.node-campus-announcement .field-name-field-phone,
+.node-expert .field-name-field-phone {
+  font-size: 12pt !important;
+}
+.node-news .field-name-field-phone div.field-label,
+.node-campus-announcement .field-name-field-phone div.field-label,
+.node-expert .field-name-field-phone div.field-label {
+  font-weight: bold;
+}
+.node-news .field-name-email-link,
+.node-campus-announcement .field-name-email-link,
+.node-expert .field-name-email-link {
+  font-size: 12pt !important;
+}
+.node-news .field-name-field-expertise,
+.node-campus-announcement .field-name-field-expertise,
+.node-expert .field-name-field-expertise {
+  font-size: 12pt !important;
+}
+.node-news .field-name-field-expertise div.field-label,
+.node-campus-announcement .field-name-field-expertise div.field-label,
+.node-expert .field-name-field-expertise div.field-label {
+  font-weight: bold;
+}
+.node-news .field-name-field-summary,
+.node-campus-announcement .field-name-field-summary,
+.node-expert .field-name-field-summary {
+  font-size: 9.5pt !important;
+}
+.node-news div.ds-1col.file.file-image.file-image-jpeg.view-mode-teaser_grid_6 img,
+.node-campus-announcement div.ds-1col.file.file-image.file-image-jpeg.view-mode-teaser_grid_6 img,
+.node-expert div.ds-1col.file.file-image.file-image-jpeg.view-mode-teaser_grid_6 img {
+  margin: 0 0 36pt 0 !important;
+  width: 150px !important;
+  height: 150px !important;
+}
+.node-news div.ds-1col.file.file-image.file-image-jpeg.view-mode-teaser_listing img,
+.node-campus-announcement div.ds-1col.file.file-image.file-image-jpeg.view-mode-teaser_listing img,
+.node-expert div.ds-1col.file.file-image.file-image-jpeg.view-mode-teaser_listing img {
+  margin: 0 0 36pt 0 !important;
+  width: 150px !important;
+  height: 150px !important;
+}
+/* Search results pages */
+img.gs-image {
+  width: 62px !important;
+  height: auto !important;
+}

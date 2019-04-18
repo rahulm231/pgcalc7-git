@@ -1,0 +1,10 @@
+name = PGCalc Print Setting
+description = Print preview for different pages and setting for these pages.
+
+dependencies[]=jquery_colorpicker
+
+configure = admin/config/pgcalc/print
+
+package = PGCalc
+version = VERSION
+core = 7.x

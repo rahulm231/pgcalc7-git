@@ -1,0 +1,8 @@
+.history_accordian::after{
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.history_accordian.active::after{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}

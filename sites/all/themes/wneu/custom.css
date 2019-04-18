@@ -1,0 +1,101 @@
+/*.row{
+	margin-top:100px;
+}*/
+
+body.toolbar-drawer{
+	padding-top:84px !important;
+}
+
+#main-menu li a{
+	font-size:14px;
+}
+
+.subnav-mobile-mask li a.active, .subnav-mobile-mask li a:focus, .subnav-mobile-mask li a:visited{
+	background:none !important;
+}
+
+input[type='radio'], input[type='checkbox'] {
+    vertical-align: baseline;
+}
+
+table, table tbody, table tr, table th, table td{
+	border:0px;
+}
+
+.pg-wrap table tr th {
+    background: rgb(0, 75, 141);
+    color: #fff;
+    font-size: 1em;
+    padding: 7px;
+    border: 1px solid #000;
+}
+
+.pg-wrap table tr td {
+    color: #000;
+    background: #fff;
+    padding: 7px;
+    border: 1px solid #000;
+}
+
+button#compareBtn, button#backBtn {
+    width: auto;
+    height: auto;
+}
+
+button#compareBtn:before, button#backBtn::before{
+	content:'';
+} 
+
+.pgc-title-btn [class^="icon-"], .block-pgc-contact-block [class^="icon-"], .block-pgc-resource-block [class^="icon-"], .pg-gift-details [class^="icon-"], .pg-content-footer [class^="icon-"], .pgc-title-btn [class*=" icon-"], .block-pgc-contact-block [class*=" icon-"], .block-pgc-resource-block [class*=" icon-"], .pg-gift-details [class*=" icon-"], .pg-content-footer [class*=" icon-"] {
+  font-family: 'pgcalc-marketing' !important; 
+}
+
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	background-color: #004b8d;
+}
+
+#block-system-main-menu ul.nav li a.active::before {
+    content: "\f105";
+    color: #fff;
+    padding-right: 5px;
+    font-family: 'icomoon' !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: 0px;
+    top: -15px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+	
+  .medium-9 {
+    width: 96%;
+    left: 0px;
+    margin: auto;
+    float:none;
+  }
+	
+  .sidebar{
+	display:none;
+  }
+  /*
+  #block-pgc-misc-blocks-mobilenav .subnav-mobile-mask, #block-pgc-misc-blocks-mobilenav .header-mobile {
+    display: block;
+  }
+  */
+}
+
+@media only screen and (max-width: 414px){
+	.pg-content-inline-blocks {
+		float:none;
+	}
+}

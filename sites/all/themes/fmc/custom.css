@@ -1,0 +1,128 @@
+#pgc-region-sidebar li {
+    line-height: 100%;
+    margin-bottom: 15px;
+}
+
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0 !important;
+}
+
+#block-pgc-misc-blocks-mobilenav .subnav-mobile-mask li{
+	list-style-type:none;
+}
+
+#block-pgc-misc-blocks-mobilenav .subnav-mobile-mask li a {
+    text-transform: capitalize;
+    font-family: 'Sentinel A','Sentinel B','Times New Roman',serif;
+    font-weight: normal;
+    font-size: .95rem;
+}
+
+#block-pgc-slideshow-block-pgc-slideshow-block + #block-pgc-misc-blocks-mobilenav {
+    top: -100px;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: -2px;
+    top: -22px;
+    position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn, #block-pgc-misc-blocks-mobilenav .control-container{
+	margin-top:0;
+	margin-bottom: 0;
+}
+
+#block-pgc-misc-blocks-mobilenav{
+	margin-bottom: 0;
+}
+
+#giftCompare img{
+	width: auto !important;
+}
+
+nav ul.fmc-mobile-menu{
+	display:none;
+}
+
+@media only screen and (max-width: 567px) {
+	
+	.pg-content-inline-blocks {
+		float: none;
+		margin-left:0px;
+	}
+	
+	.field-name-body .field-item img{
+		width:300px !important;
+		height:auto !important;
+		float:none !important;
+		margin-right: 50px !important;
+	}
+}
+
+@media only screen and (max-width: 374px) {
+	
+	
+	.field-name-body .field-item img{
+		width:250px !important;
+		height:auto !important;
+		float:none !important;
+	}
+}
+
+@media only screen and (max-width: 999px) {
+  .pg-page-btns, ul.crumb-nav-narrow, #block-pgc-contact-block-pgc-contact-block, .pg-breadcrumb, #pgc-banner .mobile-menu-header, #block-pgc-slideshow-block-pgc-slideshow-block, .node-gift-type iframe{
+  	display:none;
+  }
+  
+  nav ul.fmc-mobile-menu{
+	display:block;
+	text-align: center;
+  }
+  
+  nav ul.fmc-mobile-menu li{
+	display:inline;
+    width: auto;
+    padding: 10px;
+    background-color: rgba(0, 44, 89, 0.8);
+    position:relative;
+  }
+  
+  nav ul.fmc-mobile-menu li a.mobile-links{
+  	color: white;
+  }
+  
+  #block-pgc-misc-blocks-mobilenav .header-mobile{
+  	top:-48px;
+  }
+  
+  #block-pgc-misc-blocks-mobilenav h2.title{
+  	color:#fff;    position: relative;  z-index: 1;  width: 85%; right: -10px;
+  }
+  
+  .subnav-mobile-mask{
+  	top: -48px;
+  }
+  
+  .subnav-mobile-mask ul{
+    padding-left: 10px;
+  }
+
+  
+}
+
+/* print pages */
+.pgc-print-preview .node-homepage p{
+    	margin-top:10px;
+    	margin-bottom: 10px;
+    }
+
+@media print {
+    .node-homepage p{
+    	margin-top:10px;
+    	margin-bottom: 10px;
+    }
+}
+

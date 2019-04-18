@@ -1,0 +1,81 @@
+/*PGCS-356*/
+
+@media only screen and (max-device-width: 414px){
+	
+	.footer-contact {
+	    width: 100%;
+	}
+	.footer-links {
+	    width: 100%;
+	    padding: 10px 0px;
+	}
+}
+
+@media only screen and (max-device-width: 980px){
+	.top-container {
+	    height: 185px;
+	    padding-right: 0;
+	}
+	.site-info-container .stsebslogo {
+	    margin: 0 auto;
+	    position: relative;
+	    left: 0;
+	    right: 0;
+	    width: 63px;
+	    height: 63px;
+	}
+	.site-info-container .stsebstagline {
+	    margin: 0 auto;
+	    position: relative;
+	    left: 0;
+	    right: 0;
+	    width: 281px;
+	    height: 41px;
+	}
+	#fsHeader .top-search-container {
+	    display: none;
+	}
+	#fsHeader .nav-util {
+	    display: none;
+	}
+	#fsHeader .nav-main {
+       display: none;
+	}
+	.mobile-menu-trigger{
+		display: inline-block;
+    	float: left;
+	}
+	#fsFooter .site-info-container .stsebslogo {
+	    margin: 0 auto;
+	    position: relative;
+	    left: 0;
+	    right: 0;
+	    width: 63px;
+	    height: 63px;
+	}
+	#fsFooter .site-info-container .stsebstagline {
+	    margin: 0 auto;
+	    position: relative;
+	    top: 8px;
+	    left: 0;
+	    right: 0;
+	    width: 281px;
+	    height: 17px;
+	}
+	
+}
+
+@media only screen and (max-device-width: 1081px) {
+	.fsLayout .fsStyleOneThird{
+		display:none !important;
+	}
+	.fsLayout .fsStyleTwoThirds{
+		width:100%;
+		margin:auto;
+	}
+	#block-pgc-misc-blocks-mobilenav .header-mobile {
+		display:block !important;
+	}
+	
+}
+/*PGCS-356*/

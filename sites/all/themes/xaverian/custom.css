@@ -1,0 +1,39 @@
+#giftGuide input[type="radio"] {
+    vertical-align: baseline;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	background-color: #004684;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: 0px;
+    top: -6px;
+    position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn{
+	padding:0px;
+}
+
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0;
+}
+
+@media only screen and (max-width: 768px){
+	#page_col_48138_0_1{
+		display:none;
+	}
+	#page_col_48138_0_0{
+		width:auto;
+		margin:auto;
+	}
+}
+
+@media only screen and (max-width: 414px){
+	.pg-content-inline-blocks {
+		float:none;
+	}
+}

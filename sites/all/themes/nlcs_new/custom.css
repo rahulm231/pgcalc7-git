@@ -1,0 +1,28 @@
+.main-nav li.main-nav-i.active {
+    background-color: #db8204;
+}
+
+.main-nav li.main-nav-i.active > a {
+    color: #ffffff;
+}
+ 
+.main-nav-i:first-child > a:after{ 
+    background: none;
+}
+
+.partners-block{
+	padding:0px;
+	text-align:center;
+}
+
+.partners-list{
+	margin:0;
+}
+
+.partners-list-i{
+	width:21%
+}
+
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0;
+}

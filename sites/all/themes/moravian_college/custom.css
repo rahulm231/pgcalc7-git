@@ -1,0 +1,54 @@
+.row .region-menu{
+	float:left;
+	width:23%
+}
+
+.row .pg-wrap{
+	float:right;
+	width:75%;
+}
+
+.row.site-navigation ul.top-level li.dropdown.active>a:after, .row.site-navigation ul.top-level li.dropdown:hover>a:after {
+    background: url(/sites/all/themes/moravian_college/img/menu-star.png) no-repeat;
+}
+
+.addthis_counter.addthis_pill_style a.atc_s {
+    font-size: 0;
+}
+
+.pg-page-header h1{
+	margin-top: -25px !important;
+    display: inline-block;
+    width: 70%;
+	margin-bottom: 15px !important;
+}
+
+
+
+@media screen and (max-width: 999px) {
+   .pg-page-header h1{
+		margin-top: 0px !important;
+	    display: inline-block;
+	    width: auto;
+	}
+  .row .region-menu{
+	display:none;
+  }
+  .row .pg-wrap{
+	float:none;
+	width:auto;
+  }
+  #block-pgc-misc-blocks-mobilenav .header-mobile{
+  	display:block;
+  }
+  #block-pgc-misc-blocks-mobilenav .control.open-btn {
+    font-size: 3.75rem;
+  }
+  #block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: 0px;
+    top: -5px;
+    position: absolute;
+  }
+}

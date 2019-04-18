@@ -1,0 +1,109 @@
+.block-pgc-slideshow-block #pgc-banner {
+	position: relative;
+}
+
+#pgc-banner #block-pgc-misc-blocks-mobilenav {
+	margin-top: -63px;
+	width: 100%;
+	position: absolute;
+}
+
+#block-system-main-menu h2 {
+    margin-left: 18px;
+    margin-bottom: -5px;
+}
+
+.head-primary .head-nav li ul li {
+	float: left;
+}
+
+nav.links-sup-old a img.us-news-badge {
+	width: 25%;
+}
+
+.pg-breadcrumb-links {
+	display: none;
+}
+
+.head-primary .site-logo img {
+	max-height: 82px;
+}
+
+.submenu li > ul {
+	display: block !important;
+}
+
+.submenu li:hover > ul {
+	display: block !important;
+}
+
+.level_2-item {
+	border: none !important;
+	float: left !important;
+}
+
+ul.wide > li.level_2-item {
+	width: 50% !important;
+}
+
+a.nolink {
+	color: #a0a0a2 !important;
+	text-transform: uppercase !important;
+}
+
+.submenu--2.wide {
+	width: 600px !important;
+}
+.submenu--3 {
+	position: relative !important;
+	top: auto !important;
+	/*width: 600px !important;*/
+}
+
+.head-primary .head-nav li ul li {
+	border-bottom: none;
+}
+
+.right.side.button {
+	width: 0%;
+	margin-left: 20px;
+}
+
+ul.subnav .newsletterbutton a {
+	padding-bottom: 0px !important;
+}
+
+.sidebar-subnav #block-system-main-menu h2 a {
+
+	font-family: "Avenir LT W01_85 Heavy1475544", "Helvetica Neue", Helvetica, Arial, sans-serif\9;
+}
+.sidebar-subnav #block-system-main-menu .content ul li a {
+	font-family: "Avenir LT W01_85 Heavy1475544", "Helvetica Neue", Helvetica, Arial, sans-serif\9;
+}
+.sidebar-subnav #block-system-main-menu .content ul li a:hover {
+	background: #0054a3 !important;
+	color: #fff !important;
+}
+
+.custom-contact-mobile {
+	display: none;
+}
+
+@media only screen and (max-width: 999px) {
+	.custom-contact-mobile {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.node-general-content .field-name-body p a {
+		word-wrap: break-word;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.pg-content-body .content .node .field-name-body p img {
+		width: 100% !important;
+		height: auto !important;
+	}
+}

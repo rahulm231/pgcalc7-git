@@ -1,0 +1,184 @@
+/* line 5, ../../src/sass/ie9.scss */
+.checkbox-wrap .field input,
+.checkbox-wrap .sub-field input,
+.radio-wrap .field input,
+.radio-wrap .sub-field input {
+  margin: 0 -3px -3px -3px;
+}
+
+/* line 14, ../../src/sass/ie9.scss */
+.courses-landing .checkbox-filters input[type="checkbox"] {
+  margin: -1px -3px -3px;
+}
+
+/* line 22, ../../src/sass/ie9.scss */
+#home-aspot .panel-link {
+  background: rgba(0, 0, 0, 0);
+}
+
+/* line 32, ../../src/sass/ie9.scss */
+.no-borderradius #donate.quickdonate .checkout-steps .checkout-steps-inner .steps-list .step-item .step-count span {
+  background: transparent url('/sites/all/themes/arc/cssAssets/bg-step-count-span.png') no-repeat center center;
+}
+/* line 35, ../../src/sass/ie9.scss */
+.no-borderradius #donate.quickdonate .checkout-steps .checkout-steps-inner .steps-list .step-item.current .step-count span {
+  background: transparent url('/sites/all/themes/arc/cssAssets/bg-step-count-span-current.png') no-repeat center center;
+}
+
+/* line 41, ../../src/sass/ie9.scss */
+#donate.quickdonate #from-date {
+  margin: 0;
+}
+/* line 44, ../../src/sass/ie9.scss */
+#donate.quickdonate header.primary-header {
+  margin-bottom: 0px;
+}
+/* line 50, ../../src/sass/ie9.scss */
+#donate.quickdonate .quickdonation-options .fixed-amounts .selected label {
+  color: #fff;
+  background-color: #56a0d3;
+  border-color: #3c7fad;
+}
+/* line 58, ../../src/sass/ie9.scss */
+#donate.quickdonate .quickdonation-options .cause-selector .control-header {
+  margin-bottom: 0px;
+}
+/* line 61, ../../src/sass/ie9.scss */
+#donate.quickdonate .quickdonation-options .cause-selector .menu-wrap {
+  overflow: hidden;
+}
+/* line 66, ../../src/sass/ie9.scss */
+#donate.quickdonate .quickdonation-options .other-amount-wrap input#other-donation-amount {
+  color: #CCCCCC;
+  border: solid 1px #cccccc;
+}
+/* line 71, ../../src/sass/ie9.scss */
+#donate.quickdonate .quickdonation-options .other-amount-wrap.selected input#other-donation-amount {
+  color: #fff;
+  background-color: #56a0d3;
+  border-color: #3c7fad;
+}
+
+/* Fix to correct the breaking of quick donate payment methods in IE */
+#donate.quickdonate .methods-list #credit-card-toggle {
+  float: left;
+  width: 310px;
+}
+#donate.quickdonate .methods-list #credit-card-toggle label {
+  padding-left: 5px;
+}
+#donate.quickdonate .methods-list #paypal-toggle {
+  width: 100%;
+  float: left;
+  white-space:nowrap;
+  padding-bottom: 3px;
+}
+#donate.quickdonate .methods-list #paypal-toggle label {
+  padding-left: 5px;
+  padding-bottom: 3px;
+  margin-left:10px;
+}
+#donate.quickdonate .methods-list .card-images {
+  margin-left: 4px;
+}
+#donate.quickdonate .methods-list .card-images div {
+  margin-right: 4px;
+}
+
+.size-container {
+    overflow: hidden;
+    width: 277px;
+    display: block;
+    background: url('/sites/all/themes/arc/cssAssets/icon-s80ec5b5a67.png') no-repeat scroll 75% -5467px transparent;
+    border: 1px solid #ccc;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.size-container select {
+    width: 298px;
+    height: 50px;
+    border: 0px;
+    background-color: transparent;
+    cursor:pointer;
+    -webkit-appearance: none;
+	display:inline;
+}
+
+/* line 88, ../../src/sass/ie9.scss */
+.donate-step-v3 .fixed-amounts .selected label {
+  color: #fff;
+  background-color: #56a0d3;
+  border-color: #3c7fad;
+}
+/* line 96, ../../src/sass/ie9.scss */
+.donate-step-v3 .cause-selector .control-header {
+  margin-bottom: 0px;
+}
+/* line 99, ../../src/sass/ie9.scss */
+.donate-step-v3 .cause-selector .menu-wrap {
+  overflow: hidden;
+}
+/* line 104, ../../src/sass/ie9.scss */
+.donate-step-v3 .other-amount-wrap input#other-donation-amount {
+  color: #CCCCCC;
+  border: solid 1px #cccccc;
+}
+/* line 109, ../../src/sass/ie9.scss */
+.donate-step-v3 .other-amount-wrap.selected input#other-donation-amount {
+  color: #fff;
+  background-color: #56a0d3;
+  border-color: #3c7fad;
+}
+/* line 120, ../../src/sass/ie9.scss */
+.donate-step-v3 .dedicate-options .radio-wrap.selected label {
+  color: #fff;
+  background-color: #56a0d3;
+  border-color: #3c7fad;
+}
+
+/* line 137, ../../src/sass/ie9.scss */
+.tribute-fixed-amounts .fixed-amounts .radio-wrap.selected label {
+  color: #fff;
+  background-color: #56a0d3;
+  border-color: #3c7fad;
+}
+/* line 144, ../../src/sass/ie9.scss */
+.tribute-fixed-amounts #other-donation-amount {
+  padding-top: 8px !important;
+}
+
+/* line 151, ../../src/sass/ie9.scss */
+#tribute.tribute-donate .date-pickers-wrap .field .field-inner {
+  background: none;
+}
+/* line 154, ../../src/sass/ie9.scss */
+#tribute.tribute-donate .date-pickers-wrap .field .field-inner label {
+  color: #fff;
+  background: none;
+  border-color: #3c7fad;
+}
+/* line 163, ../../src/sass/ie9.scss */
+#tribute.tribute-donate .other-amount-wrap input#other-donation-amount {
+  color: #CCCCCC;
+  padding-top: 4px !important;
+  border: solid 1px #cccccc;
+}
+/* line 169, ../../src/sass/ie9.scss */
+#tribute.tribute-donate .other-amount-wrap.selected input#other-donation-amount {
+  color: #fff;
+  background-color: #56a0d3;
+  border-color: #3c7fad;
+}
+/* line 177, ../../src/sass/ie9.scss */
+#tribute.tribute-donate .personalize-mail-card.anon {
+  margin-bottom: 20px;
+}
+
+/* line 185, ../../src/sass/ie9.scss */
+.tribute-donate .dedicate-radio-options .radio-wrap.selected label {
+  color: #fff;
+  background-color: #56a0d3;
+  border-color: #3c7fad;
+}

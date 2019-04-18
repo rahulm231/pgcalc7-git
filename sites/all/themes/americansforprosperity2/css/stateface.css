@@ -1,0 +1,92 @@
+@font-face {
+     font-family: 'StateFaceRegular';
+     src: url('/sites/all/themes/americansforprosperity2/cssAssets/stateface-regular-webfont.eot');
+     src: url('/sites/all/themes/americansforprosperity2/cssAssets/stateface-regular-webfont.eot?#iefix') format('embedded-opentype'),
+          url('/sites/all/themes/americansforprosperity2/cssAssets/stateface-regular-webfont.woff') format('woff'),
+          url('/sites/all/themes/americansforprosperity2/cssAssets/stateface-regular-webfont.ttf') format('truetype'),
+          url('/sites/all/themes/americansforprosperity2/cssAssets/stateface-regular-webfont.svg') format('svg');
+     font-weight: normal;
+     font-style: normal;
+}
+[class^="stateface-"]:before,
+[class*=" stateface-"]:before{
+    font-family: 'StateFaceRegular';
+    margin-right: 5px;
+    text-rendering: optimizeLegibility;
+    white-space: nowrap;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    vertical-align:middle;
+}
+
+.stateface-replace {
+    text-indent: -999em;
+    display: inline-block;
+    position: relative;
+    min-width: 1em;
+}
+
+.stateface-replace:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-indent: 0;
+}
+
+.stateface-alaska:before {content: "A";}
+.stateface-alabama:before {content: "B";}
+.stateface-arkansas:before {content: "C";}
+.stateface-arizona:before {content: "D";}
+.stateface-california:before {content: "E";}
+.stateface-colorado:before {content: "F";}
+.stateface-connecticut:before {content: "G";}
+.stateface-washington-dc:before {content: "y";}
+.stateface-delaware:before {content: "H";}
+.stateface-florida:before {content: "I";}
+.stateface-georgia:before {content: "J";}
+.stateface-hawaii:before {content: "K";}
+.stateface-iowa:before {content: "L";}
+.stateface-idaho:before {content: "M";}
+.stateface-illinois:before {content: "N";}
+.stateface-indiana:before {content: "O";}
+.stateface-kansas:before {content: "P";}
+.stateface-kentucky:before {content: "Q";}
+.stateface-louisiana:before {content: "R";}
+.stateface-massachusetts:before {content: "S";}
+.stateface-maryland:before {content: "T";}
+.stateface-maine:before {content: "U";}
+.stateface-michigan:before {content: "V";}
+.stateface-minnesota:before {content: "W";}
+.stateface-missouri:before {content: "X";}
+.stateface-mississippi:before {content: "Y";}
+.stateface-montana:before {content: "Z";}
+.stateface-north-carolina:before {content: "a";}
+.stateface-north-dakota:before {content: "b";}
+.stateface-nebraska:before {content: "c";}
+.stateface-new-hampshire:before {content: "d";}
+.stateface-new-jersey:before {content: "e";}
+.stateface-new-mexicon:before {content: "f";}
+.stateface-nevada:before {content: "g";}
+.stateface-new-york:before {content: "h";}
+.stateface-ohio:before {content: "i";}
+.stateface-oklahoma:before {content: "j";}
+.stateface-oregon:before {content: "k";}
+.stateface-pennsylvania:before {content: "l";}
+.stateface-rhode-island:before {content: "m";}
+.stateface-south-carolina:before {content: "n";}
+.stateface-south-dakota:before {content: "o";}
+.stateface-tennessee:before {content: "p";}
+.stateface-texas:before {content: "q";}
+.stateface-national:before {content: "z";}
+.stateface-utah:before {content: "r";}
+.stateface-virginia:before {content: "s";}
+.stateface-vermont:before {content: "t";}
+.stateface-washington:before {content: "u";}
+.stateface-wisconsin:before {content: "v";}
+.stateface-west-virginia:before {content: "w";}
+.stateface-wyoming:before {content: "x";}

@@ -1,0 +1,63 @@
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0;
+}
+#block-system-main-menu .content ul#main-menu > li.first > a{
+	color: #8b6a28 !important;
+}
+
+ul#main-menu.nav a{
+	color:#1f4681 !important;
+	font-size:18px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	width:auto;
+	background-color: #8b6a28;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: 11px;
+    top: -5px;
+    position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+    content: "\f05c";
+    font-family: "FontAwesome";
+    font-size: 3.75rem;
+    left: 12px;
+    top: -3px;
+    position: absolute;
+  }
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn {
+    border: none;
+}
+
+.pg-content-body .child-page{
+	padding:0px;
+	padding-bottom:20px;
+}
+
+@media only screen and (max-width: 999px) {
+.col-sm-pull-9{
+	display:none;
+}
+
+.col-sm-push-3{
+	width: 100%;
+    left: 0%;
+    margin-left: 0;
+}
+}
+
+@media only screen and (max-width: 767px) {
+	
+  .pg-content-inline-blocks{
+  	float:none;
+  	margin-left:0;
+  }
+}

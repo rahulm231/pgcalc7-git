@@ -1,0 +1,77 @@
+<?php
+/**
+ * @file
+ * Miscellaneous blocks for the PG Calc marketing sites.
+ *
+ * Until now, we have had one module per block. Let's put any new ones in here.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function pgc_misc_blocks_theme($existing, $type, $theme, $path) {
+  $blocks = array();
+
+  $blocks['pgc_misc_blocks_mobilenav'] = array(
+    'variables' => array('menu' => NULL),
+    'template' => 'pgc-misc-blocks-mobilenav',
+  );
+
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function pgc_misc_blocks_block_info() {
+  $blocks = array();
+
+  $blocks['mobilenav'] = array(
+    'info' => t('Mobile navigation block'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
+  );
+
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_configure().
+ */
+function pgc_misc_blocks_block_configure($delta = '') {
+  $form = array();
+
+  switch ($delta) {
+    case 'pgc_misc_blocks_block_configure':
+      break;
+  }
+
+  return $form;
+}
+
+/**
+ * Implements hook_block_save().
+ */
+function pgc_misc_blocks_block_save($delta = '', $edit = array()) {
+  switch ($delta) {
+    case 'pgc_misc_blocks_block_configure':
+      break;
+  }
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function pgc_misc_blocks_block_view($delta = '') {
+  switch ($delta) {
+    case 'mobilenav':
+      $block['subject'] = '';
+      $vars = array('menu' => menu_tree('main-menu'));
+      $block['content']['#markup'] = theme('pgc_misc_blocks_mobilenav', $vars);
+      $block['content']['#attached']['js'][]
+        = drupal_get_path('module', 'pgc_misc_blocks') . '/js/mobilenav.js';
+      $block['content']['#attached']['css'][]
+        = drupal_get_path('module', 'pgc_misc_blocks') . '/css/mobilenav.css';
+      break;
+  }
+  return $block;
+}

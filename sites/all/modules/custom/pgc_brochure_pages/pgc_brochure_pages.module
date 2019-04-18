@@ -1,0 +1,71 @@
+<?php
+
+/**
+ * @file
+ * Brochure Pages.
+ */
+
+/** 
+ * Implements hook_menu().
+ */
+function pgc_brochure_pages_menu(){
+
+  $items = array(); 	
+  
+  $items['admin/config/pgcalc/brochure'] = array(
+    'title' => 'PgCalc Brochure Settings',
+    'description' => 'Configure settings for brocure pages',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pgc_brochure_pages_config_form'),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'pgc_brochure_pages.admin.inc',
+  );
+  
+  return $items;
+}
+
+function pgc_brochure_pages_theme(){
+  return array(    
+    'page__brochures' =>  array(
+      'template' => 'templates/page--brochures',
+      'render element' => 'page'
+    ),
+    'html__brochures' =>  array(
+      'template' => 'templates/html--brochures',
+    ),
+  );
+}
+
+function pgc_brochure_pages_preprocess_page(&$variables) {
+  global $base_url;
+  
+  if(isset($variables['node'])){
+  	$node = $variables['node'];
+  	if ($node->type == "brochures" && count(arg())==2) {
+  	  $variables['theme_hook_suggestions'][] = 'page__brochures';
+		
+	  if(variable_get('pgc_borchure_logo')!=''){
+	    $print_logo = variable_get('pgc_borchure_logo');
+	    $file_uri   = file_load($print_logo) -> uri;
+	    $file_url   = parse_url(file_create_url($file_uri));
+	    $variables['brochure_logo']  = $base_url."/".$file_url['path'];
+	  }else{
+	    $variables['brochure_logo']  = "";
+	  }
+	}
+  }  
+  
+}
+
+function pgc_brochure_pages_preprocess_html(&$variables) {
+	
+  if(arg(0)=='node' && is_numeric(arg(1)) && arg(2)==''){
+  	$node = $variables['page']['content_body']['system_main']['nodes'][arg(1)]['#node'];	
+	if($node->type=="brochures"){
+	  if ($variables['page']['page_top']['toolbar']['#access']) {   
+          $variables['page']['page_top']['toolbar']['#access'] = false;
+      }
+	  $variables['theme_hook_suggestions'][] = 'html__brochures';	
+	}
+  }
+}

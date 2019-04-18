@@ -1,0 +1,30 @@
+.diff-changed {
+  background: #ffff00;
+}
+.master .diff-deleted {
+  background: #ff0000;
+}
+.master .diff-added {
+  background: #00ff00;
+}
+.client .diff-deleted {
+  background: #ff0000;
+}
+.client .diff-added {
+  background: #00ff00;
+}
+.overridden {
+  background: #FFCCCC;
+}
+.overridden.bottom {
+  border-bottom: 2px solid #000;
+}
+.no-changes {
+  background: #CCFFCC;
+}
+.no-changes.bottom {
+  border-bottom: 2px solid #000;
+}
+table td, table th {
+  width: 50%;
+}

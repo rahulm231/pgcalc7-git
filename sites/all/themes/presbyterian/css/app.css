@@ -1,0 +1,818 @@
+h2.title {
+  background:none !important;	
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, font, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption {
+	font: inherit;
+	font-size: 100%;
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-family:inherit;
+	vertical-align:baseline;
+}
+:focus {
+	outline:0;
+}
+html {
+	-webkit-text-size-adjust: 100%;
+	    -ms-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+}
+body {
+	margin:0;
+	font: 15px Arial, Tahoma, sans-serif;
+	color: #474747;
+	background: #fff;
+}
+.community-details-header img {
+	max-width: 100%;
+}
+img {border: none;}
+.title {
+	color: #5c6062;
+	font-size: 59px;
+	font-weight: 100;
+	margin: 0 0 12px;
+	overflow: hidden;
+	font-stretch: condensed;
+	font-family: "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+	color: #265da0;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0 0 12px;
+	/*! overflow: hidden; */
+}
+.subpage h1 {margin: 0 0 20px;}
+h2 {
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 26px;
+	margin: 0 0 20px;
+	overflow: hidden;
+}
+h3 {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 26px;
+	margin: 0 0 20px;
+	overflow: hidden;
+}
+p {
+	margin: 0 0 26px;
+	/*! overflow: hidden; */
+}
+ul {
+	list-style-type: disc;
+	margin: 0 0 20px;
+	padding: 0 0 0 35px;
+}
+.info-window-details, #plugin-CommunityLocator .button_search{
+	background: #265da0 !important;
+}
+#wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+#header {
+	float: left;
+	width: 100%;
+	padding: 0;
+	height: 205px;
+	position: relative;
+	z-index: 9;
+}
+.locator{
+	padding-left: 488px;
+	padding-top: 14px;
+}
+.locator-af{
+	padding-left: 371px;
+	padding-top: 14px;
+}
+#header .top {
+	height: 131px;
+	overflow: hidden;
+	width: 100%;
+}
+#header .top .logo {
+	float: left;
+	overflow: hidden;
+	width: 326px;
+	height: 100px;
+	text-indent: -9999px;
+	background: url(/sites/all/themes/presbyterian/cssAssets/logo-new.png) no-repeat;
+	margin: 16px 0 0 0;
+}
+#header .top .logo-af {
+	float: left;
+	overflow: hidden;
+	width: 443px;
+	height: 100px;
+	text-indent: -9999px;
+	background: url(/sites/all/themes/presbyterian/cssAssets/logo-affordable-housing.png) no-repeat;
+	margin: 16px 0 0 0;
+}
+#header .top .top-nav {
+	float: right;
+	margin: 0 29px 0 0;
+	line-height: 0;
+	font-size: 0;
+	text-align: right;
+	padding: 0;
+	list-style: none;
+}
+#header .top .top-nav li {
+	line-height: 44px;
+	display: inline-block;
+	font-size: 16px;
+	padding: 0 8px 0 12px;
+	background: url(/sites/all/themes/presbyterian/cssAssets/separator01.gif) no-repeat 0 20px;
+	font-stretch: condensed;
+	font-family: "Arial Narrow", Arial, sans-serif;
+}
+#header .top .top-nav li:first-child {
+	padding: 0 8px 0 0;
+	background: none;
+}
+#header .top .top-nav li:last-child {
+	padding: 0 0 0 12px;
+}
+#header .top .top-nav li a {
+	color: #474747;
+}
+#header .top .top-nav li a:hover {text-decoration: underline;}
+#header .top .phone {
+	float: right;
+	width: 210px;
+	height: 49px;
+	overflow: hidden;
+	text-indent: -9999px;
+	margin: 0;
+	background: url(/sites/all/themes/presbyterian/cssAssets/phone.gif) no-repeat;
+}
+#menu {
+	width: 100%;
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	font-size: 0;
+	line-height: 0;
+	text-align: center;
+	height: 47px;
+	border-top: 2px dotted #a4a4a4;
+	border-bottom: 2px dotted #a4a4a4;
+}
+#menu > li {
+	display: inline-block;
+	line-height: 47px;
+	height: 64px;
+	font-size: 17px;
+	font-weight: normal;
+	padding: 0 14px 0 17px;
+	background: url(/sites/all/themes/presbyterian/cssAssets/separator02.gif) no-repeat 0 16px;
+	position: relative;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-stretch: condensed;
+}
+#menu > li:first-child {
+	background: none;
+}
+#menu > li a {
+	color: #474747;
+	line-height: 47px;
+	display: block;
+	height: 47px;
+	text-decoration: none;
+}
+#menu > li a:hover, #menu > li:hover > a, #menu > li.active > a {
+	text-decoration: none;
+	color: #478562;
+}
+#menu li ul {
+	display: none;
+	position: absolute;
+	top: 64px;
+	left: -21px;
+	border: 3px solid #e3be39;
+	padding: 10px 58px 27px 31px;
+	background: #fff;
+}
+#menu li:hover ul {display: block;}
+#menu li ul:before {
+	content: "";
+	display: block;
+	width: 26px;
+	height: 15px;
+	position: absolute;
+	top: -18px;
+	left: 32px;
+	background: url(/sites/all/themes/presbyterian/cssAssets/arrow-up.png) no-repeat;
+}
+#menu li ul li {
+	text-align: left;
+	display: block;
+	line-height: normal;
+	height: auto;
+	font-size: 17px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 0 0 0 26px;
+	background: url(/sites/all/themes/presbyterian/cssAssets/bullet01.png) no-repeat 0 2px;
+	margin: 15px 0 0;
+	white-space: nowrap;
+	font-stretch: condensed;
+}
+#menu li ul li a {
+	line-height: normal;
+	height: auto;
+}
+#menu li:last-child ul{
+	margin-left:-130px;
+}
+#menu li:last-child ul:before {
+	left: 162px;
+}
+
+
+#visual {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 8;
+}
+#main {
+	float: left;
+	width: 100%;
+	z-index: 9;
+	padding: 0 0 94px;
+}
+#main.subpage {padding: 0 0 43px;}
+#slider-holder {
+	height: 249px;
+	width: 882px;
+	margin: auto;
+	z-index: 9;
+	padding: 10px 0 30px;
+}
+#slider-holder .slide-holder {
+	width: 882px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#slider-holder .slide-holder img {display: block;}
+#slider-holder .btn-left, #slider-holder .btn-right {
+	display: block;
+	text-decoration: none;
+	overflow: hidden;
+	width: 57px;
+	height: 57px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 79px;
+}
+#slider-holder .btn-left {
+	left: 10px;
+	background: url(/sites/all/themes/presbyterian/cssAssets/slider-arrow-left.png) no-repeat;
+}
+#slider-holder .btn-right {
+	right: 10px;
+	background: url(/sites/all/themes/presbyterian/cssAssets/slider-arrow-right.png) no-repeat;
+}
+#slider-holder .paging {
+	display: block;
+	margin: 19px 0 0;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	font-size: 0;
+}
+#slider-holder .paging .bullet {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+	text-indent: -9999px;
+	cursor: pointer;
+	margin: 0 8px 0 7px;
+	background: url(/sites/all/themes/presbyterian/cssAssets/slider-bullet.png) no-repeat;
+}
+#slider-holder .paging .bullet:hover, #slider-holder .paging .bullet.active {
+	background: url(/sites/all/themes/presbyterian/cssAssets/slider-bullet-active.png) no-repeat;
+}
+#plugin-CommunityLocator .search-box-inner, .dropdown{
+	position: static !important;
+}
+#footer {
+	/*! float: left; */
+	/*! width: 978px; */
+	min-height: 404px;
+	padding: 37px 0;
+	z-index: 10;
+	width: 1024px;
+	margin: 0 auto;
+}
+#footer .social-bar {
+	width: 100%;
+	overflow: hidden;
+	height: 85px;
+	background: #e27e1a;
+	text-align: right;
+	font-size: 0;
+	line-height: 0;
+}
+#footer .social-bar .icons {
+	float: right;
+	background: #fff;
+}
+#footer .social-bar a {
+	display: inline-block;
+	width: 85px;
+	height: 85px;
+	overflow: hidden;
+	text-indent: -9999px;
+	margin-left: 4px;
+}
+#footer .social-bar .facebook {background: url(/sites/all/themes/presbyterian/cssAssets/ico-facebook.gif) no-repeat;}
+#footer .social-bar .linkedin {background: url(/sites/all/themes/presbyterian/cssAssets/ico-linkedin.gif) no-repeat;}
+#footer .social-bar .twitter {background: url(/sites/all/themes/presbyterian/cssAssets/ico-twitter.gif) no-repeat;}
+#footer .columns {
+	width: 100%;
+	overflow: hidden;
+}
+#footer .columns .column {
+	float: left;
+	overflow: hidden;
+}
+#footer .columns .column.first {
+	width: 342px;
+	margin: 0;
+}
+#footer .columns .column.second {
+	width: 235px;
+	margin: 0 0 0 40px;
+}
+#footer .columns .column.third {
+	width: 296px;
+	margin: 0 0 0 63px;
+}
+#footer .item-box .title {
+	font-size: 20px;
+	display: block;
+	font-weight: 100;
+	padding: 0 0 7px;
+	color: #474747;
+	text-transform: uppercase;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	background: url(/sites/all/themes/presbyterian/cssAssets/bg-footer-title.gif) repeat-x 0 100%;
+	font-stretch: condensed;
+	margin: 0 0 23px;
+}
+#footer .item-box {
+	float: left;
+	margin: 28px 0 0;
+	width: 100%;
+	padding: 0 0 32px;
+	font-size: 13px;
+}
+#footer .item-box .btn {
+	display: block;
+	padding: 0 0 0 23px;
+	height: 53px;
+	line-height: 53px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#footer .item-box .btn.orange {background: #e27e1a;}
+#footer .item-box .btn.green {background: #607e2f;}
+#footer .item-box .btn.purple {background: #ab1c68;}
+#footer .item-box .news {
+	margin: 0;
+	background: #fef2e9;
+	width: 290px;
+	padding: 14px 28px 0 24px;
+	font-size:13px;
+}
+#footer .item-box .news .news-item {
+	width: 100%;
+	overflow: hidden;
+	padding: 5px 0 21px;
+}
+#footer .item-box .news .news-item p {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	line-height: 26px;
+}
+#footer .item-box .news .news-item .date {
+	display: block;
+	padding: 0 0 4px;
+}
+#footer .item-box .news .news-item strong {font-weight: bold;}
+#footer .item-box .news .news-item em {font-style: italic;}
+#footer .item-box .news .news-item a {
+	color: #474747;
+	text-decoration: underline;
+}
+#footer .item-box .news .news-item a:hover {text-decoration: none;}
+#footer .item-box p {
+	font-size: 15px;
+	line-height: 26px;
+	margin: 0 0 23px;
+	padding: 4px 0 0;
+}
+#footer .item-box p strong {font-weight: bold;}
+#footer .item-box p em {font-style: italic;}
+#footer .item-box .img-holder {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+#footer .item-box .img-holder img {display: block;}
+#footer .item-box form {
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+#footer .item-box form fieldset {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+#footer .item-box form input[type="text"] {
+	width: 282px;
+	height: 41px;
+	padding: 0 0 0 12px;
+	line-height: 41px;
+	background: #fef2e9;
+	border: 1px solid #f17c2f;
+	color: #333;
+	font-size: 17px;
+	font-family: Arial, sans-serif;
+	margin: 0 0 29px;
+}
+#footer .item-box form input[type="submit"] {
+	float: left;
+	display: block;
+	padding: 0 0 0 23px;
+	border: none;
+	height: 53px;
+	line-height: 53px;
+	width: 296px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+	background: #ab1c68;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;;
+	cursor: pointer;
+}
+#footer .item-box .contact-links {
+	width: 100%;
+	overflow: hidden;
+	padding: 5px 0 0;
+}
+#footer .item-box .contact-links a {
+	display: block;
+	text-decoration: none;
+	overflow: hidden;
+	margin: 0 0 3px;
+}
+#footer .item-box .contact-links a img {display: block;}
+#footer .wide-link {
+	width: 617px;
+	overflow: hidden;
+	float: left;
+}
+#footer .wide-link .item-box {
+	margin: 28px 0 0;
+	padding: 0;
+}
+#footer .wide-link .item-box .title {margin: 0 0 23px;}
+#footer .wide-link .item-box p {margin: 0 0 31px;}
+#footer .copy {
+	width: 100%;
+	overflow: hidden;
+	margin: 77px 0 0;
+	height: 59px;
+	background: url(/sites/all/themes/presbyterian/cssAssets/bg-footer-title.gif) repeat-x 0 100%;
+}
+#footer .copy p {
+	float: left;
+	line-height: 57px;
+	margin: 2px 0 0;
+	font-size: 13px;
+	font-weight: bold;
+	color: #2f2f2f;
+}
+#footer .copy .logos {
+	float: right;
+	width: 620px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+	line-height: 0;
+	text-align: right;
+}
+#footer .copy .logos li {
+	display: inline-block;
+	margin: 0 0 0 14px;
+	overflow: hidden;
+}
+#footer .copy .logos li img {
+	display: block;
+	text-decoration: none;
+}
+#footer .copy .logos li a img {display: block;}
+#footer .bot-menu {
+	width: 100%;
+	overflow: hidden;
+	padding: 9px 0 82px;
+}
+#footer .bot-menu ul {
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+	line-height: 0;
+	margin: 10px 0 0;
+}
+#footer .bot-menu ul li {
+	display: inline-block;
+	line-height: normal;
+	font-size: 15px;
+	padding: 0 15px 0 14px;
+	background: url(/sites/all/themes/presbyterian/cssAssets/separator03.gif) no-repeat 0 3px;
+	font-stretch: condensed;
+	font-family: "Arial Narrow", Arial, sans-serif;
+}
+#footer .bot-menu ul li:first-child {background: none;}
+#footer .bot-menu ul li a {
+	color: #474747;
+}
+#footer .bot-menu ul.main li a:hover {text-decoration: underline;}
+#footer .bot-menu ul.sub li a {text-decoration: underline;}
+#footer .bot-menu ul.sub li a:hover {text-decoration: none;}
+
+.accordion h3 {
+	padding: 1px 15px 1px 15px !important;
+}
+
+.website_created_by {
+	position: relative;
+	left: 294px;
+	top: 10px;
+}
+#visual .img-holder {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+#visual img {
+	display: block;
+	margin: 0 auto;
+}
+#sidebar {
+	float: left;
+	width: 364px;
+	margin: 0 0 0 23px;
+}
+#sidebar .box {
+	width: 100%;
+	overflow: hidden;
+	margin: 38px 0 0;
+}
+#sidebar .box .top {
+	width: 100%;
+	overflow: hidden;
+	background: url(/sites/all/themes/presbyterian/cssAssets/bg-sidebar-box.gif) repeat-y;
+}
+#sidebar .box .bot {
+	width: 100%;
+	height: 42px;
+	overflow: hidden;
+	background: url(/sites/all/themes/presbyterian/cssAssets/bg-sidebar-bot.gif) no-repeat;
+}
+#sidebar .box .title {
+	width: 100%;
+	height: 100px;
+	line-height: 82px;
+	font-weight: normal;
+	text-align: center;
+	font-size: 28px;
+	color: #261c0f;
+	font-stretch: condensed;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	background: url(/sites/all/themes/presbyterian/cssAssets/bg-sidebar-title.png) no-repeat;
+}
+#sidebar .looking {
+	width: 309px;
+	padding: 10px 0 24px 44px;
+	margin: 0;
+	list-style: none;
+}
+#sidebar .looking li {
+	padding: 0 0 20px 30px;
+	margin: 0;
+	background: url(/sites/all/themes/presbyterian/cssAssets/bullet02.png) no-repeat 0 9px;
+	line-height: 34px;
+	font-size: 26px;
+	font-family: Arial Narrow, Arial, sans-serif;
+	font-weight: 100;
+	font-stretch: condensed;
+}
+#sidebar .looking li a {
+	color: #276da9;
+	text-decoration: none;
+}
+#sidebar .looking li.active a, #sidebar .looking li:hover a {text-decoration: underline; color: #9f176b;}
+.subpage #sidebar {
+	width: 265px;
+	margin: 0 0 0 29px;
+	font-size: 13px;
+}
+.subpage #sidebar .box {
+	width: 100%;
+	overflow: hidden;
+	margin: 30px 0 0;
+}
+.subpage #sidebar .box .top {
+	width: 100%;
+	overflow: hidden;
+	background: url(/sites/all/themes/presbyterian/cssAssets/bg-sidebar-box-sub.gif) repeat-y;
+}
+.subpage #sidebar .box .bot {
+	width: 100%;
+	height: 41px;
+	overflow: hidden;
+	background: url(/sites/all/themes/presbyterian/cssAssets/bg-sidebar-bot-sub.gif) no-repeat;
+}
+.subpage #sidebar .box .title {
+	width: 100%;
+	height: 64px;
+	line-height: 50px;
+	font-weight: normal;
+	text-align: center;
+	font-size: 22px;
+	color: #261c0f;
+	font-stretch: condensed;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	background: url(/sites/all/themes/presbyterian/cssAssets/bg-sidebar-title-sub.png) no-repeat;
+}
+#sidebar .sidenav {
+	width: 244px;
+	text-align: center;
+	margin: -1px 0 0;
+	padding: 0 10px 15px 11px;
+	list-style: none;
+}
+#sidebar .sidenav li {
+	width: 100%;
+	font-size: 20px;
+	line-height: 23px;
+	font-stretch: condensed;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	padding: 24px 0 10px;
+	background: url(/sites/all/themes/presbyterian/cssAssets/bullet01.png) no-repeat 50% 0;
+}
+#sidebar .sidenav li:first-child {
+	background: none;
+	padding: 0 0 10px;
+}
+#sidebar .sidenav li a {
+	color: #474747;
+	text-decoration: none;
+}
+#sidebar .sidenav li.active a, #sidebar .sidenav li a:hover {color: #265da0;}
+#sidebar .cta {
+	width: 100%;
+	overflow: hidden;
+	margin: 49px 0 0;
+	text-decoration: none;
+	display: block;
+}
+#sidebar .CTA {
+	width: 100%;
+	overflow: hidden;
+	margin: 49px 0 0;
+	text-decoration: none;
+	display: block;
+}
+#sidebar .cta img {display: block;}
+#content {
+	float: right;
+	margin: 0 23px 0 0;
+	width: 580px;
+}
+#content .text {
+	width: 100%;
+	overflow: hidden;
+	margin: 33px 0 0;
+}
+.subpage #content {
+	width: 666px;
+	margin: 0 24px 0 0;
+}
+.subpage #content .text {
+	margin: 17px 0 0;
+}
+#content .breadcrumbs {
+	width: 100%;
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	margin: 26px 0 0;
+}
+#content .breadcrumbs li {
+	float: left;
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: normal;
+	color: #666;
+	padding: 0 4px 0 9px;
+	background: url(/sites/all/themes/presbyterian/cssAssets/separator04.gif) no-repeat 0 3px;
+}
+#content .breadcrumbs li:first-child {
+	padding: 0 4px 0 0;
+	background: none;
+}
+#content .breadcrumbs li a {
+	text-decoration: underline;
+	color: #666;
+}
+#content .breadcrumbs li a:hover {text-decoration: none;}
+#content .text .options {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 0 18px;
+}
+#content .text .options .option {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 0 13px;
+}
+#content .text .options .option .option-name {
+	display: block;
+	padding: 0 0 0 33px;
+	height: 39px;
+	line-height: 39px;
+	color: #1b1b1b;
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+	background: #fad4a3 url(/sites/all/themes/presbyterian/cssAssets/arrow-right.png) no-repeat 13px 13px;
+	cursor: pointer;
+}
+#content .text .options .option.active .option-name, #content .text .options .option .option-name:hover {
+	color: #070707;
+	background: #fead44 url(/sites/all/themes/presbyterian/cssAssets/arrow-right.png) no-repeat 13px 13px;
+}
+#content .text .options .option .option-inner {
+	display: none;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #474747;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: #474747;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: #474747;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #474747;
+}
+#plugin-CommunityLocator .sub_search form select{
+	background: #265da0 !important;
+}
+#plugin-CommunityLocator .btn_blue{
+	background: #265da0 !important;
+}
+#plugin-CommunityLocator .btn_green{
+	background: #ab1c68 !important;
+}
+#plugin-CommunityLocator .button_search{
+	background: #265da0 !important;
+}
+p.eoe {
+	position: relative;
+	bottom: 10px;
+}

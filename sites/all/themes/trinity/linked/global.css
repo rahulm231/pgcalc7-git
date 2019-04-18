@@ -1,0 +1,465 @@
+
+/*************************************************************************************
+
+ Stelter GLOBAL Stylesheet
+ -------------------------
+
+ * These apply to ALL client sites and are NOT to be customized
+
+*************************************************************************************/
+
+/*****************************************
+		GENERAL
+******************************************/
+
+.stl-full-view-section {visibility:hidden;} /* Remove this when the Desktop View and Mobile View links are ready to go on mobile. */
+
+/* Below are bootstrap overrides to clean up our 508 Clompliance report. It adds back
+   in the underline for color blind users */
+a, a:visited, a:active, a:hover,
+.btn:hover, .btn:focus,
+.btn-link:hover, .btn-link:focus,
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
+a:hover, a:focus,
+.nav > li.disabled > a:hover, .nav > li.disabled > a:focus,
+.navbar-brand:hover, .navbar-brand:focus,
+.pagination > li > span,
+.pager li > a:hover, .pager li>a:focus,
+.label[href]:hover, .label[href]:focus,
+a.badge:hover, a.badge:focus,
+a.list-group-item:hover, a.list-group-item:focus,
+.close:hover, .close:focus,
+.tooltip-inner,
+.carousel-control:hover, .carousel-control:focus {text-decoration:underline;}
+
+/* Line up the What's New view more link with the list of links */
+.stl-wn-view-more {padding-left:15px;}
+
+/* Force uppercase */
+.force-upper {text-transform: uppercase !important;}
+
+
+/*****************************************
+		Bootstrap overrides
+******************************************/
+/* Displays left/right columns on mobile - overrides bootstrap - per BB */
+.vertical-navigation{display:block !important}
+
+/* Removes max-height from sections like Case Study */
+.navbar-collapse {max-height:inherit; padding:0;}
+
+/* HEADER/TOP NAVIGATION */
+.navbar {border:0 !important;}
+
+
+/*****************************************
+		COPY/CONTENT
+******************************************/
+
+/* main copy background should be transparent */
+.main-copy {background:transparent;}
+
+/* fixes link overlfow for long link text in the learn how to fund it section */
+.learn-how-to-fund .flyover-link { white-space: normal;}
+
+/* fixes the flyover position when the flyover is outside of the iFrame */
+.flyover-offscreen-fix {left:auto !important; right:0 !important;}
+
+/* styling to make fancybox work with bootstrap*/
+#fancybox-content, #fancybox-wrap { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
+#fancybox-wrap { width: auto !important }
+
+/* Contact Us Page */
+.ContactUsPage .sub-middle-section > .row > .col-xs-12 {margin:1% 0 0;} /* Remove left margin from contact info */
+
+/* What's New Listing Page */
+#stl-whats-new-listing .wn-list-item  { margin-bottom: 20px; }
+#stl-whats-new-listing .wn-list-item h3.wn-list-item-title { margin-bottom: 10px; }
+#stl-whats-new-listing .wn-list-item p.wn-list-teaser { font-style: italic; }
+#stl-whats-new-listing .wn-list-item p.wn-subtitle { font-weight: bold; margin-bottom: 0; }
+
+/* Ebrochure Styles */
+.glyphicon-print {cursor:pointer;} /* Ebrochure Print icon */
+#brochureform fieldset {padding: 0; margin: 0; border: none;} /* Hide the default fieldset styles so forms aren't affected */
+
+/* PEPK Styles */
+#bymail {display:none !important; visibility:hidden !important;} /* Hides 'mail' sentence in PEPC page */
+#PEPCForm fieldset {padding: 0; margin: 0; border: none;} /* Hide the default fieldset styles so forms aren't affected */
+
+/* DCGA brochure Styles */
+#DCGAbrochureform fieldset {padding: 0; margin: 0; border: none;} /* Hide the default fieldset styles so forms aren't affected */
+
+/* Ebro and PEPK ReCaptcha on Mobile */
+@media screen and (max-width:360px) {
+	#ebroReCaptcha, #pepcReCaptcha, #dcgaReCaptcha {-webkit-transform:scale(0.88); transform:scale(0.88); -webkit-transform-origin:0 0; transform-origin:0 0; max-width:270px;}
+}
+
+/* Copyright */
+.stl-copyright, .stl-copyright p,
+#stl-page .stl-copyright, #stl-page .stl-copyright p,
+#stl-cms .stl-copyright, #stl-cms .stl-copyright p,
+.copyright, .copyright p,
+#stl-page .copyright, #stl-page .copyright p,
+#stl-cms .copyright, #stl-cms .copyright p {font-size:10pt !important;}
+.cga-copyright {display: none !important; visibility: hidden !important;}
+#charitable-gift-annuities-page .cga-copyright,
+body.charitable-gift-annuities .cga-copyright {display:inline !important; visibility: visible !important;}
+
+/*****************************************
+		SHARED STYLES
+******************************************/
+/* Base styles for form placeholders */
+::-webkit-input-placeholder { color:#555; }
+::-moz-placeholder { color:#555; } /* FF 19+ */
+:-moz-placeholder { color:#555; } /* FF 18- */
+:-ms-input-placeholder { color:#555; }
+.placeholder { color:#555; } /* for the polyfill */
+
+/* Responsive Video: http://webdesignerwall.com/tutorials/css-elastic-videos */
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:0px;
+	height:0;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.video-container iframe,
+.video-container video,
+.video-container object,
+.video-container embed {
+	position:absolute; top:0; left:0;
+	width:100%; height:100%;
+}
+
+/* Styles for HTML5 non-compatibility notification */
+#stl-video-tag > img {width: 100%; height: auto;}
+#stl-video-tag > p {
+    position:absolute; bottom:0; left:0;
+    z-index:5000;
+    text-align: center;
+    background: #fff;
+    padding: 5px; margin: 0; width: 100%;
+}
+
+/* Buttons/Icons */
+.iconR {padding:10px 45px 10px 10px; float:right; width:auto;}
+.iconL {padding:10px 10px 10px 45px; float:left; width:auto;}
+
+/* Show/Hide */
+.show {display:block;}
+.hide {display:none;}
+
+.hidden{display:none!important;visibility:hidden!important}
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+/* Hides 'Skip to Content' or anything else that needs to be in the content, but off the screen */
+.offscreen {position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden;}
+
+/* Float Clearing */
+.stl-clearfix:before,.stl-clearfix:after,
+.stl-clear:before,.stl-clear:after,
+.clearfix:before,.clearfix:after {content:"";display:table;}
+.stl-clearfix:after, .stl-clear:after, .clearfix:after {clear:both;}
+.stl-clearfix, .stl-clear, .clearfix {zoom:1;}
+
+/* 	Floats */
+.stl-right {float:right;}
+.stl-left {float:left;}
+
+/* 	Photos and Captions */
+@media screen and (max-width:767px){.stl-photo-wrap.stl-right, .stl-photo-wrap.stl-left {float:none;}} /* Removes float from images on screens less than 768px */
+@media screen and (min-width:768px){
+	.stl-photo-wrap {display:table; width:1px;} /* Constrains image and caption */
+		.stl-photo-wrap.stl-right {margin:0 0 15px 20px;} /* Adds spacing around photo group */
+		.stl-photo-wrap.stl-left {margin:0 20px 15px 0;}
+		.stl-photo-wrap img {display:block; max-width:none;} /* Max-width:100% inside display:table doesn't cooperate in Chrome http://tinyurl.com/lhrcd82 */
+}
+/* Floating just photos */
+.stl-photo-left, .stl-photo-right {display:block; margin:0 0 20px;}
+@media screen and (min-width:480px){
+	.stl-photo-left, .stl-photo-right {display:inline;}
+	.stl-photo-left, .donorpic {float:left; margin:0 20px 15px 0;} /* .donorpic is in place to catch older sites that don't still use it. */
+	.stl-photo-right {float:right; margin:0 0 15px 20px;}
+}
+/* For Case Study Images to expand full width in mobile */
+.case-study img {height:auto;}
+
+/* Hide case study title if it's empty */
+#stl-case-study-container h3:empty {display: none;}
+
+/* Update sites globally without affecting hardcoded images at 218px */
+@media screen and (max-width:479px) {.case-study img {width:100%; max-width:100%;}}
+
+/* Meet our Donors styling */
+.meet-our-donors-teaser {margin-bottom:20px;}
+	.meet-our-donors-thumb {float:left; margin:0 15px 15px 0; width:60px; display:inline-block;}
+
+/* Sub-page gift illustrator component */
+.gi-btn-wrap {float:right;}
+	.GIfeature .gi-btn-wrap .stlButton {width:100%;}
+
+	/* Real Estate page Gift Illustrator components */
+	@media only screen and (min-width:768px) {
+		/* prevent text from flowing under GI boxes */
+		.real-estate .gi-right-promo + p {overflow: hidden;}
+	}
+
+.share > div > a {text-decoration: none;}
+
+/* New Custom Sites (Desktop and Mobile) and Adaptive Sites (Desktop) */
+.stl-white-popup .journey li a {text-transform:lowercase; display: block;}
+.stl-white-popup .journey li a:first-letter {text-transform:uppercase;}
+/* Old Custom Sites and Adaptive Sites (Mobile) */
+.middle-results .modal-body li a {text-transform:lowercase; display: block;}
+.middle-results .modal-body li a:first-letter {text-transform:uppercase;}
+@media screen and (min-width:1024px) {
+	.stl-white-popup .journey li a, .middle-results .modal-body li a {display: inline-block;}
+}
+
+/* Hides What's New subtitle */
+#stl-whats-new li span {display:none !important; visibility:hidden !important;}
+
+/* Syndicated Lists */
+#stl-cms .syndicated ul, #stl-cms .syndicated ol, .syndicated ul, .syndicated ol {display:block; list-style-position:outside;}
+@media screen and (min-width:768px){
+	#stl-cms .syndicated ul, #stl-cms .syndicated ol, .syndicated ul, .syndicated ol {margin-left:30px;}
+}
+#stl-cms .syndicated li, .syndicated li {background:none !important; margin-bottom:1.4em; padding-left:0;} /* Adds margin between lists in syndicated articles */
+#stl-cms .syndicated ol.no-space li, #stl-cms .syndicated ul.no-space li,
+.syndicated ol.no-space li, .syndicated ul.no-space li {margin-bottom:0;}
+#stl-cms .syndicated ul li, #stl-cms .syndicated ol ul li,
+.syndicated ul li, .syndicated ol ul li {list-style-type:disc;}
+#stl-cms .syndicated ol li, .syndicated ol li {list-style-type:decimal;}
+#stl-cms .syndicated ol li ul, .syndicated ol li ul {margin-top:1.4em;}
+.syndicated blockquote {font-size: inherit;}
+
+/* Syndicated Tables */
+.syndicated table thead th {border: 1px solid #000; text-align: center; padding:5px 10px;}
+.syndicated table td {border: 1px solid #000; padding:5px 10px}
+
+.syndicated .stl-caution {background:url(/Images/Stelter/caution.png) 0 2px no-repeat; padding-left:25px;}
+
+/* /life-after-40 */
+.syndicated .stlButton {float:none !important; width:100%;}
+@media screen and (min-width:768px) {
+	.syndicated .stlButton {width:60%;
+}
+
+/* Contact Us reCaptcha */
+#contactReCaptcha {margin-bottom: 1.4em;}
+
+/****************************************
+		EBROCHURE PAGES
+****************************************/
+@media (min-width: 1200px){.ebrochure-page .container {width: 850px;}}
+.ebrochure-page h1 {font-weight:bold; color:#777;}
+.ebrochure-page h3 {padding-top:10px;}
+.ebrochure-page h4 {padding-top:10px;}
+.ebrochure-page h4.contact-head {margin-top:0; padding-top:0;}
+.ebrochure-page body, .ebrochure-page p,
+.ebrochure-page ul, .ebrochure-page ol, .ebrochure-page li {font-size:16px; line-height:1.5em; margin-bottom:1.5em}
+.ebrochure-page blockquote, .ebrochure-page table, .ebrochure-page td, .ebro-table, .ebro-table li {font-size:14px;}
+.ebrochure-page .header img {display:initial;}
+.ebrochure-page .glyphicon-print {float:right;top:10px;cursor:pointer;}
+.ebrochure-page .img-responsive {width: 100% \9;}
+.ebrochure-page .stl-copyright {margin:40px 0;}
+.ebrochure-page .stl-copyright, .ebrochure-page .stl-copyright p {font-size:10pt;}
+.ebrochure-page .stl-clear {clear:both} /* update to clearfix */
+.ebrochure-page .stl_ContactInfo{margin:25px 10px 0 0;}
+.ebrochure-page .stl_ContactPhoto{float:left; margin-right:10px;}
+.ebrochure-page .stl_ContactInfo .right{margin-left:25px; line-height:25px;}
+.ebrochure-page ul, blockquote, ol blockquote {margin-top:1.5em;} /* x70 */
+ul.stl-nospace li, ol.stl-nospace li {margin-bottom:0;}
+.page-break	{display:none;}
+
+
+/* Temporary Overrides */
+#stl-cms .ebro-table table tbody tr:first-child,
+#stl-cms .ebro-table table tbody tr:nth-child(2),
+#stl-cms .ebro-table table tbody tr {
+	background: none;
+}
+#stl-cms .ebro-table table tbody tr:first-child td,
+#stl-cms .ebro-table table tbody tr:nth-child(2) td {
+	color: #603814;
+}
+
+
+	/* table styling */
+	#stl-cms .ebro-table table td {border:none;}
+	.ebro-table {margin-bottom:30px;}
+		.ebro-table table {width:100%; border-collapse:collapse;}
+			.ebro-table.x68 table {float:left; margin:0 2.5%; width:45%;}
+			.ebro-table.x74 table tbody td:nth-child(4) {width:28%;} /* ebro x74  */
+
+			/* Lists */
+			.ebro-table table tbody ul, .ebro-table table tbody li {margin:0; padding:0;}
+			.ebro-table table tbody ul {margin-left:15px;}
+
+			/* Default */
+			.ebro-table th, .ebro-table td {padding:10px;}
+			.ebro-table td {text-align:center;}
+				.ebro-table.x66 td {text-align:left;}
+			.ebro-table tbody tr:nth-child(n+2),
+			#stl-cms .ebro-table tbody tr:nth-child(n+2) {border-top:1px solid #e4e4e4;}
+			#stl-cms .ebro-table tbody tr:hover {background:#e4e4e4 !important;}
+
+
+			/* Headers */
+			.ebro-table table thead tr {color:#fff; font-weight:bold;}
+			#stl-cms .ebro-table table thead tr:first-child {background:#000;} /* Heading */
+			#stl-cms .ebro-table table thead tr:nth-child(2){background:#aaa;} /* Subheading */
+
+			/* Footer */
+			.ebrochure-page tfoot {border-top:1px solid #000;}
+				.ebrochure-page tfoot td {font-weight: bold;}
+
+			/* Rows */
+			.ebro-table.x70 table tfoot td {text-align: left;} 	/* ebro x70 */
+			.ebro-table.x71 td,																	 /* ebro x71 */
+			.ebro-table.x74 tbody td,													 /* ebro x74 */
+			.ebro-table.x76 tbody td, .ebro-table tfoot td,			/* ebro x76 */
+			.ebro-table.x82 tbody td {													 /* ebro x82 */
+				text-align:left; vertical-align:top;
+			}
+
+			.ebro-table.x71 td:first-of-type {padding-left:50px; width:50%}
+			.ebro-table.x74 td:nth-child(2) {width:19%;}
+			.ebro-table.x74 td:nth-child(3) {width:20%;}
+			.ebro-table.x74 td:nth-child(4) {width:30%;}
+			.ebro-table.x74 td:nth-child(5) {width:18%;}
+
+
+@media print {
+
+/* hide everything but body .sub-middle-section */
+body * {visibility: hidden; height:0;}
+.sub-middle-section, .sub-middle-section *,
+#stl-cms .sub-middle-section, #stl-cms .sub-middle-section *,
+body .sub-middle-section, body .sub-middle-section *,
+.ebrochure-page, .ebrochure-page * {visibility: visible !important; height:auto !important;}
+.sub-middle-section {position:absolute; left:0; top:0; display:block;}
+#stl-page {overflow: visible !important;}
+
+/* Resets */
+body, .ebrochure-page .container {margin:0; padding:0;}
+body .sub-middle-section *, body .sub-middle-section, body {
+	background:transparent !important;
+	color: black !important; text-shadow:none !important;
+	filter:none !important; -ms-filter: none !important;
+	border:none !important;
+	box-shadow:none !important;
+}
+.stl-header, .stl-footer, .stl-left, .stl-right, #stl-col,
+video, audio, object, embed,
+.pull-right.ebro, .pull-right.stl-pepc-promo, .gi-right-promo,
+.stl-video-learn-row .see-how-it-works, .stl-gift-illustrator-row,
+.banner-row, .breadcrumb, .stl-not-sure, .stl-journey-paths,
+.stl-wn-view-more, .stl-page-header, .not-sure, .popup-flyover,
+.pepc-content-feat, .other-pubs {
+	display:none !important;
+}
+.stl-colwrap, .stl-container {background:none !important; border:none !important;}
+.stl_caseStudyBody.collapse, .stl-print-only, .hotnews.hidden-print {display:block !important;}
+.stl-container,
+body .sub-middle-section,
+#stl-cms, body #stl-cms .sub-middle-section,
+body .sub-middle-section .stl-center,
+body .sub-middle-section .sub-middle-section,
+body .sub-middle-section div.stl-container,
+body .sub-middle-section div.stl-colwrap div.stl-col.stl-w-07,
+body .sub-middle-section .stl-center .col-sm-7,
+body .sub-middle-section div.stl-colwrap div.stl-col,
+body .sub-middle-section .stl-center div.row > div,
+body .sub-middle-section div.stl-colwrap,
+body .sub-middle-section .stl-center div.row, .pullout_2,
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .stl-video-learn-row > .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12, .row,
+.pull-right, .learn-how-to-fund, .stl-video-learn-row *, #stl_case-study {
+  width:100% !important; max-width: 100% !important;
+	margin:0 !important; padding:0 !important;
+	top:0 !important;
+	float: none;
+	position: relative !important;;
+}
+body .stl-mission-section, .case-study {padding:0;}
+#stl_case-study.stl_caseStudyBody.collapse, .stl_caseStudyBody.collapse {display:block !important; visibility:visible !important; height:auto !important;}
+body .sub-middle-section * {width:100% !important;}
+body .sub-middle-section span {display:inline;}
+body .sub-middle-section p, body .sub-middle-section table, body .sub-middle-section form, body .sub-middle-section ul, body .sub-middle-section ol, blockquote {margin-bottom:1.5em !important;}
+body .sub-middle-section img {display:none;}
+@page {margin: 2.54cm 1.27cm;} /* 1"x.5" */
+
+/* Typography */
+body, body .sub-middle-section p,
+body .sub-middle-section ul,
+body .sub-middle-section ol, body .sub-middle-section li {color:#000; font:normal 12pt/1.5 Georgia, "Times New Roman", Times, serif !important; padding:0 !important; text-align:left;}
+
+/* Whats New */
+body .sub-middle-section .hotnews, #stl-whats-new, .stl-copyright {border:none !important; width:100%; margin:0 !important; padding:0 !important;}
+#stl-whats-new h3 {text-align:left !important;}
+
+/* Headings */
+body .sub-middle-section h1,
+body .sub-middle-section h1.stl-page-title,
+body .sub-middle-section h2,
+body .sub-middle-section h3 {font-family: Georgia, "Times New Roman", Times, serif !important; text-transform: capitalize !important; font-weight:normal !important; text-align:left !important;}
+body .sub-middle-section h1.stl-page-title {color:#000; font-size: 24pt !important; margin:0 0 25px !important; padding:0;}
+body .sub-middle-section h2 {color:#000; font-size: 22pt; margin:25px 0 20px; padding:0;}
+body .sub-middle-section h3 {color:#000; font-size: 18pt; padding:0;}
+	body .sub-middle-section h3.next-steps-head,
+	body .sub-middle-section h2.hidden-xs,
+	body .sub-middle-section h3.hidden-xs {display:block !important; font-size: 18pt !important;}
+body .sub-middle-section aside h2,
+body .sub-middle-section .learn-how-to-fund h3 {font-size: 18pt;}
+body .sub-middle-section h2, body .sub-middle-section h3 {page-break-after: avoid;}
+
+/* Copyright */
+.stl-copyright {page-break-inside:avoid;}
+.stl-copyright, .stl-copyright p, .copyright, .copyright p {font-size:10pt;}
+
+/* Lists */
+body .sub-middle-section ul, body .sub-middle-section ol, body .sub-middle-section li {margin:0 !important; padding:0; float:none; width:100%;}
+body .sub-middle-section ul, body .sub-middle-section ul li, #stl-whats-new li {list-style:disc !important; list-style-position:outside !important;}
+body .sub-middle-section ol, body .sub-middle-section ol li {list-style-type:decimal !important; list-style-position:outside !important;}
+body .sub-middle-section ol li:before {content:none;}
+body .sub-middle-section ul, body .sub-middle-section ol {margin:0 0 1.5em 15px !important;}
+body .sub-middle-section p, body .sub-middle-section h2, body .sub-middle-section h3 { orphans: 3; widows: 3; }
+body .sub-middle-section .learn-how-to-fund * {text-transform: none !important;}
+
+/* Links */
+body .sub-middle-section .learn-how-to-fund a.flyover-link::after {content: none;}
+body .sub-middle-section p a:after,
+body .sub-middle-section li a:after {content: " (" attr(href) ")"; font-size:80%; font-weight:normal; color:#ccc;}
+body .sub-middle-section p a[href^="#"], body .sub-middle-section p a[rel^="#"], body .sub-middle-section p a[href*="mailto"],
+body .sub-middle-section li a[href^="#"], body .sub-middle-section li a[rel^="#"], body .sub-middle-section li a[href*="mailto"] {text-decoration:none !important;}
+body .sub-middle-section p a[href^="#"]:after, body .sub-middle-section p a[rel^="#"]:after, body .sub-middle-section p a[href*="mailto"]:after,
+body .sub-middle-section li a[href^="#"]:after, body .sub-middle-section li a[rel^="#"]:after, body .sub-middle-section li a[href*="mailto"]:after {display:none; content: none;}
+body .sub-middle-section p a, body .sub-middle-section li a {word-wrap:break-word;}
+body .sub-middle-section a.flyover-link {font-weight:normal;}
+
+/* eBrochure */
+.ebrochure-page .header,
+.ebrochure-page .stl_ContactInfo,
+.ebrochure-page .stl_ContactInfo .right {margin:0; padding:0 !important;}
+#ebro-wrap .print-header{margin-right:auto; margin-left:auto; padding-left:15px; padding-right:15px;}
+#ebro-wrap h1 {color: rgba(0, 0, 0, 0); text-shadow: 0 0 0 #777 !important;}
+#ebro-wrap .stl_ContactInfo, #ebro-wrap table, #ebro-wrap tr, #ebro-wrap h2, #ebro-wrap h3, #ebro-wrap h4 {page-break-inside: avoid;}
+#ebro-wrap #fancybox-wrap {display:none !important;}
+#ebro-wrap body, #ebro-wrap p {font-size:12pt; line-height:1.3;}
+#ebro-wrap blockquote, #ebro-wrap table {font-size:10pt;}
+#ebro-wrap a, #ebro-wrap a:visited {color:#000; text-decoration:underline;}
+#ebro-wrap p a {word-wrap:break-word; -ms-word-break:break-word; word-break:break-word;}
+#ebro-wrap a[href]:after {content:" (" attr(href) ")"; color:#aaa; font-size:80%;}
+#ebro-wrap a[href*="mailto"]:after {content:none !important; display:none !important;}
+@page {margin: 2.54cm 1.27cm;} /* 1"x.5" */
+#ebro-wrap p, #ebro-wrap h2, #ebro-wrap h3, #ebro-wrap h4 {orphans:3; widows:3;}
+.page-break {display:block; page-break-before:always;}
+
+/* eBrochure Table */
+.ebro-table table, .ebro-table td {font-size:10pt;}
+.ebro-table table thead tr:first-child {background:none !important; color:#000 !important; border-bottom:1px solid #000 !important;} /* Heading */
+.ebro-table table thead tr:nth-child(2){background:none !important; color:#666 !important; border-bottom:1px solid #666 !important;} 	/* Subheading */
+}

@@ -1,0 +1,141 @@
+/**
+ *	Templates > Alumni-Event.less
+ *	=========================================================================================================
+ */
+.content-container.has-banner .header {
+  margin: 16px 0px 16px 0px;
+  margin: 1.6rem 0rem 1.6rem 0rem;
+}
+.content-container.has-banner .header-menu {
+  border: 0;
+}
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+.single-alumni-event .main-column .content-block {
+  border-top: 0px;
+}
+.single-alumni-event .main-column .content-block + .content-block {
+  margin-bottom: 32px;
+}
+.itinerary {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 8px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.itinerary-item {
+  display: table-row;
+}
+.itinerary-item .cell {
+  display: table-cell;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 17px;
+  line-height: 1.7rem;
+  padding: 4px 8px 4px 0px;
+  padding: 0.4rem 0.8rem 0.4rem 0rem;
+}
+.new-date .cell {
+  border-top: 1px solid #e2e2e2;
+}
+.itinerary-date {
+  width: 9em;
+  min-width: 9em;
+}
+.itinerary-start_time,
+.itinerary-end_time {
+  width: 5em;
+  min-width: 5em;
+  text-align: right;
+}
+.itinerary-notes {
+  display: block;
+}
+.itinerary-details {
+  padding-left: 16px;
+}
+.itinerary-item a {
+  color: #31bb2d;
+}
+.alumni-event-photos {
+  margin-top: 8px;
+}
+.alumni-event-directory {
+  margin-top: 8px;
+}
+.alumni-event-directory .wrap h2 {
+  display: none;
+}
+.alumni-event-directory thead,
+.alumni-event-directory tfoot {
+  display: none;
+}
+.alumni-event-directory .search-box {
+  display: none;
+}
+.alumni-event-directory .tablenav {
+  display: none;
+}
+.alumni-event-form .gform_wrapper {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+.alumni-event-form .gform_wrapper .description,
+.alumni-event-form .gform_wrapper .gfield_description,
+.alumni-event-form .gform_wrapper .gsection_description,
+.alumni-event-form .gform_wrapper .instruction .gfield_label,
+.alumni-event-form .gform_wrapper label {
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 22px;
+  line-height: 2.2rem;
+}
+.alumni-event-form .gform_wrapper .gfield_label {
+  font-weight: 600 !important;
+}
+.alumni-event-form .gform_heading {
+  display: none;
+}
+.alumni-event-form .gform_wrapper h2.gsection_title {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 25px;
+  line-height: 2.5rem;
+  font-weight: 300 !important;
+  margin-top: 16px !important;
+}
+.alumni-event-form .gform_wrapper .gsection {
+  border-bottom: 1px dotted #e2e2e2;
+  padding: 0 0 8px 0;
+  margin: 4px 0;
+  clear: both;
+}
+.alumni-event-form .gform_wrapper .gfield {
+  padding-top: 8px;
+}
+.alumni-event-form .gform_wrapper ul.gfield_checkbox,
+.alumni-event-form .gform_wrapper ul.gfield_radio {
+  margin-top: 8px !important;
+}
+.ticket-listing {
+  text-indent: -60px;
+  margin-left: 60px;
+}
+.ticket-listing + .ticket-listing {
+  margin-top: 4px;
+}
+.ticket-listing .price {
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+  padding-right: 5px;
+}
+.ticket-listing .stock {
+  display: block;
+  margin-left: 65px;
+  color: #959699;
+}

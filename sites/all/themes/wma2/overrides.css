@@ -1,0 +1,238 @@
+.pg-content-body {
+  color: #3a3e3b;
+  font-family: "hypatia-sans-pro", sans-serif;
+}
+
+.pg-wrap h1 {
+  font-family: "hypatia-sans-pro", sans-serif;
+}
+
+.pg-wrap p {
+  color: #3a3e3b;
+  font-family: "hypatia-sans-pro", sans-serif;
+}
+
+#block-system-main-menu h2 a {
+  display: block;
+  line-height: 30px;
+  margin-bottom: 0;
+  color: #8f9790;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "ff-good-headline-web-pro-con", Helvetica, Arial, sans-serif;
+  text-align: left;
+  padding: 0;
+  : ;
+  text-decoration: none;
+  behavior: url(/PIE.htc);
+}
+
+#main-menu li a {
+  font-size: 15px;
+  color: #8f9790;
+  font-weight: normal;
+  font-family: ;
+  background: #fff;
+  padding: 8px 5px 5px 0px;
+  border: 0;
+  : ;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+}
+
+#main-menu li a:hover {
+  color: #002957;
+}
+
+#main-menu li a.active {
+  color: #95bf74;
+}
+
+#main-menu li.expanded ul li a {
+  border-bottom: 0;
+  font-size: 14px;
+  padding: 5px 5px 8px 0px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+#main-menu ul li a.active {
+  color: #95bf74;
+}
+
+#main-menu ul li a:hover {
+  color: #002957;
+}
+
+#main-menu li.expanded ul ul li a {
+  background-image: none !important;
+  font-size: 14px;
+  padding: 2px 0px 5px 0px;
+  text-transform: capitalize;
+}
+
+#main-menu ul ul li a:hover {
+  color: #002957;
+}
+
+#main-menu ul ul li a.active {
+  color: #95bf74;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  background: #002957;
+  color: #fff;
+  font-size: 1em;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+.pg-wrap table tr td {
+  color: #000;
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+.pg-wrap ol li {
+  list-style-position: inside;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #002957;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 5px;
+  border-radius: 0px;
+  padding: 20px;
+  : ;
+  box-shadow: 0px 0px 0px #fff;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #fff;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  color: #fff;
+}
+
+#pgc-contact-block li a:hover {
+  color: #95bf74;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #ae132a;
+  padding: 10px 20px;
+  : ;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0px 0px 0px #fff;
+  -moz-box-shadow: 0px 0px 0px #fff;
+  box-shadow: 0px 0px 0px #fff;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block .title {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#pgc-contact-footer-block li a {
+  color: #fff;
+}
+
+#pgc-contact-footer-block li a:hover {
+  color: #000;
+}
+
+#pgc_resource_block {
+  background: #e9b840;
+  padding: 15px 20px;
+  : ;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0px 0px 0px #fff;
+  -moz-box-shadow: 0px 0px 0px #fff;
+  box-shadow: 0px 0px 0px #fff;
+  text-align: center;
+  behavior: url(/PIE.htc);
+}
+
+#pgc_resource_block a {
+  color: #ffffff;
+}
+
+#pgc_resource_block a:hover {
+  color: #002957;
+}
+
+.pg-gift-details .accordion-switch {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #002957;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  padding: 0 15px;
+  border: 0px solid #002957;
+  color: #ffffff;
+  display: block;
+  font-size: .9em;
+  font-weight: normal;
+  margin: 10px 0;
+  line-height: 40px;
+  behavior: url(/PIE.htc);
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #e9b840;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #ae132a;
+}
+

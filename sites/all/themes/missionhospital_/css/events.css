@@ -1,0 +1,689 @@
+/* General Events Styles */
+.eventcal {
+	position: relative;
+}
+
+.eventcal a {
+	text-decoration: none !important;
+}
+
+.eventcal.nospace {
+	padding: 0;
+}
+
+.eventcal.space {
+	padding: 1em;
+}
+
+.eventcal h3 {
+	margin-bottom: 0;
+	overflow: hidden;
+	padding-bottom: 0;
+}
+
+.eventcal .details a {
+	display: inline;
+}
+
+.eventcal .btn {
+	text-transform: uppercase;
+}
+
+.featurebox .eventlistitem .btn {
+	margin-top: -.5em;
+}
+
+.eventcal .eventdate {
+	font-weight: bold;
+	margin-right: .4em;
+}
+
+.eventcal .eventtime {
+}
+
+.eventcal .seats {
+	background-color: #0C5098; /* $primary */
+	display: inline-block;
+	vertical-align: middle;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 1em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.eventcal .seats span {
+	display: inline-block;
+	padding: .25em .5em;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+}
+
+.eventcal .seats strong {
+	padding: .25em 0.625em;
+	color: #FFFFFF;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: normal;
+	background-color: #4B973D; /* $secondary */
+}
+
+.eventcal > div {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.eventcal .half {
+	max-width: 50%;
+}
+
+.eventcal .left {
+	float: left;
+}
+
+.eventcal.clearboxes > div {
+	clear: both;
+}
+
+.eventcal h5 {
+	font-size: 1.3em;
+	line-height: 1;
+	margin: 0 0 .6em;
+	background-color: #4B973D; /* $secondary */
+	color: #FFFFFF;
+	width: 100%;
+	border-radius: 0;
+	overflow: hidden;
+	padding: .4em 0 .4em .8em;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'GothamSVG', 'Gotham', sans-serif;
+}
+
+.eventcal .paging h5 {
+	margin: .5em 0 0;
+	clear: both;
+}
+
+.eventcal.header {
+	zoom: 1;
+	margin-bottom: 1em;
+}
+
+.eventcal.header:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.eventcal .headertab {
+	border-bottom: solid .25em #0C5098; /* $primary */
+	float: right;
+	padding: .5em 1em;
+	color: #0C5098; /* $primary */
+	font-size: .8em;
+	vertical-align: middle;
+	background-color: #F5FAFF;
+	font-weight: bold;
+}
+
+.no-boxshadow .eventcal .headertab {
+	background-color: #DFEBF3;
+}
+
+.eventcal .headertab:before {
+	font-family: 'icomoon-ult';
+	content: '\e71d';
+	margin-right: 5px;
+	font-size: 1.5em;
+	display: inline;
+	vertical-align: middle;
+	line-height: .8em;
+}
+
+.eventcal .headertab a {
+	color: #4B973D; /* $secondary */
+	text-decoration: none;
+}
+
+.eventcal .headertab a:hover {
+	color: #0C5098; /* $primary */
+}
+
+.eventcal.featurebox {
+	padding: 0 1em 1em;
+	position: relative;
+	background-color: #F5FAFF;
+	overflow: hidden;
+	font-size: .95em;
+	border-radius: 0 0 .313em .313em;
+	line-height: 1.5em;
+}
+
+.eventcal.featurebox.alt {
+	background-color: #E7FFE2;
+}
+
+.eventcal.featuredevents {
+	width: 49%;
+	float: left;
+	padding: 0;
+}
+
+.eventcal.featuredevents h5 {
+	background-color: #0C5098; /* $primary */
+}
+
+.eventcal.recentevents {
+	width: 49%;
+	float: right;
+	padding: 0;
+}
+
+.no-rgba .eventcal.featuredevents, .no-rgba .eventcal.recentevents {
+	width: 100%;
+	float: none;
+	margin-bottom: .5em;
+}
+
+.eventcal.alt h5 {
+	background-color: #4B973D; /* $secondary */
+}
+
+.recentevents strong {
+	display: block;
+}
+
+.recentevents .details {
+	text-align: right;
+	display: block;
+	padding: 0 5%;
+}
+
+.recentevents .details:hover {
+	background-color: #D4A75C;
+	color: #FFFFFF;
+}
+
+.eventlistitem {
+	padding: 0 0 5px;
+	border-bottom: dashed 1px #D1DFE9;
+	zoom: 1;
+}
+
+.alt .eventlistitem {
+	border-bottom: dashed 1px #CAE2C5;
+}
+
+.alt .eventlistitem a:not(.btn) {
+	color: #4B973D; /* $secondary */
+}
+
+.featurebox .eventlistitem {
+	margin: 0 .5em;
+}
+
+.eventlistitem:last-child {
+	border-bottom: none;
+}
+
+.eventlistitem:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.eventlistitem a {
+	display: block;
+}
+
+.eventlistitem.noresults a {
+	display: inline;
+}
+
+.eventlistitem img {
+	float: left;
+	margin: .25em .5em 0 0;
+	border-radius: .25em;
+}
+
+.featurebox .eventlistitem span {
+	display: block;
+}
+
+.eventlistitem span.desc {
+	display: block;
+	line-height: 1.45em;
+}
+
+.eventlistitem .date {
+	display: inline;
+}
+
+.featurebox .eventlistitem .date {
+	float: left;
+}
+
+.eventcal .datanavigation {
+	padding: .5em 0;
+}
+
+.eventlistitem .left {
+	float: left;
+	width: 80%;
+}
+
+.eventlistitem .left strong {
+	float: left;
+	margin-right: .3em;
+	color: #4B973D; /* $secondary */
+}
+
+.eventlistitem .left a {
+	font-weight: bold;
+}
+
+.eventlistitem .right {
+	float: right;
+	text-align: right;
+}
+
+.eventlistitem .right .btn {
+	display: block;
+	float: none;
+	margin-bottom: .5em;
+}
+
+.eventlistitem .full {
+	float: left;
+	clear: both;
+}
+
+.eventlistitem a.register {
+	background-color: #D4A75C;
+}
+
+.eventlistitem a.register:hover {
+	color: #D4A75C;
+	background-color: #3080E5;
+}
+
+.eventlistitem .btn {
+	font-size: .9em;
+	float: right;
+}
+
+.eventsearch {
+	clear: both;
+	font-size: .95em;
+	padding-top: 1em;
+}
+
+.eventsearch .eventlistitem {
+	padding: .675em .75em;
+}
+
+.eventsearch .eventlistitem.alt {
+	background-color: #F5FAFF;
+}
+
+.eventsearchbox {
+	background-color: #FFFFFF;
+	padding: 1em 1.5em;
+	margin-bottom: .8em;
+	color: #0C5098; /* $primary */
+}
+
+.eventsearch .eventsearchbox {
+	background-color: #E6F4FE;
+}
+
+.eventsearchbox table {
+	width: 100%;
+}
+
+.eventsearchbox  input, .eventsearchbox  select {
+	width: 100%;
+	background-color: #FFFFFF;
+	font-size: 1rem;
+}
+
+.eventcal input,  .eventcal select, .eventcal textarea {
+	background-color: #FFFFFF;
+}
+
+.eventcal .datanavigation:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.eventcal.eventlogin {
+	padding: 0;
+}
+
+.eventcal.eventlogin > div {
+	padding: 3%;
+}
+
+.eventcal.eventlogin > div:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.eventcal.myevents {
+	padding: 0;
+}
+
+.eventcal.myevents .left {
+	width: 80%;
+}
+
+#EventDetails {
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+#EventDetails > div {
+	padding: 1em 2em;
+}
+
+.eventcal .details {
+	overflow: hidden;
+}
+
+.eventcal h4 {
+	font-size: 2em;
+	margin: 0;
+}
+
+.eventcal .details > div {
+	display: table;
+	padding-right: 2%;
+}
+
+.eventcal .details > div > div {
+	display: table-row;
+}
+
+.eventcal .details > div > div > * {
+	vertical-align: top;
+	display_: table-cell;
+}
+
+.eventcal .details > div > div > strong {
+	width_: 45%;
+	margin-right: 0.5em;
+}
+
+.eventcal .details > div > .eventmap {
+	display: block;
+	overflow: hidden;
+}
+
+.eventcal .details > div > .eventmap > * {
+	display: block;
+}
+
+.eventcal .clear {
+	padding-bottom: 15px;
+}
+
+.eventcal .details > .right > div > * {
+	display: block;
+}
+
+.eventcal .eventsearchbox.dates ul {
+	display: table;
+	padding: 0;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.eventcal .eventsearchbox.dates.beryl ul {
+	width: 70%;
+}
+
+.eventcal .eventsearchbox.dates ul li {
+	display: table-cell;
+}
+
+.eventcal .eventsearchbox.dates.beryl ul li {
+	display: block;
+	overflow: hidden;
+	margin-bottom: .5em;
+}
+
+.eventcal .eventsearchbox.dates.beryl .seats {
+}
+
+.eventcal .eventsearchbox.dates h4 {
+	margin: 0 0 .4em;
+	font-size: 1.4em;
+	line-height: 1;
+	color: #4B973D; /* $secondary */
+}
+
+.eventcal .eventsearchbox.dates {
+	margin: 1em 2em;
+	background-color: #E6F4FE;
+}
+
+.eventcal.eventlogin > div > span {
+	float: left;
+	margin-top: 10px;
+}
+
+.eventcal.eventlogin > div > strong {
+	float: left;
+	width: 35%;
+	clear: left;
+	margin-top: 10px;
+}
+
+#EventDetails > div table {
+	width: 100%;
+}
+/* End General Events Styles */
+
+/* Calendar View */
+div.calendar-main {
+	margin: 1.5em 0;
+}
+
+div.calendar-main h2 {
+	text-align: center;
+	padding: .5em 0;
+	margin: 0px;
+}
+
+div.calendar-period {
+	text-align: center;
+	padding-bottom: .5em;
+	color: #4B973D; /* $secondary */
+	position: relative;
+}
+
+div.calendar-period a {
+	display: inline-block;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 0 .75em;
+}
+
+div.calendar-period span {
+	padding: 0 .75em;
+}
+
+div.calendar-period a:first-child {
+	position: absolute;
+	left: 1em;
+}
+
+div.calendar-period a:first-child:before {
+	font-family: 'icomoon-ult';
+	content: '\e0ec';
+	font-size: .6em;
+	margin-right: .5em;
+}
+
+div.calendar-period a:last-child {
+	position: absolute;
+	right: 1em;
+}
+
+div.calendar-period a:last-child:after {
+	font-family: 'icomoon-ult';
+	content: '\e0ea';
+	font-size: .6em;
+	margin-left: .5em;
+}
+
+div.calendar-days table {
+	width: 100%;
+	border-top: solid 1px #E5E5E5;
+	border-left: solid 1px #E5E5E5;
+	table-layout: fixed;
+}
+
+div.calendar-days table td {
+	border-right: solid 1px #E5E5E5;
+	border-bottom: solid 1px #E5E5E5;
+}
+
+div.calendar-days table tr.calendar-week td {
+	padding: 2px;
+	text-align: center;
+	background: #0C5098; /* $primary */
+	color: #FFFFFF;
+	border: solid 1px #ECF3F8;
+}
+
+div.calendar-days table td.calendar-day {
+	font-size: 0.8em;
+	padding: .5em;
+	position: relative;
+	height: 100px;
+}
+
+div.calendar-days table td.calendar-day span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #4B973D; /* $secondary */
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	line-height: 1.5em;
+	color: #FFFFFF;
+	font-size: 1.2em;
+}
+
+div.calendar-days table td.calendar-other {
+	color: #909090;
+	background: #FAFAFA;
+}
+
+div.calendar-days table td.calendar-other span {
+	background-color: #B2B2B2;
+}
+
+div.calendar-days table td.calendar-event {
+	background-color: #F2F6F9;
+}
+
+div.calendar-days table td.calendar-event span {
+	background-color: #0C5098; /* $primary */
+}
+
+div.calendar-today {
+	text-align: center;
+	padding: 5px 0px;
+}
+
+div.calendar-days table td a {
+	display: block;
+	line-height: 1.25em;
+	margin-bottom: .125em;
+}
+/* End Calendar View */
+
+/* Responsive Events @ 900px */
+@media (max-width:900px) {
+	.eventcal.featuredevents, .eventcal.recentevents {
+		width: 100%;
+		float: none;
+	}
+
+	.eventcal .half {
+		max-width: 100%;
+	}
+
+	.eventcal .eventsearchbox.dates ul {
+		display: block;
+	}
+
+	.eventcal .eventsearchbox.dates ul li {
+		display: block;
+	}
+
+	.eventcal .details > div > div > * {
+		display: block;
+	}
+
+	div.calendar-main {
+		display: none;
+	}
+}
+/* End Responsive Events @ 900px */
+
+/* Responsive Events @ 650px */
+@media (max-width: 650px) {
+	.eventcal .details .half {
+		float: none;
+		width: 100%;
+		max-width: none;
+	}
+
+	.eventlistitem img {
+		margin-bottom: 1.25em;
+	}
+
+	.featurebox .eventlistitem .btn {
+		margin-top: 1.25em;
+	}
+
+	.eventlistitem .left, .eventlistitem .right {
+		width: 100%;
+	}
+
+	.eventlistitem .right .btn {
+		float: left;
+		margin-right: 1em;
+		margin-top: .75em;
+	}
+
+	.eventcal .paging span {
+		width: 100%;
+		float: none;
+		text-align: center;
+		display: block;
+	}
+
+	#EventDetails > div {
+		padding: 0em 2%;
+	}
+
+	#EventDetails > div.dates {
+		margin: 1em 0;
+		padding: .5em;
+	}
+
+	.eventcal .eventsearchbox.dates.beryl ul {
+		width: 100%;
+	}
+}
+/* End Responsive Events @ 650px */

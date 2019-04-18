@@ -1,0 +1,294 @@
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Dosis ExtraLight'), local('Dosis-ExtraLight'), url(/sites/all/themes/breakthrough3/cssAssets/HhyXU5sn9vOmLzGnKuCLMI0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Dosis Light'), local('Dosis-Light'), url(/sites/all/themes/breakthrough3/cssAssets/HhyXU5sn9vOmLzHDKeCLMI0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'), url(/sites/all/themes/breakthrough3/cssAssets/HhyaU5sn9vOmLzlmC_M.woff) format('woff');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Dosis Medium'), local('Dosis-Medium'), url(/sites/all/themes/breakthrough3/cssAssets/HhyXU5sn9vOmLzGbKOCLMI0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Dosis SemiBold'), local('Dosis-SemiBold'), url(/sites/all/themes/breakthrough3/cssAssets/HhyXU5sn9vOmLzG3L-CLMI0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Dosis Bold'), local('Dosis-Bold'), url(/sites/all/themes/breakthrough3/cssAssets/HhyXU5sn9vOmLzHTLuCLMI0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Dosis ExtraBold'), local('Dosis-ExtraBold'), url(/sites/all/themes/breakthrough3/cssAssets/HhyXU5sn9vOmLzHPLeCLMI0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Droid Serif Italic'), local('DroidSerif-Italic'), url(/sites/all/themes/breakthrough3/cssAssets/tDbK2oqRg1oM3QBjjcaDkOr4nAfcGA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Droid Serif Bold Italic'), local('DroidSerif-BoldItalic'), url(/sites/all/themes/breakthrough3/cssAssets/86aedfe14fcd5a0bb98e832f9b16f466.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Serif Regular'), local('DroidSerif-Regular'), url(/sites/all/themes/breakthrough3/cssAssets/tDbI2oqRg1oM3QBjjcaDkOr9rAM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Serif Bold'), local('DroidSerif-Bold'), url(/sites/all/themes/breakthrough3/cssAssets/tDbV2oqRg1oM3QBjjcaDkOJGiRD7Owc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Nunito ExtraLight Italic'), local('Nunito-ExtraLightItalic'), url(/sites/all/themes/breakthrough3/cssAssets/XRXQ3I6Li01BKofIMN5MZ-vO.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Nunito Light Italic'), local('Nunito-LightItalic'), url(/sites/all/themes/breakthrough3/cssAssets/XRXQ3I6Li01BKofIMN4oZOvO.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Nunito Italic'), local('Nunito-Italic'), url(/sites/all/themes/breakthrough3/cssAssets/XRXX3I6Li01BKofIMOaH.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Nunito SemiBold Italic'), local('Nunito-SemiBoldItalic'), url(/sites/all/themes/breakthrough3/cssAssets/XRXQ3I6Li01BKofIMN5cYuvO.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Nunito Bold Italic'), local('Nunito-BoldItalic'), url(/sites/all/themes/breakthrough3/cssAssets/XRXQ3I6Li01BKofIMN44Y-vO.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Nunito Black Italic'), local('Nunito-BlackItalic'), url(/sites/all/themes/breakthrough3/cssAssets/XRXQ3I6Li01BKofIMN4AYevO.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Nunito ExtraLight'), local('Nunito-ExtraLight'), url(/sites/all/themes/breakthrough3/cssAssets/XRXW3I6Li01BKofA-sekZQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Nunito Light'), local('Nunito-Light'), url(/sites/all/themes/breakthrough3/cssAssets/XRXW3I6Li01BKofAnsSkZQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito Regular'), local('Nunito-Regular'), url(/sites/all/themes/breakthrough3/cssAssets/XRXV3I6Li01BKof4MQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Nunito SemiBold'), local('Nunito-SemiBold'), url(/sites/all/themes/breakthrough3/cssAssets/XRXW3I6Li01BKofA6sKkZQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nunito Bold'), local('Nunito-Bold'), url(/sites/all/themes/breakthrough3/cssAssets/XRXW3I6Li01BKofAjsOkZQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Nunito Black'), local('Nunito-Black'), url(/sites/all/themes/breakthrough3/cssAssets/XRXW3I6Li01BKofAtsGkZQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(/sites/all/themes/breakthrough3/cssAssets/TK3hWkUHHAIjg75-sh0jvg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(/sites/all/themes/breakthrough3/cssAssets/TK3iWkUHHAIjg75GHQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(/sites/all/themes/breakthrough3/cssAssets/TK3hWkUHHAIjg75-ohojvg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Playfair Display Italic'), local('PlayfairDisplay-Italic'), url(/sites/all/themes/breakthrough3/cssAssets/6d6935e34805452b10f28c3174e77cf2.woff) format('woff');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Playfair Display Bold Italic'), local('PlayfairDisplay-BoldItalic'), url(/sites/all/themes/breakthrough3/cssAssets/cb4bf0d9dbf2f40cf93acd6c25274c25.woff) format('woff');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Playfair Display Black Italic'), local('PlayfairDisplay-BlackItalic'), url(/sites/all/themes/breakthrough3/cssAssets/0ae984ca77d7eaace9c0169c2d520c19.woff) format('woff');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(/sites/all/themes/breakthrough3/cssAssets/nuFiD-vYSZviVYUb_rj3ij__anPXPTg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url(/sites/all/themes/breakthrough3/cssAssets/141efc5ba14d76b0fac32b4f22478dce.woff) format('woff');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Playfair Display Black'), local('PlayfairDisplay-Black'), url(/sites/all/themes/breakthrough3/cssAssets/ac2f6402c3ea5696c8a61d637cdf480c.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Poppins Light'), local('Poppins-Light'), url(/sites/all/themes/breakthrough3/cssAssets/pxiByp8kv8JHgFVrLDz8V1g.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(/sites/all/themes/breakthrough3/cssAssets/pxiEyp8kv8JHgFVrFJM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(/sites/all/themes/breakthrough3/cssAssets/pxiByp8kv8JHgFVrLGT9V1g.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(/sites/all/themes/breakthrough3/cssAssets/pxiByp8kv8JHgFVrLEj6V1g.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Poppins Bold'), local('Poppins-Bold'), url(/sites/all/themes/breakthrough3/cssAssets/pxiByp8kv8JHgFVrLCz7V1g.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(/sites/all/themes/breakthrough3/cssAssets/KFOiCnqEu92Fr1Mu51QrIzQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(/sites/all/themes/breakthrough3/cssAssets/KFOjCnqEu92Fr1Mu51TjARc-.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(/sites/all/themes/breakthrough3/cssAssets/KFOkCnqEu92Fr1Mu52xM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(/sites/all/themes/breakthrough3/cssAssets/KFOjCnqEu92Fr1Mu51S7ABc-.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(/sites/all/themes/breakthrough3/cssAssets/KFOjCnqEu92Fr1Mu51TzBhc-.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(/sites/all/themes/breakthrough3/cssAssets/KFOjCnqEu92Fr1Mu51TLBBc-.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(/sites/all/themes/breakthrough3/cssAssets/KFOkCnqEu92Fr1MmgWxM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(/sites/all/themes/breakthrough3/cssAssets/KFOlCnqEu92Fr1MmSU5vAA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(/sites/all/themes/breakthrough3/cssAssets/KFOmCnqEu92Fr1Me5g.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(/sites/all/themes/breakthrough3/cssAssets/KFOlCnqEu92Fr1MmEU9vAA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(/sites/all/themes/breakthrough3/cssAssets/KFOlCnqEu92Fr1MmWUlvAA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(/sites/all/themes/breakthrough3/cssAssets/KFOlCnqEu92Fr1MmYUtvAA.woff) format('woff');
+}

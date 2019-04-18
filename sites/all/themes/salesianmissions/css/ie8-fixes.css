@@ -1,0 +1,36 @@
+/* $Id: ie8-fixes.css,v 1.1.2.1 2009/09/29 04:18:15 sociotech Exp $ */
+
+/* IE8 fixes
+-------------------------------------------------------------- */
+
+/* grid mask overlay opacity fix
+-------------------------------------------------------------- */
+#grid-mask-overlay {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+}
+
+#block-block-3 a.btn-a,
+a.btn-a {
+	background:url(/sites/all/themes/salesianmissions/cssAssets/ie-btn-donate-now.png) 0 0 repeat-x;
+	font-size:18px;
+	/*height:36px;*/
+	}
+
+a.btn-signup {
+background:transparent url(/sites/all/themes/salesianmissions/cssAssets/ie-btn-sign-up.png) 0 0 no-repeat;
+height:20px;
+text-indent:-9999px;
+width:67px;
+}
+
+#footer-inner #search-block-form #edit-submit {
+	background:transparent url(/sites/all/themes/salesianmissions/cssAssets/ie-btn-search.jpg) 0 0 no-repeat;
+	border:0 none;
+	text-indent:-9999px;
+	font-size:0;
+	line-height:0;
+	display:block;
+	width:56px;
+	height:21px;
+
+}

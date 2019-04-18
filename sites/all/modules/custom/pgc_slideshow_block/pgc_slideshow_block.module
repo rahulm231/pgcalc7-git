@@ -1,0 +1,135 @@
+<?php
+/**
+* Implements hook_menu().
+*/
+function pgc_slideshow_block_menu() {
+  $items = array(); 
+  
+  $items['admin/config/pgcalc'] = array(
+    'title' => 'PgCalc Custom Modules',
+    'description' => 'Configure PgCalc Custom Modules',
+    'position' => 'right',
+    'weight' => -2,
+    'page callback' => 'system_admin_menu_block_page',
+    'access arguments' => array('access administration pages'),
+    'file' => 'system.admin.inc',
+    'file path' => drupal_get_path('module', 'system'),
+  );  
+  
+  $items['admin/config/pgcalc/pgcs_slideshow'] = array(
+    'title' => 'PGCS Slideshow Settings',
+    'description' => 'PGCS Slideshow Settings',
+    'page callback'    => 'drupal_get_form',
+    'page arguments' => array('pgc_slideshow_block_config_form'), 
+    'access arguments' => array('administer site configuration'),
+    'file' => 'pgc_slideshow_block.admin.inc',
+  );
+	
+  return $items; 
+}
+
+/**
+ * Implements hook_theme().
+ */
+function pgc_slideshow_block_theme($existing, $type, $theme, $path) {
+  return array(
+    'pgc_slideshow_block' => array(
+      'variables' => array(
+        'type' => NULL,
+        'images' => NULL,
+      ),
+      'path' => $path,
+      'template' => 'pgc-slideshow-block',
+    ),
+  );
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function pgc_slideshow_block_block_info() {
+  $blocks['pgc_slideshow_block'] = array(
+    'info' => t('Slideshow block'),
+    // Default.
+    'cache' => DRUPAL_NO_CACHE,
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function pgc_slideshow_block_block_view($delta = '') {
+  $block = array();
+  switch ($delta) {
+    case 'pgc_slideshow_block':
+      if (arg(0) == 'node' && is_numeric(arg(1)) && ! arg(2)) {
+        $node = node_load(arg(1));
+        $images = array();
+		$links = array();
+		$alt_tag = array();
+		$open_new = 0;
+        if ($node->type == 'homepage') {
+          for ($i = 1; $i <= 5; $i++) {
+            if (isset($node->{'field_slideshow_image_' . $i}[$node->language][0])) {
+              $images[] = file_create_url($node->{'field_slideshow_image_' . $i}[$node->language][0]['uri']);
+			  if(!empty($node->{'field_slideshow_url_' . $i})){
+			    $links[] = $node->{'field_slideshow_url_' . $i}[$node->language][0]['value'];	
+			  }			  
+			  $alt_tag[] = $node->{'field_slideshow_image_' . $i}[$node->language][0]['alt'];
+            }
+          }
+		  if(!empty($node->field_image_url_open_new)){
+		  	$open_new = $node->field_image_url_open_new[$node->language][0]['value'];
+		  }
+		  
+        }
+        else {
+          if (isset($node->field_top_image[$node->language][0])) {
+            $images[] = file_create_url($node->field_top_image[$node->language][0]['uri']);
+			if(!empty($node->{'field_top_image_url'})){
+			  $links[] = $node->{'field_top_image_url'}[$node->language][0]['value'];	
+			}			
+			$alt_tag[] = $node->field_top_image[$node->language][0]['alt'];
+			if(!empty($node->field_image_url_open_new)){
+			  $open_new = $node->field_image_url_open_new[$node->language][0]['value'];	
+			}			
+          }
+        }
+        $captions = array();
+        if (isset($node->field_top_caption[$node->language][0]['value'])) {
+          $captions[] = $node->field_top_caption[$node->language][0]['value'];
+        }
+        if (count($images)) {
+          $type = count($images) > 1 ? 'slideshow' : 'single';
+          $block['subject'] = '';
+          $variables = array(
+            'type' => $type,
+            'images' => $images,
+            'links' => $links,
+            'alt_tag' => $alt_tag,
+            'captions' => $captions,
+            'open_new' => $open_new,
+          );
+          $block['content']['#markup'] = theme('pgc_slideshow_block', $variables);
+		  $block['content']['#attached'] = array(
+            'css' => array(
+              drupal_get_path('module', 'pgc_slideshow_block') . '/css/slideshow.css',
+            ),
+            'js' => array(
+              drupal_get_path('module', 'pgc_slideshow_block') . '/js/responsiveslides.js',
+              drupal_get_path('module', 'pgc_slideshow_block') . '/js/slideshow.js',
+            ),
+          );	
+		  $block['content']['#attached']['js'][] = array(
+		       'data' => array(
+		         'slideshow_interval' => variable_get('pgc_slideshow_interval',4000),
+				),
+  			   'type' => 'setting'
+		    );	  
+        }
+      }
+      break;
+  }
+  return $block;
+}

@@ -1,0 +1,35 @@
+.style-12687 .submit-button{
+	width:17px;
+}
+
+#main-menu li.collapsed a:after{
+	position: absolute;
+    display: block;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    min-height: 16px;
+    min-width: 16px;
+    right: 10px;
+    top: 50%;
+    background: url(//libs-e1.myschoolapp.com/images/menu/arrows.png) top left no-repeat;
+}
+
+#block-blockify-blockify-page-title{
+	padding-top: 20px;
+}
+
+#giftGuide input[type="radio"]{
+    vertical-align: bottom !important;
+ }
+
+
+/*
+@media only screen and (max-width: 767px) {
+	
+  #block-blockify-blockify-page-title{
+	width:100%;
+	padding-top: 20px;
+  }
+}
+*/

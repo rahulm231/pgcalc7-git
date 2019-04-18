@@ -1,0 +1,92 @@
+#pgc-wrap-main{
+	width:100%;
+}
+
+.pg-content-top{
+	margin-top:10px;
+}
+
+.region-menu #block-system-main-menu #main-menu{
+	display:block;
+}
+
+#pgc-region-sidebar {
+    float: left;
+    width: 20%;
+}
+
+#pgc-region-main {
+    float: right;
+    width: 75%;
+}
+
+#block-blockify-blockify-page-title h1{
+	color:#00678F !important;
+}
+
+.pg-page-btns{
+	margin-bottom:10px;	
+}
+
+#pgc-banner img{
+	width:100%;
+	height:auto;
+}
+
+.image:hover img {
+    -webkit-transform: scale(1) rotate(0deg);
+    -moz-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	padding:0px;
+	width: 100% !important;
+    height: 62px !important;
+}
+
+#block-pgc-slideshow-block-pgc-slideshow-block + #block-pgc-misc-blocks-mobilenav {
+    top: -80px;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: 0px;
+    top: -15px;
+    position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn{
+	padding:0px;
+}
+
+#block-pgc-misc-blocks-mobilenav .control-container .control{
+	width: 45px !important;
+    height: 45px !important;
+    top: 6px;
+}
+
+
+@media only screen and (max-device-width: 768px) {
+	#pgc-region-sidebar{
+		display:none;
+	}
+	#pgc-region-main {
+	    float: none;
+	    width: 100%;
+	}
+	.subnav-mobile-mask ul#main-menu{
+		display:block;
+	}
+}
+
+@media only screen and (max-width: 567px) {
+	
+  .pg-content-inline-blocks{
+  	float:none;
+  	margin-left:0;
+  }
+}

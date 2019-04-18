@@ -1,0 +1,1338 @@
+@import url(/sites/all/themes/cooper/css/fonts.css);
+
+#giftCompare .gc-btn {
+	width: 100%;
+}
+
+#giftGuide .error {
+    display: block;
+    padding: 0px;
+	  margin: 0px;
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+	content: "\f0c9";
+	font-family: "FontAwesome";
+	left: -18px;
+	top: -5px;
+	position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+  background-color: rgba(0,173,238,0.8) !important;
+  margin-top: -44px !important;
+  padding: 0px !important;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn {
+  padding: 0px 0px 0px 0px !important;
+  margin:8px 10px 0px 0px !important;
+  background: #333333 url("/sites/all/themes/cooper/cssAssets/close-btn.svg") no-repeat !important;
+}
+
+#block-pgc-slideshow-block-pgc-slideshow-block + #block-pgc-misc-blocks-mobilenav {
+    top: 0px !important;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+    margin-top: -128px !important;
+}
+
+#block-pgc-misc-blocks-mobilenav .control-container .control {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+#block-pgc-misc-blocks-mobilenav {
+    margin-bottom: -40px !important;
+}
+
+#block-system-main-menu h2 a {
+  color: #ed1c24 !important;
+	background: #fff !important;
+	font-size: .5em !important;
+	margin-top: -20px !important;
+}
+
+#block-system-main-menu h2 a:hover {
+  color: #00adee !important;
+}
+
+#pgc_resource_block:hover {
+	background: #000000 !important;
+}
+/*
+#pgc_resource_block a:hover {
+	color: #00adee !important;
+}
+
+#pgc_resource_block span:hover {
+	color: #00adee !important;
+}
+*/
+.pg-wrap h1 {
+	margin-left:20px;
+	margin-bottom: -20px !important;
+}
+
+.pg-how-gift-helps-item {
+	width: 25% !important;
+}
+
+.pg-content-body {
+    margin-top: -15px !important;
+}
+
+.pg-wrap h2 {
+    margin-top: -5px !important;
+}
+
+.pg-content-body {
+}
+
+.child-page.first {
+    padding-top: 0px!important;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+	padding-left:20px!important;
+}
+
+#ContentMiddle table {table-layout:fixed;width:100%;}
+#ContentMiddle .RadEditor table.reLayoutWrapper {table-layout:auto;}/* fixes layout edit window for events */
+/******************************************/
+/* find image size */
+.findImgSize {border:1px solid #fff;position:absolute;top:0;right:0;background-color:#00adee;color:#fff;display:inline-block;font-size:1em;padding:3px 4px;font-style:italic;z-index:999;cursor:pointer}
+.imodImgSize {position:relative;}
+.imodImgWrap {position:relative;display:inline-block;max-width:100%;}
+
+/***********************************************************************************************************************************/
+/* Appstyles.css overwrite */
+/***********************************************************************************************************************************/
+.idbmsBreadcrumbSeparator {
+	color: #ed1c24;
+}
+.expand img {
+	background-color: #ed1c24!important;
+}
+.expand {
+	background-color: #ed1c24!important;
+}
+.Error, .error {
+	width: auto!important
+}
+.structWrapper img[src="/images/spacer.gif"] {
+	display: none;
+}
+img[title="Add to calendar"] {
+	display: none;
+}
+#PageTitle, .PageTitleHeader {
+	display: none;
+}
+#structWrapper img[src="/images/spacer.gif"] {
+	display: none;
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+*zoom: 1;
+}
+/* -------------------------------------------------------------------------- */
+/* Site Styles
+/* -------------------------------------------------------------------------- */
+	
+
+h1, h2, h3, h4, h5, h6, .PageTitleHeader, .PageSubTitleHeader {
+	/*font-weight:bold;*/
+	margin: 0;
+	padding: 0 0 .5em 0;/* 10px */
+	font-family: "FoundryGridnikReg", Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-size: 3em;/* 28px */
+	line-height: 1.111;/* 32px */
+	color: #000;
+	font-weight:normal;
+}
+h2, .PageSubTitleHeader {
+	font-size: 1.5em;/* 24px */
+	line-height: 1.1666;/* 28px */
+	color: #000;
+}
+h3 {
+	font-size: 1.125em;/* 18px */
+	line-height: 1.1111;/* 20px */
+	color: #000;
+}
+h4 {
+	font-size: 1em;/* 16px */
+	line-height: 1.125;/* 18px */
+	color: #000;
+}
+h5 {
+	font-size: .875em;/* 14px */
+	line-height: 1.14;/* 16px */
+	color: #000;
+	font-weight: bold;
+}
+h6 {
+	font-size: .75em;/* 12px */
+	line-height: 1.1666;/* 14px */
+	font-weight: bold;
+	color: #000;
+}
+/* conversion for line-height from pixels to ems
+	TARGET(PX) / ACTUAL(font-size in PX) = LINE-HEIGHT (which is relative) 
+	*/
+
+
+/* Hide slide nav from desktop and tablet */
+#nav {
+	display: none;
+}
+#nav li.topNav {
+	display: none;
+}
+/* -------------------------------------------------------------------------- */
+/* Custom Styling and Classes
+/* -------------------------------------------------------------------------- */
+
+.boxSizing {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;/* Firefox, other Gecko */
+	box-sizing: border-box;/* IE 8+ */
+}
+.imodMobile,  .menuMobile {
+	display: none;
+}
+a {
+	text-decoration: none;
+	color: #ed1c24;
+}
+a:hover {
+	color:#00adee;
+}
+a img[title="Add to Outlook"] {
+	display: none;
+}
+/* go to top */
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(222,66,73,0.3);
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+	z-index: 999999;
+}
+.go-top:hover {
+	background-color: rgba(222,66,73,0.6);
+	text-decoration: none;
+}
+
+.giveNowBtnSm {display:inline-block;background:url(/sites/all/themes/cooper/cssAssets/btn-bg-small.gif) repeat-x top left;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;behavior: url(/sites/all/themes/cooper/cssAssets/577e8f72294ea.htc);color:#fff;text-transform:uppercase;font-family:"FoundryGridnikBold", Arial, Helvetica, Sans-serif;}
+.giveNowBtnSm span{padding:0 15px 0 43px;background:url(/sites/all/themes/cooper/cssAssets/btn-logo.png) no-repeat 7% 12%;background-size:15%;display:block;height:30px;line-height:33px;text-shadow: 1px 1px 2px rgba(1, 107, 148, 1);}
+.giveNowBtnSm:hover {background:#fff;text-decoration:none;color:#00adee;}
+.giveNowBtnSm span:hover {text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);background:url(/sites/all/themes/cooper/cssAssets/btn-logo-hover.png) no-repeat 7% 12%;background-size:15%;}
+
+.giveNowBtnLarge {display:inline-block;background:url(/sites/all/themes/cooper/cssAssets/btn-bg-large.gif) repeat-x top left;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;behavior: url(/sites/all/themes/cooper/cssAssets/577e8f72294ea.htc);color:#fff;text-transform:uppercase;font-family:"FoundryGridnikBold", Arial, Helvetica, Sans-serif;}
+.giveNowBtnLarge span{padding:0px 18px 0px 66px;background:url(/sites/all/themes/cooper/cssAssets/btn-logo.png) no-repeat 10%;display:block;height:68px;line-height:3em;font-size:1.5em;}
+.giveNowBtnLarge:hover {background:#fff;text-decoration:none;color:#00adee;}
+.giveNowBtnLarge span:hover {background:url(/sites/all/themes/cooper/cssAssets/btn-logo-hover.png) no-repeat 10%;}
+
+.shadow {-webkit-box-shadow: #888 0 2px .25em;-moz-box-shadow: #888 0 2px .25em;box-shadow: #888 0 2px .25em;behavior: url(/sites/all/themes/cooper/cssAssets/577e8f72294ea.htc);}
+
+.foundryFontReg {font-family: 'FoundryGridnikReg', Fallback, sans-serif;}
+
+.hideItem {display:none;}
+
+/* text resizer */
+/**********************************
+	Text Resizer Buttons
+ **********************************/
+#textsizer{background-color:#000;display:inline-block;position:absolute;bottom:0px;right:0;height:30px;padding:0px 8px;}
+#textsizer p {display: inline;color:#fff;font-size:.875em;margin-right:5px;}
+ul.textresizer {list-style: none;display: inline;margin: 0px;padding: 0px;}
+ul.textresizer li {display: inline;margin: 0px;padding: 0px;}
+ul.textresizer a {padding:0;text-decoration: none;color:#c1c1c1;}
+ul.textresizer a:hover{text-decoration:underline;}
+ul.textresizer .small-text{font-size: .75em;}
+ul.textresizer .medium-text{font-size: .875em;}
+ul.textresizer .large-text{font-size: 1em;}
+ul.textresizer .larger-text{font-size: 1.25em;}
+
+/* Style of active button */
+ul.textresizer a.textresizer-active {color: #fff;}
+/* End of Text Resizer Buttons */
+/* -------------------------------------------------------------------------- */
+/* wrappers */
+/* -------------------------------------------------------------------------- */
+body {
+	font-family: "TradeGothicNextReg", Arial, Helvetica, sans-serif;
+	/*background-color:#fff;*/
+	color: #3a3a3a;
+	/* other styles are set through base.css */
+	font-size: 1em;
+	line-height: 1.5;
+	
+}
+body.interior #ContentMiddle{
+	line-height: 1.8;
+}
+/*textarea,  input,  select {
+	font-family: Arial, Helvetica, sans-serif!important;
+}*/
+.structWrapper {background: url(/sites/all/themes/cooper/cssAssets/bg-home.jpg) no-repeat top center; background-attachment:fixed!important;background-size:100%!important;}
+.structWrapper.bg0 {background: url(/sites/all/themes/cooper/cssAssets/bg7.jpg) no-repeat top center}
+.structWrapper.bg1 {background: url(/sites/all/themes/cooper/cssAssets/bg8.jpg) no-repeat top center;}
+.structWrapper.bg2 {background: url(/sites/all/themes/cooper/cssAssets/bg9.jpg) no-repeat top center;}
+.structWrapper.bg3 {background: url(/sites/all/themes/cooper/cssAssets/bg10.jpg) no-repeat top center;}
+.structWrapper.bg4 {background: url(/sites/all/themes/cooper/cssAssets/bg1.jpg) no-repeat top center;}
+.structWrapper.bg5 {background: url(/sites/all/themes/cooper/cssAssets/bg2.jpg) no-repeat top center;}
+.structWrapper.bg6 {background: url(/sites/all/themes/cooper/cssAssets/bg3.jpg) no-repeat top center;}
+.structWrapper.bg7 {background: url(/sites/all/themes/cooper/cssAssets/bg4.jpg) no-repeat top center;}
+.structWrapper.bg8 {background: url(/sites/all/themes/cooper/cssAssets/bg5.jpg) no-repeat top center;}
+.structWrapper.bg9 {background: url(/sites/all/themes/cooper/cssAssets/bg6.jpg) no-repeat top center;}
+.structWrapper.bg10 {background: url(/sites/all/themes/cooper/cssAssets/bg11.jpg) no-repeat top center;}
+.structWrapper.bg11 {background: url(/sites/all/themes/cooper/cssAssets/bg12.jpg) no-repeat top center;}
+.structWrapper.bg12 {background: url(/sites/all/themes/cooper/cssAssets/bg13.jpg) no-repeat top center;}
+.structWrapper.bg13 {background: url(/sites/all/themes/cooper/cssAssets/bg14.jpg) no-repeat top center;}
+.structWrapper.bg14 {background: url(/sites/all/themes/cooper/cssAssets/bg15.jpg) no-repeat top center;}
+.structWrapper.bg15 {background: url(/sites/all/themes/cooper/cssAssets/bg17.jpg) no-repeat top center;}
+/*.structWrapper.bg16 {background: url(/sites/all/themes/cooper/cssAssets/bg16.jpg) no-repeat top center;}*/
+
+.headerContent {background-color:#fff;text-align:center;width:100%;}
+.structNavWrapper {text-align: center;width:100%;}
+.structMidWrapper {}
+.structWideWrapper {background-color:#fff;min-height:500px;}
+.structFooterWrapper {background:url(/sites/all/themes/cooper/cssAssets/trans-nav.png) repeat top left;}
+
+
+/* -------------------------------------------------------------------------- */
+/* Header */
+
+/* SEARCH */
+	/************************************/
+.headerContent .structTopNavWrapper {
+	position: relative;
+}
+.headerContent .structTopToolsWrapper .giveNowBtnSm{float:right;}
+.headerContent .searchBtn {
+	float: right;clear:right;
+}
+.headerContent #ContentSearch {
+	clear:right;
+	float:right;
+	width: 180px;
+	height: 30px;
+	text-align: left;
+	background-color:#747474;
+	
+	margin-left:12px;
+	position: relative;
+	-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
+	-webkit-box-shadow: #888 0 2px .25em;-moz-box-shadow: #888 0 2px .25em;box-shadow: #888 0 2px .25em;behavior: url(/sites/all/themes/cooper/cssAssets/577e8f72294ea.htc);
+}
+.headerContent #ContentSearch.showSearch {
+	display: block;
+}
+
+.headerContent input.searchbx {
+	width: 80%;
+	background-color: #747474;
+	border: 1px solid #747474!important;
+	color: #ccc!important;
+	margin-left: 5px;
+	font-size: 13px;
+	margin-top: 3px;
+	height: 20px;
+	text-transform: uppercase;
+	font-family: "TradeGothicNextBold", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.headerContent #ContentSearch img[align="absbottom"] {
+	position: absolute;
+	top: 6px;
+	right: 4px;
+}
+.headerContent #ContentSearch span.SearchModuleSpacer {
+	padding: 0px;
+	*padding:0px;
+}
+/* MEMBER TOOLS*/
+	/******************************************************/
+#ContentMemberTools {
+	float: right;padding-top:17px;
+}
+#ContentMemberTools ul {
+	margin: 0;
+	padding: 0;
+}
+#ContentMemberTools li {
+	list-style-type: none;
+	float: left;
+}
+#ContentMemberTools li a {
+	display: block;
+	text-decoration: none;
+	padding: 0;
+	padding: 0px 12px;
+	color: #878686;
+	line-height: 40px;
+	font-size: 12px;
+}
+#ContentMemberTools li a:hover {
+	text-decoration: none;
+	color:#ed1c24;
+}
+#ContentMemberTools li.last a {
+	background: none;
+}
+/* LOGO */
+	/************************************/
+.headerContent .logo {
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+/* BODY CONTENT 
+	******************************************************/
+
+
+	/* ====================================================================== */
+	/* BLUE NEWS WRAPPER */
+	/* ====================================================================== */	
+	.newsImpactWrap {padding:2.5em 0;}
+	.newsImpactWrap .newsWrapper {position:relative;width:30.5%;}	
+	.newsImpactWrap .newsWrapper .imodLink {}
+	.newsImpactWrap .newsWrapper .imodLink a {color:#000;display:inline-block;line-height: 1.25em;padding:10px;font-family:"FoundryGridnikBold", Arial, Helvetica, Sans-serif;}
+	.newsImpactWrap .newsWrapper .imodLink a:hover {text-decoration: none;color:#ed1c24;}
+	.newsImpactWrap .newsWrapper .moreLink {float:right;padding:1.5em 0 0 0;line-height: 1.5em;}
+	.newsImpactWrap .newsWrapper .imodPreview {padding:0 10px;font-size: 13px; color: #7f7f7f;}
+.newsImpactWrap .newsWrapper.addHover .imodLink a {color:#f03e45;}
+
+
+	.newsImpactWrap .impactText h3 {color:#878686;line-height:1.5em;margin-top:2em;padding-bottom:1.45em;}
+
+	/* ====================================================================== */
+	/* EVENTS WRAPPER */
+	/* ====================================================================== */
+	.tabNav {}
+	.tabNav ul{margin:0;padding:0;}
+	.tabNav li {list-style-type:none;float:left;width:50%;}
+	.tabNav li.width33{width:33.33%;}
+	.tabNav li.width25{width:25%;}
+	.tabNav li.width20{width:20%;}
+	.tabNav li a {
+		display:block;
+		font-family:"FoundryGridnikBold", Arial, Helvetica, Sans-serif;
+		background:url(/sites/all/themes/cooper/cssAssets/btn-tab.gif) repeat;
+		color:#fff;
+		height:52px;
+		font-size:1.25em;
+		text-transform:uppercase;
+		line-height:52px;
+		text-align:center;
+		-webkit-box-shadow: #888 0 2px .25em;
+		-moz-box-shadow: #888 0 2px .25em;
+		box-shadow: #888 0 2px .25em;
+		behavior: url(/sites/all/themes/cooper/cssAssets/577e8f72294ea.htc);
+	}
+	.tabNav li.active a {background:url(/sites/all/themes/cooper/cssAssets/large-btn-bg.gif) repeat;}
+	.tabNav li a:hover{text-decoration:none;background:#fff;color:#00adee;}
+	.tabNav {}
+
+
+/******************************/	
+	/* tabs event pattern */
+/******************************/
+	.eventWrapper {border-bottom:3px double #f0f0f0;padding:1.75em 0;}	
+	.eventWrapper .imodDateBlock {
+		clear:both;
+		width:15%;
+		padding:1.125em 0;
+		float:right;
+		background-color:#777776;
+		text-align:center;
+		text-transform:uppercase;
+		color:#ffce01;
+		}
+	.eventWrapper .imodDateBlock .imodDateMonthAbrev a {color:#ffce01;}
+	.eventWrapper .imodDateBlock .imodDateMonthAbrev {
+		display:block;
+		font-size:1.25em;
+		
+		line-height:1.125em;
+		padding:0;	
+		}
+	.eventWrapper .imodDateBlock .imodDateDayAbrev {
+		display:block;
+		font-size:2em;
+		line-height:1.125em;
+		font-weight:bold;
+		
+		}
+	.eventWrapper .imodDateBlock .imodDateDayAbrev a {color:#ffce01;}
+	.eventWrapper .imodTitleBlock {
+		float:left;
+		text-align:left;
+		margin-left:5%;
+		width:60%;
+		}
+	.eventWrapper .imodTitleBlock .imodTools {}
+	.eventWrapper .imodTitleBlock .imodLink {
+		font-size:1.25em;
+        font-weight:bold;
+		font-family:"FoundryGridnikReg", Arial, Helvetica, Sans-serif;
+	}
+	.eventWrapper .imodTitleBlock .imodLink a{
+		display:block;
+		text-decoration:none;
+		color:#000;
+		font-family:"FoundryGridnikReg", Arial, Helvetica, Sans-serif;
+	}
+	.eventWrapper .imodTitleBlock .imodLink a:hover {
+		color:#ed1c24;
+	}
+	.eventWrapper .imodPreview {
+		display:block;
+		font-size:.8125em;
+		color:#7f7f7f;
+	}
+	.eventWrapper .imodTime {display:none;}
+	.eventWrapper .thumbWrapper {float:left;}
+	
+/******************************/	
+	/* tabs news pattern */
+/******************************/
+	.newsTabWrapper {border-bottom:3px double #f0f0f0;padding:1.75em 0;}	
+	.newsTabWrapper .thumbWrapper {float:left;}
+	.newsTabWrapper .imodTitleBlock {
+		float:left;
+		text-align:left;
+		margin-left:5%;
+		width:75%;
+		}
+	.newsTabWrapper .imodTitleBlock .imodLink {
+		font-size:1.25em;
+        font-weight:bold;
+		font-family:"FoundryGridnikReg", Arial, Helvetica, Sans-serif;
+	}
+	.newsTabWrapper .imodTitleBlock .imodLink a{
+		display:block;
+		text-decoration:none;
+		color:#000;
+		font-family:"FoundryGridnikReg", Arial, Helvetica, Sans-serif;
+	}
+	.newsTabWrapper .imodTitleBlock .imodLink a:hover {
+		color:#ed1c24;
+	}
+	.newsTabWrapper .imodPreview {
+		display:block;
+		font-size:.8125em;
+		color:#7f7f7f;
+	}
+	
+	/* Internal Featured News Pattern */
+	.newsWrapperInternalRow {clear:both;float:left;padding-bottom:20px; width:100%;}
+	.newsWrapperInternal {float:left; width:33%; padding:0 10px;}
+	.newsWrapperInternal:last-child {padding-right:0; padding-left:20px;}
+	.newsWrapperInternal:first-child {padding-left:0; padding-right:20px;}
+	.newsWrapperInternal .imodLink a {color:#000;display:inline-block;line-height: 1.25em;padding:0;font-family:"FoundryGridnikBold", Arial, Helvetica, Sans-serif;}
+	.newsWrapperInternal .imodLink a:hover {text-decoration: none;color:#ed1c24;}
+	.newsWrapperInternal .imodPreview {padding:0 10px;font-size: .813em; color: #7f7f7f;}
+	.newsWrapperInternal .imodLink {color:#000;display:inline-block;line-height: 1.25em;padding:10px;font-family:"FoundryGridnikBold", Arial, Helvetica, Sans-serif;}
+	.innervidwrap:hover .imodLink {text-decoration: none;color:#ed1c24;}
+	.innervidwrap {cursor:pointer;}
+	.newsWrapperInternal.addHover .imodLink a {color:#f03e45;}
+	
+	
+/* modal window pattern */
+.videoitem {clear:both;border-bottom: 3px double #f0f0f0; padding: 1.75em 0;}
+
+.videoitem .thumb{width:15%;text-align:center;float:left;}
+.videoitem .title{display:block;text-decoration:none;color:#000;font-size:1.25em;font-weight:bold;font-family:"FoundryGridnikReg", Arial, Helvetica, Sans-serif;}
+.videoitem a.abovelink .title:hover {color:#ed1c24;}
+	
+.videoitem .text {float:left;text-align:left;margin-left:5%;width:75%;}
+.videoitem .text .title a:hover {color:#ed1c24;}
+.videoitem .text .preview {color:#7f7f7f;font-size:.813em;}
+.videoitem .text .preview span {width:100%;}
+.videoitem .abovelink {cursor:pointer;}
+
+	/* tab content */
+.tab_content table {max-width:100%;}
+.tab_content .imodMore{
+		width:100%;
+		clear:both;
+		color:#ed1c24;
+		text-align:center;
+		display:block;
+		background: #f2f2f2;
+		font-size:.875em;
+		padding:1em 0;
+		margin-bottom:1em;
+		font-family:"FoundryGridnikReg", Arial, Helvetica, Sans-serif;
+	}
+	.tab_content .imodMore:hover {text-decoration:none;color:#00adee;}
+
+
+/* Modal Class Notes */
+.modalGallery .thumbWrapper {position: relative;}
+.modalGallery .thumbWrapper .videoPlayBtn {
+   position: absolute;
+   bottom: 0px;
+   right: 10px;
+   color: #fff;
+   font-size: 35px;
+   text-align: center;
+   line-height: 50px;
+   opacity: 0.85;
+   text-shadow: 0px 0px 6px #666;
+   cursor: pointer;
+   z-index: 100;
+   display: none;
+}
+
+.modal-dialog {background: none;}
+.modal-header {padding: 15px 20px 0 0;border-bottom: 1px solid #e5e5e5;margin: 0 20px 20px;}
+.modal-title {font-size: 1.5em;}
+
+.classnoteCategory .classnoteOption {padding: 0 15px 15px 0;width: 30%;float: left;}
+.classnoteCategory .classnoteOption select.ndJumpMenu {
+    border: 1px solid #dcdcdc;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    behavior: url(/sites/all/themes/cooper/cssAssets/577e8f72294ea.htc);
+    background: #fff url("/sites/all/themes/cooper/cssAssets/ee396d3bc454b9db03b4346d2d3bf8e3.jpg") right no-repeat;
+    background-position: ;
+    width: 100%;
+    text-indent: 0.01px;
+    text-overflow: "";
+    display: block;
+    padding: 10px;
+    color: #555555;
+}
+
+	/* form content */
+/* select{width:110px;}*/
+ #rg_gfid_922_BillingInformationASCX_BilliingInformation_ctl00_ctl00_BillingInformationWrapper_ctl00_ctl00_trPaymentInfo_ctl00_ctl00_ctl00_ctl00_ctl00_ctl00_ctl00_ctl00_tblCCInfo_ctl00_ctl00_trCCExpirationDate_ctl00_ctl00_tdCCExpirationDate {padding-bottom:22px;}
+ #rg_gfid_922_BillingInformationASCX_BilliingInformation_ctl00_ctl00_BillingInformationWrapper_ctl00_ctl00_trPaymentInfo_ctl00_ctl00_ctl00_ctl00_ctl00_ctl00_ctl00_ctl00_tblCCInfo_ctl00_ctl00_trCCExpirationDate_ctl00_ctl00_tdCCExpirationDate2 > select{width:49%;}
+
+	
+
+	/* -------------------------------------------------------------------------- */
+	/* FOOTER */
+	/* -------------------------------------------------------------------------- */
+	.structFooterWrapper {text-align: center;padding:44px 0 64px 0;}
+	.mainFootWrapper {
+		padding: 0;
+	}
+  .structFooterWrapper a:hover {color:#ed1c24;}
+.structFooterWrapper .giveNowButton a:hover{color:#26baf1;}
+
+	/*Footer Nav*/
+	#ContentFooterNav ul {
+		margin: 0;
+		padding: 0;
+	}
+	#ContentFooterNav li {
+		list-style-type: none;
+		display:inline-block;
+		padding:;
+		color:#898989;
+	}
+	#ContentFooterNav li a {
+		padding: 0;
+		color:#fff;
+		font-size:.75em;
+		font-family:"FoundryGridnikReg", Arial, Helvetica, Sans-serif;
+	}
+
+	#ContentFooterNav li#TemplateExamples {display:none;}
+	#ContentFooterNav li span:first-child {padding-right:0;}
+	#ContentFooterNav li a:hover {color:#ed1c24;text-decoration: none;}
+	#ContentFooterNav li.last span {display:none;}
+
+	/* footer text */
+	.footerText {margin:0 auto;color:#a1a1a1;font-size:.75em;padding:24px 0 42px 0;font-family:"FoundryGridnikReg", Arial, Helvetica, Sans-serif;}
+	.footerText a {color:#a1a1a1}
+
+	/* footer social */
+	.socialNav .giveNowButton {margin-bottom:2.5em;}
+	.socialNav a span.fa {color:#fff;font-size:1.633em;padding: 0 .25em;}
+	.socialNav a:hover span.fa {color:#ed1c24;}
+
+
+/* -------------------------------------------------------------------------- */
+/* TEMPLATES */
+/* -------------------------------------------------------------------------- */
+
+	/* ====================================================================== */
+	/* INTERIOR */
+	/* ====================================================================== */
+	.interior .structMidWrapper {padding:3em 0;text-align: center;}
+	.structColumnOne {}
+	.structColumnTwo {background-color:#fff;padding:1.75em;min-height:400px;height:auto!important;height:400px;position:relative;text-align:left;}
+	.interior #ContentMiddle {/*padding-right:23%;*/}
+   .leftColB {text-align:center;margin-top:1em;}
+
+   /* ====================================================================== */
+	/* PAGE NAME */
+	/* ====================================================================== */
+	h1#ContentpageName {
+		/*padding-bottom: 30px;*/
+		text-transform:uppercase;
+	}
+	#imodDefault {
+		clear: both;
+	}
+	
+	
+/* -------------------------------------------------------------------------- */
+/* NAVIGATION */
+/* -------------------------------------------------------------------------- */
+	
+	/* LEFT NAV
+	*****************************************/
+
+#ContentLeftNav {padding-bottom:1px;}
+#ContentLeftNav li {
+	display: none;
+}
+#ContentLeftNav li.selected {
+	display: block;
+}
+#ContentLeftNav li.selected li,  #ContentLeftNav li.selected li li {
+	display: block;
+}
+#ContentLeftNav li a:hover {text-decoration:none!important;}
+
+#ContentLeftNav ul#nav2 {
+	margin: 0;
+	padding: 0 0px;
+}
+#ContentLeftNav ul#nav2 li {
+	list-style-type: none;
+}
+#ContentLeftNav > ul#nav2 > li > a {
+	position: relative;
+	border: none;
+	display: block;
+	padding: 18px;
+	color: #fff;
+	background-color: #000;
+	text-transform:uppercase;
+	font-family:"FoundryGridnikBold", Arial, Helvetica, Sans-serif;
+	font-size:.938em;
+	text-align:left;
+}
+#ContentLeftNav ul#nav2 li a:hover {
+	text-decoration: none;
+}
+#ContentLeftNav ul#nav3 {
+	margin: 0;
+	padding: 1.5em 0;
+	background-color: #fff;
+}
+#ContentLeftNav ul#nav3 li {
+	list-style-type: none;
+}
+#ContentLeftNav ul#nav3 li a {
+	position: relative;
+	display: block;
+	text-decoration: none;
+	padding: 4px 15px;
+	background-color: transparent;
+	text-align: left;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	font-weight: normal;
+	font-size:.813em;
+	color:#878686;
+}
+#ContentLeftNav ul#nav3 > li > a {font-family: "TradeGothicNextBold", Arial, Helvetica, Sans-serif ;color:#333;}
+#ContentLeftNav ul#nav3 li a:hover {
+
+}
+/* second level selected state */
+#ContentLeftNav ul#nav3 > li.selected > a {color:#ed1c24;}
+#ContentLeftNav ul#nav3 > li.selected > a:hover {color:#00adee;}
+
+#ContentLeftNav ul#nav3 li:first-child a {border: none;}
+#ContentLeftNav ul#nav3 li a:hover {color:#ed1c24;}
+
+#ContentLeftNav ul#nav4 {
+	margin: 0px;
+	padding: 0px 0 0 25px;
+}
+#ContentLeftNav ul#nav4 li {
+	list-style-type: none;
+}
+#ContentLeftNav ul#nav4 li a {
+	padding: 4px 10px;
+	font-weight: normal;
+}
+#ContentLeftNav ul#nav4 li a:hover {
+	text-decoration: underline;
+}
+
+/* Third level selected state */
+#ContentLeftNav ul#nav3 li.selected ul#nav4 li a {color: #878686;}
+#ContentLeftNav ul#nav3 li.selected ul#nav4 li a:hover {color:#ed1c24;}
+#ContentLeftNav ul#nav3 ul#nav4 li.selected a {color: #ed1c24!important;}
+#ContentLeftNav ul#nav3 ul#nav4 li.selected a:hover {color:#00adee!important;;}
+
+/* Fourth Level */
+#ContentLeftNav ul#nav4 li.selected ul#nav5 {
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid #fff;
+}
+#ContentLeftNav ul#nav4 li.selected ul#nav5 li {
+	border: none;
+}
+#ContentLeftNav ul#nav4 li.selected ul#nav5 li a {
+	padding: 4px 10px 4px 50px!important;
+	font-weight: normal;
+	color:#878686!important;
+}
+#ContentLeftNav ul#nav4 li.selected ul#nav5 li.selected a {color: #ed1c24!important;}
+#ContentLeftNav ul#nav4 li.selected ul#nav5 li a:hover {color: #ed1c24!important;}
+#ContentLeftNav ul#nav4 li.selected ul#nav5 li.selected a:hover {color:#00adee!important;}
+/* BREADCRUMBS 
+	*****************************************/
+
+#ContentBreadCrumbs {
+	margin: 10px 0 0px 12px;
+}
+#ContentBreadCrumbs ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	float: left;
+}
+#ContentBreadCrumbs li {
+	padding: 0;
+	margin: 0;
+	float: left;
+	list-style-type: none;
+}
+#ContentBreadCrumbs li a {
+	text-decoration: none;
+	font-size: 12px;
+	padding: 23px 0px 11px 0px;
+	color: inherit;
+}
+#ContentBreadCrumbs li#bcFirst a {
+	color: inherit;
+	background: none;
+	padding-left: 0;
+}
+#ContentBreadCrumbs li span.fa-chevron-right {
+	color: inherit;
+	font-size: 10px;
+	padding: 0 10px
+}
+#ContentBreadCrumbs li.navselected a {
+	color: inherit;
+}
+#ContentBreadCrumbs li a:hover {
+	text-decoration: underline;
+}
+#ContentBreadCrumbs li.navselected a:hover {
+	text-decoration: none;
+}
+
+/* Main Nav */
+.structNavWrapper {background:url(/sites/all/themes/cooper/cssAssets/trans-nav.png) repeat left top;}
+
+#ContentToplinks {
+	z-index: 200;
+}
+
+
+/* TOP MAIN */
+
+.horizontal-nav {}
+
+.horizontal-nav ul {
+  float: left;
+  text-align: center;
+	margin:0;padding:0;
+}
+.horizontal-nav ul li {
+  float: left;
+  /*padding-left:20px;
+  padding-right:20px;*/
+  width:16.66667%;
+}
+.horizontal-nav ul li:first-child {
+  border-left: 0 none;
+}
+.horizontal-nav ul li a {
+	display: block;
+	position: relative;
+	color: #fff;
+	text-decoration:none;
+	font-size:16px;
+	color:#fff;
+	height:74px;
+	/*line-height:54px;*/
+	font-family:"FoundryGridnikReg", Arial, Helvetica, Sans-serif;
+	text-transform:uppercase;
+	float:left;
+	width:100%;
+	padding-left:20px;
+	padding-right:20px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;/* Firefox, other Gecko */
+	box-sizing: border-box;/* IE 8+ */
+}
+.horizontal-nav ul li:hover {background: #fff;color:#00adee;}
+.horizontal-nav ul li a:hover {color:#00adee;}
+.horizontal-nav li.hideFromMainNav {display: none!important;}
+.horizontal-nav li a span {display:block;line-height:20px;}
+.horizontal-nav li a span:first-of-type {padding-top:1.125em;}
+.horizontal-nav li.alignMid a {}
+.horizontal-nav li.alignMid a span {display:block;float:left;text-align:center;width:100%;margin-top:.633em;}
+.horizontal-nav li#TheCaseForCooper {padding:0 10px;}
+.horizontal-nav li.doubleTxt a {padding-top:19px; line-height:1.25em;}
+
+/* IE 7 keeps menus static
+	****************************************/
+#ContentToplinks li:hover, #ContentToplinks li.hover {
+	position: static;
+}
+/* Second Level Groups */
+#ContentToplinks li ul li.last a {font-weight:normal;}
+#ContentToplinks li ul {
+	display:none;
+	z-index:999;
+	position: absolute;
+	left: -999999px;
+	margin:0px 0 0 0;
+	float:none;
+	width:150px;
+	border:none;
+	background:#2a4d37 url(/sites/all/themes/cooper/cssAssets/int-dd-bg.gif) repeat-x top left;
+	padding:15px;
+    
+
+}
+#ContentToplinks li li {
+	width: auto;
+	margin:0px;
+}
+#ContentToplinks li li a {
+	text-align:left;
+	padding:6px 0px!important;
+	width:150px;
+
+	font-weight:normal;
+	color:#fff!important;
+	font-size:14px;
+	text-transform:none;
+	border-top:1px solid #7a9a86;
+	background:transparent!important;
+	letter-spacing:0px;
+	height:auto!important;
+	line-height:18px;
+}
+#ContentToplinks li li.first a {border:none;}
+#ContentToplinks li li a:hover, #ContentToplinks li li.sfHover a {
+	
+	font-style:italic;
+	padding-left:10px!important;
+	width:140px;
+  background-color:#4e6555!important;
+}
+#ContentToplinks li.last ul {/*position:absolute;right:0px;*/
+}
+/* Third Level Groups */
+#ContentToplinks li li li.last a {font-weight:normal;}
+#ContentToplinks li li ul {
+	margin:-34px 0 0 150px;
+    padding:5px 10px;
+	border:1px solid #2a4d37;
+}
+/* The Magic */
+#ContentToplinks li:hover ul ul, #ContentToplinks li:hover ul ul ul, #ContentToplinks li.sfhover ul ul, #ContentToplinks li.sfhover ul ul ul {
+	left: -999em;
+}
+#ContentToplinks li:hover ul, #ContentToplinks li li:hover ul, #ContentToplinks li li li:hover ul, #ContentToplinks li.sfhover ul, #ContentToplinks li li.sfhover ul, #ContentToplinks li li li.sfhover ul {
+	left: auto;
+}
+
+/* Three Column */
+/**********************************/
+
+
+/* -------------------------------------------------------------------------- */
+/* Media Queries
+/* -------------------------------------------------------------------------- */
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/*#ContentToplinks li ul {
+	display: none;
+}*/
+}
+
+/* =============================================================================
+   768px Grid
+   ========================================================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 1001px) {
+.imodTablet {
+	display: block;
+}
+
+.horizontal-nav ul li a {font-size:14px!important;}
+	
+.giveNowBtnLarge span {
+	background: url("/sites/all/themes/cooper/cssAssets/btn-logo.png") no-repeat scroll 10% center rgba(0, 0, 0, 0);
+	display: block;
+	font-size: 1em;
+	height: 68px;
+	line-height: 4.25em;
+	padding: 0 18px 0 66px;
+}
+	.structWrapper {background-size:cover!important;}
+	
+	.horizontal-nav li.doubleTxt a {padding-top:20px;}
+	.horizontal-nav li a span:first-of-type {padding-top:20px;}
+	.horizontal-nav li#TheCaseForCooper {padding:0;}
+	.horizontal-nav li#TheCaseForCooper a {padding-left:15px; padding-right:15px;}
+/*-----------------------------------------------------------------------------------------*/
+/* Tablet Wrapper */
+/*-----------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------*/
+/* Tablet Header */
+/*-----------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+/* Tablet Footer */
+/*-----------------------------------------------------------------------------------------*/	
+	
+	
+/*-----------------------------------------------------------------------------------------*/
+/* Tablet Content */
+/*-----------------------------------------------------------------------------------------*/
+  
+
+  /*===========================================================================*/
+	/* mobile INTERIOR template */
+	/*===========================================================================*/
+
+
+		/* Internal Featured News Pattern */
+	.newsWrapperInternalWrap {width:100%;float:left;}
+	.newsWrapperInternalRow {clear:both;}
+	.newsWrapperInternal {float:left; width:33%;padding:0 10px;}
+
+  /*===========================================================================*/
+	/* mobile INTERIOR WIDE EVENT template */
+	/*===========================================================================*/
+
+
+
+}
+
+/* =============================================================================
+   Less than 768px / iPhone landscape / android portrait
+   ========================================================================== */
+   
+@media only screen and (max-width: 767px) {
+#nav {
+	display: block;
+}/* this is the slide out nav */
+.imodDesktop {
+	display: none!important;
+}/* hide items that don't belong on mobile */
+.imodTablet {
+	display: none!important;
+}
+#ContentSearch {
+	display: none;
+}
+.imodMobile {
+	display: block;
+}
+
+h1 {
+	font-size: 1.75em;
+	line-height: 1;
+}
+/* -----------------------------------------------------------------------------*/
+/* mobile wrappers */
+/*--------------------------------------------------------------------------------*/
+  .start .structMidWrapper {padding-bottom: 0;}
+	.interior .structMidWrapper {padding:0;background-color:#fff;}
+	.structMidWrapper .container .structColumnTwo{width:100%;}
+	.structWrapper {background-size:cover!important;background-position:top center;}
+	.interior #ContentMiddle {padding-right:0;}
+	
+/* -----------------------------------------------------------------------------*/
+/* mobile Search & Member Tools */
+/*------------------------------------------------------------------------------ */    
+
+#ContentMTMobileNav {
+	background-color: #444444;
+}
+
+	
+	
+#ContentSearchMobile {
+	position: absolute;
+	top: 35px;
+	left: 70px;
+	width: 62%;
+	margin-left:12px;
+	background-color: #747474;
+	-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;behavior: url(/sites/all/themes/cooper/cssAssets/577e8f72294ea.htc);
+}
+.headerContent #ContentSearch.showSearch {
+	display: block;
+}
+
+#ContentSearchMobile .searchbxMobile {
+	width: 70%;
+	background-color: #747474;
+	border: 1px solid #747474!important;
+	color: #333;
+	margin-left: 5px;
+	font-size: 11px;
+	margin-top: 0px;
+	height: 20px;
+}
+#ContentSearchMobile .searchbxMobile img[align="absbottom"] {
+	position: absolute;
+	top: 6px;
+	right: 4px;
+}
+/* -----------------------------------------------------------------------------*/
+/* mobile Header */
+/*------------------------------------------------------------------------------ */
+    
+/* mobile nav buttons */
+.mobileButtonsWrapper .nav-btn {
+	width: 100%;
+	display: block;
+	height: 40px;
+	background-color: #36353a;
+	color: #fff;
+	text-align: left;
+	line-height: 40px;
+	padding-left:5%;
+	font-family:"FoundryGridnikBold", Arial, Helvetica, Sans-serif;
+}
+.mobileButtonsWrapper .nav-btn span {
+	padding-right: 6px;
+}
+	.mobileButtonsWrapper .nav-btn:hover{background:#fff;text-decoration:none;color:#00adee;}
+	
+.mobileButtonsWrapper .giveNowBtnSmMobile {font-family:"FoundryGridnikBold", Arial, Helvetica, Sans-serif;text-align:left;display:block;height:40px;background:url(/sites/all/themes/cooper/cssAssets/btn-bg-large.gif) repeat-x top left;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;behavior: url(/sites/all/themes/cooper/cssAssets/577e8f72294ea.htc);color:#fff;text-transform:uppercase;line-height:42px;}
+.mobileButtonsWrapper .giveNowBtnSmMobile span{margin-left:5%;margin-right:7px;margin-top:7px;width:16px;height:25px;background:url(/sites/all/themes/cooper/cssAssets/btn-logo.png) no-repeat;background-size:100%;display:inline-block;float:left;text-shadow: 1px 1px 2px rgba(1, 107, 148, 1);}
+.mobileButtonsWrapper .giveNowBtnSmMobile:hover {background:#fff url(/sites/all/themes/cooper/cssAssets/btn-logo-hover.png) 16px 7px no-repeat;text-decoration:none;background-size:5%;color:#00adee;}
+
+.mobileButtonsWrapper .givingMobileBtn:hover,  .nav-btn:hover {
+	text-decoration: none;
+}
+.mobileButtonsWrapper .headerContent {
+	position: relative;
+}
+/* LOGO */
+	/************************************/
+.headerContent .logo {
+	text-align: center;
+}
+/* -----------------------------------------------------------------------------*/
+/* mobile footer */
+/* ---------------------------------------------------------------------------- */
+.structFooterWrapper {
+	
+}
+.structFooterWrapper .container {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto!important;
+}
+.structFooterWrapper .container #ContentFooter {
+	margin: 0 0 0 0;
+	text-align: center;
+	margin: 0 auto;
+	float: none;
+}
+
+/* -----------------------------------------------------------------------------*/
+/* mobile Content */
+/* -----------------------------------------------------------------------------*/
+
+
+	/* ====================================================================== */
+	/* BLUE NEWS WRAPPER */
+	/* ====================================================================== */	
+	.newsImpactWrap {/*padding:2.5em 0;*/padding:0;}
+	
+	.newsImpactWrap .newsWrapper {position:relative;padding:.5em 0;width:100%;}
+	
+	.newsImpactWrap .newsWrapper .thumbWrapper {float:left;width:100%;}
+	
+	.newsImpactWrap .newsWrapper .textLinkWrapper {float:right;width:100%;}
+	.newsImpactWrap .newsWrapper .textLinkWrapper .imodLink a {color:#000;font-size:1em;line-height: 1.125em;padding:0;font-family:"FoundryGridnikBold", Arial, Helvetica, Sans-serif;}
+	.newsImpactWrap .newsWrapper .textLinkWrapper .imodLink a:hover {text-decoration: none;color:#ed1c24;}
+	.newsImpactWrap .newsWrapper .textLinkWrapper .imodLink {/*height:165px;vertical-align: middle;display: table-cell;*/padding:10px;}
+	.newsImpactWrap .newsWrapper .textLinkWrapper .moreLink {float:right;padding:1.5em 0 0 0;line-height: 1.5em;}
+	.newsImpactWrap .newsWrapper .textLinkWrapper .imodPreview {display:none;}
+
+	.newsImpactWrap .impactText {text-align:center;margin-bottom:1.5em;}
+	.newsImpactWrap .impactText h3 span {display:inline-block;}
+	
+	/******************************/	
+	/* tab event pattern */
+/******************************/
+	.tabs {padding-top:1.25em;}
+	.eventWrapper {border-bottom:3px double #f0f0f0;padding:1.75em 0;}	
+	.eventWrapper .imodDateBlock {width:48%;float:left;}
+
+	.eventWrapper .imodTitleBlock {
+		float:right;
+		margin-left:0;
+		width:48%;
+		
+		}
+	.eventWrapper .imodTitleBlock .imodTools {}
+	.eventWrapper .imodTitleBlock .imodLink {
+		font-size:1em;line-height:1.125;
+		height:90px;vertical-align: middle;display: table-cell;
+	}
+	.eventWrapper .imodPreview {
+		display:none;
+	}
+	.eventWrapper .thumbWrapper {display:none;}
+	
+/******************************/	
+	/* tab news pattern */
+/******************************/
+	/* tab links */
+	.tabNav li.width33{width:100%;clear:both;}
+	.tabNav li.width25{width:100%;clear:both;}
+	.tabNav li.width20{width:100%;clear:both;}
+
+	.newsTabWrapper {border-bottom:3px double #f0f0f0;padding:1.75em 0;}	
+	.newsTabWrapper .thumbWrapper {float:left;text-align:center;width:48%}
+	.newsTabWrapper .imodTitleBlock {
+		float:right;
+		text-align:left;
+		margin-left:0;
+		width:48%;
+		
+		}
+	.newsTabWrapper .imodTitleBlock .imodLink {
+		font-size:1em;
+		line-height:1.125em;
+		font-family:"FoundryGridnikReg", Arial, Helvetica, Sans-serif;
+		height:90px;vertical-align: middle;display: table-cell;
+	}
+	.newsTabWrapper .imodTitleBlock .imodLink a{
+		display:block;
+		text-decoration:none;
+		color:#000;
+		font-family:"FoundryGridnikReg", Arial, Helvetica, Sans-serif;
+	}
+	.newsTabWrapper .imodPreview {
+		display:none;
+	}
+	.videoitem {}
+	.innervidwrap {}
+	.videoitem .thumb {width:48%;display:table-cell;}
+	.videoitem .text {margin:0;width:48%;margin-left:10px;display:table-cell;}
+	.videoitem .title {font-size: 1em;line-height: 1.125em;height:125px;vertical-align: middle;display: table-cell;}
+	.videoitem .preview {display:none;}
+	#tab2 .imodMore {width:100%;}
+	
+	/*===========================================================================*/
+	/* mobile nav */
+	/*===========================================================================*/
+
+	#ContentAdaptiveMobileNav li span:first-child {padding-right:5px;}	
+	#ContentAdaptiveMobileNav li.hideFromMainNav {display: none;}
+	
+	
+	/*===========================================================================*/
+	/* mobile INTERIOR WIDE EVENT template */
+	/*===========================================================================*/
+		/* Internal Featured News Pattern */
+	
+.newsWrapperInternal:first-child {
+    padding-left: 0;
+    padding-right: 0px;
+}
+	.newsWrapperInternal:last-child {
+    padding-left: 0px;
+    padding-right: 0;
+}
+	.newsWrapperInternal {
+    float: left;
+    padding: 0 0px;
+		width:100%;
+}
+
+}
+
+/* =============================================================================
+   480px / iphone landscape
+   ========================================================================== */
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+/*.structWrapper {background:url(/sites/all/themes/cooper/cssAssets/mobile-header.jpg) no-repeat;}*/
+}
+
+/* =============================================================================
+   Less than 480px / iphone portrait
+   ========================================================================== */
+@media only screen and (max-width: 479px) {
+/*---------------------------------------------------------------------------*/
+/* mobile 320 Header */
+/*---------------------------------------------------------------------------*/
+  
+/*---------------------------------------------------------------------------*/
+/* mobile 320 footer */
+/*---------------------------------------------------------------------------*/  
+  
+   
+   /*---------------------------------------------------------------------------*/
+/* mobile 320 Content elements */
+/*---------------------------------------------------------------------------*/ 
+  
+
+
+   
+   
+}
+
+/* =============================================================================
+   Retina Display 
+   ========================================================================== */
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+}

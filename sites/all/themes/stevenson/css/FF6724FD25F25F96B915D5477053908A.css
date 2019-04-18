@@ -1,0 +1,2402 @@
+
+h1 {
+	margin : 15px 0 10px;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 30px;
+	line-height : normal;
+	font-weight : normal;
+	color : #000;
+}
+h2 {
+	margin : 10px 0;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 22px;
+	line-height : normal;
+	font-weight : normal;
+	color : #004d43;
+}
+h3 {
+	margin : 10px 0;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 20px;
+	line-height : normal;
+	font-weight : normal;
+	color : #000;
+}
+h4 {
+	margin : 10px 0;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 18px;
+	line-height : normal;
+	font-weight : normal;
+	color : #004d43;
+}
+h5 {
+	margin : 10px 0;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 15px;
+	line-height : normal;
+	font-weight : bold;
+	color : #333;
+}
+h6 {
+	margin : 10px 0;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 14px;
+	line-height : normal;
+	font-weight : bold;
+	color : #000;
+}
+a {
+	color : #167fb0;
+	text-decoration : none;
+	transition : all 0.2s ease;
+}
+a:hover {
+	color : #043b62;
+}
+img {
+	border : 0;
+}
+.clear {
+	font-size : 0;
+	clear : both;
+	height : 0;
+}
+#alert_wrapper {
+	width : 100%;
+}
+body.js_enabled #alert_wrapper {
+	position : fixed;
+	top : 0;
+	max-height : 0;
+	transition : max-height 0.25s ease;
+	overflow-y : hidden;
+	z-index : 9999;
+}
+body.js_enabled #alert_wrapper.animate {
+	max-height : 9999px;
+}
+#alert_container {
+	color : #000;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 12px;
+	line-height : 14px;
+	background : #f8b600;
+	background : -moz-linear-gradient(top,  #d09900 0%, #f8b600 100%);
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d09900), color-stop(100%,#f8b600));
+	background : -webkit-linear-gradient(top,  #d09900 0%,#f8b600 100%);
+	background : -o-linear-gradient(top,  #d09900 0%,#f8b600 100%);
+	background : -ms-linear-gradient(top,  #d09900 0%,#f8b600 100%);
+	background : linear-gradient(to bottom,  #d09900 0%,#f8b600 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d09900', endColorstr='#f8b600',GradientType=0 );
+}
+#alert_container .inner {
+	position : relative;
+	padding : 10px 40px 10px 10px;
+	max-width : 974px;
+}
+#alert_wrapper.critical #alert_container {
+	color : #fff;
+	background : #f8b600;
+	background : #c80203;
+	background : -moz-linear-gradient(top,  #9c0e00 0%, #c80203 100%);
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9c0e00), color-stop(100%,#c80203));
+	background : -webkit-linear-gradient(top,  #9c0e00 0%,#c80203 100%);
+	background : -o-linear-gradient(top,  #9c0e00 0%,#c80203 100%);
+	background : -ms-linear-gradient(top,  #9c0e00 0%,#c80203 100%);
+	background : linear-gradient(to bottom,  #9c0e00 0%,#c80203 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c0e00', endColorstr='#c80203',GradientType=0 );
+}
+#alert_container a {
+	color : #000;
+	font-weight : bold;
+	text-decoration : underline;
+}
+#alert_wrapper.critical #alert_container a {
+	color : #fff;
+}
+#alert_wrapper .trigger {
+	display : none;
+}
+body.js_enabled #alert_wrapper .trigger {
+	position : absolute;
+	top : 10px;
+	right : 10px;
+	cursor : pointer;
+	display : block;
+}
+#alert_arrow {
+	display : none;
+}
+body.js_enabled #alert_wrapper #alert_arrow {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_alert_yellow.png);
+	background-repeat : no-repeat;
+	background-position : 25px;
+	height : 15px;
+	display : block;
+}
+body.js_enabled #alert_wrapper.critical #alert_arrow {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_alert_red.png);
+	background-repeat : no-repeat;
+	background-position : 25px;
+}
+#toolbar ul {
+	margin : 0;
+	padding : 0;
+	list-style : none;
+	overflow : hidden;
+	float : right;
+	position : relative;
+	z-index : 9998;
+}
+#toolbar li {
+	float : left;
+	margin-right : 5px;
+}
+#toolbar a {
+	color : #c5bebe;
+}
+#toolbar a:hover {
+	color : #fff;
+	text-decoration : underline;
+}
+#branding img {
+	display : block;
+	margin : auto;
+	max-width : 100%;
+	height : auto;
+}
+#site {
+	transition : padding 0.5s ease;
+}
+#site > #audience_nav {
+	background : #c3c4c6;
+	box-shadow : 0 0 30px 0 #838485 inset;
+	padding : 15px 20px;
+}
+#audience_nav ul {
+	margin : 0;
+	padding : 0;
+	list-style : none;
+}
+#site > #audience_nav ul li {
+	border-bottom : 1px solid #a2a4a5;
+}
+#site > #audience_nav ul li:last-child {
+	border-bottom : 0;
+}
+#site > #audience_nav ul li a {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_white.png);
+	background-repeat : no-repeat;
+	background-position : left;
+	padding : 8px 5px 10px 15px;
+	color : #000;
+	line-height : 16px;
+	letter-spacing : 0.025em;
+	display : block;
+}
+#header #find {
+	overflow : hidden;
+	margin-top : 15px;
+}
+#main_nav_trigger {
+	cursor : pointer;
+	background-color : #004d43;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/menu_lines.png);
+	background-repeat : no-repeat;
+	background-position : center 25px;
+	padding : 5px 10px 27px;
+	border-radius : 5px;
+	display : inline-block;
+	color : #fff;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 12px;
+	line-height : normal;
+	letter-spacing : 0.02em;
+	text-transform : uppercase;
+}
+#search {
+	box-shadow : 0 0 8px #e4e4e4 inset;
+	background-color : #fff;
+	border-radius : 5px;
+	margin-top : 15px;
+}
+#search form#gsc {
+	overflow : hidden;
+}
+#choose_program {
+	background-color : #b3d233;
+}
+#choose_program a.trigger:hover {
+	box-shadow : none;
+}
+#choose_program.open a.trigger {
+	box-shadow : none;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_up.png);
+	background-repeat : no-repeat;
+	background-position : 10px center;
+}
+#choose_program .details.animate {
+	max-height : 9999px;
+	padding-bottom : 15px;
+}
+#choose_program .details a {
+	color : #003333;
+	text-decoration : underline;
+}
+#choose_program .details a:hover {
+	color : #000;
+}
+#calls_to_action ul {
+	margin : 0;
+	padding : 0;
+	list-style : none;
+}
+#site.home #content,  #site.gps.landing #content,  #site.alum.landing #content {
+	background-color : #f1f1f1;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/pattern_stripey.png);
+}
+.box .box_title_wrapper a.more {
+	float : right;
+	font-size : 11px;
+	line-height : normal;
+	text-decoration : underline;
+	padding : 15px 20px 0 0;
+}
+.box .box_title h3 {
+	background-color : #043b62;
+	color : #fff;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 12px;
+	line-height : normal;
+	letter-spacing : 0.025em;
+	font-weight : 300;
+	text-transform : uppercase;
+	padding : 8px 10px;
+	margin : 0 0 6px;
+}
+.box .details {
+	padding : 10px 15px 0;
+}
+.eventcalwrapper .SECalendarViewletDetails ul {
+	margin : 0;
+	padding : 0;
+	list-style : none;
+}
+.eventcalwrapper .SECalendarViewletDetails .eventcaldate {
+	color : #6d5c58;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 16px;
+	line-height : normal;
+	font-weight : bold;
+	text-transform : uppercase;
+	margin-top : 5px;
+	display : block;
+}
+.eventcalwrapper .SECalendarViewletDetails .eventcallocation {
+	color : #333;
+	font-size : 12px;
+	line-height : normal;
+	font-style : italic;
+	margin-top : 5px;
+	display : block;
+}
+.eventcalwrapper .SECalendarViewletDetails .eventcalevent {
+	font-size : 14px;
+	line-height : normal;
+	display : block;
+}
+#site.home .eventcalwrapper .SECalendarViewletItem {
+	float : left;
+	max-width : 50%;
+}
+#site.home .eventcalwrapper .SECalendarViewletItem.event1 .SECalendarViewletDetails {
+	padding-right : 20px;
+}
+#site.home .eventcalwrapper .SECalendarViewletItem.event2 .SECalendarViewletDetails {
+	border-left : 1px solid #ebebeb;
+	padding-left : 20px;
+}
+#site.home .eventcalwrapper {
+	overflow : hidden;
+}
+#site.home .row.two {
+	padding-bottom : 15px;
+}
+#site.home .row.two .box {
+	padding-bottom : 0;
+	max-width : 325px;
+	margin : 15px auto 0;
+}
+#site.home .mini_slider * {
+	transition : none;
+}
+#career {
+	background-color : #004d43;
+	padding : 15px;
+	color : #fff;
+	font-family : "Merriweather Sans", sans-serif;
+}
+#career .section_title {
+	overflow : hidden;
+	max-width : 300px;
+}
+#career .section_title .section {
+	color : #b4d333;
+	font-family : "annifontitalic", sans-serif;
+	font-size : 36px;
+	line-height : 36px;
+	letter-spacing : -0.04em;
+}
+#career .section_title #plus_career {
+	float : right;
+}
+#career .section_title .plus {
+	font-size : 50px;
+	line-height : 50px;
+	font-weight : 300;
+}
+#career .section_title .career {
+	color : #b4d333;
+	font-size : 40px;
+	line-height : 40px;
+	letter-spacing : 0.01em;
+	text-transform : uppercase;
+}
+#career .details {
+	margin-top : 15px;
+}
+#career .details .title {
+	color : #b4d333;
+	font-size : 16px;
+	line-height : normal;
+}
+#career .details .desc {
+	margin-top : 5px;
+}
+#career .details .desc a {
+	color : #fff;
+	text-decoration : underline;
+}
+#career .right {
+	display : none;
+}
+#info #photo_stream {
+	max-width : 203px;
+	margin : auto;
+}
+#info .sevlVideo {
+	margin-top : -8px;
+}
+.title_bar_pink h3 {
+	background-color : #cc1165;
+	color : #fff;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 18px;
+	line-height : normal;
+	letter-spacing : 0.025em;
+	font-weight : 300;
+	padding : 10px 20px;
+	margin : 0 0 8px;
+}
+.title_bar_blue_dark h3 {
+	background-color : #043b62;
+	color : #fff;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 18px;
+	line-height : normal;
+	letter-spacing : 0.025em;
+	font-weight : 300;
+	padding : 10px 20px;
+	margin : 0 0 8px;
+}
+.title_bar_blue_light h3 {
+	background-color : #0096db;
+	color : #fff;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 18px;
+	line-height : normal;
+	letter-spacing : 0.025em;
+	font-weight : 300;
+	padding : 10px 20px;
+	margin : 0 0 8px;
+}
+.title_bar_red h3 {
+	background-color : #d93e01;
+	color : #fff;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 18px;
+	line-height : normal;
+	letter-spacing : 0.025em;
+	font-weight : 300;
+	padding : 10px 20px;
+	margin : 0 0 8px;
+}
+#site.home #info .col2 {
+	margin-top : 10px;
+}
+#site.home #info .col3 {
+	margin-top : 10px;
+}
+#site.home #info .visit_box {
+	max-width : 183px;
+	margin : 0 auto;
+}
+#site.home #info .visit_box img {
+	max-width : 100%;
+	height : auto;
+}
+#site.home #info .visit_box .content {
+	margin-top : -8px;
+}
+#site.home #info .col4 {
+	display : none;
+}
+#footer {
+	background-color : #161616;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/pattern_stripey.png);
+	font-family : "Merriweather Sans", sans-serif;
+	padding : 30px 15px;
+}
+#footer a:hover {
+	text-decoration : underline;
+}
+#footer .section_title {
+	font-size : 24px;
+	line-height : normal;
+	font-weight : 300;
+	color : #fff;
+	margin-bottom : 5px;
+}
+#footer .cols_container .title {
+	text-transform : uppercase;
+	color : #8c919b;
+	letter-spacing : 0.025em;
+}
+#footer .desc {
+	font-size : 12px;
+	line-height : 20px;
+	color : #8c919b;
+	margin-top : 5px;
+}
+#footer ul.link_list {
+	margin-top : 5px;
+}
+#footer ul.link_list a {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_white.png);
+	background-repeat : no-repeat;
+	background-position : left 9px;
+	color : #fff;
+	font-size : 12px;
+	line-height : normal;
+}
+#footer ul.link_list li {
+	border-bottom : 0;
+}
+#footer a.link {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_white.png);
+	background-repeat : no-repeat;
+	background-position : left 4px;
+	color : #fff;
+	font-size : 12px;
+	line-height : normal;
+	margin-top : 5px;
+}
+#footer .cols_container > div {
+	padding : 10px 0;
+	border-bottom : 1px solid #2c2d2d;
+}
+#footer .cols_container .col4 {
+	border-bottom : 0;
+	padding-bottom : 0;
+}
+#footer #quick_links {
+	display : none;
+}
+#copyright {
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 10px;
+	line-height : normal;
+	letter-spacing : 0.05em;
+	color : #333;
+	background-color : #a9adb4;
+	padding : 10px 15px;
+	font-style : italic;
+}
+#copyright a {
+	color : #333;
+	text-decoration : underline;
+}
+#copyright .inner {
+	overflow : hidden;
+}
+#copyright .inner > div {
+	float : left;
+	margin-right : 10px;
+}
+#copyright .links {
+	margin-right : 0;
+}
+#site.gps.landing #content .cols_container {
+	overflow : auto;
+}
+#site.gps.landing #content .cols_container > .col1 .box {
+	max-width : 325px;
+	margin : auto;
+	margin-top : 20px;
+}
+#site.gps.landing #content .cols_container > .col2 {
+	margin : 20px 0;
+}
+#site.gps #info {
+	font-family : "Merriweather Sans",sans-serif;
+	color : #575656;
+	font-size : 12px;
+	line-height : 16px;
+	padding : 20px;
+}
+.twitter_feed {
+	background-color : #fff;
+	border-bottom-left-radius : 8px;
+	border-bottom-right-radius : 8px;
+}
+.twitter_feed .title {
+	background-image : url("/sites/all/themes/stevenson/cssAssets/arrow_yellow.png");
+	background-position : 20px bottom;
+	background-repeat : no-repeat;
+	overflow : auto;
+	position : relative;
+	z-index : 9990;
+}
+.twitter_feed .title a {
+	background-color : #ec9b1c;
+	border-bottom-left-radius : 8px;
+	border-bottom-right-radius : 8px;
+	color : #fff;
+	font-family : "Roboto Condensed",sans-serif !important;
+	font-size : 24px;
+	line-height : normal;
+	padding : 10px 10px 10px 50px;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/twitter_bird.png);
+	background-repeat : no-repeat;
+	background-position : 10px center;
+	display : block;
+	margin-bottom : 8px;
+}
+.social .icons {
+	margin-top : 20px;
+}
+.social .icons .title {
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 12px;
+	line-height : normal;
+	letter-spacing : 0.05em;
+	color : #fff;
+	text-transform : uppercase;
+}
+#site.gps .social .icons .title {
+	color : #004d43;
+}
+.social .icons ul {
+	margin : 5px 0 0;
+	padding : 0;
+	list-style : none;
+	overflow : hidden;
+}
+#section_bar {
+	background-color : #e0dede;
+	padding : 15px 20px;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 22px;
+	line-height : normal;
+	letter-spacing : 0.025em;
+	text-transform : uppercase;
+	margin-top : 20px;
+}
+#main_nav ul {
+	list-style : none;
+	margin : 0;
+	padding : 0;
+}
+#main_nav.dd ul ul {
+	display : none;
+}
+#main_nav.dd > ul > li > a {
+	display : block;
+	color : #fff;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 14px;
+	line-height : normal;
+	letter-spacing : 0.02em;
+	padding : 10px 25px;
+}
+#main_nav.dd li.last > a {
+	border : 0;
+}
+#site.gps #main_nav.dd > ul > li > a {
+	background-color : #167fb0;
+	border-bottom : 1px solid #509fc4;
+}
+#site.gps #main_nav.dd > ul > li > a:hover {
+	background-color : #0e3959;
+}
+#site.alum #main_nav.dd > ul > li > a {
+	background-color : #000;
+	border-bottom : 1px solid #3f4146;
+}
+#site.alum #main_nav.dd > ul > li > a:hover {
+	background-color : #124e44;
+	color : #fff;
+}
+#site.hr #main_nav.dd > ul > li > a {
+	background-color : #000;
+	border-bottom : 1px solid #3f4146;
+}
+#site.hr #main_nav.dd > ul > li > a:hover {
+	background-color : #124e44;
+	color : #fff;
+}
+.breadcrumbs img {
+	display : inline !important;
+}
+.breadcrumbs a {
+	color : #999;
+	padding : 0 5px;
+}
+.breadcrumbs a:hover {
+	text-decoration : underline;
+}
+#site.gps.program #content .cols_container .col2 {
+	margin-top : 20px;
+}
+#stay_in_touch .section_title {
+	color : #000;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 22px;
+	line-height : normal;
+	background-color : #fff;
+	padding : 11px 20px;
+}
+#stay_in_touch .social {
+	background-color : #b4d333;
+	padding : 10px 20px;
+}
+#stay_in_touch .social .title {
+	color : #124e44;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 16px;
+	line-height : normal;
+	text-transform : none;
+}
+#stay_in_touch .social .icons {
+	margin-top : 0;
+}
+#stay_in_touch .social .icons ul a {
+	border : 2px solid #0C4D44;
+}
+#site.alum.landing .eventcalwrapper .SECalendarViewletItem .SECalendarViewletDetails {
+	padding : 10px 0;
+	border-bottom : 1px solid #ebebeb;
+}
+#site.alum.landing #photo_stream ul.photos {
+	margin : 0;
+	padding : 0;
+	list-style : none;
+	overflow : hidden;
+}
+#site.alum.landing #stay_in_touch .cols_container .col2 ul,  #site.alum.landing #stay_in_touch .cols_container .col3 ul {
+	list-style : none;
+	margin : 0;
+	padding : 0;
+}
+#site.alum.landing #content .row {
+	margin-top : 15px;
+}
+#site.alum.landing #content .row.three {
+	background-color : #fff;
+}
+#site.alum.landing #content .row.two .box {
+	max-width : 245px;
+	margin : 10px auto 0;
+	color : #666;
+	position : relative;
+}
+#site.alum.landing #content .row.two .box h4 {
+	font-size : 16px;
+	margin-bottom : 0;
+}
+#site.alum.landing #content .row.two .box .details p {
+	margin-top : 5px;
+}
+#site.alum.landing #content .row.two .box .details a {
+	text-decoration : underline;
+}
+#site.alum.landing #content .row.two .box a.more {
+	background-color : #b4d333;
+	display : block;
+	color : #004d43;
+	text-align : center;
+	text-transform : uppercase;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 12px;
+	line-height : normal;
+	text-decoration : none;
+	border-radius : 5px;
+	padding : 7px 15px;
+	margin-top : 20px;
+}
+#site.alum.landing .testimonial {
+	padding : 15px;
+}
+.testimonial .name {
+	color : #666;
+	font-size : 13px;
+	line-height : normal;
+	font-weight : bold;
+	margin-top : 15px;
+}
+.testimonial .class {
+	color : #666;
+	font-size : 13px;
+	line-height : normal;
+}
+.testimonial a.more {
+	margin-top : 20px;
+}
+#site.alum #info {
+	padding : 15px;
+}
+#site.hr.landing #content .cols_container .col1 {
+	background-color : #fff;
+	padding : 15px;
+}
+#site.hr.landing #content .body_content {
+	font-size : 14px;
+	line-height : 22px;
+}
+#site.hr.landing #content .body_content h2 {
+	margin-top : 20px;
+}
+#site.hr.landing #content .cols_container .col2 .callout {
+	background-color : #fff;
+}
+.body_content h1 {
+	margin-top : 10px;
+}
+.campus_boxes .box {
+	padding : 15px 0;
+	margin-top : 0;
+}
+.campus_boxes .box .details {
+	font-size : 13px;
+	line-height : 18px;
+	padding : 0;
+}
+.campus_boxes .box .image {
+	background-color : #e0dede;
+	padding : 10px;
+	max-width : 345px;
+}
+.campus_boxes .box .image img {
+	max-width : 100%;
+	height : auto;
+	display : block;
+}
+.campus_boxes .box h3 {
+	font-size : 18px;
+	line-height : normal;
+	color : #004d43;
+}
+.campus_boxes .box.one {
+	border-bottom : 1px solid #e2e2e3;
+}
+.callout {
+	margin-bottom : 20px;
+}
+.callout .details {
+	padding : 15px;
+}
+.callout h3 {
+	font-size : 18px;
+	line-height : normal;
+	font-weight : normal;
+	color : #004d43;
+	margin : 0 0 5px;
+}
+.callout P {
+	margin-top : 5px;
+}
+.callout a.more {
+	background-color : #b4d333;
+	display : block;
+	color : #004d43;
+	text-align : center;
+	text-transform : uppercase;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 12px;
+	line-height : normal;
+	text-decoration : none;
+	border-radius : 5px;
+	padding : 7px 15px;
+	margin-top : 20px;
+}
+#site.interior #info .col2 {
+	margin-top : 10px;
+}
+#site.interior #info .col3 {
+	margin-top : 10px;
+}
+#site.interior #info .visit_box {
+	max-width : 183px;
+	margin : 0 auto;
+}
+#site.interior #info .visit_box img {
+	max-width : 100%;
+	height : auto;
+}
+#site.interior #info .visit_box .content {
+	margin-top : -8px;
+}
+#site.interior #info .col4 {
+	display : none;
+}
+#site.interior #content {
+	padding : 20px 0;
+}
+#site.admissions #content .cols_container .col1 {
+	padding : 0 10px;
+}
+#site.admissions #content .col1 .row.one .box {
+	background : #f1f1f1;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/pattern_stripey.png);
+	padding : 10px;
+}
+#site.admissions #content .col1 .row.one .box .box_title_wrapper {
+	background-color : #fff;
+}
+#site.admissions #content .col1 .row.one .box .details {
+	background-color : #fff;
+	padding : 10px 25px 15px;
+}
+#site.admissions .eventcalwrapper .SECalendarViewletDetails .eventcaldate {
+	margin-top : 0;
+}
+#site.admissions .eventcalwrapper .SECalendarViewletItem {
+	padding : 10px 0;
+	border-bottom : 1px solid #ebebeb;
+}
+#site.admissions .eventcalwrapper .SECalendarViewletItem.event4 {
+	border-bottom : 0;
+}
+#site.admissions .row.three {
+	margin-top : 20px;
+}
+#site.admissions .row.three .box h3 {
+	color : #004d43;
+	line-height : 22px;
+	margin : 5px 0 10px;
+}
+.question h3 {
+	font-size : 18px;
+	line-height : normal;
+	font-weight : 300;
+}
+.question .contact {
+	color : #575656;
+	font-family : "Merriweather Sans", sans-serif;
+}
+.question .contact .title {
+	font-size : 14px;
+	line-height : normal;
+	font-weight : bold;
+}
+.question .contact .desc {
+	font-size : 12px;
+	line-height : 20px;
+	margin-top : 5px;
+}
+#site.interior #content .cols_container #calls_to_action a {
+	font-size : 14px;
+}
+#site.interior #content .cols_container #calls_to_action {
+	margin-top : 20px;
+}
+#site.interior #content .cols_container .question {
+	margin-top : 20px;
+	padding : 0;
+}
+#site.interior.three_cols #content .cols_container .col2 {
+	margin-top : 20px;
+}
+#site.interior.three_cols #content .cols_container .col3 {
+	margin-top : 20px;
+}
+#site.interior.one_col #content .col1 {
+	padding : 0 15px;
+}
+#main_nav.mm .content {
+	display : none;
+}
+#main_nav.mm li.last > a {
+	border : 0;
+}
+#main_nav.mm > ul > li > a:hover {
+	background-color : #303030;
+}
+#section_nav {
+	font-family : "Merriweather Sans", sans-serif;
+}
+#section_nav a {
+	display : block;
+}
+#section_nav ul {
+	list-style : none;
+	margin : 0;
+	padding : 0;
+}
+#section_nav li.active > a {
+	background-color : #ddd !important;
+}
+#section_nav .divnav1 > ul > li > a {
+	background-color : #efefef;
+	color : #004d43;
+	font-size : 16px;
+	line-height : 22px;
+	padding : 10px;
+	border-bottom : 1px solid #ddd;
+}
+#section_nav .divnav1 > ul > li > a:hover,  #section_nav .divnav1 > ul > li > ul > li > a:hover,  #section_nav .divnav1 > ul > li > ul > li > ul > li > a:hover {
+	background-color : #ddd;
+}
+#section_nav .divnav1 > ul > li > ul > li > a {
+	background-color : #efefef;
+	color : #000;
+	font-size : 13px;
+	line-height : 18px;
+	padding : 10px;
+	border-bottom : 1px solid #ddd;
+}
+#section_nav .divnav1 > ul > li > ul > li > ul > li {
+	border-bottom : 1px solid #ddd;
+}
+#section_nav .divnav1 > ul > li > ul > li > ul > li > a {
+	background-color : #f6f6f6;
+	color : #124e44;
+	font-size : 12px;
+	line-height : 16px;
+	padding : 10px 23px;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/section_nav_arrow_right.png);
+	background-repeat : no-repeat;
+	background-position : 10px 14px;
+}
+#section_nav .divnav1 > ul > li > ul > li > ul > li.activenavpath > a {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/section_nav_arrow_down.png);
+	background-repeat : no-repeat;
+	background-position : 10px 15px;
+}
+#section_nav .divnav1 > ul > li > ul > li > ul > li > ul > li > a {
+	background-color : #f6f6f6;
+	font-size : 11px;
+	line-height : 16px;
+	padding : 5px 23px;
+}
+#why_choose {
+	font-family : "Merriweather Sans", sans-serif;
+	background-color : #004d43;
+	padding : 20px;
+}
+#why_choose .section_title {
+	color : #b4d333;
+	font-size : 30px;
+	line-height : 36px;
+	letter-spacing : 0.001em;
+	font-weight : 300;
+}
+#why_choose .box .desc h4 {
+	color : #b4d333;
+	font-size : 16px;
+	line-height : normal;
+	font-weight : normal;
+	margin : 0 0 5px;
+}
+#why_choose .box .desc p {
+	color : #fff;
+	font-size : 12px;
+	line-height : 18px;
+	font-weight : 300;
+	margin : 5px 0 0;
+}
+#why_choose .box {
+	background-color : transparent;
+	margin : 20px 0 0;
+	padding : 0;
+}
+#site.interior.three_cols #content .cols_container .interior_cols_float > .col2 .callout {
+	padding : 10px;
+	border : 2px solid #e0dede;
+}
+#site.interior.three_cols #content .cols_container .interior_cols_float > .col2 .callout h3 {
+	margin : 5px 0;
+}
+#site.interior.three_cols #content .cols_container .interior_cols_float > .col2 .callout .desc:first-child h3 {
+	margin-top : 0;
+}
+#site.interior.three_cols #content .cols_container .interior_cols_float > .col2 .callout a.more {
+	margin-top : 10px;
+}
+#site.interior.three_cols #content .cols_container .interior_cols_float > .col2 .callout .social .icons {
+	margin-top : 0;
+}
+#site.interior.three_cols #content .cols_container .interior_cols_float > .col2 .callout .social .icons li {
+	margin-bottom : 5px;
+}
+#site.interior.three_cols #content .cols_container .interior_cols_float > .col2 .callout .eventcalwrapper .SECalendarViewletDetails .eventcalevent {
+	font-size : 13px;
+	line-height : normal;
+}
+#site.interior.three_cols #content .cols_container .interior_cols_float > .col2 .callout .eventcalwrapper .SECalendarViewletDetails .eventcalevent a {
+	text-decoration : underline;
+}
+#site.interior.three_cols #content .cols_container .interior_cols_float > .col2 .callout .eventcalwrapper .SECalendarViewletDetails .eventcaldate {
+	font-size : 14px;
+	margin-top : 0;
+}
+#site.interior.three_cols #content .cols_container .interior_cols_float > .col2 .callout .SECalendarViewletItem {
+	padding : 10px 0;
+	border-bottom : 1px solid #ebebeb;
+}
+#site.interior.three_cols #content .cols_container .interior_cols_float > .col2 .callout .SECalendarViewletItem.event3 {
+}
+#site.hr .body_content ul.link_list a {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_link_list.png);
+	background-repeat : no-repeat;
+	background-position : left 13px;
+	padding : 5px 5px 5px 15px;
+	display : inline-block;
+}
+#program_intro .caption h2 {
+	color : #fff;
+	font-weight : 300;
+	font-size : 36px;
+	line-height : 40px;
+	margin-top : 0;
+}
+#program_intro .caption .desc {
+	font-size : 16px;
+	line-height : 22px;
+}
+#career .details .desc p {
+	margin : 0;
+}
+#why_choose a {
+	color : #fff;
+	text-decoration : underline;
+}
+#profile_detail .type {
+	color : #a9adb4;
+	font-family : "Merriweather Sans",sans-serif;
+	font-size : 14px;
+	line-height : normal;
+	letter-spacing : 0.05em;
+	text-transform : uppercase;
+}
+#profile_detail .title {
+	color : #124e43;
+	font-size : 14px;
+	line-height : normal;
+	margin-top : 5px;
+}
+#profile_detail .image {
+	margin-bottom : 15px;
+}
+#profile_detail .col2 {
+	margin-top : 20px;
+}
+#profile_detail .image img {
+}
+#profile_detail #profile_video {
+	margin-top : 20px;
+}
+.profiles .profile_container {
+	margin : 10px auto 0;
+	max-width : 210px;
+}
+.profiles .profile {
+	padding : 8px;
+	border : 2px solid #e0dede;
+}
+.profiles .profile img {
+	max-width : 100%;
+	height : auto;
+}
+.profiles .profile .name {
+	color : #666;
+	font-size : 13px;
+	line-height : normal;
+	font-weight : bold;
+	margin-top : 10px;
+}
+.profiles .profile .title {
+	color : #666;
+	font-size : 13px;
+	line-height : normal;
+}
+.profiles .profile a.more {
+	background-color : #B4D333;
+	border-radius : 5px;
+	color : #004D43;
+	display : inline-block;
+	font-family : "Merriweather Sans",sans-serif;
+	font-size : 12px;
+	line-height : normal;
+	margin-top : 10px;
+	padding : 7px 15px;
+	text-align : center;
+	text-decoration : none;
+	text-transform : uppercase;
+}
+.profiles .profile a.more:hover {
+	background-color : #7C9905;
+	color : #fff;
+}
+.callout a.more:hover {
+	background-color : #7c9905;
+	color : #fff;
+}
+#site.alum.landing #content .row.two .box a.more:hover {
+	background-color : #7c9905;
+	color : #fff;
+}
+.testimonial .quote {
+	color : #004d43;
+	font-size : 16px;
+	line-height : 24px;
+	font-weight : normal;
+}
+#why_choose a:hover {
+	color : #B4D333;
+}
+#career .details .desc a:hover {
+	color : #B4D333;
+}
+#profile_detail .quote {
+	color : #004d43;
+	font-family : "Merriweather Sans",sans-serif;
+	font-size : 16px;
+	line-height : 20px;
+	font-weight : normal;
+}
+body {
+	margin : 0;
+	padding : 0;
+	font-family : "Noto Sans", sans-serif;
+	font-size : 13px;
+	line-height : 20px;
+}
+.box .details ul.link_list a {
+	background-position : left 12px;
+}
+body.js_enabled #tabs .title {
+	cursor : pointer;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_plus.png);
+	background-position : right center;
+	background-repeat : no-repeat;
+}
+body.js_enabled #tabs .content {
+	max-height : 0;
+	transition : max-height 0.25s ease;
+	overflow-y : hidden;
+}
+body.js_enabled #tabs li.active .content {
+	max-height : 19999px;
+}
+body.js_enabled #tabs li:hover .title {
+	background-color : #033;
+	border : 1px solid #033;
+	color : #fff;
+}
+body.js_enabled #tabs li.active .title {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_minus.png);
+	background-position : right center;
+	background-repeat : no-repeat;
+	background-color : #033;
+	border : 1px solid #033;
+	color : #fff;
+}
+body.js_enabled #site.gps #tabs li:hover .title,  body.js_enabled #site.gps #tabs li.active .title {
+	color : #fff !important;
+	background-color : #053b61 !important;
+}
+#program_list .box {
+	border : 2px solid #e0dedf;
+	color : #666;
+	padding-bottom : 0;
+}
+#program_list .program {
+	max-width : 325px;
+	margin : 10px auto 0;
+}
+#program_list .box .title h3 {
+	font-size : 16px;
+	padding : 5px 15px 0;
+	margin : 0;
+	margin-bottom : 5px;
+	text-align : center;
+}
+#program_list .box .details {
+	padding : 0px 15px 10px;
+	margin-top : 5px;
+}
+#programs_form input,  #programs_form select {
+	padding : 7px 4%;
+	border : 0;
+	border-radius : 5px;
+	margin-top : 5px;
+	width : 92%;
+}
+#programs_form input#submit:hover {
+	box-shadow : none;
+}
+#programs_form .horizontal {
+	overflow : hidden;
+}
+#programs_form .horizontal .seFieldCell {
+	float : left;
+	width : 50%;
+}
+#programs_form {
+	margin-top : 10px;
+}
+#programs_form h3 {
+	background-color : #cc1165;
+	color : #fff;
+	font-size : 14px;
+	line-height : 18px;
+	margin : 0;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_info.png);
+	background-repeat : no-repeat;
+	background-position : 10px 10px;
+	padding : 10px 10px 10px 35px;
+}
+#undergrad_detail .school {
+	font-family : "Merriweather Sans",sans-serif;
+	font-size : 14px;
+	line-height : 18px;
+	letter-spacing : 0.05em;
+	color : #a9adb4;
+	text-transform : uppercase;
+}
+#undergrad_detail .intro h2 {
+	margin-bottom : 5px;
+}
+#undergrad_detail .media {
+	margin-top : 20px;
+}
+#undergrad_detail #tabs {
+	margin-top : 20px;
+}
+#site.gps.program #tabs {
+	margin-top : 20px;
+}
+#tabs .title {
+	font-family : "Merriweather Sans", sans-serif;
+	background-color : #fff;
+	border-radius : 5px;
+	display : block;
+	padding : 5px 15px;
+	color : #033;
+	text-decoration : none;
+	font-size : 14px;
+	line-height : normal;
+	margin-top : 10px;
+	border : 1px solid #E0DEDE;
+	transition : all 0.25s ease;
+}
+#main_nav.mm > ul > li > a {
+	display : block;
+	color : #fff;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 14px;
+	line-height : normal;
+	letter-spacing : 0.02em;
+	padding : 10px 25px;
+	background-color : #124e44;
+	border-bottom : 1px solid #37625e;
+}
+#filter_form {
+	margin-top : 10px;
+	padding-bottom : 15px;
+}
+#program_results .desc .focus {
+	color : #6f5c58;
+	font-style : italic;
+}
+#program_results .desc .type {
+	color : #6f5c58;
+	font-style : italic;
+}
+#program_results .desc a.more {
+	text-decoration : underline;
+}
+#program_list h2 {
+	font-family : "Merriweather Sans", sans-serif;
+	background-color : #043b62;
+	display : block;
+	padding : 5px 10px;
+	color : #fff;
+	text-decoration : none;
+	font-size : 17px;
+	line-height : normal;
+	margin-top : 20px;
+}
+#program_tabs .content {
+	margin-top : 10px;
+}
+#site.home #choose_program .details {
+	position : absolute;
+	width : 90%;
+	z-index : 9999;
+	right : 0;
+	padding : 0 5%;
+}
+.customSelect {
+	border-radius : 10px;
+	overflow : hidden;
+	background : url(/sites/all/themes/stevenson/cssAssets/select_arrow.png) no-repeat right #fff;
+	display : block;
+	width : 81%;
+	padding : 7px 14% 7px 5%;
+}
+#school_list .box {
+	border : 2px solid #e0dedf;
+	color : #666;
+	padding-bottom : 0;
+}
+#school_list .school {
+	max-width : 325px;
+	margin : 10px auto 0;
+}
+#school_list .box .title h3 {
+	font-size : 16px;
+	padding : 10px 15px 0;
+	margin : 0;
+}
+#school_list .box .details {
+	padding : 5px 15px 10px;
+}
+#section_nav .divnav1 > ul > li > ul > li.navitemLast > a {
+	border-bottom : 0;
+}
+#filter_form #submit {
+	background-color : #003333;
+	border : 0;
+	padding : 10px 15px;
+	text-align : center;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 12px;
+	line-height : normal;
+	letter-spacing : 0.025em;
+	color : #fff;
+	text-transform : uppercase;
+	margin-top : 10px;
+	border-radius : 10px;
+	display : block;
+	cursor : pointer;
+	border : 2px solid #003333;
+	transition : all 0.3s ease;
+}
+#filter_form #submit:hover {
+	background-color : #B3D233;
+	color : #003333;
+}
+#program_list {
+	margin-top : 15px;
+}
+#program_results .desc {
+	background-color : #f1f1f1;
+	padding : 10px;
+	margin-top : 10px;
+}
+.customSelectInner {
+	width : 100% !important;
+}
+#program_results .options h3 {
+	font-size : 16px;
+	color : #003333;
+	margin : 0 0 10px;
+}
+#news_list .filter h2 {
+	color : #A9ADB4;
+	font-family : "Merriweather Sans",sans-serif;
+	font-size : 14px;
+	letter-spacing : 0.05em;
+	line-height : 18px;
+	text-transform : uppercase;
+}
+#news_list .link_list li .details {
+	padding-left : 15px;
+	color : #999;
+	font-size : 12px;
+	line-height : normal;
+	padding-bottom : 5px;
+}
+#news_list .link_list a.news_item {
+	padding-bottom : 0;
+	background-position : left 12px;
+}
+#news_sidebar .link_list a {
+	background-position : left 12px;
+}
+#news_sidebar .callout h3 {
+	font-size : 16px;
+}
+#news_sidebar #calendar_container .title h3 {
+	margin : 0 !important;
+	text-align : center;
+	line-height : 16px;
+}
+#news_sidebar #calendar_container .title h3 a {
+	text-decoration : none;
+}
+#news_sidebar #calendar a {
+	color : #000;
+	display : block;
+	padding : 3px;
+	text-align : center;
+	text-decoration : none;
+	font-size : 11px;
+	line-height : normal;
+}
+#news_sidebar #calendar_container .prev {
+	background-image : url("/sites/all/themes/stevenson/cssAssets/blue_arrow_left.png");
+	background-repeat : no-repeat;
+	display : block;
+	height : 8px;
+	left : 10px;
+	position : absolute;
+	text-indent : -9999px;
+	top : 15px;
+	width : 6px;
+}
+#news_sidebar #calendar_container .next {
+	background-image : url("/sites/all/themes/stevenson/cssAssets/blue_arrow_right.png");
+	background-repeat : no-repeat;
+	display : block;
+	height : 8px;
+	position : absolute;
+	right : 10px;
+	text-indent : -9999px;
+	top : 15px;
+	width : 6px;
+}
+#news_sidebar #calendar {
+	width : 100%;
+}
+#news_sidebar #calendar_container .title {
+	padding : 10px;
+	position : relative;
+}
+#news_detail .details {
+	color : #999;
+	font-style : italic;
+	font-size : 12px;
+	line-height : normal;
+}
+#news_detail .media {
+	margin-top : 10px;
+}
+#news_detail .topics {
+	font-size : 12px;
+	line-height : normal;
+}
+#news_detail .topics a {
+	text-decoration : underline;
+}
+#news_detail .topics .title {
+	color : #999;
+}
+#search .gsc-input input {
+	border : 0;
+	padding : 10px 0 10px 45px;
+	background-color : transparent !important;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_search.png) !important;
+	background-repeat : no-repeat !important;
+	background-position : 12px center !important;
+	color : #666;
+	width : 75%;
+}
+#search table.gsc-search-box,  #search form.gsc-search-box {
+	margin : 0 !important;
+}
+#search td.gsc-clear-button,  #search p,  #search .gsc-branding {
+	display : none;
+}
+#search_results a,  #search_results .gs-result .gs-title,   #search_results .gs-result .gs-title * {
+	color : #167FB0 !important;
+}
+#search_results * {
+	font-size : 13px !important;
+	line-height : 20px !important;
+}
+#search_results .gsc-result .gs-title {
+	height : auto !important;
+}
+#search_results .gs-result a.gs-visibleUrl,   #search_results .gs-result .gs-visibleUrl {
+	color : #37625E !important;
+}
+#program_results #filter_form {
+	overflow : hidden;
+	margin : 0;
+	padding : 0;
+}
+#tabs > ul {
+	list-style : none;
+	margin : 0;
+	padding : 0;
+}
+#program_tabs > ul {
+	list-style : none;
+	margin : 0;
+	padding : 0;
+}
+#program_results .options {
+	background-color : #B3D233;
+	padding : 15px;
+}
+#program_results .customSelect {
+	padding : 11px 14% 11px 5%;
+}
+p {
+	margin : 10px 0;
+}
+.body_content p {
+	margin : 15px 0;
+}
+.news_viewlet li .details {
+	color : #999999;
+	font-size : 12px;
+	line-height : normal;
+	padding : 0 15px 10px;
+}
+.news_viewlet.featured li .details {
+	padding : 0 5px 10px;
+}
+#news_sidebar #topics ul.link_list a {
+	padding : 0 0 0 15px;
+	background-position : left 7px;
+}
+#news_sidebar #calendar a.hasItem {
+	color : #167FB0;
+	background-color : #E0DEDF;
+}
+#news_sidebar #calendar a.hasItem:hover {
+	color : #fff;
+	background-color : #167fb0;
+}
+#undergrad_detail .school a {
+	color : #a9adb4;
+}
+#undergrad_detail .school a:hover {
+	color : #167fb0;
+}
+#section_bar a {
+	color : #000;
+}
+#section_bar a:hover {
+	color : #167fb0;
+}
+#site.hr #info .cols_container {
+	padding : 20px;
+	overflow : hidden;
+}
+#site.hr #info .cols_container .col2 {
+	margin-top : 10px;
+}
+#site.hr #info .cols_container .col3 {
+	margin-top : 10px;
+}
+#site.hr #info .cols_container .col4 {
+	display : none;
+}
+#site.hr #info .cols_container .contact {
+	color : #575656;
+	font-family : "Merriweather Sans", sans-serif;
+}
+#site.hr #info .cols_container .contact .title {
+	font-size : 14px;
+	line-height : normal;
+	font-weight : bold;
+}
+#site.hr #info .cols_container .contact .desc {
+	font-size : 12px;
+	line-height : 20px;
+	margin-top : 5px;
+}
+#site.alum #info .cols_container img {
+	max-width : 100%;
+	height : auto;
+}
+#site.alum #info .cols_container .contact {
+	color : #575656;
+	font-family : "Merriweather Sans", sans-serif;
+}
+#site.alum #info .cols_container .contact .title {
+	font-size : 14px;
+	line-height : normal;
+	font-weight : bold;
+}
+#site.alum #info .cols_container .contact .desc {
+	font-size : 12px;
+	line-height : 20px;
+	margin-top : 5px;
+}
+#site.alum #info .cols_container .col2 {
+	margin : 10px auto 0;
+	max-width : 240px;
+}
+#site.alum #info .cols_container .col2 .content {
+	margin-top : -8px;
+}
+#site.alum #info .cols_container .col3 {
+	margin : 10px auto 0;
+	max-width : 240px;
+}
+#site.alum #info .cols_container .col3 .content {
+	margin-top : -8px;
+}
+#site.alum #info .cols_container .col4 {
+	display : none;
+}
+#site.gps #info .cols_container .col1 .title {
+	font-size : 14px;
+	line-height : normal;
+	font-weight : bold;
+}
+#site.gps #info .cols_container .col2 .title {
+	font-size : 14px;
+	line-height : normal;
+	font-weight : bold;
+}
+#site.gps #info .cols_container .contact .image {
+	text-align : center;
+}
+#site.gps #info .cols_container .contact .image img {
+	max-width : 100%;
+	height : auto;
+}
+#site.gps #info .cols_container .contact .details {
+	margin-top : 10px;
+}
+#site.gps #info .cols_container .contact .desc {
+	margin-top : 5px;
+}
+#site.gps #info .cols_container .contact a.more {
+	text-decoration : underline;
+	margin-top : 5px;
+	display : inline-block;
+}
+#site.gps #info .cols_container .col2 {
+	margin-top : 20px;
+}
+#program_list ul.link_list a {
+	background-position : left 12px;
+}
+#news_sidebar #topics ul.link_list li {
+	line-height : 18px;
+}
+ul {
+	list-style-image : url("/sites/all/themes/stevenson/cssAssets/bullet.png");
+	margin : 0;
+	padding : 0 0 0 15px;
+}
+.audiences .box:hover {
+	background-color : #cdced0;
+}
+.audiences .box img {
+	display : block;
+	margin : 0 auto 10px;
+	padding : 10px 0 0;
+}
+.audiences .box a {
+	padding : 0 10px 10px;
+	display : block;
+}
+.audiences .box {
+	background-color : #e9e9e9;
+	border-radius : 5px;
+	padding : 0;
+	text-align : center;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 12px;
+	line-height : normal;
+}
+#request_program_info {
+	background-color : #ca1264;
+}
+#request_program_info a.trigger:hover {
+	box-shadow : none;
+}
+#request_program_info.open a.trigger {
+	box-shadow : none;
+	background-image : url("/sites/all/themes/stevenson/cssAssets/icon_up.png");
+	background-repeat : no-repeat;
+	background-position : 10px center;
+}
+#request_program_info .details.animate {
+	max-height : 9999px;
+	padding-bottom : 15px;
+}
+#programs_form .customSelect {
+	border-radius : 5px;
+	margin-top : 5px;
+	padding : 5px 22px 5px 10px;
+	width : 55%;
+}
+#programs_form .required_message {
+	font-size : 11px;
+	font-style : italic;
+}
+#programs_form > div.seform {
+	background-color : #e0dede;
+	padding : 10px;
+	overflow : hidden;
+}
+#request_program_info #programs_form > div.seform {
+	background-color : #e0dede;
+	padding : 0 10px 10px;
+	overflow : hidden;
+}
+#section_nav .divnav1 > ul > li {
+	display : none;
+}
+#section_nav li.activenavpath,   #section_nav li.active {
+	display : block !important;
+}
+.media {
+	margin-top : 15px;
+}
+.title_bar_red a {
+	color : #fff;
+}
+.title_bar_red a:hover {
+	text-decoration : underline;
+}
+.title_bar_blue_light a {
+	color : #fff;
+}
+.title_bar_blue_light a:hover {
+	text-decoration : underline;
+}
+.title_bar_blue_dark a {
+	color : #fff;
+}
+.title_bar_blue_dark a:hover {
+	text-decoration : underline;
+}
+.title_bar_pink a {
+	color : #fff;
+}
+.title_bar_pink a:hover {
+	text-decoration : underline;
+}
+.body_content ul.link_list a {
+	background-position : left 12px;
+}
+.seBlogViewletContainer {
+	border-bottom : 1px dotted #CFD1D5;
+}
+.seBlogViewletContainer.last {
+	border-bottom : 0;
+}
+.seBlogViewletContainer .seBlogViewletTitle {
+	background-image : url("/sites/all/themes/stevenson/cssAssets/arrow_link_list.png");
+	background-position : left 12px;
+	background-repeat : no-repeat;
+	display : inline-block;
+	padding : 5px 5px 5px 15px;
+}
+#photo_stream ul.photos img {
+	max-width : 100%;
+	height : auto;
+	display : block;
+}
+.twitter_feed .title a:hover {
+	text-decoration : underline;
+}
+#site.interior h1 {
+	padding : 0 15px;
+}
+#site.interior .cols_container h1 {
+	padding : 0;
+}
+#site.gps.program h1 {
+	padding : 0 15px;
+}
+.breadcrumbs .left {
+	float : left;
+	max-width : 80%;
+}
+html {
+	-webkit-text-size-adjust : none;
+}
+.breadcrumbs {
+	color : #e0dddd;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 12px;
+	line-height : 17px;
+	margin : 0 10px;
+	padding : 0 0 10px 0;
+	border-bottom : 1px solid #e0dede;
+	overflow : hidden;
+}
+#SEBlog #SEBlogViewLinks a.rss {
+	background-image : url("/sites/all/themes/stevenson/cssAssets/rss_icon.png");
+	background-position : left center;
+	background-repeat : no-repeat;
+	display : block;
+	line-height : 28px;
+	padding-left : 35px;
+	text-decoration : none;
+}
+#news_sidebar #rss a.rss {
+	background-image : url("/sites/all/themes/stevenson/cssAssets/rss_icon.png");
+	background-position : left center;
+	background-repeat : no-repeat;
+	display : block;
+	line-height : normal;
+	padding-left : 35px;
+	text-decoration : none;
+	min-height : 28px;
+}
+#programs_form .SEAFWrapper {
+	position : relative;
+}
+#site #content .cols_container .col1 {
+	padding : 0 10px;
+}
+#site #content .cols_container .col2 {
+	margin-top : 20px;
+}
+#site #content .cols_container .col3 {
+	margin-top : 20px;
+}
+.callout .SESyndicationModule .feedDetails,  .callout .SESyndicationModule ol.feedItems .description,  .callout .SESyndicationModule ol.feedItems .extras {
+	display : none;
+}
+.callout .SESyndicationModule ol.feedItems {
+	list-style : none;
+	margin : 0;
+	padding : 0;
+}
+.callout .SESyndicationModule ol.feedItems li a {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_link_list.png);
+	background-repeat : no-repeat;
+	background-position : left 11px;
+	padding : 5px 5px 5px 15px;
+	display : inline-block;
+}
+.callout .SESyndicationModule ol.feedItems li h3.title {
+	font-size : 13px;
+	line-height : 16px;
+	font-family : "Noto Sans", sans-serif;
+	font-weight : normal;
+	margin : 0;
+}
+.callout .SESyndicationModule ol.feedItems li {
+	border-bottom : 1px dotted #cfd1d5;
+}
+.callout .SESyndicationModule ol.feedItems li:last-child {
+	border-bottom : 0;
+}
+#site.visit #content .cols_container .col1 {
+	padding : 0 10px;
+}
+#site.visit #content .col1 .row.one .box {
+	background : #f1f1f1;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/pattern_stripey.png);
+	padding : 10px;
+}
+#site.visit #content .col1 .row.one .box .box_title_wrapper {
+	background-color : #fff;
+}
+#site.visit #content .col1 .row.one .box .details {
+	background-color : #fff;
+	padding : 10px 25px 15px;
+}
+#site.visit .eventcalwrapper .SECalendarViewletDetails .eventcaldate {
+	margin-top : 0;
+}
+#site.visit .eventcalwrapper .SECalendarViewletItem {
+	padding : 10px 0;
+	border-bottom : 1px solid #ebebeb;
+}
+#site.visit .eventcalwrapper .SECalendarViewletItem.event4 {
+	border-bottom : 0;
+}
+#site.visit .row.two {
+	margin-top : 20px;
+}
+#site.visit .row.two .box h3 {
+	color : #004d43;
+	line-height : 22px;
+	margin : 5px 0 10px;
+}
+#site.visit .row.two ul.link_list a {
+	padding : 0 0 0 15px;
+	background-position : left 8px;
+}
+#site.alum.landing .eventcalwrapper .SECalendarViewletItem.event2 .SECalendarViewletDetails {
+	border-bottom : 0;
+}
+#choose_program .details {
+	color : #003333;
+	font-size : 14px;
+	line-height : normal;
+	background-color : #b3d233;
+	max-height : 0;
+	transition : all 0.3s ease;
+	overflow : hidden;
+	padding : 0 15px;
+}
+.social .icons ul li:first-child {
+	margin-left : 0;
+}
+#site.home #info {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/pattern_check.png),url(/sites/all/themes/stevenson/cssAssets/media_bg_sm.png);
+	background-repeat : repeat,no-repeat;
+	background-size : auto,100% 100%;
+	s  	padding : 20px;
+}
+#site.interior #info {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/pattern_check.png),url(/sites/all/themes/stevenson/cssAssets/media_bg_sm.png);
+	background-repeat : repeat,no-repeat;
+	background-size : auto,100% 100%;
+	padding : 20px;
+}
+#info #photo_stream ul.photos {
+	overflow : hidden;
+	margin : -8px 0 0;
+	padding : 0;
+	list-style : none;
+}
+#site.gps #info .cols_container .col3 {
+	display : none;
+}
+#programs_form label {
+	font-family : "Merriweather Sans",sans-serif;
+	font-size : 12px;
+	line-height : 18px;
+	margin-top : 10px;
+	display : block;
+	font-style : normal;
+}
+#site.gps.landing .eventcalwrapper .SECalendarViewletItem {
+	border-top : 1px solid #ebebeb;
+	padding : 10px 0;
+}
+#site.gps.landing .eventcalwrapper .SECalendarViewletItem:first-child {
+	border-top : 0;
+}
+#site.gps.landing .eventcalwrapper .SECalendarViewletDetails .eventcaldate {
+	margin-top : 0;
+}
+#choose_program .details #filter_form {
+	visibility : hidden;
+}
+#choose_program .details.animate #filter_form {
+	visibility : visible;
+}
+#content .inner img {
+	max-width : 100%;
+	height : auto !important;
+}
+#search .gsc-search-button input {
+	border : 0;
+	padding : 10px 15px;
+	background-color : #0096db;
+	text-indent : -9999px;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_white_lg.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	border-radius : 0 5px 5px 0;
+	cursor : pointer;
+	max-width : 40px;
+	height : auto !important;
+	min-width : 0 !important;
+}
+#choose_program #filter_form #focus {
+	margin-top : 5px;
+}
+select.hasCustomSelect {
+	display : block;
+	width : 100%;
+	max-width : 100%;
+}
+#choose_program a.trigger {
+	display : block;
+	color : #004d43;
+	font-size : 14px;
+	line-height : normal;
+	font-family : "Merriweather Sans", sans-serif;
+	font-weight : 300;
+	padding : 15px 15px 15px 35px;
+	background-image : url("/sites/all/themes/stevenson/cssAssets/icon_down.png");
+	background-repeat : no-repeat;
+	background-position : 10px center;
+	cursor : pointer;
+	transition : box-shadow 0.3s ease;
+	-webkit-user-select : none;
+	-moz-user-select : none;
+	-ms-user-select : none;
+}
+#request_program_info a.trigger {
+	display : block;
+	color : #fff;
+	font-size : 14px;
+	line-height : normal;
+	font-family : "Merriweather Sans", sans-serif;
+	font-weight : 300;
+	padding : 15px 15px 15px 35px;
+	background-image : url("/sites/all/themes/stevenson/cssAssets/icon_down.png");
+	background-repeat : no-repeat;
+	background-position : 10px center;
+	cursor : pointer;
+	transition : box-shadow 0.3s ease;
+	-webkit-user-select : none;
+	-moz-user-select : none;
+	-ms-user-select : none;
+}
+#programs_form input#submit {
+	cursor : pointer;
+	background-color : #cc1165;
+	color : #fff;
+	text-transform : uppercase;
+	font-family : "Merriweather Sans",sans-serif;
+	font-size : 12px;
+	line-height : 18px;
+	box-shadow : 0 0 40px 0 #ae0f56 inset;
+	transition : box-shadow 0.3s ease;
+	-moz-box-sizing : content-box;
+	-webkit-box-sizing : content-box;
+	box-sizing : content-box;
+	margin-top : 15px;
+}
+.social .icons ul li {
+	float : left;
+	display : block;
+	margin-right : 5px;
+}
+.social .icons ul li a {
+	display : block;
+}
+#photo_stream ul.photos li {
+	margin-bottom : 3px;
+	display : block;
+}
+#photo_stream ul.photos li a {
+	display : block;
+}
+.no-multiplebgs #site.home #info {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/media_bg_sm.png) !important;
+	background-repeat : no-repeat !important;
+	background-size : 100% 100% !important;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sites/all/themes/stevenson/cssAssets/media_bg_sm.png', sizingMethod='scale');
+}
+#info .cols_container {
+	position : relative;
+}
+.no-multiplebgs #site.interior #info {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/media_bg_sm.png) !important;
+	background-repeat : no-repeat !important;
+	background-size : 100% 100% !important;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sites/all/themes/stevenson/cssAssets/media_bg_sm.png', sizingMethod='scale');
+}
+#site.interior #info .cols_container, #site.home #info {
+	position : relative;
+}
+sup {
+	font-size : 55%;
+}
+#programs_form h2 {
+	background-color : #cc1165;
+	color : #fff;
+	font-size : 20px;
+	margin : 0;
+	padding : 10px 25px;
+}
+#site.interior.hr #info,  #site.interior.alum #info,  #site.interior.gps #info {
+	background-image : none !important;
+	background : #f2f3f4 !important;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+
+
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+
+
+
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+
+
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false) : 
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false);
+	font-size : .875em;
+	margin-bottom : -20px;
+}
+#site.hr #info,  #site.alum #info,  #site.gps #info {
+	background-image : none !important;
+	background : #f2f3f4 !important;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=false);
+}
+#search form td {
+	padding-right : 0;
+}
+#search form.seSearchForm label {
+	display : none;
+}
+#search form {
+	overflow : hidden;
+}
+#search #seSearchButton_1 {
+	border : 0;
+	padding : 10px 15px;
+	background-color : #0096db;
+	text-indent : -9999px;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/arrow_white_lg.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	border-radius : 0 5px 5px 0;
+	cursor : pointer;
+	max-width : 40px;
+	height : auto !important;
+	min-width : 0 !important;
+	float : right;
+}
+#site .seSolr_resultBar,   #site .seSolr_title,   #site .seSolr_url,   #site .seSolr_summary,   #site #seSolr_pagination {
+	font-family : "Noto Sans",sans-serif;
+}
+#site #seSolr_pagination {
+	max-width : none;
+}
+#site .seSolr_summary {
+	max-width : none;
+}
+#site .seSolr_url {
+	max-width : none;
+	color : #37625E;
+}
+#search .seSearchForm {
+	border-bottom : 0;
+	margin-bottom : 0;
+	padding-bottom : 0;
+}
+#search #seSearchBox_1 {
+	border : 0;
+	padding : 10px 0 10px 45px;
+	background-color : transparent !important;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/icon_search.png) !important;
+	background-repeat : no-repeat !important;
+	background-position : 12px center !important;
+	color : #666;
+	width : 64%;
+	float : left;
+}
+h2 em sup {
+	padding-left : 2px;
+}
+#info #photo_stream ul.photos li {
+	float : right;
+	width : 49%;
+	margin-left : 2%;
+}
+#info #photo_stream ul.photos li.photo1,  #info #photo_stream ul.photos li.photo3 {
+	margin-left : 0;
+	float : left;
+}
+#news_detail .image img {
+	display : block;
+	margin : auto;
+	border : 10px solid #ddd;
+}
+#news_detail .image .caption {
+	color : #999;
+	font-style : italic;
+	margin-top : 5px;
+}
+#hidden {
+	display : none;
+}
+#info .video_box {
+	max-width : 320px;
+	margin : auto;
+}
+.seSpecial {
+	display : none;
+	visibility : none;
+}
+.bg {
+	background : #fefefe;
+	background-image : url("/sites/all/themes/stevenson/cssAssets/pattern_stripey.png");
+	background-image : url("/sites/all/themes/stevenson/cssAssets/pattern_stripey.png"), -moz-linear-gradient(top,  #fefefe 0%, #fcfcfc 100%);
+	background-image : url("/sites/all/themes/stevenson/cssAssets/pattern_stripey.png"), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#fcfcfc));
+	background-image : url("/sites/all/themes/stevenson/cssAssets/pattern_stripey.png"), -webkit-linear-gradient(top,  #fefefe 0%,#fcfcfc 100%);
+	background-image : url("/sites/all/themes/stevenson/cssAssets/pattern_stripey.png"), -o-linear-gradient(top,  #fefefe 0%,#fcfcfc 100%);
+	background-image : url("/sites/all/themes/stevenson/cssAssets/pattern_stripey.png"), -ms-linear-gradient(top,  #fefefe 0%,#fcfcfc 100%);
+	background-image : url("/sites/all/themes/stevenson/cssAssets/pattern_stripey.png"), linear-gradient(to bottom,  #fefefe 0%,#fcfcfc 100%);
+	padding : 0 0 15px;
+}
+#career_callout {
+	text-align : center;
+}
+#career_callout p {
+	margin : 0;
+}
+#career_callout > a {
+	background-color : #b4d333;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/career-callout-arrow.png);
+	background-repeat : no-repeat;
+	background-position : right center;
+	border-bottom-left-radius : 5px;
+	border-bottom-right-radius : 5px;
+	color : #124e44;
+	display : inline-block;
+	font-size : 14px;
+	line-height : normal;
+	padding : 7px 35px 7px 15px;
+	text-align : center;
+	text-transform : uppercase;
+	transition : background-color 0.3s, color 0.3s;
+}
+#find #audience_nav li:last-child {
+	border-right : 0;
+}
+#career_callout > a:hover {
+	background-color : #7C9905;
+	color : #fff;
+}
+#header .wrap {
+	padding : 15px 10px 0;
+}
+#toolbar {
+	background-color : #000;
+	color : #656060;
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 10px;
+	font-weight : 300;
+	line-height : normal;
+	letter-spacing : 0.05em;
+	font-style : italic;
+	padding : 5px 10px;
+	overflow : visible;
+}
+.social_list .social .icons {
+	margin-top : 0;
+	margin-bottom : 20px;
+}
+.social_list .social h3 {
+	margin-bottom : 0;
+}
+#site.landing .main-cta .cols_container .col2 ul,  #site.landing .main-cta .cols_container .col3 ul {
+	list-style : none;
+	margin : 0;
+	padding : 0;
+}
+#site.landing #content {
+	background-color : #f1f1f1;
+	background-image : url(/sites/all/themes/stevenson/cssAssets/pattern_stripey.png);
+}
+#site.hr.landing #content {
+	padding : 20px 0;
+}
+.gps #content #tabs .title, #content .gps #tabs .title {
+	background-color : #fff !important;
+	border : 1px solid #E0DEDE !important;
+	color : #053b61 !important;
+}
+#content #tabs .active .title,#site #content #tabs .title:hover {
+	background-color : #033;
+	color : #fff;
+}
+.mini_slider {
+	position : relative;
+}
+.mini_slider #controls {
+	position : absolute;
+	overflow : hidden;
+	width : 100%;
+	bottom : 0;
+	transition : all 0.3s ease;
+}
+.mini_slider #controls a {
+	text-indent : -9999px;
+	width : 25px;
+	height : 25px;
+	background-color : #b6b6b8;
+	display : block;
+	transition : all 0.5s ease;
+}
+.mini_slider #controls a.nextBtn {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/mini_slider_arrow_next.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	float : right;
+}
+.mini_slider #controls a.prevBtn {
+	background-image : url(/sites/all/themes/stevenson/cssAssets/mini_slider_arrow_prev.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	float : left;
+}
+.mini_slider #controls a:hover {
+	background-color : #1f95d3;
+}
+.mini_slider .caption {
+	padding : 15px 45px;
+	color : #666;
+}
+.mini_slider .section_title {
+	font-family : "Merriweather Sans", sans-serif;
+	font-size : 14px;
+	line-height : normal;
+	color : #fff;
+	letter-spacing : 0.05em;
+	text-transform : uppercase;
+	padding : 10px 5%;
+	width : 90%;
+	background-image : url("/sites/all/themes/stevenson/cssAssets/trans_pixel.png");
+	position : absolute;
+	z-index : 9996;
+}
+.mini_slider h3 {
+	margin : 0 0 10px;
+	font-size : 16px;
+	color : #167fb0;
+}
+.mini_slider ul {
+	overflow : hidden;
+	margin : 0;
+}
+.mm .callout img {
+	padding : 0;
+}
+#program_intro .caption {
+	background-color : #003334;
+	font-family : "Merriweather Sans",sans-serif;
+	color : #fff;
+	padding : 25px;
+}

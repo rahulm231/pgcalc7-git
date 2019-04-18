@@ -1,0 +1,52 @@
+#giftGuide input[type="radio"]
+{
+	vertical-align: bottom !important;
+}
+
+#titlebar-links .pgc-title-btn [class^="icon-"]
+{
+	background-image: none !important;
+	    color: #fff;
+}
+#block-pgc-contact-block-pgc-contact-block
+{
+	margin-top: 20px;
+}
+.pg-wrap > .pg-content-body{
+	width:70%;
+}
+
+.pg-content-inline-blocks{
+	width:28%;
+}
+
+.pg-wrap > .pg-content-body > .region-content-body > #block-system-main > .content > .node{
+	display:inline-block;
+}
+
+.aboutbox p {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 999px) {	
+    .pg-wrap > .pg-content-body, .pg-content-inline-blocks{
+		width:100%;
+	}
+
+	.pg-content-inline-blocks #block-system-main-menu
+	{
+		display: none;
+	}
+	#block-pgc-misc-blocks-mobilenav .control-container .control
+	{
+		right: 20px;
+	}
+	.region-content-top #block-pgc-misc-blocks-mobilenav
+	{
+       padding-top: 20px;
+	}
+	.navbar
+	{
+		position: relative;
+	}
+}

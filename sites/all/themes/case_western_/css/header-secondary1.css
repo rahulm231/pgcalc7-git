@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+/* HTML5 Boilerplate  */
+article, aside, details, figcaption, figure, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+
+/* Reset */
+html, body, address, blockquote, footer, dl, pre, span,  button, del, ins, map, object, abbr, acronym, b, bdo, big, cite, code, dfn, i, kbd, q, samp, small, sub, sup, tt, var, legend, fieldset  { font-family: 'Titillium Web', Helvetica, Arial, sans-serif; color:#333; margin:0; padding:0; line-height:1.4; font-weight : normal; font-size:16px; font-weight:400;   }
+
+
+/* GLOBAL HEADER
+-------------------------- */
+
+header {background:#0a304e; border-bottom:solid 1px #ddd;}      
+header section {position:relative; margin:0 auto; width:88.2%; max-width:1170px;   padding:20px 0 30px 0; }
+header .logo {margin-top:7px; margin-right:12px; border:0 none /*IE*/ }
+
+/* top audience links*/
+header section .cwru-top {position:absolute; margin:0; padding:0; right:135px; top:3px; width:auto; clear:both;}
+header section .cwru-top ul {margin:0; padding:0; }
+header section .cwru-top li {margin:0; padding:0; list-style-type:none; float:left; }
+header section .cwru-top li a { display:block; padding:10px; font-size:15px; color:#ffffff; text-decoration:none; }
+header section .cwru-top li a:hover {text-decoration:none; color:#fff; }
+
+/* Search */
+.search {position:absolute; right:0; bottom:25px; }
+.search input[type="text"] { background:#ddd; border: 0 none; font-size:14px; color: #333; width:130px; padding: 7px 45px 7px 10px; font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+       -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+            box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+			
+ }
+.search input[type="text"]:focus { background: #fff; font-size:18px; color: #333; width: 200px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+       -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+            box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+             text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); }
+
+.search-btn {position:absolute; right:10px; top:7px; }
+
+/* CWRU Global Links */
+.cwru-links { position:absolute; right:0; top:40px; z-index:9999; width:20%; font-family: 'Titillium Web', Helvetica, Arial, sans-serif;}
+.cwru-links ul {background-color:#fff; margin:0; padding:0; display:none;
+ box-shadow: 0px 3px 1px rgba(0,0,0,.2), -4px 3px 3px rgba(0,0,0,.2), 3px 3px 4px rgba(0,0,0,.2); }
+.cwru-links li {margin:0; padding:0; list-style-type:none; }
+.cwru-links li.show {margin:0; padding:0; list-style-type:none; }
+.cwru-links li:last-child a {border-bottom:0;  }
+.cwru-links li a {display:block; font-size:20px; padding:13px 20px;  color:#333; text-decoration:none; border-bottom:solid 1px rgba(153,153,153,.2); text-shadow:none;
+     -webkit-transition: All 0.3s ease-in-out;
+	    -moz-transition: All 0.3s ease-in-out;
+	     -ms-transition: All 0.3s ease-in-out;
+	      -o-transition: All 0.3s ease-in-out;
+	         transition: All 0.3s ease-in-out; }
+.cwru-links li a:hover {background-color:#eee; }
+
+#global-menu-toggle {position:absolute; right:0; text-align:center; top:4px;  cursor:pointer;  font-size:18px;  text-transform:lowercase; background:url(/sites/all/themes/case_western_/cssAssets/cwru-links-list.png) no-repeat ; color:#ddd; background-position: -258px; padding:5px 10px 8px 50px;  }
+
+#global-menu-toggle:hover {background-color:rgba(255,255,255,.1); }
+#global-menu-toggle.active {background-position:20px; color:#333; background-color:rgba(255,255,255, 1); }
+
+
+
+
+/* Responsive Structure 
+------------------------------------------*/
+
+/* MIN-WIDTH 
+---------------------*/
+@media screen and (min-width: 651px) {
+	
+.mobile-nav-toggle_smartphone {display:none; }
+
+	
+}
+
+@media screen and (min-width: 769px) {
+	.mobile-nav-toggle {display:none; }
+	.mobile-nav {display:none; }
+}
+
+@media screen and (min-width: 769px) {
+	.cwru-links li.show {display:none;}
+}
+
+
+
+
+/* MAX-WIDTH
+-----------------------*/ 
+
+/* Smartphone */
+
+@media screen and (max-width: 480px) {
+header section { width:95%; padding:0 0 20px 0 !important; }
+header img {width:100%; }
+.search { width:87% !important; bottom:0 !important; }
+.search-btn {right:-5% !important; top:32.3%; }
+header section .cwru-top {display:none;}
+
+
+
+}
+
+@media screen and (max-width: 650px) {
+header { margin:0; padding:0;}
+header section { padding:0 0 60px 0; margin-top:0 !important; }
+header .logo {margin:17px 0; }
+.search {position:relative !important; bottom:-10px; width:95%; }
+.search input[type="text"] {width: 95%; height:40px;  }
+.search input[type="text"]:focus {width: 95%; }
+.mobile-nav-toggle {display:none !important; }
+.cwru-links { position:relative;   padding:0 !important; margin:0 !important; width:100% !important; }
+.cwru-links ul {padding:0; margin:-46px 0 45px 0 !important; display:none; box-shadow: none; }
+.cwru-links li {margin:0; padding:0; list-style-type:none; }
+.cwru-links li a {display:block; font-size:20px; padding:13px 20px;  color:#333; text-decoration:none; border-bottom:solid 1px rgba(153,153,153,.2); }
+.mobile-nav-toggle_smartphone {font-size:125%; }
+.search-btn {right:0; top:32.3%; }
+
+
+#global-menu-toggle {/*background-color:rgba(155,155,155, .2);*/  font-size:80%; float:right; position:relative; margin-top:-3px; width:78px;  background-position: -268px; padding:8px 10px 13px 37px !important; border-bottom:solid 1px rgba(255,255,255,.1);
+-webkit-box-shadow: 0 5px 5px -5px rgba(30,30,30,.9);
+   -moz-box-shadow: 0 5px 5px -5px rgba(30,30,30,.9);
+	    box-shadow: 0 5px 5px -5px rgba(30,30,30,.9);  }
+#global-menu-toggle {background-color:rgba(255,255,255,.1); }
+
+#global-menu-toggle.active {background-position:10px; }
+
+}
+
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+.cwru-links { top:47px !important; width:40%; }
+.mobile-nav-toggle {font-size:130%; }
+header section .cwru-top {display:none;}
+
+}
+
+@media screen and (max-width: 1024px) {
+.cwru-links {top:52px; width:30%; }
+
+		
+	
+}
+
+
+/* TUNNING */
+
+/* Tablet --Retina display */
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+.cwru-links {top:52px; width:30%; }
+.cwru-links ul {margin-top:-5px;}
+
+
+}
+
+
+
+

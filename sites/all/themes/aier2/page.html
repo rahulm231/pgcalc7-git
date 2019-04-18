@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js ie iem7" original-class="no-js ie iem7" lang="en" dir="ltr"><![endif]--><!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" original-class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]--><!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" original-class="no-js ie lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]--><!--[if IE 8]><html class="no-js ie lt-ie9" original-class="no-js ie lt-ie9" lang="en" dir="ltr"><![endif]--><!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" original-class="no-js ie" lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#"><![endif]--><!--[if !IE]><!--><html class="no-js" original-class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#">
+<!--<![endif]--><head>
+<!--[if IE]><![endif]--><link rel="dns-prefetch" href="//s7.addthis.com">
+<link rel="preconnect" href="//s7.addthis.com">
+<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+<link rel="preconnect" href="//maxcdn.bootstrapcdn.com">
+<link rel="preconnect" href="//fonts.gstatic.com" crossorigin="">
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="preconnect" href="//cse.google.com">
+<link rel="dns-prefetch" href="//cse.google.com">
+<link rel="preconnect" href="//google_tag">
+<link rel="dns-prefetch" href="//google_tag">
+<link rel="dns-prefetch" href="//facebook_tracking_pixel">
+<link rel="preconnect" href="//facebook_tracking_pixel">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="preconnect" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//stats.g.doubleclick.net">
+<link rel="preconnect" href="//stats.g.doubleclick.net">
+<meta charset="utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><link rel="profile" href="/sites/all/themes/aier2/linked/vocab">
+<link rel="apple-touch-icon-precomposed" href="/sites/all/themes/aier2/linked/7de423e50154e5a9f5b9c6f018480972.png" sizes="114x114">
+<link rel="shortcut icon" href="/sites/all/themes/aier2/linked/favicon.ico" type="image/vnd.microsoft.icon">
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="width">
+<meta http-equiv="cleartype" content="on">
+<link rel="apple-touch-icon-precomposed" href="/sites/all/themes/aier2/linked/9d8ab759f8b3bdc2decd6551e18da8c6.png" sizes="144x144">
+<link rel="apple-touch-icon-precomposed" href="/sites/all/themes/aier2/linked/apple-touch-icon-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="/sites/all/themes/aier2/linked/b88f0ffa7c364401fb4e2aa9285a654d.png" sizes="72x72">
+<meta name="description" content="The American Institute for Economic Research is a not-for-profit that educates Americans on the value of personal freedom, free enterprise, property rights, limited government and sound money. The institute owns various assets and one is a fully owned subsidiary, American Investment Services, Inc. (AIS).  AIS is an S.E.C. Registered Investment Adviser founded in 1978 and is">
+<meta name="abstract" content="AIER helps people build the economic and financial capacity to live free, independent, and fulfilling lives. Non-profit and independent, we provide research-based insights and information on how best to pursue your economic and financial goals.">
+<meta name="robots" content="follow, index">
+<meta name="keywords" content="Business Conditions Monthly, Business-Cycle Conditions, Daily Economy, Executive Briefs, Research Briefs, Everyday Price Index, Research Studies, Inflation Reports, Economic Bulletin, Special Reports, Modern Portfolio Theory">
+<meta name="viewport" content="width=device-width">
+<meta name="generator" content="Drupal 7 (http://drupal.org)">
+<link rel="canonical" href="https://www.aier.org/american-investment-services-inc">
+<link rel="shortlink" href="https://www.aier.org/node/4170">
+<meta property="og:title" content="American Investment Services, Inc.">
+<meta property="og:description" content="The American Institute for Economic Research is a not-for-profit that educates Americans on the value of personal freedom, free enterprise, property rights, limited government and sound money. The institute owns various assets and one is a fully owned subsidiary, American Investment Services, Inc. (AIS).  AIS is an S.E.C. Registered Investment Adviser founded in 1978 and is governed by a Board of Directors appointed by AIER. AIS provides low-cost independent Asset Management Services to individuals (including IRAs), estates, trusts, retirement plans and charitable organizations. ">
+<meta property="og:updated_time" content="2018-02-05T10:19:16-05:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@aier">
+<meta name="twitter:creator:id" content="37975072">
+<meta name="twitter:url" content="https://www.aier.org/american-investment-services-inc">
+<meta name="twitter:title" content="American Investment Services, Inc.">
+<meta name="twitter:description" content="The American Institute for Economic Research is a not-for-profit that educates Americans on the value of personal freedom, free enterprise, property rights, limited government and sound money. The">
+<meta property="article:published_time" content="2014-05-15T08:56:13-04:00">
+<meta property="article:modified_time" content="2018-02-05T10:19:16-05:00">
+<noscript><img height="1" width="1" style="display:none" src="/sites/all/themes/aier2/img/tr"></noscript>
+<title>American Investment Services, Inc. | AIER</title>
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/aier2/css/font-awesome.min.css" media="all">
+<style>@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'),local('OpenSans-Regular'),url(/sites/all/themes/aier2/cssAssets/mem8YaGs126MiZpBA-UFVZ0d.woff) format('woff'),url(/sites/all/themes/aier2/cssAssets/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local('Open Sans SemiBold'),local('OpenSans-SemiBold'),url(/sites/all/themes/aier2/cssAssets/mem5YaGs126MiZpBA-UNirkOUuhv.woff) format('woff'),url(/sites/all/themes/aier2/cssAssets/mem5YaGs126MiZpBA-UNirkOUuhs.ttf) format('truetype');}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(/sites/all/themes/aier2/cssAssets/mem5YaGs126MiZpBA-UN7rgOUuhv.woff) format('woff'),url(/sites/all/themes/aier2/cssAssets/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf) format('truetype');}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:300;src:local('Source Sans Pro Light'),local('SourceSansPro-Light'),url(/sites/all/themes/aier2/cssAssets/28d03185fff7d212ef1c5f0525dfd146.woff) format('woff'),url(/sites/all/themes/aier2/cssAssets/d7178566effa932ed3911f6e44a8c285.ttf) format('truetype');}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local('Source Sans Pro Regular'),local('SourceSansPro-Regular'),url(/sites/all/themes/aier2/cssAssets/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7j.woff) format('woff'),url(/sites/all/themes/aier2/cssAssets/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:local('Source Sans Pro Bold'),local('SourceSansPro-Bold'),url(/sites/all/themes/aier2/cssAssets/cb1c1a4ecd5b56593f2ef73fef8a1086.woff) format('woff'),url(/sites/all/themes/aier2/cssAssets/2765013ae32738b4c0308ddc97c6bef0.ttf) format('truetype');}</style>
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/aier2/css/49a81f942caee9a53f501ff130a20f38.css" media="all">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/aier2/css/7fc128fc96b10951b54a76f3f6316030.css" media="all">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/aier2/css/6333032b23cb57a3b03b5ab21d7f1e34.css" media="all">
+<link type="text/css" rel="stylesheet" href="/sites/all/themes/aier2/css/c338930d0e3c820afde1f558caa669e0.css" media="all">
+<!--[if lte IE 8]><link type="text/css" rel="stylesheet" href="/sites/all/themes/aier2/css/3b8c61dfb3d09a7b78974c9b278a7c25.css" media="all" /><![endif]--><!--[if lte IE 9]><script type="text/javascript" src="/sites/all/themes/aier2/js/f8db67facc0974bb6252f27b2b26c3da.js#ie9-" onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);}"></script><![endif]--><!--[if gt IE 9]><script type="text/javascript" src="/sites/all/themes/aier2/js/f8db67facc0974bb6252f27b2b26c3da.js#ie10+" defer="defer" onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);}"></script><![endif]--><!--[if !IE]><!--><script type="text/javascript" src="/sites/all/themes/aier2/js/f8db67facc0974bb6252f27b2b26c3da.js" defer onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);}"></script><!--<![endif]--><script type="text/javascript" src="/sites/all/themes/aier2/js/c4a6f9bb139bdac2541ecbdd42df9cbc.js" defer onload="
+function advagg_mod_1() {
+// Count how many times this function is called.
+advagg_mod_1.count = ++advagg_mod_1.count || 1;
+try {
+if (advagg_mod_1.count &lt;= 40) {
+init_drupal_core_settings();
+// Set this to 100 so that this function only runs once.
+advagg_mod_1.count = 100;
+}
+}
+catch(e) {
+if (advagg_mod_1.count &gt;= 40) {
+// Throw the exception if this still fails after running 40 times.
+throw e;
+}
+else {
+// Try again in 1 ms.
+window.setTimeout(advagg_mod_1, 1);
+}
+}
+}
+function advagg_mod_1_check() {
+if (window.init_drupal_core_settings &amp;&amp; window.jQuery &amp;&amp; window.Drupal) {
+advagg_mod_1();
+}
+else {
+window.setTimeout(advagg_mod_1_check, 1);
+}
+}
+advagg_mod_1_check();"></script><script type="text/javascript" src="/sites/all/themes/aier2/js/d47530ac1d73491dbc799bb917438794.js" defer></script>
+<!--<script type="text/javascript">
+(function(i,s,o,r){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date()})(window,document,"script","ga");ga("create", "UA-574001-1", {"cookieDomain":"auto"});ga("send", "pageview");
+</script>--><script type="text/javascript" async="async" src="/sites/all/themes/aier2/js/analytics.js"></script><script type="text/javascript" src="/sites/all/themes/aier2/js/9da3a002930c4f7076c0056b37b2ec82.js" defer async="async"></script><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function init_drupal_core_settings() {jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nt_aier","theme_token":"7Wd683iDtbmKFVDIYPsIP1gOZR4qxLJ7e_RGa9GODZU","jquery_version":"1.8","css":{"https:\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.4.0\/css\/font-awesome.min.css":1,"css?family=Open+Sans:400,600,700|Source+Sans+Pro:400,300,700":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.base.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.menus.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.messages.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/dc_ajax_add_cart\/css\/dc_ajax_add_cart.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/field\/field.theme.css":1,"sites\/all\/modules\/contrib\/youtube\/css\/youtube.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/user\/user.base.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/user\/user.theme.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/custom\/aier_fcb\/css\/jquery.bxslider.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/contrib\/mobile_navigation\/mobile_navigation.css":1,"sites\/all\/libraries\/fontawesome\/css\/all.css":1,"sites\/all\/themes\/nt_aier\/css\/nt-aier.normalize.css":1,"sites\/all\/themes\/nt_aier\/css\/nt-aier.hacks.css":1,"sites\/all\/themes\/nt_aier\/css\/nt-aier.styles.css":1,"sites\/all\/themes\/nt_aier\/css\/addthis.css":1,"sites\/all\/themes\/nt_aier\/css\/nt-aier.no-query.css":1},"js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/themes\/omega\/omega\/js\/no-js.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/dc_ajax_add_cart\/js\/dc_ajax_add_cart_html.js":1,"sites\/all\/modules\/contrib\/geo_filter\/geo_filter.js":1,"sites\/all\/modules\/contrib\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/contrib\/mobile_navigation\/js\/mobile_menu.js":1,"sites\/all\/modules\/contrib\/mobile_navigation\/mobile_navigation.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"sites\/all\/themes\/nt_aier\/js\/nt-aier.behaviors.js":1,"sites\/all\/themes\/nt_aier\/js\/aier7.addthis.js":1,"public:\/\/facebook_tracking_pixel\/fb_tkpx.1858570597751699.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ajax.js":1,"https:\/\/www.aier.org\/sites\/default\/files\/googleanalytics\/analytics.js?pnhsrl":1,"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1}},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/contrib\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":true,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":false,"disable_resize":false,"disable_zoom":false,"force_show_nav":false,"show_caption":true,"loop_items":false,"node_link_text":"View Image Details","node_link_target":false,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":false,"useragent":"Mozilla\/5.0 (X11; Linux x86_64; rv:12.0) Gecko\/20100101 Firefox\/21.0"},"mobile_navigation":{"breakpoint":"(min-width: 1025px)","menuSelector":"#superfish-1","menuPlugin":"accordion","showEffect":"fixed_right","showItems":"active_trail","tabHandler":1,"menuWidth":"65","specialClasses":0,"mainPageSelector":".l-page","useMask":1,"menuLabel":"\u003Ci class=\u0022fa fa-bars\u0022\u003E\u003C\/i\u003EMenu","expandActive":0},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(false);}} if(window.jQuery && window.Drupal){init_drupal_core_settings();}
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-4170 node-type-page section-american-investment-services-inc" original-class="html not-front not-logged-in page-node page-node- page-node-4170 node-type-page section-american-investment-services-inc">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=213515165337987&autoLogAppEvents=1';
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><a href="#main-content" class="element-invisible element-focusable" original-class="element-invisible element-focusable">Skip to main content</a> <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NW867C" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager">Google Tag Manager</iframe></noscript>
+<div class="l-page" original-class="l-page"> <header class="l-header" original-class="l-header" role="banner"><div class="l-inner-header" original-class="l-inner-header">
+<div class="l-branding" original-class="l-branding">
+<h1 class="site-name" original-class="site-name"> <a href="https://www.aier.org/" title="Home" rel="home"> <span>AIER</span> </a>
+</h1>
+<h2 class="site-slogan" original-class="site-slogan">American Institute for Economic Research</h2>
+</div>
+<div class="l-region l-region--navigation" original-class="l-region l-region--navigation"> <nav id="block-system-main-menu" role="navigation" class="block block--system block--menu block--system-main-menu" original-class="block block--system block--menu block--system-main-menu"><ul class="menu" original-class="menu">
+<li class="first expanded" original-class="first expanded">
+<i class="fa fa-angle-down" original-class="fa fa-angle-down"></i><a href="https://www.aier.org/article">Articles</a><div class="dropdown" original-class="dropdown">
+<ul class="ddcol" original-class="ddcol">
+<li class="title" original-class="title">Categories</li>
+<li><a href="https://www.aier.org/article">Daily Economy</a></li>
+<li><a href="https://www.aier.org/bcm">Business Conditions Monthly</a></li>
+<li><a href="https://www.aier.org/research/business-cycle-conditions">Business-Cycle Conditions</a></li>
+<li><a href="https://www.aier.org/research/everyday-price-index">Everyday Price Index</a></li>
+<li><a href="https://www.aier.org/pertinent-tags/video">Videos</a></li>
+</ul>
+<ul class="ddcol more-menu last" original-class="ddcol more-menu last">
+<li class="title" original-class="title">More</li>
+<li><a href="https://www.aier.org/cost-living-calculator">Cost of Living Calculator</a></li>
+<li><a href="https://www.aier.org/pertinent-tags/books">Books</a></li>
+<li><a href="https://www.aier.org/american-investment-services-inc" class="active" original-class="active">American Investment Services</a></li>
+<li><a href="https://www.aier.org/progress-foundation">Progress Foundation</a></li>
+</ul>
+</div>
+</li>
+<li class="expanded" original-class="expanded">
+<i class="fa fa-angle-down" original-class="fa fa-angle-down"></i><a href="https://www.aier.org/bastiatsociety">Bastiat Society</a><div class="dropdown" original-class="dropdown">
+<ul class="ddcol" original-class="ddcol">
+<li><a href="https://www.aier.org/bastiatsociety/history">About</a></li>
+<li><a href="https://www.aier.org/bastiatsociety/chapters">Chapter Locations</a></li>
+<li><a href="https://www.aier.org/bastiatsociety/get-involved-start-chapter">Start a Chapter</a></li>
+<li><a href="https://www.aier.org/aier-speaker-series">AIER Speaker Series</a></li>
+<li><a href="https://www.aier.org/bastiatsociety/chapter-resources">Chapter Resources</a></li>
+</ul>
+<ul class="ddcol more-menu last" original-class="ddcol more-menu last">
+<li class="title" original-class="title">More</li>
+<li><a href="https://www.aier.org/cost-living-calculator">Cost of Living Calculator</a></li>
+<li><a href="https://www.aier.org/pertinent-tags/books">Books</a></li>
+<li><a href="https://www.aier.org/american-investment-services-inc" class="active" original-class="active">American Investment Services</a></li>
+<li><a href="https://www.aier.org/progress-foundation">Progress Foundation</a></li>
+</ul>
+</div>
+</li>
+<li class="leaf" original-class="leaf"><a href="https://www.aier.org/events">Events</a></li>
+<li class="expanded" original-class="expanded">
+<i class="fa fa-angle-down" original-class="fa fa-angle-down"></i><a href="https://www.aier.org/mission-history">About</a><div class="dropdown" original-class="dropdown">
+<ul class="ddcol" original-class="ddcol">
+<li><a href="https://www.aier.org/opportunities">Opportunities</a></li>
+<li><a href="https://www.aier.org/mission-history">Mission &amp; History</a></li>
+<li><a href="https://www.aier.org/staff">AIER Staff</a></li>
+<li><a href="https://www.aier.org/governance">Governance</a></li>
+<li><a href="https://www.aier.org/financials">Financials</a></li>
+<li><a href="http://plannedgiving.aier.org/">Planned Giving</a></li>
+</ul>
+<ul class="ddcol more-menu last" original-class="ddcol more-menu last">
+<li class="title" original-class="title">More</li>
+<li><a href="https://www.aier.org/cost-living-calculator">Cost of Living Calculator</a></li>
+<li><a href="https://www.aier.org/pertinent-tags/books">Books</a></li>
+<li><a href="https://www.aier.org/american-investment-services-inc" class="active" original-class="active">American Investment Services</a></li>
+<li><a href="https://www.aier.org/progress-foundation">Progress Foundation</a></li>
+</ul>
+</div>
+</li>
+<li class="leaf" original-class="leaf"><a href="https://www.aier.org/store">Store</a></li>
+<li class="last leaf" original-class="last leaf"><a href="https://www.aier.org/donate">Donate</a></li>
+</ul>
+<ul class="ddcol more-menu mobile" original-class="ddcol more-menu mobile"><li><ul class="more-menu mobile" original-class="more-menu mobile">
+<li class="title" original-class="title">More</li>
+<li><a href="https://www.aier.org/cost-living-calculator">Cost of Living Calculator</a></li>
+<li><a href="https://www.aier.org/pertinent-tags/books">Books</a></li>
+<li><a href="https://www.aier.org/american-investment-services-inc" class="active" original-class="active">American Investment Services</a></li>
+<li><a href="https://www.aier.org/progress-foundation">Progress Foundation</a></li>
+</ul></li></ul></nav>
+</div>
+<div class="l-region l-region--header" original-class="l-region l-region--header">
+<div id="block-gcse-gcse-form" class="block block--gcse block--gcse-gcse-form" original-class="block block--gcse block--gcse-gcse-form"><div class="inner" original-class="inner"><div class="block__content" original-class="block__content"> <searchbox-only queryparametername="keys" resultsurl="/search"></searchbox-only>
+</div></div></div>
+<div id="block-dc-ajax-add-cart-ajax-shopping-cart-teaser" class="block block--dc-ajax-add-cart block--dc-ajax-add-cart-ajax-shopping-cart-teaser" original-class="block block--dc-ajax-add-cart block--dc-ajax-add-cart-ajax-shopping-cart-teaser"><div class="inner" original-class="inner"><div class="block__content" original-class="block__content"><div class="ajax-shopping-cart-teaser" original-class="ajax-shopping-cart-teaser">
+<div class="cart-image" original-class="cart-image"><i class="fa fa-shopping-cart" original-class="fa fa-shopping-cart"></i></div>
+<div class="cart-product-quantity" original-class="cart-product-quantity">(<span>0</span>)</div>
+</div></div></div></div>
+</div> <a id="mobile-menu-button" class="mobile-menu-button" original-class="mobile-menu-button"><i class="fa fa-bars" original-class="fa fa-bars"></i></a>
+</div> </header><div class="l-banner" original-class="l-banner"></div>
+<div class="l-main" original-class="l-main">
+<div class="l-content" original-class="l-content" role="main"> <a id="main-content"></a><h1 class="title" original-class="title" id="page-title">American Investment Services, Inc.</h1>
+<div class="share-wrap" original-class="share-wrap">
+<div class="addthis_toolbox" original-class="addthis_toolbox" addthis:title="American Investment Services, Inc." addthis:url="https://www.aier.org/american-investment-services-inc" addthis:description="The American Institute for Economic Research is a not-for-profit that..." addthis:media="">
+<div class="custom_hover" original-class="custom_hover"><span class="custom_button" original-class="custom_button">Share</span></div>
+<div class="hover_menu" original-class="hover_menu">
+<div class="top" original-class="top"></div> <a class="addthis_button_twitter" original-class="addthis_button_twitter">Twitter</a> <a class="addthis_button_facebook" original-class="addthis_button_facebook">Facebook</a> <a class="addthis_button_linkedin" original-class="addthis_button_linkedin">LinkedIn</a><div class="clear" original-class="clear"></div>
+<div class="more" original-class="more"><a class="addthis_button_expanded" original-class="addthis_button_expanded">More...</a></div>
+</div>
+</div>
+<script type="text/javascript">
+var addthis_share = addthis_share || {}
+addthis_share = {url:"https://www.aier.org/american-investment-services-inc", title:"American Investment Services, Inc.", description:"The American Institute for Economic Research is a not-for-profit that...", media: "", passthrough:{twitter:{via:"aier"}}};
+</script><script type="text/javascript" src="/sites/all/themes/aier2/js/addthis_widget.js"></script>
+</div>
+<div id="node-4170" class="node node--page node--full node--page--full clearfix" original-class="node node--page node--full node--page--full clearfix" role="article"><div class="content" original-class="content"><div class="field field--name-body field--type-text-with-summary field--label-hidden" original-class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items" original-class="field__items"><div class="field__item even" original-class="field__item even">
+<p>The American Institute for Economic Research is a not-for-profit that educates Americans on the value of personal freedom, free enterprise, property rights, limited government and sound money. The institute owns various assets and one is a fully owned subsidiary, American Investment Services, Inc. (AIS).  AIS is an S.E.C. Registered Investment Adviser founded in 1978 and is governed by a Board of Directors appointed by AIER. AIS provides low-cost independent Asset Management Services to individuals (including IRAs), estates, trusts, retirement plans and charitable organizations. </p>
+<div><p>AIS's investment approach is consistent with AIER's scientific research findings, as described in the popular book <em>How to Invest Wisely</em>. Based on the institute's research, AIS developed a discretionary investment management service designed to replicate the returns of a domestic large cap value model portfolio, the "High Yield Dow" strategy. AIS also uses funds provided by <a href="http://www.dfafunds.com" target="_blank">Dimensional Fund Advisors</a>, <a href="https://investor.vanguard.com/corporate-portal/" target="_blank">Vanguard</a>, and other low-cost providers. AIS publishes a monthly newsletter, the <em>Investment Guide</em>.</p></div>
+<p> </p>
+<p> </p>
+<p><a href="http://www.americaninvestment.com/" target="_blank">Click here to go to the American Investment Services, Inc. website.</a></p>
+</div></div></div></div></div>
+</div> <aside class="l-region l-region--sidebar-first" original-class="l-region l-region--sidebar-first"><div id="block-bean-gold-and-liberty" class="block block--bean block--bean--featured block--bean-gold-and-liberty" original-class="block block--bean block--bean--featured block--bean-gold-and-liberty"><div class="inner" original-class="inner"><div class="block__content" original-class="block__content"><div class="bean-features-sidebar" original-class="bean-features-sidebar">
+<div class="image" original-class="image"> <a href="https://www.aier.org/gold-and-liberty-page" title="Gold and Liberty"> <img src="/sites/all/themes/aier2/img/goldlib2.jpg" width="300" height="200" alt=""></a>
+</div>
+<div class="content" original-class="content">
+<div class="category" original-class="category"> <a href="https://www.aier.org/gold-and-liberty-page">Featured Publication</a>
+</div> <a href="https://www.aier.org/gold-and-liberty-page" title="Gold and Liberty"><h3 class="title" original-class="title">Gold and Liberty</h3>
+<p> Gold-based money means human advancement and liberty</p> <span class="read-more" original-class="read-more">Free E-book</span> </a>
+</div>
+</div></div></div></div>
+<div id="block-bean-f-college-destinations-index" class="block block--bean block--bean--featured block--bean-f-college-destinations-index" original-class="block block--bean block--bean--featured block--bean-f-college-destinations-index"><div class="inner" original-class="inner"><div class="block__content" original-class="block__content">
+<!----------------REMOVING------------------------------------<div class="bean-features-sidebar" original-class="bean-features-sidebar">
+<div class="image" original-class="image"> <a href="https://www.aier.org/if-something-should-happen" title="If Something Should Happen"> <img src="/sites/all/themes/aier2/img/fcoverSomethingHappen_AIER.jpg" width="300" height="200" alt=""></a>
+</div>
+<div class="content" original-class="content">
+<div class="category" original-class="category"> <a href="https://www.aier.org/if-something-should-happen">Featured Publication</a>
+</div> <a href="https://www.aier.org/if-something-should-happen" title="If Something Should Happen"><h3 class="title" original-class="title">If Something Should Happen</h3>
+<p> Get your financial affairs in order.</p> <span class="read-more" original-class="read-more">Free E-book</span> </a>
+</div>
+</div>------------------------------------END OF REMOVING--------------------------------------------------------------------------------------------->
+</div></div></div>
+<div id="block-bean-f-spring-2012-event" class="block block--bean block--bean--featured block--bean-f-spring-2012-event" original-class="block block--bean block--bean--featured block--bean-f-spring-2012-event"><div class="inner" original-class="inner"><div class="block__content" original-class="block__content">
+<!-----------------------------------REMOVING----------------------------<div class="bean-features-sidebar" original-class="bean-features-sidebar">
+<div class="image" original-class="image"> <a href="https://www.aier.org/how-own-and-invest-gold" title="How to Own and Invest in Gold"> <img src="/sites/all/themes/aier2/img/gg_150x227_0.jpg" width="300" height="200" alt=""></a>
+</div>
+<div class="content" original-class="content">
+<div class="category" original-class="category"> <a href="https://www.aier.org/how-own-and-invest-gold">New Publication</a>
+</div> <a href="https://www.aier.org/how-own-and-invest-gold" title="How to Own and Invest in Gold"><h3 class="title" original-class="title">How to Own and Invest in Gold</h3>
+<p> Is owning gold right for you?</p> <span class="read-more" original-class="read-more">Gold Guide</span> </a>
+</div>
+</div>----------------------------------------------------------END OF REMOVING----------------------------------------------------->
+</div></div></div>
+<div id="block-bean-cost-of-living-calculator" class="block block--bean block--bean--featured block--bean-cost-of-living-calculator" original-class="block block--bean block--bean--featured block--bean-cost-of-living-calculator"><div class="inner" original-class="inner"><div class="block__content" original-class="block__content">
+<!--------------------------------------------REMOVING-----------------<div class="bean-features-sidebar" original-class="bean-features-sidebar">
+<div class="image" original-class="image"> <a href="https://www.aier.org/cost-living-calculator" title="Cost of Living Calculator"> <img src="/sites/all/themes/aier2/img/5299199423_f8de99f3ee_b.jpg" width="300" height="200" alt=""></a>
+</div>
+<div class="content" original-class="content">
+<div class="category" original-class="category"> <a href="https://www.aier.org/cost-living-calculator">Go To The Tool</a>
+</div> <a href="https://www.aier.org/cost-living-calculator" title="Cost of Living Calculator"><h3 class="title" original-class="title">Cost of Living Calculator</h3>
+<p> What's your dollar worth today?</p> </a>
+</div>
+</div>-----------------------------------------------------------END OF REMOVING--------------------------------------------------------->
+</div></div></div> </aside>
+</div> <footer class="l-footer" original-class="l-footer" role="contentinfo"><div class="l-region l-region--footer" original-class="l-region l-region--footer">
+<div id="block-bean-footer-content-v2" class="block block--bean block--bean--footer block--bean-footer-content-v2" original-class="block block--bean block--bean--footer block--bean-footer-content-v2"><div class="inner" original-class="inner"><div class="block__content" original-class="block__content">
+<div class="column column-1" original-class="column column-1">
+<p>PO Box 1000 Great Barrington MA 01230-1000</p>
+<p>E-mail: <a href="https://www.aier.org/contact/info/aier/org">info@aier.org</a><br>Telephone: 1-888-528-1216<br>Fax: 1-413-528-0103</p>
+<p>Press and other media outlets please contact 888-528-1216; <a href="https://www.aier.org/contact/press/aier/org">press@aier.org</a></p>
+</div>
+<div class="column column-2" original-class="column column-2"><ul class="footer-menu" original-class="footer-menu">
+<li><a href="https://aier.org/store">Store</a></li>
+<li><a href="https://aier.org/article">Articles</a></li>
+<li><a href="https://aier.org/events">Events</a></li>
+<li><a href="https://aier.org/CCwebform-Blog">Sign Up</a></li>
+<li><a href="https://aier.org/donate">Donate</a></li>
+<li><a href="https://www.americaninvestment.com">American Investment Services</a></li>
+<li><a href="https://aier.org/cost-living-calculator">Cost of Living Calculator</a></li>
+<li><a href="https://aier.org/mission-history">About AIER</a></li>
+<li><a href="https://aier.org/news">News</a></li>
+<li><a href="https://aier.org/directions">Directions</a></li>
+<li><a href="https://aier.applicantpro.com/jobs/">Employment</a></li>
+</ul></div>
+<div class="column column-3" original-class="column column-3">
+<div class="social-media" original-class="social-media"> <a href="https://twitter.com/aier"><img src="/sites/all/themes/aier2/img/530e0a0022fe3b55f158975ee7689d55.png" alt=""></a> <a href="https://www.youtube.com/user/AIERvideo"><img src="/sites/all/themes/aier2/img/22473809eaec8db6a2f40eb9ba2af3c1.png" alt=""></a> <a href="https://www.facebook.com/aierdotorg/"><img src="/sites/all/themes/aier2/img/521e5730c47620a1d477b613c3ae1d73.png" alt=""></a> <a href="https://www.linkedin.com/company/aierdotorg/"><img src="/sites/all/themes/aier2/img/97652c58bb69a8e694eadf9e35382ddd.png" alt=""></a>
+</div>
+<p>This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>, except for material where copyright is otherwise reserved.</p>
+<p>© <?php print date('Y');?> American Institute for Economic Research</p>
+<p><a href="http://www.iubenda.com/privacy-policy/88409797" title="Privacy Policy">Privacy Policy</a></p>
+</div>
+</div></div></div>
+<script>
+window.addEventListener('load',function(){
+try{
+document.getElementById('embedded_signup').addEventListener('submit',function(){
+setTimeout(function(){
+if(document.getElementById('success_message').style.display!='none')
+{
+(new Image()).src="//www.googleadservices.com/pagead/conversion/972673278/?label=nTj0CKOczGYQ_qHnzwM&guid=ON&script=0";
+}
+},3000);
+})
+}catch(err){}
+});
+</script>
+</div> </footer>
+</div>
+<script type="text/javascript" src="/sites/all/themes/aier2/js/530ae0f64b332edd6292ed9aff1db32a.js" defer></script><script type="text/javascript" src="/sites/all/themes/aier2/js/e3000e4214be4f3321214f499bf22afa.js" defer></script><script type="text/javascript" src="/sites/all/themes/aier2/js/21b9e082ed32bd69f6c492c990ef34cb.js" defer></script><script type="text/javascript" src="/sites/all/themes/aier2/js/410015f6250d3f6d1a01dbc9dc593e38.js" defer></script><script type="text/javascript" src="/sites/all/themes/aier2/js/abee8d7ed12b34706137001de735488d.js" defer></script><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function advagg_mod_2() {
+// Count how many times this function is called.
+advagg_mod_2.count = ++advagg_mod_2.count || 1;
+try {
+if (advagg_mod_2.count <= 40) {
+document.createElement( "picture" );
+// Set this to 100 so that this function only runs once.
+advagg_mod_2.count = 100;
+}
+}
+catch(e) {
+if (advagg_mod_2.count >= 40) {
+// Throw the exception if this still fails after running 40 times.
+throw e;
+}
+else {
+// Try again in 250 ms.
+window.setTimeout(advagg_mod_2, 250);
+}
+}
+}
+function advagg_mod_2_check() {
+if (window.jQuery && window.Drupal && window.Drupal.settings) {
+advagg_mod_2();
+}
+else {
+window.setTimeout(advagg_mod_2_check, 250);
+}
+}
+advagg_mod_2_check();
+//--><!]]>
+</script><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function advagg_mod_3() {
+// Count how many times this function is called.
+advagg_mod_3.count = ++advagg_mod_3.count || 1;
+try {
+if (advagg_mod_3.count <= 40) {
+(function() { var cx = '018397077622076730346:2oqqu9itvik'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();
+// Set this to 100 so that this function only runs once.
+advagg_mod_3.count = 100;
+}
+}
+catch(e) {
+if (advagg_mod_3.count >= 40) {
+// Throw the exception if this still fails after running 40 times.
+throw e;
+}
+else {
+// Try again in 250 ms.
+window.setTimeout(advagg_mod_3, 250);
+}
+}
+}
+function advagg_mod_3_check() {
+if (window.jQuery && window.Drupal && window.Drupal.settings) {
+advagg_mod_3();
+}
+else {
+window.setTimeout(advagg_mod_3_check, 250);
+}
+}
+advagg_mod_3_check();
+//--><!]]>
+</script><script id="dsq-count-scr" src="/sites/all/themes/aier2/js/count.js" async></script><script type="text/javascript">
+_atrk_opts = { atrk_acct:"Avy1j1a8Dy00EN", domain:"aier.org",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script><noscript><img src="/sites/all/themes/aier2/img/atrk.gif" style="display:none" height="1" width="1" alt=""></noscript> <script> var _ctct_m = "29de7bd3591de77de425fa3c9a1b9a56"; </script><script id="signupScript" src="/sites/all/themes/aier2/js/signup-form-widget.min.js" async defer></script><script src="/sites/all/themes/aier2/js/firebase-app.js"></script><script src="/sites/all/themes/aier2/js/firebase-messaging.js"></script><script src="/sites/all/themes/aier2/js/fcm.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"448bd8d110","applicationID":"98253055","transactionName":"NlIHNRdZDRFZVkNYXQ8YJAIRUQwMF1tYVVc+RwQGAGcVC11C","queueTime":0,"applicationTime":414,"atts":"GhUEQ19DHh8=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+</body>
+</html>

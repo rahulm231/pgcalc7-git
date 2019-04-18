@@ -1,0 +1,484 @@
+html.ie8 div#search-bar #above-search-links a {
+  font-size: 12px;
+}
+html.ie8 div#search-bar fieldset#edit-search-inputs .form-item-search-field .search-textfield {
+  margin-top: 4px;
+}
+html.ie8 #desktop-menu ul.menu-twigs {
+  background: transparent;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#D8000000,endColorstr=#D8000000)";
+  /* IE8 */
+  zoom: 1;
+}
+html.ie8 #desktop-menu li.menu-twig {
+  background: transparent;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#19FFFFFF,endColorstr=#19FFFFFF)";
+  /* IE8 */
+  zoom: 1;
+}
+html.ie9 div#search-bar fieldset#edit-search-inputs .form-item-search-field .search-textfield {
+  margin-top: 4px;
+}
+html.ie9 div#search-bar fieldset#edit-search-links a {
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+#ribbon {
+  height: 30px;
+  background-color: #696b73;
+  color: #EEEEEE;
+  position: relative;
+  z-index: 501;
+}
+#ribbon * {
+  box-sizing: border-box;
+}
+#ribbon-content {
+  height: 100%;
+  position: relative;
+}
+#ribbon-menus {
+  position: absolute;
+  top: 50%;
+  right: 29px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 502;
+}
+#ribbon-menus li {
+  margin: 0;
+  display: table-cell;
+  padding: 0 6px;
+  font-size: 0.78571429em;
+  font-family: VaudMedium, sans-serif;
+}
+#ribbon-menus li a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+#search-control {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+#search-control .search-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  width: 15px;
+  cursor: pointer;
+}
+#banner {
+  position: relative;
+  z-index: 500;
+}
+#banner * {
+  box-sizing: border-box;
+}
+#banner-content {
+  position: relative;
+}
+#caltech-banner-search-form {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  background-color: #696b73;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  opacity: 0;
+  display: none;
+}
+#caltech-banner-search-form.visible {
+  display: block;
+}
+#caltech-banner-search-form .form-item-keys {
+  display: inline-block;
+  margin: 0 10px 10px 10px;
+  border: 2px solid #cfcfcf;
+  background-color: white;
+}
+#caltech-banner-search-form .form-item-keys .search-textfield {
+  border: 0;
+  line-height: 1.85714286em;
+  outline: 0;
+  padding: 0 10px;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
+}
+#caltech-banner-search-form .form-submit {
+  margin-right: 10px;
+  height: 31px;
+  border-radius: 0;
+  background-color: buttonface;
+}
+#breadcrumb {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  font-size: 0.92857143em;
+  color: #000000;
+  z-index: 500;
+}
+#breadcrumb a {
+  color: #696b73;
+}
+#breadcrumb a:hover {
+  text-decoration: underline;
+}
+#everypage-content-container {
+  height: 90px;
+  position: relative;
+  margin-bottom: 23px;
+}
+#logo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 17%;
+  display: block;
+}
+#logo img {
+  width: 100%;
+}
+#mobile-menu-button {
+  display: none;
+}
+#desktop-menu {
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+  height: 35px;
+  width: 80%;
+  z-index: 600;
+}
+#desktop-menu #main-menu {
+  position: relative;
+  display: table;
+  width: 100%;
+}
+#desktop-menu li.menu-branch {
+  display: table-cell;
+  padding: 0 24px 3px 24px;
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/orange-pixel.png);
+  background-position: bottom;
+  background-repeat: repeat-x;
+}
+#desktop-menu li.menu-branch.last {
+  padding-right: 0;
+}
+#desktop-menu li.menu-branch.open {
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/menu-pointer.png);
+}
+#desktop-menu li.menu-branch.open .menu-branch-title a:hover {
+  text-decoration: none;
+}
+#desktop-menu li.menu-branch.filler {
+  width: 100%;
+  padding-left:163px;
+}
+#desktop-menu h2.menu-branch-title {
+  margin: -11px 0px 10px -44px;
+  height: 32px;
+  font-size: 1.28571429em;
+}
+#desktop-menu h2.menu-branch-title a {
+  white-space: nowrap;
+  font-family: KievitSlabMedium, Times, serif;
+  font-weight: normal;
+  color: #696b73;
+  font-size:18px;
+  background: none;
+  border-bottom: none;
+}
+#desktop-menu ul.menu-twig-group {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  background-color: #f3f3f3;
+  width: 100%;
+  min-height: 104px;
+  padding: 10px 0 10px 2.5%;
+}
+#desktop-menu ul.menu-twig-group.twigs-4 li.menu-twig {
+  width: 25%;
+}
+#desktop-menu ul.menu-twig-group.twigs-5 li.menu-twig {
+  width: 20%;
+}
+#desktop-menu li.menu-twig {
+  float: left;
+  padding-right: 20px;
+  
+}
+#desktop-menu li.menu-twig a {
+  color: #696b73;
+  padding: 0px;
+  background: none;
+  border-bottom: none;
+  font-size: 14px;
+}
+#desktop-menu li.menu-twig a:hover {
+  color: #ff6e1e;
+}
+#desktop-menu h3.menu-twig-title {
+  margin: 0;
+  font-size: 14px;
+}
+#desktop-menu .menu-leaves {
+  margin-top: 5px;
+}
+#desktop-menu .menu-leaf {
+  font-size: 0.85714286em;
+  border-bottom: 1px solid #696b73;
+}
+body.node-type-static-page-grid #desktop-menu,
+body.node-type-static-page-grid #search-control {
+  right: 5px;
+}
+body.node-type-static-page-grid #submenu {
+  margin: 0 5px;
+}
+body.node-type-static-page-grid #logo,
+body.node-type-static-page-grid #breadcrumb {
+  left: 5px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #desktop-menu li.menu-branch {
+    padding: 0 18px 3px 18px;
+  }
+}
+#submenu .submenu-wrapper {
+  position: relative;
+  padding: 0 20px;
+}
+#submenu ul {
+  padding-bottom: 8px;
+}
+#submenu #submenu1 {
+  background-color: #76777b;
+  z-index: 510;
+}
+#submenu li {
+  float: left;
+  padding-top: 8px;
+  margin: 0;
+  color: white;
+  font-size: 15px;
+}
+#submenu li.first {
+  padding-left: 0;
+}
+#submenu li.last {
+  padding-right: 20px;
+}
+#submenu li.active-trail {
+  font-weight: bold;
+}
+#submenu li.separator {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+#submenu a {
+  color: white;
+}
+#submenu a:hover {
+  padding-bottom: 11px;
+  border-radius: 3px;
+  margin-bottom: -3px;
+  background-color: #76777b;
+}
+#submenu #submenu2 {
+  background-color: #c8c8c8;
+  z-index: 509;
+}
+#submenu #submenu2 li {
+  color: black;
+}
+#submenu #submenu2 a {
+  color: black;
+}
+#submenu #submenu2 a:hover {
+  background-color: #c8c8c8;
+}
+@media (max-width: 767px) {
+  #ribbon {
+    height: 20px;
+  }
+  #ribbon-menus {
+    right: initial;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  }
+  #search-control {
+    display: none;
+  }
+  #desktop-menu {
+    display: none;
+  }
+  #breadcrumb {
+    display: none;
+  }
+  #everypage-content-container {
+    height: auto;
+  }
+  #mobile-menu-button {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    display: inline;
+    width: 24px;
+  }
+  #logo {
+    margin: 20px 0 0 10px;
+    width: 40%;
+    position: static;
+  }
+  #logo img {
+    height: auto;
+  }
+  #caltech-banner-search-form {
+    position: static;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+  }
+  #caltech-banner-search-form .form-item-keys {
+    float: left;
+    margin: 0;
+    border: 1px solid #cfcfcf;
+    width: 75%;
+    height: auto;
+  }
+  #caltech-banner-search-form .form-item-keys .search-textfield {
+    display: block;
+    font-size: 0.85714286em;
+    height: 100%;
+    line-height: 21px;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    padding: 0 10px;
+    width: 100%;
+  }
+  #caltech-banner-search-form .form-submit {
+    float: left;
+    margin: 0;
+    height: 23px;
+    width: 25%;
+    font-size: 1em;
+  }
+  #mobile-menu {
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    padding: 0 1%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 600;
+  }
+  #mobile-menu-context {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #ff6e1e;
+    border-bottom: 1px solid #ff6e1e;
+  }
+  #mobile-menu-context li {
+    float: left;
+    padding: 0 10px;
+    color: gray;
+    font-size: 13px;
+    line-height: 38px;
+    display: none;
+  }
+  #mobile-menu-context li:last-child {
+    border-left: 1px solid #ff6e1e;
+    padding-right: 0;
+    color: white;
+  }
+  #mobile-menu-context li:first-child {
+    border-left: 0;
+  }
+  #mobile-menu-context li:nth-last-child(1),
+  #mobile-menu-context li:nth-last-child(2) {
+    display: list-item;
+  }
+  #mobile-menu-context li:nth-last-child(2) {
+    background: transparent url(/sites/all/themes/caltech_new/cssAssets/carrot_left.png) no-repeat left;
+  }
+  #main-menu-mobile {
+    display: none;
+  }
+  #visible-menu {
+    width: 100%;
+  }
+  #visible-menu li {
+    border-bottom: 1px solid grey;
+    height: 40px;
+  }
+  #visible-menu li a,
+  #visible-menu li .mobile-menu-branch-title {
+    float: left;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    width: 85%;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 15px;
+  }
+  #visible-menu li a.leaf,
+  #visible-menu li .mobile-menu-branch-title.leaf {
+    width: 100%;
+  }
+  #visible-menu li a.active,
+  #visible-menu li .mobile-menu-branch-title.active {
+    color: #ff6e1e;
+  }
+  #visible-menu li .mobile-menu-branch-title {
+    color: white;
+  }
+  #visible-menu li .mobile-menu-arrow {
+    height: 40px;
+    display: block;
+    float: left;
+    border-left: 1px solid #ff6e1e;
+    width: 15%;
+    background: transparent url(/sites/all/themes/caltech_new/cssAssets/carrot_right.png) no-repeat center;
+  }
+  #submenu .submenu-wrapper {
+    padding: 0 10px;
+  }
+  #submenu li {
+    font-size: 12px;
+  }
+  #submenu a:hover {
+    padding: 0;
+    margin: 0;
+    background-color: none;
+  }
+}
+@media (max-width: 560px) {
+  #ribbon-menus .quick-links,
+  #ribbon-menus .separator-2 {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #desktop-menu h2.menu-branch-title {
+    font-size: 1.14285714em;
+  }
+  #desktop-menu .menu-leaf {
+    font-size: 0.78571429em;
+  }
+}

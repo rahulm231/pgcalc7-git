@@ -1,0 +1,37 @@
+ 
+/* main */
+
+BODY {font-family:arial; font-size:14px; color:black;
+      margin-top:5px; margin-bottom:5px; margin-left:20px; margin-right:20px;}
+
+A:link    {color:navy; font-weight:bold; text-decoration:none;}
+A:active  {color:navy; font-weight:bold; text-decoration:none;}
+A:visited {color:navy; font-weight:bold; text-decoration:none;}
+A:Hover   {color:blue; font-weight:bold; text-decoration:none;}
+
+
+/* misc */
+
+.popup {text-decoration : none; color : Blue;}
+div.hiddenpageitems {height:0px; display:none;}
+
+
+/* Search and SiteMap pages */
+ 
+.searchentry td {padding:2px;}
+.searchentry td {font-size:80%;}
+.searchentry td, .searchentry td a:link, .searchentry td a:hover, .searchentry td a:active, .searchentry td a:visited {color:Black;}
+.searchentry td .searchtextbox {width:100px;} 
+ 
+.searchpage h1 {margin-top:10px; margin-bottom:5px;}
+.searchpage h2 {margin-top:20px; margin-bottom:0px;}
+.searchpage h3 {margin-top:5px;  margin-bottom:0px;}
+.searchpage .example {color:red;}
+.searchpage .pagelink {margin-top:5px; margin-left:10px;}
+.searchpage .sistersitepagelink {margin-top:10px; margin-left:20px;}
+ 
+.sitemappage h1 {margin-top:10px; margin-bottom:5px;}
+.sitemappage ul {padding:0px; margin:0px; margin-left:10px;}
+.sitemappage li {list-style-type: none; padding:0px; margin:5px;}
+.sitemappage li a:link, .sitemappage li a:active, .sitemappage li a:visited, .sitemappage li a:hover {font-weight:normal; text-decoration:none;}
+.sitemappage .pagedate {font-size:60%;}

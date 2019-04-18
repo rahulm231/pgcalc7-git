@@ -1,0 +1,28 @@
+.pg-content-body .child-page{
+	padding:0px;
+	padding-bottom:20px;
+}
+
+#pgc_resource_block a:hover {
+    color: #235a98 !important;
+}
+
+.pg-gift-details h2 a {
+text-decoration: none !important;
+color: #ffffff !important;
+}
+
+.side-navigation ul li.active {
+    background: #9cc66f !important;
+}
+
+@media only screen and (max-width: 999px) {
+
+	.subnav-mobile-mask ul li a 
+	{
+    color: #235a98 !important;
+    text-align: left;
+ 	border: none !important;
+	text-decoration: none !important;
+	}
+}

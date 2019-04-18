@@ -1,0 +1,43 @@
+.pg-content-footer{
+	margin-bottom:20px;
+}
+
+.pg-page-btns{
+	margin-bottom:10px;
+}
+
+#block-pgc-slideshow-block-pgc-slideshow-block + #block-pgc-misc-blocks-mobilenav{
+	top:-80px;
+	margin-bottom:0px;
+}
+
+.members-carousel-container .row{
+	background:white;
+}
+
+.sidenavbar{
+	width:25%;
+}
+
+.subnav-mobile-mask ul, .sidenavbar ul{
+	display:block;
+}
+
+@media only screen and (max-width: 999px) {
+	
+  .sidenavbar{
+  	display:none;
+  }
+}
+
+/* print page */
+
+.pgc-print-preview .node-homepage iframe{
+	display:none;
+}
+
+@media print {
+    .pgc-print-preview .node-homepage iframe{
+    	display:none;
+    }
+}

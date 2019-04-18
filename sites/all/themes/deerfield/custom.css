@@ -1,0 +1,77 @@
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	width:auto;
+	background-color: #006B37;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: 5px;
+    top: -6px;
+    position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+    content: "\f05c";
+    font-family: "FontAwesome";
+    font-size: 3.75rem;
+    left: 8px;
+    top: 0px;
+    position: absolute;
+  }
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn {
+    border: none;
+}
+
+div#block-system-main-menu ul#main-menu a.active {
+	background-position: top right;
+    background-image: url(/sites/all/themes/deerfield/img/notch_lime_green.svg);
+    margin-right: -24px;
+    background-repeat: no-repeat;
+}
+
+div#block-system-main-menu ul#main-menu a{
+	border-top:none;
+}
+
+div#block-system-main-menu > .content > ul#main-menu > li {
+	border-top:1px solid #74dd71;
+}
+
+.pg-content-body .child-page .details {
+    padding-left: 5px !important;
+    display: inline-block;
+    width: 79%;
+}
+
+.pg-content-body .child-page .thumbnail {
+	float:none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 840px) {
+  #home_link {
+    background-image: url('/sites/all/themes/deerfield/img/logo_white.svg');
+  }
+  
+  #nav_toggle_responsive{
+  	background-image: url('/sites/all/themes/deerfield/img/menu_icon_959699.svg');
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+	
+  .pg-content-inline-blocks{
+  	float:none;
+  	margin-left:0;
+  }
+}
+
+@media print {
+    #html {
+      background: none;
+	}
+}

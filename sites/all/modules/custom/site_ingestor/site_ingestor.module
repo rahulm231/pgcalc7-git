@@ -1,0 +1,190 @@
+<?php
+module_load_include('inc', 'site_ingestor', 'style_builder_styles');
+/**
+ * Implements hook_permission().
+ */
+function site_ingestor_permission() {
+  return array(
+    'administer site ingestor' =>  array(
+      'title' => t('Administer Site Ingestor'),
+      'restrict access' => TRUE,
+    )
+  );
+}
+
+/**
+ * Implements hook_menu().
+ */
+function site_ingestor_menu() {
+  // Administration pages.
+  $items['admin/site-ingestor'] = array(
+    'title' => 'Site Ingestor',
+    'description' => 'Ingest or manage an ingested site.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('site_ingestor_ingest_form_1'),
+    'access arguments' => array('administer site ingestor'),
+    'file' => 'site_ingestor.admin.inc',
+    'position' => 'left',
+    'weight' => 999,
+  );
+
+  $items['admin/site-ingestor/ingest'] = array(
+    'title' => 'Ingest New Theme',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('site_ingestor_ingest_form_1'),
+    'access arguments' => array('administer site ingestor'),
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+    'weight' => 1,
+    'file' => 'site_ingestor.admin.inc',
+  );
+
+  $items['admin/site-ingestor/ingest/2'] = array(
+    'title' => 'Ingest New Theme - Step 2',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('site_ingestor_ingest_form_2'),
+    'access arguments' => array('administer site ingestor'),
+    'type' => MENU_CALLBACK,
+    'weight' => 1,
+    'file' => 'site_ingestor.admin.inc',
+  );
+
+  $items['admin/site-ingestor/ingest/3'] = array(
+    'title' => 'Ingest New Theme - Step 3',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('site_ingestor_ingest_form_3'),
+    'access arguments' => array('administer site ingestor'),
+    'type' => MENU_CALLBACK,
+    'weight' => 1,
+    'file' => 'site_ingestor.admin.inc',
+  );
+
+  $items['admin/site-ingestor/region-selector/%'] = array(
+    'title' => 'Ingest New Theme - Select Regions',
+    'page callback' => 'site_ingestor_region_selector',
+    'page arguments' => array(3),
+    'access arguments' => array('administer site ingestor'),
+    'type' => MENU_CALLBACK,
+    'weight' => 1,
+    'file' => 'site_ingestor.admin.inc',
+  );
+
+  $items['admin/site-ingestor/create-regions'] = array(
+    'title' => 'Ingest New Theme - Create Regions',
+    'page callback' => 'site_ingestor_create_regions',
+    'page arguments' => array(),
+    'access arguments' => array('administer site ingestor'),
+    'type' => MENU_CALLBACK,
+    'weight' => 1,
+    'file' => 'site_ingestor.admin.inc',
+  );
+
+  $items['admin/site-ingestor/style-builder/%'] = array(
+    'title' => 'Ingest New Theme - Style Builder',
+    'page callback' => 'site_ingestor_style_builder',
+    'page arguments' => array(3),
+    'access arguments' => array('administer site ingestor'),
+    'type' => MENU_CALLBACK,
+    'weight' => 1,
+    'file' => 'site_ingestor.admin.inc',
+  );
+
+  $items['admin/site-ingestor/style-builder/%/%'] = array(
+    'title' => 'Ingest New Theme - Style Builder',
+    'page callback' => 'site_ingestor_style_builder',
+    'page arguments' => array(3,4),
+    'access arguments' => array('administer site ingestor'),
+    'type' => MENU_CALLBACK,
+    'weight' => 1,
+    'file' => 'site_ingestor.admin.inc',
+  );
+
+  $items['admin/site-ingestor/create-styles'] = array(
+    'title' => 'Ingest New Theme - Create Styles',
+    'page callback' => 'site_ingestor_create_styles',
+    'page arguments' => array(3),
+    'access arguments' => array('administer site ingestor'),
+    'type' => MENU_CALLBACK,
+    'weight' => 1,
+    'file' => 'site_ingestor.admin.inc',
+  );
+
+  $items['admin/site-ingestor/edit-html'] = array(
+    'title' => 'Ingest New Theme - Edit HTML',
+    'page callback' => 'site_ingestor_edit_html',
+    'access arguments' => array('administer site ingestor'),
+    'type' => MENU_CALLBACK,
+    'weight' => 1,
+    'file' => 'site_ingestor.admin.inc',
+  );
+
+  return $items;
+}
+
+function site_ingestor_theme($existing, $type, $theme, $path) {
+  return array(
+    'site_ingestor_style_builder' => array(
+      'variables' => array(
+        'themePath' => NULL,
+        'modulePath' => NULL,
+        'customizableStyles' => array(),
+      ),
+      'path' => $path . '/themes',
+      'template' => 'site-ingestor-style-builder'
+    ),
+    'site_ingestor_region_selector' => array(
+      'variables' => array(
+        'themePath' => NULL,
+        'themeName' => NULL,
+        'templateFile' => NULL,
+        'modulePath' => NULL,
+        'regions' => array(),
+      ),
+      'path' => $path . '/themes',
+      'template' => 'site-ingestor-region-selector'
+    ),
+  );
+}
+
+/*
+ * Creates the basic files needed for a functional Drupal theme
+ * using templates stored in the templates folder
+ * Takes a finished SI object as an argument
+ */
+function site_ingestor_generate_theme($SI) {
+  $templatesPath = DRUPAL_ROOT . '/' . drupal_get_path('module', 'site_ingestor') . '/templates/';
+
+  if(!isset($SI->dest)){
+    return 'Site Ingestor object not prepared.';
+  }
+
+  // Info file
+  if(!$infoFile = @file_get_contents($templatesPath.'theme.info'))
+    return 'Unable to read theme info template file.';
+
+  $infoFile = str_replace('{{themename}}', $SI->humanName, $infoFile);
+  $infoFile = str_replace('{{themedescription}}', 'Generated by SiteIngestor.', $infoFile);
+
+  if(!$result = @file_put_contents($SI->dest.'/'.$SI->systemName.'.info', $infoFile))
+    return 'Unable to write theme info file.';
+
+  // template.php
+  if(($templatePHP = @file_get_contents($templatesPath.'template.php')) === FALSE)
+    return 'Unable to read theme template.php template file.';
+
+  // replace theme name
+  $templatePHP = str_replace('{{themename}}', $SI->systemName, $templatePHP);
+
+  if(!$result = @file_put_contents($SI->dest.'/template.php', $templatePHP))
+    return 'Unable to write theme template.php file.';
+
+  return TRUE;
+}
+
+/*
+ * This function disables the admin toolbar if
+ * "?hidetoolbar=true" is appended to any URL
+ */
+function site_ingestor_page_alter(&$page) {
+  if(isset($_GET['hidetoolbar']) && $_GET['hidetoolbar'] == 'true')
+    unset($page['page_top']['toolbar']);
+}

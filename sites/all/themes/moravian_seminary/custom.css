@@ -1,0 +1,46 @@
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0;
+}
+
+.pg-wrap .clearfix:after{
+	display:block;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .pg-page-header{
+    margin-bottom: 25px;
+  }
+  
+  div.hidden-sm-down{
+  	display: none;
+  }
+  
+  main.col-md-12{
+  	flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+  }  
+  .hero .caption {
+    position: relative;
+    width:80%;
+    bottom: 100px;
+  }
+  
+  .hero .caption p{
+    font-size: 2rem;
+  }
+  
+  .pg-featured-link {
+	    width: 100% !important;
+	    float: none !important;
+  }
+	
+  .pg-content-inline-blocks {
+      float: none;
+      margin-left: 0;
+  }
+  
+  #block-pgc-misc-blocks-mobilenav .header-mobile{
+  	display:block;
+  }
+}

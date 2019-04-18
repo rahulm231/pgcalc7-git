@@ -1,0 +1,12 @@
+/* IE11 fix. See https://drupal.org/node/2244835 and https://drupal.org/node/2078821*/
+.cke.cke_chrome {
+  visibility: inherit;
+}
+.cke.cke_panel {
+  visibility: visible;
+}
+
+/* Media module popup wysiwyg */
+.ui-dialog.media-wrapper {
+  z-index: 10000;
+}

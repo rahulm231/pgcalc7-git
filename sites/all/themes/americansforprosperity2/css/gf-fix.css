@@ -1,0 +1,67 @@
+/* GF Override CSS */
+.validation_error{display:none;}
+.gfield_error{background-color:transparent!important;border:none!important;}
+.gfield_error input{background-color:#FFDFE0;border-color:#790000;color:#790000;}
+.gfield_error input::-webkit-input-placeholder{color:#790000;}
+.gfield_error input:-moz-placeholder{color:#790000;}
+.gfield_error input::-moz-placeholder{color:#790000;}
+.gfield_error input:-ms-input-placeholder{color:#790000;}
+
+.gform_footer{margin-top:0;padding-bottom:0;padding-top:0.5rem;text-align: center;}
+.gform_footer input[type="submit"]{width:100%;}
+.ginput_container.ginput_container_select{margin-top:0;}
+.gform_confirmation_message{text-align: center;font-size:24px;padding:20px 0 30px;}
+
+.gform_wrapper .top_label li.gfield.gf_left_half{margin-right:0;padding:0 8px 0 0;}
+.gform_wrapper .top_label li.gfield.gf_right_half{margin-right:0;padding:0 0 0 8px;}
+.gform_wrapper .top_label li.gfield.gf_left_third{padding:0 8px 0 0;}
+.gform_wrapper .top_label li.gfield.gf_middle_third{padding:0 8px;}
+.gform_wrapper .top_label li.gfield.gf_right_third{padding:0 0 0 8px;}
+body .gform_wrapper.gf_form_center_wrapper{padding:0;}
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required{margin-top:16px;}
+.gform_wrapper .gfield_error .ginput_container{padding:0;}
+
+.gform_wrapper .top_label li.gfield.gf_left_third + li.gfield.gf_right_half{width:66.7%!important;}
+
+.petition .gform_wrapper.gform_validation_error li.gfield.gfield_error{
+	margin-bottom:0!important;
+	padding:0!important;
+}
+.petition .gform_wrapper.gform_validation_error li.gfield.gfield_error.gfield_contains_required div.gfield_description{
+	padding-right:0;
+}
+.petition .gform_wrapper.gform_validation_error .field_description_below .gfield_description{padding:0;}
+
+.gform_wrapper select {
+	padding:5px 4px;
+	margin:0;
+	border-radius:6px;
+}
+
+
+@media (min-width: 641px) {
+	.gform_wrapper .top_label li.gfield.gfield_error.gf_left_half,
+	.gform_wrapper .top_label li.gfield.gfield_error.gf_right_half{margin-right:0;width:50%;}
+
+	.gform_wrapper .gform_body{width:100%!important;}
+	.gform_wrapper ul.gform_fields li.gfield:not(.gf_inline){padding-right:0 !important;}
+	.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit],
+	.gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit]{margin: 0 !important;}
+	.gform_wrapper form.gf_simple_horizontal ul li.gfield{margin-top:8px!important;}
+	
+	/* specific forms */
+	#gform_1 .gform_body,
+	#gform_1 li,
+	#gform_1 .gform_footer { display:inline-block; }
+}
+
+@media (max-width: 480px) {
+	.gform_wrapper .top_label li.gfield.gf_left_third,
+	.gform_wrapper .top_label li.gfield.gf_middle_third,
+	.gform_wrapper .top_label li.gfield.gf_right_third,
+	.gform_wrapper .top_label li.gfield.gf_right_half,
+	.gform_wrapper .top_label li.gfield.gf_left_half,
+	.gform_wrapper .top_label li.gfield.gfield_error.gf_left_half,
+	.gform_wrapper .top_label li.gfield.gfield_error.gf_right_half{padding:0;}
+	.gform_wrapper .top_label li.gfield.gf_left_third + li.gfield.gf_right_half{width:100%!important;}
+}

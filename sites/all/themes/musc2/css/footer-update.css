@@ -1,0 +1,162 @@
+.nfooter_toolbar a:hover{
+  color:#dadada;
+}
+
+.nfooter_toolbar {
+  background-color: #6a6a6a;
+  margin-bottom:0;
+  padding:8px 0;
+  width:100%;
+  clear:both;
+}
+
+.nfooter_toolbar ul{
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+
+.nfooter_toolbar ul li{
+  float:none;
+  list-style-type:none;
+  padding:5px 0;
+}
+
+.nfooter_toolbar ul li a{
+  color:#FFF;
+  border-right:none;
+  font-weight:normal;
+  float:none;
+  padding:0;
+ }
+
+.nfooter_mid{
+  background-color:#FFF;
+  overflow:hidden;
+  clear:both;
+}
+
+.nfooter_end{
+  background-color:#00447C;
+  border-top:3px solid #3474a0;
+  color:#FFF;
+  font-size:10px;
+  text-align:center;
+}
+
+.nfooter_end a{
+  color:#FFF;
+}
+.nfooter_end a:hover{
+  text-decoration:underline;
+}
+
+.nfooter_social{
+  width:150px;
+  overflow:hidden;
+  border-top:2px solid #dadada;
+  border-bottom:2px solid #dadada;
+  padding:12px 0;
+  font-style:italic;
+  font-weight:bold;
+  color:#6a6a6a;
+  font-size:16px;
+  margin:10px auto;      
+}
+
+.nfooter_social .nsocial_icons{
+  overflow:hidden;
+  width:124px;
+  margin:5px auto 0;
+}
+
+.nfooter_social .nsocial_icons img{
+  width:25px !important;
+  float:left;
+  padding:0 3px;
+  height:auto !important;
+}
+
+.nfooter_images{
+  display:none;
+}
+
+.nfooter_brand{
+  display:none; 
+}
+
+.nfooter_end{
+ padding:12px;
+}
+
+@media all and (min-width:680px) {
+  .nfooter_mid{
+        padding:20px 50px;
+        overflow:hidden;
+    }
+  
+    .nfooter_social{
+        float:left;
+    }
+  
+    .nfooter_brand{
+        width:250px;
+        float:right;
+        text-align:center;
+        display:block;
+    }
+}
+
+@media all and (min-width:1024px) {
+ .nfooter_toolbar ul li{
+      float:left;
+      padding:2px 9px;
+    }  
+  
+    .nfooter_toolbar .inner{
+      width:725px;
+      margin:0 auto;
+  }
+
+    .nfooter_mid{
+        padding:40px 120px 20px;
+    }
+
+    .nfooter_social{
+      margin:0;
+}
+    
+     .nfooter_brand{
+        width:250px;
+        float:left;
+        text-align:center;
+        margin:0;
+        display:block;
+    }
+
+    .nfooter_images{
+        display:block;
+        width:320px;
+        float:left;
+        overflow:hidden;
+        text-align:center;
+    }
+
+    .nfooter_images img{
+        padding:0 10px;
+        height:100px !important;
+        width:auto;
+    }
+
+    .nfooter_brand{
+        width:250px;
+        float:left;
+        text-align:center;
+        display:block;
+    }
+
+    .nfooter_brand img{
+        position:relative;
+        top:-10px;
+    }
+}

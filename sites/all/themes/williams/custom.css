@@ -1,0 +1,83 @@
+.pg-content-body {
+    font-size: 20px;
+}
+
+#block-system-main-menu ul#main-menu{ margin: 0px 0px 0px 10px;}
+#block-system-main-menu ul#main-menu li.expanded{
+	position:relative;   margin-bottom: 0;
+}
+
+#block-system-main-menu ul#main-menu li.expanded > a{
+	height:75px; padding:25px 3px 0px;  
+	font-family: canada-type-gibson, Helvetica Neue, Open Sans, sans-serif;
+    display: block;
+    line-height: 1.2;
+    outline-offset: -1px;
+    margin-right: 40px;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+}
+
+#block-system-main-menu ul#main-menu li.expanded li a.active{
+	color: #9B21A5;
+	font-weight: bold;
+}
+
+#block-system-main-menu ul#main-menu li.expanded.toggled-on > a, #block-system-main-menu ul#main-menu li.expanded.active-trail > a{ 
+	 box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+    margin-bottom: 12px;
+    -webkit-transform: translateX(-40px);
+    -moz-transform: translateX(-40px);
+    -o-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    z-index: 5000;
+    position: relative;
+}
+
+#block-system-main-menu ul#main-menu li.expanded > a:after {
+    font-family: "Black Tie";
+    content: "\F09C";
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1, mirror=1);
+    -webkit-transform: scale(-1, 1) rotate(-90deg);
+    -ms-transform: scale(-1, 1) rotate(-90deg);
+    transform: scale(-1, 1) rotate(-90deg);
+    opacity: .2;
+    width: 13px;
+    overflow: hidden;
+    font-size: 24px;
+    display: block;
+    position: absolute;
+    margin: -4px 0 0 8px;
+}
+
+#block-system-main-menu ul#main-menu li.active-trail > a:after,  #block-system-main-menu ul#main-menu li.toggled-on > a:after{
+	content: "";
+}
+
+#block-system-main-menu ul#main-menu li.expanded ul{
+	display:none; 
+	padding: 0px;
+    margin: 0px;
+} 
+#block-system-main-menu ul#main-menu li.expanded ul li a{ padding: 7px 5px;
+    margin-bottom: 11px;color: #516693; font-size:16px;  font-weight: normal; display:block;}
+
+/*
+footer {
+    margin: 0 auto;
+    background-color: #9da2a2;
+}
+
+.site-footer{
+	background-color: #6c6f6f !important;
+	color: #e0e1e1;
+    padding: 5.5rem 0 4rem;
+}
+
+.widget{
+	flex-basis: 100%;
+}
+*/

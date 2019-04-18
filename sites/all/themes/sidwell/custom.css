@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'futura-pt';
+  src: url("cssAssets/Bitstream - FuturaBT Book.otf");
+}
+
+@font-face {
+  font-family: 'filosofia-lining';
+  src: url("cssAssets/Emigre - Filosofia Lining OT.otf");
+}
+
+/*
+#fsPageWrapper .fsPageContent h1 {
+	font-family: filosofia-lining !important;
+}
+
+.fsNavLevel2.menu-col.column-2{
+	float: right;
+    position: absolute;
+    right: 30px;
+    top: 0%;
+}
+
+ul.fsNavLevel2{
+	width:45%;
+}
+
+ul.column-2 li{
+	border:none;
+}
+*/
+
+@media only screen and (max-width: 999px) {
+	
+  .fsBanner .fsNavigation.fsList, .fsStyleColumn-2 .fsContent.custom-element{
+  	display:none;
+  }
+}

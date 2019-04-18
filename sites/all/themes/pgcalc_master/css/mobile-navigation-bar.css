@@ -1,0 +1,26 @@
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+  background: #000000;
+  opacity: 0.5;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before{  
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: -14px;
+  left: 5px;
+  content: '\f0c9';
+  font-family: 'FontAwesome';
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before{  
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  content: '\f05c';
+  font-family: 'FontAwesome';
+}

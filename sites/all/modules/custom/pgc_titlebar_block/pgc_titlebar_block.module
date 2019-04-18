@@ -1,0 +1,132 @@
+<?php
+/**
+ * @file
+ * Generate the block with share, print, and e-mail buttons.
+ */
+ 
+/* #PGCS-454 
+ * This is a site wide setting for ckeditor, I am adding it here because If I add it in a new custom module, it will be needed to enabled on all sites which is a manual and time taking task for such small setting, I will create a new custom module if there are more changes in admin section for all sites 
+ */
+function pgc_titlebar_block_init(){
+  drupal_add_css('.cke_source {white-space: pre-wrap !important;}', array('type' => 'inline'));
+}
+
+/**
+ * Implements hook_theme().
+ *
+ * @param $existing
+ * @param $type
+ * @param $theme
+ * @param $path
+ *
+ * @return array
+ */
+function pgc_titlebar_block_theme($existing, $type, $theme, $path) {
+  return array(
+    'pgc_titlebar_block' => array(
+      'variables' => array(
+        'email_subject' => NULL,
+        'email_body' => NULL,
+      ),
+      'path' => $path,
+      'template' => 'pgc-titlebar-block',
+    ),
+  );
+}
+
+/**
+ * Implementation of hook_block_info().
+ *
+ * @return mixed
+ */
+function pgc_titlebar_block_block_info() {
+  $blocks['pgc_titlebar_block'] = array(
+    'info' => t('Titlebar block'),
+    'cache' => DRUPAL_CACHE_PER_PAGE,
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_configure().
+ */
+function pgc_titlebar_block_block_configure($delta = '') {
+  $form = array();
+  switch ($delta) {
+    case 'pgc_titlebar_block':
+      $form['email'] = array(
+        '#type' => 'fieldset',
+        '#title' => t('Email Message'),
+        '#description' => 'Please enter the email subject line and body. You may use tokens.',
+        '#tree' => TRUE,
+      );
+      $form['email']['subject'] = array(
+        '#type' => 'textfield',
+        '#title' => 'Subject line',
+        '#size' => 60,
+        '#length' => 255,
+        '#default_value' => variable_get('pgc_titlebar_email_subject', 'Look at this page from [site:name]'),
+      );
+      $form['email']['body'] = array(
+        '#type' => 'textarea',
+        '#title' => 'Body',
+        '#size' => 60,
+        '#default_value' => variable_get('pgc_titlebar_email_body', 'Take a look at this page: [current-page:url:absolute]'),
+      );
+      break;
+  }
+  return $form;
+}
+
+/**
+ * Implements hook_block_save().
+ */
+function pgc_titlebar_block_block_save($delta = '', $edit = array()) {
+  switch ($delta) {
+    case 'pgc_titlebar_block':
+      variable_set('pgc_titlebar_email_subject', $edit['email']['subject']);
+      variable_set('pgc_titlebar_email_body', $edit['email']['body']);
+      break;
+  }
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function pgc_titlebar_block_block_view($delta = '') {
+  $block = array();
+  switch ($delta) {
+    case 'pgc_titlebar_block':
+      $block['subject'] = '';
+      $email_subject = token_replace(variable_get('pgc_titlebar_email_subject', 'Look at this page from [site:name]'));
+      $email_body = token_replace(variable_get('pgc_titlebar_email_body', 'Take a look at this page: [current-page:url:absolute]'));
+      $block['content']['#markup'] = theme('pgc_titlebar_block', array('email_subject' => $email_subject, 'email_body' => $email_body));
+      break;
+  }
+  return $block;
+}
+
+/**
+ * Implements hook_wysiwyg_editor_settings_alter().
+ *
+ * This is in here arbitrarily; it needs to be in a custom module.
+ * It allows additional customizations to be made to the WYSIWYG.
+ * The original intent is to fix JavaScript being deleted when viewed in the
+ * editor.
+ */
+function pgc_titlebar_block_wysiwyg_editor_settings_alter(&$settings, $context) {
+  // The $context variable contains information about the wysiwyg profile we're
+  // using. In this case we just need to check that the editor being used is
+  // ckeditor.
+  if ($context['profile']->editor == 'ckeditor') {
+    // The $settings variable contains all the config options ckeditor uses.
+    // The array keys correspond directly with any setting that can be applied
+    // to CKEditor - as outlined in the CKEditor docs:
+    // http://docs.cksource.com/ckeditor_api/symbols/CKEDITOR.config.html
+    // Another way to override configuration is to use your own configuration
+    // javascript file. In this case, we're going to add our own configuration
+    // file that will
+    // Hold our stylesSet customizations...
+    $settings['customConfig'] = base_path() . drupal_get_path('module', 'pgc_titlebar_block') . '/ckeditor.js';
+  }
+}

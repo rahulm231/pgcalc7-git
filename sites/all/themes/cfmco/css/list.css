@@ -1,0 +1,60 @@
+#fundSearchPanel .list {
+  font-family:sans-serif;
+  margin:0;
+  padding:20px 0 0;
+}
+#fundSearchPanel .list > li {
+  display:block;
+  background-color: #f3f3f3;
+  padding:10px;
+  box-shadow: inset 0 1px 0 #fff;
+}
+#fundSearchPanel .list > li:before {
+  content: "" !important;
+  content: none !important;
+}
+#fundSearchPanel .list > li a {
+	text-decoration:none;
+	color:#00A4DE;	
+	font-size: 15px;
+	margin:0;
+	font-weight: normal;
+}
+#fundSearchPanel .list > li a:hover {
+	color:#777;	
+}
+#fundSearchPanel input {
+  border:solid 1px #ccc;
+  border-radius: 5px;
+  padding:7px 14px;
+  margin-bottom:10px
+}
+#fundSearchPanel input:focus {
+  outline:none;
+  border-color:#aaa;
+}
+
+#fundSearchPanel .pagination {
+	padding-left:0px !important;
+}
+
+#fundSearchPanel .pagination li {
+	display:inline-block;
+	padding:10px !important;
+	background: #007eab;
+	border:3px solid #00A4DE;
+	margin: 0px 10px 0px 0px !important;
+	border-radius:5%;
+}
+
+#fundSearchPanel .pagination li a {
+	color:#FFF !important;
+}
+#fundSearchPanel .pagination li:before {
+  font-family: 'cfmc';
+  font-size: 1em;
+  color: #333 !important;
+  position: relative !important;
+  content: "" !important;
+  content: none !important;
+}

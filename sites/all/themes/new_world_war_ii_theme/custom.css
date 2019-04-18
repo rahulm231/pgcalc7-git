@@ -1,0 +1,87 @@
+.block-footer-ranking .block-content:before
+{
+   background: url(/sites/all/themes/new_world_war_ii_theme/img/icon-trip-advisor-2017.png) no-repeat;
+   background-size: cover;
+}
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0;
+}
+
+.pg-wrap h2,  #pgc_resource_block a, .accordion-switch a{
+	font-family: alternate-gothic-no-2-d,Arial,Lucida Grande,sans-serif !important;
+}
+
+form#answerForm{
+  margin-top:15px;
+}
+
+#pgc-contact-block li a{
+	font-family: ff-tisa-sans-web-pro,Helvetica,Arial,Lucida Grande,sans-serif !important;
+}
+
+.pg-featured-link h3 a, .node-landing-page .details h2 a{
+	font-size:18px;
+	font-weight:600;
+	color:#1a1819;
+}
+
+.pg-featured-link h3 a:hover, .node-landing-page .details h2 a:hover{
+	color:#c21212;
+}
+
+.pgc-title-btn [class^="icon-"]:before, .block-pgc-contact-block [class^="icon-"]:before, .block-pgc-resource-block [class^="icon-"]:before, .pg-gift-details [class^="icon-"]:before, .pg-content-footer [class^="icon-"]:before, .pgc-title-btn [class*=" icon-"]:before, .block-pgc-contact-block [class*=" icon-"]:before, .block-pgc-resource-block [class*=" icon-"]:before, .pg-gift-details [class*=" icon-"]:before, .pg-content-footer [class*=" icon-"]:before {
+    font-family: 'pgcalc-marketing' !important;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	width:auto;
+	background-color: #c21212;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: 0px;
+    top: -15px;
+    position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+    content: "\f05c";
+    font-family: "FontAwesome";
+    font-size: 2.75rem;
+    left: 1px;
+    top: -4px;
+    position: absolute;
+  }
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn {
+    border: none;
+}
+
+.pg-content-body .child-page .thumbnail {
+    padding-top: 8px;
+}
+
+#block-system-main ul{
+	padding-left: 17px;
+	
+}
+
+#block-system-main ul li{
+	list-style-type: disc !important;
+}
+
+@media only screen and (max-width: 999px){
+  .content-inner .col-first{
+    display:none;
+  }  
+}
+
+@media only screen and (max-width: 767px) {
+	
+  .pg-content-inline-blocks{
+  	float:none;
+  	margin-left:0;
+  }
+}

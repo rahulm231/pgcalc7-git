@@ -1,0 +1,17 @@
+.clearfix {
+    zoom: 1;     /* triggers hasLayout */
+    display: block;     /* resets display for IE/Win */
+    }  /* Only IE can see inside the conditional comment
+    and read this CSS rule. Don't ever use a normal HTML
+    comment inside the CC or it will close prematurely. */
+	
+	
+
+/*.headerContent input.searchbx {width:140px;background-color:#fff;border:1px solid #fff!important;color:#999;margin-left:8px;text-transform:uppercase;font-size:11px;height:14px;margin-top:-1px;}
+.headerContent #ContentSearch img[align="absbottom"] {position:absolute;top:2px;*top:-3px;right:8px;}*/
+
+.nav-btn {display:none!important;}
+
+
+
+

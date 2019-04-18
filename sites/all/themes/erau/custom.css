@@ -1,0 +1,136 @@
+ul#main-menu li ul li a{
+  font-weight:normal;
+}
+
+.pg-page-btns .pgc-title-btn{
+  color: #1b1c48;	
+}
+
+#main-menu > li > ul > li > a.active {
+    margin-left: -4%;
+    padding-left: 26px;
+}
+
+#main-menu li ul li ul li a.active {
+    margin-left: -11%;
+    padding-left: 40px;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	width:auto;
+	background-color: #4b7eb8;
+	height:50px;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before, #block-pgc-misc-blocks-mobilenav .control.close-btn::before  {
+    content: "\e600";
+    font-family: "erau";
+    font-size:17px;
+    position: absolute;
+}
+/*
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+    content: "\f05c";
+    font-family: "FontAwesome";
+    font-size: 3.75rem;
+    left: 12px;
+    top: 0px;
+    position: absolute;
+  }
+*/
+#block-pgc-misc-blocks-mobilenav .control.close-btn {
+    border: none;
+}
+
+#block-pgc-slideshow-block-pgc-slideshow-block + #block-pgc-misc-blocks-mobilenav {
+    top: -74px;
+}
+
+.pg-content-body .child-page{
+	padding:0px;
+	padding-bottom:20px;
+}
+
+.pg-wrap table tr th{
+  background:#0c153c !important;
+}
+
+#block-pgc-titlebar-block-pgc-titlebar-block{
+	float:right;
+}
+
+.pg-breadcrumb{
+	display:none;
+}
+
+@media screen and (max-width: 999px) {
+  .left-nav{
+    display:none;
+  }
+  
+  .container .col-md-9{
+  	width:auto;
+  }
+  
+  .erauMenuLink.pull-left.erau-wrapper{
+  	color:#fff;
+  }
+  
+  .pg-page-header .pg-page-btns{
+  	float:none;
+  }
+  
+  #block-pgc-titlebar-block-pgc-titlebar-block{
+  	float:none;
+  }
+  
+  #block-pgc-titlebar-block-pgc-titlebar-block .content{
+  	float:right;
+  	padding: 20px;
+  }
+  
+  .mobile-nav-bar-title{
+  	text-decoration: none !important;
+    color: white;
+    vertical-align: middle;
+  }
+  
+  .notify-mobile{
+  	font-size:20px;
+  	font-weight: bold;
+  }
+  
+  .pg-content-inline-blocks{
+  	margin-bottom:0px;
+  }
+  
+  .pg-content-inline-blocks #block-pgc-contact-block-pgc-contact-block{
+  	margin-top:30px;
+  	margin-bottom:30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {	
+  .pg-content-inline-blocks{
+  	float:none;
+  	margin-left:0;
+  }
+  
+  .pg-featured-link{
+  	width:100%;
+  	float:none !important; 
+  }
+  
+  #giftCompare table th, #giftCompare table td{
+  	padding:2px !important;
+  }
+}
+
+.webform-component-textfield, .webform-component-email
+{
+  width: 13%;
+}
+.pg-content-footer
+{
+  margin-top: 20px;
+}

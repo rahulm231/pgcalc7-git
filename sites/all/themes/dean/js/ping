@@ -1,0 +1,19 @@
+if (window['ping'] == null)
+{
+  window['ping'] = true;
+  var ping_service = 'https://admission.dean.edu/ping?cmd=register';
+  var ping_start = new Date().getTime();
+  window.addEventListener('unload', function(event)
+  {
+    var ping_duration = new Date().getTime() - ping_start;
+    var url = ping_service + '&d=' + encodeURIComponent(ping_duration.toString()) + '&t=' + new Date().getTime().toString();
+    if (navigator.sendBeacon) navigator.sendBeacon(url);
+    else
+    {
+      var el = document.createElement('SCRIPT');
+      el.async = true;
+      el.src = url;
+      document.body.appendChild(el);
+    }
+  });
+}

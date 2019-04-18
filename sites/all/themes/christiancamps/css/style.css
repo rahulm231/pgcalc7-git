@@ -1,0 +1,7216 @@
+/*
+
+Theme Name: CCCI
+
+
+
+Description: Dedicated Wordpress theme for Company Name
+
+
+
+*/
+
+
+
+/*
+
+
+
+ 1. Main
+
+ 2. Header
+
+ 3. Home
+
+ 	3.1 Banner
+
+ 	3.2 Home Content
+
+ 4. Sidebar
+
+ 5. Subpage
+
+ 6. Blog
+
+ 7. Footer	
+
+ 8. Responsive
+
+ 
+
+ */
+
+#main-menu li a {
+
+    padding-top:8px !important;
+
+}
+
+#block-system-main-menu h2 {
+
+    padding-bottom:8px !important;
+    border-bottom:2px solid #361f11 !important;
+}
+
+#block-system-main-menu h2 a {
+
+/*  padding-top:8px !important; */
+  border:none !important;
+
+}
+ /************** 1. Main **************/
+
+
+
+
+
+.img-sprite, .img-bird, #banner .title-box:before, .img-bt1-l, .button:before, .img-bt1-r, .button:after, .img-bt2-l, .button.color2:before, .img-bt2-r, .button.color2:after, .img-camp-logo1, .img-camp-logo2, .img-camp-logo3, .img-camp-logo4, .img-item-2-small, .img-item1, .home-title h3:before, .home-title h3:after, .img-item2, #home .counter .days:after, .img-item3, aside.sidebar .widget-container ul ul li:before, nav.page-menu-mobile .widget-container ul ul li:before, .img-item4, .dropdown-trigger-mobile:before, .img-logo-md, .img-logo-small, .img-logo-xs, .img-logo, header.main .logo, .img-menu-icon1, header.main .top-nav li.icon1:before, .img-menu-icon2, header.main .top-nav li.icon2:before, .img-menu-icon3, header.main .top-nav li.icon3:before, .img-menu-icon4, header.main .top-nav li.icon4:before, .img-menu-icon5, header.main .top-nav li.icon5:before, .img-menu-item, header.main nav.main li:before, .img-next, .gallery .flex-direction-nav li .flex-next, .img-pag-next, .pagination .next a:before, .img-pag-prev, .pagination .prev a:before, .img-prev, .gallery .flex-direction-nav li .flex-prev, .img-side-logo-md, .img-side-logo, aside.sidebar .widget-container:before, nav.page-menu-mobile .widget-container:before, .img-small-logo, .img-widget-sh, aside.sidebar .widget-container:after, nav.page-menu-mobile .widget-container:after {
+
+  background: url('/sites/all/themes/christiancamps/cssAssets/img-s59da3aa087.png') no-repeat;
+
+}
+
+
+
+.img-bird, #banner .title-box:before {
+
+  background-position: -443px 0;
+
+}
+
+
+
+.img-bt1-l, .button:before {
+
+  background-position: -267px 0;
+
+}
+
+.img-bt1-l:hover, .button:hover:before, .img-bt1-l.bt1-l_hover, .bt1-l_hover.button:before, .img-bt1-l.bt1-l-hover, .bt1-l-hover.button:before {
+
+  background-position: -206px 0;
+
+}
+
+
+
+.img-bt1-r, .button:after {
+
+  background-position: -321px 0;
+
+}
+
+.img-bt1-r:hover, .button:hover:after, .img-bt1-r.bt1-r_hover, .bt1-r_hover.button:after, .img-bt1-r.bt1-r-hover, .bt1-r-hover.button:after {
+
+  background-position: -357px 0;
+
+}
+
+
+
+.img-bt2-l, .button.color2:before {
+
+  background-position: -339px 0;
+
+}
+
+.img-bt2-l:hover, .button.color2:hover:before, .img-bt2-l.bt2-l_hover, .bt2-l_hover.button.color2:before, .img-bt2-l.bt2-l-hover, .bt2-l-hover.button.color2:before {
+
+  background-position: -375px 0;
+
+}
+
+
+
+.img-bt2-r, .button.color2:after {
+
+  background-position: -303px 0;
+
+}
+
+.img-bt2-r:hover, .button.color2:hover:after, .img-bt2-r.bt2-r_hover, .bt2-r_hover.button.color2:after, .img-bt2-r.bt2-r-hover, .bt2-r-hover.button.color2:after {
+
+  background-position: -285px 0;
+
+}
+
+
+
+.img-camp-logo1 {
+
+  background-position: 0 -127px;
+
+}
+
+
+
+.img-camp-logo2 {
+
+  background-position: -172px -83px;
+
+}
+
+
+
+.img-camp-logo3 {
+
+  background-position: -239px -47px;
+
+}
+
+
+
+.img-camp-logo4 {
+
+  background-position: -177px -575px;
+
+}
+
+
+
+.img-item-2-small {
+
+  background-position: -115px -47px;
+
+}
+
+
+
+.img-item1, .home-title h3:before, .home-title h3:after {
+
+  background-position: -190px 0;
+
+}
+
+
+
+.img-item2, #home .counter .days:after {
+
+  background-position: 0 -47px;
+
+}
+
+
+
+.img-item3, aside.sidebar .widget-container ul ul li:before, nav.page-menu-mobile .widget-container ul ul li:before {
+
+  background-position: -215px -47px;
+
+}
+
+
+
+.img-item4, .dropdown-trigger-mobile:before {
+
+  background-position: -226px -47px;
+
+}
+
+
+
+.img-logo-md {
+
+  background-position: 0 -358px;
+
+}
+
+
+
+.img-logo-small {
+
+  background-position: -14px -83px;
+
+}
+
+
+
+.img-logo-xs {
+
+  background-position: 0 -292px;
+
+}
+
+
+
+.img-logo, header.main .logo {
+
+  background-position: 0 -450px;
+
+}
+
+
+
+.img-menu-icon1, header.main .top-nav li.icon1:before {
+
+  background-position: -68px 0;
+
+}
+
+
+
+.img-menu-icon2, header.main .top-nav li.icon2:before {
+
+  background-position: -34px 0;
+
+}
+
+
+
+.img-menu-icon3, header.main .top-nav li.icon3:before {
+
+  background-position: -51px 0;
+
+}
+
+
+
+.img-menu-icon4, header.main .top-nav li.icon4:before {
+
+  background-position: 0 0;
+
+}
+
+
+
+.img-menu-icon5, header.main .top-nav li.icon5:before {
+
+  background-position: -17px 0;
+
+}
+
+
+
+.img-menu-item, header.main nav.main li:before {
+
+  background-position: -133px 0;
+
+}
+
+
+
+.img-next, .gallery .flex-direction-nav li .flex-next {
+
+  background-position: -85px 0;
+
+}
+
+
+
+.img-pag-next, .pagination .next a:before {
+
+  background-position: -167px 0;
+
+}
+
+
+
+.img-pag-prev, .pagination .prev a:before {
+
+  background-position: -144px 0;
+
+}
+
+
+
+.img-prev, .gallery .flex-direction-nav li .flex-prev {
+
+  background-position: -109px 0;
+
+}
+
+
+
+.img-side-logo-md {
+
+  background-position: -181px -127px;
+
+}
+
+
+
+.img-small-logo {
+
+  background-position: 0 -83px;
+
+}
+
+
+
+.img-widget-sh, aside.sidebar .widget-container:after, nav.page-menu-mobile .widget-container:after {
+
+  background-position: -235px -292px;
+
+}
+
+
+
+.bg-sprite, .bg-bg1, .dropdown .dropdown-trigger, .bg-bt1, .button, .bg-bt2, .button.color2 {
+
+  background: url('/sites/all/themes/christiancamps/cssAssets/bg-s34a0525077.png') no-repeat;
+
+}
+
+
+
+.bg-bg1, .dropdown .dropdown-trigger {
+
+  background-position: 0 -188px;
+
+}
+
+
+
+.bg-bt1, .button {
+
+  background-position: 0 0;
+
+}
+
+.bg-bt1:hover, .button:hover, .bg-bt1.bt1_hover, .bt1_hover.button, .bg-bt1.bt1-hover, .bt1-hover.button {
+
+  background-position: 0 -47px;
+
+}
+
+
+
+.bg-bt2, .button.color2 {
+
+  background-position: 0 -141px;
+
+}
+
+.bg-bt2:hover, .button.color2:hover, .bg-bt2.bt2_hover, .bt2_hover.button.color2, .bg-bt2.bt2-hover, .bt2-hover.button.color2 {
+
+  background-position: 0 -94px;
+
+}
+
+
+
+.alignleft,
+
+.fl {
+
+  float: left !important;
+
+  margin: 0 30px 15px 0;
+
+}
+
+
+
+img.alignleft {
+
+  margin-right: 10px;
+
+}
+
+
+
+img.alignright {
+
+  margin-left: 10px;
+
+}
+
+
+
+.alignright,
+
+.fr {
+
+  float: right !important;
+
+  margin: 0 0 15px 20px;
+
+}
+
+
+
+.alignnone {
+
+  margin: 0 auto !important;
+
+  display: block !important;
+
+}
+
+
+
+.aligncenter {
+
+  display: block !important;
+
+  float: none !important;
+
+  text-align: center !important;
+
+  clear: both !important;
+
+  margin: 0 auto !important;
+
+}
+
+
+
+.current-menu-item {
+
+  cursor: default;
+
+}
+
+
+
+.dn {
+
+  display: none;
+
+}
+
+
+
+img {
+
+  border: none;
+
+}
+
+
+
+a {
+
+  outline: none;
+
+}
+
+
+
+body {
+
+  font-family: "Lora", serif;
+
+  font-weight: normal;
+
+}
+
+
+
+.ie8 .container {
+
+	width: 1170px;
+
+}
+
+
+
+h1 {
+
+  font-family: "PT Sans Narrow", sans-serif;
+
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  color: #fff;
+
+  font-size: 60px;
+
+}
+
+
+
+h2 {
+
+  font-family: "PT Sans Narrow", sans-serif;
+
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  margin: 0 0 6px;
+
+  font-size: 36px;
+
+  letter-spacing: 2px;
+
+  color: #361f11;
+
+}
+
+
+
+h3 {
+
+  font-family: "PT Sans Narrow", sans-serif;
+
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  font-size: 28px;
+
+  color: #361f11;
+
+}
+
+
+
+p {
+
+  font-size: 18px;
+
+  line-height: 24px;
+
+  color: #361f11;
+
+}
+
+p a {
+
+  color: #c88f3a;
+
+}
+
+
+
+.button {
+
+  font-family: "Lora", serif;
+
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  font-size: 18px;
+
+  color: #fff;
+
+  height: 47px;
+
+  line-height: 47px;
+
+  position: relative;
+
+  padding: 0 11px;
+
+  margin: 8px 42px 11px 18px;
+
+  display: inline-block;
+
+}
+
+.button:hover {
+
+  color: #fff;
+
+  text-decoration: none;
+
+}
+
+.button:before {
+
+  content: '';
+
+  width: 18px;
+
+  height: 100%;
+
+  position: absolute;
+
+  top: 0;
+
+  left: -18px;
+
+}
+
+.button:after {
+
+  content: '';
+
+  width: 18px;
+
+  height: 100%;
+
+  position: absolute;
+
+  top: 0;
+
+  right: -18px;
+
+}
+
+
+
+section.main.not-found {
+
+	margin: 50px 0;
+
+}
+
+
+
+/************** 2. Header **************/
+
+header.main {
+
+  min-height: 103px;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/header-bg.jpg");
+
+  position: relative;
+
+  z-index: 99;
+
+}
+
+header.main:after {
+
+  content: '';
+
+  width: 100%;
+
+  height: 16px;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/item.png");
+
+  position: absolute;
+
+  bottom: -16px;
+
+  left: 0;
+
+}
+
+header.main .logo {
+
+  position: absolute;
+
+  left: 0;
+
+  top: 0;
+
+  width: 493px;
+
+  height: 119px;
+
+  text-indent: -9999px;
+
+  z-index: 25;
+
+}
+
+header.main .top-nav {
+
+  float: right;
+
+  margin: 11px 59px 0 0;
+
+}
+
+header.main .top-nav ul {
+
+  margin: 0;
+
+  padding: 0;
+
+  list-style: none;
+
+}
+
+header.main .top-nav li {
+
+  text-transform: uppercase;
+
+  font-family: "PT Sans Narrow", sans-serif;
+
+  font-weight: normal;
+
+  font-size: 18px;
+
+  display: inline-block;
+
+  position: relative;
+
+  top: 1px;
+
+  margin: 0 3px 0 33px;
+
+  letter-spacing: 0.5px;
+
+}
+
+header.main .top-nav li:before {
+
+  content: '';
+
+  width: 17px;
+
+  height: 17px;
+
+  position: absolute;
+
+  top: 3px;
+
+  left: -25px;
+
+}
+
+header.main .top-nav li a {
+
+  text-decoration: none;
+
+  color: #361f11;
+
+}
+
+header.main .top-nav li a:hover {
+
+	color: #c88f3a;
+
+}
+
+header.main .top-nav li.menu-button {
+
+  border: 2px solid #d7d9de;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/pattern4.jpg");
+
+  position: relative;
+
+  -webkit-border-radius: 7px;
+
+  -moz-border-radius: 7px;
+
+  -ms-border-radius: 7px;
+
+  -o-border-radius: 7px;
+
+  border-radius: 7px;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  letter-spacing: 1px;
+
+  padding: 3px 8px 4px 33px;
+
+  margin: 0 0 0 5px;
+
+  top: 0;
+
+}
+
+header.main .top-nav li.menu-button:before {
+
+  top: 7px;
+
+  left: 8px;
+
+}
+
+header.main .top-nav li.menu-button a {
+
+  color: #fff;
+
+}
+
+header.main .top-nav li.menu-button:hover {
+
+  -webkit-box-shadow: #9f610e 5px 5px 12px -5px inset;
+
+  -moz-box-shadow: #9f610e 5px 5px 12px -5px inset;
+
+  box-shadow: #9f610e 5px 5px 12px -5px inset;
+
+}
+
+header.main nav.main {
+
+  float: right;
+
+  clear: right;
+
+  margin: 5px 62px 0 0;
+
+}
+
+header.main nav.main ul {
+
+  margin: 0;
+
+  padding: 0;
+
+  list-style: none;
+
+}
+
+header.main nav.main li {
+
+  position: relative;
+
+  font-family: "PT Sans Narrow", sans-serif;
+
+  font-weight: normal;
+
+  font-size: 28px;
+
+  text-transform: uppercase;
+
+  display: inline-block;
+
+  letter-spacing: 1px;
+
+  margin-left: 35px;
+
+  text-shadow: white 1px 0px 1px;
+
+}
+
+header.main nav.main li:before {
+
+  content: '';
+
+  width: 11px;
+
+  height: 22px;
+
+  position: absolute;
+
+  left: -25px;
+
+  top: 10px;
+
+}
+
+header.main nav.main li:first-child:before {
+
+  display: none;
+
+}
+
+header.main nav.main li a {
+
+  color: #361f11;
+
+}
+
+
+
+header.main nav.main li a:hover {
+
+	text-decoration: none;
+
+	color: #c88f3a;
+
+}
+
+
+
+.dropdown {
+
+  width: 100%;
+
+  position: absolute;
+
+  top: 106px;
+
+  left: 0;
+
+  z-index: 24;
+
+}
+
+.dropdown .dropdown-trigger {
+
+  display: inline-block;
+
+  height: 36px;
+
+  background-position: 100% -188px;
+
+  font-family: "PT Sans Narrow", sans-serif;
+
+  font-weight: normal;
+
+  font-size: 13px;
+
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  color: #361f11;
+
+  padding: 0 38px 0 40px;
+
+  line-height: 30px;
+
+  letter-spacing: 0.5px;
+
+  position: relative;
+
+  margin-top: 10px;
+
+}
+
+.dropdown .dropdown-trigger.open {
+
+  margin-top: 0;
+
+}
+
+.dropdown .dropdown-trigger.open:after {
+
+  border-width: 0px 4px 7px 4px;
+
+  border-color: transparent transparent #be802e transparent;
+
+}
+
+.dropdown .dropdown-trigger:after {
+
+  content: '';
+
+  width: 0;
+
+  height: 0;
+
+  border-width: 7px 4px 0px 4px;
+
+  border-color: #be802e transparent transparent transparent;
+
+  border-style: solid;
+
+  position: absolute;
+
+  right: 24px;
+
+  top: 12px;
+
+}
+
+.dropdown .dropdown-trigger span {
+
+  width: 14px;
+
+  height: 14px;
+
+  display: inline-block;
+
+  position: relative;
+
+  top: 3px;
+
+  left: -7px;
+
+}
+
+.dropdown .dropdown-content {
+
+  display: none;
+
+  width: 100%;
+
+  height: 133px;
+
+  background-image: url("/sites/all/themes/christiancamps/cssAssets/dropdown-bg.jpg");
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+}
+
+.dropdown .dropdown-content ul {
+
+  display: none;
+
+  margin: 0;
+
+  padding: 29px 0 0;
+
+  list-style: none;
+
+  width: 100%;
+
+  text-align: center;
+
+  font-size: 0;
+
+}
+
+.dropdown .dropdown-content ul li {
+
+  display: inline-block;
+
+  margin: 0 15px;
+
+  position: relative;
+
+  -webkit-box-shadow: #59301c 0px 0px 10px 0px;
+
+  -moz-box-shadow: #59301c 0px 0px 10px 0px;
+
+  box-shadow: #59301c 0px 0px 10px 0px;
+
+}
+
+
+
+/************** 3 Home **************/
+
+/************** 3.1 Banner **************/
+
+#banner {
+
+  height: 647px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background-image: url('/sites/all/themes/christiancamps/cssAssets/footer-bg.jpg');
+
+  background-size: cover;
+
+}
+
+#banner .flexslider, #banner .flexslider ul, #banner .flexslider li {
+
+  height: 100%;
+
+}
+
+#banner .flexslider .slides li {
+
+  width: 100%;
+
+  height: 100%;
+
+  background-position: center top;
+
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+
+  background-size: cover;
+
+}
+
+#banner .logo-list {
+
+	padding: 0;
+
+	margin: 33px 0 0 0;
+
+	width: 100%;
+
+}
+
+#banner .logo-list li {
+
+	width: 100%;
+
+	height: 118px;
+
+	position: relative;
+
+	font-size: 0;
+
+}
+
+#banner .logo-list li a {
+
+	display: block;
+
+	height: 100%;
+
+	color: #fff;
+
+	text-decoration: none;
+
+}
+
+#banner .logo-list li span.text {
+
+	font-family: "Lora", serif;
+
+	font-weight: 700;
+
+	color: #fff;
+
+	font-size: 24px;
+
+	position: absolute;
+
+	top: 40px;
+
+	right: 70px;
+
+}
+
+#banner .logo-list li .logo-img {
+
+	display: block;
+
+	position: absolute;
+
+	top: 50%;
+
+	left: 42px;
+
+	background: url('/sites/all/themes/christiancamps/cssAssets/logos.png') no-repeat;
+
+}
+
+#banner .logo-list li.logo1 {
+
+	background: url('/sites/all/themes/christiancamps/cssAssets/pattern3.jpg');
+
+}
+
+#banner .logo-list li.logo1 .logo-img {
+
+	width: 306px;
+
+	height: 62px;
+
+	margin-top: -31px;
+
+	background-position: 0 0;
+
+}
+
+#banner .logo-list li.logo2 {
+
+	background: url('/sites/all/themes/christiancamps/cssAssets/pattern8.jpg');
+
+}
+
+#banner .logo-list li.logo2 .logo-img {
+
+	width: 249px;
+
+	height: 78px;
+
+	margin-top: -39px;
+
+	background-position: 0 -79px;
+
+}
+
+#banner .logo-list li.logo3 {
+
+	background: url('/sites/all/themes/christiancamps/cssAssets/pattern9.jpg');
+
+}
+
+#banner .logo-list li.logo3 .logo-img {
+
+	width: 446px;
+
+	height: 70px;
+
+	margin-top: -35px;
+
+	background-position: 0 -168px;
+
+}
+
+#banner .logo-list li.logo4 {
+
+	background: url('/sites/all/themes/christiancamps/cssAssets/pattern10.jpg');
+
+}
+
+#banner .logo-list li.logo4 .logo-img {
+
+	width: 389px;
+
+	height: 81px;
+
+	margin-top: -40px;
+
+	background-position: 0 -261px;
+
+}
+
+#banner .logo-list li.logo5 {
+
+	background: url('/sites/all/themes/christiancamps/cssAssets/pattern11.jpg');
+
+}
+
+#banner .logo-list li.logo5 .logo-img {
+
+	width: 435px;
+
+	height: 59px;
+
+	margin-top: -30px;
+
+	background-position: 0 -358px;
+
+}
+
+#banner .flexslider .slides li.flex-active-slide {
+
+  -webkit-transform: scale(1.2) rotate(0.1deg);
+
+  -moz-transform: scale(1.2) rotate(0.1deg);
+
+  -ms-transform: scale(1.2) rotate(0.1deg);
+
+  -o-transform: scale(1.2) rotate(0.1deg);
+
+  transform: scale(1.2) rotate(0.1deg);
+
+  -webkit-transition: -webkit-transform 6s linear;
+
+  -moz-transition: -moz-transform 6s linear;
+
+  -ms-transition: -ms-transform 6s linear;
+
+  -o-transition: -o-transform 6s linear;
+
+  transition: transform 6s linear;
+
+}
+
+#banner .flexslider .slides li a {
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  display: block;
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+#banner .wrapper-title {
+
+  position: absolute;
+
+  bottom: 286px;
+
+  left: 0;
+
+  width: 100%;
+
+  text-align: center;
+
+  font-size: 0;
+
+}
+
+#banner .title-box {
+
+  margin: 0 auto;
+
+  position: relative;
+
+  text-align: center;
+
+  z-index: 20;
+
+  padding-top: 66px;
+
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(45%, rgba(0, 0, 0, 0.45)), color-stop(55%, rgba(0, 0, 0, 0.45)), color-stop(100%, rgba(0, 0, 0, 0)));
+
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.45) 45%, rgba(0, 0, 0, 0.45) 55%, rgba(0, 0, 0, 0) 100%);
+
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.45) 45%, rgba(0, 0, 0, 0.45) 55%, rgba(0, 0, 0, 0) 100%);
+
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.45) 45%, rgba(0, 0, 0, 0.45) 55%, rgba(0, 0, 0, 0) 100%);
+
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.45) 45%, rgba(0, 0, 0, 0.45) 55%, rgba(0, 0, 0, 0) 100%);
+
+}
+
+.ie8 #banner .title-box {
+
+ zoom: 1;  
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+
+}
+
+#banner .title-box:before {
+
+  content: '';
+
+  width: 50px;
+
+  height: 46px;
+
+  position: absolute;
+
+  top: 12px;
+
+  left: 50%;
+
+  margin-left: -15px;
+
+}
+
+#banner .title-box .wrapper {
+
+  margin: 0 8%;
+
+  overflow: hidden;
+
+}
+
+#banner .title-box h2 {
+
+  font-family: "Lora", serif;
+
+  font-weight: normal;
+
+  font-size: 60px;
+
+  line-height: 60px;
+
+  margin: 0;
+
+  color: #fff;
+
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+  text-shadow: black 1px 0px 1px;
+
+  position: relative;
+
+  display: inline-block;
+
+}
+
+#banner .title-box h2:before {
+
+  content: '';
+
+  width: 9999px;
+
+  height: 4px;
+
+  background-color: #fff;
+
+  position: absolute;
+
+  left: 102%;
+
+  top: 27px;
+
+  -webkit-box-shadow: black 0px 1px 3px -1px;
+
+  -moz-box-shadow: black 0px 1px 3px -1px;
+
+  box-shadow: black 0px 1px 3px -1px;
+
+}
+
+#banner .title-box h2:after {
+
+  content: '';
+
+  width: 9999px;
+
+  height: 4px;
+
+  background-color: #fff;
+
+  position: absolute;
+
+  right: 102%;
+
+  top: 27px;
+
+  -webkit-box-shadow: black 0px 1px 3px -1px;
+
+  -moz-box-shadow: black 0px 1px 3px -1px;
+
+  box-shadow: black 0px 1px 3px -1px;
+
+}
+
+#banner .title-box h3 {
+
+  font-family: "Lora", serif;
+
+  font-weight: 700;
+
+  font-size: 70px;
+
+  line-height: 72px;
+
+  color: #fff;
+
+  text-shadow: black 1px 0px 1px;
+
+  text-transform: uppercase;
+
+  margin: 0 0 8px 0;
+
+}
+
+#banner .title-box p {
+
+  font-family: "Lora", serif;
+
+  font-weight: 700;
+
+  font-size: 30px;
+
+  margin: 0;
+
+  line-height: 36px;
+
+  padding: 0 0 26px 0;
+
+  color: #fff;
+
+  text-shadow: black 1px 0px 1px;
+
+}
+
+#banner .call-to-action {
+
+  position: absolute;
+
+  bottom: 73px;
+
+  left: 0;
+
+  width: 100%;
+
+  z-index: 20;
+
+}
+
+#banner .call-to-action .cta {
+
+  width: 30%;
+
+  height: 124px;
+
+  float: left;
+
+  padding: 3px;
+
+  background-color: #fff;
+
+  position: relative;
+
+  margin: 0 0 0 3.3%;
+
+  -webkit-border-radius: 10px;
+
+  -moz-border-radius: 10px;
+
+  -ms-border-radius: 10px;
+
+  -o-border-radius: 10px;
+
+  border-radius: 10px;
+
+  -webkit-box-shadow: black 0px 0px 7px -2px;
+
+  -moz-box-shadow: black 0px 0px 7px -2px;
+
+  box-shadow: black 0px 0px 7px -2px;
+
+}
+
+#banner .call-to-action .cta .inner {
+
+  position: relative;
+
+  width: 100%;
+
+  height: 100%;
+
+  background-size: cover;
+
+  background-position: center right;
+
+  overflow: hidden;
+
+  -webkit-border-radius: 7px;
+
+  -moz-border-radius: 7px;
+
+  -ms-border-radius: 7px;
+
+  -o-border-radius: 7px;
+
+  border-radius: 7px;
+
+}
+
+#banner .call-to-action .cta .cta-content {
+
+  width: 100%;
+
+  height: 100%;
+
+  position: relative;
+
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff), color-stop(70%, rgba(255, 255, 255, 0)));
+
+  background-image: -webkit-linear-gradient(left, #ffffff 0%, rgba(255, 255, 255, 0) 70%);
+
+  background-image: -moz-linear-gradient(left, #ffffff 0%, rgba(255, 255, 255, 0) 70%);
+
+  background-image: -o-linear-gradient(left, #ffffff 0%, rgba(255, 255, 255, 0) 70%);
+
+  background-image: linear-gradient(left, #ffffff 0%, rgba(255, 255, 255, 0) 70%);
+
+}
+
+#banner .call-to-action .cta h4 {
+
+  margin: 0;
+
+  font-family: "Oleo Script", cursive;
+
+  font-weight: normal;
+
+  font-size: 42px;
+
+  line-height: 49px;
+
+  color: #fff;
+
+  padding: 10px 15px;
+
+  text-shadow: #512f2e 2px 2px 0px, #512f2e -2px 2px 0px, #512f2e 2px -2px 0px, #512f2e -2px -2px 0px;
+
+}
+
+#banner .call-to-action .cta .link {
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 100%;
+
+  display: block;
+
+  z-index: 15;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+
+
+.ie8 #banner .call-to-action .cta .link {
+
+	background: url('/sites/all/themes/christiancamps/cssAssets/ie.png');
+
+}
+
+
+
+#banner .call-to-action .cta:hover h4 {
+
+	text-shadow: #ffcd00 2px 2px 0px, #ffcd00 -2px 2px 0px, #ffcd00 2px -2px 0px, #ffcd00 -2px -2px 0px;	
+
+}
+
+
+
+/************** 3.2 Home Content **************/
+
+#home {
+
+  position: relative;
+
+  z-index: 30;
+
+  padding-bottom: 22px;
+
+  background-image: url("/sites/all/themes/christiancamps/cssAssets/home-bg.jpg");
+
+  background-size: cover;
+
+  background-position: center bottom;
+
+  -webkit-box-shadow: black 0px 0px 10px -1px;
+
+  -moz-box-shadow: black 0px 0px 10px -1px;
+
+  box-shadow: black 0px 0px 10px -1px;
+
+}
+
+
+
+.ie8 #home {
+
+	box-shadow: none;
+
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./sites/all/themes/christiancamps/cssAssets/home-bg.jpg', sizingMethod='scale');
+
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sites/all/themes/christiancamps/cssAssets/home-bg.jpg', sizingMethod='scale')";
+
+}
+
+
+
+#home .left-box {
+
+  margin-top: 30px;
+
+}
+
+.ie8 #home .left-box {
+
+	width: 50%;
+
+	float: left;
+
+}
+
+.ie8 #home .photo-box {
+
+	width: 33.333%;
+
+}
+
+#home .left-box h4 {
+
+  font-size: 28px;
+
+  line-height: 38px;
+
+  font-family: "Lora", serif;
+
+  font-weight: 700;
+
+  color: #361f11;
+
+  margin: 0 0 21px;
+
+}
+
+#home .left-box p {
+
+  font-size: 24px;
+
+  line-height: 36px;
+
+  color: #361f11;
+
+  margin-bottom: 35px;
+
+}
+
+#home .right-box {
+
+  margin-top: 39px;
+
+}
+
+.ie8 #home .right-box {
+
+	width: 50%;
+
+	float: left;
+
+}
+
+.ie8 .right-box .col-lg-6 {
+
+	width: 50%;
+
+}
+
+#home .right-box h5 {
+
+  font-family: "Lora", serif;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  color: #361f11;
+
+  margin: 0 0 13px;
+
+}
+
+#home .right-box h5 span {
+
+  display: inline-block;
+
+  width: 22px;
+
+  height: 22px;
+
+  background-size: cover;
+
+  position: relative;
+
+  top: 4px;
+
+  margin-right: 5px;
+
+}
+
+#home .right-box h5 a {
+
+  color: #361f11;
+
+}
+
+#home .right-box .row > div {
+
+	margin-bottom: 12px;
+
+}
+
+#home .right-box img {
+
+  width: 100%;
+
+  height: auto;
+
+  position: relative;
+
+  margin-bottom: 12px;
+
+  -webkit-box-shadow: black 0px 6px 10px -8px;
+
+  -moz-box-shadow: black 0px 6px 10px -8px;
+
+  box-shadow: black 0px 6px 10px -8px;
+
+}
+
+#home .photo-box {
+
+  margin-top: 20px;
+
+}
+
+#home .photo-box .inner {
+
+  width: 100%;
+
+  background-color: #fff;
+
+  padding: 6px;
+
+  position: relative;
+
+  -webkit-box-shadow: black 0px 8px 10px -8px;
+
+  -moz-box-shadow: black 0px 8px 10px -8px;
+
+  box-shadow: black 0px 8px 10px -8px;
+
+}
+
+#home .photo-box .inner img {
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+#home .photo-box p {
+
+  font-family: "Lora", serif;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  line-height: 21px;
+
+  margin: 15px 0;
+
+}
+
+#home .photo-box p a {
+
+  color: #c88f3a;
+
+}
+
+#home .counter {
+
+  width: 100%;
+
+  margin-top: 38px;
+
+  position: relative;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/pattern2.jpg");
+
+  -webkit-box-shadow: black 0px 8px 17px -9px;
+
+  -moz-box-shadow: black 0px 8px 17px -9px;
+
+  box-shadow: black 0px 8px 17px -9px;
+
+}
+
+#home .counter .days {
+
+  width: 116px;
+
+  height: 70px;
+
+  margin: 20px 20px 18px 22px;
+
+  position: relative;
+
+  float: left;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/pattern9.jpg");
+
+  -webkit-box-shadow: #1a2c88 0px 0px 7px -1px;
+
+  -moz-box-shadow: #1a2c88 0px 0px 7px -1px;
+
+  box-shadow: #1a2c88 0px 0px 7px -1px;
+
+}
+
+#home .counter .days:after {
+
+  content: '';
+
+  width: 100%;
+
+  height: 9px;
+
+  position: absolute;
+
+  top: 31px;
+
+  left: 0;
+
+}
+
+#home .counter .days span {
+
+  font-family: "PT Sans Narrow", sans-serif;
+
+  font-weight: 700;
+
+  font-size: 60px;
+
+  line-height: 68px;
+
+  color: #fff;
+
+  display: block;
+
+  text-align: center;
+
+}
+
+#home .counter span.big {
+
+  float: left;
+
+  font-family: "Lora", serif;
+
+  font-weight: 700;
+
+  font-size: 75px;
+
+  color: #c88f3a;
+
+  text-transform: uppercase;
+
+  letter-spacing: -2px;
+
+}
+
+#home .counter span.mid {
+
+  font-family: "PT Sans Narrow", sans-serif;
+
+  font-weight: normal;
+
+  font-size: 36px;
+
+  line-height: 30px;
+
+  color: #502e2d;
+
+  text-transform: uppercase;
+
+  float: left;
+
+  margin: 24px 0 0 22px;
+
+  letter-spacing: -1px;
+
+}
+
+#home .counter span.mid span {
+
+  font-weight: 700;
+
+  letter-spacing: 7px;
+
+}
+
+
+
+.home-title {
+
+  width: 100%;
+
+  height: 55px;
+
+  background-image: url("/sites/all/themes/christiancamps/cssAssets/wood.jpg");
+
+  background-size: 100%;
+
+  background-position: center;
+
+  text-align: center;
+
+  -webkit-box-shadow: black 0px 0px 60px 0px inset;
+
+  -moz-box-shadow: black 0px 0px 60px 0px inset;
+
+  box-shadow: black 0px 0px 60px 0px inset;
+
+}
+
+.home-title h3 {
+
+  font-family: "Gochi Hand", cursive;
+
+  font-weight: normal;
+
+  font-size: 36px;
+
+  color: #674228;
+
+  text-transform: uppercase;
+
+  margin: 0;
+
+  padding-top: 12px;
+
+  position: relative;
+
+  display: inline-block;
+
+}
+
+.home-title h3:before {
+
+  content: '';
+
+  width: 16px;
+
+  height: 26px;
+
+  position: absolute;
+
+  top: 16px;
+
+  left: -30px;
+
+}
+
+.home-title h3:after {
+
+  content: '';
+
+  width: 16px;
+
+  height: 26px;
+
+  position: absolute;
+
+  top: 16px;
+
+  right: -30px;
+
+}
+
+
+
+#news {
+
+  text-align: center;
+
+  padding-top: 25px;
+
+  background-image: url("/sites/all/themes/christiancamps/cssAssets/news-bg.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+}
+
+.ie8 #news {
+
+	background: url("/sites/all/themes/christiancamps/cssAssets/news-bg.jpg");
+
+	background-repeat: no-repeat;
+
+	background-size: 100% 100%;
+
+	background-position: 0 0;
+
+}
+
+#news h3 {
+
+  font-family: "Lora", serif;
+
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  margin: 0 0 47px;
+
+  font-size: 60px;
+
+  line-height: 60px;
+
+  color: #361f11;
+
+  display: inline-block;
+
+  overflow: hidden;
+
+  width: 820px;
+
+}
+
+#news h3 span {
+
+  position: relative;
+
+  font-family: "PT Sans Narrow", sans-serif;
+
+  font-weight: normal;
+
+  font-size: 36px;
+
+  line-height: 40px;
+
+  display: inline-block;
+
+  letter-spacing: 1px;
+
+}
+
+#news h3 span:before {
+
+  content: '';
+
+  width: 9999px;
+
+  height: 2px;
+
+  background-color: #361f11;
+
+  position: absolute;
+
+  top: 20px;
+
+  left: 105%;
+
+}
+
+#news h3 span:after {
+
+  content: '';
+
+  width: 9999px;
+
+  height: 2px;
+
+  background-color: #361f11;
+
+  position: absolute;
+
+  top: 20px;
+
+  right: 105%;
+
+}
+
+#news h3 a {
+
+  color: #361f11;
+
+}
+
+#news footer.news {
+
+  margin-top: 38px;
+
+  background-color: rgba(1, 8, 53, 0.4);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66010835,endColorstr=#66010835);
+
+  text-align: center;
+
+}
+
+#news footer.news h5 {
+
+  font-family: "Lora", serif;
+
+  font-weight: 700;
+
+  font-size: 30px;
+
+  color: #fff;
+
+  margin: 0;
+
+  padding: 42px 0 41px;
+
+  display: inline-block;
+
+}
+
+#news footer.news .button {
+
+  top: -4px;
+
+  margin-left: 40px;
+
+  padding: 0 15px;
+
+}
+
+
+
+.post-short {
+
+  height: 232px;
+
+  position: relative;
+
+  text-align: center;
+
+  margin-bottom: 40px;
+
+}
+
+.ie8 .post-short {
+
+	width: 25%;
+
+}
+
+.post-short .bg {
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/pattern2.jpg");
+
+  position: absolute;
+
+  width: 90%;
+
+  height: 100%;
+
+  left: 5%;
+
+  top: 0;
+
+  z-index: 1;
+
+  opacity: 0.8;
+
+  -webkit-box-shadow: black 0px 8px 17px -9px;
+
+  -moz-box-shadow: black 0px 8px 17px -9px;
+
+  box-shadow: black 0px 8px 17px -9px;
+
+}
+
+.ie8 .post-short .bg {
+
+  filter: alpha(opacity=80);
+
+}
+
+.post-short span, .post-short h4 {
+
+  position: relative;
+
+  z-index: 20;
+
+  display: block;
+
+}
+
+.post-short .date, .post-short .author {
+
+  font-weight: 700;
+
+  color: #361f11;
+
+  font-size: 14px;
+
+}
+
+.post-short .date {
+
+  padding-top: 11px;
+
+}
+
+.post-short .date a {
+
+  color: #361f11;
+
+}
+
+.post-short .author {
+
+  position: absolute;
+
+  bottom: 15px;
+
+  left: 0;
+
+  width: 100%;
+
+}
+
+.post-short .author a {
+
+  color: #512f2e;
+
+}
+
+.post-short h4 {
+
+  font-family: "Lora", serif;
+
+  font-weight: 700;
+
+  font-size: 24px;
+
+  line-height: 30px;
+
+  color: #c88f3a;
+
+  margin: 20px 16px;
+
+}
+
+.post-short h4 a {
+
+  color: #c88f3a;
+
+}
+
+
+
+/************** 4. Sidebar **************/
+
+aside.sidebar {
+
+  width: 263px;
+
+  float: right;
+
+  position: relative;
+
+  z-index: 10;
+
+}
+
+aside.sidebar.page {
+
+  float: left;
+
+}
+
+
+
+aside.sidebar .widget-container, nav.page-menu-mobile .widget-container {
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/pattern6.jpg");
+
+  padding: 8px 9px 8px 7px;
+
+  position: relative;
+
+  margin-bottom: 20px;
+
+}
+
+aside.sidebar .widget-container .widget-wrapper, nav.page-menu-mobile .widget-container .widget-wrapper {
+
+  position: relative;
+
+}
+
+aside.sidebar .widget-container .widget-wrapper:before, nav.page-menu-mobile .widget-container .widget-wrapper:before {
+
+  content: '';
+
+  width: 1px;
+
+  height: 100%;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/border-vertical.png");
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+aside.sidebar .widget-container .widget-wrapper:after, nav.page-menu-mobile .widget-container .widget-wrapper:after {
+
+  content: '';
+
+  width: 1px;
+
+  height: 100%;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/border-vertical.png");
+
+  position: absolute;
+
+  top: 0;
+
+  right: 0;
+
+}
+
+aside.sidebar .widget-container .widget-inner, nav.page-menu-mobile .widget-container .widget-inner {
+
+  padding: 0 15px 1px 15px;
+
+  position: relative;
+
+}
+
+aside.sidebar .widget-container .widget-inner:before, nav.page-menu-mobile .widget-container .widget-inner:before {
+
+  content: '';
+
+  width: 100%;
+
+  height: 1px;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/border-horizontal.png");
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+aside.sidebar .widget-container .widget-inner:after, nav.page-menu-mobile .widget-container .widget-inner:after {
+
+  content: '';
+
+  width: 100%;
+
+  height: 1px;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/border-horizontal.png");
+
+  position: absolute;
+
+  bottom: 0;
+
+  left: 0;
+
+}
+
+aside.sidebar .widget-container:after, nav.page-menu-mobile .widget-container:after {
+
+  content: '';
+
+  width: 252px;
+
+  height: 15px;
+
+  position: absolute;
+
+  bottom: -15px;
+
+  left: 50%;
+
+  margin-left: -126px;
+
+}
+
+aside.sidebar .widget-container h3, nav.page-menu-mobile .widget-container h3 {
+
+  font-family: "PT Sans Narrow", sans-serif;
+
+  font-weight: 700;
+
+  font-size: 20px;
+
+  color: #361f11;
+
+  text-transform: uppercase;
+
+  margin: 0 0 10px 0;
+
+  padding: 11px 0 10px 0;
+
+  letter-spacing: 1px;
+
+  border-bottom: 2px solid #361f11;
+
+  position: relative;
+
+  z-index: 10;
+
+}
+
+aside.sidebar .widget-container ul, nav.page-menu-mobile .widget-container ul {
+
+  margin: 0;
+
+  padding: 0;
+
+  list-style: none;
+
+  position: relative;
+
+  z-index: 10;
+
+}
+
+aside.sidebar .widget-container ul ul, nav.page-menu-mobile .widget-container ul ul {
+
+  display: none;
+
+  margin: 12px 0 0 20px;
+
+}
+
+aside.sidebar .widget-container ul ul li:before, nav.page-menu-mobile .widget-container ul ul li:before {
+
+  content: '';
+
+  width: 11px;
+
+  height: 9px;
+
+  position: absolute;
+
+  top: 7px;
+
+  left: -19px;
+
+}
+
+aside.sidebar .widget-container li, nav.page-menu-mobile .widget-container li {
+
+  font-family: "PT Sans Narrow", sans-serif;
+
+  font-weight: normal;
+
+  font-size: 20px;
+
+  line-height: 24px;
+
+  text-transform: uppercase;
+
+  margin-bottom: 12px;
+
+  position: relative;
+
+  letter-spacing: -0.5px;
+
+}
+
+aside.sidebar .widget-container li a, nav.page-menu-mobile .widget-container li a {
+
+  color: #c88f3a;
+
+  text-decoration: none;
+
+}
+
+aside.sidebar .widget-container li a:hover, nav.page-menu-mobile .widget-container li a:hover {
+
+  color: #502e2d;
+
+}
+
+aside.sidebar .widget-container li.current-menu-item > a, nav.page-menu-mobile .widget-container li.current-menu-item > a, aside.sidebar .widget-container li.current-cat > a {
+
+  color: #361f11;
+
+}
+
+
+
+aside.sidebar .widget-container li.current-menu-item ul, nav.page-menu-mobile .widget-container li.current-menu-item ul, aside.sidebar .widget-container li.current-menu-parent ul, nav.page-menu-mobile .widget-container li.current-menu-parent ul, aside.sidebar .widget-container li.current-cat ul.children, aside.sidebar .widget-container li.current-cat-parent ul.children {
+
+	display: block;
+
+}
+
+
+
+aside.sidebar .widget-container li.current-menu-item .icon, nav.page-menu-mobile .widget-container li.current-menu-item .icon, aside.sidebar .widget-container li.current-menu-parent .icon, nav.page-menu-mobile .widget-container li.current-menu-parent .icon, aside.sidebar .widget-container li.current-cat .icon, aside.sidebar .widget-container li.current-cat-parent .icon {
+
+	background-position: 0px 0px;
+
+}
+
+
+
+aside.sidebar .widget-container li .icon, nav.page-menu-mobile .widget-container li .icon {
+
+  display: inline-block;
+
+  width: 12px;
+
+  height: 12px;
+
+  background: url('/sites/all/themes/christiancamps/cssAssets/icon.png');
+
+  cursor: pointer;
+
+  position: relative;
+
+  top: -1px;
+
+  margin-left: 8px;
+
+  background-position: -14px 0;
+
+  background-repeat: no-repeat;
+
+}
+
+
+
+aside.sidebar .widget-container li .icon.open:after, nav.page-menu-mobile .widget-container li .icon.open:after {
+
+  display: none;
+
+}
+
+aside.sidebar .widget-container.widget_calls_to_action, nav.page-menu-mobile .widget-container.widget_calls_to_action {
+
+  background: none;
+
+  padding: 0;
+
+  float: left;
+
+  width: 100%;
+
+  margin-bottom: 18px;
+
+}
+
+aside.sidebar .widget-container.widget_calls_to_action .widget-inner:before, nav.page-menu-mobile .widget-container.widget_calls_to_action .widget-inner:before, aside.sidebar .widget-container.widget_calls_to_action .widget-inner:after, nav.page-menu-mobile .widget-container.widget_calls_to_action .widget-inner:after {
+
+	display: none;
+
+}
+
+aside.sidebar .widget-container.widget_calls_to_action img, nav.page-menu-mobile .widget-container.widget_calls_to_action img {
+
+  width: 68px;
+
+  height: 68px;
+
+  float: left;
+
+}
+
+aside.sidebar .widget-container.widget_calls_to_action h4, nav.page-menu-mobile .widget-container.widget_calls_to_action h4 {
+
+  float: left;
+
+  font-family: "PT Sans Narrow", sans-serif;
+
+  font-weight: 700;
+
+  font-size: 28px;
+
+  color: #c88f3a;
+
+  text-transform: uppercase;
+
+  margin: 2px 0 0 13px;
+
+  letter-spacing: 2px;
+
+  line-height: 33px;
+
+}
+
+aside.sidebar .widget-container.widget_calls_to_action h4 a, nav.page-menu-mobile .widget-container.widget_calls_to_action h4 a {
+
+  color: #c88f3a;
+
+  text-decoration: none;
+
+}
+
+aside.sidebar .widget-container.widget_calls_to_action:before, aside.sidebar .widget-container.widget_calls_to_action:after, nav.page-menu-mobile .widget-container.widget_calls_to_action:before, nav.page-menu-mobile .widget-container.widget_calls_to_action:after {
+
+  display: none;
+
+}
+
+
+
+/************** 5. Subpage **************/
+
+header.title {
+
+  min-height: 205px;
+
+  background-image: url("/sites/all/themes/christiancamps/cssAssets/title-bg.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  text-align: center;
+
+  position: relative;
+
+}
+
+header.title h1 {
+
+  margin: 67px 0 40px;
+
+  letter-spacing: 5px;
+
+}
+
+
+
+header.title h1 a {
+
+	color: #fff;
+
+	text-decoration: none;
+
+}
+
+
+
+#main {
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/pattern7.jpg");
+
+  position: relative;
+
+  padding-top: 36px;
+
+}
+
+#main:before {
+
+  content: '';
+
+  width: 100%;
+
+  height: 88px;
+
+  background-image: url(/sites/all/themes/christiancamps/cssAssets/sh.png);
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+
+
+section.content {
+
+  width: 848px;
+
+  float: right;
+
+  position: relative;
+
+  top: -2px;
+
+}
+
+section.content p {
+
+  font-size: 18px;
+
+  line-height: 36px;
+
+  margin-bottom: 31px;
+
+}
+
+section.content ul li a, section.content ol li a, table a {
+
+  color: #cd9441;
+
+  text-decoration: underline;
+
+}
+
+section.content p a {
+
+  color: #cd9441;
+
+  text-decoration: underline;
+
+}
+
+section.content h3 {
+
+  margin: 39px 0 7px 0;
+
+  letter-spacing: 1.5px;
+
+  clear: both;
+
+}
+
+
+
+section.content ul li, section.content ol li {
+
+	font-size: 18px;
+
+}
+
+
+
+.half {
+
+  width: 48%;
+
+  float: right;
+
+}
+
+.half.first {
+
+  float: left;
+
+}
+
+
+
+.gallery {
+
+  width: 54%;
+
+  margin-bottom: 40px;
+
+  position: relative;
+
+}
+
+.gallery .slides-wrapper {
+
+  position: relative;
+
+}
+
+.gallery .slides-wrapper:before {
+
+  content: '';
+
+  width: 100%;
+
+  height: 1px;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/border-horizontal.png");
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+.gallery .slides-wrapper:after {
+
+  content: '';
+
+  width: 100%;
+
+  height: 1px;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/border-horizontal.png");
+
+  position: absolute;
+
+  bottom: 0;
+
+  left: 0;
+
+}
+
+.gallery .slides-wrapper .inner-box:before {
+
+  content: '';
+
+  width: 1px;
+
+  height: 100%;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/border-vertical.png");
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+.gallery .slides-wrapper .inner-box:after {
+
+  content: '';
+
+  width: 1px;
+
+  height: 100%;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/border-vertical.png");
+
+  position: absolute;
+
+  top: 0;
+
+  right: 0;
+
+}
+
+.gallery .slides {
+
+  padding: 10px;
+
+}
+
+.gallery .flex-direction-nav {
+
+  width: 100%;
+
+  text-align: center;
+
+  margin: 10px 0 0 0;
+
+}
+
+.gallery .flex-direction-nav li {
+
+  display: inline-block;
+
+  margin: 0 8px;
+
+}
+
+.gallery .flex-direction-nav li .flex-prev, .gallery .flex-direction-nav li .flex-next {
+
+  display: block;
+
+  text-indent: -9999px;
+
+  width: 24px;
+
+  height: 20px;
+
+}
+
+
+
+.frame {
+
+  margin-top: 18px;
+
+  position: relative;
+
+}
+
+.frame:before {
+
+  content: '';
+
+  width: 1px;
+
+  height: 100%;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/border-vertical.png");
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+.frame:after {
+
+  content: '';
+
+  width: 1px;
+
+  height: 100%;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/border-vertical.png");
+
+  position: absolute;
+
+  top: 0;
+
+  right: 0;
+
+}
+
+.frame .frame-inner {
+
+  padding: 9px;
+
+  position: relative;
+
+}
+
+.frame .frame-inner:before {
+
+  content: '';
+
+  width: 100%;
+
+  height: 1px;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/border-horizontal.png");
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+.frame .frame-inner:after {
+
+  content: '';
+
+  width: 100%;
+
+  height: 1px;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/border-horizontal.png");
+
+  position: absolute;
+
+  bottom: 0;
+
+  left: 0;
+
+}
+
+
+
+table {
+
+  font-family: "Lora", serif;
+
+  font-weight: normal;
+
+  margin: 8px 0 45px;
+
+  width: 100%;
+
+  font-size: 18px;
+
+  line-height: 33px;
+
+  color: #333333;
+
+  border: 1px solid #c6b595;
+
+  border-spacing: 0;
+
+  border-collapse: collapse;
+
+}
+
+table th {
+
+  text-align: left;
+
+  background: #3c1e0a;
+
+  padding-left: 20px;
+
+  padding-bottom: 1px;
+
+  color: #ffffff;
+
+  font-weight: 700;
+
+}
+
+table tr {
+
+  border-top: 1px solid #c6b595;
+
+}
+
+table tr:nth-child(2n) td {
+
+  background: #ffffff;
+
+}
+
+table tr td {
+
+  background: #ece5d8;
+
+  padding: 0 0 0 24px;
+
+}
+
+
+
+.line {
+
+  display: block;
+
+  width: 100%;
+
+  height: 2px;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/line.png");
+
+  margin: 13px 0;
+
+}
+
+
+
+/************** 6. Blog **************/
+
+section.blog {
+
+  width: 848px;
+
+  float: left;
+
+  position: relative;
+
+  z-index: 20;
+
+  padding-bottom: 39px;
+
+}
+
+
+
+.post {
+
+  margin-bottom: 26px;
+
+}
+
+.post .post-title {
+
+  font-size: 36px;
+
+  color: #cd9440;
+
+  margin: 0;
+
+  letter-spacing: 1.5px;
+
+  position: relative;
+
+  padding-bottom: 17px;
+
+}
+
+.post .post-title:after {
+
+  content: '';
+
+  width: 100%;
+
+  height: 2px;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/line.png");
+
+  position: absolute;
+
+  bottom: 0;
+
+  left: 0;
+
+}
+
+.post .post-title a {
+
+  color: #cd9440;
+
+}
+
+.post .meta {
+
+  display: block;
+
+  position: relative;
+
+  margin-top: 14px;
+
+  padding-bottom: 12px;
+
+  color: #361f11;
+
+  font-size: 14px;
+
+}
+
+.post .meta a {
+
+  color: #cd9441;
+
+  text-decoration: underline;
+
+}
+
+.post .meta .date a {
+
+  color: #361f11;
+
+  text-decoration: none;
+
+}
+
+.post .meta:after {
+
+  content: '';
+
+  width: 100%;
+
+  height: 2px;
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/line.png");
+
+  position: absolute;
+
+  bottom: 0;
+
+  left: 0;
+
+}
+
+.post .post-content {
+
+  margin-top: 18px;
+
+}
+
+.post .post-content p {
+
+  font-size: 18px;
+
+  line-height: 36px;
+
+  color: #361f11;
+
+}
+
+.post .post-content p a {
+
+  color: #cd9441;
+
+  text-decoration: underline;
+
+}
+
+
+
+.pagination {
+
+  width: 100%;
+
+  margin: -4px 0 0 0;
+
+}
+
+.pagination .prev a, .pagination .next a {
+
+  font-family: Arial, sans-serif;
+
+  font-size: 13px;
+
+  color: #361f11;
+
+  text-decoration: underline;
+
+  position: relative;
+
+}
+
+.pagination .prev {
+
+  float: left;
+
+}
+
+.pagination .prev a {
+
+  padding-left: 35px;
+
+}
+
+.pagination .prev a:before {
+
+  content: '';
+
+  width: 23px;
+
+  height: 23px;
+
+  position: absolute;
+
+  top: -2px;
+
+  left: 1px;
+
+}
+
+.pagination .next {
+
+  float: right;
+
+}
+
+.pagination .next a {
+
+  padding-right: 35px;
+
+}
+
+.pagination .next a:before {
+
+  content: '';
+
+  width: 23px;
+
+  height: 23px;
+
+  position: absolute;
+
+  top: -2px;
+
+  right: 3px;
+
+}
+
+
+
+/************** 7. Footer **************/
+
+footer.main .footer-top {
+
+  background-image: url("/sites/all/themes/christiancamps/cssAssets/footer-bg.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  min-height: 400px;
+
+}
+
+footer.main .logo-box {
+
+  background: url("/sites/all/themes/christiancamps/cssAssets/pattern5.jpg");
+
+  margin-top: 30px;
+
+  position: relative;
+
+  padding-bottom: 30px;
+
+  -webkit-box-shadow: #010101 0px 0px 20px -3px;
+
+  -moz-box-shadow: #010101 0px 0px 20px -3px;
+
+  box-shadow: #010101 0px 0px 20px -3px;
+
+}
+
+footer.main .logo-box .logo1 {
+
+  padding: 29px 0 0 20px;
+
+  display: block;
+
+  float: left;
+
+}
+
+.ie8 footer.main .logo-box .logo1 {
+
+	width: 33.333%;
+
+}
+
+footer.main .logo-box .footer-top-info {
+
+  float: right;
+
+  margin-top: 35px;
+
+  position: relative;
+
+}
+
+.ie8 footer.main .logo-box .footer-top-info {
+
+	width: 66.666%;
+
+}
+
+footer.main .logo-box .footer-top-info:before {
+
+  content: '';
+
+  width: 3px;
+
+  height: 69%;
+
+  background-color: #9d7877;
+
+  position: absolute;
+
+  top: 5px;
+
+  left: -12px;
+
+  -webkit-border-radius: 5px;
+
+  -moz-border-radius: 5px;
+
+  -ms-border-radius: 5px;
+
+  -o-border-radius: 5px;
+
+  border-radius: 5px;
+
+}
+
+footer.main .logo-box .footer-top-info p {
+
+  font-size: 22px;
+
+  color: #512e2d;
+
+  line-height: 26px;
+
+}
+
+footer.main .logo-box .logos {
+
+  margin: 0;
+
+  padding: 24px 0 0;
+
+  list-style: none;
+
+  text-align: center;
+
+  font-size: 0;
+
+  clear: both;
+
+  width: 100%;
+
+}
+
+footer.main .logo-box .logos li {
+
+  width: 343px;
+
+  height: 162px;
+
+  background-size: cover;
+
+  display: inline-block;
+
+  margin: 0 18px;
+
+  background-position: center;
+
+}
+
+footer.main .logo-box .logos a {
+
+  display: block;
+
+  height: 100%;
+
+}
+
+footer.main .footer-bottom {
+
+  background-color: #260f00;
+
+  padding: 17px 0 21px;
+
+}
+
+footer.main .share h3, footer.main .contact h3 {
+
+  font-family: "Lora", serif;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  color: #fff;
+
+  margin: 0 0 1px;
+
+  text-align: left;
+
+  text-transform: none;
+
+}
+
+footer.main .share p, footer.main .contact p {
+
+  font-size: 14px;
+
+  color: #e0e2cb;
+
+  margin: 0;
+
+}
+
+footer.main .share ul, footer.main .contact ul {
+
+  margin: 10px 0 0;
+
+  padding: 0;
+
+  list-style: none;
+
+  width: 100%;
+
+  font-size: 0;
+
+}
+
+footer.main .share ul li, footer.main .contact ul li {
+
+  width: 48px;
+
+  height: auto;
+
+  display: inline-block;
+
+  margin-left: 5px;
+
+}
+
+footer.main .share ul li:first-child, footer.main .contact ul li:first-child {
+
+  margin-left: 0;
+
+}
+
+footer.main .share ul li img, footer.main .contact ul li img {
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+footer.main .contact {
+
+  text-align: center;
+
+}
+
+footer.main .contact p {
+
+  line-height: 20px;
+
+  margin-top: 3px;
+
+  text-align: left;
+
+  letter-spacing: -0.3px;
+
+}
+
+footer.main .contact p a {
+
+  color: #fff;
+
+}
+
+footer.main .contact .button {
+
+  margin: 9px 0 0 0;
+
+  padding: 0;
+
+}
+
+footer.main .widget-container h3 {
+
+  font-family: "Lora", serif;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  color: #fff;
+
+  margin: 0 0 1px;
+
+  text-transform: none;
+
+}
+
+footer.main .widget-container ul {
+
+  margin: 3px 0 0;
+
+  padding: 0;
+
+  list-style: none;
+
+}
+
+footer.main .widget-container li {
+
+  font-size: 14px;
+
+  color: #e0e2cb;
+
+  width: 45%;
+
+  float: left;
+
+  margin: 0;
+
+}
+
+footer.main .widget-container li a {
+
+  color: #e0e2cb;
+
+}
+
+footer.main .footnote {
+
+  background-color: #130700;
+
+}
+
+footer.main .footnote p {
+
+  font-size: 12px;
+
+  color: #e0e2cb;
+
+  margin: 0;
+
+  padding: 7px 0;
+
+}
+
+footer.main .footnote p a {
+
+  color: #e0e2cb;
+
+}
+
+
+
+.ie8 footer .col-lg-3 {
+
+	width: 25%;
+
+}
+
+
+
+.ie8 footer .col-lg-2 {
+
+	width: 16.666%;
+
+}
+
+
+
+.ie8 footer .col-lg-5 {
+
+	width: 41.66666667%;
+
+}
+
+
+
+header.main .logo.md {
+
+  display: none;
+
+}
+
+
+
+.main-menu-mobile {
+
+  display: none;
+
+}
+
+
+
+.dropdown-content-mobile {
+
+  display: none;
+
+}
+
+
+
+header.main .logo.md span.img-logo-small {
+
+  display: none;
+
+}
+
+
+
+.call-to-action .button {
+
+  display: none;
+
+}
+
+
+
+.post .stButton .stLarge {
+
+	width: 25px;
+
+	height: 25px;
+
+	background-size: 100%;
+
+	background-repeat: no-repeat;;
+
+	background-position: center !important;
+
+}
+
+
+
+.post .share {
+
+	float: right;
+
+	position: relative;
+
+	top: -3px;
+
+}
+
+
+
+/************** 8. Responsive **************/
+
+@media (max-width: 1360px) {
+
+  header.main {
+
+    min-height: 75px;
+
+  }
+
+  header.main:after {
+
+    height: 14px;
+
+    background-position: 0 -2px;
+
+    bottom: -14px;
+
+  }
+
+  header.main .logo {
+
+    display: none;
+
+  }
+
+  header.main .logo.md {
+
+    display: block;
+
+    width: auto;
+
+    height: auto;
+
+    background: none;
+
+  }
+
+  header.main .logo.md span {
+
+    display: block;
+
+    width: 358px;
+
+    height: 82px;
+
+  }
+
+  header.main .top-nav {
+
+    margin: 7px 4% 0 0;
+
+  }
+
+  header.main .top-nav li {
+
+    font-size: 14px;
+
+    top: 0;
+
+    margin: 0 5px 0 25px;
+
+  }
+
+  header.main .top-nav li:before {
+
+    top: 1px;
+
+    left: -21px;
+
+  }
+
+  header.main .top-nav li.menu-button {
+
+    font-size: 14px;
+
+    padding: 2px 7px 3px 28px;
+
+    margin-left: 1px;
+
+  }
+
+  header.main .top-nav li.menu-button:before {
+
+    top: 4px;
+
+    left: 6px;
+
+  }
+
+  header.main nav.main {
+
+    margin: 4px 4% 0 0;
+
+  }
+
+  header.main nav.main li {
+
+    font-size: 21px;
+
+    margin-left: 22px;
+
+  }
+
+  header.main nav.main li:before {
+
+    top: 4px;
+
+    left: -18px;
+
+  }
+
+
+
+  .dropdown {
+
+    top: 72px;
+
+  }
+
+  .dropdown .dropdown-trigger {
+
+    font-size: 10px;
+
+    height: 23px;
+
+    line-height: 24px;
+
+    padding: 0 29px 0 40px;
+
+  }
+
+  .dropdown .dropdown-trigger:after {
+
+    top: 8px;
+
+    right: 15px;
+
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+  #banner {
+
+    height: 351px;
+
+  }
+
+  #banner .logo-list li {
+
+  	height: 62px;
+
+  }
+
+
+
+  #banner .logo-list li .logo-img {
+
+  	background: url('/sites/all/themes/christiancamps/cssAssets/logos-mid.png');
+
+  }
+
+
+
+  #banner .logo-list li.logo1 .logo-img {
+
+  	width: 176px;
+
+  	height: 36px;
+
+  	margin-top: -18px;
+
+  }
+
+  #banner .logo-list li.logo2 .logo-img {
+
+  	width: 145px;
+
+  	height: 44px;
+
+  	margin-top: -22px;
+
+  	background-position: 0 -41px;
+
+  }
+
+  #banner .logo-list li.logo3 .logo-img {
+
+  	width: 260px;
+
+  	height: 41px;
+
+  	margin-top: -20px;
+
+  	background-position: 0 -92px;
+
+  }
+
+  #banner .logo-list li.logo4 .logo-img {
+
+  	width: 226px;
+
+  	height: 47px;
+
+  	margin-top: -23px;
+
+  	background-position: 0 -141px;
+
+  }
+
+  #banner .logo-list li.logo5 .logo-img {
+
+  	width: 232px;
+
+  	height: 31px;
+
+  	margin-top: -15px;
+
+  	background-position: 0 -199px;
+
+  }
+
+
+
+  #banner .logo-list li span.text {
+
+  	font-size: 16px;
+
+  	top: 20px;
+
+  	right: 45px;
+
+  }
+
+  .dropdown .dropdown-content {
+    height: 120px;
+  }
+  .dropdown .dropdown-content ul li {
+    width: 21.5%;
+    margin: 0 1.1%;
+  }
+  .dropdown .dropdown-content ul li img {
+    width: 100%;
+  }
+
+
+
+  .home-title {
+
+    -webkit-box-shadow: black 0px 0px 35px 0px inset;
+
+    -moz-box-shadow: black 0px 0px 35px 0px inset;
+
+    box-shadow: black 0px 0px 35px 0px inset;
+
+  }
+
+  .home-title h3 {
+
+    padding-top: 11px;
+
+  }
+
+
+
+  #main {
+
+    padding-top: 49px;
+
+  }
+
+
+
+  aside.sidebar {
+
+    width: 292px;
+
+  }
+
+  aside.sidebar .widget-container {
+
+    -webkit-box-shadow: black 0px 8px 10px -10px;
+
+    -moz-box-shadow: black 0px 8px 10px -10px;
+
+    box-shadow: black 0px 8px 10px -10px;
+
+  }
+
+  aside.sidebar .widget-container:after {
+
+    display: none;
+
+  }
+
+  aside.sidebar .widget-container .widget-inner {
+
+    padding-right: 44px;
+
+  }
+
+  aside.sidebar .widget-container.widget_calls_to_action {
+
+    box-shadow: none;
+
+  }
+
+
+
+  section.content {
+
+    width: 618px;
+
+  }
+
+
+
+  .frame {
+
+    max-width: 48%;
+
+  }
+
+  .frame .frame-inner {
+
+    padding: 7px;
+
+  }
+
+  .frame img {
+
+    width: 100%;
+
+    height: auto;
+
+  }
+
+
+
+  .gallery {
+
+    width: 60%;
+
+  }
+
+
+
+  #home {
+
+    padding-bottom: 40px;
+
+  }
+
+  #home .left-box {
+
+    margin-top: 27px;
+
+  }
+
+  #home .left-box h4 {
+
+    font-size: 24px;
+
+    line-height: 32px;
+
+    margin-bottom: 20px;
+
+  }
+
+  #home .left-box p {
+
+    font-size: 20px;
+
+    line-height: 30px;
+
+  }
+
+  #home .left-box .photo-box {
+
+    margin-top: 0;
+
+  }
+
+  #home .left-box .photo-box .inner {
+
+    -webkit-box-shadow: black 0px 8px 8px -10px;
+
+    -moz-box-shadow: black 0px 8px 8px -10px;
+
+    box-shadow: black 0px 8px 8px -10px;
+
+  }
+
+  #home .photo-box p {
+
+    font-size: 18px;
+
+    line-height: 21px;
+
+    margin: 17px 0;
+
+  }
+
+  #home .right-box {
+
+    margin-top: 29px;
+
+  }
+
+  #home .right-box img {
+
+    margin-bottom: 14px;
+
+    -webkit-box-shadow: black 0px 6px 10px -6px;
+
+    -moz-box-shadow: black 0px 6px 10px -6px;
+
+    box-shadow: black 0px 6px 10px -6px;
+
+  }
+
+  #home .counter span.big {
+
+    font-size: 59px;
+
+    margin-top: 13px;
+
+  }
+
+  #home .counter span.mid {
+
+    font-size: 28px;
+
+    line-height: 24px;
+
+    margin: 31px 0 0 8px;
+
+  }
+
+  #home .counter span.mid span {
+
+    letter-spacing: 6px;
+
+  }
+
+
+
+  #home .counter .days {
+
+  	margin-right: 10px;
+
+  }
+
+
+
+  h1 {
+
+    font-size: 60px;
+
+  }
+
+
+
+  header.title h1 {
+
+    margin: 77px 0 40px;
+
+  }
+
+
+
+  section.blog {
+
+    margin-top: 4px;
+
+    width: 617px;
+
+    padding-bottom: 46px;
+
+  }
+
+
+
+  .pagination {
+
+    margin: 8px 0 20px;
+
+  }
+
+
+
+  footer.main .footer-top {
+
+    min-height: 1px;
+
+    padding-bottom: 25px;
+
+  }
+
+  footer.main .logo-box {
+
+    margin-top: 24px;
+
+    padding-bottom: 24px;
+
+  }
+
+  footer.main .logo-box .logo1 {
+
+    padding: 23px 0 0 28px;
+
+  }
+
+  footer.main .logo-box .logo1 img {
+
+    width: 90%;
+
+  }
+
+  footer.main .logo-box .footer-top-info {
+
+    margin-top: 28px;
+
+  }
+
+  footer.main .logo-box .footer-top-info:before {
+
+    width: 2px;
+
+    height: 66%;
+
+    top: 4px;
+
+    left: -5px;
+
+  }
+
+  footer.main .logo-box .footer-top-info p {
+
+    font-size: 17px;
+
+    line-height: 22px;
+
+  }
+
+  footer.main .logo-box .logos {
+
+    padding-top: 14px;
+
+  }
+
+  footer.main .logo-box .logos li {
+
+    width: 275px;
+
+    height: 130px;
+
+  }
+
+  footer.main .footer-bottom {
+
+    padding-top: 19px;
+
+    padding-bottom: 8px;
+
+  }
+
+  footer.main .share p {
+
+    line-height: 20px;
+
+  }
+
+  footer.main .share ul li {
+
+    width: 39px;
+
+    margin-left: 4px;
+
+  }
+
+  footer.main .share h3 {
+
+    margin-bottom: 3px;
+
+  }
+
+  footer.main .contact p {
+
+    line-height: 20px;
+
+  }
+
+  footer.main .contact .button {
+
+    font-size: 14px;
+
+  }
+
+  footer.main .widget-container li {
+
+    width: 50%;
+
+  }
+
+}
+
+@media (max-width: 1050px) {
+
+  header.main .top-nav {
+
+    margin-right: 1%;
+
+  }
+
+  header.main .top-nav li {
+
+    font-size: 12px;
+
+    margin-left: 15px;
+
+  }
+
+  header.main .top-nav li:before {
+
+    top: -1px;
+
+    left: -20px;
+
+  }
+
+
+
+  header.main nav.main {
+
+    margin-right: 1%;
+
+  }
+
+
+
+  header.main nav.main li {
+
+    font-size: 19px;
+
+    margin-left: 18px;
+
+  }
+
+  header.main nav.main li:before {
+
+    top: 2px;
+
+    left: -16px;
+
+  }
+
+}
+
+@media (max-width: 991px) {
+
+  header.main .logo.md {
+
+    left: 0px;
+
+  }
+
+
+
+  .menu-trigger {
+
+    font-family: "PT Sans Narrow", sans-serif;
+
+    font-weight: 700;
+
+    position: relative;
+
+    margin: 20px 16px 0 0;
+
+    float: right;
+
+    font-size: 18px;
+
+    padding: 3px 10px 4px 29px;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    color: #fff;
+
+    background: url("/sites/all/themes/christiancamps/cssAssets/pattern4.jpg");
+
+    border: 2px solid #d7d9de;
+
+    -webkit-border-radius: 7px;
+
+    -moz-border-radius: 7px;
+
+    -ms-border-radius: 7px;
+
+    -o-border-radius: 7px;
+
+    border-radius: 7px;
+
+  }
+
+  .menu-trigger:hover {
+
+    text-decoration: none;
+
+    color: #fff;
+
+    -webkit-box-shadow: #9f610e 5px 5px 12px -5px inset;
+
+    -moz-box-shadow: #9f610e 5px 5px 12px -5px inset;
+
+    box-shadow: #9f610e 5px 5px 12px -5px inset;
+
+  }
+
+  .menu-trigger span {
+
+    display: block;
+
+    position: absolute;
+
+    top: 15px;
+
+    left: 10px;
+
+    width: 12px;
+
+    height: 2px;
+
+    background-color: #fff;
+
+  }
+
+  .menu-trigger:before {
+
+    content: '';
+
+    width: 12px;
+
+    height: 2px;
+
+    background-color: #fff;
+
+    position: absolute;
+
+    top: 11px;
+
+    left: 10px;
+
+  }
+
+  .menu-trigger:after {
+
+    content: '';
+
+    width: 12px;
+
+    height: 2px;
+
+    background-color: #fff;
+
+    position: absolute;
+
+    top: 19px;
+
+    left: 10px;
+
+  }
+
+
+
+  .main-menu-mobile {
+
+    display: none;
+
+    position: absolute;
+
+    top: 75px;
+
+    left: 0;
+
+    width: 100%;
+
+    background: url("/sites/all/themes/christiancamps/cssAssets/pattern4.jpg");
+
+    border-bottom: 1px solid #b8791b;
+
+  }
+
+  .main-menu-mobile ul {
+
+    width: 100%;
+
+    margin: 0;
+
+    padding: 19px 0 0;
+
+    list-style: none;
+
+    text-align: center;
+
+  }
+
+  .main-menu-mobile ul li {
+
+    font-family: "PT Sans Narrow", sans-serif;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    font-size: 18px;
+
+    border-top: 1px solid #b8791b;
+
+    letter-spacing: 1px;
+
+  }
+
+  .main-menu-mobile ul li a {
+
+    display: block;
+
+    color: #fff;
+
+    padding: 5px 0;
+
+  }
+
+
+
+  #banner {
+
+    height: 351px;
+
+  }
+
+  #banner .call-to-action {
+
+    bottom: 47px;
+
+  }
+
+  #banner .call-to-action .cta {
+
+    margin-left: 2.3%;
+
+    height: 79px;
+
+    padding: 1px;
+
+  }
+
+  #banner .call-to-action .cta h4 {
+
+    font-size: 26px;
+
+    line-height: 31px;
+
+    padding: 7px 10px;
+
+    text-shadow: #512f2e 1px 1px 0px, #512f2e -1px 1px 0px, #512f2e 1px -1px 0px, #512f2e -1px -1px 0px;
+
+  }
+
+  #banner .call-to-action .cta:hover h4 {
+
+  	text-shadow: #ffcd00 1px 1px 0px, #ffcd00 -1px 1px 0px, #ffcd00 1px -1px 0px, #ffcd00 -1px -1px 0px;	
+
+  }
+
+  #banner .wrapper-title {
+
+    bottom: 186px;
+
+  }
+
+  #banner .title-box {
+
+    padding-top: 45px;
+
+  }
+
+  #banner .title-box:before {
+
+    width: 30px;
+
+    height: 30px;
+
+    background-image: url("/sites/all/themes/christiancamps/cssAssets/item-small.png");
+
+    margin-left: -8px;
+
+    background-position: 0 0;
+
+    top: 6px;
+
+  }
+
+  #banner .title-box p {
+
+    font-size: 19px;
+
+    line-height: 24px;
+
+    padding: 0 20px 14px;
+
+  }
+
+  #banner .title-box h3 {
+
+    font-size: 43px;
+
+    line-height: 53px;
+
+    margin-bottom: 1px;
+
+  }
+
+  #banner .title-box h2 {
+
+    font-size: 38px;
+
+    line-height: 32px;
+
+  }
+
+  #banner .title-box h2:before, #banner .title-box h2:after {
+
+    height: 3px;
+
+    top: 15px;
+
+  }
+
+
+
+  #banner .logo-list {
+
+  	margin-top: 20px;
+
+  }
+
+
+
+  .home-title {
+
+    height: 46px;
+
+    background-size: cover;
+
+  }
+
+  .home-title h3 {
+
+    font-size: 29px;
+
+    padding-top: 10px;
+
+  }
+
+  .home-title h3:before {
+
+    top: 10px;
+
+    left: -26px;
+
+  }
+
+  .home-title h3:after {
+
+    top: 10px;
+
+    right: -26px;
+
+  }
+
+
+
+  #home {
+
+    padding-bottom: 30px;
+
+  }
+
+  #home .left-box {
+
+    margin-top: 23px;
+
+  }
+
+  #home .left-box p {
+
+    margin-bottom: 30px;
+
+  }
+
+  #home .left-box .row {
+
+    text-align: center;
+
+  }
+
+  #home .left-box .photo-box {
+
+    float: none;
+
+    display: inline-block;
+
+    text-align: left;
+
+  }
+
+  #home .left-box .photo-box p {
+
+    margin: 13px 0 0;
+
+  }
+
+  #home .right-box {
+
+    margin-top: 44px;
+
+    text-align: center;
+
+  }
+
+  #home .right-box .row {
+
+    text-align: center;
+
+  }
+
+  #home .right-box .row > div {
+
+    display: inline-block;
+
+    text-align: left;
+
+    margin: 0;
+
+  }
+
+  #home .right-box .row > div p {
+
+  	font-size: 16px;
+
+  }
+
+  #home .counter {
+
+    display: inline-block;
+
+    width: 63%;
+
+    margin-top: 30px;
+
+  }
+
+
+
+  h1 {
+
+    font-size: 52px;
+
+  }
+
+
+
+  header.title {
+
+    min-height: 174px;
+
+  }
+
+  header.title h1 {
+
+    margin: 66px 0 40px;
+
+    letter-spacing: 4px;
+
+  }
+
+
+
+  #news {
+
+    padding-top: 28px;
+
+  }
+
+  #news h3 {
+
+    width: 100%;
+
+    font-size: 48px;
+
+    line-height: 44px;
+
+    margin-bottom: 28px;
+
+  }
+
+  #news h3 span {
+
+    font-size: 29px;
+
+  }
+
+  #news footer.news {
+
+    margin-top: 3px;
+
+  }
+
+
+
+  aside.sidebar {
+
+    width: 220px;
+
+  }
+
+  aside.sidebar .widget-container {
+
+    padding: 8px 7px 8px 7px;
+
+    margin-bottom: 13px;
+
+  }
+
+  aside.sidebar .widget-container:before {
+
+    width: 148px;
+
+    height: 165px;
+
+    background-position: -181px -127px;
+
+  }
+
+  aside.sidebar .widget-container .widget-inner {
+
+    padding: 0 12px 1px 11px;
+
+  }
+
+  aside.sidebar .widget-container h3 {
+
+    padding: 9px 0 8px;
+
+    font-size: 17px;
+
+    letter-spacing: 0.5px;
+
+    margin-bottom: 8px;
+
+  }
+
+  aside.sidebar .widget-container ul ul {
+
+    margin-top: 7px;
+
+  }
+
+  aside.sidebar .widget-container ul ul li:before {
+
+    top: 5px;
+
+  }
+
+  aside.sidebar .widget-container li {
+
+    font-size: 17px;
+
+    margin-bottom: 10px;
+
+    line-height: 21px;
+
+  }
+
+  aside.sidebar .widget-container.widget_calls_to_action img {
+
+    width: 57px;
+
+    height: 57px;
+
+  }
+
+  aside.sidebar .widget-container.widget_calls_to_action h4 {
+
+    font-size: 23px;
+
+    line-height: 27px;
+
+    margin-left: 11px;
+
+  }
+
+
+
+  section.content {
+
+    width: 470px;
+
+  }
+
+
+
+  .gallery {
+
+    width: 100%;
+
+  }
+
+
+
+  section.blog {
+
+    width: 470px;
+
+    margin-top: 5px;
+
+  }
+
+
+
+  footer.main .footer-top {
+
+    padding-bottom: 19px;
+
+  }
+
+  footer.main .footer-top .row {
+
+    text-align: center;
+
+  }
+
+  footer.main .logo-box {
+
+    float: none;
+
+    text-align: left;
+
+    display: inline-block;
+
+    margin-top: 19px;
+
+    padding-bottom: 19px;
+
+  }
+
+  footer.main .logo-box .logo1 {
+
+    padding: 18px 0 0 6px;
+
+  }
+
+  footer.main .logo-box .footer-top-info {
+
+    margin-top: 22px;
+
+  }
+
+  footer.main .logo-box .footer-top-info p {
+
+    font-size: 13px;
+
+    line-height: 16px;
+
+  }
+
+  footer.main .logo-box .logos {
+
+    padding-top: 10px;
+
+  }
+
+  footer.main .logo-box .logos li {
+
+    width: 212px;
+
+    height: 100px;
+
+    margin: 0 3px;
+
+  }
+
+  footer.main .share ul {
+
+    margin-top: 13px;
+
+  }
+
+  footer.main .share ul li {
+
+    width: 28px;
+
+  }
+
+  footer.main .contact p {
+
+    font-size: 13px;
+
+  }
+
+  footer.main .contact .button {
+
+    left: -15px;
+
+  }
+
+  footer.main .widget-container li {
+
+    width: 100%;
+
+    font-size: 13px;
+
+    line-height: 20px;
+
+  }
+
+  footer.main .footnote p {
+
+    padding: 2px 0 3px;
+
+  }
+
+
+
+}
+
+@media (max-width: 767px) {
+
+  header.main {
+
+    min-height: 50px;
+
+  }
+
+  header.main .logo.md {
+
+    width: 235px;
+
+    height: 59px;
+
+    left: -6px;
+
+  }
+
+  header.main .logo.md span {
+
+    width: 100%;
+
+    height: 100%;
+
+  }
+
+  header.main:after {
+
+    height: 12px;
+
+    background-position: 0 -4px;
+
+    bottom: -12px;
+
+  }
+
+
+
+  .menu-trigger {
+
+    margin: 7px 9px 0 0;
+
+  }
+
+
+
+  .dropdown-trigger-mobile {
+
+    margin-top: 7px;
+
+  }
+
+
+
+  .dropdown, .main-menu-mobile {
+
+    top: 48px;
+
+  }
+
+
+
+  #banner {
+
+    height: 351px;
+
+  }
+
+
+
+  #banner .logo-list li .logo-img {
+
+  	background: url('/sites/all/themes/christiancamps/cssAssets/logos-small.png');
+
+  	left: 15px;
+
+  }
+
+  #banner .logo-list li.logo1 .logo-img {
+
+  	width: 142px;
+
+  	height: 29px;
+
+  	margin-top: -15px;
+
+  	background-position: 0 0;
+
+  }
+
+  #banner .logo-list li.logo2 .logo-img {
+
+  	width: 117px;
+
+  	height: 34px;
+
+  	margin-top: -17px;
+
+  	background-position: 0 -35px;
+
+  }
+
+  #banner .logo-list li.logo3 .logo-img {
+
+  	width: 210px;
+
+  	height: 33px;
+
+  	margin-top: -16px;
+
+  	background-position: 0 -75px;
+
+  }
+
+  #banner .logo-list li.logo4 .logo-img {
+
+  	width: 182px;
+
+  	height: 38px;
+
+  	margin-top: -19px;
+
+  	background-position: 0 -116px;
+
+  }
+
+  #banner .logo-list li.logo5 .logo-img {
+
+  	width: 187px;
+
+  	height: 25px;
+
+  	margin-top: -13px;
+
+  	background-position: 0 -164px;
+
+  }
+
+  #banner .logo-list li span.text {
+
+  	font-size: 14px;
+
+  }
+
+
+
+  .home-title {
+
+    height: 37px;
+
+  }
+
+  .home-title h3 {
+
+    font-size: 23px;
+
+    padding-top: 7px;
+
+  }
+
+  .home-title h3:before, .home-title h3:after {
+
+    top: 6px;
+
+  }
+
+
+
+  #home {
+
+    padding-bottom: 36px;
+
+  }
+
+  #home .left-box {
+
+    margin-top: 26px;
+
+  }
+
+  #home .left-box .photo-box {
+
+    float: left;
+
+    display: block;
+
+  }
+
+  #home .left-box .photo-box p {
+
+    margin-top: 10px;
+
+  }
+
+  #home .right-box {
+
+    margin-top: 54px;
+
+  }
+
+  #home .right-box img {
+
+    margin-bottom: 16px;
+
+  }
+
+  #home .right-box .row > div {
+
+    float: left;
+
+    display: block;
+
+    margin: 0;
+
+  }
+
+  #home .counter {
+
+    width: 100%;
+
+    margin-top: 35px;
+
+  }
+
+
+
+  #news {
+
+    padding-top: 18px;
+
+  }
+
+  #news h3 {
+
+    font-size: 32px;
+
+    line-height: 32px;
+
+    margin-bottom: 25px;
+
+  }
+
+  #news h3 span {
+
+    font-size: 20px;
+
+    line-height: 24px;
+
+  }
+
+  #news h3 span:before, #news h3 span:after {
+
+    top: 11px;
+
+  }
+
+  #news footer.news h5 {
+
+    display: none;
+
+  }
+
+  #news footer.news .button {
+
+    top: 0;
+
+    margin-top: 35px;
+
+    margin-bottom: 35px;
+
+  }
+
+
+
+  h1 {
+
+    line-height: 48px;
+
+  }
+
+
+
+  header.title {
+
+    min-height: 157px;
+
+  }
+
+  header.title h1 {
+
+    margin: 33px 0 5px;
+
+  }
+
+
+
+  aside.sidebar {
+
+    display: none;
+
+  }
+
+
+
+  section.content {
+
+    width: 100%;
+
+  }
+
+
+
+  #main {
+
+    padding-top: 20px;
+
+  }
+
+
+
+  nav.page-menu-mobile {
+
+    position: relative;
+
+    z-index: 10;
+
+    padding: 5px;
+
+    margin-bottom: 23px;
+
+    background: url("/sites/all/themes/christiancamps/cssAssets/pattern1.jpg");
+
+    -webkit-box-shadow: black 0px 5px 11px -8px;
+
+    -moz-box-shadow: black 0px 5px 11px -8px;
+
+    box-shadow: black 0px 5px 11px -8px;
+
+    position: relative;
+
+  }
+
+  nav.page-menu-mobile .page-menu-wrapper {
+
+    position: relative;
+
+  }
+
+  nav.page-menu-mobile .page-menu-wrapper:before {
+
+    content: '';
+
+    width: 100%;
+
+    height: 1px;
+
+    background: url("/sites/all/themes/christiancamps/cssAssets/border-horizontal.png");
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+  }
+
+  nav.page-menu-mobile .page-menu-wrapper:after {
+
+    content: '';
+
+    width: 100%;
+
+    height: 1px;
+
+    background: url("/sites/all/themes/christiancamps/cssAssets/border-horizontal.png");
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 0;
+
+  }
+
+  nav.page-menu-mobile .page-menu-inner {
+
+    position: relative;
+
+    padding-bottom: 1px;
+
+  }
+
+  nav.page-menu-mobile .page-menu-inner:before {
+
+    content: '';
+
+    width: 1px;
+
+    height: 100%;
+
+    background: url("/sites/all/themes/christiancamps/cssAssets/border-vertical.png");
+
+    position: absolute;
+
+    top: 0;
+
+    left: -1px;
+
+  }
+
+  nav.page-menu-mobile .page-menu-inner:after {
+
+    content: '';
+
+    width: 1px;
+
+    height: 100%;
+
+    background: url("/sites/all/themes/christiancamps/cssAssets/border-vertical.png");
+
+    position: absolute;
+
+    top: 0;
+
+    right: 0;
+
+  }
+
+  nav.page-menu-mobile .page-menu-trigger {
+
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+    font-family: "PT Sans Narrow", sans-serif;
+
+    font-weight: 700;
+
+    color: #361f11;
+
+    position: relative;
+
+    display: block;
+
+    letter-spacing: 1px;
+
+    margin: 0 13px;
+
+  }
+
+  nav.page-menu-mobile .page-menu-trigger span.inner {
+
+    position: relative;
+
+    display: block;
+
+    padding: 3px 0 3px 23px;
+
+  }
+
+  nav.page-menu-mobile .page-menu-trigger span.inner:before {
+
+    content: '';
+
+    width: 14px;
+
+    height: 2px;
+
+    background-color: #361f11;
+
+    position: absolute;
+
+    top: 12px;
+
+    left: 0px;
+
+  }
+
+  nav.page-menu-mobile .page-menu-trigger span.inner:after {
+
+    content: '';
+
+    width: 14px;
+
+    height: 2px;
+
+    background-color: #361f11;
+
+    position: absolute;
+
+    top: 20px;
+
+    left: 0px;
+
+  }
+
+  nav.page-menu-mobile .page-menu-trigger:before {
+
+    content: '';
+
+    width: 14px;
+
+    height: 2px;
+
+    background-color: #361f11;
+
+    position: absolute;
+
+    top: 16px;
+
+    left: 0px;
+
+  }
+
+  nav.page-menu-mobile .page-menu-trigger:hover {
+
+    text-decoration: none;
+
+  }
+
+  nav.page-menu-mobile .page-menu-trigger.open {
+
+    border-bottom: 2px solid #361f11;
+
+    padding-bottom: 6px;
+
+  }
+
+  nav.page-menu-mobile h3 {
+
+    display: none;
+
+  }
+
+  nav.page-menu-mobile .widget-container {
+
+    display: none;
+
+    padding: 10px 0 0;
+
+    margin-bottom: 0;
+
+  }
+
+  nav.page-menu-mobile .widget-container:before, nav.page-menu-mobile .widget-container:after {
+
+    display: none;
+
+  }
+
+  nav.page-menu-mobile .widget-container .widget-inner {
+
+    border-width: 0;
+
+    padding: 0 12px;
+
+  }
+
+  nav.page-menu-mobile .widget-container .widget-inner:before, nav.page-menu-mobile .widget-container .widget-inner:after {
+
+    display: none;
+
+  }
+
+
+
+  .frame {
+
+    max-width: 100%;
+
+    width: 100%;
+
+  }
+
+
+
+  section.blog {
+
+    width: 100%;
+
+    margin-top: 0;
+
+    padding-bottom: 38px;
+
+  }
+
+
+
+  aside.sidebar {
+
+    width: 100%;
+
+  }
+
+  aside.sidebar .widget-container {
+
+    padding: 5px;
+
+    margin-bottom: 21px;
+
+  }
+
+  aside.sidebar .widget-container .widget-inner {
+
+    padding: 0 0 1px;
+
+  }
+
+  aside.sidebar .widget-container:before {
+
+    display: none;
+
+  }
+
+  aside.sidebar .widget-container ul {
+
+    display: none;
+
+    padding: 0 12px;
+
+  }
+
+
+
+  aside.sidebar .widget-container h3 {
+
+    cursor: pointer;
+
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+    font-family: "PT Sans Narrow", sans-serif;
+
+    font-weight: 700;
+
+    color: #361f11;
+
+    position: relative;
+
+    display: block;
+
+    letter-spacing: 1px;
+
+    margin: 0 13px;
+
+    border: 0;
+
+    padding: 3px 0;
+
+  }
+
+  aside.sidebar .widget-container h3 span.inner {
+
+    position: relative;
+
+    display: block;
+
+    padding: 3px 0 3px 23px;
+
+  }
+
+  aside.sidebar .widget-container h3 span.inner:before {
+
+    content: '';
+
+    width: 14px;
+
+    height: 2px;
+
+    background-color: #361f11;
+
+    position: absolute;
+
+    top: 13px;
+
+    left: 0px;
+
+  }
+
+  aside.sidebar .widget-container h3 span.inner:after {
+
+    content: '';
+
+    width: 14px;
+
+    height: 2px;
+
+    background-color: #361f11;
+
+    position: absolute;
+
+    top: 17px;
+
+    left: 0px;
+
+  }
+
+  aside.sidebar .widget-container h3:before {
+
+    content: '';
+
+    width: 14px;
+
+    height: 2px;
+
+    background-color: #361f11;
+
+    position: absolute;
+
+    top: 12px;
+
+    left: 0px;
+
+  }
+
+  aside.sidebar .widget-container h3:hover {
+
+    text-decoration: none;
+
+  }
+
+  aside.sidebar .widget-container h3.open {
+
+    border-bottom: 2px solid #361f11;
+
+    padding-bottom: 6px;
+
+  }
+
+
+
+  footer.main .logo-box {
+
+    float: left;
+
+    margin: 14px 3%;
+
+    text-align: center;
+
+    padding: 0 0 18px;
+
+  }
+
+  footer.main .logo-box .logo1 {
+
+    display: inline-block;
+
+    float: none;
+
+    margin: 16px 0 0;
+
+    padding: 0;
+
+    width: 48%;
+
+  }
+
+  footer.main .logo-box .logo1 img {
+
+    width: 100%;
+
+  }
+
+  footer.main .logo-box .footer-top-info {
+
+    margin-top: 10px;
+
+  }
+
+  footer.main .logo-box .footer-top-info p {
+
+    font-size: 14px;
+
+    line-height: 17px;
+
+  }
+
+  footer.main .logo-box .footer-top-info:before {
+
+    display: none;
+
+  }
+
+  footer.main .logo-box .logos {
+
+    padding-top: 7px;
+
+  }
+
+  footer.main .logo-box .logos li {
+
+    width: 130px;
+
+    margin: 0 7px;
+
+  }
+
+  footer.main .footer-top {
+
+    padding-bottom: 2px;
+
+  }
+
+  footer.main .share p {
+
+    font-size: 13px;
+
+  }
+
+  footer.main .share ul li {
+
+    width: 29px;
+
+  }
+
+  footer.main .contact {
+
+    margin-bottom: 17px;
+
+  }
+
+  footer.main .contact .button {
+
+    left: -20px;
+
+  }
+
+  footer.main .footer-bottom {
+
+    padding-bottom: 22px;
+
+  }
+
+  footer.main .footnote p {
+
+    padding: 8px 0 7px;
+
+    margin: 0 19%;
+
+    line-height: 15px;
+
+    text-align: center;
+
+  }
+
+
+
+  .post .stButton .stLarge {
+
+  	width: 20px;
+
+  	height: 20px;
+
+  }
+
+
+
+  .post .share {
+
+  	top: -2px;
+
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .container {
+
+    min-width: 320px;
+
+  }
+
+
+
+  .img-logo-xs {
+
+    display: none !important;
+
+  }
+
+
+
+  header.main .logo.md span.img-logo-small {
+
+    display: block;
+
+  }
+
+
+
+  header.main {
+
+    min-height: 32px;
+
+  }
+
+  header.main .logo.md {
+
+    width: 158px;
+
+    height: 42px;
+
+  }
+
+
+
+  .menu-trigger {
+
+    font-size: 11px;
+
+    margin: 4px 12px 0 0;
+
+    padding: 3px 6px 3px 19px;
+
+  }
+
+  .menu-trigger span {
+
+    width: 7px;
+
+    height: 1px;
+
+    top: 10px;
+
+    left: 7px;
+
+  }
+
+  .menu-trigger:before {
+
+    width: 7px;
+
+    height: 1px;
+
+    top: 7px;
+
+    left: 7px;
+
+  }
+
+  .menu-trigger:after {
+
+    width: 7px;
+
+    height: 1px;
+
+    top: 13px;
+
+    left: 7px;
+
+  }
+
+
+
+  #banner {
+
+    height: auto;
+
+  }
+
+  #banner .logo-list {
+
+  	padding-bottom: 20px;
+
+  }
+
+  #banner .logo-list li {
+
+  	text-align: center;
+
+  	height: auto;
+
+  	padding-bottom: 10px;
+
+  }
+
+  #banner .logo-list li .logo-img {
+
+  	position: relative;
+
+  	margin-top: 10px !important;
+
+  	left: 0;
+
+  	top: 0;
+
+  	display: inline-block;
+
+  }
+
+  #banner .logo-list li span.text {
+
+  	display: block;
+
+  	position: relative;
+
+  	top: 0;
+
+  	right: 0;
+
+  	margin-top: 5px;
+
+  }
+
+
+
+  .main-menu-mobile {
+
+  	top: 35px;
+
+  }
+
+
+
+  .home-title {
+
+    display: none;
+
+  }
+
+
+
+  #home {
+
+    background: url("/sites/all/themes/christiancamps/cssAssets/pattern7.jpg");
+
+    padding-bottom: 47px;
+
+  }
+
+  #home .left-box {
+
+    margin-top: 14px;
+
+  }
+
+  #home .left-box p {
+
+    margin-bottom: 17px;
+
+  }
+
+  #home .left-box .photo-box {
+
+    width: 100%;
+
+    margin-bottom: 22px;
+
+  }
+
+  #home .left-box .photo-box p {
+
+    margin-top: 0;
+
+  }
+
+  #home .left-box .photo-box .inner {
+
+    width: 45%;
+
+    float: left;
+
+    padding: 4px;
+
+    margin-right: 28px;
+
+  }
+
+  #home .right-box {
+
+    margin-top: 1px;
+
+  }
+
+  #home .right-box img {
+
+    margin-bottom: 10px;
+
+  }
+
+  #home .right-box .row > div {
+
+    width: 100%;
+
+  }
+
+  #home .counter {
+
+    margin-top: 19px;
+
+    padding-bottom: 13px;
+
+  }
+
+  #home .counter .days {
+
+    width: 102px;
+
+    height: 61px;
+
+    margin: 15px 17px 18px 19px;
+
+  }
+
+  #home .counter .days span {
+
+    font-size: 52px;
+
+    line-height: 57px;
+
+  }
+
+  #home .counter .days:after {
+
+    width: 100px;
+
+    height: 9px;
+
+    background-position: -115px -47px;
+
+  }
+
+  #home .counter span.big {
+
+    font-size: 52px;
+
+    margin-top: -4px;
+
+  }
+
+  #home .counter span.mid {
+
+    font-size: 31px;
+
+    line-height: 28px;
+
+    margin: -9px 0 0 1px;
+
+  }
+
+
+
+  #news h3 {
+
+    font-size: 30px;
+
+    line-height: 33px;
+
+    margin-bottom: 13px;
+
+  }
+
+  #news h3 span:before, #news h3 span:after {
+
+    display: none;
+
+  }
+
+
+
+  .post-short {
+
+    display: none;
+
+    width: 100%;
+
+    margin-bottom: 17px;
+
+  }
+
+  .post-short:first-child {
+
+    display: block;
+
+  }
+
+
+
+  header.title {
+
+    min-height: 175px;
+
+  }
+
+  header.title h1 {
+
+    font-size: 42px;
+
+    line-height: 48px;
+
+    margin: 38px 0 5px;
+
+    letter-spacing: 3px;
+
+  }
+
+
+
+  footer.main .logo-box {
+
+    margin-top: 13px;
+
+    padding-bottom: 24px;
+
+  }
+
+  footer.main .logo-box .logo1 {
+
+    width: 70%;
+
+    margin-top: 15px;
+
+  }
+
+  footer.main .logo-box .footer-top-info p {
+
+    margin: 3px 2% 0;
+
+  }
+
+  footer.main .logo-box .logos {
+
+    padding-top: 14px;
+
+  }
+
+  footer.main .logo-box .logos li {
+
+    width: 81px;
+
+    height: 62px;
+
+    background-size: cover;
+
+    margin: 0 4px;
+
+  }
+
+  footer.main .share {
+
+    width: 100%;
+
+    margin-bottom: 15px;
+
+  }
+
+  footer.main .contact {
+
+    width: 100%;
+
+  }
+
+  footer.main .contact .button {
+
+    float: left;
+
+    left: 17px;
+
+  }
+
+  footer.main .widget-container {
+
+    width: 100%;
+
+    margin-bottom: 20px;
+
+  }
+
+  footer.main .footer-bottom {
+
+    padding-bottom: 17px;
+
+  }
+
+  footer.main .footnote p {
+
+    width: 100%;
+
+    margin: 0;
+
+    text-align: left;
+
+    padding-bottom: 10px;
+
+  }
+
+
+
+  .button {
+
+    margin-right: 25px;
+
+  }
+
+
+
+  .half {
+
+    width: 100%;
+
+  }
+
+
+
+  table tr td {
+
+    padding: 0 12px;
+
+    font-size: 16px;
+
+  }
+
+
+
+  table tbody {
+
+    font-size: 0;
+
+  }
+
+
+
+  table tr {
+
+    border: 0;
+
+  }
+
+
+
+  table th {
+
+    padding: 0 15px;
+
+    font-size: 16px;
+
+  }
+
+
+
+  .flip-scroll .cf:after {
+
+    visibility: hidden;
+
+    display: block;
+
+    font-size: 0;
+
+    content: " ";
+
+    clear: both;
+
+    height: 0;
+
+  }
+
+
+
+  .flip-scroll * html .cf {
+
+    zoom: 1;
+
+  }
+
+
+
+  .flip-scroll *:first-child + html .cf {
+
+    zoom: 1;
+
+  }
+
+
+
+  table.flip-scroll {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    border-spacing: 0;
+
+  }
+
+
+
+  .flip-scroll th,
+
+  .flip-scroll td {
+
+    margin: 0;
+
+    vertical-align: top;
+
+  }
+
+
+
+  .flip-scroll th {
+
+    text-align: left;
+
+  }
+
+
+
+  .flip-scroll table {
+
+    display: block;
+
+    position: relative;
+
+    width: 100%;
+
+  }
+
+
+
+  .flip-scroll thead {
+
+    display: block;
+
+    float: left;
+
+  }
+
+
+
+  .flip-scroll tbody {
+
+    display: block;
+
+    width: auto !important;
+
+    position: relative;
+
+    overflow-x: auto;
+
+    white-space: nowrap;
+
+  }
+
+
+
+  .flip-scroll thead tr {
+
+    display: block;
+
+  }
+
+
+
+  .flip-scroll th {
+
+    display: block;
+
+    text-align: right;
+
+  }
+
+
+
+  .flip-scroll tbody tr {
+
+    display: inline-block;
+
+    vertical-align: top;
+
+  }
+
+
+
+  .flip-scroll td {
+
+    display: block;
+
+    min-height: 1.25em;
+
+    text-align: left;
+
+  }
+
+
+
+  /* sort out borders */
+
+  .flip-scroll th {
+
+    border-bottom: 0;
+
+    border-left: 0;
+
+  }
+
+
+
+  .flip-scroll td {
+
+    border-left: 0;
+
+    border-right: 0;
+
+    border-bottom: 0;
+
+  }
+
+
+
+  .flip-scroll th:last-child,
+
+  .flip-scroll td:last-child {
+
+    border-bottom: 1px solid #babcbf;
+
+  }
+
+
+
+  .jspTrack, .jspHorizontalBar {
+
+    background-color: #f2e8d7;
+
+  }
+
+
+
+  .jspHorizontalBar {
+
+    border-left: 1px solid #c6b595;
+
+  }
+
+
+
+  table.scroll-pane {
+
+    background-color: #f3e9d7;
+
+    width: auto;
+
+  }
+
+
+
+  .jspHorizontalBar .jspTrack, .jspHorizontalBar .jspDrag {
+
+    height: 8px;
+
+    margin-top: 2px;
+
+    -webkit-border-radius: 10px;
+
+    -moz-border-radius: 10px;
+
+    -ms-border-radius: 10px;
+
+    -o-border-radius: 10px;
+
+    border-radius: 10px;
+
+    padding: 0 5px;
+
+  }
+
+
+
+  table tr {
+
+    border-width: 0 1px 0 0;
+
+    border-color: #c6b595;
+
+    border-style: solid;
+
+  }
+
+
+
+  .jspHorizontalBar .jspDrag {
+
+    background: url("/sites/all/themes/christiancamps/cssAssets/pattern4.jpg");
+
+  }
+
+
+
+  .post .meta {
+
+  	padding-bottom: 8px;
+
+  }
+
+
+
+  .post .share {
+
+  	float: none;
+
+  	display: block;
+
+  	margin-top: 5px;
+
+  	top: 0;
+
+  }
+
+  #news footer.news .button {
+
+  	margin-left: 0;
+
+  }
+
+}
+
+
+
+.stButton {
+
+	margin: 0 !important;
+
+}
+
+
+
+@media (max-width: 767px) {
+
+	aside.sidebar .widget-container li {
+
+		font-size: 20px;
+
+		line-height: 24px;
+
+	}
+
+	aside.sidebar .widget-container ul {
+
+		margin-top: 10px;
+
+	}
+
+	aside.sidebar .widget-container h3 {
+
+		padding: 8px 0 3px 23px;
+
+	}
+
+	aside.sidebar .widget-container h3:before {
+
+		top: 22px;
+
+	}
+
+	aside.sidebar .widget-container h3:after {
+
+		content: '';
+
+		width: 14px;
+
+		height: 2px;
+
+		background-color: #361f11;
+
+		position: absolute;
+
+		top: 17px;
+
+		left: 0;
+
+	}
+
+	aside.sidebar .widget-container h3 + div:before {
+
+		content: '';
+
+		width: 14px;
+
+		height: 2px;
+
+		background: #361f11;
+
+		position: absolute;
+
+		top: 12px;
+
+		left: 13px;
+
+	}
+
+}
+
+
+
+
+
+.cam img, #webcamimg {
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+
+
+
+
+/*
+
+ * jQuery FlexSlider v2.2.0
+
+ * http://www.woothemes.com/flexslider/
+
+ *
+
+ * Copyright 2012 WooThemes
+
+ * Free to use under the GPLv2 license.
+
+ * http://www.gnu.org/licenses/gpl-2.0.html
+
+ *
+
+ * Contributing author: Tyler Smith (@mbmufffin)
+
+ */
+
+/* Browser Resets
+
+*********************************/
+
+.flex-container a:active,
+
+.flexslider a:active,
+
+.flex-container a:focus,
+
+.flexslider a:focus {
+
+  outline: none;
+
+}
+
+
+
+.slides,
+
+.flex-control-nav,
+
+.flex-direction-nav {
+
+  margin: 0;
+
+  padding: 0;
+
+  list-style: none;
+
+}
+
+
+
+/* FlexSlider Necessary Styles
+
+*********************************/
+
+.flexslider .slides > li {
+
+  display: none;
+
+  -webkit-backface-visibility: hidden;
+
+}
+
+
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+
+.flexslider .slides img {
+
+  width: 100%;
+
+  display: block;
+
+}
+
+
+
+.flex-pauseplay span {
+
+  text-transform: capitalize;
+
+}
+
+
+
+/* Clearfix for the .slides element */
+
+.slides:after {
+
+  content: "\0020";
+
+  display: block;
+
+  clear: both;
+
+  visibility: hidden;
+
+  line-height: 0;
+
+  height: 0;
+
+}
+
+
+
+html[xmlns] .slides {
+
+  display: block;
+
+}
+
+
+
+* html .slides {
+
+  height: 1%;
+
+}
+
+
+
+/* No JavaScript Fallback */
+
+/* If you are not using another script, such as Modernizr, make sure you
+
+ * include js that eliminates this class on page load */
+
+.no-js .slides > li:first-child {
+
+  display: block;
+
+}
+
+
+
+#banner .logo-list-slider{
+
+	height: 100%;
+
+	margin: 7px 0px 0px;
+
+}
+
+#banner .logo-list-slider li{
+
+	height: 647px;
+
+	background-repeat: no-repeat;
+
+	background-size: cover;
+
+	background-position: center;
+
+}
+
+.bx-wrapper{
+
+	height: 100%;
+
+}
+
+.show-this{
+
+	display: none;
+
+}
+
+
+
+#banner .slider-pager{
+
+    position: absolute;
+
+    top: 0px;
+
+    left: 0px;
+
+    width: 100%;
+
+}
+
+
+
+#banner .slider-pager .logo-list{
+
+	width: 353px;
+
+	float: right;
+
+	margin-top: 70px;
+
+	position: absolute;
+
+	top: 0;
+
+	right: 30px;
+	
+	z-index:99;
+
+}
+
+#banner .slider-pager .logo-list li{
+
+	height: 100px;
+
+}
+
+#banner .slider-pager .logo-list li .logo-img{
+
+	background: url('/sites/all/themes/christiancamps/cssAssets/logos-mid.png') no-repeat;
+
+	width: 300px !important;
+
+	left: 50% !important;
+
+	margin-left: -100px !important;
+
+}
+
+#banner .slider-pager .logo-list li.logo1 .logo-img {
+
+	margin-top: -34px;
+
+	height: 40px;
+
+}
+
+#banner .slider-pager .logo-list li.logo2 .logo-img {
+
+	margin-top: -42px;
+
+	background-position: 0px -40px;
+
+	height: 46px;
+
+	margin-left: -88px !important;
+
+}
+
+#banner .slider-pager .logo-list li.logo3 .logo-img {
+
+	background-position: 0px -91px;
+
+	height: 43px;
+
+	margin-left: -130px !important;
+
+}
+
+#banner .slider-pager .logo-list li.logo4 .logo-img {
+
+	background-position: 0px -141px;
+
+	height: 48px;
+
+	margin-left: -115px !important;
+
+}
+
+#banner .slider-pager .logo-list li.logo5 .logo-img {
+
+	background-position: 0px -198px;
+
+	height: 34px;
+
+	margin-left: -121px !important;
+
+}
+
+#banner .slider-pager .logo-list li span.text{
+
+	position: static;
+
+	display: block;
+
+	text-align: center;
+
+	line-height: 150px;
+
+}
+
+#banner .slider-pager .logo-list li.active:before{
+
+	width: 0;
+
+	height: 0;
+
+	border-style: solid;
+
+	border-width: 10.5px 18px 10.5px 0;
+
+	content: "";
+
+	position: absolute;
+
+	top: 50%;
+
+	left: -18px;
+
+	margin-top: -8px;
+
+}
+
+#banner .slider-pager .logo-list li.logo1:before{
+
+	border-color: transparent #1e2f8a transparent;
+
+}
+
+#banner .slider-pager .logo-list li.logo2:before{
+
+	border-color: transparent #307545 transparent;
+
+}
+
+#banner .slider-pager .logo-list li.logo3:before{
+
+	border-color: transparent #553130 transparent;
+
+}
+
+#banner .slider-pager .logo-list li.logo4:before{
+
+	border-color: transparent #28170b transparent;
+
+}
+
+#banner .slider-pager .logo-list li.logo5:before{
+
+	border-color: transparent #204e45 transparent;
+
+}
+
+
+
+@media (max-width: 1201px) {
+
+	#banner{
+
+		height: 500px;
+
+	}
+
+	#banner .logo-list-slider li{
+
+		height: 500px;
+
+	}
+
+	#banner .slider-pager .logo-list{
+
+		margin-top: 27px;
+
+	}
+
+	#banner .slider-pager .logo-list li {
+
+		height: 90px;
+
+	}
+
+	#banner .slider-pager .logo-list li.logo3 .logo-img {
+
+		margin-top: -32px;
+
+	}
+
+	#banner .slider-pager .logo-list li.logo4 .logo-img{
+
+		margin-top: -34px;
+
+	}
+
+	#banner .slider-pager .logo-list li.logo5 .logo-img{
+
+		margin-top: -24px;
+
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	.hide-this, .bx-wrapper {
+
+		display: none;
+
+	}
+
+	.show-this{display:block;}
+
+	#banner {
+
+    		height: auto;
+
+	}
+
+}

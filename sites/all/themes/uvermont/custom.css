@@ -1,0 +1,70 @@
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile{
+	width:auto;
+	background-color: #A1AC00;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: 0px;
+    top: -15px;
+    position: absolute;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+    content: "\f05c";
+    font-family: "FontAwesome";
+    font-size: 2.75rem;
+    left: 4px;
+    top: -3px;
+    position: absolute;
+  }
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn {
+    border: none;
+}
+
+#block-pgc-slideshow-block-pgc-slideshow-block + #block-pgc-misc-blocks-mobilenav {
+    top: -68px;
+}
+
+#giftGuide .error{
+  border:none;
+  background:none;
+}
+
+.pg-page-btns{
+  padding-bottom:20px;
+}
+
+.region-menu #block-system-main-menu{
+  background-color: #f3f3f4; padding: 10px; margin-bottom: 20px;
+}
+
+ul#pgc-contact-block{
+	font-size:12px;
+}
+
+
+@media only screen and (max-width: 767px) {
+	div.split70left{
+		width:100%;
+		float:none;
+	}
+	div.split30right{
+		display:none;
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+	
+  .pg-content-inline-blocks{
+  	float:none;
+  	margin-left:0;
+  }
+}

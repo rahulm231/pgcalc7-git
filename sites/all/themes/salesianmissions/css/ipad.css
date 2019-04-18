@@ -1,0 +1,37 @@
+/******************************
+*MediaQuery IPAD
+******************************/
+@media (max-device-width: 768px) and (orientation: portrait) { 
+	#footer-menu-responsive #block-block-7 .col{
+		display: none !important; 
+	}
+	#footer-wrapper-fundation > div > div{
+		width: 50%;
+	}
+	.grid12-8{
+		width: 100%;
+	}
+	#footer-wrapper-fundation p, #footer-wrapper-fundation small{
+		font-size: 16px;
+	}
+	#block-block-7 .content img{
+		display: block;
+		margin: 0 auto;
+	}
+	#block-block-7 .content small{
+		text-align: center;
+		display: block;
+		line-height: 1;
+	}
+	#footer-wrapper-fundation #block-block-5{
+		width: 100%;
+	}
+	#block-block-5 .content > p{
+		margin: 10px 0px;
+	}
+	#footer a.logo:link, #footer a.logo:visited, #footer a.logo:active, #footer a.logo:hover{
+		margin-bottom: 10px;
+	}
+	div#menu{ min-width: auto !important; }
+	#pid-ways-to-help-donate #sidebar-first{ display: none; }
+}

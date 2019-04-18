@@ -1,0 +1,47 @@
+﻿.no-print, .page .tab-show {
+    display: none !important;
+}
+header {
+    border-bottom: 1px solid #b2b2b2;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+header:before {
+    content: url(/sites/all/themes/munson3/img/logo.png);
+} 
+
+.fad-details .make-appt {
+    float: right;
+    width: 230px;
+    top: 0px;
+    position: absolute;
+    right: 0px;
+}
+
+.detail-img img{
+    width:100% !important;
+}
+
+.checks {
+    width: 50%;
+    position: absolute;
+    float: left;
+    top: 130px;
+    right: 50px;
+}
+
+.fad-details div[class^="col-"]:nth-of-type(2) .detail-section#insurance-plans ul{
+    column-count:3;
+}
+
+.detail-section {
+    border-top: 1px solid #b2b2b2;
+}
+
+.fad-details div[class^="col-"]:nth-of-type(2) .detail-section .detail-card {
+    border-bottom: none;
+}
+
+a[href]:after {
+    content: none !important;
+}

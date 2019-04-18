@@ -1,0 +1,160 @@
+#main-menu {
+  padding-top: 10px;
+  padding-bottom: 0 !important;
+  margin-bottom: 0;
+}
+
+#main-menu li {
+  padding: 10px 0;
+}
+
+#main-menu li:hover {
+  background: transparent;
+}
+
+#main-menu li a {
+  padding: 0;
+  color: #51616e !important;
+  font-weight: 600;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+#main-menu li a:hover {
+  background: transparent;
+}
+
+#main-menu li a.active {
+  color: #9e172e;
+  background: transparent;
+}
+
+#main-menu li.expanded ul li a {
+  text-transform: none;
+  font-weight: 200;
+}
+
+.pg-wrap table {
+  width: 100%;
+  table-layout: fixed;
+  border: 1px solid #fff;
+  margin-bottom: 30px;
+}
+
+.pg-wrap table tr th {
+  background: #134e6c;
+  color: #fff;
+  padding: 5px;
+  border: 0;
+}
+
+.pg-wrap table tr td {
+  background: #e9edf0;
+  padding: 5px;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #e9edf0;
+  padding: 8px 11px 11px;
+  border-top: 3px solid #637481;
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  margin: 5px 0 7px 0;
+  color: #7f92a0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #e9edf0;
+  padding: 8px 11px 11px;
+  border-top: 3px solid #637481;
+}
+
+#pgc_resource_block {
+  padding: 10px;
+  background-color: #9e172e;
+}
+
+#pgc_resource_block a {
+  color: #fefefe;
+  text-transform: uppercase;
+}
+
+.pg-gift-details .accordion-switch {
+  background: none;
+  border: 0;
+  border-top: 1px solid #91a3b0;
+  padding: 8px 0 9px 0;
+  color: #51616e;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.30769;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+  background: #51616e;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+  content: "\f0c9";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: -14px;
+  left: 5px;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+  content: "\f05c";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+
+.pgc-brochure-bg-top {
+  background: #637481;
+}
+
+.pgc-brochure-header-text {
+  background: #e9edf0    color: #7f92a0;
+}
+
+.pgc-brochure-title {
+  color: #7f92a0;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color: #7f92a0;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color: #637481;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color: #637481;
+}
+
+.pgc-brochure-footer-text {
+  background: #e9edf0;
+  color: #637481;
+  border-top: 2px solid #637481;
+}
+
+.pgc-brochure-footer-title {
+  color: #1f7dad;
+}
+
+span.pgc-brochure-footer-contact {
+  color: #1f7dad;
+}
+

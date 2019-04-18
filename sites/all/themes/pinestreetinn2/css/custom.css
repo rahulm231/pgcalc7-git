@@ -1,0 +1,468 @@
+@import url(/sites/all/themes/pinestreetinn2/css/css);
+@import url(/sites/all/themes/pinestreetinn2/css/5c3788d752c26);
+
+/* Custom Colors -----------------------
+---------------------------------------- */
+
+.teal { color: #00788a; }
+.lime { color: #b2bb1e; }
+.purple { color: #63187e; }
+.lavender { color: #a049be; }
+.orange { color: #e06b02; }
+.red { color: #e01000; }
+
+/*
+a, a:visited { color: #00788a; }
+a:hover, a:active { color: #b2bb1e; }
+*/
+
+.form-progress-bar { display: none !important; }
+
+#footer span { color: #00788a; }
+
+.call-to-action{ border-radius: 6px; margin-top: 50px;}
+
+#header #header-wrap{ height: 90px; }
+
+#header #header-wrap #logo{ top: 8px;}
+
+.mainMenu-open #header #mainMenu { background-color: #fff; padding: 0 10px;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Oswald', 'Helvetica', 'Arial', sans-serif;
+  
+  }
+  
+p {
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  }
+
+#page-title .page-title > h1 { 
+	font-size: 80px;
+	line-height: 80px;
+	  text-shadow:
+	   -1px -1px 0 #00788a,  
+	    1px -1px 0 #00788a,
+	    -1px 1px 0 #00788a,
+	     1px 1px 0 #00788a;
+}
+
+.heading { margin-bottom: 50px;}
+
+.lead { font-weight: 500 !important;}
+
+
+.icon i { color: #00788a !important; 
+/* 	border-color: #00788a !important; */
+	
+}
+
+  .icon-box .icon i:after {
+
+    box-shadow: 0 0 0 3px #b2bb1e;
+
+}
+
+#mainMenu nav > ul > li .dropdown-menu {
+	min-width: 250px;
+}
+
+/*
+.slide-captions .btn { 
+	color: #fff !important;
+}
+*/
+
+.slide-captions .btn-slide { 
+	color: #fff !important;
+	visibility: visible;
+	opacity: 1;
+	z-index: 50;
+	
+	background-color: #00788a;
+	outline: 0 !important;
+    border-color: #00788a;
+    
+  border-radius: 5px 5px 5px 5px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  outline: none;
+  padding: 14px 20px;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 6px;
+  outline: none;
+  line-height: 14px; 
+  
+    -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+
+	
+}
+
+.slide-captions .btn-slider { 
+
+  
+    -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+
+	
+}
+
+
+
+.slide-captions > p:hover { 
+	background: rgba(0, 120, 138, 0.5);
+}
+
+
+.slide-captions > h1::after {
+    border-top: 3px solid #fff;
+    content: "";
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 25%; 
+    }
+
+/* .btn { color: #fff !important; } */
+
+.btn {
+  background-color: #00788a;
+  }
+  
+  .btn:hover, .btn:focus, .btn:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active {
+    outline: 0 !important;
+    background-color: #1694a8;
+    border-color: #00788a;
+    color: #fff; }
+
+.btn.btn-primary {
+background-color: #63187e;
+border-color: #63187e; }
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:not(:disabled):not(.disabled):active, .btn.btn-primary:not(:disabled):not(.disabled).active {
+  background-color: #a049be;
+  border-color: #63187e;
+  color: #fff; }
+.btn.btn-secondary {
+background-color: #e06b02;
+border-color: #e06b02; }
+.btn.btn-secondary:hover, .btn.btn-secondary:focus, .btn.btn-secondary:not(:disabled):not(.disabled):active, .btn.btn-secondary:not(:disabled):not(.disabled).active {
+  background-color: #eaa30c;
+  border-color: #e06b02;
+  color: #fff; }
+
+
+.action-buttons .btn { width: 275px;}
+.action-buttons .btn i { float:right;}
+
+.counter-text { min-height: 45px; }
+
+#footer .footer-content {
+	background-image: url('/sites/all/themes/pinestreetinn2/cssAssets/map-boston.png'); 
+	background-position: 95% bottom; 
+	background-repeat: no-repeat;
+	background-size: 400px;
+	padding-bottom: 0;
+}
+
+#footer .widget-subscribe-form {
+	float: right;
+	width: 375px !important;
+}
+
+.widget-subscribe { min-height: 200px; }
+
+
+.widget-contact-us .list-icon i {
+	margin-right: 10px;
+	margin-left: -22px;
+}
+
+.call-to-action { margin-bottom: 0; padding: 0; }
+
+
+.btn.btn-slide > span { padding-right: 4px;}
+
+.call-to-action-colored .icon i{ color: #fff !important; font-size: 50px; margin: 15px 20px 0 0;}
+
+.call-to-action-colored a { color: #fff; text-decoration: underline; }
+
+.blockquote-fancy::before { color: #b2bb1e; font-size: 120px; }
+
+.bordered {border: 1px solid #b2bb1e; padding: 3px;}
+
+.hr-title.hr-long { width: 100%; margin-top:40px;}
+
+.call-to-action h4 { color: #fff; margin-top: 25px;}
+
+.strong { font-weight: 600; }
+.em { font-style: italic;}
+
+#mainMenu nav > ul > li.btn { margin-top: 19px; padding: 14px 4px !important; background-color: #b2bb1e; }
+#mainMenu nav > ul > li.btn > a { color: #fff; }
+#mainMenu nav > ul > li.btn > a:hover { color: #00788a !important; }
+
+#mainMenu nav > ul > li:not(.btn):hover{ 
+/* 	color: #00788a !important; */
+	
+/* 	text-stroke: 1px solid #00788a; */
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	
+}
+
+.icon-box a { cursor: pointer; }
+
+
+.container ul { margin-left: 20px; }
+
+.icon-box { width: 100%; }
+
+.blockquote > p, .blockquote-fancy > p { margin-bottom: 20px; }
+
+.widget .testimonial .testimonial-item > p, .widget .testimonial .testimonial-item > span { margin-left: 0 !important; }
+
+.owl-carousel .owl-nav [class*="owl-"] { top: 95%; }
+
+/* #partners div.owl-item { margin: 5px !important;} */
+
+.parallax-container.parallax-responsive { background-position: top center !important; }
+
+
+/* Verify this  */
+#page-title { top: -81px !important; }
+
+
+.hr-title { color: #00788a; }
+.align-center { text-align: center; }
+
+
+.donation-level-label-input-container { display: inline-block;  }
+.donation-level-amount-container { font-weight: 600; background-color: #b2bb1e; padding: 5px; text-align: center; border-radius: 4px;}
+/* .donation-level-label-input-container:last-child { position: relative; top: 40px;  } */
+.donation-level-container{ display: inline-block; margin-right: 40px;}
+.donation-form-content label { display: inline-block; width: 100px; }
+#donor_email_opt_in_Row label, #anonymous_donation_row label { width: auto;}
+.html-caption-container { max-width: 600px;}
+
+
+#dafdirectdiv { width: 170px !important; }
+
+
+@media (max-width: 450px) {
+/*    #page-title, #page-title.page-title-classic { padding: 30px 0 !important; }  */
+}
+
+@media (min-width: 475px) and (max-width: 1200px) {
+
+	#mainMenu nav > ul > li > a { padding: 11px 10px !important; }
+	#header .header-extras > ul > li { margin-left: 10px; }
+
+}
+
+
+
+
+@media (max-width: 767px) {
+	#footer .widget-subscribe { text-align: left; }
+	#footer .widget-subscribe-form {float: left;}
+	#footer .footer-content { background-position: 50% bottom; }
+}
+
+
+
+
+@media (max-width: 992px) {
+  .inspiro-slider .slide-captions h1,
+  .inspiro-slider .slide-captions h2 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 14px; }
+  .inspiro-slider .slide-captions > p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 16px; }
+  .inspiro-slider .slide-captions .btn {
+    padding: 6px 14px !important;
+    font-size: 12px !important;
+    line-height: 1.5; } 
+    
+/*    #page-title, #page-title.page-title-classic { padding: 100px 0 !important; }  */
+   
+}
+
+
+
+@media (min-width: 993px) {
+.slide-captions > h1 { 
+	font-size: 60px !important;  
+	line-height: 60px !important;
+	font-weight: 600 !important;  
+}
+
+.slide-captions > p { 
+	font-size: 40px !important;
+	font-weight: 700 !important;  
+	margin-bottom: 20px !important;
+	border-radius: 5px; 
+	padding: 5px;
+	}
+}
+
+
+/* Timeline -------------------------------------------------------------------------- */
+
+.timeline_items {
+	margin: 0!important;
+	position: relative;
+	background: url(/sites/all/themes/pinestreetinn2/cssAssets/timeline_top.png) no-repeat top center;
+	padding-top: 9px;
+	list-style: disc;
+}
+.timeline_items:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-width: 3px;
+	border-style: solid;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	position: absolute;
+	left: 50%;
+	bottom: -10px;
+	margin-left: -3px;
+	display: block;
+	z-index: 1;
+}
+.timeline_items li {
+	margin: 0!important;
+	list-style: none!important;
+/* 	width: 45%; */
+	width: 100%;
+	padding: 0 0 25px 55%;
+	position: relative;
+	background: url(/sites/all/themes/pinestreetinn2/cssAssets/timeline_right.png) no-repeat top center;
+}
+.timeline_items li:nth-child(even) {
+	padding: 0 55% 25px 0;
+	background: url(/sites/all/themes/pinestreetinn2/cssAssets/timeline_left.png) no-repeat top center;
+}
+.timeline_items li h3 {
+	font-size: 30px;
+	line-height: 35px;
+	color: #00788a;
+}
+.timeline_items li h3 span {
+	position: absolute;
+	right: 55%;
+	top: 8px;
+	font-size: 18px;
+}
+.timeline_items li h3:before {
+	content: "";
+	width: 7px;
+	height: 7px;
+	border-width: 4px;
+	border-style: solid;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	position: absolute;
+	left: 50%;
+	top: 14px;
+	margin-left: -4px;
+	display: block;
+	z-index: 1;
+}
+.timeline_items li:nth-child(even) h3 {
+	text-align: right;
+}
+.timeline_items li:nth-child(even) h3 span {
+	left: 55%;
+	right: auto;
+}
+.timeline_items li .desc {
+	position: relative;
+	font-size: 15px;
+	line-height: 31px;
+/* 	background: url(/sites/all/themes/pinestreetinn2/cssAssets/textline.png) repeat-y */
+}
+.timeline_items li .desc:before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: -122%;
+	top: 0;
+	background-image: url(/sites/all/themes/pinestreetinn2/cssAssets/stripes_10_b.png)
+}
+.timeline_items li:nth-child(even) .desc:before {
+	left: auto;
+	right: -122%
+}
+.timeline_items li:nth-child(even) .desc {
+	text-align: right
+}
+
+
+.timeline_items li h3 span {
+	font-size: 22px;
+	line-height: 26px;
+	display: inline-block;
+	padding: 5px 10px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-image: url(/sites/all/themes/pinestreetinn2/cssAssets/stripes_3_b.png)
+}
+.date_label:after, .timeline_items li h3 span:after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: -5px;
+	top: 6px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5.5px 0 5.5px 5px;
+	border-color: transparent
+}
+.date_label, .timeline_items li h3 span {
+	background-color: #f8f8f8;
+	color: #a8a8a8
+}
+.date_label:after, .timeline_items li h3 span:after {
+	border-left-color: #f8f8f8
+}
+@media only screen and (min-width: 768px) {
+	.timeline_items li:nth-child(2n) h3 span::after {
+		border-right-color: #f8f8f8;
+		border-width: 5.5px 5.5px 5.5px 0;
+		left: -5px;
+		right: auto
+	}
+}
+
+.timeline .post-item:before, .timeline_items li h3:before, .timeline_items:after, a.content_link:after{
+	border-color: #00788a;
+}
+
+.timeline_items li .desc span{
+	font-weight: 600;
+	color: #b2bb1e;
+}

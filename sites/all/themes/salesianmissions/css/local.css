@@ -1,0 +1,3136 @@
+/* $Id: local-sample.css,v 1.1.2.1 2010/01/11 00:08:12 sociotech Exp $ */
+
+/****************************/
+/* LOCAL CSS                */
+/****************************/
+
+/* Put your custom CSS and CSS overrides in this file and  */
+/* rename it local.css.  By restricting your CSS changes   */
+/* to local.css, your changes will not be overwritten when */
+/* upgrading to a new version of this theme.  You can also */
+/* use a local-rtl.css file for the equivalent in RTL.     */
+
+/* Steps to activate local.css:                       */
+/* 1. Add your custom CSS to this file                */
+/* 2. Rename this file to local.css                   */
+/* 3. Clear cached data at admin/settings/performance */
+/*f6ebdf*/
+html {background-color:#f6ebdf;}
+body {
+	background: #fff url(/sites/all/themes/salesianmissions/cssAssets/bg.jpg) top center repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #323232;
+	font-size: 13px;
+}
+#page {
+	background: url(/sites/all/themes/salesianmissions/cssAssets/bg-header.jpg) top center no-repeat;	
+}
+#page-inner {
+	background: url(/sites/all/themes/salesianmissions/cssAssets/bg-glow.png) top center no-repeat;	
+}
+
+ul {
+	font-size:12px;
+	}
+	#view-id-news_items-page_1 .view-content ul,
+	.view-press-release-items .view-content ul {
+		margin-left:0;
+		margin-bottom:0;
+		}
+
+	#view-id-Mission_Gifts-page_3 .view-content ul li,
+	#pid-mission-gifts-memorial-gifts .field-body ul li,
+	#pid-ways-help-planned-giving .field-body ul li,
+	#pid-catalog-mass-cards .field-body ul li,
+	#pid-catalog-other-gifts .field-body ul li,
+	#pid-catalog-gift-items .field-body ul li,
+	#pid-catalog-books .field-body ul li {
+		background:url(/sites/all/themes/salesianmissions/cssAssets/bullet-red.png) 0 .5em no-repeat;
+		list-style:none;
+		margin:3px 0;
+		padding-left:10px;
+		}
+		span.date-display-single {
+			color:#666;
+			font:italic 11px Arial, Helvetica, sans-serif;
+			}
+			
+/* News List Page */
+#pid-news-news-stories #content-inner.block .inner {
+  margin-right:0;
+  }
+#block-block-13.grid12-2,
+#block-views-news_items-block_1.grid12-2,
+#block-views--exp-news_items-block_1.grid12-2,
+#block-block-14.grid12-2 {
+	width:100%;
+	}
+#block-block-14.grid12-2,
+#block-block-13.grid12-2,
+#block-views--exp-news_items-block_1  {
+	margin-bottom:0;
+	}
+#news-stories-header {
+	font-size:14px;
+  }
+  #news-stories-header p {
+	font-size:13px;
+  }
+  
+  #block-views-news_items-block_1.block .view-content ul {
+	  margin-left:0;
+	  }
+	#block-views-news_items-block_1 .view-content ul li {
+		clear:left;
+	}
+	#block-views-news_items-block_1 .view-content ul li:after{
+		  clear: both;
+		  content: ".";
+		  display: block;
+		  height: 0;
+		  visibility: hidden;
+		  font-size: 0;
+		}
+	#block-views-news_items-block_1 .view-content ul li,
+	.view-press-release-items .view-content ul li {
+	  border-bottom:1px solid #f4d2c4;
+	  list-style: none;
+	  padding-bottom:6px;
+	  }
+	  #block-views-news_items-block_1 .view-content ul li.views-row-last,
+	  .view-press-release-items .view-content ul li.views-row-last {
+	    border-bottom:0 none;
+	    }
+	  #block-views-news_items-block_1 .view-content ul li a,
+	  .view-press-release-items .view-content ul li a {
+	    color:#005596;
+	    display:block;
+	    font:14px Arial;
+	    line-height:1.25em;
+	    padding:8px 0 4px;
+	    text-decoration:none;
+	    }
+	    .view-press-release-items .view-content ul li a {
+		    padding:8px 0 0;
+		    }
+		 .views-field-field-new-pub-date-value .field-content,
+		 .views-label-field-news-type-value,
+		 .views-label-field-new-pub-date-value {
+			 font-weight:bold;
+			 }
+	    .view-press-release-items .view-content ul li a {font-size:12px;}
+	     #block-views-news_items-block_1 .view-content ul li a:hover,
+	     .view-press-release-items .view-content ul li a:hover {color:#3C94D8;}
+	    .views-field-field-new-pub-date-value,
+	    .views-field-field-new-pub-date-value span.date-display-single,
+	    .views-field-tid,
+	    .views-field-tid .field-content a,
+	    #block-views-news_items-block_1 .views-field-body .field-content p,
+	    .views-field-field-news-type-value  {
+	      color:#646464;
+	      font:normal 12px Arial!important;
+	      }
+	      
+	    
+	      
+	    #block-views-news_items-block_1 .news-stories-thumb {
+		    float:left;
+		    margin-right:20px;
+		    }
+		    
+	      #block-views-news_items-block_1 .views-field-body .field-content p,
+	      .views-field-field-new-pub-date-value {
+		      margin-bottom:5px;
+		      } 
+		      
+	      #view-id-news_items-page_1 .view-content ul li .views-field-tid a span.prep {color:#646464!important;}
+	      .views-field-field-new-pub-date-value,
+	      .views-field-tid {
+	        padding-bottom:0;
+	        }
+	        
+	        .views-field-tid,
+	        #block-views-news_items-block_1 .view-content ul li .views-field-view-node a,
+	        .views-field-view-node,
+	        .views-field-tid .field-content a {
+	          display:inline!important;
+	          }
+	          #block-views-news_items-block_1 .view-content ul li .views-field-view-node a {
+	            background:url(/sites/all/themes/salesianmissions/cssAssets/5a6242bf9701d.png) right center no-repeat;
+	            font-size:12px;
+	            padding:0 10px 0 0;
+	            }
+	            
+	          .views-field-view-node a {
+	            font-size:12px;
+	            }
+	        .views-field-tid .field-content {
+	          border-right:1px solid #f4d2c4;
+	          padding-right:4px;
+	          }
+	          .views-field-tid .field-content .prep + .prep {
+	            display:none;
+	            }
+	          
+	      .views-field-field-new-pub-date-value em span.date-display-single  {
+	        font-style:italic;
+	        }
+	        
+	/* News page search form */
+	#views-exposed-form-news-items-block-1 {
+		background-color:#fcf2e8;
+		
+		}
+		#views-exposed-form-news-items-block-1 .views-exposed-widgets {
+			margin-bottom:0;
+			}
+			#views-exposed-form-news-items-block-1 .views-exposed-widgets .views-exposed-widget {
+				padding:5px 10px 8px;
+				} 
+		#views-exposed-form-news-items-block-1 label {
+			color:#990a10;
+			font:bold 14px Arial;
+			text-transform:uppercase;
+			}
+			#views-exposed-form-news-items-block-1 input.form-text {
+				border:1px solid #f1e3cf;
+				height:15px;
+				width:205px;
+				max-width:205px;
+				}
+				#views-exposed-form-news-items-block-1 #edit-keys {
+					height: auto;
+				}
+			#views-exposed-form-news-items-block-1 .form-item select#edit-field-news-type-value-many-to-one {
+				width:205px;
+				max-width:205px;
+				
+				}
+			#views-exposed-form-news-items-block-1 #edit-submit-news-items {
+				background:url(/sites/all/themes/salesianmissions/cssAssets/btn-search.png) 0 0 no-repeat;
+				border:0 none;
+				font-size:0;
+				height:19px;
+				left:-10px;
+				line-height:0;
+				text-transform: capitalize;
+				text-indent:-9999px;
+				position:relative;
+				top:17px;
+				width:54px;
+				}
+			
+	#block-views-news_items-block_1 .item-list ul.pager,
+	.view-press-release-items .item-list ul.pager {
+	  background-color:#fcf2e8;
+	  margin:0;
+	  overflow:auto;
+	  padding:2px;
+	  text-align:left;
+	  width:330px;
+	  }
+	  #block-views-news_items-block_1 .item-list ul.pager {width:auto;}
+	  #block-views-news_items-block_1 .item-list ul.pager li,
+	  .view-press-release-items .item-list ul.pager li {
+	    float:left;
+	    }
+	    #block-views-news_items-block_1 .item-list ul.pager li.pager-current,
+	    .view-press-release-items .item-list ul.pager li.pager-current {
+	      color:#b5131c!important;
+	      font:bold 11px Arial!important;
+	      padding:8px 10px;
+	      }
+	    #block-views-news_items-block_1 .item-list ul.pager li.pager-last,
+	    #block-views-news_items-block_1 .item-list ul.pager li.pager-first,
+	    .view-press-release-items .item-list ul.pager li.pager-last,
+	    .view-press-release-items .item-list ul.pager li.pager-first,
+	    #block-views-news_items-block_1 .item-list ul.pager li.pager-ellipsis {
+	      display:none;
+	      }
+	    #block-views-news_items-block_1 .item-list ul.pager li.pager-next,
+	    .view-press-release-items .item-list ul.pager li.pager-next {
+	      border-left:1px solid #fff;
+	      float:right;
+	      }
+	    #block-views-news_items-block_1 .item-list ul.pager li.pager-previous, 
+	    .view-press-release-items .item-list ul.pager li.pager-previous {
+	      border-right:1px solid #fff;
+	      }
+	    #block-views-news_items-block_1 .item-list ul.pager li.pager-next a,
+	    #block-views-news_items-block_1 .item-list ul.pager li.pager-previous a,
+	    .view-press-release-items .item-list ul.pager li.pager-next a,
+	    .view-press-release-items .item-list ul.pager li.pager-previous a {
+	      color:#b5131c!important;
+	      text-transform: uppercase;
+	      }
+	  #block-views-news_items-block_1 .item-list ul.pager li a,
+	  .view-press-release-items .item-list ul.pager li a {
+	    display:block;
+	    float:left;
+	    font:bold 11px Arial;
+	    padding:8px 10px;
+	    color:#646464!important;
+	    }
+#block-block-10 {
+  left:10px;
+  position:relative;
+  width:281px;
+  }
+  #block-block-10 p {
+    font-size:12px;
+    }
+.btn-newswire,
+.btn-progress-haiti {
+  background-repeat:no-repeat;
+  background-position:0 0;
+  display:block;
+  height:35px;
+  margin:10px 0;
+  text-indent:-9999px;
+  width:281px;
+  }	
+  .btn-newswire {
+    background-image:url(/sites/all/themes/salesianmissions/cssAssets/btn-newswire.png);
+    }
+  .btn-progress-haiti {
+    background-image:url(/sites/all/themes/salesianmissions/cssAssets/btn-progress-haiti.png);  
+    }
+    .btn-newswire:hover,
+    .btn-progress-haiti:hover  {
+      background-position:0 -36px;
+      }
+      
+      
+.btn-submit-prayer,
+.btn-become-partner,
+.btn-give-monthly {
+  background-repeat:no-repeat;
+  background-position:0 0;
+  display:block;
+  height:30px;
+  text-indent:-9999px;
+  width:258px;
+  }	
+  .btn-submit-prayer {
+    background-image:url(/sites/all/themes/salesianmissions/cssAssets/btn-submit-your-prayer.png);
+    }
+  .btn-submit-prayer:hover {
+    background-position:0 -30px;  
+    }
+  .btn-become-partner {
+    background-image:url(/sites/all/themes/salesianmissions/cssAssets/btn-become-partner.png);
+    width:208px;
+    }
+  .btn-become-partner:hover {
+    background-position:0 -30px;  
+    }
+    p a.btn-become-partner {border:0 none!important;}
+  .btn-give-monthly {
+	  background-image:url(/sites/all/themes/salesianmissions/cssAssets/btn-give-monthly.jpg);
+	  border-bottom:0 none!important;
+	  width:142px;
+  	}
+  	.btn-give-monthly:hover {
+	  	background-position:0 -30px;
+	  	}
+
+
+	  
+
+p {
+	line-height: 19px;
+	margin: 0 0 20px;
+	font-size:13px;
+}
+
+a{
+	color: #005596;
+	font-weight: normal;
+	outline:none;
+	text-decoration: underline;
+	}
+	a:active,
+	a {
+		outline:none;
+		}
+
+#content-content img {
+  margin: 5px;
+}
+
+#pid-our-work-our-work #content-content img,
+#pid-front-page #content-content img {
+  margin: 0px;
+  }
+
+img.left,
+img.right {
+	margin-bottom:20px;
+	}
+	img.left {
+		margin-right:20px;
+		}
+	img.right {
+		margin-left:20px;
+		}
+
+blockquote {
+	background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-blockquote.png) 0 0 no-repeat;
+	color:#7D5F43;
+	font-size:14px;
+	padding-left:32px;
+	}
+	blockquote p:first-child {
+	  background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-quote-right.png) right 0 no-repeat;
+	  display:inline;
+	  padding-right:32px;
+	  }
+*:first-child+html blockquote p:first-child { display:inline-block;background-position:right bottom;}
+
+	  cite {
+		  color:#391E0D;
+		  display:block;
+		  font-style:italic;
+		  text-align:right;
+		  }
+	#pid-about-us-letter-director blockquote {
+		margin:0 auto;
+		width:440px;
+		}
+
+a:hover {
+	color: #3c94d8;
+	text-decoration:none;
+}
+ol, ul {
+	font-size:13px;
+	}
+
+h1 {
+	border-bottom:1px solid #F4DBC1;
+	color: #005190;
+	font:bold 30px/35px Arial, Helvetica, sans-serif;
+	letter-spacing:-.025em;
+	margin: 0 0 14px 0;
+	padding-bottom:7px;
+}
+
+h2,
+.red {
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color: #990a10;
+	margin: 0 0 5px 0;
+	text-transform:uppercase;
+	}
+	span.red {
+		display:block;
+		margin:20px 0 10px -27px;
+		}
+	#pid-front-page h2,
+	.dark {
+	  color:#333;
+	  font:bold 22px/40px "Myriad Pro", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	  letter-spacing:-.025em;
+	  text-transform:none;
+	  width:330px;
+	}
+	.dark {line-height: 1.25em; padding-bottom: 0pt; margin-bottom: 5px;}
+
+h3 {
+	font:bold 13px Arial, Helvetica, sans-serif;
+	color: #333;
+	text-transform:none;
+}
+
+h4 {
+	font:bold 15px Arial, Helvetica, sans-serif;
+	color: #342e27;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+	color: #1e1e1e;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+h6 {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color: #1e1e1e;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+
+hr {
+	background-color: #F4DBC1;
+    border: 0 none;
+    color: #E7E4E2;
+    height: 1px;
+    margin: 16px 0;
+	}
+	.panel-panel.panel-col-last hr,
+	.panel-panel.panel-col-first hr {
+	  background-color:#f7d2c3;
+	  color:#f7d2c3;
+	  margin:16px 0 10px;
+	  }
+*:first-child+html .panel-panel.panel-col-last hr {
+  margin:0;
+  }
+
+.clear-both {
+	clear:both;
+	}
+#header-top-wrapper {
+	
+	background: rgba(66,29,10,.25);
+	/*filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20);*/
+	height: 25px;
+	color: #ffffff;
+	font-size: 11px;
+}
+#header-top-wrapper p,
+#header-top-wrapper .block {
+	color:#fff6e9;
+	font-size:12px;
+	margin: 0px;	
+	line-height: 25px;
+}
+#header-group-wrapper {
+	padding-top: 10px;	
+}
+#header-site-info {
+	float:left;
+	overflow: visible;
+	margin: 0px;
+	}
+	.block#header-site-info .inner {
+		margin:0;
+		position:relative;
+		}
+	#logo {
+		position:absolute;
+		left:0;
+		top:0;
+		}
+#site-name {
+	height:25px;
+	text-indent:-9999px;	
+}
+#site-name-wrapper {
+	background:url(/sites/all/themes/salesianmissions/cssAssets/slogan.png) 0 0 no-repeat;
+	display:block;
+	/*float:right;*/
+	height:25px;
+	left: 296px;
+	position: absolute;
+	top: 20px;
+	width:467px;
+	}
+	#slogan {
+		text-indent:-9999px;
+		}
+
+.block#primary-menu .inner {
+	margin-left:0;
+	}
+#primary-menu {
+	float: right;
+	width: auto;
+	margin-bottom:0;
+	margin-right:2px;
+	padding:56px 0 0 0;
+	}
+	#primary-menu ul.menu {
+		margin: 0px;
+		}
+	/* Primary List item */
+	  #primary-menu ul.sf-menu li {
+		  overflow: hidden;
+		  margin-right:6px;
+		  }
+		  /* Normal Tab : Left corner */
+		  #primary-menu ul.sf-menu li.expanded a {
+			  behavior: url(/sites/all/themes/salesianmissions/cssAssets/PIE.htc);
+			  background:url(/sites/all/themes/salesianmissions/cssAssets/nav-left.png) left 0 no-repeat;
+			  color: #ffffff;
+			  display:block;
+			  font:bold 17px/40px "Myriad Pro", "Trebuchet MS", Arial, Helvetica, sans-serif;
+			  height: 43px;
+			  margin:0;
+			  padding:0 0 0 9px;
+			  text-decoration: none;
+			  -webkit-text-shadow: 0px 2px 2px #0071af;
+			  -moz-text-shadow: 0px 2px 2px #0071af;
+			  text-shadow: 0px 2px 2px #0071af;
+			  }
+			  /* Normal Tab : Right corner  */
+			  #primary-menu ul.sf-menu li.expanded a span {
+				background:url(/sites/all/themes/salesianmissions/cssAssets/nav-right.png) right 0 no-repeat;
+				display:block;
+				height:43px;
+				padding: 0 22px 0 0;
+				}
+				 #primary-menu ul.sf-menu li.last {
+					margin-right:0;
+					}
+			/* White Active Tab */
+		  #primary-menu ul.sf-menu li.active-trail a {
+			  background:url(/sites/all/themes/salesianmissions/cssAssets/nav-left.png) left -89px no-repeat;
+			  color: #018AC8;
+			  display:block;
+			  font:bold 17px/40px "Myriad Pro", "Trebuchet MS", Arial, Helvetica, sans-serif;
+			  height: 43px;
+			  margin:0;
+			  padding:0 0 0 9px;
+			  -webkit-text-shadow: none;
+			  -moz-text-shadow: none;
+			  text-shadow:none;
+			  }
+			   #primary-menu ul.sf-menu li.active-trail a span {
+				  background:url(/sites/all/themes/salesianmissions/cssAssets/nav-right.png) right -89px no-repeat;
+				  display:block;
+				  height: 43px;
+				  margin:0;
+				  padding:0 22px 0 0;
+				  }
+		  /* Hovered Tab : Left corner  */
+		  #primary-menu ul.sf-menu li.sfHover a {
+			  behavior: url(/sites/all/themes/salesianmissions/cssAssets/PIE.htc);
+			  background:url(/sites/all/themes/salesianmissions/cssAssets/nav-left.png) left -44px no-repeat;
+			  color: #00508f;
+			  display:block;
+			  font:bold 17px/40px "Myriad Pro", "Trebuchet MS", Arial, Helvetica, sans-serif;
+			  height: 43px;
+			  margin:0;
+			  padding:0 0 0 9px;
+			  text-decoration: none;
+			  -webkit-text-shadow:none;
+			  -moz-text-shadow: none;
+			  text-shadow: none;
+			  }
+			  /* Hovered Tab : Right corner  */
+			  #primary-menu ul.sf-menu li.sfHover a span {
+				background:url(/sites/all/themes/salesianmissions/cssAssets/nav-right.png) right -44px no-repeat;
+				display:block;
+				height:43px;
+				padding: 0 22px 0 0;
+				}
+		
+		/* Drop down menu background gradient */
+		#primary-menu ul.menu li.sfHover ul.menu {
+			behavior: url(/sites/all/themes/salesianmissions/cssAssets/PIE.htc);
+			background: #83bbe1 url(/sites/all/themes/salesianmissions/cssAssets/nav-dropdown-bkgrnd.png) 0 0 repeat-x;
+			top: 43px;
+			left: 0px;
+			width: 239px;
+			border-left: 1px solid #ffffff;
+			border-right: 1px solid #ffffff;
+			border-bottom: 1px solid #ffffff;
+			padding: 2px 2px 5px;
+			z-index: 9px;
+			display: block;
+			-webkit-box-shadow: 0px 7px 7px rgba(0,0,0,.2);
+			-moz-box-shadow: 0px 7px 7px rgba(0,0,0,.2);
+			box-shadow: 0px 7px 7px rgba(0,0,0,.2);
+			}
+			/* Dropdown Menu Items */
+			#primary-menu ul.sf-menu li ul.menu li,
+			#primary-menu ul.sf-menu li.active-trail.sfHover ul.menu li {
+				 background-color:transparent;
+				 height: auto;
+				 margin-right:0;
+				 overflow: hidden;
+				}
+				/* Ways to Help Monthly Giving Programs */
+				#primary-menu ul.sf-menu li ul.menu li.expanded a#mgp {
+					padding-bottom:0;
+					}
+					#primary-menu ul.sf-menu li ul.menu li.expanded a#mgp + ul.menu {
+						-webkit-box-shadow:none;
+						-moz-box-shadow:none;
+						-webkit-transform: scale(1)!important;
+						box-shadow:none;
+						background:none;
+						border:0 none;
+						position:relative;
+						top:0;
+						}
+						/* Hide the sidebar menu */
+						.sidebar-first-inner #block-menu-primary-links ul.menu li ul.menu li.expanded a#mgp + ul.menu {
+							display:none;
+							}
+							.sidebar-first-inner #block-menu-primary-links ul.menu li ul.menu li.active-trail a#mgp + ul.menu {
+							display:block;
+							}
+						#primary-menu ul.sf-menu li ul.menu li.expanded a#mgp + ul.menu li {
+						 overflow:visible;
+						 text-indent:7px;
+						 }
+						 #primary-menu ul.sf-menu li ul.menu li.expanded a#mgp + ul.menu li a {
+						  font-size:10px;
+						  padding:2px 10px;
+						  }
+				
+				#primary-menu ul.sf-menu li.sfHover ul li a,
+				#primary-menu ul.sf-menu li.active-trail.sfHover ul li a {
+					background:none;
+					color: #00508f;
+					display: block;
+					font:14px/16px Arial, Helvetica, sans-serif;
+					height:auto;
+					padding: 5px 10px;
+					text-decoration:none;
+					-webkit-text-shadow: none;
+					-moz-text-shadow: none;
+					text-shadow:none;
+					width: 219px;
+					}
+					#primary-menu ul.sf-menu li.sfHover ul li a span,
+					#primary-menu ul.sf-menu li.active-trail.sfHover ul li a span  {
+						background:none;
+						height:auto;
+						padding-right:0;
+						}
+					#primary-menu ul.sf-menu li.sfHover ul li a:hover,
+					#primary-menu ul.sf-menu li.active-trail.sfHover ul li a:hover {
+					  background-color: #e2f6fd;
+					  }
+		  #primary-menu ul.sf-menu li.sfHover {
+			  overflow: visible;
+			  }
+			  /*#primary-menu ul.sf-menu li.leaf {display:none;}*/
+			  
+			  
+/* Modify width of sidebar */		  
+.grid12-4 {
+	width:290px;
+	}
+#main {
+	behavior: url(/sites/all/themes/salesianmissions/cssAssets/PIE.htc);
+	background-color:#fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-top: 5px;
+	position:relative;
+	}
+	.front #main {
+		-moz-border-radius:0;
+		-webkit-border-radius:0;
+		border-radius:0;
+		background-color:transparent;
+		padding-top:0;
+		}
+	.front #main-inner {
+		background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-front-frame.png) 0 0 no-repeat;
+		height:auto;
+		padding:5px 8px 8px 8px;
+		width:940px;
+		}
+		.front #main-inner .panel-3col-33-stacked .panel-panel a {
+			border-bottom: 1px solid #005596;
+			text-decoration:none;
+			}
+			.front #main-inner .panel-3col-33-stacked .panel-panel .pane-content p:first-child a,
+			.front #main-inner .panel-3col-33-stacked .panel-panel .ui-tab-button a {
+				border-bottom:0 none;
+				}
+			  .front #main-inner #content-region-inner .content-inner {
+				  margin-bottom:0;
+				  }
+			  .front #main-inner #content-region-inner .panel-panel p {
+				  color:#333;
+				  font-size:12px;
+				  margin:0 0 6px 0;
+				  }
+				  .front #main-inner #content-region-inner .panel-panel .pane-2 .pane-content,
+				  .front #main-inner #content-region-inner .panel-panel .pane-3 .pane-content {
+					  position:relative;
+					  top:-4px;
+					  }
+			.front #main-inner .panel-3col-33-stacked .panel-panel a:hover {
+				border-bottom:0 none;
+				} 
+
+		#rotator {
+			padding-bottom:0 !important;
+			}
+			#rotator .ui-tabs-panel {
+				background-color:#fff !important;
+				}
+#main-group {
+	/*min-height:600px;*/
+	padding-top: 15px;
+	padding-right:0;
+	width:640px;	
+	}
+	.front #main-group {
+		min-height:inherit;
+		padding-top:0;
+		padding-right:0;
+		width:auto;
+		}
+		.front #main-group #content-inner-inner {
+			margin:0;
+			}
+
+#block-menu-primary-links {
+	position: relative;
+	top: 0;
+	left: -4px;
+}
+#block-menu-primary-links .inner {
+	behavior: url(/sites/all/themes/salesianmissions/cssAssets/PIE.htc);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 0px 1px 3px rgba(72,66,59,.65); 
+	-webkit-box-shadow: 0px 1px 3px rgba(72,66,59,.65); 
+	box-shadow: 0px 1px 3px rgba(72,66,59,.65); 
+	margin-bottom: 10px;
+	background: #ffffff url(/sites/all/themes/salesianmissions/cssAssets/bg-left_sidebar.jpg) bottom left no-repeat;
+	padding: 25px 20px 25px 20px;
+	position:relative;
+	border-top: 1px solid #f0f0f0;
+}
+#block-menu-primary-links ul.menu {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#block-menu-primary-links ul.menu li {
+	background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-border-list.png) 0 bottom repeat-x;
+	list-style-image: none;
+	list-style-type: none;
+	display: none;
+}
+#block-menu-primary-links ul.menu li.active-trail,
+#block-menu-primary-links ul.menu li.active-trail li {
+	display: block;
+}
+
+#block-menu-primary-links ul.menu li a {
+	color: #48423B;
+	font-size: 16px;
+	text-decoration: none;
+	margin: 0 0 10px 0;
+	display: inline-block;
+	text-transform:uppercase;
+}
+
+
+/* Sidebar links */
+#sidebar-first #block-menu-primary-links ul.menu li li.active-trail a.active {
+	background:url(/sites/all/themes/salesianmissions/cssAssets/arrow-red-left.png) 0 center no-repeat;
+	color:#D9634D;
+	}
+	#sidebar-first #block-menu-primary-links ul.menu li li a {
+		background:url(/sites/all/themes/salesianmissions/cssAssets/arrow-red-left.png) 0 center no-repeat;
+		color: #716252;
+		display:block;
+		font-size: 14px;
+		font-weight: normal;
+		line-height:1.25em;
+		text-decoration: none;
+		margin: 0;
+		padding:5px 0 8px 20px;
+		text-transform:none;
+		}
+		#sidebar-first #block-menu-primary-links ul.menu li li a:active,
+		#sidebar-first #block-menu-primary-links ul.menu li li a:hover {
+			background:url(/sites/all/themes/salesianmissions/cssAssets/arrow-red-left.png) 0 center no-repeat;
+			color: #DA634E;
+			text-decoration: none;
+			}
+			#block-menu-primary-links ul.menu ul.menu ul.menu{
+			  background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-border-list.png) 0 top repeat-x;
+			  padding:3px 0;
+			  }
+			  #sidebar-first #block-menu-primary-links ul.menu li.active-trail li li {
+				background:none;
+				margin-left: 0;
+				display: block;
+				}
+		#sidebar-first #block-menu-primary-links ul.menu li li.active-trail.expanded a {
+			background:url(/sites/all/themes/salesianmissions/cssAssets/arrow-red-left-down.png) 0 center no-repeat;
+			}
+		#sidebar-first #block-menu-primary-links ul.menu li li.active-trail.expanded a.active {
+			color:#DA634E;
+			}
+			#sidebar-first #block-menu-primary-links ul.menu li li.active-trail.expanded ul li a {
+				background:none;
+				color: #716252;
+				line-height:1.25em;
+				}
+				#sidebar-first #block-menu-primary-links ul.menu li li.active-trail.expanded ul li a:hover,
+				#sidebar-first #block-menu-primary-links ul.menu li li.active-trail.expanded ul li a.active {
+					background:none;
+					}
+					#sidebar-first #block-menu-primary-links ul.menu li li.active-trail.expanded ul li a:hover {
+						color: #DA634E;
+						}
+
+
+	
+
+
+#sidebar-first #block-menu-primary-links ul.menu li.active-trail li li a {
+	background:none;
+	color:#D9634D;
+	margin-left: 0;
+	font-size: 12px;
+	display: block;
+	line-height:1em;
+	padding:5px 0 5px 20px;
+	}
+	#sidebar-first #block-menu-primary-links ul.menu li.active-trail li li a:hover {
+		color: #716252;
+		}
+#sidebar-first #block-menu-primary-links ul.menu li.active-trail li li li a {
+		padding:5px 0 8px 40px;
+		}
+
+#content-content .inner {
+	padding-right: 0px;	 /*20px*/
+}
+#content-inner{
+	overflow: hidden;
+}
+div.node-type-prayer_poems span.submitted, div.node-type-prayer_cards span.submitted, div.node-type-art span.submitted{
+	display: none;
+}
+#main-wrapper {
+	border-bottom: 1px solid #F4D2C4;
+	padding-bottom:30px;	
+}
+#footer-wrapper {
+	background-color: #f6ebdf;
+	border-top: 1px solid #fff; 
+	box-shadow: 0px 0px 0px 1px #f3d2c2;
+	clear:both;
+	font-size: 12px;
+	}
+	#footer-wrapper .col {
+		float:left;
+		margin-right:30px;
+		}
+		#footer-wrapper .col.last {
+			margin-right:0;
+			}
+		#footer-wrapper .col ul.menu {
+			margin-bottom:20px;
+			list-style:none;
+			}
+	#footer-wrapper .col + .content {
+		line-height:16px;
+		margin-left:450px;
+		width:179px;
+		}
+		/* IE7 only */
+		*:first-child+html #footer-wrapper .col + .content{
+			margin-left:435px;
+			width:182px;
+			}
+		#footer-wrapper .col + .content img{
+			display:block;
+			margin:0 0 10px 0;
+			}
+		#footer-wrapper .col + .content small {
+			color:#716252;
+			display:block;
+			line-height:1.75em;
+			padding-left:5px;
+			}
+		/* IE7 only */
+		*:first-child+html #footer-wrapper .col + .content small {
+			font-size:10px;
+			}	
+			#footer-wrapper .col + .content small a {
+				border-bottom:1px solid #845c3d;
+				color:#845c3d;
+				text-decoration:none;
+				}
+				#footer-wrapper .col + .content small a:hover {
+					border-bottom:0 none;
+					}
+					#footer-wrapper li.leaf,
+					#footer-wrapper li.expanded {
+						list-style-image:none;
+						list-style-type:none;
+						}
+	
+	#footer-wrapper #block-block-5 p{
+		color:#716252;
+		font-size:11px;
+		line-height:16px;
+		margin-bottom:5px;
+		}
+		#footer-wrapper #block-block-5 p.last {
+			margin-bottom:0;
+		}
+		#footer-wrapper #block-block-5 p b {
+		  color:#48423b;
+		  }
+		  #footer-wrapper #block-block-5 p big {
+			  font-size:11px;
+			  }
+			 #footer-wrapper #block-block-5 p.last big {
+			  font-size:11px;
+			  display:block;
+			  float:left;
+			  padding-top:5px;
+			  padding-right:5px;
+			  }
+		  #footer-wrapper #block-block-5 p a {
+			  border-bottom:1px solid #845c3d;
+			  color:#845c3d;
+			  margin-bottom:3px;
+			  text-decoration:none;
+			}
+			#footer-wrapper #block-block-5 p a:hover,
+			#footer-wrapper #block-block-5 p a.logo {
+				border-bottom:0 none;
+				}
+			#footer-wrapper #block-block-5 p a.icon-twitter,
+			#footer-wrapper #block-block-5 p a.icon-facebook,
+			#footer-wrapper #block-block-5 p a.icon-youtube {
+				border-bottom:0 none;
+				margin-bottom:0;
+				height:22px;
+				position:relative;
+				/*top:7px;*/
+				width:22px;
+				}
+				#footer-wrapper #block-block-5 p a.icon-twitter {
+					background:url(/sites/all/themes/salesianmissions/cssAssets/footer-icon-twitter.png) 0 0 no-repeat;
+					}
+				#footer-wrapper #block-block-5 p a.icon-facebook {
+					background:url(/sites/all/themes/salesianmissions/cssAssets/footer-icon-facebook.png) 0 0 no-repeat;
+					}
+				#footer-wrapper #block-block-5 p a.icon-youtube {
+					background:url(/sites/all/themes/salesianmissions/cssAssets/footer-icon-youtube.png) 0 0 no-repeat;
+					}
+				#footer-wrapper #block-block-5 p a.icon-instagram {
+					background: transparent url("/sites/all/themes/salesianmissions/cssAssets/footer-icon-instagram.png") no-repeat;
+					border: none;
+					display: inline-block;
+					height: 21px;
+					position: relative;
+					text-indent: 999px;
+					top: -7px;
+					width: 21px;
+					}
+					
+	#footer-wrapper .block ul,
+	#footer-wrapper .block ul .block ul {
+		margin-left:0;
+		}
+		#footer-wrapper ul li.expanded,
+		#footer-wrapper ul li ul li.expanded,
+		#footer-wrapper ul li.leaf,
+		#footer-wrapper ul li ul li.leaf {
+			line-height:1.5em;
+			list-style:none;
+			}
+			#footer-wrapper ul li ul li {
+				background:url(/sites/all/themes/salesianmissions/cssAssets/bullet-footer.png) 0 center no-repeat;
+				padding-left:8px;
+				}
+		/* brown text */
+		#footer-wrapper ul li.expanded a {
+			color:#48423b;
+			font:bold 12px Arial, Helvetica, sans-serif;
+			text-decoration:none;
+			text-transform:uppercase;
+			}
+			
+			
+		/* Pad the top of the footer */		
+		#footer-wrapper #block-block-7{
+			padding-top:24px;
+			}
+		#footer-wrapper #block-block-5	{
+			margin-bottom:0;
+			margin-right:25px;
+			padding-top:10px;
+			}
+			
+		
+	/* blue text */
+	#footer-wrapper ul li.expanded ul li.leaf a,
+	#footer-wrapper ul li.expanded ul li.expanded a  {
+		color:#716252;
+		font:normal 11px/13px Arial;
+		text-decoration:none;
+		text-transform:none;
+		}
+		#footer-wrapper ul li.expanded ul li.leaf a:hover,
+		#footer-wrapper ul li.expanded ul li.expanded a:hover {
+			color:#48423B;
+			text-decoration:none;
+			}
+		
+			
+#footer-wrapper ul li ul li ul {
+display: none;
+} 
+.legal{
+   font: normal 11px/13px Arial;
+}
+.photo {
+	background-color: #fcf0e5;
+	padding: 4px;
+	display: inline-block;
+}
+.photo .caption {
+	display: block;	
+	font-size: 10px;
+	color: #6e6e6e;
+	font-style: italic;
+	line-height: 11px;
+	padding: 0 4px 4px 4px;
+}
+.photo img {
+	border: 1px solid #ffffff;	
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.3);
+	box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+.alignleft {
+	float: left;
+	margin: 0 20px 15px 0;
+}
+
+#block-menu-menu-footer-nav-1 ul.menu,
+#block-menu-menu-footer-nav-2 ul.menu, 
+#block-menu-menu-footer-nav-3 ul.menu, 
+#block-menu-menu-footer-nav-4 ul.menu {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#block-menu-menu-footer-nav-1 ul.menu li,
+#block-menu-menu-footer-nav-2 ul.menu li,
+#block-menu-menu-footer-nav-3 ul.menu li,
+#block-menu-menu-footer-nav-4 ul.menu li{
+	list-style-image: none;
+	list-style-type: none;
+}
+#block-menu-menu-footer-nav-1 ul.menu li a:link,
+#block-menu-menu-footer-nav-1 ul.menu li a:visited,
+#block-menu-menu-footer-nav-1 ul.menu li a:active,
+#block-menu-menu-footer-nav-1 ul.menu li a:hover,
+#block-menu-menu-footer-nav-2 ul.menu li a:link,
+#block-menu-menu-footer-nav-2 ul.menu li a:visited,
+#block-menu-menu-footer-nav-2 ul.menu li a:active,
+#block-menu-menu-footer-nav-2 ul.menu li a:hover,
+#block-menu-menu-footer-nav-3 ul.menu li a:link,
+#block-menu-menu-footer-nav-3 ul.menu li a:visited,
+#block-menu-menu-footer-nav-3 ul.menu li a:active,
+#block-menu-menu-footer-nav-3 ul.menu li a:hover,
+#block-menu-menu-footer-nav-4 ul.menu li a:link,
+#block-menu-menu-footer-nav-4 ul.menu li a:visited,
+#block-menu-menu-footer-nav-4 ul.menu li a:active,
+#block-menu-menu-footer-nav-4 ul.menu li a:hover {
+	color: #342e27;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-bottom: 4px;
+	display: inline-block;
+}
+
+#block-menu-menu-footer-nav-1 ul.menu li ul li a:link,
+#block-menu-menu-footer-nav-2 ul.menu li ul li a:link,
+#block-menu-menu-footer-nav-3 ul.menu li ul li a:link,
+#block-menu-menu-footer-nav-4 ul.menu li ul li a:link {
+	color: #005596;
+	font-weight: normal;
+	text-decoration: underline;
+	text-transform: none;
+	font-size: 95%;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+#block-menu-menu-footer-nav-1 ul.menu li ul li a:visited,
+#block-menu-menu-footer-nav-2 ul.menu li ul li a:visited,
+#block-menu-menu-footer-nav-3 ul.menu li ul li a:visited,
+#block-menu-menu-footer-nav-4 ul.menu li ul li a:visited {
+	color: #14466d;
+	font-weight: normal;
+	text-decoration: underline;
+	text-transform: none;
+	font-size: 95%;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+#block-menu-menu-footer-nav-1 ul.menu li ul li a:active,
+#block-menu-menu-footer-nav-1 ul.menu li ul li a:hover,
+#block-menu-menu-footer-nav-2 ul.menu li ul li a:active,
+#block-menu-menu-footer-nav-2 ul.menu li ul li a:hover,
+#block-menu-menu-footer-nav-3 ul.menu li ul li a:active,
+#block-menu-menu-footer-nav-3 ul.menu li ul li a:hover,
+#block-menu-menu-footer-nav-4 ul.menu li ul li a:active,
+#block-menu-menu-footer-nav-4 ul.menu li ul li a:hover {
+	color: #3c94d8;
+	font-weight: normal;
+	text-decoration: underline;
+	text-transform: none;
+	font-size: 95%;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+#block-menu-menu-footer-nav-1 ul.menu li,
+#block-menu-menu-footer-nav-2 ul.menu li,
+#block-menu-menu-footer-nav-3 ul.menu li,
+#block-menu-menu-footer-nav-4 ul.menu li {
+	padding: 0 0 20px 0;	
+}
+#block-menu-menu-footer-nav-1 ul.menu li ul li,
+#block-menu-menu-footer-nav-2 ul.menu li ul li,
+#block-menu-menu-footer-nav-3 ul.menu li ul li,
+#block-menu-menu-footer-nav-4 ul.menu li ul li {
+	padding: 0 0 4px 0;	
+	font-size: 12px;
+}
+#block-menu-menu-footer-nav-1 .inner,
+#block-menu-menu-footer-nav-2 .inner,
+#block-menu-menu-footer-nav-3 .inner,
+#block-menu-menu-footer-nav-4 .inner {
+	padding-top: 20px;
+}
+
+/*Accordion HACKS
+#footer, #footer-inner { position: relative; clear: both; }
+#accordion { height: auto; position: relative; border: 1px solid teal; display:block; }
+#accordion div { height: auto; }
+*/
+
+#footer a.logo:link,
+#footer a.logo:visited,
+#footer a.logo:active,
+#footer a.logo:hover {
+	display: block;
+	float:left;
+	width: 154px;
+	height: 55px;
+	background: url(/sites/all/themes/salesianmissions/cssAssets/footer-logo.png) top left no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.copy-class {
+	color:#817363;
+	font:italic 9px Arial;
+	position:relative;
+	top:36px;
+	left:5px;
+	}
+
+a.btn-facebook,
+a.btn-facebook-share,
+a.btn-twitter,
+a.btn-twitter-share,
+a.btn-linkedin-share {
+	background-image:url(/sites/all/themes/salesianmissions/cssAssets/btns-social.png);
+	background-repeat:no-repeat;
+	float:left;
+	line-height: 26px;
+	padding: 0;
+	display:block;
+	height:28px;
+	position:relative;
+	text-indent:-9999px;
+	margin: 5px 15px 0 0;
+	width:180px;
+	}
+	a.btn-facebook {
+	  background-position:0 0;
+	  }
+	a.btn-facebook-share {
+	  background-position:-362px 0;
+	  }
+	a.btn-twitter {
+  	width:180px;
+	  background-position:-182px 0;
+	  }
+a.btn-twitter-share{background-position: -544px 0px;}
+a.btn-linkedin-share{background-position: -726px 0px;}
+	  a.btn-facebook:hover,
+	  a.btn-facebook-share:hover,
+	  a.btn-twitter:hover {
+		  color: #674329;
+		  text-decoration: none;
+		  }
+		   a.btn-facebook:hover {
+			background-position:0 -29px;
+			}
+		   a.btn-facebook-share:hover {
+			background-position:-362px -29px;
+			}
+		   a.btn-twitter:hover {
+			background-position:-182px -29px;
+			}
+/*CSS SOCIAL BUTONS */
+#block-block-29{width: 100%;}
+a.btn-twitter-share:hover {background-position: -544px -29px;}
+a.btn-linkedin-share:hover {background-position: -726px -29px;}
+a.btn-custom-share {
+	background-image:url(/sites/all/themes/salesianmissions/cssAssets/btns-custom.png);
+	background-repeat:no-repeat;
+	float:left;
+	line-height: 26px;
+	padding: 1px 0 0;
+	display:block;
+	height:28px;
+	position:relative;
+	margin: 5px 15px 0 0;
+	width:180px;
+    font-size:14px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#AB3B03;
+    text-align:center;
+	}
+a.btn-custom-share:hover {background-position: 0 -29px;}
+
+@media all and (max-width: 920px) {
+	a.btn-facebook, a.btn-facebook-share, a.btn-twitter, a.btn-twitter-share, a.btn-linkedin-share{float: none;margin: 5px auto 0;}
+
+}
+
+ 
+
+
+
+
+a.icon-facebook:link,
+a.icon-facebook:visited,
+a.icon-facebook:active,
+a.icon-facebook:hover {
+	overflow: hidden;
+	text-indent: 9999px;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(/sites/all/themes/salesianmissions/cssAssets/icon-facebook.png) top left no-repeat;
+	position:relative;
+	top:3px;
+}
+a.icon-twitter:link,
+a.icon-twitter:visited,
+a.icon-twitter:active,
+a.icon-twitter:hover {
+	overflow: hidden;
+	text-indent: 9999px;
+	display: inline-block;
+	width: 18px;
+	position:relative;
+	top:3px;
+	height: 18px;
+	background: url(/sites/all/themes/salesianmissions/cssAssets/icon-twitter.png) top left no-repeat;
+}
+a.icon-youtube:link,
+a.icon-youtube:visited,
+a.icon-youtube:active,
+a.icon-youtube:hover {
+	overflow: hidden;
+	text-indent: 9999px;
+	display: inline-block;
+	width: 18px;
+	position:relative;
+	top:3px;
+	height: 18px;
+	background: url(/sites/all/themes/salesianmissions/cssAssets/icon-youtube.png) top left no-repeat;
+}
+
+#block-block-2 a.icon-facebook,#block-block-2 a.icon-twitter,#block-block-2 a.icon-youtube {
+	position: relative;
+	top: 3px;
+	left: 0;
+}
+
+/* Top Signup button container */
+#header-top-wrapper .grid12-4 {
+	position:relative;
+	width:200px;
+	}
+	#header-top-wrapper .grid12-4 p {
+		text-align:left;
+		}
+	#header-top-wrapper #block-block-2 .inner,
+	#header-top-wrapper #block-block-1 .inner{
+		background:url(/sites/all/themes/salesianmissions/cssAssets/header-border-right.gif) right center no-repeat;
+		margin-right:0;
+		margin-left:0;
+		padding-right:10px;
+		padding-left:10px;
+		}
+		a.btn-signup {
+			background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fbf0e4));
+			background: -moz-linear-gradient(top,  #ffffff,  #fbf0e4);
+			background: linear-gradient(#ffffff, #fbf0e4 70%);
+			-pie-background: linear-gradient(#ffffff, #fbf0e4 70%);
+			-moz-border-radius: 8px;
+			-webkit-border-radius: 8px;
+			border-radius: 8px;
+			-webkit-box-shadow: 1px 1px 2px #6e4a2e;
+			-moz-box-shadow: 1px 1px 2px #6e4a2e;
+			box-shadow: 1px 1px 2px #6e4a2e;
+			color: #86522b;
+			display: block;
+			font-size: 11px;
+			font-weight: bold;
+			height:16px;
+			line-height:1.5em;
+			margin-left:10px;
+			padding: 1px 3px;
+			position:absolute;
+			text-align:center;
+			text-decoration: none;
+			text-transform: uppercase;
+			top:3px;
+			right:10px;
+			width:60px;
+			/*behavior: url(/sites/all/themes/salesianmissions/cssAssets/PIE.htc);*/
+			}
+
+			a.btn-signup:hover {
+				
+				color: #86522b;
+				}
+
+
+
+
+a.btn-a {
+/*	behavior: url(/sites/all/themes/salesianmissions/cssAssets/PIE.htc);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ae1018), to(#7a0508));
+	background: -moz-linear-gradient(top,  #ae1018,  #7a0508);
+	background: linear-gradient(#ae1018, #7a0508 70%);
+    -pie-background: linear-gradient(#ae1018, #7a0508 70%);*/
+    background: #ae1018; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ae1018 0%, #7a0508 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ae1018), color-stop(100%,#7a0508)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ae1018 0%,#7a0508 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ae1018 0%,#7a0508 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ae1018 0%,#7a0508 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ae1018 0%,#7a0508 100%); /* W3C */
+   /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae1018', endColorstr='#7a0508',GradientType=0 ); /* IE6-9 */
+
+	border: 1px solid #ae7d4c;
+	color: #ffffff;
+	display: inline-block;
+	font-weight: bold;
+	font-family: "Myriad Pro", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.75); 
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.75); 
+	box-shadow: 0px 0px 5px rgba(0,0,0,.75); 
+	padding: 20px 30px;
+	text-decoration: none;
+	width: 225px;
+	display: block;
+	margin: 0 auto;
+}
+
+a.btn-a:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(#ae1018), to(#aa0000));
+	background: -moz-linear-gradient(top,  #ae1018,  #aa0000);
+	background: linear-gradient(#ae1018, #aa0000 70%);
+    -pie-background: linear-gradient(#ae1018, #aa0000 70%);
+}
+
+#block-block-3 a.btn-a {
+	position: relative;
+	top: -5px;
+	left: 0;
+}
+
+
+
+#block-block-8 a {
+	color: #FFF6E9;
+}
+
+#block-block-8 {
+	overflow: visible;
+	width:310px;
+	}
+	#block-block-8.block .inner {
+		margin-right:0;
+		}
+
+
+#block-block-8 .inner .content {
+	position: relative;
+	display: block;
+	height: 25px;
+	width: 310px;
+
+	}
+	
+#block-block-8 #header-link-wrapper {
+	position: absolute;
+	display: block;
+	}
+	
+*:first-child+html #block-block-8 #header-link-wrapper{left:0;top:0;}
+
+#block-block-8 #header-press-center,
+#block-block-8 #header-contact-us,
+#block-block-8 #header-sweepstakes {
+	float: left;
+	margin: 0 10px 0 0;
+	padding-right: 10px;
+	background: url("/sites/all/themes/salesianmissions/cssAssets/header-border-right.gif") no-repeat scroll right center transparent;
+}
+#block-block-8 #header-contact-us {
+	background:none;
+	margin-right:0;
+	padding-right:0;
+	}
+
+
+/* float clearing for IE6 */
+* html .clearfix{
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+*+html .clearfix{
+  min-height: 1%;
+}
+
+/* float clearing for everyone else */
+.clearfix:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
+
+/* Sign up for E-Newsletter */
+.grid12-4#block-block-6,
+#country-donate,
+#country-photo-gallery,
+#country-news {
+	background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-enewsletter.png) 0 0 no-repeat;
+	color:#069FDD;
+	font:normal 12px Arial;
+	height:96px;
+	margin:0 0 15px 4px;
+	padding:12px 0 14px 15px;
+	position:relative;
+	width:260px;
+	}
+	.grid12-4#block-block-6 {
+	  background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-enewsletter-stretcher.png) 0 0 repeat-y;
+	  height:auto;
+	  padding:0;
+	  width:275px;
+	  }
+	  .grid12-4#block-block-6 .inner {
+	    background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-enewsletter-top.png) 0 0 no-repeat;
+	    width:275px;
+	    }
+	  .grid12-4#block-block-6 .content {
+	    background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-enewsletter-bottom.png) 0 bottom no-repeat;
+	    width:275px;
+	    }
+	    .grid12-4#block-block-6 .content form {
+	      padding:0 0 14px 15px;
+	      }
+	#country-donate {
+		background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-country-donate.png) 0 0 no-repeat;
+		height:106px;
+		padding-left:20px;
+		width:255px;
+		}
+	#country-photo-gallery {
+		background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-photo-gallery.png) 0 0 no-repeat;
+		height:267px;
+		padding-left:19px;
+		}
+	#country-news {
+		background:none;
+		height:auto;
+		padding-left:19px;
+		}
+	.block#block-block-6 .inner  {
+		margin-left:0;
+		}
+		.grid12-4#block-block-6 h2,
+		#country-donate h2,
+		#country-photo-gallery h2,
+		#country-news h2 {
+			color:#00508F;
+			font:normal 16px/20px Arial,Helvetica,sans-serif;
+			margin-bottom:3px;
+			text-indent:5px;
+			text-transform:none;
+			}
+			.grid12-4#block-block-6 h2 {
+			  padding-top:12px;
+			  padding-left:15px;
+			  }
+			#country-donate h2 {
+				margin-bottom:5px;
+				text-indent:0;
+				}
+			#country-photo-gallery h2 {
+				color:#391E0D;
+				margin-bottom:8px;
+				}
+			#country-photo-gallery img {
+				margin: 0px;
+				}
+			#country-news h2 {
+				color:#323232;
+				font:bold 16px Arial;
+				margin-bottom:10px;
+				text-indent:0;
+				}
+		.grid12-4#block-block-6 strong,
+		#country-donate strong {
+			display:block;
+			font-weight:normal;
+			margin-bottom:5px;
+			text-indent:5px;
+			}
+			.grid12-4#block-block-6 strong {
+				font-size:10px;
+				padding-left:5px;
+				text-indent:0;
+				}
+			#country-donate strong {
+				margin-bottom:8px;
+				text-indent:0;
+				}
+		.grid12-4#block-block-6 input[type="text"] {
+			background:transparent url(/sites/all/themes/salesianmissions/cssAssets/input-enewsletter.png) 0 0 no-repeat;
+			border:0 none;
+			color:#6D6D6D;
+			font-size:11px;
+			height:21px;
+			line-height:1.25em;
+			margin-bottom:6px;
+			padding:3px 0 3px 14px;
+			width:229px;
+			}
+		.grid12-4#block-block-6 table tbody,
+		#pid-enewsletter-signup table tbody,
+		table.salesian-groups tbody {
+			border-top:0;
+			}
+			.grid12-4#block-block-6 table td,
+			#pid-enewsletter-signup table td {
+				padding:0;
+				}
+	  
+		table.salesian-groups {
+			}
+			table.salesian-groups caption {
+				color:#3A1E0E;
+				font-size:13px;
+				margin-bottom:5px;
+				}
+			table.salesian-groups td {
+				color:#716252;
+				font-size:12px;
+				padding:5px;
+				}
+				.salesian-groups tr.dark td {
+				  background-color:#FAECDF;
+				  font:normal 12px Arial;
+				  letter-spacing: normal;
+				  }
+				.salesian-groups tr.light td {
+				  background-color:#FDF9F4;
+				  font:normal 12px Arial;
+				  letter-spacing: normal;
+				  }
+				  
+/* Newsletter Thank You */
+#pid-about-us-enewsletter-thankyou #content-inner-inner h1.title {display:none;}
+#pid-about-us-enewsletter-thankyou #content-inner-inner #content-content h1.title {display:block;}
+/* Buttons */
+input.btn-next,
+.btn-country-donate,
+.btn-donate-now-large {
+	background-color:transparent;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	border:0 none;
+	cursor:pointer;
+	display:block;
+	font-size:0;
+	line-height:0;
+	text-indent:-9999px;
+	}
+	input.btn-next {
+		background-image:url(/sites/all/themes/salesianmissions/cssAssets/btn-next.png);
+		height:22px;
+		width:58px;
+		}
+	.btn-country-donate {
+		background-image:url(/sites/all/themes/salesianmissions/cssAssets/btn-country-donate.png);
+		height:22px;
+		margin-left:0;
+		width:102px;
+		}
+		input.btn-next:hover,
+		.btn-country-donate:hover {
+			background-position:0 -22px;
+			}
+
+#pid-our-work-our-work #our-work-map-h1 {
+	position: absolute;
+	top: 0;
+	left: 450px;
+	}
+
+#pid-our-work-our-work #our-work-map-intro {
+	float: left;
+	width: 400px;
+	margin-right: 50px;
+	}
+	
+#pid-our-work-our-work #our-work-map-missions {
+	background:url(/sites/all/themes/salesianmissions/cssAssets/mission-stretcher.png) 0 0 repeat-y;
+	float: left;
+	width: 449px;
+	font-size: 12px;
+	}
+	#pid-our-work-our-work #our-work-map-missions select {
+		display:block;
+		margin-bottom:5px;
+		}
+	#pid-our-work-our-work #our-work-map-missions-footer {
+		background:url(/sites/all/themes/salesianmissions/cssAssets/mission-footer.png) 0 bottom no-repeat;
+		}
+		#pid-our-work-our-work #our-work-map-missions-header {
+			background:url(/sites/all/themes/salesianmissions/cssAssets/mission-header.png) 0 top no-repeat;
+			padding:19px;
+			width:411px;
+			}
+			#pid-our-work-our-work #our-work-map-missions-header small {
+				display:block;
+				margin-top:3px;
+				}
+				#pid-our-work-our-work #our-work-map-missions-header small em {
+					color:#069FDD;
+					font-size:11px;
+					}
+				
+	#pid-our-work-our-work #our-work-map-missions p {
+		margin-bottom: 5px;
+	}
+	
+.btn-donate-now-large {
+	background-image:url(/sites/all/themes/salesianmissions/cssAssets/btn-donate-now-large.png);
+	height:48px;
+	width:275px;
+	}
+	.btn-donate-now-large:hover {
+		background-position:0 -48px;
+		}
+
+
+/* Hide Stuff Our Work */
+#pid-our-work-our-work #sidebar-first,
+/*#pid-our-work-our-work h1.title,*/
+#pid-our-work-our-work #postscript-top,
+#pid-our-work-locations-pages #sidebar-first,
+#pid-our-work-locations-pages h1.title,
+#pid-our-work-locations-pages .btn-facebook,
+#pid-our-work-locations-pages .btn-twitter {
+	display:none;
+	}
+	#pid-our-work-our-work .grid12-8#main-group,
+	#pid-our-work-our-work .grid12-8#content-group {
+		width:940px;
+		}
+	#pid-our-work-our-work .grid12-8#content-group .row, .nested, .block {
+	  overflow: visible;
+	  }
+	#pid-our-work-locations-pages .grid12-8#main-group {
+		
+		min-height:965px;
+		padding:10px;
+		width:940px;
+		}
+	#pid-our-work-interactive-map .grid12-12#main-group {
+		width:100%;
+		}
+		
+
+/* Country Styles */
+.node-type-salesian-country	{}
+.node-type-salesian-country	#main-group {
+	float:none;
+	padding-right:0;
+	width:100%;
+	}
+	.node-type-salesian-country	#main-group #main-group-inner {
+		padding:0;
+		} 
+		.node-type-salesian-country	#main-group #main-group-inner .block .inner {
+			margin:0;
+			padding:0 30px;
+			width:900px;
+			} 
+		.node-type-salesian-country .left {
+			float:left;
+			width:570px;
+			}
+			.node-type-salesian-country	h1{ 
+				border-bottom:0 none;
+				margin:0;
+				padding-bottom:0;
+				}
+				p.country-specs {
+					border-bottom: 1px solid #F4DBC1;
+					font-size:12px;
+					margin: 0 0 14px;
+					padding-bottom: 7px;
+					}
+					p.country-specs span {
+						margin-right:8px;
+						}
+						p.country-specs strong{
+							margin-right:3px;
+							}
+			.country-image {
+				float:left;
+				margin:0 20px 20px 0;
+				}
+	.node-type-salesian-country .right {
+		float:right;
+		}
+		#country-photo-gallery a{
+			display:block;
+			float:left;
+			height:60px;
+			margin-bottom:10px;
+			margin-right:14px;
+			width:112px;
+			}
+			#country-photo-gallery p,
+			#country-photo-gallery p a {
+				margin:0;
+				}
+				#country-photo-gallery p {
+					bottom:20px;
+					left:19px;
+					position:absolute;
+					}
+					#country-photo-gallery p a {
+						color:#716252;
+						font-size:11px;
+						height:auto;
+						text-decoration:underline;
+						text-indent:5px;
+						width:auto;
+						}
+						#country-photo-gallery p a:hover {
+							text-decoration:none;
+							}
+		#country-news {
+		    clear:both;
+			padding-left:5px;
+			width:264px;
+			}
+			#country-news p,
+			#country-news h3 {
+				font-size:12px;
+				margin-bottom:3px;
+				}
+				#country-news p {
+					color:#323232;
+					margin-bottom:10px;
+					}
+					#country-news p a {
+						color:#005396;
+						display:block;
+						text-decoration:none;
+						}
+			#country-news h3 {
+			  border-bottom: 1px solid #F4D2C4;
+              list-style: none outside none;
+              width: 269px;
+              }
+			#country-news h3 a {
+			  display: block;
+              line-height: 1.25em;
+              padding: 8px 0;
+              text-decoration: none;
+              }
+						
+	#accordion h3 {
+		width:612px;
+		}					
+		#accordion h3.ui-accordion-header {
+			background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-accordian.png) 0 0 no-repeat;
+			}
+		#accordion h3.ui-accordion-header.ui-state-hover {
+			background-position:0 -37px;
+			}	
+			#accordion h3.ui-accordion-header a {
+				background:url(/sites/all/themes/salesianmissions/cssAssets/arrow-brown-left.png) 590px center no-repeat;
+				color:#674329;
+				display:block;
+				font:bold 13px Arial;
+				height:25px;
+				padding:12px 0 0 8px;
+				width:604px;
+				text-decoration:none;
+				}
+				#accordion h3.ui-state-hover a:hover,
+				#accordion h3.ui-state-active a {
+					background:url(/sites/all/themes/salesianmissions/cssAssets/arrow-brown-down.png) 590px center no-repeat;
+					}
+	.ui-accordion-content {
+		padding-bottom:10px;
+		}
+		.ui-accordion-content p {
+			padding:0 10px;
+			}
+		
+			
+/* Custom Page Styles */
+/* E-card Styles */
+
+div.field-ecard-image {
+  float: left;
+  margin-right: 10px;
+  }
+
+.node-type-salesian-ecard div.field-body {
+  float: left;  
+  width: 350px;
+  }
+  
+div.field-body p {
+  font-size: 14px;
+  }
+  
+div.field-ecard-form {
+  clear: both;
+  width: 700px;
+  padding-top: 20px;
+  }
+
+.node-type-salesian-ecard #sidebar-first,
+#pid-our-work-find-your-mission-has-moved #sidebar-first,
+.page-ecard #sidebar-first,
+#pid-ecards #sidebar-first,
+#pid-ecard-thank-you #sidebar-first {
+  display: none;
+  }	
+
+.node-type-salesian-ecard #main-group fieldset>ul.tips,
+.node-type-salesian-ecard #main-group fieldset>p {
+  display:none;
+}
+
+.node-type-salesian-ecard #main-group,
+.page-ecard #main-group .grid12-8,
+#pid-ecard-thank-you #main-group {
+  padding-left: 10px;
+  width: 930px;
+  }
+			
+.node-type-salesian-ecard #main-group .grid12-8,
+page-ecard  #main-group .grid12-8,
+#pid-ecard-thank-you #main-group .grid12-8 {
+  width: 930px;
+  }
+
+#pid-our-work-find-your-mission-has-moved #main-group {
+  padding-left: 10px;
+  width: 930px;
+  }
+  
+#pid-our-work-find-your-mission-has-moved #main-group .grid12-8 {
+  width: 930px;
+}
+  
+#pid-ecards #main-group {
+  float:none;
+  margin:20px auto;
+  padding-left: 0px;
+  width: 940px;
+  }
+  
+#pid-ecards #main-group .view-content {
+  padding-top: 10px;
+  /*width: 565px;
+  margin: 0 auto;*/
+  }
+  #pid-ecards .ecard-image {
+  float:left;
+  text-align: center;
+  }
+  /* if only 2 cards, add margin to second card */
+  #pid-ecards #main-group .view-content .views-row-2 .ecard-image img.imagecache-ecard_index_image{margin-left:10px;height:237px;width:170px;}
+  /* resizing images */
+  #pid-ecards #main-group .view-content .views-row-1 .ecard-image img.imagecache-ecard_index_image {height:237px;width:170px;}
+
+#pid-ecards #content-content .inner p {
+  margin: 0;
+}
+		
+#pid-ecards #content-content .inner {
+  padding-right: 0px;
+}
+		
+#pid-ecards #main-group .grid12-8 {
+  width: 940px;
+  }
+			
+ 
+/* Callout Box */
+.callout {
+	background-color:#FCF0E5;
+	color:#6D6D6D;
+	padding:15px;
+	width:200px;
+	}
+	.callout p {
+		font:10px/14px Arial, Helvetica, sans-serif;
+		margin-bottom:10px;
+		}
+		.callout a {
+			color:#DA634E;
+			text-decoration:none;
+			}
+			
+/* Fix for Header */
+#header-group {width:970px!important;}
+#header-group-inner {height:91px;}
+
+*:first-child+html #header-group-inner {height:99px;}
+
+
+
+/* Forms */
+form.webform-client-form,
+form.newsletter-form,
+form.tell-more {
+	background-color:#FCF0E5;
+	padding:20px;
+	}
+	form.tell-more {overflow:auto;}
+	form.webform-client-form label,
+	form.newsletter-form label,
+	form.tell-more label {
+	  font:normal 13px Arial, Helvetica, sans-serif;
+	  color:#716252;
+	  display:block;
+	  margin-bottom:3px;
+	  }
+	  form.newsletter-form label span {
+		  color:#AA1144;
+		  }
+	 form.webform-client-form input[type="text"],
+	 form.webform-client-form textarea,
+	 form.newsletter-form input[type="text"],
+	 form.tell-more input[type="text"] {
+		 background-color:#fff;
+		 border:1px solid #F1E3CF;
+		 color:#333;
+		 padding:5px;
+		 }
+		 form.newsletter-form input[type="text"],
+		 form.tell-more input[type="text"] {
+			 width:375px;
+			 }
+			 form.tell-more input[type="text"] {
+			 margin-bottom:1em;
+			 }
+	form.webform-client-form .webform-component-email {
+		max-width:inherit;
+		}
+		/* form.webform-client-form .resizable-textarea,
+		 form.webform-client-form textarea
+		 form.webform-client-form .webform-component-textfield,
+		 form.webform-client-form .webform-component-textarea,
+		 form.webform-client-form .webform-component-email{
+			 width:390px;
+			 }*/
+			 
+			 
+    form.tell-more  input[value="submit"] { 
+    background: url(/sites/all/themes/salesianmissions/cssAssets/btn-submit.jpg) no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    display: block;
+    font-size: 0;
+    height: 19px;
+    line-height: 0;
+    text-indent: -9999px;
+    width: 66px;
+    }
+
+#footer {
+	padding-bottom:20px;
+	position:relative;
+	}
+	
+	#footer .block-search {
+		position:absolute;
+		left:0;
+		margin-bottom:0;
+		position:absolute;
+		top:255px;
+		width: 290px;
+		}
+		
+	form#search-block-form .container-inline div {
+		display:block;
+		float:left;
+		margin-top:0;
+		width:205px;
+		}
+
+	form#search-block-form input#edit-search-block-form-1 {
+		background-color:#fff;
+		border:1px solid #F1E3CF;
+		color:#333;
+		padding:5px;
+		width:195px;
+		}
+		
+		form#search-block-form label {
+			font:bold 11px Arial,Helvetica, sans-serif;
+			color:#48423B;
+			display:block;
+			margin-bottom:3px;
+			text-transform: capitalize;
+			}
+			
+	form#search-block-form input.form-submit {
+		float:right;
+		position:relative;
+		top:16px;
+		font-size:10px;
+		}
+
+
+
+			 
+
+ul.country-list {
+  float: left;
+  width: 200px;
+  }
+  
+#map_detail {
+  	background: #fff url(/sites/all/themes/salesianmissions/cssAssets/map_detail_bg.png) top center no-repeat;
+  	text-align: center;
+  	position: relative;
+  	}
+  	
+#map_detail img {
+    display: none;
+    position: absolute;
+    top: 6px;
+    left: 12px;
+  	}
+  	
+#map_detail p {
+  	font-family: "Trebuchet MS", Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #00508F;
+    padding-top: 15px;
+  	}
+  	
+/* News Story Links */
+.pager-current {
+	font-weight:normal!important;
+	}
+ul.pager li.pager-current {
+	background-color:#fff !important;
+	color: #990a10!important;
+	}
+	ul.pager a, ul.pager li.pager-current {
+		border-width:0!important;
+		}
+	ul.pager a:hover, ul.pager a {
+		background-color:transparent!important;
+		color:#005596!important;
+		}
+		ul.pager a:hover {
+			color: #990a10!important;
+			}
+			
+			
+/* Pray with Us Form */
+#pid-ways-help-pray-us #node-205 h2.title,
+/* Hiding the Sanctity stuff */
+#sidebar-first #block-menu-primary-links ul.menu li li.active-trail li.active-trail ul.menu,
+#sidebar-first #block-menu-primary-links ul.menu li a#about-us-menu-item + ul.menu li.last,
+#footer-wrapper ul.menu li a#about-us-menu-item + ul.menu li.last,
+#primary-menu ul.sf-menu li a#about-us-menu-item + ul.menu li.last,
+.skype_pnh_container,
+#sidebar-first #block-menu-primary-links ul.menu li li.active-trail.expanded ul li a#annuities-thank-you{
+	display:none;
+	}
+/* Showing the Charitable stuff */
+#sidebar-first #block-menu-primary-links ul.menu li a#about-us-menu-item + ul.menu li ul.menu li.last,
+#pid-ways-help-charitable-gift-annuity #sidebar-first #block-menu-primary-links ul.menu li li.active-trail li.active-trail ul.menu,
+#pid-ways-help-frequently-asked-questions-about-salesian-annuity-planning  #sidebar-first #block-menu-primary-links ul.menu li li.active-trail li.active-trail ul.menu, 
+#pid-ways-help-instructions-submitting-annuity-application-form  #sidebar-first #block-menu-primary-links ul.menu li li.active-trail li.active-trail ul.menu, 
+#pid-ways-help-additional-information-regarding-annuities  #sidebar-first #block-menu-primary-links ul.menu li li.active-trail li.active-trail ul.menu 
+{
+	display:block;
+	}
+	
+*:first-child+html #pid-about-us-sanctity-salesians .content-inner ol {
+	padding-left:5px;
+	}
+
+/* Corporate Philanthropy Logos */	
+div#corp-phil-logos {
+  text-align: center;
+}
+
+div#corp-phil-logos img {
+  margin: 20px;
+}
+
+div#corp-phil-logos img:last-child {
+  margin-bottom: 35px;
+}
+
+div#donation-sidebar {
+  border:1px solid #F4DBC1;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  width: 250px;
+  float: right;
+}
+
+div#donation-sidebar td {
+  font-size: 13px;
+}
+div#donation-sidebar tbody {
+  border: none;
+}
+
+/* Country Enewsletter Registration */
+.node-type-salesian-country #country-email-register {
+  color:#1e1e1e;
+  font:10px Arial;
+  }
+  .node-type-salesian-country #country-email-register strong {
+    display:block;
+    font-weight:normal;
+    margin-bottom:8px;
+    padding-left: 5px;
+    text-indent: 0;
+    }
+.node-type-salesian-country #country-email-register table tbody {
+  border-top: 0 none;
+  }
+  .node-type-salesian-country #country-email-register table tbody td {
+    padding-left:0;
+    }
+  .node-type-salesian-country #country-email-register input.btn-next {
+    margin-left:5px;
+    }
+    
+.node-type-salesian-country #country-email-register {
+  background:url(/sites/all/themes/salesianmissions/cssAssets/569a54a08c09c851def1cb6bb234761c.png) 0 0 repeat-y;
+  height:auto;
+  margin:0 0 15px 4px;
+  padding:0;
+  position:relative;
+  width:275px;
+  }
+.node-type-salesian-country #country-email-register-header{
+  background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-country-enewsletter-top.png) 0 0 no-repeat;
+  width:275px;
+  }
+.node-type-salesian-country #country-email-register-footer {
+  background:url(/sites/all/themes/salesianmissions/cssAssets/95c51366b38248548bb95fba6f5772ff.png) 0 bottom no-repeat;
+  width:275px;
+  }
+.node-type-salesian-country #country-email-register input[type="text"]  {
+  background:url(/sites/all/themes/salesianmissions/cssAssets/input-country-enewsletter.png) 0 0 no-repeat;
+  border: 0 none;
+  color: #6D6D6D;
+  font-size: 11px;
+  height: 21px;
+  line-height: 1.25em;
+  margin-bottom: 6px;
+  padding: 3px 0 3px 14px;
+  width:261px;
+  }
+.node-type-salesian-country #country-email-register h2 {
+  padding-left: 15px;
+  padding-top: 12px;
+  color: #00508F;
+  font: 16px/20px Arial,Helvetica,sans-serif;
+  margin-bottom: 3px;
+  text-indent: 5px;
+  text-transform: none;
+  }
+.node-type-salesian-country #country-email-register form {
+  padding: 0 0 14px 15px;
+  }
+
+body#pid-be-inspired-joy-and-wonder-christmas  {
+	}
+	
+	
+body#pid-be-inspired-joy-and-wonder-christmas #sidebar-first,
+body#pid-be-inspired-joy-and-wonder-christmas #header-group #primary-menu {
+	display:none;
+	}
+	
+body#pid-be-inspired-joy-and-wonder-christmas #main-group,
+body#pid-be-inspired-joy-and-wonder-christmas #content-group {
+	width:960px;
+	}
+	
+#column-left {
+	float:left;
+	width:575px;
+	}
+	#pink {
+		background-color:#fdf0e4;
+		padding:20px;
+		}
+		#pink h2 {
+			color:#1e1e1e;
+			font:bold 18px Arial;
+			margin-bottom:10px;
+			text-transform:none;
+			}
+	
+body#pid-be-inspired-joy-and-wonder-christmas h1.title {
+	border-bottom:0 none;
+	float:left;
+	font-size:35px;
+	line-height: 1.25em;
+	width:590px;
+	}
+	
+#column-right {
+	float:right;
+	margin-right:20px;
+	position:relative;
+	top:-100px;
+	width:271px;
+	}
+	#column-right ul {
+		color:#323232;
+		font-size:12px;
+		line-height:1.5em;
+		}
+	#column-right h3  {
+		color:#323232;
+		font-size:18px;
+		font-weight:normal;
+		}
+		#column-right h3 em {
+			color:#004182;
+			display:block;
+			font-size:24px;
+			font-weight:bold;
+			}
+			
+
+*:first-child+html #column-right {
+	margin-right:15px;
+	}
+	
+*:first-child+html body#pid-be-inspired-joy-and-wonder-christmas h1.title {
+	float:none;
+	}
+		
+.press-center-contact-class.grid12-4
+{
+/*width:640px!important;*/
+width:290px!important;
+}
+
+/*#pid-news-press-center #view-id-press_release_items-page_1 {
+	background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-press-releases.png) right bottom no-repeat;
+	}*/
+
+#pid-news-press-center .buildmode-full > div.node {margin-bottom:0;}
+
+#view-id-press_release_items-page_1 .view-content	{
+	padding-right:20px;
+	width:400px;
+	min-height: 310px;
+	/* height:263px; */ /* so list doesn't collapse when different info comes up */
+	}
+	
+#view-id-press_release_items-page_1 .view-empty	{
+	padding-right:20px;
+	width:400px;
+	min-height: 310px;
+	/* height:263px; */ /* so list doesn't collapse when different info comes up */
+	}
+	
+*:first-child+html .view-press-release-items .view-content .item-list ul li {line-height:100%;}
+	
+.view-press-release-items .item-list ul.pager {width:400px;}
+
+.search-block #edit-submit-press-release-items {
+	background:url(/sites/all/themes/salesianmissions/cssAssets/btn-blue-search.png) 0 0 no-repeat;
+	border:0 none;
+	text-indent:-9999px;
+	line-height:0;
+	font-size:0;
+	cursor:pointer;
+	width:58px;
+	height:22px;
+	}
+*:first-child+html .search-block #edit-submit-press-release-items {display:block;}
+	
+#pid-news-press-center-2011-12 #postscript-top,
+#pid-news-press-center-2011-11 #postscript-top,
+#pid-news-press-center-2011-10 #postscript-top,
+#pid-news-press-center-2011-09 #postscript-top,
+#pid-news-press-center-2011-08 #postscript-top,
+#pid-news-press-center-2011-07 #postscript-top {
+	margin-top:250px;
+	}
+	
+.search-block input#edit-key {
+border:1px solid #74a6c6;
+width:121px;
+}
+
+.search-block label {
+color:#990a10;
+font:bold 14px Arial;
+}
+.archive-block
+  {
+	position:absolute;
+	right:0;
+	top:595px;
+	width:190px;
+	height:186px;
+	background:url("/sites/all/themes/salesianmissions/cssAssets/bkgrnd-archive.png") 0 center no-repeat;
+	margin-bottom:0;
+	padding-left:10px;
+	}
+	.archive-block ul {
+		list-style-type: none;
+		margin-left:0;
+		}
+		.archive-block ul li a {
+			text-decoration:none;
+			}
+	#content-group.grid12-8 .row #block-views-press_release_items-block_2 .view-content ul li {
+		border-bottom:0 none;
+		}
+		#content-group.grid12-8 .row #block-views-press_release_items-block_2 .view-content ul li a {
+			padding:3px 0;
+			}
+
+.search-block {
+	position:absolute;
+	right:0;
+	top:780px;
+	width:190px;
+	height:135px;
+	background:url("/sites/all/themes/salesianmissions/cssAssets/bkgrnd-search.png") 0 center no-repeat;
+	padding-left:10px;
+	}
+	
+#views-exposed-form-press-release-items-page-1 .views-exposed-form .views-exposed-widget {padding-right:0;}
+
+#views-exposed-form-press-release-items-page-1 .views-exposed-form .views-exposed-widget
+ + .views-exposed-widget {
+ float:right;
+ position:relative;
+ right:5px;
+ top:17px;
+ width:58px;
+ height:22px;
+ }
+ 
+#content-content .search-block .inner {padding-right:0;}
+	
+#pid-news-press-center #block-menu-primary-links ul.menu li ul.menu li ul.menu {display:none;}
+
+#pid-news-press-center #block-block-11.grid12-2 {width:100%;}
+
+
+body#pid-news-press-center-all #sidebar-first #block-menu-primary-links ul.menu li li.active-trail.expanded a,
+body.node-type-salesian-press-release #sidebar-first #block-menu-primary-links ul.menu li li.active-trail.expanded a,
+body#pid-news-news-stories #sidebar-first #block-menu-primary-links ul.menu li li.active-trail.expanded a {
+	background:url("/sites/all/themes/salesianmissions/cssAssets/arrow-red-left.png") 0 center no-repeat;
+	}
+
+#content-region .search-block .form-item input#edit-key.form-text {max-width: inherit;}
+
+#content-content #view-id-press_release_items-page_1 .inner {margin-bottom:16px;padding-right:0;}
+
+body.node-type-salesian-press-release .node-type-salesian_press_release .meta,
+body.node-type-salesian-press-release #sidebar-first #block-menu-primary-links ul.menu li.active-trail ul.menu li.active-trail ul.menu,
+body#pid-news-press-center-all #sidebar-first #block-menu-primary-links ul.menu li.active-trail ul.menu li.active-trail ul.menu,
+body#pid-news-news-stories #sidebar-first #block-menu-primary-links ul.menu li.active-trail ul.menu li.active-trail ul.menu {display:none;}
+
+body#pid-news-news-stories h1.title {margin-bottom:0;}
+
+table.nlp {
+  border: 1px solid #f4dbc1;
+  border-collapse: separate;
+}
+
+table.nlp tbody {
+  border-top: none;
+}
+
+table.nlp th {
+  padding: 10px;
+  border-bottom: none;
+}
+
+table.nlp td {
+  padding: 5px 10px;
+  text-align: center;
+}
+
+table.nlp span.amount {
+  font-weight: bold;
+  color: #005190;
+}
+
+table.nlp thead {
+  background-color: #fbf4ec;
+}
+
+table.nlp hr {
+  margin-bottom: 0;
+}
+
+table.nlp thead td {
+  border: 1px solid #fff;
+}
+
+table.nlp form p {
+  margin: 0px;
+}
+
+table.nlp form img {
+  display: none;
+}
+
+ul.nlp-gifts {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+ul.nlp-gifts li {
+  float: left;
+  font-style: italic;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+ul.nlp-gifts li.odd {
+  clear: left;
+  width: 180px;
+}
+
+ul.nlp-gifts li.even {
+  width: 220px;
+}
+
+ul.nlp-gifts li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+}
+
+ul.nlp-paypal li {
+  margin-bottom: 20px;
+}
+
+.search-results dd {
+	border-bottom:1px solid #F4DBC1;
+	margin-left:0;
+	}
+	
+body#pid-christmas #header-group-inner, body#pid-king-of-glory #header-group-inner{
+	background: none;
+}
+
+body#pid-christmas #logo a, body#pid-king-of-glory #logo a{
+	left: 0px;
+}
+
+body#pid-christmas span#slogan, body#pid-king-of-glory span#slogan{
+	dispaly: none;
+}
+
+body#pid-christmas #site-name-wrapper, body#pid-king-of-glory #site-name-wrapper{
+	background: url('/sites/all/themes/salesianmissions/cssAssets/slogan-1.png') no-repeat;
+	height: 30px;
+	width: 670px;
+	left: 285px;
+	top: 35px;
+}
+
+body.node-type-bi-monthly-landing-page a.give-button {
+	background: url('/sites/all/themes/salesianmissions/cssAssets/giv-button.png') no-repeat 0 0;
+	display: block;
+	width: 306px;
+	height: 49px;
+	text-indent: -9999px;
+}
+
+body#pid-king-of-glory a:hover.give-button {
+	background-position: -306px 0;
+}
+
+
+/*
+ * Landing page CSS
+ * 
+ */
+
+body.node-type-salesian-landing-page .field-landing-page-feature, body.node-type-salesian-landing-page .field-country-image-gallery{
+	display: none;
+}
+
+body.node-type-salesian-landing-page #col-left {
+	float: left;
+	width: 500px;
+}
+
+body.node-type-salesian-landing-page .content-content {
+	float: right;
+	width: 385px;
+	padding: 5px;
+}
+
+body.node-type-salesian-landing-page #photo-gallery {
+	margin-top: 10px;
+}
+body.node-type-salesian-landing-page #photo-gallery img {
+	width: 150px;
+	height: auto;
+	float: left;
+}
+body.node-type-salesian-landing-page #top-image img {
+	width: 500px;
+	height: auto;
+}
+body.node-type-salesian-landing-page #mid-img img {
+	padding: 0 25px;
+	margin: 0;
+}
+
+body.node-type-salesian-landing-page #header-group-inner {
+	background: none;
+	width: 100%;
+}
+
+body.node-type-salesian-landing-page #logo-n {
+	float: left;
+	width: 223px;
+	margin-bottom: 10px;
+}
+body.node-type-salesian-landing-page #logo-n img {
+	margin-bottom: 10px;
+}
+body.node-type-salesian-landing-page #slogan-n {
+	float: left;
+	width: 667px;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.gallery-big img {
+	width: 600px;
+	height: auto;
+}
+
+body.node-type-salesian-landing-page #content-content .inner {
+	padding-right: 0px;
+}
+
+body.node-type-salesian-landing-page #header-group-inner {
+	padding-top: 20px;
+}
+div.field-donation-page-link {
+	display: none;
+}
+
+#header-top-inner #block-block-2.grid12-2 {
+	width: 180px;	
+}
+
+
+
+/* New Home Page */
+#pid-front-page .center-wrapper {
+position:relative;
+left:-3px;
+margin-top:28px;
+}
+#pid-front-page .panel-2col-stacked .panel-col-first {
+width:472px;
+}
+.home-bucket {
+background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-bucket.png) 0 0 no-repeat;
+height:178px;
+padding:22px 0 0 24px;
+width:442px;
+}
+#pid-front-page .home-bucket h2 {
+background-repeat:no-repeat;
+background-position:0 0;
+color:#0b60a0;
+line-height:21px;
+margin-bottom:12px;
+width:auto;
+}
+.home-bucket.heart h2 {
+background-image:url(/sites/all/themes/salesianmissions/cssAssets/icon-heart.jpg);
+padding-left:49px;
+}
+.home-bucket.pray h2 {
+background-image:url(/sites/all/themes/salesianmissions/cssAssets/icon-pray.jpg);
+padding-left:49px;
+}
+.home-bucket.books h2 {
+background-image:url(/sites/all/themes/salesianmissions/cssAssets/icon-book.jpg);
+padding-left:44px;
+}
+.home-bucket.play h2 {
+background-image:url(/sites/all/themes/salesianmissions/cssAssets/icon-play.jpg);
+padding-left:47px;
+}
+.home-bucket.play h2 em.youtube {
+background:url(/sites/all/themes/salesianmissions/cssAssets/icon-youtube.jpg) 0 0 no-repeat;
+display:block;
+float:right;
+height:37px;
+position:relative;
+right:20px;
+top:-44px;
+width:37px;
+}
+.home-bucket.play a {
+display:block;
+float:left;
+margin-right:10px;
+}
+.home-bucket.play a.first,
+.home-bucket.play a.last {
+margin-top:10px;
+}
+.home-bucket.play a.last {
+margin-right:0;
+margin-top:0;
+position:relative;
+top:-14px;
+}
+.home-bucket.globe h2 {
+background-image:url(/sites/all/themes/salesianmissions/cssAssets/icon-globe.jpg);
+padding-left:45px;
+padding-top:10px;
+height:28px;
+}
+.home-bucket h2 span {
+color:#1fa7df;
+display:block;
+font-size:18px;
+}
+.home-bucket .btn-give-monthly,
+.home-bucket .btn-submit-prayer,
+.home-bucket .btn-order-today,
+.home-bucket .btn-view-map {
+background-position:0 0;
+background-repeat:no-repeat;
+display:block;
+text-indent:100%;
+overflow:hidden;
+height:32px;
+margin-top:10px;
+white-space:nowrap;
+}
+.home-bucket .btn-give-monthly {
+background-image:url(/sites/all/themes/salesianmissions/cssAssets/btn-give-monthly.png);
+height:34px;
+width:145px;
+}
+.home-bucket .btn-give-monthly:hover {background-position:0 -34px;}
+.home-bucket .btn-submit-prayer {
+background-image:url(/sites/all/themes/salesianmissions/cssAssets/btn-submit-prayer.png);
+width:222px;
+}
+.home-bucket .btn-submit-prayer:hover {background-position:0 -32px;}
+.home-bucket .btn-order-today {
+background-image:url(/sites/all/themes/salesianmissions/cssAssets/btn-order-today.png);
+width:137px;
+}
+.home-bucket .btn-order-today:hover {background-position:0 -32px;}
+.home-bucket .btn-view-map {
+background-image:url(/sites/all/themes/salesianmissions/cssAssets/btn-view-map.png);
+width:197px;
+}
+.home-bucket .btn-view-map:hover {background-position:0 -32px;}
+.home-bucket.brown {
+background:url(/sites/all/themes/salesianmissions/cssAssets/bkgrnd-bucket-brown.jpg) 0 0 repeat-x;
+min-height:157px;
+padding:22px 24px 0;
+width:892px;
+}
+#pid-front-page .home-bucket.brown h2 {
+font-size:32px;
+}
+body.node-type-bi-monthly-landing-page #header-top-inner #block-block-2.grid12-2 {
+	width: 210px;
+}
+
+#webform-client-form-1678,
+#webform-client-form-16466 {
+	overflow: hidden;
+}
+
+body#pid-inspiration #webform-client-form-1678 .webform-component-textfield,
+body#pid-inspiration #webform-client-form-1678 .webform-component-email,
+body#pid-inspiration #webform-client-form-1678 .form-actions,
+body#pid-inspiration #webform-client-form-16466 .webform-component-textfield,
+body#pid-inspiration #webform-client-form-16466 .webform-component-email,
+body#pid-inspiration #webform-client-form-16466 .form-actions {
+	float: left;
+	margin: 0 5px;
+}
+
+body#pid-inspiration #webform-client-form-1678 .form-item,
+body#pid-inspiration #webform-client-form-16466 .form-item {
+	margin: 0 5px;
+}
+
+body#pid-inspiration #webform-client-form-1678 .form-submit,
+body#pid-inspiration #webform-client-form-16466 .form-submit {
+	margin-top: 20px;
+}
+
+#webform-client-form-1678 .form-radios,
+#webform-client-form-16466 .form-radios {
+    display: table;  
+    width: 100%;
+}
+
+#webform-client-form-1678 .form-radios div,
+#webform-client-form-16466 .form-radios div {
+    display: table-cell; 
+    text-align: center;
+} 
+
+#webform-client-form-1678 form.webform-client-form,
+#webform-client-form-16466 form.webform-client-form {
+	background: #ffffff;
+}
+
+#node-1678 #personal,
+#node-16466 #personal {
+	overflow: hidden;
+	background: #F6EBDF;
+	border: 1px solid #dab189;
+	padding: 10px 3px;
+}
+
+#webform-client-form-1678 p.form-headline,
+#webform-client-form-16466 p.form-headline {
+	font-size: 19px;
+	color: #aa001f;
+	margin-left: 10px;
+}
+#pid-inspiration #header-top #header-top-inner #block-block-2 {
+	width: 208px;
+}
+
+#webform-component-book tbody {
+	border: none;
+}
+
+body#pid-inspiration #header-group-inner {
+	background: none;
+}
+body#pid-catalog #header-group-inner {
+	background: none;
+}
+
+body#pid-inspiration #logo, body#pid-catalog #logo {
+	right: 750px;
+	left: auto;
+}
+/*News page*/
+#pid-news #content-inner.block .inner {
+  margin-right:0;
+  }
+#news-stories-header {
+  font-size:14px;
+  }
+  #news-stories-header p {
+  font-size:13px;
+  }     
+#block-views-news_items-block_1 .news-stories-thumb {
+  float:left;
+  margin-right:20px;
+  }
+body#pid-news #sidebar-first #block-menu-primary-links ul.menu li li.active-trail.expanded a {
+  background:url("/sites/all/themes/salesianmissions/cssAssets/arrow-red-left.png") 0 center no-repeat;
+}	
+
+body#pid-news #sidebar-first #block-menu-primary-links ul.menu li.active-trail ul.menu li.active-trail ul.menu {display:none;}
+
+body#pid-news h1.title {margin-bottom:0;}
+
+#pid-news #content-inner.block .inner {
+  margin-right:0;
+}
+body#pid-news div.inner.content {
+	
+}
+body.node-type-salesian-landing-page #header-top-inner #block-block-2.grid12-2 {
+	width: 210px;
+}
+#pid-christmas-message #header-top #header-top-inner #block-block-2 {
+	width: 208px;
+}
+
+body#pid-christmas-message #header-group-inner {
+	background: none;
+}
+
+body#pid-christmas-message #logo, body#pid-catalog #logo {
+	right: 750px;
+	left: auto;
+}
+
+a.btn-a.blue {
+	behavior: url(/sites/all/themes/salesianmissions/cssAssets/PIE.htc);
+	background: -webkit-gradient(linear, left top, left bottom, from(#0097d7), to(#005c9b));
+	background: -moz-linear-gradient(top,  #0097d7,  #005c9b);
+	background: linear-gradient(#0097d7, #005c9b 70%);
+    -pie-background: linear-gradient(#0097d7, #005c9b 70%);
+	border: 1px solid #005c9b;
+	color: #ffffff;
+	display: inline-block;
+	font:bold 14px/28px "Myriad Pro", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.75); 
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.75); 
+	box-shadow: 0px 0px 5px rgba(0,0,0,.75); 
+	padding: 0 15px;
+	text-decoration: none;
+}
+
+a.btn-a.blue:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(#0097d7), to(#0076b9));
+	background: -moz-linear-gradient(top,  #0097d7,  #0076b9);
+	background: linear-gradient(#0097d7, #0076b9 70%);
+    -pie-background: linear-gradient(#0097d7, #0076b9 70%);
+}
+/*
+ * Styles for contact us section
+ */
+
+div.eNewsletter{
+	background: #1279b1; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzEyNzliMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmOGZkZmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #1279b1 0%, #f8fdfe 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1279b1), color-stop(100%,#f8fdfe)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1279b1 0%,#f8fdfe 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1279b1 0%,#f8fdfe 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1279b1 0%,#f8fdfe 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #1279b1 0%,#f8fdfe 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1279b1', endColorstr='#f8fdfe',GradientType=0 ); /* IE6-8 */
+
+	width: 300px;
+	height: 179px;
+}
+
+div.eNewsletter div.icon, div.help-care div.icon{
+	width: 60px;
+	height: 43px;
+	padding-top: 17px;
+	float:left;
+	text-align: center;
+}
+
+div.eNewsletter div.title, div.help-care div.title{
+	width: 235px;
+	height: 45px;
+	padding-top: 15px;
+	padding-left: 5px;
+	float: left;
+}
+
+div.eNewsletter div.title h2, div.help-care div.title h2{
+	margin: 0 0 3px;
+	padding: 0;
+	font-size: 22px;
+	text-transform: none;
+}
+
+div.eNewsletter div.title h4, div.help-care div.title h4{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	text-transform: none;
+}
+
+div.eNewsletter div.title h2{
+		color: #fec846;
+}
+div.eNewsletter div.title h4{
+		color: #ffffff;
+}
+
+div.help-care div.title h2{
+	color: #0b60a0;
+}
+div.help-care div.title h4{
+	color: #46a9d1;
+}
+div.help-care div.content {
+	clear: both;
+	padding: 18px 12px 0;
+}
+div.help-care div.content p{
+	font-size: 14px;
+	margin: 0 0 12px;
+}
+div.help-care div.content a img.button1{
+	margin-right: 12px !important;
+}
+
+div.help-care div.content p a img{
+	margin: 0 !important;
+}
+
+div.box_eNewsleter, div.box_help-care{
+	float: left;
+}
+div.box_eNewsleter{
+	margin-right: 4px;
+}
+
+
+div.shadow{
+	background: url("/sites/all/themes/salesianmissions/cssAssets/5a6242c6259f4.png");
+	width: 304px;
+	height: 180px;
+
+	padding-left: 4px;
+  padding-top: 4px;
+}
+
+div.help-care{
+	background: #f6ebde; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y2ZWJkZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #f6ebde 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6ebde), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f6ebde 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f6ebde 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f6ebde 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f6ebde 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6ebde', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+
+	width: 300px;
+	height: 179px;
+}
+
+/* Box Featured */
+div.box_featured{
+	float: left;
+}
+div.box_featured > div{
+	background: #f6ebde; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y2ZWJkZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #f6ebde 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6ebde), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f6ebde 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f6ebde 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f6ebde 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f6ebde 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6ebde', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+
+	width: 300px;
+	height: 179px;
+}
+div.box_featured > div > div.icon{
+	width: 60px;
+	height: 43px;
+	padding-top: 17px;
+	float:left;
+	text-align: center;
+}
+div.box_featured > div > div.title{
+	width: 235px;
+	height: 45px;
+	padding-top: 15px;
+	padding-left: 5px;
+	float: left;
+}
+div.box_featured > div > div.title h2 a{
+	margin: 0 0 3px;
+	padding: 0;
+	font-size: 22px;
+	text-transform: none;
+	color: #0b60a0;
+	text-decoration: none;
+	font-weight: bold;
+}
+div.box_featured > div > div.title h4 a{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	text-transform: none;
+	color: #46a9d1;
+	text-decoration: none;
+	font-weight: bold;
+}
+div.box_featured > div > div.content {
+	clear: both;
+	padding: 30px 12px 0;
+}
+div.box_featured > div > div.content p{
+	font-size: 14px;
+	margin: 0 0 12px;
+}
+div.box_featured > div > div.content a img{
+	float: right;
+}
+div.space{
+	clear: both;
+	height: 20px;
+}
+
+#sidebar-first #block-menu-primary-links ul.menu li a#about-us-menu-item + ul.menu li.last{
+	display: block;
+}

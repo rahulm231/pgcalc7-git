@@ -1,0 +1,52 @@
+.mid-content{
+	width:70% !important;
+	float:left;
+}
+
+.right-content{
+	width:30% !important;
+	float:right;
+	margin-top:40px;
+}
+
+.right-content .region-menu{
+	margin-left:25px;
+}
+
+.RadMenu .rmItem a.rmLink {
+    min-width: 10px !important;
+    cursor: pointer;
+}
+
+.bottom-row{
+	width:100%;
+}
+
+.right-link-border{
+	border-right:none !important;
+}
+
+.addthis_counter.addthis_pill_style a.atc_s{
+	font-size:0px;
+}
+
+#masterLogoArea p {
+    margin-top: 30px !important;
+}
+
+form#aspnetForm{
+	height:auto !important;
+}
+
+@media only screen and (max-width: 939px) {
+	
+  .right-content{
+  	display:none;
+  }
+  .mid-content {
+  	width:100% !important;
+  	margin: 0 !important;
+  }
+}
+  
+}

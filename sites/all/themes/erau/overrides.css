@@ -1,0 +1,252 @@
+.pg-wrap h1 {
+  color: #1b1c48;
+}
+
+.pg-wrap h2 {
+  color: #1b1c48;
+}
+
+.pg-wrap h3 {
+  color: #1b1c48;
+}
+
+#block-system-main-menu h2 a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  display: block;
+  background: #4b7eb8;
+  line-height: 50px;
+  margin-bottom: 0;
+  color: #fff;
+  text-transform: uppercase;
+  : ;
+  font-weight: bold;
+  padding-left: 15px;
+  margin-top: 35px;
+}
+
+#main-menu {
+  padding: 0;
+  margin: 0;
+}
+
+#main-menu li {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+  list-style: none;
+}
+
+#main-menu li a {
+  background: #f5f9ff;
+  border-bottom: 2px solid #ffffff;
+  font-weight: bold;
+  display: block;
+  font-size: 15px;
+}
+
+#main-menu li a.active {
+  background: #e1eaf7;
+}
+
+#main-menu ul {
+  font-weight: normal;
+  display: block;
+  font-size: 13px;
+  padding-left: 10px;
+  background: #f5f8ff;
+  border-bottom: 2px solid #ffffff;
+}
+
+#main-menu ul ul {
+  background: #f5f8ff;
+  border-bottom: 2px solid #ffffff;
+  font-weight: normal;
+  display: block;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  color: #ffffff;
+  background: #0c153c;
+  font-size: 1em;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+.pg-wrap table tr td {
+  color: #000;
+  background: #ffffff;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: linear-gradient(#4b7eb8, #ffffff) /* Standard syntax */;
+  : ;
+  -webkit-box-shadow: 0px 0px 4px #666;
+  -moz-box-shadow: 0px 0px 4px #666;
+  box-shadow: 0px 0px 4px #666;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #fff;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  color: #0c153c;
+}
+
+#pgc-contact-block li a:hover {
+  color: #3a6fcd;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #4b7eb8;
+  padding: 10px 20px;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block .title {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#pgc-contact-footer-block li a {
+  color: #fff;
+}
+
+#pgc-contact-footer-block li a:hover {
+  color: #0c153c;
+}
+
+#pgc_resource_block {
+  background: #0c153c;
+  padding: 15px 20px;
+  text-align: center;
+  behavior: url(/PIE.htc);
+}
+
+#pgc_resource_block a {
+  color: #ffffff;
+}
+
+#pgc_resource_block a:hover {
+  color: #3a6fcd;
+}
+
+.pg-gift-details .accordion-switch {
+  border-top: 0px solid #ccc;
+  border-bottom: 0px solid #ccc;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #0c153c;
+  padding: 0 15px;
+  color: #ffffff;
+  display: block;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 10px 0;
+  line-height: 40px;
+  behavior: url(/PIE.htc);
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #4b7eb8;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+  color: #999999;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+  color: #999999;
+  font-family: Arial, helvetica;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a:hover {
+  color: #0c153c;
+}
+
+.pgc-brochure-bg-top {
+      background: #4b7eb8;
+}
+
+.pgc-brochure-header-text {
+      background: #0c153c;
+  color: #fff;
+}
+
+.pgc-brochure-title {
+  color:  #0c153c;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color:  #0c153c;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color:  #4b7eb8;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color:  #4b7eb8;
+}
+
+.pgc-brochure-footer-text {
+  background-color:  #4b7eb8;
+}
+
+.pgc-brochure-footer-title {
+  color:  #0c153c;
+}
+
+span.pgc-brochure-footer-contact {
+  color:  #0c153c;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #ffffff;
+}
+
+.pg-page-btns .pgc-title-btn a {
+  color: #0c153c;
+}
+

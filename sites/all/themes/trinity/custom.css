@@ -1,0 +1,96 @@
+.icon-staff:before, .icon-call:before, .icon-share:before, .icon-print:before, .icon-email:before, .icon-arrow-down:before, .icon-arrow-up:before, .icon-brochure:before, .icon-gift:before {
+    font-family: 'pgcalc-marketing' !important;
+}
+
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0;
+}
+
+@media screen and (max-width: 415px) {
+  .pg-content-inline-blocks{
+  	float: none;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .stl-container{
+    min-width:auto !important;	
+  }
+  
+  .stl-container, .siteContainer-160, .sub-middle-section, .header-mobile{
+  	width:auto !important;
+  }
+  
+  .stl-left{
+  	display:none;
+  }
+  
+  #block-pgc-slideshow-block-pgc-slideshow-block + #block-pgc-misc-blocks-mobilenav {
+    top: -103px;
+  }
+  
+  #block-pgc-misc-blocks-mobilenav .header-mobile{
+  	background-color: #143156;
+  }
+  
+  #block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    left: -5px;
+    top: -8px;
+    position: absolute;
+  }
+  
+  #block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+    content: "\f05c";
+    font-family: "FontAwesome";
+    font-size: 70px;
+    left: -29px;
+    top: -9px;
+    position: absolute;
+  }
+  
+  #block-pgc-misc-blocks-mobilenav .control.close-btn{
+  	border:none;
+  }
+  
+  .s4-search .srch-gosearchimg{
+  	height:25px;
+  	width:auto !important;
+  }
+  
+  .siteHeader-160, .siteHeader-160 *, .navigationPrimary-160{
+  	overflow: hidden;
+  }
+  
+  .navigationTactical-160, .siteFooterColumnPrimary-160, .siteFooterColumnSecondary-160{
+  	float:none;
+  }
+  
+  .siteContainer-160, .siteFooterColumnSecondary-160{
+  	text-align:center;
+  }
+  
+  .navigationGateway-160, .siteLogo-160{
+  	position:relative;
+  	top:0;
+  	left:0;
+  }
+  
+  .sub-middle-section{
+  	margin:10px !important;
+  }
+  
+  .mobile-site-160{
+  	visibility: hidden;
+  }
+  
+  .navigationPrimary-160 li{
+  	display:inline-block;
+  }
+  
+  .navigationFooter-160 li{
+  	margin:0;
+  }
+}

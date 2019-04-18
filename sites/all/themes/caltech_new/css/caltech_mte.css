@@ -1,0 +1,6703 @@
+a.media-colorbox {
+  position: relative;
+  display: block;
+}
+div.file-video .play-button {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/sites/all/themes/caltech_new/cssAssets/57a4ecae26aa8.png) no-repeat center;
+  background-size: 64px 64px;
+}
+div.file-video .play-button:hover {
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/video_play.png);
+}
+div.grid_1 {
+  width: 50px;
+}
+div.grid_2 {
+  width: 100px;
+}
+div.grid_3 {
+  width: 150px;
+}
+div.grid_4 {
+  width: 200px;
+}
+div.grid_5 {
+  width: 250px;
+}
+div.grid_6 {
+  width: 300px;
+}
+div.grid_7 {
+  width: 350px;
+}
+div.grid_8 {
+  width: 400px;
+}
+div.grid_9 {
+  width: 450px;
+}
+div.grid_10 {
+  width: 500px;
+}
+div.grid_11 {
+  width: 550px;
+}
+div.grid_12 {
+  width: 600px;
+}
+div.grid_13 {
+  width: 650px;
+}
+div.grid_14 {
+  width: 700px;
+}
+div.grid_15 {
+  width: 750px;
+}
+div.grid_16 {
+  width: 800px;
+}
+div.grid_17 {
+  width: 850px;
+}
+div.grid_18 {
+  width: 900px;
+}
+div.grid_19 {
+  width: 950px;
+}
+div.grid_20 {
+  width: 1000px;
+}
+div.view-mode-teaser_grid_1 {
+  width: 40px;
+}
+div.view-mode-teaser_grid_2 {
+  width: 90px;
+}
+div.view-mode-teaser_grid_3 {
+  width: 140px;
+}
+div.view-mode-grid_4 {
+  width: 190px;
+}
+div.view-mode-grid_5 {
+  width: 240px;
+}
+div.view-mode-teaser_grid_6 {
+  width: 290px;
+}
+div.view-mode-teaser_grid_7 {
+  width: 340px;
+}
+div.view-mode-teaser_grid_8 {
+  width: 390px;
+}
+div.view-mode-teaser_grid_9 {
+  width: 440px;
+}
+div.view-mode-teaser_grid_10 {
+  width: 490px;
+}
+div.view-mode-teaser_grid_11 {
+  width: 540px;
+}
+div.view-mode-teaser_grid_12 {
+  width: 590px;
+}
+div.view-mode-teaser_grid_13 {
+  width: 640px;
+}
+div.view-mode-teaser_grid_14 {
+  width: 690px;
+}
+div.view-mode-teaser_grid_15 {
+  width: 740px;
+}
+div.view-mode-teaser_grid_16 {
+  width: 790px;
+}
+div.view-mode-teaser_grid_17 {
+  width: 840px;
+}
+div.view-mode-teaser_grid_18 {
+  width: 890px;
+}
+div.view-mode-teaser_grid_19 {
+  width: 940px;
+}
+div.view-mode-teaser_grid_20 {
+  width: 990px;
+}
+div.pane.grid_1 {
+  width: 40px;
+}
+div.pane.grid_2 {
+  width: 90px;
+}
+div.pane.grid_3 {
+  width: 140px;
+}
+div.pane.grid_4 {
+  width: 190px;
+}
+div.pane.grid_5 {
+  width: 240px;
+}
+div.pane.grid_6 {
+  width: 290px;
+}
+div.pane.grid_7 {
+  width: 340px;
+}
+div.pane.grid_8 {
+  width: 390px;
+}
+div.pane.grid_9 {
+  width: 440px;
+}
+div.pane.grid_10 {
+  width: 490px;
+}
+div.pane.grid_11 {
+  width: 540px;
+}
+div.pane.grid_12 {
+  width: 590px;
+}
+div.pane.grid_13 {
+  width: 640px;
+}
+div.pane.grid_14 {
+  width: 690px;
+}
+div.pane.grid_15 {
+  width: 740px;
+}
+div.pane.grid_16 {
+  width: 790px;
+}
+div.pane.grid_17 {
+  width: 840px;
+}
+div.pane.grid_18 {
+  width: 890px;
+}
+div.pane.grid_19 {
+  width: 940px;
+}
+div.pane.grid_20 {
+  width: 990px;
+}
+:not(.node-static-page-grid).bgcolor-white {
+  background-color: white;
+}
+:not(.node-static-page-grid).bgcolor-black {
+  background-color: black;
+}
+:not(.node-static-page-grid).bgcolor-orange {
+  background-color: #ff6e1e;
+}
+:not(.node-static-page-grid).bgcolor-lightgrey {
+  background-color: #ced0d1;
+}
+:not(.node-static-page-grid).bgcolor-midgrey {
+  background-color: #afafaf;
+}
+:not(.node-static-page-grid).bgcolor-darkgrey {
+  background-color: #696b73;
+}
+:not(.node-static-page-grid).bgcolor-verydarkgrey {
+  background-color: #616265;
+}
+:not(.node-static-page-grid).bgcolor-olivegreen {
+  background-color: #a9b734;
+}
+:not(.node-static-page-grid).bgcolor-purple {
+  background-color: #95348d;
+}
+:not(.node-static-page-grid).bgcolor-darkteal {
+  background-color: #005e5c;
+}
+:not(.node-static-page-grid).bgcolor-pink {
+  background-color: #f0628a;
+}
+:not(.node-static-page-grid).bgcolor-maroon {
+  background-color: #731b36;
+}
+:not(.node-static-page-grid).bgcolor-lightblue {
+  background-color: #00b4f0;
+}
+:not(.node-static-page-grid).bgcolor-mintgreen {
+  background-color: #00ad68;
+}
+:not(.node-static-page-grid).bgcolor-yellow {
+  background-color: #eedc00;
+}
+:not(.node-static-page-grid).bgcolor-teal {
+  background-color: #00b2b0;
+}
+:not(.node-static-page-grid).bgcolor-redorange {
+  background-color: #ef4638;
+}
+:not(.node-static-page-grid).bgcolor-darkyellow {
+  background-color: #febe10;
+}
+:not(.node-static-page-grid).bgcolor-darkolive {
+  background-color: #76871a;
+}
+:not(.node-static-page-grid).bgcolor-darkbluegreen {
+  background-color: #00506d;
+}
+.bgcolor-white .welcome {
+  background-color: white;
+}
+.bgcolor-black .welcome {
+  background-color: black;
+}
+.bgcolor-orange .welcome {
+  background-color: #ff6e1e;
+}
+.bgcolor-lightgrey .welcome {
+  background-color: #ced0d1;
+}
+.bgcolor-midgrey .welcome {
+  background-color: #afafaf;
+}
+.bgcolor-darkgrey .welcome {
+  background-color: #696b73;
+}
+.bgcolor-verydarkgrey .welcome {
+  background-color: #616265;
+}
+.bgcolor-olivegreen .welcome {
+  background-color: #a9b734;
+}
+.bgcolor-purple .welcome {
+  background-color: #95348d;
+}
+.bgcolor-darkteal .welcome {
+  background-color: #005e5c;
+}
+.bgcolor-pink .welcome {
+  background-color: #f0628a;
+}
+.bgcolor-maroon .welcome {
+  background-color: #731b36;
+}
+.bgcolor-lightblue .welcome {
+  background-color: #00b4f0;
+}
+.bgcolor-mintgreen .welcome {
+  background-color: #00ad68;
+}
+.bgcolor-yellow .welcome {
+  background-color: #eedc00;
+}
+.bgcolor-teal .welcome {
+  background-color: #00b2b0;
+}
+.bgcolor-redorange .welcome {
+  background-color: #ef4638;
+}
+.bgcolor-darkyellow .welcome {
+  background-color: #febe10;
+}
+.bgcolor-darkolive .welcome {
+  background-color: #76871a;
+}
+.bgcolor-darkbluegreen .welcome {
+  background-color: #00506d;
+}
+@font-face {
+  font-family: 'LTCCaslonLong';
+  src: url('/sites/all/themes/caltech_new/cssAssets/LTCCaslonLongWeb.eot');
+  /* IE9 Compat Modes */
+  src: url('/sites/all/themes/caltech_new/cssAssets/LTCCaslonLongWeb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/sites/all/themes/caltech_new/cssAssets/LTCCaslonLongWeb.woff') format('woff');
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KievitSlabMedium';
+  src: url('/sites/all/themes/caltech_new/cssAssets/KievitSlabWebPro-Medium.eot');
+  src: url('/sites/all/themes/caltech_new/cssAssets/KievitSlabWebPro-Medium.eot?#iefix') format('embedded-opentype'), url('/sites/all/themes/caltech_new/cssAssets/KievitSlabWebPro-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KievitSlabRegular';
+  src: url('/sites/all/themes/caltech_new/cssAssets/KievitSlabWebPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Vaud';
+  src: url('/sites/all/themes/caltech_new/cssAssets/VaudBook-webfont.eot');
+  src: url('/sites/all/themes/caltech_new/cssAssets/VaudBook-webfont.eot?#iefix') format('embedded-opentype'), url('/sites/all/themes/caltech_new/cssAssets/VaudBook-webfont.woff') format('woff'), url('/sites/all/themes/caltech_new/cssAssets/VaudBook-webfont.ttf') format('truetype'), url('/sites/all/themes/caltech_new/cssAssets/VaudBook-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Vaud';
+  src: url('/sites/all/themes/caltech_new/cssAssets/VaudBookIt-webfont.eot');
+  src: url('/sites/all/themes/caltech_new/cssAssets/VaudBookIt-webfont.eot?#iefix') format('embedded-opentype'), url('/sites/all/themes/caltech_new/cssAssets/VaudBookIt-webfont.woff') format('woff'), url('/sites/all/themes/caltech_new/cssAssets/VaudBookIt-webfont.ttf') format('truetype'), url('/sites/all/themes/caltech_new/cssAssets/VaudBookIt-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Vaud';
+  src: url('/sites/all/themes/caltech_new/cssAssets/VaudUltra-webfont.eot');
+  src: url('/sites/all/themes/caltech_new/cssAssets/VaudUltra-webfont.eot?#iefix') format('embedded-opentype'), url('/sites/all/themes/caltech_new/cssAssets/VaudUltra-webfont.woff') format('woff'), url('/sites/all/themes/caltech_new/cssAssets/VaudUltra-webfont.ttf') format('truetype'), url('/sites/all/themes/caltech_new/cssAssets/VaudUltra-webfont.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Vaud';
+  src: url('/sites/all/themes/caltech_new/cssAssets/VaudUltraIt-webfont.eot');
+  src: url('/sites/all/themes/caltech_new/cssAssets/VaudUltraIt-webfont.eot?#iefix') format('embedded-opentype'), url('/sites/all/themes/caltech_new/cssAssets/VaudUltraIt-webfont.woff') format('woff'), url('/sites/all/themes/caltech_new/cssAssets/VaudUltraIt-webfont.ttf') format('truetype'), url('/sites/all/themes/caltech_new/cssAssets/VaudUltraIt-webfont.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'VaudMedium';
+  src: url('/sites/all/themes/caltech_new/cssAssets/VaudExtraBold-webfont.eot');
+  src: url('/sites/all/themes/caltech_new/cssAssets/VaudExtraBold-webfont.eot?#iefix') format('embedded-opentype'), url('/sites/all/themes/caltech_new/cssAssets/VaudExtraBold-webfont.woff') format('woff'), url('/sites/all/themes/caltech_new/cssAssets/VaudExtraBold-webfont.ttf') format('truetype'), url('/sites/all/themes/caltech_new/cssAssets/VaudExtraBold-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VaudMedium';
+  src: url('/sites/all/themes/caltech_new/cssAssets/VaudExtraBoldIt-webfont.eot');
+  src: url('/sites/all/themes/caltech_new/cssAssets/VaudExtraBoldIt-webfont.eot?#iefix') format('embedded-opentype'), url('/sites/all/themes/caltech_new/cssAssets/VaudExtraBoldIt-webfont.woff') format('woff'), url('/sites/all/themes/caltech_new/cssAssets/VaudExtraBoldIt-webfont.ttf') format('truetype'), url('/sites/all/themes/caltech_new/cssAssets/VaudExtraBoldIt-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+html {
+  font-family: Vaud, sans-serif;
+}
+button,
+input,
+select,
+textarea {
+  font-family: Vaud, sans-serif;
+}
+body {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #ff6e1e;
+}
+#toolbar {
+  -webkit-font-smoothing: auto;
+}
+body.toolbar-drawer {
+  padding-top: 65px;
+}
+body.toolbar {
+  padding-top: 30px;
+}
+#skip-link {
+  z-index: 1500;
+  position: fixed;
+}
+#skip-link a {
+  color: white;
+  font-family: VaudMedium, sans-serif;
+}
+tbody {
+  border-top: none;
+}
+#main {
+  position: relative;
+  z-index: 100;
+}
+#main #main_content {
+  margin-bottom: 50px;
+}
+#main #main_content h1 {
+  margin: 0 5px;
+}
+#first-time {
+  display: none;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  z-index: 1000;
+  background-color: #696b73;
+}
+#contact-boilerplate {
+  width: 100%;
+  font-size: 13px;
+  font-family: VaudMedium, sans-serif;
+  color: #EEEEEE;
+}
+#boilerplate-content {
+  height: 50px;
+  position: relative;
+}
+#boilerplate-content #cb-name {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  letter-spacing: 2px;
+}
+#boilerplate-content #cb-address {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+#boilerplate-content #cb-copyright {
+  position: absolute;
+  top: 28px;
+  left: 0;
+}
+#boilerplate-content #cb-legalese {
+  position: absolute;
+  top: 28px;
+  right: 0;
+}
+#boilerplate-content #cb-legalese ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#boilerplate-content #cb-legalese ul li {
+  display: inline;
+  margin-left: 17px;
+}
+#boilerplate-content #cb-legalese ul li a {
+  text-decoration: underline;
+  color: #BBB;
+}
+#boilerplate-content #cb-legalese ul li a:hover {
+  color: #EEEEEE;
+}
+@media (max-width: 1023px) {
+  #boilerplate-content {
+    font-size: .85em;
+  }
+}
+@media (max-width: 767px) {
+  #footer {
+    height: auto;
+    text-align: center;
+  }
+  #footer #boilerplate-content {
+    height: auto;
+  }
+  #footer #boilerplate-content span {
+    display: block;
+    position: static;
+  }
+  #footer #boilerplate-content span:first-child {
+    padding-top: 10px;
+  }
+  #footer #boilerplate-content ul.links {
+    padding-bottom: 10px;
+  }
+  #footer #boilerplate-content ul.links li:first-child {
+    margin: 0;
+  }
+}
+@media (max-width: 450px) {
+  #boilerplate-content {
+    font-size: .8em;
+  }
+}
+/*
+ * Common styles for the grid, news, and tertiary layouts
+ */
+div.field-name-body {
+  color: black;
+}
+div.field-name-body p {
+  font-size: 14px;
+  line-height: 24px;
+}
+div.field-name-body h2 a:hover,
+div.field-name-body h3 a:hover,
+div.field-name-body h4 a:hover,
+div.field-name-body li a:hover,
+div.field-name-body p a:hover {
+  text-decoration: underline;
+}
+div.field-name-body h2 {
+  font-size: 24px;
+  letter-spacing: 0px;
+  margin-top: 2.5em;
+  margin-bottom: -0.3em;
+}
+div.field-name-body h3 {
+  font-size: 19px;
+  letter-spacing: 0px;
+  margin-top: 2em;
+  margin-bottom: -0.3em;
+}
+div.field-name-body h4 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  margin-top: 1em;
+  margin-bottom: -0.3em;
+}
+div.field-name-body li {
+  margin-bottom: 5px;
+}
+div.field-name-field-description {
+  color: black;
+}
+div.field-name-field-description p {
+  font-size: 14px;
+  line-height: 24px;
+}
+div.field-name-field-description h2 a:hover,
+div.field-name-field-description h3 a:hover,
+div.field-name-field-description h4 a:hover,
+div.field-name-field-description li a:hover,
+div.field-name-field-description p a:hover {
+  text-decoration: underline;
+}
+div.field-name-field-description h2 {
+  font-size: 24px;
+  letter-spacing: 0px;
+  margin-top: 2.5em;
+  margin-bottom: -0.3em;
+}
+div.field-name-field-description h3 {
+  font-size: 19px;
+  letter-spacing: 0px;
+  margin-top: 2em;
+  margin-bottom: -0.3em;
+}
+div.field-name-field-description h4 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  margin-top: 1em;
+  margin-bottom: -0.3em;
+}
+div.field-name-field-description li {
+  margin-bottom: 5px;
+}
+div.field-name-field-event-description {
+  color: black;
+}
+div.field-name-field-event-description p {
+  font-size: 14px;
+  line-height: 24px;
+}
+div.field-name-field-event-description h2 a:hover,
+div.field-name-field-event-description h3 a:hover,
+div.field-name-field-event-description h4 a:hover,
+div.field-name-field-event-description li a:hover,
+div.field-name-field-event-description p a:hover {
+  text-decoration: underline;
+}
+div.field-name-field-event-description h2 {
+  font-size: 24px;
+  letter-spacing: 0px;
+  margin-top: 2.5em;
+  margin-bottom: -0.3em;
+}
+div.field-name-field-event-description h3 {
+  font-size: 19px;
+  letter-spacing: 0px;
+  margin-top: 2em;
+  margin-bottom: -0.3em;
+}
+div.field-name-field-event-description h4 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  margin-top: 1em;
+  margin-bottom: -0.3em;
+}
+div.field-name-field-event-description li {
+  margin-bottom: 5px;
+}
+div.field-name-field-expertise {
+  color: black;
+}
+div.field-name-field-expertise p {
+  font-size: 14px;
+  line-height: 24px;
+}
+div.field-name-field-expertise h2 a:hover,
+div.field-name-field-expertise h3 a:hover,
+div.field-name-field-expertise h4 a:hover,
+div.field-name-field-expertise li a:hover,
+div.field-name-field-expertise p a:hover {
+  text-decoration: underline;
+}
+div.field-name-field-expertise h2 {
+  font-size: 24px;
+  letter-spacing: 0px;
+  margin-top: 2.5em;
+  margin-bottom: -0.3em;
+}
+div.field-name-field-expertise h3 {
+  font-size: 19px;
+  letter-spacing: 0px;
+  margin-top: 2em;
+  margin-bottom: -0.3em;
+}
+div.field-name-field-expertise h4 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  margin-top: 1em;
+  margin-bottom: -0.3em;
+}
+div.field-name-field-expertise li {
+  margin-bottom: 5px;
+}
+div.field-name-field-expert-research-topics {
+  color: black;
+}
+div.field-name-field-expert-research-topics p {
+  font-size: 14px;
+  line-height: 24px;
+}
+div.field-name-field-expert-research-topics h2 a:hover,
+div.field-name-field-expert-research-topics h3 a:hover,
+div.field-name-field-expert-research-topics h4 a:hover,
+div.field-name-field-expert-research-topics li a:hover,
+div.field-name-field-expert-research-topics p a:hover {
+  text-decoration: underline;
+}
+div.field-name-field-expert-research-topics h2 {
+  font-size: 24px;
+  letter-spacing: 0px;
+  margin-top: 2.5em;
+  margin-bottom: -0.3em;
+}
+div.field-name-field-expert-research-topics h3 {
+  font-size: 19px;
+  letter-spacing: 0px;
+  margin-top: 2em;
+  margin-bottom: -0.3em;
+}
+div.field-name-field-expert-research-topics h4 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  margin-top: 1em;
+  margin-bottom: -0.3em;
+}
+div.field-name-field-expert-research-topics li {
+  margin-bottom: 5px;
+}
+div.field-name-field-expert-research-topics {
+  margin-bottom: 15px;
+}
+/*
+ * Styles for the tertiary/article layout
+ */
+div.ds-main,
+div.ds-tertiary-footer,
+div.ds-tertiary-header {
+  margin-bottom: 25px;
+}
+div.ds-main {
+  margin-top: 40px;
+}
+div.ds-main div.field-name-field-images,
+div.ds-main div.field-name-field-assets,
+div.node-news div.field-name-field-pr-links,
+div.node-news div.field-name-news-tags,
+div.node-milestone-page div.field-name-field-page-image {
+  width: 450px;
+  float: right;
+  clear: both;
+  margin-right: -250px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+div.node-news div.field-name-field-pr-links,
+div.node-news div.field-name-news-tags {
+  margin-top: -25px;
+}
+div.node-news div.field-name-field-pr-links .field-items,
+div.node-news div.field-name-news-tags .field-items {
+  width: 90%;
+}
+div.field-name-back-to-all-experts {
+  margin: 5px 0;
+}
+div.field-name-back-to-all-experts a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #ff6e1e;
+}
+div.field-name-back-to-all-experts a:hover {
+  text-decoration: underline;
+}
+div.field-name-see-all-news {
+  margin: 5px 0;
+}
+div.field-name-see-all-news a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #ff6e1e;
+}
+div.field-name-see-all-news a:hover {
+  text-decoration: underline;
+}
+div.field-name-see-all-around-campus {
+  margin: 5px 0;
+}
+div.field-name-see-all-around-campus a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #ff6e1e;
+}
+div.field-name-see-all-around-campus a:hover {
+  text-decoration: underline;
+}
+div.field-name-back-to-calendar {
+  margin: 5px 0;
+}
+div.field-name-back-to-calendar a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #ff6e1e;
+}
+div.field-name-back-to-calendar a:hover {
+  text-decoration: underline;
+}
+div.field-name-see-all-campus-announcements {
+  margin: 5px 0;
+}
+div.field-name-see-all-campus-announcements a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #ff6e1e;
+}
+div.field-name-see-all-campus-announcements a:hover {
+  text-decoration: underline;
+}
+div.node-news div.field-name-campus-group-taxonomy-link,
+div.node-campus-announcement div.field-name-campus-group-taxonomy-link {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+div.node-news div.field-name-campus-group-taxonomy-link a:hover,
+div.node-campus-announcement div.field-name-campus-group-taxonomy-link a:hover {
+  text-decoration: underline;
+}
+div.node-news h2,
+div.node-campus-announcement h2 {
+  margin-bottom: 8px;
+}
+div.node-news div.ds-main div.field-name-body p:first-child,
+div.node-campus-announcement div.ds-main div.field-name-body p:first-child {
+  font-size: 17px;
+}
+div.ds-main {
+  position: relative;
+}
+div.ds-main div.field-name-field-subtitle,
+div.ds-main div.field-name-post-date,
+div.ds-main div.field-name-publish-date {
+  font-size: 14px;
+  color: #999999;
+}
+div.ds-main div.field-name-body {
+  margin-top: 20px;
+}
+div.ds-main div.field-name-body a button {
+  padding: 6px;
+  margin: 0 33%;
+  color: white;
+  background: #ff6e1e;
+}
+div.ds-main h2 {
+  font-size: 26px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  line-height: 30px;
+  color: #616265;
+}
+div.ds-main div.media-image {
+  width: 450px;
+  float: left;
+  margin: 0 25px 25px 0;
+}
+div.ds-main div.field-name-written-by {
+  font-style: italic;
+}
+div.ds-main div.field-name-field-caption {
+  font-size: 12px;
+  width: 90%;
+  margin-top: 15px;
+  color: #333333;
+}
+div.ds-main div.field-name-credit-sane-label {
+  font-size: 11px;
+  font-style: italic;
+  color: #636363;
+  width: 90%;
+  margin-top: 5px;
+}
+div.ds-main div.field-name-credit-sane-label div.field-label {
+  font-weight: normal;
+}
+div.ds-tertiary-footer {
+  margin-bottom: 30px;
+}
+div.ds-tertiary-footer div.field {
+  margin-bottom: 20px;
+}
+div.ds-tertiary-footer div.field-label,
+div.ds-tertiary-footer div.field-item {
+  line-height: 22px;
+}
+div.ds-tertiary-footer a:hover {
+  text-decoration: underline;
+}
+div.ds-tertiary-footer div.field-label {
+  width: 120px;
+}
+div.ds-tertiary-footer div.field-name-news-tags span.label {
+  display: block;
+  width: 120px;
+  font-weight: bold;
+  float: left;
+}
+/*
+ * Styles for the grid-based static pages
+ * --------------------------------------
+ */
+div.pane {
+  height: 300px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  margin: 5px;
+}
+div.pane img {
+  height: 300px;
+}
+div.grid_container {
+  margin: 0;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+div.grid_container.pane-3rows {
+  height: 900px;
+}
+div.pane.pane-2rows {
+  height: 600px;
+}
+div.pane.pane-2rows img {
+  height: 600px;
+}
+div.pane.pane-1_5rows {
+  height: 450px;
+}
+div.pane.pane-1_5rows img {
+  height: 450px;
+}
+div.pane.pane-3rows {
+  height: 900px;
+}
+div.pane.pane-3rows img {
+  height: 900px;
+}
+div.light_body div.pane.welcome div.field-name-raw-title h2 {
+  color: white;
+}
+div.light_body div.pane.welcome div.field-name-body div.field-items {
+  color: white;
+}
+div.light_body div.field-name-field-teaser-title-text,
+div.light_body div.field-name-body {
+  color: white;
+}
+.pane.welcome .field {
+  box-sizing: border-box;
+  padding: 0 37px;
+}
+.pane.welcome .field-name-field-page-image {
+  padding: 0;
+}
+.pane.welcome h3 {
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.pane.welcome a button {
+  padding: 6px;
+  margin: 0 33%;
+  color: white;
+  background: #ff6e1e;
+}
+.pane.welcome .field-name-raw-title {
+  margin-top: 40px;
+}
+.pane.welcome .field-name-raw-title h2 {
+  margin: 0;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: black;
+  line-height: 0.9;
+}
+.pane.welcome div.field-name-body {
+  margin-top: 15px;
+  font-size: 16px;
+  font-family: VaudMedium, sans-serif;
+}
+.pane.welcome div.field-name-body p:first-child {
+  margin-top: 0;
+}
+.pane.welcome div.field-name-body.default .field-items {
+  width: 65%;
+  float: right;
+}
+.pane.welcome p.bigger {
+  font-size: 20px;
+  line-height: 26px;
+}
+.pane.welcome.ds-top p {
+  width: 650px;
+}
+.pane.welcome.ds-top-middle p {
+  width: 300px;
+  left: 50px;
+}
+/*
+  Special stylings for specific grid layouts
+  ------------------------------------------
+*/
+div.view-mode-full_content_12 {
+  padding-bottom: 50px;
+}
+div.node-static-page-grid.view-mode-full_content_13 div.pane.welcome div.field-name-raw-title,
+div.node-static-page-grid.view-mode-full_content_14 div.pane.welcome div.field-name-raw-title {
+  padding-left: 100px;
+  margin-top: 40px;
+  height: auto;
+}
+div.node-static-page-grid.view-mode-full_content_13 div.pane.welcome div.field-name-raw-title h2,
+div.node-static-page-grid.view-mode-full_content_14 div.pane.welcome div.field-name-raw-title h2 {
+  color: #616265;
+  font-size: 26px;
+}
+div.node-static-page-grid.view-mode-full_content_13 div.pane.welcome div.field-name-body,
+div.node-static-page-grid.view-mode-full_content_14 div.pane.welcome div.field-name-body {
+  position: static;
+  margin-left: 100px;
+  margin-top: 20px;
+  padding: 0;
+  font-family: Vaud, sans-serif;
+  font-size: 14px;
+}
+div.node-static-page-grid.view-mode-full_content_13 div.pane.welcome div.field-name-body.default div.field-items,
+div.node-static-page-grid.view-mode-full_content_14 div.pane.welcome div.field-name-body.default div.field-items {
+  width: 80%;
+  float: none;
+}
+div.node-static-page-grid.view-mode-full_content_20 div.pane.welcome .field {
+  padding: 0;
+}
+/*
+ This section deals with how teasers from various sources
+ will display in the grid boxes on a Static Page: Grid page
+
+ Teasers have two divs:
+
+   .group-left: which contains the image
+   .group-right: which contains the text
+*/
+/*
+  First deal with embedded sources that can have
+  an image, but don't have one.
+*/
+div.pane .group-left {
+  width: 100%;
+}
+div.pane .group-left div.contextual-links-wrapper {
+  right: 100px;
+}
+div.pane div.no-teaser-image .group-left {
+  height: 300px;
+  background-color: #e97534;
+}
+div.pane.ds-middle-middle div.no-teaser-image .group-left,
+div.pane.ds-bottom-middle div.no-teaser-image .group-left,
+div.pane.ds-top-middle div.no-teaser-image .group-left {
+  background-color: #d27b4b;
+}
+/*
+ This applies our gradient over the image in
+ .group-left so we can read our text in .group-right
+*/
+div.pane .group-right,
+div.headline-item .group-right,
+div.top-news-items .group-right,
+div.pane .gradient {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 150px;
+  width: 100%;
+  text-align: right;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7)));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+div.pane div.node-static-content-chunk div.group-right {
+  top: 0;
+  height: 300px;
+  background: none;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+div.pane div.field-name-title {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.pane div.field-name-title a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.pane div.field-name-title a:hover {
+  text-decoration: underline;
+}
+div.pane div.field-name-teaser-title {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.pane div.field-name-teaser-title a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.pane div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+div.pane div.field-name-field-teaser-title-text {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.pane div.field-name-field-teaser-title-text a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.pane div.field-name-field-teaser-title-text a:hover {
+  text-decoration: underline;
+}
+div.pane div.field-name-field-external-url {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.pane div.field-name-field-external-url a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.pane div.field-name-field-external-url a:hover {
+  text-decoration: underline;
+}
+div.pane div.field-name-taxonomy-page-teaser-link {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.pane div.field-name-taxonomy-page-teaser-link a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.pane div.field-name-taxonomy-page-teaser-link a:hover {
+  text-decoration: underline;
+}
+div.pane div.field-name-node-link {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.pane div.field-name-node-link a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.pane div.field-name-node-link a:hover {
+  text-decoration: underline;
+}
+div.pane div.field-name-field-event-date {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  color: white;
+}
+div.pane div.field-name-field-event-date span {
+  margin: 0 10px 0 25px;
+}
+div.top-news-items .group-right div.field-name-title {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.top-news-items .group-right div.field-name-title a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.top-news-items .group-right div.field-name-title a:hover {
+  text-decoration: underline;
+}
+div.top-news-items .group-right div.field-name-teaser-title {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.top-news-items .group-right div.field-name-teaser-title a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.top-news-items .group-right div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+div.top-news-items .group-right div.field-name-field-teaser-title-text {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.top-news-items .group-right div.field-name-field-teaser-title-text a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.top-news-items .group-right div.field-name-field-teaser-title-text a:hover {
+  text-decoration: underline;
+}
+div.top-news-items .group-right div.field-name-field-external-url {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.top-news-items .group-right div.field-name-field-external-url a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.top-news-items .group-right div.field-name-field-external-url a:hover {
+  text-decoration: underline;
+}
+div.top-news-items .group-right div.field-name-taxonomy-page-teaser-link {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.top-news-items .group-right div.field-name-taxonomy-page-teaser-link a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.top-news-items .group-right div.field-name-taxonomy-page-teaser-link a:hover {
+  text-decoration: underline;
+}
+div.top-news-items .group-right div.field-name-node-link {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.top-news-items .group-right div.field-name-node-link a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.top-news-items .group-right div.field-name-node-link a:hover {
+  text-decoration: underline;
+}
+div.top-news-items .group-right div.field-name-field-event-date {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  color: white;
+}
+div.top-news-items .group-right div.field-name-field-event-date span {
+  margin: 0 10px 0 25px;
+}
+div.headline-item .group-right div.field-name-title {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.headline-item .group-right div.field-name-title a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.headline-item .group-right div.field-name-title a:hover {
+  text-decoration: underline;
+}
+div.headline-item .group-right div.field-name-teaser-title {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.headline-item .group-right div.field-name-teaser-title a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.headline-item .group-right div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+div.headline-item .group-right div.field-name-field-teaser-title-text {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.headline-item .group-right div.field-name-field-teaser-title-text a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.headline-item .group-right div.field-name-field-teaser-title-text a:hover {
+  text-decoration: underline;
+}
+div.headline-item .group-right div.field-name-field-external-url {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.headline-item .group-right div.field-name-field-external-url a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.headline-item .group-right div.field-name-field-external-url a:hover {
+  text-decoration: underline;
+}
+div.headline-item .group-right div.field-name-taxonomy-page-teaser-link {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.headline-item .group-right div.field-name-taxonomy-page-teaser-link a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.headline-item .group-right div.field-name-taxonomy-page-teaser-link a:hover {
+  text-decoration: underline;
+}
+div.headline-item .group-right div.field-name-node-link {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+div.headline-item .group-right div.field-name-node-link a {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: VaudMedium, sans-serif;
+  margin: 0 18px;
+  color: white;
+  float: right;
+  padding-right: 15px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/57a4ecc716d54.png) no-repeat right;
+}
+div.headline-item .group-right div.field-name-node-link a:hover {
+  text-decoration: underline;
+}
+div.headline-item .group-right div.field-name-field-event-date {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  color: white;
+}
+div.headline-item .group-right div.field-name-field-event-date span {
+  margin: 0 10px 0 25px;
+}
+div.ds-2col div.node-external-page div.field-name-title {
+  position: absolute;
+  bottom: 42px;
+  right: 10px;
+}
+div.ds-2col div.node-external-page div.field-name-title h2,
+div.ds-2col div.node-external-page div.field-name-title div.field-item {
+  margin: 0;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+div.ds-2col div.node-external-page div.field-name-title div.field-item {
+  font-size: 9pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 20px 0 10px;
+}
+div.ds-2col div.node-external-page div.field-name-teaser-title {
+  position: absolute;
+  bottom: 42px;
+  right: 10px;
+}
+div.ds-2col div.node-external-page div.field-name-teaser-title h2,
+div.ds-2col div.node-external-page div.field-name-teaser-title div.field-item {
+  margin: 0;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+div.ds-2col div.node-external-page div.field-name-teaser-title div.field-item {
+  font-size: 9pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 20px 0 10px;
+}
+div.ds-2col div.node-external-page div.field-name-field-teaser-title-text {
+  position: absolute;
+  bottom: 42px;
+  right: 10px;
+}
+div.ds-2col div.node-external-page div.field-name-field-teaser-title-text h2,
+div.ds-2col div.node-external-page div.field-name-field-teaser-title-text div.field-item {
+  margin: 0;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+div.ds-2col div.node-external-page div.field-name-field-teaser-title-text div.field-item {
+  font-size: 9pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 20px 0 10px;
+}
+div.ds-1col div.node-color-title-link div.field-name-title {
+  position: absolute;
+  bottom: 42px;
+  right: 10px;
+}
+div.ds-1col div.node-color-title-link div.field-name-title h2,
+div.ds-1col div.node-color-title-link div.field-name-title div.field-item {
+  margin: 0;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+div.ds-1col div.node-color-title-link div.field-name-title div.field-item {
+  font-size: 9pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 20px 0 10px;
+}
+div.ds-1col div.node-color-title-link div.field-name-teaser-title {
+  position: absolute;
+  bottom: 42px;
+  right: 10px;
+}
+div.ds-1col div.node-color-title-link div.field-name-teaser-title h2,
+div.ds-1col div.node-color-title-link div.field-name-teaser-title div.field-item {
+  margin: 0;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+div.ds-1col div.node-color-title-link div.field-name-teaser-title div.field-item {
+  font-size: 9pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 20px 0 10px;
+}
+div.ds-1col div.node-color-title-link div.field-name-field-teaser-title-text {
+  position: absolute;
+  bottom: 42px;
+  right: 10px;
+}
+div.ds-1col div.node-color-title-link div.field-name-field-teaser-title-text h2,
+div.ds-1col div.node-color-title-link div.field-name-field-teaser-title-text div.field-item {
+  margin: 0;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+div.ds-1col div.node-color-title-link div.field-name-field-teaser-title-text div.field-item {
+  font-size: 9pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 20px 0 10px;
+}
+div.ds-2col div.node-static-page-grid div.field-name-title {
+  position: absolute;
+  bottom: 42px;
+  right: 10px;
+}
+div.ds-2col div.node-static-page-grid div.field-name-title h2,
+div.ds-2col div.node-static-page-grid div.field-name-title div.field-item {
+  margin: 0;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+div.ds-2col div.node-static-page-grid div.field-name-title div.field-item {
+  font-size: 9pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 20px 0 10px;
+}
+div.ds-2col div.node-static-page-grid div.field-name-teaser-title {
+  position: absolute;
+  bottom: 42px;
+  right: 10px;
+}
+div.ds-2col div.node-static-page-grid div.field-name-teaser-title h2,
+div.ds-2col div.node-static-page-grid div.field-name-teaser-title div.field-item {
+  margin: 0;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+div.ds-2col div.node-static-page-grid div.field-name-teaser-title div.field-item {
+  font-size: 9pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 20px 0 10px;
+}
+div.ds-2col div.node-static-page-grid div.field-name-field-teaser-title-text {
+  position: absolute;
+  bottom: 42px;
+  right: 10px;
+}
+div.ds-2col div.node-static-page-grid div.field-name-field-teaser-title-text h2,
+div.ds-2col div.node-static-page-grid div.field-name-field-teaser-title-text div.field-item {
+  margin: 0;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+div.ds-2col div.node-static-page-grid div.field-name-field-teaser-title-text div.field-item {
+  font-size: 9pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 20px 0 10px;
+}
+div.ds-2col div.node-static-page-article-like div.field-name-title {
+  position: absolute;
+  bottom: 42px;
+  right: 10px;
+}
+div.ds-2col div.node-static-page-article-like div.field-name-title h2,
+div.ds-2col div.node-static-page-article-like div.field-name-title div.field-item {
+  margin: 0;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+div.ds-2col div.node-static-page-article-like div.field-name-title div.field-item {
+  font-size: 9pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 20px 0 10px;
+}
+div.ds-2col div.node-static-page-article-like div.field-name-teaser-title {
+  position: absolute;
+  bottom: 42px;
+  right: 10px;
+}
+div.ds-2col div.node-static-page-article-like div.field-name-teaser-title h2,
+div.ds-2col div.node-static-page-article-like div.field-name-teaser-title div.field-item {
+  margin: 0;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+div.ds-2col div.node-static-page-article-like div.field-name-teaser-title div.field-item {
+  font-size: 9pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 20px 0 10px;
+}
+div.ds-2col div.node-static-page-article-like div.field-name-field-teaser-title-text {
+  position: absolute;
+  bottom: 42px;
+  right: 10px;
+}
+div.ds-2col div.node-static-page-article-like div.field-name-field-teaser-title-text h2,
+div.ds-2col div.node-static-page-article-like div.field-name-field-teaser-title-text div.field-item {
+  margin: 0;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+div.ds-2col div.node-static-page-article-like div.field-name-field-teaser-title-text div.field-item {
+  font-size: 9pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 20px 0 10px;
+}
+div.pane div.node-static-content-chunk div.field-name-field-teaser-title-text {
+  font-size: 14pt;
+}
+div.pane div.node-static-content-chunk div.field-name-body {
+  padding: 25px 30px;
+  font-size: 9pt;
+}
+div.pane div.node-static-content-chunk div.field-type-text-with-summary {
+  font-size: 9pt;
+}
+div.event_callout {
+  width: 100%;
+  height: 50px;
+  float: left;
+  background: #fafafa;
+  line-height: 50px;
+}
+div.event_callout.inuse {
+  background: #EEE;
+}
+div.event_callout h1 {
+  margin: 15px;
+}
+div.event_callout a,
+div.event_callout a:visited {
+  text-decoration: none;
+  color: black;
+}
+div.event_callout div.field,
+div.event_callout div.field div {
+  display: inline-block;
+  font-size: 16px;
+}
+div.event_callout div.field-name-field-news-event-line-prefix {
+  margin-left: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+div.event_callout div.field-name-field-news-event-line-prefix:after {
+  content: ' \2022 ';
+}
+div.event_callout div.views-field-view-node:before {
+  content: " ... ";
+}
+div.event_callout div.views-field-view-node {
+  text-align: right;
+}
+div.event_callout div.views-field-view-node a,
+div.event_callout div.views-field-view-node a:visited {
+  color: #f17320;
+  text-transform: uppercase;
+}
+div.event_callout div.field-name-news-event-line {
+  margin: 0 5px;
+  font-size: 16px;
+}
+div.event_callout div.field-name-news-event-line h2 {
+  margin: 0;
+  font-size: 16px;
+  display: inline-block;
+}
+div.event_callout div.field-name-news-event-line a {
+  text-decoration: none;
+  color: #f17320;
+}
+div.pane div.node-static-content-chunk,
+div.pane div.node-color-title-link {
+  height: 300px;
+}
+div.pane.pane-1_5rows div.node-static-content-chunk,
+div.pane.pane-1_5rows div.node-color-title-link {
+  height: 450px;
+}
+div.pane.pane-2rows div.node-static-content-chunk,
+div.pane.pane-2rows div.node-color-title-link {
+  height: 600px;
+}
+div.pane.pane-3rows div.node-static-content-chunk,
+div.pane.pane-3rows div.node-color-title-link {
+  height: 900px;
+}
+/* -----------------------------------
+ * Editor tab bar on nodes
+ * ----------------------------------- */
+body.page-user div.workbench-info-block,
+body.page-node div.workbench-info-block {
+  padding-left: 100px;
+  margin-top: 10px;
+}
+body.page-user ul.tabs,
+body.page-node ul.tabs {
+  background-color: #76777b;
+}
+body.page-user ul.tabs,
+body.page-node ul.tabs,
+body.page-user ul.action-links,
+body.page-node ul.action-links {
+  height: 50px;
+  margin: 0;
+  padding: 0 0 0 100px;
+  border-bottom: 1px solid white;
+}
+body.page-user ul.tabs li,
+body.page-node ul.tabs li,
+body.page-user ul.action-links li,
+body.page-node ul.action-links li {
+  margin: 0 1em 0 0;
+  list-style: none;
+  float: left;
+  font-size: 13pt;
+}
+body.page-user ul.tabs li a,
+body.page-node ul.tabs li a,
+body.page-user ul.action-links li a,
+body.page-node ul.action-links li a {
+  padding: 5px 10px;
+  border-radius: 7px;
+  background-color: #65666a;
+  text-decoration: none;
+  line-height: 50px;
+  color: white;
+  border: none;
+  margin: 0;
+}
+body.page-user ul.tabs li a:hover,
+body.page-node ul.tabs li a:hover,
+body.page-user ul.action-links li a:hover,
+body.page-node ul.action-links li a:hover {
+  background-color: #ff6e1e;
+}
+body.page-user ul.tabs li.active a,
+body.page-node ul.tabs li.active a,
+body.page-user ul.action-links li.active a,
+body.page-node ul.action-links li.active a {
+  color: white;
+  font-weight: bold;
+  background-color: #c8c8c8;
+}
+body.page-user ul.action-links,
+body.page-node ul.action-links {
+  background-color: #aaaaad;
+}
+body.page-user ul.action-links li a,
+body.page-node ul.action-links li a {
+  background-color: #909194;
+}
+/* -----------------------------------
+ * Forms
+ * ----------------------------------- */
+body.page-user form#user-login label {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+body.page-user form#user-login div.description {
+  font-style: italic;
+  font-size: 13.5px;
+  color: #afafaf;
+}
+body.page-user form#user-login input[type=text] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-user form#user-login input[type=password] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-user form#user-login input[type=submit] {
+  border: none;
+  background: white;
+  color: #ff6e1e;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+body.page-user form#user-login select {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 3px;
+  border: 1px solid #999;
+}
+body.page-user form#user-pass label {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+body.page-user form#user-pass div.description {
+  font-style: italic;
+  font-size: 13.5px;
+  color: #afafaf;
+}
+body.page-user form#user-pass input[type=text] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-user form#user-pass input[type=password] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-user form#user-pass input[type=submit] {
+  border: none;
+  background: white;
+  color: #ff6e1e;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+body.page-user form#user-pass select {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 3px;
+  border: 1px solid #999;
+}
+body.page-calendar-upcoming div.views-exposed-form label {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+body.page-calendar-upcoming div.views-exposed-form div.description {
+  font-style: italic;
+  font-size: 13.5px;
+  color: #afafaf;
+}
+body.page-calendar-upcoming div.views-exposed-form input[type=text] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-calendar-upcoming div.views-exposed-form input[type=password] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-calendar-upcoming div.views-exposed-form input[type=submit] {
+  border: none;
+  background: white;
+  color: #ff6e1e;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+body.page-calendar-upcoming div.views-exposed-form select {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 3px;
+  border: 1px solid #999;
+}
+body.page-calendar-mobile-upcoming div.views-exposed-form label {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+body.page-calendar-mobile-upcoming div.views-exposed-form div.description {
+  font-style: italic;
+  font-size: 13.5px;
+  color: #afafaf;
+}
+body.page-calendar-mobile-upcoming div.views-exposed-form input[type=text] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-calendar-mobile-upcoming div.views-exposed-form input[type=password] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-calendar-mobile-upcoming div.views-exposed-form input[type=submit] {
+  border: none;
+  background: white;
+  color: #ff6e1e;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+body.page-calendar-mobile-upcoming div.views-exposed-form select {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 3px;
+  border: 1px solid #999;
+}
+body.page-calendar-mobile-academic div.views-exposed-form label {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+body.page-calendar-mobile-academic div.views-exposed-form div.description {
+  font-style: italic;
+  font-size: 13.5px;
+  color: #afafaf;
+}
+body.page-calendar-mobile-academic div.views-exposed-form input[type=text] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-calendar-mobile-academic div.views-exposed-form input[type=password] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-calendar-mobile-academic div.views-exposed-form input[type=submit] {
+  border: none;
+  background: white;
+  color: #ff6e1e;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+body.page-calendar-mobile-academic div.views-exposed-form select {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 3px;
+  border: 1px solid #999;
+}
+body.page-calendar-mobile-public-events div.views-exposed-form label {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+body.page-calendar-mobile-public-events div.views-exposed-form div.description {
+  font-style: italic;
+  font-size: 13.5px;
+  color: #afafaf;
+}
+body.page-calendar-mobile-public-events div.views-exposed-form input[type=text] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-calendar-mobile-public-events div.views-exposed-form input[type=password] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-calendar-mobile-public-events div.views-exposed-form input[type=submit] {
+  border: none;
+  background: white;
+  color: #ff6e1e;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+body.page-calendar-mobile-public-events div.views-exposed-form select {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 3px;
+  border: 1px solid #999;
+}
+body.page-seminars-series-id div.views-exposed-form label {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+body.page-seminars-series-id div.views-exposed-form div.description {
+  font-style: italic;
+  font-size: 13.5px;
+  color: #afafaf;
+}
+body.page-seminars-series-id div.views-exposed-form input[type=text] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-seminars-series-id div.views-exposed-form input[type=password] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-seminars-series-id div.views-exposed-form input[type=submit] {
+  border: none;
+  background: white;
+  color: #ff6e1e;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+body.page-seminars-series-id div.views-exposed-form select {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 3px;
+  border: 1px solid #999;
+}
+body.page-public-events-series-id div.views-exposed-form label {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+body.page-public-events-series-id div.views-exposed-form div.description {
+  font-style: italic;
+  font-size: 13.5px;
+  color: #afafaf;
+}
+body.page-public-events-series-id div.views-exposed-form input[type=text] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-public-events-series-id div.views-exposed-form input[type=password] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-public-events-series-id div.views-exposed-form input[type=submit] {
+  border: none;
+  background: white;
+  color: #ff6e1e;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+body.page-public-events-series-id div.views-exposed-form select {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 3px;
+  border: 1px solid #999;
+}
+body.page-public-events-by-season div.views-exposed-form label {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+body.page-public-events-by-season div.views-exposed-form div.description {
+  font-style: italic;
+  font-size: 13.5px;
+  color: #afafaf;
+}
+body.page-public-events-by-season div.views-exposed-form input[type=text] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-public-events-by-season div.views-exposed-form input[type=password] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-public-events-by-season div.views-exposed-form input[type=submit] {
+  border: none;
+  background: white;
+  color: #ff6e1e;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+body.page-public-events-by-season div.views-exposed-form select {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 3px;
+  border: 1px solid #999;
+}
+body.page-events-by-sponsor div.views-exposed-form label {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+body.page-events-by-sponsor div.views-exposed-form div.description {
+  font-style: italic;
+  font-size: 13.5px;
+  color: #afafaf;
+}
+body.page-events-by-sponsor div.views-exposed-form input[type=text] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-events-by-sponsor div.views-exposed-form input[type=password] {
+  border: 1px solid #afafaf;
+  font-size: 16px;
+}
+body.page-events-by-sponsor div.views-exposed-form input[type=submit] {
+  border: none;
+  background: white;
+  color: #ff6e1e;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+body.page-events-by-sponsor div.views-exposed-form select {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 3px;
+  border: 1px solid #999;
+}
+div#main div#main_content div.pane-headline-news-item h1 {
+  margin: 4px 0 0 0;
+}
+/* -----------------------------------
+ * Listing pages: news, campus announcements, experts
+ * ----------------------------------- */
+div.panels-flexible-region-inside {
+  padding: 0;
+}
+div.panels-flexible-row {
+  padding: 0 !important;
+}
+div.headline-item .group-right div.field-name-teaser-read-more,
+div.top-news-items .group-right div.field-name-teaser-read-more {
+  bottom: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+div.headline-item .group-right div.field-name-teaser-title,
+div.top-news-items .group-right div.field-name-teaser-title {
+  bottom: 57px;
+}
+.taxonomy_link {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+.taxonomy_link a:hover {
+  text-decoration: underline;
+}
+body.page-news-tag-ids p {
+  line-height: 1.4;
+}
+body.page-news-tag-ids #main h2,
+body.page-news-tag-ids #main h4 {
+  font-size: 24px;
+}
+body.page-news-tag-ids #main h2 a,
+body.page-news-tag-ids #main h4 a {
+  color: black;
+  text-decoration: none;
+}
+body.page-news-tag-ids #main h2 a:hover,
+body.page-news-tag-ids #main h4 a:hover {
+  text-decoration: underline;
+}
+body.page-news-tag-ids div.panels-flexible-new {
+  margin-left: 50px;
+}
+body.page-news-tag-ids div.headline-news-item-container {
+  width: 950px;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item {
+  background-color: #f3f1f1;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.group-left {
+  padding: 30px 0 20px 50px;
+  width: 550px;
+  margin-right: 50px;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.group-right {
+  width: 300px;
+  height: 300px;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-title {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 0;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-title a {
+  color: black;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-title a:hover {
+  text-decoration: underline;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-listing-title {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 0;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-listing-title a {
+  color: black;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-listing-title a:hover {
+  text-decoration: underline;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-teaser-title {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 0;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-teaser-title a {
+  color: black;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-post-date,
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-publish-date {
+  font-weight: normal;
+  font-size: 11px;
+  color: #666666;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-campus-group-taxonomy-link {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-campus-group-taxonomy-link a:hover {
+  text-decoration: underline;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-news-writer {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-news-writer a:hover {
+  text-decoration: underline;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-field-description {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-field-description a {
+  color: #ff6e1e;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-field-description p {
+  margin-top: 0;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-field-description p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-field-description p a {
+  color: #ff6e1e;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-field-description p p {
+  margin-top: 0;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-body {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-body a {
+  color: #ff6e1e;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-body p {
+  margin-top: 0;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-body p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-body p a {
+  color: #ff6e1e;
+}
+body.page-news-tag-ids div.headline-news-item-container div.headline-news-item div.field-name-body p p {
+  margin-top: 0;
+}
+body.page-news-tag-ids div.news-listing {
+  width: 650px;
+}
+body.page-news-tag-ids div.news-listing div.feed {
+  display: none;
+  visibility: hidden;
+}
+body.page-news-tag-ids div.news-listing div.views-row-even {
+  background-color: #f3f1f1;
+}
+body.page-news-tag-ids div.news-listing div.field-name-title div.field-item h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+body.page-news-tag-ids div.news-listing div.field-title a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 3px;
+  color: black;
+}
+body.page-news-tag-ids div.news-listing div.field-title a:hover {
+  text-decoration: underline;
+}
+body.page-news-tag-ids div.news-listing div.field-name-listing-title a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 3px;
+  color: black;
+}
+body.page-news-tag-ids div.news-listing div.field-name-listing-title a:hover {
+  text-decoration: underline;
+}
+body.page-news-tag-ids div.news-listing div.field-name-teaser-title a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 3px;
+  color: black;
+}
+body.page-news-tag-ids div.news-listing div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+body.page-news-tag-ids div.news-listing div.group-left {
+  padding-top: 15px;
+  margin-left: 50px;
+  width: 425px;
+  height: 125px;
+  margin-right: 25px;
+  overflow: hidden;
+}
+body.page-news-tag-ids div.news-listing div.group-right {
+  width: 150px;
+  height: 150px;
+}
+body.page-news-tag-ids div.news-listing div.field-name-post-date,
+body.page-news-tag-ids div.news-listing div.field-name-publish-date {
+  font-family: VaudMedium, sans-serif;
+  font-size: 9px;
+  color: #666666;
+  padding-bottom: 5px;
+}
+body.page-news-tag-ids div.news-listing div.field-name-news-writer {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-news-tag-ids div.news-listing div.field-name-news-writer a:hover {
+  text-decoration: underline;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-title {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-title a:hover {
+  text-decoration: underline;
+}
+body.page-news-tag-ids div.news-listing div.field-name-campus-group-taxonomy-link {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-news-tag-ids div.news-listing div.field-name-campus-group-taxonomy-link a:hover {
+  text-decoration: underline;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-title {
+  font-size: 14px;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-summary {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-summary a {
+  color: #ff6e1e;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-summary p {
+  margin-top: 0;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-summary p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-summary p a {
+  color: #ff6e1e;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-summary p p {
+  margin-top: 0;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-description {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-description a {
+  color: #ff6e1e;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-description p {
+  margin-top: 0;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-description p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-description p a {
+  color: #ff6e1e;
+}
+body.page-news-tag-ids div.news-listing div.field-name-field-description p p {
+  margin-top: 0;
+}
+body.page-news-tag-ids div.news-listing div.field-name-body {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-news-tag-ids div.news-listing div.field-name-body a {
+  color: #ff6e1e;
+}
+body.page-news-tag-ids div.news-listing div.field-name-body p {
+  margin-top: 0;
+}
+body.page-news-tag-ids div.news-listing div.field-name-body p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-news-tag-ids div.news-listing div.field-name-body p a {
+  color: #ff6e1e;
+}
+body.page-news-tag-ids div.news-listing div.field-name-body p p {
+  margin-top: 0;
+}
+body.page-around-campus p {
+  line-height: 1.4;
+}
+body.page-around-campus #main h2,
+body.page-around-campus #main h4 {
+  font-size: 24px;
+}
+body.page-around-campus #main h2 a,
+body.page-around-campus #main h4 a {
+  color: black;
+  text-decoration: none;
+}
+body.page-around-campus #main h2 a:hover,
+body.page-around-campus #main h4 a:hover {
+  text-decoration: underline;
+}
+body.page-around-campus div.panels-flexible-new {
+  margin-left: 50px;
+}
+body.page-around-campus div.headline-news-item-container {
+  width: 950px;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item {
+  background-color: #f3f1f1;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.group-left {
+  padding: 30px 0 20px 50px;
+  width: 550px;
+  margin-right: 50px;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.group-right {
+  width: 300px;
+  height: 300px;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-title {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 0;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-title a {
+  color: black;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-title a:hover {
+  text-decoration: underline;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-listing-title {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 0;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-listing-title a {
+  color: black;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-listing-title a:hover {
+  text-decoration: underline;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-teaser-title {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 0;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-teaser-title a {
+  color: black;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-post-date,
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-publish-date {
+  font-weight: normal;
+  font-size: 11px;
+  color: #666666;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-campus-group-taxonomy-link {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-campus-group-taxonomy-link a:hover {
+  text-decoration: underline;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-news-writer {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-news-writer a:hover {
+  text-decoration: underline;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-field-description {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-field-description a {
+  color: #ff6e1e;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-field-description p {
+  margin-top: 0;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-field-description p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-field-description p a {
+  color: #ff6e1e;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-field-description p p {
+  margin-top: 0;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-body {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-body a {
+  color: #ff6e1e;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-body p {
+  margin-top: 0;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-body p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-body p a {
+  color: #ff6e1e;
+}
+body.page-around-campus div.headline-news-item-container div.headline-news-item div.field-name-body p p {
+  margin-top: 0;
+}
+body.page-around-campus div.news-listing {
+  width: 650px;
+}
+body.page-around-campus div.news-listing div.feed {
+  display: none;
+  visibility: hidden;
+}
+body.page-around-campus div.news-listing div.views-row-even {
+  background-color: #f3f1f1;
+}
+body.page-around-campus div.news-listing div.field-name-title div.field-item h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+body.page-around-campus div.news-listing div.field-title a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 3px;
+  color: black;
+}
+body.page-around-campus div.news-listing div.field-title a:hover {
+  text-decoration: underline;
+}
+body.page-around-campus div.news-listing div.field-name-listing-title a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 3px;
+  color: black;
+}
+body.page-around-campus div.news-listing div.field-name-listing-title a:hover {
+  text-decoration: underline;
+}
+body.page-around-campus div.news-listing div.field-name-teaser-title a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 3px;
+  color: black;
+}
+body.page-around-campus div.news-listing div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+body.page-around-campus div.news-listing div.group-left {
+  padding-top: 15px;
+  margin-left: 50px;
+  width: 425px;
+  height: 125px;
+  margin-right: 25px;
+  overflow: hidden;
+}
+body.page-around-campus div.news-listing div.group-right {
+  width: 150px;
+  height: 150px;
+}
+body.page-around-campus div.news-listing div.field-name-post-date,
+body.page-around-campus div.news-listing div.field-name-publish-date {
+  font-family: VaudMedium, sans-serif;
+  font-size: 9px;
+  color: #666666;
+  padding-bottom: 5px;
+}
+body.page-around-campus div.news-listing div.field-name-news-writer {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-around-campus div.news-listing div.field-name-news-writer a:hover {
+  text-decoration: underline;
+}
+body.page-around-campus div.news-listing div.field-name-field-title {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-around-campus div.news-listing div.field-name-field-title a:hover {
+  text-decoration: underline;
+}
+body.page-around-campus div.news-listing div.field-name-campus-group-taxonomy-link {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-around-campus div.news-listing div.field-name-campus-group-taxonomy-link a:hover {
+  text-decoration: underline;
+}
+body.page-around-campus div.news-listing div.field-name-field-title {
+  font-size: 14px;
+}
+body.page-around-campus div.news-listing div.field-name-field-summary {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-around-campus div.news-listing div.field-name-field-summary a {
+  color: #ff6e1e;
+}
+body.page-around-campus div.news-listing div.field-name-field-summary p {
+  margin-top: 0;
+}
+body.page-around-campus div.news-listing div.field-name-field-summary p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-around-campus div.news-listing div.field-name-field-summary p a {
+  color: #ff6e1e;
+}
+body.page-around-campus div.news-listing div.field-name-field-summary p p {
+  margin-top: 0;
+}
+body.page-around-campus div.news-listing div.field-name-field-description {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-around-campus div.news-listing div.field-name-field-description a {
+  color: #ff6e1e;
+}
+body.page-around-campus div.news-listing div.field-name-field-description p {
+  margin-top: 0;
+}
+body.page-around-campus div.news-listing div.field-name-field-description p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-around-campus div.news-listing div.field-name-field-description p a {
+  color: #ff6e1e;
+}
+body.page-around-campus div.news-listing div.field-name-field-description p p {
+  margin-top: 0;
+}
+body.page-around-campus div.news-listing div.field-name-body {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-around-campus div.news-listing div.field-name-body a {
+  color: #ff6e1e;
+}
+body.page-around-campus div.news-listing div.field-name-body p {
+  margin-top: 0;
+}
+body.page-around-campus div.news-listing div.field-name-body p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-around-campus div.news-listing div.field-name-body p a {
+  color: #ff6e1e;
+}
+body.page-around-campus div.news-listing div.field-name-body p p {
+  margin-top: 0;
+}
+body.page-experts p {
+  line-height: 1.4;
+}
+body.page-experts #main h2,
+body.page-experts #main h4 {
+  font-size: 24px;
+}
+body.page-experts #main h2 a,
+body.page-experts #main h4 a {
+  color: black;
+  text-decoration: none;
+}
+body.page-experts #main h2 a:hover,
+body.page-experts #main h4 a:hover {
+  text-decoration: underline;
+}
+body.page-experts div.panels-flexible-new {
+  margin-left: 50px;
+}
+body.page-experts div.headline-news-item-container {
+  width: 950px;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item {
+  background-color: #f3f1f1;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.group-left {
+  padding: 30px 0 20px 50px;
+  width: 550px;
+  margin-right: 50px;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.group-right {
+  width: 300px;
+  height: 300px;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-title {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 0;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-title a {
+  color: black;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-title a:hover {
+  text-decoration: underline;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-listing-title {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 0;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-listing-title a {
+  color: black;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-listing-title a:hover {
+  text-decoration: underline;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-teaser-title {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 0;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-teaser-title a {
+  color: black;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-post-date,
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-publish-date {
+  font-weight: normal;
+  font-size: 11px;
+  color: #666666;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-campus-group-taxonomy-link {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-campus-group-taxonomy-link a:hover {
+  text-decoration: underline;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-news-writer {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-news-writer a:hover {
+  text-decoration: underline;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-field-description {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-field-description a {
+  color: #ff6e1e;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-field-description p {
+  margin-top: 0;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-field-description p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-field-description p a {
+  color: #ff6e1e;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-field-description p p {
+  margin-top: 0;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-body {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-body a {
+  color: #ff6e1e;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-body p {
+  margin-top: 0;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-body p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-body p a {
+  color: #ff6e1e;
+}
+body.page-experts div.headline-news-item-container div.headline-news-item div.field-name-body p p {
+  margin-top: 0;
+}
+body.page-experts div.news-listing {
+  width: 650px;
+}
+body.page-experts div.news-listing div.feed {
+  display: none;
+  visibility: hidden;
+}
+body.page-experts div.news-listing div.views-row-even {
+  background-color: #f3f1f1;
+}
+body.page-experts div.news-listing div.field-name-title div.field-item h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+body.page-experts div.news-listing div.field-title a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 3px;
+  color: black;
+}
+body.page-experts div.news-listing div.field-title a:hover {
+  text-decoration: underline;
+}
+body.page-experts div.news-listing div.field-name-listing-title a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 3px;
+  color: black;
+}
+body.page-experts div.news-listing div.field-name-listing-title a:hover {
+  text-decoration: underline;
+}
+body.page-experts div.news-listing div.field-name-teaser-title a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 3px;
+  color: black;
+}
+body.page-experts div.news-listing div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+body.page-experts div.news-listing div.group-left {
+  padding-top: 15px;
+  margin-left: 50px;
+  width: 425px;
+  height: 125px;
+  margin-right: 25px;
+  overflow: hidden;
+}
+body.page-experts div.news-listing div.group-right {
+  width: 150px;
+  height: 150px;
+}
+body.page-experts div.news-listing div.field-name-post-date,
+body.page-experts div.news-listing div.field-name-publish-date {
+  font-family: VaudMedium, sans-serif;
+  font-size: 9px;
+  color: #666666;
+  padding-bottom: 5px;
+}
+body.page-experts div.news-listing div.field-name-news-writer {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-experts div.news-listing div.field-name-news-writer a:hover {
+  text-decoration: underline;
+}
+body.page-experts div.news-listing div.field-name-field-title {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-experts div.news-listing div.field-name-field-title a:hover {
+  text-decoration: underline;
+}
+body.page-experts div.news-listing div.field-name-campus-group-taxonomy-link {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-experts div.news-listing div.field-name-campus-group-taxonomy-link a:hover {
+  text-decoration: underline;
+}
+body.page-experts div.news-listing div.field-name-field-title {
+  font-size: 14px;
+}
+body.page-experts div.news-listing div.field-name-field-summary {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-experts div.news-listing div.field-name-field-summary a {
+  color: #ff6e1e;
+}
+body.page-experts div.news-listing div.field-name-field-summary p {
+  margin-top: 0;
+}
+body.page-experts div.news-listing div.field-name-field-summary p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-experts div.news-listing div.field-name-field-summary p a {
+  color: #ff6e1e;
+}
+body.page-experts div.news-listing div.field-name-field-summary p p {
+  margin-top: 0;
+}
+body.page-experts div.news-listing div.field-name-field-description {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-experts div.news-listing div.field-name-field-description a {
+  color: #ff6e1e;
+}
+body.page-experts div.news-listing div.field-name-field-description p {
+  margin-top: 0;
+}
+body.page-experts div.news-listing div.field-name-field-description p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-experts div.news-listing div.field-name-field-description p a {
+  color: #ff6e1e;
+}
+body.page-experts div.news-listing div.field-name-field-description p p {
+  margin-top: 0;
+}
+body.page-experts div.news-listing div.field-name-body {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-experts div.news-listing div.field-name-body a {
+  color: #ff6e1e;
+}
+body.page-experts div.news-listing div.field-name-body p {
+  margin-top: 0;
+}
+body.page-experts div.news-listing div.field-name-body p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-experts div.news-listing div.field-name-body p a {
+  color: #ff6e1e;
+}
+body.page-experts div.news-listing div.field-name-body p p {
+  margin-top: 0;
+}
+body.page-news p {
+  line-height: 1.4;
+}
+body.page-news #main h2,
+body.page-news #main h4 {
+  font-size: 24px;
+}
+body.page-news #main h2 a,
+body.page-news #main h4 a {
+  color: black;
+  text-decoration: none;
+}
+body.page-news #main h2 a:hover,
+body.page-news #main h4 a:hover {
+  text-decoration: underline;
+}
+body.page-news div.panels-flexible-new {
+  margin-left: 50px;
+}
+body.page-news div.headline-news-item-container {
+  width: 950px;
+}
+body.page-news div.headline-news-item-container div.headline-news-item {
+  background-color: #f3f1f1;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.group-left {
+  padding: 30px 0 20px 50px;
+  width: 550px;
+  margin-right: 50px;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.group-right {
+  width: 300px;
+  height: 300px;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-title {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 0;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-title a {
+  color: black;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-title a:hover {
+  text-decoration: underline;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-listing-title {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 0;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-listing-title a {
+  color: black;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-listing-title a:hover {
+  text-decoration: underline;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-teaser-title {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 0;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-teaser-title a {
+  color: black;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-post-date,
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-publish-date {
+  font-weight: normal;
+  font-size: 11px;
+  color: #666666;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-campus-group-taxonomy-link {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-campus-group-taxonomy-link a:hover {
+  text-decoration: underline;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-news-writer {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-news-writer a:hover {
+  text-decoration: underline;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-field-description {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-field-description a {
+  color: #ff6e1e;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-field-description p {
+  margin-top: 0;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-field-description p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-field-description p a {
+  color: #ff6e1e;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-field-description p p {
+  margin-top: 0;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-body {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-body a {
+  color: #ff6e1e;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-body p {
+  margin-top: 0;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-body p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-body p a {
+  color: #ff6e1e;
+}
+body.page-news div.headline-news-item-container div.headline-news-item div.field-name-body p p {
+  margin-top: 0;
+}
+body.page-news div.news-listing {
+  width: 650px;
+}
+body.page-news div.news-listing div.feed {
+  display: none;
+  visibility: hidden;
+}
+body.page-news div.news-listing div.views-row-even {
+  background-color: #f3f1f1;
+}
+body.page-news div.news-listing div.field-name-title div.field-item h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+body.page-news div.news-listing div.field-title a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 3px;
+  color: black;
+}
+body.page-news div.news-listing div.field-title a:hover {
+  text-decoration: underline;
+}
+body.page-news div.news-listing div.field-name-listing-title a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 3px;
+  color: black;
+}
+body.page-news div.news-listing div.field-name-listing-title a:hover {
+  text-decoration: underline;
+}
+body.page-news div.news-listing div.field-name-teaser-title a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 3px;
+  color: black;
+}
+body.page-news div.news-listing div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+body.page-news div.news-listing div.group-left {
+  padding-top: 15px;
+  margin-left: 50px;
+  width: 425px;
+  height: 125px;
+  margin-right: 25px;
+  overflow: hidden;
+}
+body.page-news div.news-listing div.group-right {
+  width: 150px;
+  height: 150px;
+}
+body.page-news div.news-listing div.field-name-post-date,
+body.page-news div.news-listing div.field-name-publish-date {
+  font-family: VaudMedium, sans-serif;
+  font-size: 9px;
+  color: #666666;
+  padding-bottom: 5px;
+}
+body.page-news div.news-listing div.field-name-news-writer {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-news div.news-listing div.field-name-news-writer a:hover {
+  text-decoration: underline;
+}
+body.page-news div.news-listing div.field-name-field-title {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-news div.news-listing div.field-name-field-title a:hover {
+  text-decoration: underline;
+}
+body.page-news div.news-listing div.field-name-campus-group-taxonomy-link {
+  font-style: italic;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #333;
+}
+body.page-news div.news-listing div.field-name-campus-group-taxonomy-link a:hover {
+  text-decoration: underline;
+}
+body.page-news div.news-listing div.field-name-field-title {
+  font-size: 14px;
+}
+body.page-news div.news-listing div.field-name-field-summary {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-news div.news-listing div.field-name-field-summary a {
+  color: #ff6e1e;
+}
+body.page-news div.news-listing div.field-name-field-summary p {
+  margin-top: 0;
+}
+body.page-news div.news-listing div.field-name-field-summary p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-news div.news-listing div.field-name-field-summary p a {
+  color: #ff6e1e;
+}
+body.page-news div.news-listing div.field-name-field-summary p p {
+  margin-top: 0;
+}
+body.page-news div.news-listing div.field-name-field-description {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-news div.news-listing div.field-name-field-description a {
+  color: #ff6e1e;
+}
+body.page-news div.news-listing div.field-name-field-description p {
+  margin-top: 0;
+}
+body.page-news div.news-listing div.field-name-field-description p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-news div.news-listing div.field-name-field-description p a {
+  color: #ff6e1e;
+}
+body.page-news div.news-listing div.field-name-field-description p p {
+  margin-top: 0;
+}
+body.page-news div.news-listing div.field-name-body {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-news div.news-listing div.field-name-body a {
+  color: #ff6e1e;
+}
+body.page-news div.news-listing div.field-name-body p {
+  margin-top: 0;
+}
+body.page-news div.news-listing div.field-name-body p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+body.page-news div.news-listing div.field-name-body p a {
+  color: #ff6e1e;
+}
+body.page-news div.news-listing div.field-name-body p p {
+  margin-top: 0;
+}
+/* This is so we don't get the white bar at the bottom of the colorbox */
+#colorbox {
+  padding-bottom: 0 !important;
+}
+/* This is so we don't get scrollbars on colorbox */
+#cboxLoadedContent .file-video {
+  overflow: hidden;
+}
+/* Styles for text input fields with default (grey) text.*/
+.default-text-active {
+  color: #d8d8d8;
+}
+/*
+ Calendar related code here
+*/
+.view-id-events_calendar .view-header {
+  height: 110px;
+}
+.view.view-events-calendar {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 5px;
+}
+.view-id-events_calendar .date-nav-wrapper .pager .date-prev,
+.view-id-events_calendar .date-nav-wrapper .pager .date-next {
+  list-style-type: none;
+}
+.view-id-events_calendar .date-nav-wrapper .date-heading {
+  text-align: left;
+  margin-top: 30px;
+  overflow: hidden;
+  font-size: 72px;
+}
+.view-id-events_calendar .date-nav-wrapper .date-heading .calendar-month {
+  float: left;
+  color: black;
+}
+.view-id-events_calendar .date-nav-wrapper .date-heading .calendar-year {
+  float: right;
+  color: #afafaf;
+}
+.view-id-events_calendar .calendar-calendar div.calendar {
+  font-size: 11px;
+}
+.view-id-events_calendar .calendar-calendar tr {
+  background: transparent;
+}
+.view-id-events_calendar .calendar-calendar td {
+  border-left: none;
+  border-top: none;
+  border-right: 3px white solid;
+  border-bottom: 3px white solid;
+}
+.view-id-events_calendar .calendar-calendar td .inner div.calendar div.calendar-more,
+.view-id-events_calendar .calendar-calendar td .inner div.calendar div.calendar-more a {
+  color: #ff6e1e;
+  text-align: left;
+}
+.view-id-events_calendar .calendar-calendar td .inner div.calendar div,
+.view-id-events_calendar .calendar-calendar td .inner div.calendar div a {
+  padding-bottom: 5px;
+}
+.view-id-events_calendar .calendar-calendar .month-view {
+  margin-top: 20px;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full {
+  font-size: 11px;
+  color: black;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full td.single-day.empty {
+  border-right: 3px white solid;
+  border-bottom: 3px white solid;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full td.date-box.empty {
+  color: black;
+  border-right: 3px white solid;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full td.single-day .calendar-empty,
+.view-id-events_calendar .calendar-calendar .month-view .full td.single-day.empty,
+.view-id-events_calendar .calendar-calendar .month-view .full td.date-box.empty,
+.view-id-events_calendar .calendar-calendar .month-view .full .past {
+  background: #ccc;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full td.date-box.today {
+  border-right: 3px white solid;
+  background: #afafaf;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full tr.odd td.today,
+.view-id-events_calendar .calendar-calendar .month-view .full tr.even td.today,
+.view-id-events_calendar .calendar-calendar .month-view .full tr td.single-day.today {
+  border-right: 3px white solid;
+  border-bottom: 3px white solid;
+  background: #afafaf;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full tr.odd td.today.no-entry,
+.view-id-events_calendar .calendar-calendar .month-view .full tr.even td.today.no-entry,
+.view-id-events_calendar .calendar-calendar .month-view .full tr td.single-day.today.no-entry {
+  border-bottom: none;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full .future {
+  background: #e0e0e0;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full .days {
+  color: #afafaf;
+  font-weight: normal;
+  text-align: left;
+  background: white;
+  border: none;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full .date-box a {
+  color: black;
+  font-weight: normal;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full .single-day .inner .item .monthview,
+.view-id-events_calendar .calendar-calendar .month-view .full .multi-day .single-day .inner .item .monthview {
+  background: transparent;
+  height: auto;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full tr.multi-day,
+.view-id-events_calendar .calendar-calendar .month-view .full tr.multi-day td {
+  height: 14px;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full .multi-day {
+  padding: 0;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full .multi-day .inner {
+  line-height: 14px;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full .multi-day .inner .item .monthview {
+  background-color: #c3c3c3;
+  height: 14px;
+  border: none;
+  border-radius: 0;
+  padding-top: 1px;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full td.multi-day .inner .monthview .continues,
+.view-id-events_calendar .calendar-calendar .month-view .full td.multi-day .inner .monthview .cutoff {
+  border-radius: 0;
+  height: 14px;
+  padding-left: 0;
+  z-index: 1;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full .inner .item {
+  line-height: 11px;
+}
+.view-id-events_calendar .calendar-calendar .month-view .full .inner .item a {
+  color: black;
+  font-weight: normal;
+}
+.view-id-events_calendar .calendar-calendar .day-view .item {
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #afafaf;
+}
+.view-id-events_calendar .calendar-calendar .day-view .item .calendar-event-dates {
+  font-size: 16px;
+  color: black;
+}
+.view-id-events_calendar .calendar-calendar .day-view .item .calendar-event-times {
+  font-size: 13px;
+  color: #666666;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.view-id-events_calendar .calendar-calendar .day-view .item .calendar-event-title {
+  font-size: 32px;
+  line-height: 32px;
+  color: black;
+}
+.view-id-events_calendar .calendar-calendar .day-view .item .calendar-event-title a {
+  text-decoration: none;
+  color: black;
+}
+.view-id-events_calendar .calendar-calendar .day-view .item .calendar-event-summary {
+  font-size: 13.5px;
+  color: #333333;
+}
+.view.view-events-calendar.view-id-events_calendar .view-content .item-list {
+  margin-top: 30px;
+}
+.view.view-events-calendar.view-id-events_calendar .view-content .item-list ul {
+  margin: 0;
+  list-style-type: none;
+}
+.view.view-events-calendar.view-id-events_calendar .view-content .item-list ul li {
+  margin: 30px 0 0 0;
+  border-bottom: 1px solid #afafaf;
+}
+.view.view-events-calendar.view-id-events_calendar .view-content .item-list ul li.views-row-last {
+  border: 0;
+}
+.view.view-events-calendar.view-id-events_calendar .view-content .item-list ul li .calendar-event-dates {
+  font-size: 16px;
+  color: black;
+}
+.view.view-events-calendar.view-id-events_calendar .view-content .item-list ul li .calendar-event-times {
+  font-size: 13px;
+  color: #666666;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.view.view-events-calendar.view-id-events_calendar .view-content .item-list ul li .calendar-event-title {
+  font-size: 32px;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.view.view-events-calendar.view-id-events_calendar .view-content .item-list ul li .calendar-event-title a {
+  text-decoration: none;
+  color: black;
+}
+.node-event {
+  padding-bottom: 50px;
+}
+.node-event.view-mode-full {
+  padding-bottom: 0;
+}
+.node-event .field-name-field-event-sponsor-reference,
+.node-event .field-name-event-contact-info {
+  margin-top: 25px;
+}
+.node-event .field-name-field-event-date {
+  font-size: 16px;
+  color: black;
+}
+.node-event .field-name-event-time .date-display-single {
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.node-event div.field-name-event-ticket-info {
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px solid #999;
+  max-width: 400px;
+}
+.node-event .field-name-location-display {
+  font-size: 12px;
+  color: #666666;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.node-event h2.calendar-event-title {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-event h2.calendar-event-title a {
+  text-decoration: none;
+  color: black;
+}
+.node-event h2.calendar-event-title a:hover {
+  text-decoration: underline;
+}
+.node-event div.field-name-teaser-title {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-event div.field-name-teaser-title a {
+  text-decoration: none;
+  color: black;
+}
+.node-event div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+.node-event div.field-name-raw-title-link h2 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-event div.field-name-raw-title-link h2 a {
+  text-decoration: none;
+  color: black;
+}
+.node-event div.field-name-raw-title-link h2 a:hover {
+  text-decoration: underline;
+}
+.node-event div.field-name-raw-title h2 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-event div.field-name-raw-title h2 a {
+  text-decoration: none;
+  color: black;
+}
+.node-event div.field-name-raw-title h2 a:hover {
+  text-decoration: underline;
+}
+.node-event .field-name-title {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-event .field-name-title a {
+  text-decoration: none;
+  color: black;
+}
+.node-event .field-name-title a:hover {
+  text-decoration: underline;
+}
+.node-event .field-name-seminar-title-display {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+  color: black;
+  margin-bottom: 10px;
+}
+.node-event .field-name-speaker-info {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.node-event span.lecture_series_label:after {
+  content: '  ';
+}
+.node-seminar {
+  padding-bottom: 50px;
+}
+.node-seminar.view-mode-full {
+  padding-bottom: 0;
+}
+.node-seminar .field-name-field-event-sponsor-reference,
+.node-seminar .field-name-event-contact-info {
+  margin-top: 25px;
+}
+.node-seminar .field-name-field-event-date {
+  font-size: 16px;
+  color: black;
+}
+.node-seminar .field-name-event-time .date-display-single {
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.node-seminar div.field-name-event-ticket-info {
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px solid #999;
+  max-width: 400px;
+}
+.node-seminar .field-name-location-display {
+  font-size: 12px;
+  color: #666666;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.node-seminar h2.calendar-event-title {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-seminar h2.calendar-event-title a {
+  text-decoration: none;
+  color: black;
+}
+.node-seminar h2.calendar-event-title a:hover {
+  text-decoration: underline;
+}
+.node-seminar div.field-name-teaser-title {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-seminar div.field-name-teaser-title a {
+  text-decoration: none;
+  color: black;
+}
+.node-seminar div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+.node-seminar div.field-name-raw-title-link h2 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-seminar div.field-name-raw-title-link h2 a {
+  text-decoration: none;
+  color: black;
+}
+.node-seminar div.field-name-raw-title-link h2 a:hover {
+  text-decoration: underline;
+}
+.node-seminar div.field-name-raw-title h2 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-seminar div.field-name-raw-title h2 a {
+  text-decoration: none;
+  color: black;
+}
+.node-seminar div.field-name-raw-title h2 a:hover {
+  text-decoration: underline;
+}
+.node-seminar .field-name-title {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-seminar .field-name-title a {
+  text-decoration: none;
+  color: black;
+}
+.node-seminar .field-name-title a:hover {
+  text-decoration: underline;
+}
+.node-seminar .field-name-seminar-title-display {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+  color: black;
+  margin-bottom: 10px;
+}
+.node-seminar .field-name-speaker-info {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.node-seminar span.lecture_series_label:after {
+  content: '  ';
+}
+.node-public-event {
+  padding-bottom: 50px;
+}
+.node-public-event.view-mode-full {
+  padding-bottom: 0;
+}
+.node-public-event .field-name-field-event-sponsor-reference,
+.node-public-event .field-name-event-contact-info {
+  margin-top: 25px;
+}
+.node-public-event .field-name-field-event-date {
+  font-size: 16px;
+  color: black;
+}
+.node-public-event .field-name-event-time .date-display-single {
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.node-public-event div.field-name-event-ticket-info {
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px solid #999;
+  max-width: 400px;
+}
+.node-public-event .field-name-location-display {
+  font-size: 12px;
+  color: #666666;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.node-public-event h2.calendar-event-title {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-public-event h2.calendar-event-title a {
+  text-decoration: none;
+  color: black;
+}
+.node-public-event h2.calendar-event-title a:hover {
+  text-decoration: underline;
+}
+.node-public-event div.field-name-teaser-title {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-public-event div.field-name-teaser-title a {
+  text-decoration: none;
+  color: black;
+}
+.node-public-event div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+.node-public-event div.field-name-raw-title-link h2 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-public-event div.field-name-raw-title-link h2 a {
+  text-decoration: none;
+  color: black;
+}
+.node-public-event div.field-name-raw-title-link h2 a:hover {
+  text-decoration: underline;
+}
+.node-public-event div.field-name-raw-title h2 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-public-event div.field-name-raw-title h2 a {
+  text-decoration: none;
+  color: black;
+}
+.node-public-event div.field-name-raw-title h2 a:hover {
+  text-decoration: underline;
+}
+.node-public-event .field-name-title {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+.node-public-event .field-name-title a {
+  text-decoration: none;
+  color: black;
+}
+.node-public-event .field-name-title a:hover {
+  text-decoration: underline;
+}
+.node-public-event .field-name-seminar-title-display {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+  color: black;
+  margin-bottom: 10px;
+}
+.node-public-event .field-name-speaker-info {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.node-public-event span.lecture_series_label:after {
+  content: '  ';
+}
+body.node-type-public-event div.field-name-raw-title h2 {
+  margin-bottom: 5px;
+}
+body.page-public-events-series-id div.pane-page-title,
+body.page-public-events-series-id div.view-header {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+body.page-public-events-series-id div.pane-page-title h2,
+body.page-public-events-series-id div.view-header h2 {
+  font-size: 32px;
+}
+body.page-seminars-series-id div.pane-page-title,
+body.page-seminars-series-id div.view-header {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+body.page-seminars-series-id div.pane-page-title h2,
+body.page-seminars-series-id div.view-header h2 {
+  font-size: 32px;
+}
+body.page-calendar-master div.pane-page-title,
+body.page-calendar-master div.view-header {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+body.page-calendar-master div.pane-page-title h2,
+body.page-calendar-master div.view-header h2 {
+  font-size: 32px;
+}
+body.page-calendar-upcoming div.pane-page-title,
+body.page-calendar-upcoming div.view-header {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+body.page-calendar-upcoming div.pane-page-title h2,
+body.page-calendar-upcoming div.view-header h2 {
+  font-size: 32px;
+}
+body.page-calendar-mobile-upcoming div.pane-page-title,
+body.page-calendar-mobile-upcoming div.view-header {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+body.page-calendar-mobile-upcoming div.pane-page-title h2,
+body.page-calendar-mobile-upcoming div.view-header h2 {
+  font-size: 32px;
+}
+body.page-calendar-mobile-public-events div.pane-page-title,
+body.page-calendar-mobile-public-events div.view-header {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+body.page-calendar-mobile-public-events div.pane-page-title h2,
+body.page-calendar-mobile-public-events div.view-header h2 {
+  font-size: 32px;
+}
+body.page-calendar-mobile-academic div.pane-page-title,
+body.page-calendar-mobile-academic div.view-header {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+body.page-calendar-mobile-academic div.pane-page-title h2,
+body.page-calendar-mobile-academic div.view-header h2 {
+  font-size: 32px;
+}
+body.page-public-events-by-season div.pane-page-title,
+body.page-public-events-by-season div.view-header {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+body.page-public-events-by-season div.pane-page-title h2,
+body.page-public-events-by-season div.view-header h2 {
+  font-size: 32px;
+}
+body.page-events-by-sponsor div.pane-page-title,
+body.page-events-by-sponsor div.view-header {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+body.page-events-by-sponsor div.pane-page-title h2,
+body.page-events-by-sponsor div.view-header h2 {
+  font-size: 32px;
+}
+body.page-public-events-series-id div.pane-page-title,
+body.page-seminars-series-id div.pane-page-title,
+body.page-events-by-sponsor div.pane-page-title {
+  margin-bottom: 0;
+}
+body.page-public-events-series-id div.pane-page-title h2,
+body.page-seminars-series-id div.pane-page-title h2,
+body.page-events-by-sponsor div.pane-page-title h2 {
+  margin-bottom: 10px;
+}
+body.page-public-events-series-id div.views-row div.field-name-title,
+body.page-seminars-series-id div.views-row div.field-name-title,
+body.page-events-by-sponsor div.views-row div.field-name-title {
+  margin-bottom: 0;
+}
+body.page-public-events-series-id div.views-row div.field-name-title h2,
+body.page-seminars-series-id div.views-row div.field-name-title h2,
+body.page-events-by-sponsor div.views-row div.field-name-title h2 {
+  margin-bottom: 0;
+}
+body.page-public-events-series-id div.view-events-by-series {
+  position: relative;
+}
+body.page-public-events-series-id div.view-events-by-series div.view-filters {
+  float: right;
+  margin-right: 120px;
+}
+body.page-public-events-series-id div.view-events-by-series div.view-filters .views-submit-button {
+  clear: left;
+}
+body.page-public-events-series-id div.view-events-by-series .view-empty {
+  padding-left: 100px;
+  min-height: 150px;
+}
+body.page-seminars-series-id div.view-events-by-series {
+  position: relative;
+}
+body.page-seminars-series-id div.view-events-by-series div.view-filters {
+  float: right;
+  margin-right: 120px;
+}
+body.page-seminars-series-id div.view-events-by-series div.view-filters .views-submit-button {
+  clear: left;
+}
+body.page-seminars-series-id div.view-events-by-series .view-empty {
+  padding-left: 100px;
+  min-height: 150px;
+}
+body.page-events-by-sponsor div.view-events-and-pes-by-sponsor {
+  position: relative;
+}
+body.page-events-by-sponsor div.view-events-and-pes-by-sponsor div.view-filters {
+  float: right;
+  margin-right: 120px;
+}
+body.page-events-by-sponsor div.view-events-and-pes-by-sponsor div.view-filters .views-submit-button {
+  clear: left;
+}
+body.page-events-by-sponsor div.view-events-and-pes-by-sponsor .view-empty {
+  padding-left: 100px;
+  min-height: 150px;
+}
+body.page-public-events-by-season div.view-public-events-by-season {
+  position: relative;
+}
+body.page-public-events-by-season div.view-public-events-by-season div.view-filters {
+  float: right;
+  margin-right: 120px;
+}
+body.page-public-events-by-season div.view-public-events-by-season div.view-filters .views-submit-button {
+  clear: left;
+}
+body.page-public-events-by-season div.view-public-events-by-season .view-empty {
+  padding-left: 100px;
+  min-height: 150px;
+}
+.view-public-events-lecture-series {
+  padding-bottom: 100px;
+  width: 700px;
+}
+.view-public-events-lecture-series div.view-header {
+  margin-left: 100px;
+  padding-bottom: 25px;
+}
+.view-public-events-lecture-series h2#view-header {
+  font-size: 32px;
+}
+.view-public-events-lecture-series div.ds-1col {
+  margin-left: 100px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.view-public-events-lecture-series div.views-row-odd {
+  background-color: #f3f1f1;
+}
+.view-public-events-lecture-series div.field-item h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 15px 0;
+}
+.view-public-events-lecture-series div.field-item h2 a {
+  color: #ff6e1e;
+}
+.view-public-events-lecture-series div.field-item h2 a:hover {
+  text-decoration: underline;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop {
+  margin-left: 0;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop div.views-row {
+  overflow: hidden;
+  padding-left: 100px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 570px;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop div.views-row div.field-name-teaser-title {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 0;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop div.views-row div.field-name-teaser-title a {
+  text-decoration: none;
+  color: black;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop div.views-row div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop div.views-row div.field-name-title h2 {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 0;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop div.views-row div.field-name-title h2 a {
+  text-decoration: none;
+  color: black;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop div.views-row div.field-name-title h2 a:hover {
+  text-decoration: underline;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop div.views-row .calendar_series_title {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 0;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop div.views-row .calendar_series_title a {
+  text-decoration: none;
+  color: black;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop div.views-row .calendar_series_title a:hover {
+  text-decoration: underline;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop div.views-row div.field-name-title {
+  margin-top: 0;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop div.views-row div.field-name-lecture-series-listing-link {
+  margin-top: -15px;
+}
+div.view-events-calendar.view-display-id-upcoming_desktop div.views-row-odd {
+  background-color: #f3f1f1;
+}
+div.view-events-and-pes-by-sponsor {
+  margin-left: 0;
+}
+div.view-events-and-pes-by-sponsor div.views-row {
+  overflow: hidden;
+  padding-left: 100px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 570px;
+}
+div.view-events-and-pes-by-sponsor div.views-row div.field-name-teaser-title {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 0;
+}
+div.view-events-and-pes-by-sponsor div.views-row div.field-name-teaser-title a {
+  text-decoration: none;
+  color: black;
+}
+div.view-events-and-pes-by-sponsor div.views-row div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+div.view-events-and-pes-by-sponsor div.views-row div.field-name-title h2 {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 0;
+}
+div.view-events-and-pes-by-sponsor div.views-row div.field-name-title h2 a {
+  text-decoration: none;
+  color: black;
+}
+div.view-events-and-pes-by-sponsor div.views-row div.field-name-title h2 a:hover {
+  text-decoration: underline;
+}
+div.view-events-and-pes-by-sponsor div.views-row .calendar_series_title {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 0;
+}
+div.view-events-and-pes-by-sponsor div.views-row .calendar_series_title a {
+  text-decoration: none;
+  color: black;
+}
+div.view-events-and-pes-by-sponsor div.views-row .calendar_series_title a:hover {
+  text-decoration: underline;
+}
+div.view-events-and-pes-by-sponsor div.views-row div.field-name-title {
+  margin-top: 0;
+}
+div.view-events-and-pes-by-sponsor div.views-row div.field-name-lecture-series-listing-link {
+  margin-top: -15px;
+}
+div.view-events-and-pes-by-sponsor div.views-row-odd {
+  background-color: #f3f1f1;
+}
+div.view-events-by-series {
+  margin-left: 0;
+}
+div.view-events-by-series div.views-row {
+  overflow: hidden;
+  padding-left: 100px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 570px;
+}
+div.view-events-by-series div.views-row div.field-name-teaser-title {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 0;
+}
+div.view-events-by-series div.views-row div.field-name-teaser-title a {
+  text-decoration: none;
+  color: black;
+}
+div.view-events-by-series div.views-row div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+div.view-events-by-series div.views-row div.field-name-title h2 {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 0;
+}
+div.view-events-by-series div.views-row div.field-name-title h2 a {
+  text-decoration: none;
+  color: black;
+}
+div.view-events-by-series div.views-row div.field-name-title h2 a:hover {
+  text-decoration: underline;
+}
+div.view-events-by-series div.views-row .calendar_series_title {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 0;
+}
+div.view-events-by-series div.views-row .calendar_series_title a {
+  text-decoration: none;
+  color: black;
+}
+div.view-events-by-series div.views-row .calendar_series_title a:hover {
+  text-decoration: underline;
+}
+div.view-events-by-series div.views-row div.field-name-title {
+  margin-top: 0;
+}
+div.view-events-by-series div.views-row div.field-name-lecture-series-listing-link {
+  margin-top: -15px;
+}
+div.view-events-by-series div.views-row-odd {
+  background-color: #f3f1f1;
+}
+div.view-public-events-by-season {
+  margin-left: 0;
+}
+div.view-public-events-by-season div.views-row {
+  overflow: hidden;
+  padding-left: 100px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 570px;
+}
+div.view-public-events-by-season div.views-row div.field-name-teaser-title {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 0;
+}
+div.view-public-events-by-season div.views-row div.field-name-teaser-title a {
+  text-decoration: none;
+  color: black;
+}
+div.view-public-events-by-season div.views-row div.field-name-teaser-title a:hover {
+  text-decoration: underline;
+}
+div.view-public-events-by-season div.views-row div.field-name-title h2 {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 0;
+}
+div.view-public-events-by-season div.views-row div.field-name-title h2 a {
+  text-decoration: none;
+  color: black;
+}
+div.view-public-events-by-season div.views-row div.field-name-title h2 a:hover {
+  text-decoration: underline;
+}
+div.view-public-events-by-season div.views-row .calendar_series_title {
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  color: black;
+  margin-bottom: 0;
+}
+div.view-public-events-by-season div.views-row .calendar_series_title a {
+  text-decoration: none;
+  color: black;
+}
+div.view-public-events-by-season div.views-row .calendar_series_title a:hover {
+  text-decoration: underline;
+}
+div.view-public-events-by-season div.views-row div.field-name-title {
+  margin-top: 0;
+}
+div.view-public-events-by-season div.views-row div.field-name-lecture-series-listing-link {
+  margin-top: -15px;
+}
+div.view-public-events-by-season div.views-row-odd {
+  background-color: #f3f1f1;
+}
+div#ui-datepicker-div {
+  z-index: 1050 !important;
+}
+a.feed-icon {
+  display: none;
+}
+div.view-news-spotlight-image-only div.field-name-teaser-title {
+  display: none;
+}
+div.view-news-spotlight-image-only div.views-row-1.hide {
+  display: none;
+}
+div.view-news-spotlight-image-only div.views-row-2,
+div.view-news-spotlight-image-only div.views-row-3 {
+  display: none;
+}
+div.view-news-spotlight-image-only div.views-row-2.show,
+div.view-news-spotlight-image-only div.views-row-3.show {
+  display: block;
+}
+#ie-compatibility div.media-image {
+  float: none;
+  margin: 0 auto;
+}
+body.not-logged-in div.contextual-links-wrapper {
+  display: none;
+  visibility: hidden;
+}
+body.page-public-events-by-season div.panels-flexible-row-1-main-row {
+  display: none;
+}
+ul.file-entity-slideshow-pager {
+  margin: 15px 0 0 0;
+}
+ul.file-entity-slideshow-pager li a {
+  margin-bottom: 10px;
+}
+ul.file-entity-slideshow-pager h2 {
+  display: none;
+}
+div.file-entity-slideshow img {
+  display: block;
+  margin: 0 auto;
+}
+div.field-name-ical-icon {
+  margin-top: 15px;
+}
+.olControlLayerSwitcher div {
+  font-family: Vaud, sans-serif;
+}
+div.openlayers-popup {
+  color: blanchedalmond;
+}
+div.openlayers-tooltip-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+div.sharethis-wrapper #sharethis-callout {
+  color: #636363;
+  font-size: 16px;
+  position: absolute;
+  top: 4px;
+  left: 0;
+}
+div.sharethis-wrapper .st_twitter {
+  margin-left: 85px;
+}
+div.sharethis-wrapper .stButton {
+  width: 24px !important;
+}
+div.sharethis-wrapper .stButton .chicklets {
+  width: 24px !important;
+  height: 24px !important;
+  background-size: contain !important;
+  -ms-behavior: url(/sites/all/themes/caltech_new/cssAssets/backgroundsize.min.htc);
+}
+div.sharethis-wrapper .stButton .chicklets.twitter {
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/twitter_32.png);
+}
+div.sharethis-wrapper .stButton .chicklets.facebook {
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/facebook_32.png);
+}
+div.sharethis-wrapper .stButton .chicklets.googleplus {
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/googleplus_32.png);
+}
+div.sharethis-wrapper .stButton .chicklets.email {
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/email_32.png);
+}
+div.sharethis-wrapper .stButton .chicklets.sharethis {
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/sharethis_32.png);
+}
+body.node-type-news div.sharethis-wrapper,
+body.node-type-public-event div.sharethis-wrapper {
+  height: 32px;
+  position: absolute;
+  top: -32px;
+  left: 500px;
+  white-space: nowrap;
+}
+body.node-type-news div.sharethis-wrapper span:first-child span:first-child,
+body.node-type-public-event div.sharethis-wrapper span:first-child span:first-child {
+  margin-left: 0;
+}
+body.node-type-static-page-grid ul.tabs,
+body.node-type-static-page-grid ul.action-links,
+body.node-type-static-page-grid #block-workbench-block,
+body.node-type-static-page-grid div.event_callout {
+  width: 990px;
+  margin: 0 5px;
+  box-sizing: border-box;
+}
+body.node-type-static-page-grid #boilerplate-content {
+  width: 990px;
+}
+div.node-milestone-page h2:before {
+  content: "Mapping Milestones:";
+  text-transform: uppercase;
+  color: #7d2f3f;
+  display: block;
+  font-size: 16px;
+}
+/*
+ * Styles for the calendar menu.
+ */
+#block-menu-menu-calendar-menu {
+  position: relative;
+  z-index: 100;
+  background-color: #76777b;
+}
+#block-menu-menu-calendar-menu h2 {
+  display: none;
+  visibility: hidden;
+}
+#block-menu-menu-calendar-menu li {
+  padding: 0;
+  margin: 0;
+  float: left;
+  padding-right: 11px;
+  margin-right: 10px;
+  list-style: none;
+  height: 34px;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/submenu-spacer.png) no-repeat right center;
+  font-size: 15px;
+}
+#block-menu-menu-calendar-menu li.last {
+  background: none;
+}
+#block-menu-menu-calendar-menu li.active-trail {
+  font-weight: bold;
+}
+#block-menu-menu-calendar-menu a {
+  display: block;
+  margin-top: 7px;
+  text-decoration: none;
+  color: white;
+}
+#block-menu-menu-calendar-menu a:hover {
+  padding-bottom: 9px;
+  border-radius: 3px;
+  margin-bottom: -3px;
+  background-color: #76777b;
+}
+#block-menu-menu-calendar-menu ul {
+  height: 34px;
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+#block-menu-menu-calendar-menu ul.submenu-parents {
+  background-color: #76777b;
+}
+#block-menu-menu-calendar-menu ul.submenu-children {
+  background-color: #c8c8c8;
+}
+#block-menu-menu-calendar-menu ul.submenu-children li {
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/submenu-spacer-dark.png);
+}
+#block-menu-menu-calendar-menu ul.submenu-children li.last {
+  background: none;
+}
+#block-menu-menu-calendar-menu ul.submenu-children a {
+  color: #000;
+}
+#block-menu-menu-calendar-menu ul.submenu-children a:hover {
+  background-color: transparent;
+  padding-bottom: 6px;
+  border-bottom: 3px #c8c8c8 solid;
+}
+#search_bar {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+#search_bar #above_search_links {
+  display: table;
+}
+#search_bar #above_search_links li {
+  display: table-cell;
+  line-height: 18px;
+  text-align: center;
+  margin: 0;
+  border-right: 1px solid #5c6464;
+}
+#search_bar #above_search_links li a {
+  padding: 0 8px;
+  color: #d6d6d4;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+#search_bar #above_search_links li.last {
+  border-right: none;
+}
+#search_bar #above_search_links li.last a {
+  padding-right: 0;
+}
+#search_bar #caltech-mte-search-bar-form {
+  float: right;
+}
+#search_bar #caltech-mte-search-bar-form .form-item-keys {
+  float: left;
+  margin: 0;
+  height: 30px;
+  border-right: 0;
+  background-color: white;
+  width: 237px;
+}
+#search_bar #caltech-mte-search-bar-form .form-item-keys .search-textfield {
+  border: 0;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  height: 30px;
+  line-height: 32px;
+  outline: 0;
+  padding: 0 10px;
+  width: 217px;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
+}
+#search_bar #caltech-mte-search-bar-form .form-item-keys .search-textfield.has-content {
+  color: black;
+}
+#search_bar #caltech-mte-search-bar-form .search-button {
+  float: left;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
+}
+body.page-search ul.tabs {
+  background-color: #696b73;
+}
+body.page-search ul.tabs,
+body.page-search ul.action-links {
+  height: 40px;
+  margin: 0;
+  padding: 0 0 0 20px;
+  border-bottom: 1px solid white;
+}
+body.page-search ul.tabs li,
+body.page-search ul.action-links li {
+  margin: 0 1em 0 0;
+  list-style: none;
+  float: left;
+  font-size: 13pt;
+}
+body.page-search ul.tabs li:last-child,
+body.page-search ul.action-links li:last-child {
+  display: none;
+}
+body.page-search ul.tabs li a,
+body.page-search ul.action-links li a {
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+  display: block;
+}
+body.page-search ul.tabs li a:hover,
+body.page-search ul.action-links li a:hover {
+  background-color: #ff6e1e;
+  background: none;
+  text-decoration: underline;
+}
+body.page-search ul.tabs li.active a,
+body.page-search ul.action-links li.active a {
+  color: white;
+  font-weight: bold;
+  background: transparent url(/sites/all/themes/caltech_new/cssAssets/black_carrot_down.png) top center no-repeat;
+}
+body.page-search .region-content #search-form {
+  display: none;
+}
+#main #advanced_search {
+  width: 800px;
+  margin-left: 20px;
+}
+#main #advanced_search tbody {
+  border: 0;
+}
+#main #advanced_search h1 {
+  margin: 30px 0;
+  font-weight: normal;
+}
+#main #advanced_search #advanced_search_table {
+  width: 100%;
+}
+#main #advanced_search #advanced_search_table td.left {
+  padding: 15px;
+  width: 18%;
+  border-right: 1px solid white;
+}
+#main #advanced_search #advanced_search_table td.right {
+  padding: 10px 15px;
+}
+#main #advanced_search #advanced_search_table h2 {
+  margin: 0;
+  font-weight: normal;
+}
+#main #advanced_search #advanced_search_table tr:nth-child(2n-1) {
+  background-color: #f3f1f1;
+}
+#main #advanced_search #advanced_search_table tr:last-child {
+  background-color: white;
+}
+#main #advanced_search #advanced_search_table #adv_find {
+  width: 100%;
+}
+#main #advanced_search #advanced_search_table #adv_find td.left {
+  border: 0;
+  padding: 0;
+  width: 35%;
+  vertical-align: middle;
+}
+#main #advanced_search #advanced_search_table #adv_find td.right {
+  padding: 4px 0;
+}
+#main #advanced_search #advanced_search_table #adv_find input {
+  width: 70%;
+}
+#main #advanced_search #advanced_search_table #adv_submit input {
+  padding-top: 30px;
+}
+#main #advanced_search #advanced_search_collapsed,
+#main #advanced_search #advanced_search_hide {
+  padding: 1em 0 1em 1.5em;
+  border-top: 1px solid #E9E9E9;
+  border-bottom: 1px solid #E9E9E9;
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/carrot_right_black.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  font-weight: bold;
+}
+#main #advanced_search #advanced_search_collapsed span,
+#main #advanced_search #advanced_search_hide span {
+  cursor: pointer;
+}
+#main #advanced_search #advanced_search_hide {
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/carrot_left_black.png);
+}
+@media (max-width: 1000px) {
+  #search-results,
+  #advanced_search {
+    width: 100%;
+  }
+}
+#search-results {
+  width: 800px;
+  margin-left: 20px;
+}
+#search-results .item-list ul.pager {
+  margin: 0;
+  padding-bottom: 1em;
+}
+#search-results .item-list ul.pager li {
+  margin-left: 1em;
+}
+#search-results .item-list ul.pager li.first {
+  margin: 0;
+}
+#search-results.google #cse {
+  display: none;
+}
+#search-results.google .gsc-control-cse {
+  padding: 0;
+  border-color: white;
+  background-color: white;
+}
+#search-results.google .gsc-completion-container,
+#search-results.google .gsc-control-cse,
+#search-results.google .gsc-control-cse .gsc-table-result {
+  font-family: Vaud, sans-serif;
+}
+#search-results.google .gsc-tabHeader.gsc-tabhInactive {
+  border-color: #E9E9E9;
+  background-color: #E9E9E9;
+}
+#search-results.google .gsc-tabHeader.gsc-tabhActive {
+  border-top-color: #FF9900;
+  border-left-color: #E9E9E9;
+  border-right-color: #E9E9E9;
+  background-color: white;
+}
+#search-results.google .gsc-tabsArea {
+  border-color: #E9E9E9;
+}
+#search-results.google .gsc-webResult.gsc-result,
+#search-results.google .gsc-results .gsc-imageResult {
+  border-color: white;
+  background-color: white;
+}
+#search-results.google .gsc-webResult.gsc-result:hover,
+#search-results.google .gsc-imageResult:hover {
+  border-color: white;
+  background-color: white;
+}
+#search-results.google .gsc-webResult.gsc-result.gsc-promotion:hover {
+  border-color: white;
+  background-color: white;
+}
+#search-results.google .gs-webResult.gs-result a.gs-title:link,
+#search-results.google .gs-webResult.gs-result a.gs-title:link b,
+#search-results.google .gs-imageResult a.gs-title:link,
+#search-results.google .gs-imageResult a.gs-title:link b {
+  color: #333333;
+}
+#search-results.google .gs-webResult.gs-result a.gs-title:visited,
+#search-results.google .gs-webResult.gs-result a.gs-title:visited b,
+#search-results.google .gs-imageResult a.gs-title:visited,
+#search-results.google .gs-imageResult a.gs-title:visited b {
+  color: #333333;
+}
+#search-results.google .gs-webResult.gs-result a.gs-title:hover,
+#search-results.google .gs-webResult.gs-result a.gs-title:hover b,
+#search-results.google .gs-imageResult a.gs-title:hover,
+#search-results.google .gs-imageResult a.gs-title:hover b {
+  color: #333333;
+}
+#search-results.google .gs-webResult.gs-result a.gs-title:active,
+#search-results.google .gs-webResult.gs-result a.gs-title:active b,
+#search-results.google .gs-imageResult a.gs-title:active,
+#search-results.google .gs-imageResult a.gs-title:active b {
+  color: #333333;
+}
+#search-results.google .gsc-cursor-page {
+  color: #333333;
+}
+#search-results.google a.gsc-trailing-more-results:link {
+  color: #333333;
+}
+#search-results.google .gs-webResult .gs-snippet,
+#search-results.google .gs-imageResult .gs-snippet,
+#search-results.google .gs-fileFormatType {
+  color: #333333;
+}
+#search-results.google .gs-webResult div.gs-visibleUrl,
+#search-results.google .gs-imageResult div.gs-visibleUrl {
+  color: #ca783c;
+}
+#search-results.google .gs-webResult div.gs-visibleUrl-short {
+  color: #ca783c;
+}
+#search-results.google .gs-webResult div.gs-visibleUrl-short {
+  display: none;
+}
+#search-results.google .gs-webResult div.gs-visibleUrl-long {
+  display: block;
+}
+#search-results.google .gs-promotion div.gs-visibleUrl-short {
+  display: none;
+}
+#search-results.google .gs-promotion div.gs-visibleUrl-long {
+  display: block;
+}
+#search-results.google .gsc-cursor-box {
+  border-color: white;
+}
+#search-results.google .gsc-results .gsc-cursor-box .gsc-cursor-page {
+  border-color: #E9E9E9;
+  background-color: white;
+  color: #333333;
+}
+#search-results.google .gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+  border-color: #FF9900;
+  background-color: white;
+  color: #333333;
+}
+#search-results.google .gsc-webResult.gsc-result.gsc-promotion {
+  border-color: #336699;
+  background-color: white;
+}
+#search-results.google .gsc-completion-title {
+  color: #333333;
+}
+#search-results.google .gsc-completion-snippet {
+  color: #333333;
+}
+#search-results.google .gs-promotion a.gs-title:link,
+#search-results.google .gs-promotion a.gs-title:link *,
+#search-results.google .gs-promotion .gs-snippet a:link {
+  color: #0000CC;
+}
+#search-results.google .gs-promotion a.gs-title:visited,
+#search-results.google .gs-promotion a.gs-title:visited *,
+#search-results.google .gs-promotion .gs-snippet a:visited {
+  color: #0000CC;
+}
+#search-results.google .gs-promotion a.gs-title:hover,
+#search-results.google .gs-promotion a.gs-title:hover *,
+#search-results.google .gs-promotion .gs-snippet a:hover {
+  color: #0000CC;
+}
+#search-results.google .gs-promotion a.gs-title:active,
+#search-results.google .gs-promotion a.gs-title:active *,
+#search-results.google .gs-promotion .gs-snippet a:active {
+  color: #0000CC;
+}
+#search-results.google .gs-promotion .gs-snippet,
+#search-results.google .gs-promotion .gs-title .gs-promotion-title-right,
+#search-results.google .gs-promotion .gs-title .gs-promotion-title-right * {
+  color: black;
+}
+#search-results.google .gs-promotion .gs-visibleUrl,
+#search-results.google .gs-promotion .gs-visibleUrl-short {
+  color: #008000;
+}
+body.page-search-events .caltech_search_events-results li:nth-child(2n-1) {
+  background-color: #f3f1f1;
+}
+body.page-search-events .caltech_search_events-results li.search-result h3 {
+  margin-bottom: 0;
+}
+body.page-search-events .caltech_search_events-results li.search-result .search-result-date {
+  margin-bottom: .5em;
+}
+#hero-images figure.cycle-slide {
+  width: 100%;
+}
+.node-hero-image.view-mode-full {
+  position: relative;
+  cursor: pointer;
+}
+.node-hero-image.view-mode-full * {
+  box-sizing: border-box;
+}
+.node-hero-image.view-mode-full .group-left {
+  width: 100%;
+  height: 100%;
+  float: none;
+  position: relative;
+}
+.node-hero-image.view-mode-full .group-left img {
+  max-width: 100%;
+  height: auto;
+}
+.node-hero-image.view-mode-full .group-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 75%;
+  height: 100%;
+}
+.node-hero-image.view-mode-full .group-right .field {
+  width: 66%;
+  float: right;
+  padding-right: 30px;
+}
+.node-hero-image.view-mode-full.gradient .group-right {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.6));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.6));
+}
+.node-hero-image.view-mode-full .field-name-field-summary {
+  color: #ecaa00;
+}
+.node-hero-image.view-mode-full .field-name-hero-image-blurb-link {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.node-hero-image.view-mode-full.video .read-more-link {
+  display: none;
+}
+.node-hero-image.view-mode-full.video .field-name-field-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.node-hero-image.view-mode-full.video .field-name-field-video .contextual-links-region {
+  position: static;
+}
+.node-hero-image.view-mode-full.video .field-name-field-video .play-button {
+  display: none;
+}
+.node-hero-image.view-mode-full.video .field-name-field-video .media-colorbox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: block;
+  z-index: 1000;
+}
+.node-hero-image.view-mode-full.video .field-name-field-video .media-colorbox .file-video {
+  display: none;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .node-hero-image.view-mode-full .field-name-field-summary,
+  .node-hero-image.view-mode-full .field-name-hero-image-blurb-link {
+    font-size: 10.5px;
+  }
+}
+@media (max-width: 767px) {
+  #hero-images figure.cycle-slide {
+    background: white;
+  }
+  .node-hero-image.view-mode-full.video .field-name-field-page-image,
+  .node-hero-image.view-mode-full.video .field-name-field-video {
+    display: none;
+  }
+  .node-hero-image.view-mode-full .group-right {
+    position: static;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .node-hero-image.view-mode-full .group-right .field {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+  .node-hero-image.view-mode-full .group-right .field-name-field-summary {
+    margin: 8px 0 5px 0;
+  }
+  .node-hero-image.view-mode-full .group-right .field-name-field-summary .field-item * {
+    font-size: 24px !important;
+    margin: 0 !important;
+    display: inline;
+  }
+  .node-hero-image.view-mode-full .group-right .field-name-field-summary .field-item *:before {
+    content: " ";
+  }
+  .node-hero-image.view-mode-full .group-right .field-name-field-summary .field-item br {
+    display: none;
+  }
+  .node-hero-image.view-mode-full .group-right .field-name-hero-image-blurb-link {
+    color: #222;
+    font-weight: normal;
+  }
+  .node-hero-image.view-mode-full.gradient .group-right {
+    background: none;
+  }
+}
+.frontpage-teaser {
+  float: left;
+}
+.frontpage-teaser div.clickable-wrapper {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.frontpage-teaser img {
+  width: 100%;
+  height: auto;
+}
+.frontpage-teaser .text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #FFFFFF;
+  top: 70%;
+}
+.frontpage-teaser .text h3 {
+  position: relative;
+  margin: 0;
+  height: 30%;
+  font-family: KievitSlabRegular, Times, serif;
+  font-weight: normal;
+  font-size: 1.14285714em;
+}
+.frontpage-teaser .text h3 span {
+  padding: 0 12px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.frontpage-teaser .summary {
+  padding: 0 15px;
+  font-size: 0.92857143em;
+}
+.frontpage-teaser a.read-more-link {
+  padding: 0 15px;
+  font-size: 0.92857143em;
+  color: #FFFFFF;
+}
+.frontpage-teaser a.read-more-link:hover {
+  color: #ff6e1e;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  body.front .frontpage-teaser {
+    font-size: 11.9px;
+  }
+  body.front .frontpage-teaser .text {
+    top: 60%;
+  }
+  body.front .frontpage-teaser .text h3 {
+    height: 40%;
+  }
+}
+@media (min-width: 768px) {
+  .mobile-hero-image-video {
+    display: none;
+  }
+}
+@media (min-width: 1000px) {
+  .node-hero-image.view-mode-full {
+    position: relative;
+    cursor: pointer;
+    height: 300px;
+  }
+}
+.responsive-container {
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .responsive-container {
+    width: 750px;
+  }
+}
+@media (min-width: 1024px) {
+  .responsive-container {
+    width: 1000px;
+  }
+}
+body.page-user form#user-login,
+body.page-user form#user-pass {
+  margin-left: 10%;
+  width: 90%;
+}
+body.page-user div.profile {
+  margin-left: 10%;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui {
+  /* set some defaults */
+  font-size: 14px;
+  font-weight: normal;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui a {
+  color: #ff6e1e;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui a:hover {
+  text-decoration: underline;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui label {
+  font-weight: normal;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui label.groupLabel {
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui .Shadow {
+  box-shadow: inset 0 0 10px #ccc;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui input {
+  box-shadow: inset 0 0 10px #ccc;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui input.k_required,
+div.view-mode-full_content_unfiltered div.k_jquery-ui select.k_required {
+  border: 1px #ff6e1e solid;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui .invalid {
+  background-color: #FFEFD5;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui .invalid span.k_messages {
+  color: #ff6e1e;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui select {
+  background: transparent;
+  border: 1px #ccc solid;
+  box-shadow: inset 0 0 10px #ccc;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui button {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #f27320;
+  border: none;
+  background-color: white;
+  padding: 25px 0;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui button:after {
+  content: ' > ';
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui div.ui-widget-content {
+  border: none;
+}
+div.view-mode-full_content_unfiltered div.k_jquery-ui .k_snippetRevealer {
+  display: none;
+}
+body.node-type-slideshow div.node-slideshow {
+  padding: 40px 100px 25px 100px;
+}
+body.node-type-slideshow div.zindex100 {
+  position: relative;
+  z-index: 100;
+}
+body.node-type-slideshow div.field-name-sharethis-block div.sharethis-wrapper {
+  height: 26px;
+  float: right;
+}
+body.node-type-slideshow div.field-name-sharethis-block div.sharethis-wrapper #sharethis-callout {
+  left: 540px;
+}
+body.node-type-slideshow div.field-name-sharethis-block div.sharethis-wrapper span:first-child span:first-child {
+  margin-left: 0;
+}
+body.node-type-slideshow div.field-name-title h2 {
+  margin: 0px 0px 10px 0px;
+  font-size: 32px;
+}
+body.node-type-slideshow div.field-name-body {
+  margin: 0;
+}
+body.node-type-slideshow div.field-name-created-by {
+  margin-bottom: 25px;
+}
+body.node-type-slideshow div.field-name-news-tags,
+body.node-type-slideshow div.field-name-field-pr-links {
+  margin-bottom: 25px;
+}
+body.node-type-slideshow div.field-name-news-tags .field-label,
+body.node-type-slideshow div.field-name-field-pr-links .field-label {
+  width: 120px;
+  display: block;
+  float: left;
+}
+body.node-type-slideshow div.field-name-field-slideshow {
+  margin-bottom: 25px;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow-controls {
+  text-align: right;
+  margin-right: 250px;
+  text-transform: uppercase;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow-controls a.prev {
+  padding-right: 10px;
+  margin-right: 5px;
+  border-right: 1px solid black;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow {
+  width: 100% !important;
+  padding-bottom: 0px !important;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow div.field-slideshow-slide {
+  height: 425px;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow div.field-slideshow-slide div.group-left {
+  float: left;
+  width: 550px;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow div.field-slideshow-slide div.group-left img {
+  margin: 0 auto;
+  display: block;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow div.field-slideshow-slide div.group-left div.field-name-credit-sane-label {
+  text-align: right;
+  font-style: italic;
+  font-size: 12px;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow div.field-slideshow-slide div.group-right {
+  float: left;
+  width: 350px;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow div.field-slideshow-slide div.group-right div.field-item {
+  padding-left: 20px;
+  padding-right: 100px;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow div.field-slideshow-slide div.group-right div.field-item > :first-child {
+  margin-top: 0;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow-carousel-wrapper {
+  width: 800px;
+  display: inline-block;
+  z-index: 100;
+  position: relative;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow-carousel-wrapper a.carousel-prev,
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow-carousel-wrapper a.carousel-next {
+  float: left;
+  width: 20px;
+  display: block;
+  font-size: 30px;
+  margin-top: 27px;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow-carousel-wrapper a.carousel-prev.disabled,
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow-carousel-wrapper a.carousel-next.disabled {
+  cursor: default;
+  opacity: 0.4;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow-carousel-wrapper div.field-slideshow-carousel {
+  width: 760px;
+  float: left;
+  margin-top: 20px;
+}
+body.node-type-slideshow div.field-name-field-slideshow div.field-slideshow-carousel-wrapper div.field-slideshow-carousel li {
+  margin: 0;
+}
+body.desktop div.field-slideshow {
+  height: 420px !important;
+}
+body.node-type-expert #main a {
+  text-decoration: none;
+  color: #ff6e1e;
+}
+body.node-type-expert #main a:hover {
+  text-decoration: underline;
+}
+body.node-type-expert div.node-expert div.field-name-field-research-url a,
+body.node-type-expert div.node-expert div.field-name-field-personal-url a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+body.node-type-expert div.node-expert div.field-name-field-phone {
+  height: 30px;
+}
+body.node-type-expert div.node-expert div.field-name-title h2 {
+  margin-bottom: 10px;
+}
+body.node-type-expert div.node-expert div.field-name-field-assets {
+  margin-right: -200px !important;
+}
+body.node-type-expert div.node-expert div.field-name-field-title {
+  /* This is the academic title, e.g. Professor of Biology */
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 20px;
+}
+body.node-type-expert div.node-expert div.field-name-field-personal-url,
+body.node-type-expert div.node-expert div.field-name-field-research-url,
+body.node-type-expert div.node-expert div.field-name-field-expertise {
+  max-width: 450px;
+  margin: 0;
+  padding: 0;
+}
+body.node-type-expert #block-views-news-about-an-expert-block {
+  margin-top: -12px;
+  margin-bottom: 25px;
+}
+body.node-type-expert #block-views-news-about-an-expert-block div.view-header {
+  font-weight: bold;
+}
+body.node-type-expert #block-views-news-about-an-expert-block div.view {
+  margin: 0 100px;
+}
+body.node-type-expert #block-caltech-experts-contact-forms-expert-page {
+  margin: 0 100px 20px 100px;
+}
+body.node-type-expert #block-caltech-experts-contact-forms-expert-page h2 {
+  margin-top: 0;
+}
+/*
+ * Experts listing overrides
+ */
+body.page-experts div.view-header {
+  padding-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+body.page-experts div.news-listing div.views-row-even {
+  background: white !important;
+}
+body.page-experts div.news-listing div.views-row-odd {
+  background-color: #f3f1f1;
+}
+body.page-experts div.news-listing div.group-left {
+  padding-top: 5px !important;
+}
+body.page-experts div.news-listing div.group-left div.field-name-field-title {
+  letter-spacing: normal;
+  font-style: normal;
+  font-size: 12px;
+}
+body.page-experts div.news-listing div.group-left div.field-name-field-summary p {
+  margin-top: 20px;
+  font-size: 12px !important;
+}
+/*
+ * New Experts Guide page.
+ */
+body.page-experts-guide .panel-col-top .inside {
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 1000px;
+}
+body.page-experts-guide .panel-col-top h2 {
+  font-size: 32px;
+}
+body.page-experts-guide .panel-col-top #experts-welcome-pane {
+  box-sizing: border-box;
+  width: 750px;
+  padding-left: 100px;
+  padding-right: 10px;
+  float: left;
+}
+body.page-experts-guide .panel-col-top #experts-contact-block {
+  box-sizing: border-box;
+  width: 250px;
+  float: left;
+  margin-top: 15px;
+}
+body.page-experts-guide .panel-col-first {
+  box-sizing: border-box;
+  width: 750px;
+}
+body.page-experts-guide .panel-col-first .inside {
+  padding: 0 15px 0 100px;
+  margin: 0;
+}
+body.page-experts-guide .panel-col-first .views-row {
+  padding-top: 7px;
+  width: 630px;
+}
+body.page-experts-guide .panel-col-first .views-row:last-child {
+  margin-bottom: 15px;
+}
+body.page-experts-guide .panel-col-first .views-row:last-child ul.expanded-experts {
+  padding-bottom: 0;
+}
+body.page-experts-guide .panel-col-first .views-row.views-row-odd {
+  background-color: #f3f1f1;
+}
+body.page-experts-guide .panel-col-first .views-row .views-field-name {
+  font-size: 22px;
+  margin: 0 5px;
+}
+body.page-experts-guide .panel-col-first .views-row .views-field-field-rss-feed-link {
+  margin: 2px;
+  float: right;
+}
+body.page-experts-guide .panel-col-first .views-row .views-field-field-rss-feed-link img {
+  margin-bottom: 6px;
+}
+body.page-experts-guide .panel-col-first .views-row .views-field-description {
+  margin: 0;
+  color: #999999;
+}
+body.page-experts-guide .panel-col-first .views-row .views-field-description p {
+  margin: 0 5px;
+}
+body.page-experts-guide .panel-col-first ul.expanded-experts {
+  margin-bottom: 0;
+  padding: 0 0 1px 2em;
+}
+body.page-experts-guide .panel-col-first ul.expanded-experts li {
+  box-sizing: border-box;
+  padding: 0 15px 0 0;
+}
+body.page-experts-guide .panel-col-first ul.expanded-experts .name h4 {
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+body.page-experts-guide .panel-col-first ul.expanded-experts .name h4 a:hover {
+  text-decoration: underline;
+}
+body.page-experts-guide .panel-col-first ul.expanded-experts .title {
+  font-size: 14px;
+}
+body.page-experts-guide .panel-col-first ul.expanded-experts .summary {
+  font-size: 12px;
+  margin-top: 4px;
+}
+body.page-experts-guide .panel-col-last {
+  box-sizing: border-box;
+  width: 250px;
+}
+body.page-experts-guide .panel-col-last .inside {
+  padding-right: 75px;
+  margin-left: 0;
+}
+body.page-experts-guide .panel-col-last .pane-title {
+  margin: 0;
+}
+body.page-experts-guide .panel-col-last .topic-title {
+  margin-bottom: 0;
+}
+body.page-experts-guide .panel-col-last h2 {
+  font-size: 22px;
+}
+body.page-experts-guide .panel-col-last h3 {
+  font-size: 16px;
+}
+body.page-experts-guide .panel-col-last a:hover {
+  text-decoration: underline;
+}
+body.page-experts-guide #ajax-throbber {
+  background-color: #232323;
+  background-image: url("/sites/all/themes/caltech_new/cssAssets/loading-small.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  height: 24px;
+  opacity: .9;
+  padding: 4px;
+  width: 24px;
+  left: 49%;
+  position: fixed;
+  top: 48.5%;
+  z-index: 1000;
+}
+body.page-experts-guide #search-results-panel #search-results {
+  width: auto;
+}
+body.page-experts-guide #search-results-panel ol.caltech_search_experts-results {
+  padding: 0;
+}
+body.page-experts-guide #search-results-panel ol.caltech_search_experts-results li.odd {
+  background-color: #f3f1f1;
+}
+body.page-experts-guide #search-results-panel ol.caltech_search_experts-results h2 {
+  margin: 0;
+}
+body.page-experts-guide #search-results-panel ol.caltech_search_experts-results h2 a {
+  text-decoration: none;
+}
+body.page-experts-guide #search-results-panel ol.caltech_search_experts-results h2 a:hover {
+  text-decoration: underline;
+}
+body.page-experts-guide #search-results-panel ol.caltech_search_experts-results div.field-name-field-title {
+  font-size: 16px;
+}
+body.page-experts-guide #search-results-panel ol.caltech_search_experts-results div.field-name-field-summary .field-item {
+  font-size: 12px;
+  margin-top: 10px;
+}
+body.page-experts-guide #search-results-panel ol.caltech_search_experts-results .group-left {
+  padding-left: 5px;
+}
+body.page-experts-guide #search-results-panel ol.caltech_search_experts-results .group-right {
+  font-size: 0;
+}
+body.page-expert #caltech-experts-contact-forms-interview-form {
+  margin-left: 100px;
+}
+html.js .noscript {
+  display: none;
+}
+html.no-js .link-farm-long-description-icon {
+  display: none;
+}
+#quick_links {
+  float: right;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+}
+#quick_links .quick-links-title {
+  float: left;
+  margin: 7px 10px;
+  color: #EEEEEE;
+}
+#quick_links ul {
+  list-style: none;
+  margin: 9px 0;
+  padding: 0;
+  float: left;
+}
+#quick_links ul li {
+  float: left;
+  line-height: 1.0;
+  margin-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #999;
+}
+#quick_links ul li.first {
+  margin-left: 0;
+}
+#quick_links ul li.last {
+  border: 0;
+  padding: 0;
+}
+#quick_links ul li a {
+  color: white;
+  text-transform: uppercase;
+}
+div.view-link-farm .link-farm-page-title {
+  text-align: center;
+  margin: 1.5em 5px !important;
+}
+div.view-link-farm .link-farm-column {
+  box-sizing: border-box;
+  padding: 0 25px;
+  width: 33.3%;
+  float: left;
+}
+div.view-link-farm .link-farm-column .link-farm-collection-name {
+  margin: 0 0 5px 5px;
+}
+div.view-link-farm ul.link-farm-collection {
+  padding: 5px;
+  list-style: none;
+  margin-top: 0;
+}
+div.view-link-farm ul.link-farm-collection li {
+  padding: 3px 0;
+  position: relative;
+}
+div.view-link-farm ul.link-farm-collection li .link-farm-link:hover {
+  text-decoration: underline;
+}
+div.view-link-farm ul.link-farm-collection li .link-farm-short-description {
+  color: #999;
+  font-size: 90%;
+  font-style: italic;
+}
+div.view-link-farm ul.link-farm-collection li .link-farm-long-description-icon {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  cursor: pointer;
+}
+div.view-link-farm ul.link-farm-collection .link-farm-long-description {
+  display: none;
+  position: fixed;
+  width: 400px;
+  left: 450px;
+  top: 30%;
+  border: 1px solid #aaa;
+  background-color: white;
+  padding: 1.5em;
+  z-index: 10;
+  cursor: pointer;
+  color: #666;
+}
+div.view-link-farm ul.link-farm-collection .link-farm-long-description h4 {
+  margin-top: 0;
+}
+div.view-link-farm #submit-a-suggestion {
+  text-align: center;
+  padding-bottom: 10px;
+}
+/********************************************************************
+************************ IN THE MEDIA NODES *************************
+*********************************************************************/
+div.in-the-media a.link {
+  display: block;
+  color: black;
+  background-color: #eeeeee;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+}
+div.in-the-media a.link:hover .blurb {
+  color: grey;
+}
+div.in-the-media .blurb p {
+  margin: 1em 0 0 0;
+}
+div.in-the-media .logo {
+  text-align: left;
+  padding-top: 15px;
+}
+div.in-the-media .logo img {
+  max-width: 50%;
+  max-height: 45px;
+}
+div.in-the-media .date {
+  margin-top: 15px;
+}
+/********************************************************************
+************************ IN THE MEDIA PAGE **************************
+*********************************************************************/
+body.in-the-media-page .in-the-media-pane * {
+  box-sizing: border-box;
+}
+body.in-the-media-page .pane-title {
+  margin-left: 20px;
+}
+body.in-the-media-page table {
+  width: 100%;
+  table-layout: fixed;
+}
+body.in-the-media-page td {
+  width: 33%;
+  padding: 0;
+  border-right: 1px dotted black;
+  border-bottom: 1px dotted black;
+  background-color: #eeeeee;
+}
+body.in-the-media-page td.col-2 {
+  border-right: 0;
+}
+body.in-the-media-page .in-the-media a {
+  padding: 20px;
+  padding-top: 10px;
+  margin: 0;
+  border: none;
+}
+/********************************************************************
+************************** NEWS GRID NODE ***************************
+*********************************************************************/
+div.node-news-grid {
+  padding: 0;
+}
+div.node-news-grid * {
+  box-sizing: border-box;
+}
+div.node-news-grid .half {
+  width: 500px;
+  float: left;
+}
+div.node-news-grid .half.left {
+  padding-right: 5px;
+}
+div.node-news-grid .half.right {
+  padding-left: 5px;
+}
+div.node-news-grid .third {
+  float: left;
+}
+div.node-news-grid .third.left {
+  width: 333px;
+  padding-right: 8px;
+}
+div.node-news-grid .third.center {
+  width: 333px;
+  padding: 0 4px;
+}
+div.node-news-grid .third.right {
+  width: 334px;
+  padding-left: 9px;
+}
+div.node-news-grid .two-thirds {
+  float: left;
+  width: 667px;
+}
+div.node-news-grid .two-thirds.right {
+  padding-left: 2px;
+}
+div.node-news-grid .two-thirds.left {
+  width: 666px;
+}
+div.node-news-grid .quarter {
+  float: left;
+  width: 250px;
+}
+div.node-news-grid .quarter.center-right {
+  padding-left: 5px;
+  padding-right: 3px;
+}
+div.node-news-grid .quarter.right {
+  padding-left: 8px;
+}
+div.node-news-grid .news-grid-short .field:first-child {
+  padding-bottom: 5px;
+}
+div.node-news-grid .news-grid-short .field:last-child {
+  padding-top: 5px;
+}
+div.node-news-grid .news-grid-short .news-grid-article {
+  height: 265px;
+}
+div.node-news-grid .news-grid-article {
+  background-color: darkgrey;
+  overflow: hidden;
+  height: 540px;
+}
+div.node-news-grid .news-grid-article .article-text {
+  padding: 10px;
+}
+div.node-news-grid .news-grid-article .article-text h3 {
+  margin-top: 0;
+}
+div.node-news-grid .in-the-media a.link {
+  padding: 0 10px 10px 10px;
+  background: none;
+  border: none;
+  color: white;
+}
+div.node-news-grid .in-the-media a.link:hover .blurb {
+  color: white;
+}
+div.node-news-grid .in-the-media .header {
+  height: 25px;
+}
+div.node-news-grid .in-the-media .header div {
+  display: inline-block;
+  background: black;
+  height: 25px;
+  text-transform: uppercase;
+  padding: 5px;
+  line-height: 1.1em;
+}
+div.node-news-grid .in-the-media .blurb p {
+  margin: 1em 0 0 0;
+}
+div.node-news-grid .in-the-media .logo {
+  text-align: left;
+}
+div.node-news-grid .in-the-media .logo img {
+  max-width: 70%;
+  max-height: 35px;
+}
+div.node-news-grid a,
+div.node-news-grid a:visited,
+div.node-news-grid a:hover,
+div.node-news-grid a:active {
+  color: white;
+  display: block;
+  height: 100%;
+}
+div.node-news-grid a.media-colorbox,
+div.node-news-grid a:visited.media-colorbox,
+div.node-news-grid a:hover.media-colorbox,
+div.node-news-grid a:active.media-colorbox {
+  height: auto;
+}
+div.node-news-grid a:hover h3 {
+  color: grey;
+}
+/********************************************************************
+************************** NEWS HUB PAGE ****************************
+*********************************************************************/
+body.news-hub .news-hub-region {
+  width: 100%;
+  position: relative;
+}
+body.news-hub .news-hub-region .panel-separator {
+  display: none;
+}
+body.news-hub .pane-title a {
+  color: white;
+}
+body.news-hub .pane-title a:hover {
+  color: grey;
+}
+body.news-hub-main #main_content * {
+  box-sizing: border-box;
+}
+body.news-hub-main .infinite-scroll-ajax-throbber {
+  text-align: center;
+}
+body.news-hub-main .pane-title {
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+body.news-hub-main .now-at-caltech-pane a {
+  position: absolute;
+  color: white;
+  right: 0;
+  padding: 5px;
+  font-size: 15px;
+}
+body.news-hub-main .latest-news-pane .pane-title {
+  color: white;
+  text-transform: uppercase;
+  background-color: #ff6e1e;
+}
+body.news-hub-main .news-hub-listings .panel-col-top .inside {
+  margin: 0;
+}
+body.news-hub-main .news-hub-listings .left-column {
+  width: 50%;
+  padding-right: 5px;
+}
+body.news-hub-main .news-hub-listings .left-column .inside {
+  padding: 0;
+}
+body.news-hub-main .news-hub-listings .right-column {
+  width: 50%;
+  padding-left: 5px;
+}
+body.news-hub-main .news-hub-listings .right-column .inside {
+  padding: 0;
+}
+body.news-hub-main .news-hub-listings .panel-col {
+  width: 25%;
+}
+body.news-hub-main .news-hub-listings .panel-col .inside {
+  margin-left: 5px;
+  margin-right: 3px;
+}
+body.news-hub-main .news-hub-listings .panel-col-last {
+  width: 25%;
+}
+body.news-hub-main .news-hub-listings .panel-col-last .inside {
+  margin-left: 8px;
+  margin-right: 0;
+}
+body.news-hub-main .upcoming-events-pane .pane-title {
+  background-color: #7A303F;
+}
+body.news-hub-main .upcoming-events-pane .pane-content {
+  background-color: #eeeeee;
+  padding: 10px;
+}
+body.news-hub-main .upcoming-events-pane .views-row {
+  margin-bottom: 5px;
+}
+body.news-hub-main .upcoming-events-pane a {
+  font-weight: bold;
+  color: #222;
+  font-size: 15px;
+}
+body.news-hub-main .upcoming-events-pane a:hover {
+  color: grey;
+}
+body.news-hub-main .upcoming-events-pane .views-field-title {
+  float: left;
+}
+body.news-hub-main .upcoming-events-pane .views-field-field-event-date {
+  float: right;
+  margin-top: 4px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #444;
+}
+body.news-hub-main .upcoming-events-pane .views-field-field-seminar-title {
+  float: left;
+  clear: both;
+  color: #76777B;
+  font-size: 13px;
+}
+body.news-hub-main .in-the-media-pane {
+  width: 247px;
+  float: left;
+  padding-right: 4px;
+}
+body.news-hub-main .in-the-media-pane .pane-title {
+  background-color: #A9AD00;
+}
+body.news-hub-main .in-the-media-pane .pane-title a {
+  color: white;
+}
+body.news-hub-main .in-the-media-pane .pane-title a:hover {
+  color: grey;
+}
+.research-news-pane .pane-title {
+  background-color: #005851;
+}
+.research-news-pane .news-grid-article {
+  background-color: darkgrey;
+  overflow: hidden;
+  padding: 15px;
+  height: 180px;
+  border-bottom: 1px white dotted;
+}
+.research-news-pane .news-grid-article.featured {
+  height: auto;
+  padding: 0;
+}
+.research-news-pane .news-grid-article.featured img {
+  float: none;
+  padding: 0;
+}
+.research-news-pane .news-grid-article.featured .article-text {
+  max-height: none;
+  padding: 15px 15px 30px 15px;
+}
+.research-news-pane .news-grid-article img {
+  float: left;
+  padding-right: 10px;
+}
+.research-news-pane .news-grid-article .article-text {
+  padding: 0 10px;
+  max-height: 150px;
+}
+.research-news-pane .news-grid-article .article-text h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.research-news-pane .news-grid-article a,
+.research-news-pane .news-grid-article a:visited,
+.research-news-pane .news-grid-article a:hover,
+.research-news-pane .news-grid-article a:active {
+  color: white;
+  display: block;
+}
+.research-news-pane .news-grid-article a:hover h3 {
+  color: grey;
+}
+.research-news-pane .news-grid-article .file-video .play-button {
+  height: 150px;
+  width: 150px;
+}
+.research-news-pane .news-grid-article.featured .file-video .play-button {
+  height: 100%;
+  width: 100%;
+}
+.research-news-pane .views-row:last-child .news-grid-article {
+  border-bottom: none;
+}
+.in-our-community-pane {
+  width: 248px;
+  float: left;
+  padding-left: 6px;
+}
+.in-our-community-pane .pane-title {
+  background-color: #00506D;
+}
+.in-our-community-pane .news-grid-article {
+  background-color: #eeeeee;
+  margin-bottom: 10px;
+}
+.in-our-community-pane .news-grid-article .article-text {
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  padding: 10px;
+}
+.in-our-community-pane .news-grid-article .article-text h3 {
+  margin: 0;
+}
+.in-our-community-pane .news-grid-article a {
+  display: block;
+  color: black;
+}
+.in-our-community-pane .news-grid-article a:hover .article-text {
+  color: grey;
+}
+#map-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#map-wrapper * {
+  box-sizing: border-box;
+}
+#map-canvas {
+  height: 100%;
+  width: 100%;
+  background-color: #e5e3df;
+}
+#map-sidebar {
+  width: 225px;
+  height: 100%;
+  position: absolute;
+  left: -225px;
+  z-index: 1;
+  background: white;
+  padding: 10px;
+}
+#map-sidebar.open {
+  left: 0;
+}
+#map-sidebar #sidebar-handle {
+  position: absolute;
+  margin: auto -23px auto 0;
+  height: 40px;
+  width: 23px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  background-color: white;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: 1px solid black;
+  border-left: 0;
+}
+#map-sidebar #map-lockup {
+  margin: 29px 0;
+  position: relative;
+}
+#map-sidebar #map-lockup img {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+#map-sidebar #map-lockup div {
+  margin-top: 10px;
+  font-family: LTCCaslonLong, Times, serif;
+  font-size: 22px;
+  text-align: center;
+}
+#map-sidebar #map-lockup div a {
+  color: black;
+}
+#landmark-search {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+#landmark-search input {
+  width: 100%;
+}
+#landmark-search-results {
+  display: none;
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  border: black solid 1px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 2px;
+  width: 100%;
+  background: white;
+  max-height: 160px;
+  overflow: auto;
+}
+#landmark-search-results li {
+  cursor: pointer;
+  padding: 5px;
+  border-bottom: darkgrey 1px solid;
+}
+#landmark-search-results li:hover {
+  background: lightgrey;
+}
+#landmark-search-results li:last-child {
+  border: 0;
+}
+#landmark-picker {
+  padding: 10px 0;
+}
+#landmark-picker ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#landmark-picker li {
+  position: relative;
+}
+#landmark-picker li label {
+  font-weight: normal;
+  max-width: 190px;
+  display: inline-block;
+}
+#landmark-picker li .legend {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  height: 14px;
+  width: 14px;
+}
+#landmark-picker li.ada-accessibility span {
+  padding-left: 15px;
+  cursor: pointer;
+  background: url(/sites/all/themes/caltech_new/cssAssets/map-sidebar-arrow-down.png) no-repeat left center;
+}
+#landmark-picker li.ada-accessibility span.closed {
+  background: url(/sites/all/themes/caltech_new/cssAssets/map-sidebar-arrow-right.png) no-repeat left center;
+}
+#landmark-picker ul.ada {
+  display: none;
+  padding-left: 12px;
+}
+#landmark-picker ul.ada label {
+  font-size: 13px;
+}
+#landmark-picker label {
+  display: inline;
+}
+#landmark-listing {
+  padding: 20px 0;
+  position: relative;
+  font-size: 12px;
+}
+#landmark-listing h1.title {
+  display: none;
+}
+#landmark-listing ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#landmark-listing ul.landmarks {
+  height: 420px;
+  overflow-y: auto;
+  position: relative;
+}
+#landmark-listing ul.landmarks::-webkit-scrollbar {
+  display: none;
+}
+#landmark-listing ul.landmarks li {
+  border-bottom: 1px solid grey;
+  min-height: 14px;
+}
+#landmark-listing ul.landmarks li.first {
+  border-top: 1px solid grey;
+}
+#landmark-listing ul.landmarks li.last {
+  border: 0;
+}
+#landmark-listing .letter-sep {
+  height: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  background: darkgrey;
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding: 0 5px;
+}
+#landmark-listing .list-link {
+  padding: 2px 5px;
+  cursor: pointer;
+}
+#landmark-listing .list-link .building-name {
+  padding-right: 20px;
+}
+#landmark-listing .list-link .building-number {
+  color: grey;
+}
+#landmark-listing ul.alphabet {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 20px;
+  background: white;
+  height: 420px;
+}
+#landmark-listing ul.alphabet li {
+  padding: 0 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid white;
+  height: 16px;
+  line-height: 15px;
+}
+#landmark-listing ul.alphabet li.active {
+  background: lightgrey;
+  border: 1px solid darkgrey;
+}
+#printable-pdfs {
+  margin: 0 10px;
+}
+#printable-pdfs a {
+  display: block;
+}
+#top-tooltip {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15px;
+  margin: 0 auto;
+  width: 24%;
+  text-align: center;
+  font-weight: bold;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: lightgrey solid 1px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+#map-popup {
+  position: relative;
+  width: 324px;
+  padding-left: 24px;
+  text-align: center;
+}
+#map-popup .title {
+  font-size: 16px;
+  margin: 10px 0 0 0;
+}
+#map-popup .street-block {
+  display: inline;
+  margin-right: 5px;
+}
+#map-popup .street-block div {
+  display: inline;
+}
+#map-popup .addressfield-container-inline {
+  display: inline;
+}
+#map-popup .popup-thumbnail {
+  width: 300px;
+  height: 200px;
+}
+#map-popup .links {
+  width: 100%;
+}
+#map-popup .links a {
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+#map-popup .links a:first-child {
+  margin: 0;
+}
+#map-popup .links img {
+  margin-bottom: 5px;
+}
+.simplemodal-overlay {
+  background-color: black;
+}
+.simplemodal-container {
+  height: 600px !important;
+  width: 595px !important;
+}
+.simplemodal-container .simplemodal-data {
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+.simplemodal-container h1.title {
+  background: black;
+  color: white;
+  margin: 0 !important;
+  padding-left: 15px;
+  font-size: 22px;
+  min-height: 32px;
+  padding-right: 32px;
+}
+.simplemodal-container h1.title img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  z-index: 100;
+}
+.simplemodal-container #milestone-details h1.title {
+  background: #c8c8c8;
+  color: #7d2f3f;
+  font-family: LTCCaslonLong, Times, serif;
+  font-size: 18px;
+  padding-right: 15px;
+}
+.simplemodal-container #milestone-details h1.title .supertitle {
+  text-align: center;
+  font-family: VaudMedium, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px 0;
+  font-weight: normal;
+}
+.simplemodal-container #milestone-details h1.title .milestone-title {
+  padding-bottom: 10px;
+}
+.simplemodal-container .scroller {
+  overflow: auto;
+  height: 552px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #E4E4E4;
+}
+.simplemodal-container .details-contents {
+  width: 550px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+.simplemodal-container .slideshow {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.simplemodal-container .slideshow .media-youtube-video {
+  height: 360px;
+}
+.simplemodal-container .slideshow iframe {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+.simplemodal-container .slideshow-pager {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+.simplemodal-container .slideshow-pager li {
+  float: left;
+  margin: 10px 25px 0 0;
+}
+.simplemodal-container .slideshow-pager li.last {
+  margin-right: 0;
+}
+.simplemodal-container .slideshow-pager li.img4 {
+  margin-right: 0;
+}
+.simplemodal-container .slideshow-pager li img {
+  cursor: pointer;
+}
+.simplemodal-container .url-data {
+  padding: 15px;
+}
+.simplemodal-container .url-data div {
+  padding-bottom: 1em;
+}
+.simplemodal-container .url-data ::-moz-selection {
+  color: black;
+}
+.simplemodal-container .url-data ::selection {
+  color: black;
+}
+.simplemodal-container .url-data textarea {
+  width: 100%;
+}
+.milestone-audio img {
+  width: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.node-milestone-page .field-name-milestone-audio-field {
+  position: relative;
+}
+.node-milestone-page .milestone-audio {
+  cursor: pointer;
+  position: absolute;
+  top: -30px;
+  left: 350px;
+}
+.node-milestone-page .listen-link {
+  color: #ff6e1e;
+}
+body.desktop #location-link-container {
+  height: 250px !important;
+  width: 450px !important;
+}
+body.page-map #main,
+body.page-mapping-milestones #main {
+  z-index: 1100;
+}
+body.page-map #header,
+body.page-mapping-milestones #header,
+body.page-map #footer,
+body.page-mapping-milestones #footer,
+body.page-map #skip-link,
+body.page-mapping-milestones #skip-link {
+  display: none;
+}
+#node-map-canvas {
+  height: 500px;
+  width: 500px;
+}
+@media screen and (max-device-width: 768px) {
+  #landmark-listing ul.landmarks {
+    height: 340px;
+  }
+}
+@media screen and (max-height: 700px) {
+  #landmark-listing ul.landmarks {
+    height: 340px;
+  }
+  #landmark-listing ul.alphabet li {
+    font-size: 11px;
+    height: 14px;
+    line-height: 13px;
+  }
+}
+#social-media-block h1 {
+  margin: 0 0 35px !important;
+  position: relative;
+}
+#social-media-block h1 ul {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  right: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#social-media-block h1 ul li {
+  float: left;
+  margin: 0 10px;
+}
+#social-media-block h1 ul li.first {
+  margin-left: 0;
+}
+#social-media-block h1 ul li.last {
+  margin-right: 0;
+}
+#social-media-block h1 ul li a {
+  display: block;
+  height: 24px;
+}
+#social-media-block h1 ul li img {
+  width: 24px;
+  vertical-align: baseline;
+}
+#caltech-tweets {
+  width: 63%;
+  float: left;
+  padding: 0 2.5%;
+}
+#caltech-tweets ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#caltech-tweets li {
+  padding-top: 15px;
+}
+#caltech-tweets li.first {
+  padding-top: 0;
+}
+#caltech-tweets .tweet {
+  border-bottom: 1px solid grey;
+  padding-bottom: 15px;
+}
+#caltech-tweets a.icon {
+  float: left;
+}
+#caltech-tweets a.icon img {
+  border-radius: 5px;
+  margin: 0 5px 5px 0;
+}
+#caltech-tweets .tweet-content {
+  display: inline-block;
+  padding-left: 10px;
+}
+#caltech-tweets .header a.twitter-link {
+  color: black;
+  font-weight: bold;
+}
+#caltech-tweets .header a.twitter-link span {
+  color: #ff6e1e;
+  font-weight: normal;
+}
+#caltech-tweets .header .time:before {
+  content: '\00b7';
+}
+#caltech-tweets .header .time a {
+  padding-left: 3px;
+}
+#caltech-instagram {
+  width: 37%;
+  padding: 0 2.5%;
+  float: left;
+}
+#caltech-instagram ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#caltech-instagram li {
+  float: left;
+  width: 45%;
+  margin: 0 10% 10% 0;
+}
+#caltech-instagram li:nth-child(2),
+#caltech-instagram li:nth-child(4) {
+  margin-right: 0;
+}
+#caltech-instagram li img {
+  width: 100%;
+  height: auto;
+}
+#caltech-instagram a.thumbnail-link {
+  position: relative;
+  display: block;
+}
+#caltech-instagram .video-shield {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(/sites/all/themes/caltech_new/cssAssets/video-indicator.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#caltech-instagram .date-and-link {
+  margin-top: 10px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #social-media-block #caltech-instagram {
+    width: 50%;
+  }
+  #social-media-block #caltech-tweets {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #social-media-block h1 {
+    height: auto;
+    padding: 10px 0;
+  }
+  #social-media-block h1 span,
+  #social-media-block h1 ul {
+    display: block;
+    position: static;
+    transform: none;
+    -webkit-transform: none;
+    text-align: center;
+  }
+  #social-media-block h1 ul {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #social-media-block h1 ul li {
+    float: none;
+  }
+  #social-media-block #caltech-tweets {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #social-media-block #caltech-tweets .tweet-content {
+    padding-left: 0;
+  }
+  #social-media-block #caltech-instagram {
+    float: none;
+    width: 100%;
+    padding: 0 2.5%;
+  }
+  #social-media-block #caltech-instagram li {
+    padding: 0;
+    margin: 0 2% 0 0;
+    width: 23.5%;
+  }
+  #social-media-block #caltech-instagram li.last {
+    margin-right: 0;
+  }
+}
+@media (max-width: 500px) {
+  #social-media-block #caltech-instagram li {
+    margin: 0 2.5% 2.5% 0;
+    width: 48.75%;
+  }
+  #social-media-block #caltech-instagram li:nth-child(2) {
+    margin-right: 0;
+  }
+}
+/******************************************************************************
+ * IE-specific styles. html.tpl.php adds indicative classes to the <html> tag.
+ *****************************************************************************/
+html.ie8 div#search_bar #above_search_links a {
+  font-size: 12px;
+}
+html.ie8 div#search_bar fieldset#edit-search-inputs .form-item-search-field .search-textfield {
+  margin-top: 4px;
+}
+html.ie8 div#search_bar #jpl {
+  font-size: 12px;
+}
+html.ie8 div#search_bar #jpl a {
+  font-size: 13px;
+}
+html.ie8 div#footer div#footer_content div#connect {
+  margin-top: 7px;
+}
+html.ie8 div#footer div#footer_content div#contact_boilerplate {
+  font-size: 9px;
+}
+html.ie8 #banner_content .megamenu-bin {
+  /* Set up a ~50% opaque black background using IE8's proprietary css, since rgba() doesn't work. */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#DD000000,endColorstr=#DD000000)";
+  zoom: 1;
+}
+html.ie8 #desktop_menu .megamenu-bin {
+  min-height: 160px;
+}
+html.ie8 div.pane div.node-static-content-chunk div.group-right {
+  /* Set up a ~5% opaque black background. */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#11000000,endColorstr=#11000000)";
+  zoom: 1;
+}
+html.ie8 #map-sidebar #map-lockup div {
+  bottom: 10px;
+}
+html.ie8 .node-video-spotlight .group-right,
+html.ie8 .frontpage-teaser .text {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000)";
+}
+html.ie8 div#search_bar #above_search_links a {
+  font-size: 12px;
+}
+html.ie8 div#search_bar fieldset#edit-search-inputs .form-item-search-field .search-textfield {
+  margin-top: 4px;
+}
+html.ie8 div#search_bar #jpl {
+  font-size: 12px;
+}
+html.ie8 div#search_bar #jpl a {
+  font-size: 13px;
+}
+html.ie9 div#search_bar fieldset#edit-search-inputs .form-item-search-field .search-textfield {
+  margin-top: 4px;
+}
+html.ie9 div#search_bar fieldset#edit-search-links a {
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+html.ie9 div#footer div#footer_content img.footer_arrow {
+  margin-top: 13px;
+}
+html.ie9 div#footer div#footer_content div#connect {
+  line-height: 31px;
+}
+html.ie8 div.pane .group-right,
+html.ie9 div.pane .group-right {
+  background-image: url('/sites/all/themes/caltech_new/cssAssets/gradient_black.png');
+}
+html.ie8 div.pane.takeover .group-right,
+html.ie9 div.pane.takeover .group-right {
+  background-image: url('/sites/all/themes/caltech_new/cssAssets/gradient_black_300.png');
+}
+.browser-warning {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ccc;
+  color: black;
+  padding: 0.2em 0;
+  z-index: 2000;
+  text-align: center;
+}

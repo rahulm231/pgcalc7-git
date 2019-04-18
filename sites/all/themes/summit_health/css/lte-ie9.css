@@ -1,0 +1,185 @@
+/*--- layout -----*/
+
+  #top-bar div.section,
+  #header div.section,
+  #menu-bar div.section,
+  #page-title-wrapper div.section,
+  #featured div.section,
+  #messages div.section,
+  #main,
+  #postscript-bottom .section,
+  #footer-columns,
+  #footer {
+    max-width: 975px;
+  }
+  .region-header,
+  #header #navigation {
+    float: right; /* LTR */
+    clear: none;
+  }
+  /* ----- hide responsive nav ----- */
+  #navigation .selector {
+    display: none;
+  }
+  #navigation #main-menu, .thumb-slideshow-banner .views-slideshow-controls-bottom {
+    display: block;
+  }
+  #content,
+  #sidebar-first,
+  #sidebar-second,
+  .region-footer-firstcolumn,
+  .region-footer-secondcolumn,
+  .region-footer-thirdcolumn,
+  .region-footer-fourthcolumn,
+  .region-top-bar-left,
+  .region-footer-left {
+    display: inline;
+    float: left; /* LTR */
+    position: relative;
+  }
+  .region-top-bar-right,
+  .region-footer-right {
+    display: inline;
+    float: right; /* LTR */
+    position: relative;
+  }
+  .two-sidebars #content {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+  }
+  .one-sidebar #content {
+    width: 75%;
+  }
+  .no-sidebars #content {
+    width: 100%;
+  }
+  .sidebar-first #content {
+    margin-left: 25%;
+    margin-right: 0;
+  }
+  .sidebar-second #content {
+    margin-right: 25%;
+    margin-left: 0;
+  }
+  #sidebar-first {
+    width: 25%;
+    margin-left: -100%;
+  }
+  #sidebar-second {
+    width: 25%;
+    margin-left: -25%;
+    clear: none;
+  }
+  .region-footer-firstcolumn,
+  .region-footer-secondcolumn,
+  .region-footer-thirdcolumn,
+  .region-footer-fourthcolumn {
+    padding: 0 15px;
+    width: 25%;
+  }
+  .region-top-bar-left,
+  .region-top-bar-right,
+  .region-footer-left,
+  .region-footer-right {
+    padding: 0 15px;
+    width: 50%;
+  }
+  .region-top-bar-left .block, .region-footer-left .block {
+    text-align: left;
+  }
+  .region-footer-right .block, .region-top-bar-right .block{
+    text-align: right;
+    float: right;
+    margin-left: 15px !important;
+  }
+
+  /*-- both sidebar right ---*/
+  .both-sidebar-right.sidebar-first #content {
+    margin-left: 0;
+    margin-right: 25%;
+  }
+  .both-sidebar-right.sidebar-first #sidebar-first {
+    margin-left: -25%;
+  }
+  .both-sidebar-right.two-sidebars #content {
+    margin-left: 0;
+    margin-right: 50%;
+  }
+  .both-sidebar-right.two-sidebars #sidebar-first {
+    margin-left: -50%;
+  }
+  /* --- both sidebar left ---*/
+  .both-sidebar-left.sidebar-second #content {
+    margin-right: 0;
+    margin-left: 25%;
+  }
+  .both-sidebar-left.sidebar-second #sidebar-second {
+    margin-left: -100%;
+  }
+  .both-sidebar-left.two-sidebars #content {
+    margin-left: 50%;
+    margin-right: 0;
+  }
+  .both-sidebar-left.two-sidebars #sidebar-second {
+    margin-left: -75%;
+  }
+
+
+/* ----------- content ------------------------------- */
+
+  #logo, #name-and-slogan  {
+    float: left;
+    padding-top: 1em;
+  }
+  .region-header .block {
+    float: left; /* LTR */
+    margin: 0 15px;
+  }
+  #main-menu ul.menu li {
+    float: left; /* LTR */
+    list-style: none;
+    margin: 0 6px;
+    width: auto;
+  }
+  #main-menu ul.menu li.first{
+    margin-left: 0;
+  }
+  #main-menu ul.menu a {
+    padding: 0.3em 0.8em;
+  }
+  #main-menu ul.menu li.last{
+    margin-right: 0;
+  }
+  /* ----- columns shortcodes ---- */
+  .col-one-half, .col-one-third, .col-two-third, .col-three-fourth, .col-one-fourth {
+    margin-right: 4%;
+    float: left;
+    margin-bottom: 20px !important;
+    position: relative;
+  }
+  .col-one-half {
+    width: 48%;
+  }
+  .col-one-third {
+    width: 30.6666%;
+  }
+  .col-two-third {
+    width: 65.3332%;
+  }
+  .col-one-fourth {
+    width: 22%;
+  }
+  .col-three-fourth {
+    width: 74%;
+  }
+
+/* ----- buttons ---- */
+  .button-right {
+    float: right;
+    margin: 10px 0 0 20px;
+  }
+  .button-left {
+    float: left;
+    margin: 10px 20px 0 0;
+  }

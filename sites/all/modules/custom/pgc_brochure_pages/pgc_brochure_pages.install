@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Handles installing, uninstalling and the requirements for Splashify.
+ *
+ * Implements hook_uninstall().
+ *
+ * Deletes all of the variables this module creates via variable_set().
+ */
+function pgc_brochure_pages_uninstall() {
+  variable_del('pgc_borchure_logo'); 
+}

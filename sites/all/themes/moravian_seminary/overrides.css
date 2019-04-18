@@ -1,0 +1,189 @@
+.pg-wrap p {
+  margin-top: 25px;
+}
+
+#block-system-main-menu h2 a {
+  font-size: 1rem;
+  display: block;
+  color: #fff;
+  background-color: #005995;
+  line-height: 32px;
+  margin-bottom: 0;
+  font-family: Trade Gothic W01;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: .1rem 1rem;
+  text-decoration: none;
+}
+
+#main-menu li a.active {
+  font-weight: 700;
+}
+
+#main-menu ul ul li {
+  margin-left: 15px;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.pg-wrap table tr th {
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.pg-wrap table tr td {
+  color: #000;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #005995;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #fff;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  font-family: Trade Gothic W01;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#pgc-contact-block li a:hover {
+  color: #ebebeb;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #005995;
+  padding: 10px 20px;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block .title {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#pgc-contact-footer-block li a {
+  font-family: Trade Gothic W01;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#pgc-contact-footer-block li a:hover {
+  color: #ebebeb;
+}
+
+#pgc_resource_block {
+  background: #b2da64;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+#pgc_resource_block a {
+  color: #481b76;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: Trade Gothic W01;
+  font-size: 1.2rem;
+}
+
+#pgc_resource_block a:hover {
+  color: #6c389f;
+}
+
+.pg-gift-details .accordion-switch {
+  padding-bottom: 25px;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #b2da64;
+  padding: 0 15px;
+  color: #481b76;
+  display: block;
+  margin: 10px 0;
+  line-height: 40px;
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #481b76;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+  content: "\f05c";
+  font-family: "FontAwesome";
+  font-size: 3.75rem;
+  left: -20px;
+  top: -9px;
+  position: absolute;
+}
+
+.pgc-brochure-bg-top {
+  background: #481b76;
+}
+
+.pgc-brochure-header-text {
+  background: #005995;
+  color: #fff;
+}
+
+.pgc-brochure-title {
+  color:  #005995;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color:  #005995;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color:   #481b76;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color:   #481b76;
+}
+
+.pgc-brochure-footer-text {
+  background: #005995;
+}
+
+.pgc-brochure-footer-title {
+  color:   #481b76;
+}
+
+span.pgc-brochure-footer-contact {
+  font-weight: 600;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #005995;
+}
+

@@ -1,0 +1,70 @@
+/**
+ *	Templates > FAQ.less
+ *	=========================================================================================================
+ */
+.collapsible-posts-list {
+  list-style: none;
+  margin: 0px 0px 0px 24px;
+  margin: 0rem 0rem 0rem 2.4rem;
+}
+.collapsible-posts-list li {
+  margin: 0px 0px 32px 0px;
+  margin: 0rem 0rem 3.2rem 0rem;
+}
+.collapsible-posts-list .header:hover {
+  cursor: pointer;
+}
+.collapsible-posts-list .header .arrow {
+  background-repeat: no-repeat;
+  left: -17px;
+  top: 4px;
+  top: 0.4rem;
+  background-image: url('../../img/site_nav_notch.svg');
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+}
+.collapsible-posts-list .title {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 25px;
+  line-height: 2.5rem;
+  line-height: 20px;
+  line-height: 2rem;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0px;
+  letter-spacing: 0rem;
+  color: #575b66;
+  color: #31bb2d;
+  position: relative;
+}
+.collapsible-posts-list .meta {
+  font-size: 11px;
+  font-size: 1.1rem;
+  line-height: 15px;
+  line-height: 1.5rem;
+  color: #959699;
+}
+.collapsible-posts-list .entry-content {
+  display: none;
+  margin: 0px 0px 48px 0px;
+  margin: 0rem 0rem 4.8rem 0rem;
+}
+.collapsible-posts-list .entry-content p {
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 22px;
+  line-height: 2.2rem;
+}
+.collapsible-posts-list .feedback {
+  font-size: 11px;
+  font-size: 1.1rem;
+  line-height: 15px;
+  line-height: 1.5rem;
+}
+.collapsible-posts-list .feedback .button {
+  color: #31bb2d;
+}

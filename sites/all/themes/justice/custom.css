@@ -1,0 +1,42 @@
+/*PGCS-353*/
+.pg-content-body{display:block !important;}
+.pg-content-body .region, .pg-content-body .region .node {clear: none;}
+#block-system-main-menu h2 a.active-trail i{
+	position: absolute;
+    right: 5px;
+    font-size: 26px;
+}
+#block-pgc-slideshow-block-pgc-slideshow-block + #block-pgc-misc-blocks-mobilenav {
+    top: -80px !important;
+}
+
+.pg-content-inline-blocks{
+	position: relative;
+	z-index:1;
+}
+
+@media only screen and (max-device-width: 1081px) {
+	.wrap #content{
+		padding:0;
+	}
+	.wrap #content .slideout-menu{
+		display:none;
+	}
+	#main .line{display:none;}
+	
+}
+/*PGCS-353*/
+
+/*PGCS-377*/
+@media only screen and (max-device-width: 768px) {
+	#sidebar-first{
+		display:none;
+	}
+}
+
+@media only screen and (max-device-width: 415px) {
+	.pg-content-inline-blocks {
+      float: none;
+      margin-left: 0px;
+	}
+}

@@ -1,0 +1,69 @@
+#primary .sidenav {
+	float: left;
+	width: 25%;
+}
+
+#primary #main {
+	width: 75%;
+	float: right;
+}
+
+.pg-content-footer {
+	padding-bottom: 30px
+}
+#block-system-main-menu h2.title a:hover {
+	color: initial !important;
+}
+.child-pages .details a:hover {
+	color: initial !important;
+	text-decoration: none;
+	text-decoration-color: initial !important;
+}
+.child-pages .details a {
+	text-decoration: none !important;
+	text-decoration-color: initial !important;
+}
+.cards-carousel-slide .cards-carousel-text {
+	padding-bottom: 100px !important;
+}
+
+.menu-main-menu-container #main-menu li a {
+	color: #fff !important;
+	background: none !important;
+	padding: 0px !important;
+	border-bottom: none !important;
+	line-height: inherit !important;
+	display: inline-block !important;
+}
+ .menu-main-menu-container #main-menu > li > a {
+	font-size: 25px;
+}
+#site-navigation > div > ul > li {
+	margin-bottom: 20px;
+}
+
+.region-content-body .details {
+	padding-left: 45px !important;
+	display: table;
+}
+/*#site-navigation li li a {
+	 font-size: 20px; 
+	font-size: 1.25 rem !important;
+}*/
+
+#cards-carousel-container .carousel-cards-header-label, .flex-control-nav, #cards-carousel .cards-carousel-inside, .flex-viewport ul.slides{
+	margin-left:0px !important;
+	padding-left: 0px !important;
+}
+@media only screen and (max-width: 999px) {
+
+	#primary .sidenav {
+		display: none;
+	}
+
+	#primary #main {
+		width: 100%;
+		float: none;
+	}
+
+}

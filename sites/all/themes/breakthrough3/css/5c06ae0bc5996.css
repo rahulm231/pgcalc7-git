@@ -1,0 +1,27 @@
+/*
+Theme Name: Uncode Child
+Description: Child theme for Uncode theme
+Author: Undsgn™
+Author URI: http://www.undsgn.com
+Template: uncode
+Version: 1.0.0
+Text Domain: uncode
+*/
+
+@font-face{
+font-family: 'Gotham Black';
+src: url('/sites/all/themes/breakthrough3/cssAssets/Gotham-Black.eot');
+src: url('/sites/all/themes/breakthrough3/cssAssets/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+url('/sites/all/themes/breakthrough3/cssAssets/Gotham-Black.woff') format('woff'),
+url('/sites/all/themes/breakthrough3/cssAssets/Gotham-Black.ttf') format('truetype'),
+url('/sites/all/themes/breakthrough3/cssAssets/Gotham-Black.svg') format('svg');
+}
+
+@font-face{
+font-family: 'Gotham Book';
+src: url('/sites/all/themes/breakthrough3/cssAssets/GothamBookRegular.eot');
+src: url('/sites/all/themes/breakthrough3/cssAssets/GothamBookRegular.eot?#iefix') format('embedded-opentype'),
+url('/sites/all/themes/breakthrough3/cssAssets/GothamBookRegular.woff') format('woff'),
+url('/sites/all/themes/breakthrough3/cssAssets/GothamBookRegular.ttf') format('truetype'),
+url('/sites/all/themes/breakthrough3/cssAssets/GothamBookRegular.svg') format('svg');
+}

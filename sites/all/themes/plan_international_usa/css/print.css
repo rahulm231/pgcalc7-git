@@ -1,0 +1,221 @@
+#left,nav,#globalnav,#mainnav,#footernav,#share,ul#socialmedia,
+.hidden,.selectedit,.selectedit_preview,#tracker-onpage,.no-print,
+form,#footer,#global-nav2,#social-container,#buttons,#mobilenav,#printframe,.modal-box,.overlay-content
+{
+	display:					none;
+}
+
+#logo
+{
+	width: 1.2in;
+	margin-bottom:2em;
+}
+
+body
+{
+	padding: 2em;
+	line-height:				155%;
+	font-family:				helvetica, arial, sans-serif;
+	font-size:					9pt;
+	color:						#333333;
+}
+
+a
+{
+	color:						#334466;
+}
+
+
+#main
+{
+	float:						left;
+	width:						75%;
+	margin-bottom:				1em;
+}
+
+#right
+{
+	padding:					0.5in 0 0 0.13in;
+	width:						1.7in;
+	overflow:					hidden;
+
+	line-height:				12pt;
+	font-size:					7pt;
+}
+
+article>article
+{
+	margin:						0 0 2.5em;
+}
+
+header
+{
+	page-break-after:			avoid;
+	color:						black;
+}
+
+h1,h2,h3
+{
+	margin:						0.75em 0 0.25em;
+	font-family:				sans-serif;
+	font-weight:				bold;
+	color:						#666666;
+}
+h1
+{
+	font-size:					200%;
+}
+
+h2
+{
+	font-size:					140%;
+}
+
+h3
+{
+	font-size:					120%;
+}
+
+p
+{
+	margin:						0 0 1em;
+}
+
+#footer
+{
+	clear:						both;
+	margin:						1em 0 0;
+	border-top:					0.25pt solid #999999;
+	padding-top:				0.5em;
+
+	font-size:					0.75em;
+}
+
+article#main a:link:after, article#main a:visited:after {
+   content: " (" attr(href) ") ";
+   font-family:		sans-serif;
+   font-size: 90%;
+   }
+
+article#main #cart a:link:after
+{
+	content: '';
+}
+
+
+section#comments article>header
+{
+	margin:						0;
+	font-family:				sans-serif;
+	font-weight:				bold;
+	color:						#666666;
+}
+section#comments article
+{
+	margin:						1em 0;
+	border-bottom:				0.25pt solid #999999;
+	padding:					0 0 1em;
+	font-size:					8pt;
+}
+header p
+{
+	display:					inline;
+	margin:						0 2em 0 0;
+}
+
+
+table.data {width:100%;border-top:2pt solid black;}
+table.data th,table.data td
+{
+	text-align:left;
+	vertical-align: middle;
+	padding: 0.4em 1em;
+	line-height: 1.2em;
+	border-bottom: 1pt solid black;
+}
+
+table.data td { border-bottom: 1pt solid black; }
+
+/*---------------------------------------------------------------------------------------------------------
+//	Cart
+//-------------------------------------------------------------------------------------------------------*/
+#cart-container
+{
+	margin-top: 40px;
+	border-top: 2px solid #ccc;
+	padding-top: 50px; 
+}
+
+#cart,#totals
+{
+	width: 100%;
+}
+
+#cart .mask {
+	margin-top:8px;
+	width: 85px; 
+	height: 90px;
+	overflow: hidden;
+
+}
+
+#cart td:first-child {font-weight: 500;line-height: 1.2em;}
+
+#cart th
+{
+	text-align: left;
+	font-size: 16px;
+	font-family: 'alternate-gothic-no-3-d', arial, sans-serif;
+	text-transform: uppercase;
+}
+
+#cart tr:first-child th {border-top:0px;}
+
+#cart td,#cart th,#totals td
+{
+	vertical-align: top;
+	border-top: 1px solid #ececec;
+	padding: 12px 12px 12px 0;
+}
+
+#totals .totals td,#totals .totals th { border-top: 0px; }
+#cart .share-row td {border-top:0px;padding-top:0;}
+
+#cart input.qty {width: 2em;}
+
+#cart th.delete { text-align: center;}
+#cart td.delete
+{
+	font-family: omnes-pro, helvetica, sans-serif;
+	font-weight: 900;
+	text-align: center;
+}
+
+#cart .coupon-row td,#cart .coupon-row th { padding-bottom: 0px; }
+#cart .grand-total td,#cart .grand-total th { padding-top: 0px; }
+
+#fieldblock-coupon
+{
+	display: inline-block;
+	width: 120px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px 2em;
+}
+
+.form-buttons
+{
+	clear:both;
+	font-size: 13px;
+	text-align: right;
+	vertical-align: middle;
+	font-weight: 600;
+}
+
+.form-buttons button {vertical-align: middle;margin-left: 40px;}
+
+#apply-coupon { margin-right: ;}
+
+a[href]:after {
+	display:none!important;
+}

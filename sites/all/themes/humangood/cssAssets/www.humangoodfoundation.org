@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en-US" >
+<head>
+		<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="format-detection" content="telephone=no"><title>Human Good Foundation &#8211; Just another WordPress site</title>
+<script type="text/javascript">var ajaxurl = "https://www.humangoodfoundation.org/wp-admin/admin-ajax.php";</script>
+		<style id="critical-path-css" type="text/css">
+			body,html{width:100%;height:100%;margin:0;padding:0}.page-preloader{top:0;left:0;z-index:999;position:fixed;height:100%;width:100%;text-align:center}.preloader-preview-area{-webkit-animation-delay:-.2s;animation-delay:-.2s;top:50%;-webkit-transform:translateY(100%);-ms-transform:translateY(100%);transform:translateY(100%);margin-top:10px;max-height:calc(50% - 20px);opacity:1;width:100%;text-align:center;position:absolute}.preloader-logo{max-width:90%;top:50%;-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%);margin:-10px auto 0 auto;max-height:calc(50% - 20px);opacity:1;position:relative}.ball-pulse>div{width:15px;height:15px;border-radius:100%;margin:2px;-webkit-animation-fill-mode:both;animation-fill-mode:both;display:inline-block;-webkit-animation:ball-pulse .75s infinite cubic-bezier(.2,.68,.18,1.08);animation:ball-pulse .75s infinite cubic-bezier(.2,.68,.18,1.08)}.ball-pulse>div:nth-child(1){-webkit-animation-delay:-.36s;animation-delay:-.36s}.ball-pulse>div:nth-child(2){-webkit-animation-delay:-.24s;animation-delay:-.24s}.ball-pulse>div:nth-child(3){-webkit-animation-delay:-.12s;animation-delay:-.12s}@-webkit-keyframes ball-pulse{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}45%{-webkit-transform:scale(.1);transform:scale(.1);opacity:.7}80%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes ball-pulse{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}45%{-webkit-transform:scale(.1);transform:scale(.1);opacity:.7}80%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}.ball-clip-rotate-pulse{position:relative;-webkit-transform:translateY(-15px) translateX(-10px);-ms-transform:translateY(-15px) translateX(-10px);transform:translateY(-15px) translateX(-10px);display:inline-block}.ball-clip-rotate-pulse>div{-webkit-animation-fill-mode:both;animation-fill-mode:both;position:absolute;top:0;left:0;border-radius:100%}.ball-clip-rotate-pulse>div:first-child{height:36px;width:36px;top:7px;left:-7px;-webkit-animation:ball-clip-rotate-pulse-scale 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;animation:ball-clip-rotate-pulse-scale 1s 0s cubic-bezier(.09,.57,.49,.9) infinite}.ball-clip-rotate-pulse>div:last-child{position:absolute;width:50px;height:50px;left:-16px;top:-2px;background:0 0;border:2px solid;-webkit-animation:ball-clip-rotate-pulse-rotate 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;animation:ball-clip-rotate-pulse-rotate 1s 0s cubic-bezier(.09,.57,.49,.9) infinite;-webkit-animation-duration:1s;animation-duration:1s}@-webkit-keyframes ball-clip-rotate-pulse-rotate{0%{-webkit-transform:rotate(0) scale(1);transform:rotate(0) scale(1)}50%{-webkit-transform:rotate(180deg) scale(.6);transform:rotate(180deg) scale(.6)}100%{-webkit-transform:rotate(360deg) scale(1);transform:rotate(360deg) scale(1)}}@keyframes ball-clip-rotate-pulse-rotate{0%{-webkit-transform:rotate(0) scale(1);transform:rotate(0) scale(1)}50%{-webkit-transform:rotate(180deg) scale(.6);transform:rotate(180deg) scale(.6)}100%{-webkit-transform:rotate(360deg) scale(1);transform:rotate(360deg) scale(1)}}@-webkit-keyframes ball-clip-rotate-pulse-scale{30%{-webkit-transform:scale(.3);transform:scale(.3)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes ball-clip-rotate-pulse-scale{30%{-webkit-transform:scale(.3);transform:scale(.3)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes square-spin{25%{-webkit-transform:perspective(100px) rotateX(180deg) rotateY(0);transform:perspective(100px) rotateX(180deg) rotateY(0)}50%{-webkit-transform:perspective(100px) rotateX(180deg) rotateY(180deg);transform:perspective(100px) rotateX(180deg) rotateY(180deg)}75%{-webkit-transform:perspective(100px) rotateX(0) rotateY(180deg);transform:perspective(100px) rotateX(0) rotateY(180deg)}100%{-webkit-transform:perspective(100px) rotateX(0) rotateY(0);transform:perspective(100px) rotateX(0) rotateY(0)}}@keyframes square-spin{25%{-webkit-transform:perspective(100px) rotateX(180deg) rotateY(0);transform:perspective(100px) rotateX(180deg) rotateY(0)}50%{-webkit-transform:perspective(100px) rotateX(180deg) rotateY(180deg);transform:perspective(100px) rotateX(180deg) rotateY(180deg)}75%{-webkit-transform:perspective(100px) rotateX(0) rotateY(180deg);transform:perspective(100px) rotateX(0) rotateY(180deg)}100%{-webkit-transform:perspective(100px) rotateX(0) rotateY(0);transform:perspective(100px) rotateX(0) rotateY(0)}}.square-spin{display:inline-block}.square-spin>div{-webkit-animation-fill-mode:both;animation-fill-mode:both;width:50px;height:50px;-webkit-animation:square-spin 3s 0s cubic-bezier(.09,.57,.49,.9) infinite;animation:square-spin 3s 0s cubic-bezier(.09,.57,.49,.9) infinite}.cube-transition{position:relative;-webkit-transform:translate(-25px,-25px);-ms-transform:translate(-25px,-25px);transform:translate(-25px,-25px);display:inline-block}.cube-transition>div{-webkit-animation-fill-mode:both;animation-fill-mode:both;width:15px;height:15px;position:absolute;top:-5px;left:-5px;-webkit-animation:cube-transition 1.6s 0s infinite ease-in-out;animation:cube-transition 1.6s 0s infinite ease-in-out}.cube-transition>div:last-child{-webkit-animation-delay:-.8s;animation-delay:-.8s}@-webkit-keyframes cube-transition{25%{-webkit-transform:translateX(50px) scale(.5) rotate(-90deg);transform:translateX(50px) scale(.5) rotate(-90deg)}50%{-webkit-transform:translate(50px,50px) rotate(-180deg);transform:translate(50px,50px) rotate(-180deg)}75%{-webkit-transform:translateY(50px) scale(.5) rotate(-270deg);transform:translateY(50px) scale(.5) rotate(-270deg)}100%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg)}}@keyframes cube-transition{25%{-webkit-transform:translateX(50px) scale(.5) rotate(-90deg);transform:translateX(50px) scale(.5) rotate(-90deg)}50%{-webkit-transform:translate(50px,50px) rotate(-180deg);transform:translate(50px,50px) rotate(-180deg)}75%{-webkit-transform:translateY(50px) scale(.5) rotate(-270deg);transform:translateY(50px) scale(.5) rotate(-270deg)}100%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg)}}.ball-scale>div{border-radius:100%;margin:2px;-webkit-animation-fill-mode:both;animation-fill-mode:both;display:inline-block;height:60px;width:60px;-webkit-animation:ball-scale 1s 0s ease-in-out infinite;animation:ball-scale 1s 0s ease-in-out infinite}@-webkit-keyframes ball-scale{0%{-webkit-transform:scale(0);transform:scale(0)}100%{-webkit-transform:scale(1);transform:scale(1);opacity:0}}@keyframes ball-scale{0%{-webkit-transform:scale(0);transform:scale(0)}100%{-webkit-transform:scale(1);transform:scale(1);opacity:0}}.line-scale>div{-webkit-animation-fill-mode:both;animation-fill-mode:both;display:inline-block;width:5px;height:50px;border-radius:2px;margin:2px}.line-scale>div:nth-child(1){-webkit-animation:line-scale 1s -.5s infinite cubic-bezier(.2,.68,.18,1.08);animation:line-scale 1s -.5s infinite cubic-bezier(.2,.68,.18,1.08)}.line-scale>div:nth-child(2){-webkit-animation:line-scale 1s -.4s infinite cubic-bezier(.2,.68,.18,1.08);animation:line-scale 1s -.4s infinite cubic-bezier(.2,.68,.18,1.08)}.line-scale>div:nth-child(3){-webkit-animation:line-scale 1s -.3s infinite cubic-bezier(.2,.68,.18,1.08);animation:line-scale 1s -.3s infinite cubic-bezier(.2,.68,.18,1.08)}.line-scale>div:nth-child(4){-webkit-animation:line-scale 1s -.2s infinite cubic-bezier(.2,.68,.18,1.08);animation:line-scale 1s -.2s infinite cubic-bezier(.2,.68,.18,1.08)}.line-scale>div:nth-child(5){-webkit-animation:line-scale 1s -.1s infinite cubic-bezier(.2,.68,.18,1.08);animation:line-scale 1s -.1s infinite cubic-bezier(.2,.68,.18,1.08)}@-webkit-keyframes line-scale{0%{-webkit-transform:scaley(1);transform:scaley(1)}50%{-webkit-transform:scaley(.4);transform:scaley(.4)}100%{-webkit-transform:scaley(1);transform:scaley(1)}}@keyframes line-scale{0%{-webkit-transform:scaley(1);transform:scaley(1)}50%{-webkit-transform:scaley(.4);transform:scaley(.4)}100%{-webkit-transform:scaley(1);transform:scaley(1)}}.ball-scale-multiple{position:relative;-webkit-transform:translateY(30px);-ms-transform:translateY(30px);transform:translateY(30px);display:inline-block}.ball-scale-multiple>div{border-radius:100%;-webkit-animation-fill-mode:both;animation-fill-mode:both;margin:2px;position:absolute;left:-30px;top:0;opacity:0;margin:0;width:50px;height:50px;-webkit-animation:ball-scale-multiple 1s 0s linear infinite;animation:ball-scale-multiple 1s 0s linear infinite}.ball-scale-multiple>div:nth-child(2){-webkit-animation-delay:-.2s;animation-delay:-.2s}.ball-scale-multiple>div:nth-child(3){-webkit-animation-delay:-.2s;animation-delay:-.2s}@-webkit-keyframes ball-scale-multiple{0%{-webkit-transform:scale(0);transform:scale(0);opacity:0}5%{opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:0}}@keyframes ball-scale-multiple{0%{-webkit-transform:scale(0);transform:scale(0);opacity:0}5%{opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:0}}.ball-pulse-sync{display:inline-block}.ball-pulse-sync>div{width:15px;height:15px;border-radius:100%;margin:2px;-webkit-animation-fill-mode:both;animation-fill-mode:both;display:inline-block}.ball-pulse-sync>div:nth-child(1){-webkit-animation:ball-pulse-sync .6s -.21s infinite ease-in-out;animation:ball-pulse-sync .6s -.21s infinite ease-in-out}.ball-pulse-sync>div:nth-child(2){-webkit-animation:ball-pulse-sync .6s -.14s infinite ease-in-out;animation:ball-pulse-sync .6s -.14s infinite ease-in-out}.ball-pulse-sync>div:nth-child(3){-webkit-animation:ball-pulse-sync .6s -70ms infinite ease-in-out;animation:ball-pulse-sync .6s -70ms infinite ease-in-out}@-webkit-keyframes ball-pulse-sync{33%{-webkit-transform:translateY(10px);transform:translateY(10px)}66%{-webkit-transform:translateY(-10px);transform:translateY(-10px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes ball-pulse-sync{33%{-webkit-transform:translateY(10px);transform:translateY(10px)}66%{-webkit-transform:translateY(-10px);transform:translateY(-10px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}.transparent-circle{display:inline-block;border-top:.5em solid rgba(255,255,255,.2);border-right:.5em solid rgba(255,255,255,.2);border-bottom:.5em solid rgba(255,255,255,.2);border-left:.5em solid #fff;-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-animation:transparent-circle 1.1s infinite linear;animation:transparent-circle 1.1s infinite linear;width:50px;height:50px;border-radius:50%}.transparent-circle:after{border-radius:50%;width:10em;height:10em}@-webkit-keyframes transparent-circle{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes transparent-circle{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.ball-spin-fade-loader{position:relative;top:-10px;left:-10px;display:inline-block}.ball-spin-fade-loader>div{width:15px;height:15px;border-radius:100%;margin:2px;-webkit-animation-fill-mode:both;animation-fill-mode:both;position:absolute;-webkit-animation:ball-spin-fade-loader 1s infinite linear;animation:ball-spin-fade-loader 1s infinite linear}.ball-spin-fade-loader>div:nth-child(1){top:25px;left:0;animation-delay:-.84s;-webkit-animation-delay:-.84s}.ball-spin-fade-loader>div:nth-child(2){top:17.05px;left:17.05px;animation-delay:-.72s;-webkit-animation-delay:-.72s}.ball-spin-fade-loader>div:nth-child(3){top:0;left:25px;animation-delay:-.6s;-webkit-animation-delay:-.6s}.ball-spin-fade-loader>div:nth-child(4){top:-17.05px;left:17.05px;animation-delay:-.48s;-webkit-animation-delay:-.48s}.ball-spin-fade-loader>div:nth-child(5){top:-25px;left:0;animation-delay:-.36s;-webkit-animation-delay:-.36s}.ball-spin-fade-loader>div:nth-child(6){top:-17.05px;left:-17.05px;animation-delay:-.24s;-webkit-animation-delay:-.24s}.ball-spin-fade-loader>div:nth-child(7){top:0;left:-25px;animation-delay:-.12s;-webkit-animation-delay:-.12s}.ball-spin-fade-loader>div:nth-child(8){top:17.05px;left:-17.05px;animation-delay:0s;-webkit-animation-delay:0s}@-webkit-keyframes ball-spin-fade-loader{50%{opacity:.3;-webkit-transform:scale(.4);transform:scale(.4)}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}@keyframes ball-spin-fade-loader{50%{opacity:.3;-webkit-transform:scale(.4);transform:scale(.4)}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}		</style>
+
+		<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Human Good Foundation &raquo; Feed" href="https://www.humangoodfoundation.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Human Good Foundation &raquo; Comments Feed" href="https://www.humangoodfoundation.org/comments/feed/" />
+
+<link rel="shortcut icon" href="https://www.humangoodfoundation.org/wp-content/uploads/2017/06/humangood-favicon.png"  />
+<script type="text/javascript">window.abb = {};php = {};window.PHP = {};PHP.ajax = "https://www.humangoodfoundation.org/wp-admin/admin-ajax.php";PHP.wp_p_id = "30";var mk_header_parallax, mk_banner_parallax, mk_page_parallax, mk_footer_parallax, mk_body_parallax;var mk_images_dir = "https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/images",mk_theme_js_path = "https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/js",mk_theme_dir = "https://www.humangoodfoundation.org/wp-content/themes/jupiter",mk_captcha_placeholder = "Enter Captcha",mk_captcha_invalid_txt = "Invalid. Try again.",mk_captcha_correct_txt = "Captcha correct.",mk_responsive_nav_width = 1140,mk_vertical_header_back = "Back",mk_vertical_header_anim = "1",mk_check_rtl = true,mk_grid_width = 1140,mk_ajax_search_option = "toolbar",mk_preloader_bg_color = "#fff",mk_accent_color = "#a3a3a3",mk_go_to_top =  "true",mk_smooth_scroll =  "true",mk_preloader_bar_color = "#a3a3a3",mk_preloader_logo = "";var mk_header_parallax = false,mk_banner_parallax = false,mk_footer_parallax = false,mk_body_parallax = false,mk_no_more_posts = "No More Posts",mk_typekit_id   = "lru1gmc",mk_google_fonts = [],mk_global_lazyload = true;</script><link rel='stylesheet' id='rs-plugin-settings-css'  href='https://www.humangoodfoundation.org/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.7.4' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='theme-styles-css'  href='https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/stylesheet/min/full-styles.6.1.5.css?ver=1533306326' type='text/css' media='all' />
+<style id='theme-styles-inline-css' type='text/css'>
+body { background-color:#fff; } .hb-custom-header #mk-page-introduce, .mk-header { background:-webkit-linear-gradient(left,#ffea54 0%, #ed7195 100%);background:linear-gradient(to right,#ffea54 0%, #ed7195 100%) } .hb-custom-header > div, .mk-header-bg { background-color:#ffffff;background-repeat:no-repeat;background-position:center center;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover; } .mk-classic-nav-bg { background-color:#ffffff;background-repeat:no-repeat;background-position:center center;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover; } .master-holder-bg { background-color:#fff; } #mk-footer { background:-webkit-linear-gradient(left,#ffea54 0%, #ed7195 100%);background:linear-gradient(to right,#ffea54 0%, #ed7195 100%) } #mk-boxed-layout { -webkit-box-shadow:0 0 px rgba(0, 0, 0, ); -moz-box-shadow:0 0 px rgba(0, 0, 0, ); box-shadow:0 0 px rgba(0, 0, 0, ); } .mk-news-tab .mk-tabs-tabs .is-active a, .mk-fancy-title.pattern-style span, .mk-fancy-title.pattern-style.color-gradient span:after, .page-bg-color { background-color:#fff; } .page-title { font-size:20px; color:#4d4d4d; text-transform:uppercase; font-weight:600; letter-spacing:2px; } .page-subtitle { font-size:14px; line-height:100%; color:#a3a3a3; font-size:14px; text-transform:none; } .header-style-1 .mk-header-padding-wrapper, .header-style-2 .mk-header-padding-wrapper, .header-style-3 .mk-header-padding-wrapper { padding-top:81px; } .mk-process-steps[max-width~="950px"] ul::before { display:none !important; } .mk-process-steps[max-width~="950px"] li { margin-bottom:30px !important; width:100% !important; text-align:center; } .mk-event-countdown-ul[max-width~="750px"] li { width:90%; display:block; margin:0 auto 15px; } .compose-mode .vc_element-name .vc_btn-content { height:auto !important; } body { font-family:"ff-ernestine-web-pro",serif } body, .mk-footer-copyright { font-family:"futura-pt",sans-serif } h1, h2, h3, h4, h5, h6 { font-family:"ff-ernestine-web-pro",serif } @font-face { font-family:'star'; src:url('https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot'); src:url('https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.eot?#iefix') format('embedded-opentype'), url('https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.woff') format('woff'), url('https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.ttf') format('truetype'), url('https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/stylesheet/fonts/star/font.svg#star') format('svg'); font-weight:normal; font-style:normal; } @font-face { font-family:'WooCommerce'; src:url('https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot'); src:url('https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.eot?#iefix') format('embedded-opentype'), url('https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.woff') format('woff'), url('https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.ttf') format('truetype'), url('https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/stylesheet/fonts/woocommerce/font.svg#WooCommerce') format('svg'); font-weight:normal; font-style:normal; }body #my_iframe {height:946px !important;} @font-face { font-family:'Archer'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-Light.eot?t=1495146260654'); src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-Light.eot?#iefix&t=1495146260654') format('embedded-opentype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/Archer-Light.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/WOFF/Archer-Light.woff?t=1495146260654') format('woff'); font-weight:200; font-style:normal; } @font-face { font-family:'Archer'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-LightItalic.eot?t=1495146260654'); src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-LightItalic.eot?#iefix&t=1495146260654') format('embedded-opentype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/Archer-LightItal.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/WOFF/Archer-LightItalic.woff?t=1495146260654') format('woff'); font-weight:200; font-style:italic; } @font-face { font-family:'Archer'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-Book.eot?t=1495146260654'); src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-Book.eot?#iefix&t=1495146260654') format('embedded-opentype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/Archer-Book.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/WOFF/Archer-Book.woff?t=1495146260654') format('woff'); font-weight:300; font-style:normal; } @font-face { font-family:'Archer'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-BookItalic.eot?t=1495146260654'); src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-BookItalic.eot?#iefix&t=1495146260654') format('embedded-opentype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/Archer-BookItal.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/WOFF/Archer-BookItalic.woff?t=1495146260654') format('woff'); font-weight:300; font-style:italic; } @font-face { font-family:'Archer'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-Medium.eot?t=1495146260654').eot'); src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-Medium.eot?#iefix&t=1495146260654') format('embedded-opentype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/Archer-Medium.otf?t=1495146260654') format('truetype', url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/WOFF/Archer-Medium.woff?t=1495146260654') format('woff')); font-weight:400; font-style:normal; } @font-face { font-family:'Archer'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-MediumItalic.eot?t=1495146260654'); src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-MediumItalic.eot?#iefix&t=1495146260654') format('embedded-opentype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/Archer-MediumItal.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/WOFF/Archer-MediumItalic.woff?t=1495146260654') format('woff'); font-weight:400; font-style:italic; } @font-face { font-family:'Archer'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-Semibold.eot?t=1495146260654'); src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-Semibold.eot?#iefix&t=1495146260654') format('embedded-opentype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/Archer-Semibold.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/WOFF/Archer-Semibold.woff?t=1495146260654') format('woff'); font-weight:500; font-style:normal; } @font-face { font-family:'Archer'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-SemiboldItalic.eot?t=1495146260654'); src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-SemiboldItalic.eot?#iefix&t=1495146260654'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/Archer-SembdItal.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/WOFF/Archer-SemiboldItalic.woff?t=1495146260654') format('woff'); font-weight:500; font-style:italic; } @font-face { font-family:'Archer'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-Bold.eot?t=1495146260654'); src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-Bold.eot?#iefix&t=1495146260654'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/Archer-Bold.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/WOFF/Archer-Bold.woff?t=1495146260654') format('woff'); font-weight:600; font-style:normal; } @font-face { font-family:'Archer'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-BoldItalic.eot?t=1495146260654'); src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/EOT/Archer-BoldItalic.eot?#iefix&t=1495146260654'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/Archer-BoldItal.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Archer/WOFF/Archer-BoldItalic.woff?t=1495146260654') format('woff'); font-weight:600; font-style:italic; } @font-face { font-family:'FuturaPro'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/Linotype%20-%20FuturaLTPro-Light.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/WOFF/FuturaLTPro-Light.woff?t=1495146260654') format('woff'); font-weight:200; font-style:normal; } @font-face { font-family:'FuturaPro'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/Linotype%20-%20FuturaLTPro-LightOblique.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/WOFF/FuturaLTPro-LightOblique.woff?t=1495146260654') format('woff'); font-weight:200; font-style:italic; } @font-face { font-family:'FuturaPro'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/Linotype%20-%20FuturaLTPro-Book.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/WOFF/FuturaLTPro-Book.woff?t=1495146260654') format('woff'); font-weight:300; font-style:normal; } @font-face { font-family:'FuturaPro'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/Linotype%20-%20FuturaLTPro-BookOblique.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/WOFF/FuturaLTPro-BookOblique.woff?t=1495146260654') format('woff'); font-weight:300; font-style:italic; } @font-face { font-family:'FuturaPro'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/Linotype%20-%20FuturaLTPro-Heavy.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/WOFF/FuturaLTPro-Heavy.woff?t=1495146260654') format('woff'); font-weight:400; font-style:normal; } @font-face { font-family:'FuturaPro'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/Linotype%20-%20FuturaLTPro-XBold.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/WOFF/FuturaLTPro-XBold.woff?t=1495146260654') format('woff'); font-weight:500; font-style:normal; } @font-face { font-family:'FuturaPro'; src:url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/Linotype%20-%20FuturaLTPro-XBoldOblique.otf?t=1495146260654') format('truetype'), url('https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/fonts/Futura%20Pro/WOFF/FuturaLTPro-XBoldOblique.woff?t=1495146260654') format('woff'); font-weight:500; font-style:italic; } img { max-width:100%; border:0; -ms-interpolation-mode:bicubic; vertical-align:bottom; } video { max-width:100%; height:auto; } .hs-responsive-embed { position:relative; height:auto; overflow:hidden; padding-top:0; padding-left:0; padding-right:0; } .hs-responsive-embed iframe, .hs-responsive-embed object, .hs-responsive-embed embed { width:100%; height:100%; border:0; } .hs-responsive-embed, .hs-responsive-embed.hs-responsive-embed-youtube, .hs-responsive-embed.hs-responsive-embed-wistia, .hs-responsive-embed.hs-responsive-embed-vimeo { padding-bottom:2%; } .hs-responsive-embed.hs-responsive-embed-instagram { padding-bottom:116.01%; } .hs-responsive-embed.hs-responsive-embed-pinterest { height:auto; overflow:visible; padding:0; } .hs-responsive-embed.hs-responsive-embed-pinterest iframe { position:static; width:auto; height:auto; } iframe[src^="http://www.slideshare.net/slideshow/embed_code/"] { width:100%; max-width:100%; } @media (max-width:568px) { iframe { max-width:100%; } } textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], select { padding:6px; display:inline-block; width:100%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; } .hs-menu-wrapper ul { padding:0; } .hs-menu-wrapper.hs-menu-flow-horizontal ul { list-style:none; margin:0; } .hs-menu-wrapper.hs-menu-flow-horizontal > ul { display:inline-block; margin-bottom:20px; } .hs-menu-wrapper.hs-menu-flow-horizontal > ul:before { content:" "; display:table; } .hs-menu-wrapper.hs-menu-flow-horizontal > ul:after { content:" "; display:table; clear:both; } .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-menu-depth-1 { float:left; } .hs-menu-wrapper.hs-menu-flow-horizontal > ul li a { display:inline-block; padding:10px 20px; white-space:nowrap; max-width:140px; overflow:hidden; text-overflow:ellipsis; text-decoration:none; } .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children { position:relative; } .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper { visibility:hidden; opacity:0; -webkit-transition:opacity 0.4s; position:absolute; z-index:10; left:0; } .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper li a { display:block; white-space:nowrap; width:140px; overflow:hidden; text-overflow:ellipsis; } .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper li.hs-item-has-children ul.hs-menu-children-wrapper { left:180px; top:0; } .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children:hover > ul.hs-menu-children-wrapper { opacity:1; visibility:visible; } .row-fluid-wrapper:last-child .hs-menu-wrapper.hs-menu-flow-horizontal > ul { margin-bottom:0; } .hs-menu-wrapper.hs-menu-flow-horizontal.hs-menu-show-active-branch { position:relative; margin-bottom:20px; min-height:7em; } .hs-menu-wrapper.hs-menu-flow-horizontal.hs-menu-show-active-branch > ul { margin-bottom:0; } .hs-menu-wrapper.hs-menu-flow-horizontal.hs-menu-show-active-branch > ul li.hs-item-has-children { position:static; } .hs-menu-wrapper.hs-menu-flow-horizontal.hs-menu-show-active-branch > ul li.hs-item-has-children ul.hs-menu-children-wrapper { display:none; } .hs-menu-wrapper.hs-menu-flow-horizontal.hs-menu-show-active-branch > ul li.hs-item-has-children.active-branch > ul.hs-menu-children-wrapper { display:block; visibility:visible; opacity:1; } .hs-menu-wrapper.hs-menu-flow-horizontal.hs-menu-show-active-branch > ul li.hs-item-has-children.active-branch > ul.hs-menu-children-wrapper:before { content:" "; display:table; } .hs-menu-wrapper.hs-menu-flow-horizontal.hs-menu-show-active-branch > ul li.hs-item-has-children.active-branch > ul.hs-menu-children-wrapper:after { content:" "; display:table; clear:both; } .hs-menu-wrapper.hs-menu-flow-horizontal.hs-menu-show-active-branch > ul li.hs-item-has-children.active-branch > ul.hs-menu-children-wrapper > li { float:left; } .hs-menu-wrapper.hs-menu-flow-horizontal.hs-menu-show-active-branch > ul li.hs-item-has-children.active-branch > ul.hs-menu-children-wrapper > li a { display:inline-block; padding:10px 20px; white-space:nowrap; max-width:140px; width:auto; overflow:hidden; text-overflow:ellipsis; text-decoration:none; } .hs-menu-wrapper.hs-menu-flow-vertical { width:100%; } .hs-menu-wrapper.hs-menu-flow-vertical ul { list-style:none; margin:0; } .hs-menu-wrapper.hs-menu-flow-vertical li a { display:block; white-space:nowrap; width:140px; overflow:hidden; text-overflow:ellipsis; } .hs-menu-wrapper.hs-menu-flow-vertical > ul { margin-bottom:20px; } .hs-menu-wrapper.hs-menu-flow-vertical > ul li.hs-menu-depth-1 > a { width:auto; } .hs-menu-wrapper.hs-menu-flow-vertical > ul li a { padding:10px 20px; text-decoration:none; } .hs-menu-wrapper.hs-menu-flow-vertical > ul li.hs-item-has-children { position:relative; } .hs-menu-wrapper.hs-menu-flow-vertical > ul li.hs-item-has-children ul.hs-menu-children-wrapper { visibility:hidden; opacity:0; -webkit-transition:opacity 0.4s; position:absolute; z-index:10; top:0; left:180px; } .hs-menu-wrapper.hs-menu-flow-vertical > ul li.hs-item-has-children:hover > ul.hs-menu-children-wrapper { opacity:1; visibility:visible; } .hs-menu-wrapper.hs-menu-flow-vertical.hs-menu-show-active-branch li a { min-width:140px; width:auto; } .hs-menu-wrapper.hs-menu-flow-vertical.hs-menu-show-active-branch > ul { max-width:100%; overflow:hidden; } .hs-menu-wrapper.hs-menu-flow-vertical.hs-menu-show-active-branch > ul li.hs-item-has-children ul.hs-menu-children-wrapper { display:none; } .hs-menu-wrapper.hs-menu-flow-vertical.hs-menu-show-active-branch > ul li.hs-item-has-children.active-branch > ul.hs-menu-children-wrapper, .hs-menu-wrapper.hs-menu-flow-vertical.hs-menu-show-active-branch > ul li.hs-item-has-children.active-branch > ul.hs-menu-children-wrapper > li.hs-item-has-children > ul.hs-menu-children-wrapper { display:block; visibility:visible; opacity:1; position:static; } .hs-menu-wrapper.hs-menu-flow-vertical.hs-menu-show-active-branch li.hs-menu-depth-2 > a { padding-left:4em; } .hs-menu-wrapper.hs-menu-flow-vertical.hs-menu-show-active-branch li.hs-menu-depth-3 > a { padding-left:6em; } .hs-menu-wrapper.hs-menu-flow-vertical.hs-menu-show-active-branch li.hs-menu-depth-4 > a { padding-left:8em; } .hs-menu-wrapper.hs-menu-flow-vertical.hs-menu-show-active-branch li.hs-menu-depth-5 > a { padding-left:140px; } .hs-menu-wrapper.hs-menu-not-show-active-branch li.hs-menu-depth-1 ul { box-shadow:0px 1px 3px rgba(0, 0, 0, 0.18); -webkit-box-shadow:0px 1px 3px rgba(0, 0, 0, 0.18); -moz-box-shadow:0px 1px 3px rgba(0, 0, 0, 0.18); } @media (max-width:568px) { .hs-menu-wrapper, .hs-menu-wrapper * { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; display:block; width:100%; } .hs-menu-wrapper.hs-menu-flow-horizontal ul { list-style:none; margin:0; display:block; } .hs-menu-wrapper.hs-menu-flow-horizontal > ul { display:block; } .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-menu-depth-1 { float:none; } .hs-menu-wrapper.hs-menu-flow-horizontal > ul li a, .hs-menu-wrapper.hs-menu-flow-horizontal > ul li.hs-item-has-children ul.hs-menu-children-wrapper li a, .hs-menu-wrapper.hs-menu-flow-horizontal.hs-menu-show-active-branch > ul li.hs-item-has-children.active-branch > ul.hs-menu-children-wrapper > li a { display:block; max-width:100%; width:100%; } } .hs-menu-wrapper.hs-menu-flow-vertical.no-flyouts > ul li.hs-item-has-children ul.hs-menu-children-wrapper, .hs-menu-wrapper.hs-menu-flow-horizontal.no-flyouts > ul li.hs-item-has-children ul.hs-menu-children-wrapper { visibility:visible; opacity:1; } .widget-type-space { visibility:hidden; } .hs-author-listing-header { margin:0 0 .75em 0; } .hs-author-social-links { display:inline-block; } .hs-author-social-links a.hs-author-social-link { width:24px; height:24px; border-width:0px; border:0px; line-height:24px; background-size:24px 24px; background-repeat:no-repeat; display:inline-block; text-indent:-99999px; } .hs-author-social-links a.hs-author-social-link.hs-social-facebook { background-image:url("//static.hubspot.com/final/img/common/icons/social/facebook-24x24.png"); } .hs-author-social-links a.hs-author-social-link.hs-social-linkedin { background-image:url("//static.hubspot.com/final/img/common/icons/social/linkedin-24x24.png"); } .hs-author-social-links a.hs-author-social-link.hs-social-twitter { background-image:url("//static.hubspot.com/final/img/common/icons/social/twitter-24x24.png"); } .hs-author-social-links a.hs-author-social-link.hs-social-google-plus { background-image:url("//static.hubspot.com/final/img/common/icons/social/googleplus-24x24.png"); } .hs_cos_wrapper_type_image_slider { display:block; overflow:hidden } .hs_cos_flex-container a:active, .hs_cos_flex-slider a:active, .hs_cos_flex-container a:focus, .hs_cos_flex-slider a:focus {outline:none;} .hs_cos_flex-slides, .hs_cos_flex-control-nav, .hs_cos_flex-direction-nav {margin:0; padding:0; list-style:none;} .hs_cos_flex-slider {margin:0; padding:0;} .hs_cos_flex-slider .hs_cos_flex-slides > li {display:none; -webkit-backface-visibility:hidden; position:relative;} .hs_cos_flex-slider .hs_cos_flex-slides img {width:100%; display:block; border-radius:0px;} .hs_cos_flex-pauseplay span {text-transform:capitalize;} .hs_cos_flex-slides:after {content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0;} html[xmlns] .hs_cos_flex-slides {display:block;} * html .hs_cos_flex-slides {height:1%;} .hs_cos_flex-slider {margin:0 0 60px; background:#fff; border:0; position:relative; -webkit-border-radius:4px; -moz-border-radius:4px; -o-border-radius:4px; border-radius:4px; zoom:1;} .hs_cos_flex-viewport {max-height:2000px; -webkit-transition:all 1s ease; -moz-transition:all 1s ease; transition:all 1s ease;} .loading .hs_cos_flex-viewport {max-height:300px;} .hs_cos_flex-slider .hs_cos_flex-slides {zoom:1;} .carousel li {margin-right:5px} .hs_cos_flex-direction-nav {*height:0;} .hs_cos_flex-direction-nav a {width:30px; height:30px; margin:-20px 0 0; display:block; background:url(//static.hsappstatic.net/content_shared_assets/static-1.3935/img/bg_direction_nav.png) no-repeat 0 0; position:absolute; top:50%; z-index:10; cursor:pointer; text-indent:-9999px; opacity:0; -webkit-transition:all .3s ease;} .hs_cos_flex-direction-nav .hs_cos_flex-next {background-position:100% 0; right:-36px; } .hs_cos_flex-direction-nav .hs_cos_flex-prev {left:-36px;} .hs_cos_flex-slider:hover .hs_cos_flex-next {opacity:0.8; right:5px;} .hs_cos_flex-slider:hover .hs_cos_flex-prev {opacity:0.8; left:5px;} .hs_cos_flex-slider:hover .hs_cos_flex-next:hover, .hs_cos_flex-slider:hover .hs_cos_flex-prev:hover {opacity:1;} .hs_cos_flex-direction-nav .hs_cos_flex-disabled {opacity:.3!important; filter:alpha(opacity=30); cursor:default;} .hs_cos_flex_thumbnavs-direction-nav { margin:0px; padding:0px; list-style:none; } .hs_cos_flex_thumbnavs-direction-nav {*height:0;} .hs_cos_flex_thumbnavs-direction-nav a {width:30px; height:140px; margin:-60px 0 0; display:block; background:url(//static.hsappstatic.net/content_shared_assets/static-1.3935/img/bg_direction_nav.png) no-repeat 0 40%; position:absolute; top:50%; z-index:10; cursor:pointer; text-indent:-9999px; opacity:1; -webkit-transition:all .3s ease;} .hs_cos_flex_thumbnavs-direction-nav .hs_cos_flex_thumbnavs-next {background-position:100% 40%; right:0px; } .hs_cos_flex_thumbnavs-direction-nav .hs_cos_flex_thumbnavs-prev {left:0px;} .hs-cos-flex-slider-control-panel img { cursor:pointer; } .hs-cos-flex-slider-control-panel img:hover { opacity:.8; } .hs-cos-flex-slider-control-panel { margin-top:-30px; } .hs_cos_flex-control-nav {width:100%; position:absolute; bottom:-40px; text-align:center;} .hs_cos_flex-control-nav li {margin:0 6px; display:inline-block; zoom:1; *display:inline;} .hs_cos_flex-control-paging li a {width:11px; height:11px; display:block; background:#666; background:rgba(0,0,0,0.5); cursor:pointer; text-indent:-9999px; -webkit-border-radius:20px; -moz-border-radius:20px; -o-border-radius:20px; border-radius:20px; box-shadow:inset 0 0 3px rgba(0,0,0,0.3);} .hs_cos_flex-control-paging li a:hover { background:#333; background:rgba(0,0,0,0.7); } .hs_cos_flex-control-paging li a.hs_cos_flex-active { background:#000; background:rgba(0,0,0,0.9); cursor:default; } .hs_cos_flex-control-thumbs {margin:5px 0 0; position:static; overflow:hidden;} .hs_cos_flex-control-thumbs li {width:25%; float:left; margin:0;} .hs_cos_flex-control-thumbs img {width:100%; display:block; opacity:.7; cursor:pointer;} .hs_cos_flex-control-thumbs img:hover {opacity:1;} .hs_cos_flex-control-thumbs .hs_cos_flex-active {opacity:1; cursor:default;} @media screen and (max-width:860px) { .hs_cos_flex-direction-nav .hs_cos_flex-prev {opacity:1; left:0;} .hs_cos_flex-direction-nav .hs_cos_flex-next {opacity:1; right:0;} } .hs_cos_flex-slider .caption { background-color:rgba(0,0,0,0.5); position:absolute; font-size:2em; line-height:1.1em; color:white; padding:0px 5% 0px 5%; width:100%; bottom:0; text-align:center; } .hs_cos_flex-slider .superimpose .caption { color:white; font-size:3em; line-height:1.1em; position:absolute; padding:0px 5% 0px 5%; width:90%; top:40%; text-align:center; background-color:transparent; } @media all and (max-width:400px) { .hs_cos_flex-slider .superimpose .caption { background-color:black; position:static; font-size:2em; line-height:1.1em; color:white; width:90%; padding:0px 5% 0px 5%; top:40%; text-align:center; } #recaptcha_area table#recaptcha_table {width:300px !important;} #recaptcha_area table#recaptcha_table .recaptcha_r1_c1 {width:300px !important;} #recaptcha_area table#recaptcha_table .recaptcha_r4_c4 { width:67px !important;} #recaptcha_area table#recaptcha_table #recaptcha_image {width:280px !important;} } .hs_cos_flex-slider h1, .hs_cos_flex-slider h2, .hs_cos_flex-slider h3, .hs_cos_flex-slider h4, .hs_cos_flex-slider h5, .hs_cos_flex-slider h6, .hs_cos_flex-slider p { color:white; } .hs-gallery-thumbnails li { display:inline-block; margin:0px; padding:0px; margin-right:-4px; } .hs-gallery-thumbnails.fixed-height li img { max-height:150px; margin:0px; padding:0px; border-width:0px; } pre { overflow-x:auto; } table pre { white-space:pre-wrap; } .comment { margin:10px 0 10px 0; } .hs_cos_wrapper_type_rich_text, .hs_cos_wrapper_type_text, .hs_cos_wrapper_type_header, .hs_cos_wrapper_type_section_header, .hs_cos_wrapper_type_raw_html, .hs_cos_wrapper_type_raw_jinja, .hs_cos_wrapper_type_page_footer { word-wrap:break-word; } article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display:block; } audio, canvas, video { display:inline-block; *display:inline; *zoom:1; } audio:not([controls]) { display:none; } .wp-float-left { float:left; margin:0 20px 20px 0; } .wp-float-right { float:right; margin:0 0 20px 20px; } #map_canvas img, .google-maps img { max-width:none; } #recaptcha_table td {line-height:0;} .recaptchatable #recaptcha_response_field {min-height:0;line-height:12px;} a { -webkit-transition:all .3s ease; -moz-transition:all .3s ease; -o-transition:all .3s ease; -ms-transition:all .3s ease; transition:all .3s ease; } a:hover { -webkit-transition:all .3s ease; -moz-transition:all .3s ease; -o-transition:all .3s ease; -ms-transition:all .3s ease; transition:all .3s ease; } .header-container-wrapper { display:none; } .body-container-wrapper { max-width:100%; padding:0px; } .top-banner { background-image:url(https://cdn2.hubspot.net/hubfs/138300/Coming%20Soon%20Page/hero_image.jpg?t=1495146260654); background-size:cover; background-position:center center; text-align:center; padding:200px 20px 10px; font-family:'Archer', sans-serif; } .top-banner .logo-image{ max-width:335px; width:100%; } .top-banner p { color:white; font-family:'Archer'; font-size:22px; text-transform:uppercase; margin-bottom:10px; font-weight:400; } .top-banner h1 { max-width:760px; margin:16px auto; color:white; font-size:50px; font-family:'Archer'; font-weight:400; } a.watch-button { background:#FFAC82; border:1px solid #FFAC82;; color:white; text-transform:uppercase; padding:8px 24px; display:inline-block; margin:0 auto; margin-top:20px; border-radius:5px; font-family:'FuturaPro'; font-style:normal; font-weight:300; font-size:16px; } a.watch-button:hover { -webkit-transition:all .3s ease; -moz-transition:all .3s ease; -o-transition:all .3s ease; -ms-transition:all .3s ease; transition:all .3s ease; background:white; color:#FFAC82; } img.down-arrow { display:inline-block; margin-top:100px; margin-bottom:20px; } .main-text { text-align:center; padding:120px 20px 0px 20px; max-width:850px; width:100% !important; margin:0 auto !important; float:none !important; } .main-text p { color:#5C5D61; font-family:'FuturaPro'; } .main-text h2 { font-family:'Archer'; font-weight:400; font-size:50px; color:#5C5D61; margin-top:10px; } .main-text img { max-width:378px; width:100%; font-size:24px; } .page-center { margin:0 auto !important; padding:0px 20px; max-width:850px; float:none !important; } .footer-container-wrapper { background:#F5F5F5; padding:50px 0px; } .right-footer { text-align:center; } .right-footer p { color:#9F9F9F; font-size:14px; font-family:'FuturaPro'; } .right-footer img { max-width:240px; } .left-footer { text-align:center; } .left-footer img { max-width:240px; } @media(max-width:767px){ .top-banner h1 { font-size:39px; line-height:1; } .main-text h2 { font-size:35px; } .main-text { padding-top:40px; } .top-banner { padding-top:50px; } }
+</style>
+<link rel='stylesheet' id='mkhb-render-css'  href='https://www.humangoodfoundation.org/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-render.css?ver=6.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='mkhb-row-css'  href='https://www.humangoodfoundation.org/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-row.css?ver=6.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='mkhb-column-css'  href='https://www.humangoodfoundation.org/wp-content/themes/jupiter/header-builder/includes/assets/css/mkhb-column.css?ver=6.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://www.humangoodfoundation.org/wp-content/plugins/js_composer_theme/assets/css/js_composer.min.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-options-css'  href='https://www.humangoodfoundation.org/wp-content/uploads/mk_assets/theme-options-production-1533307271.css?ver=1533306768' type='text/css' media='all' />
+<link rel='stylesheet' id='mk-style-css'  href='https://www.humangoodfoundation.org/wp-content/themes/jupiter-child/style.css?ver=4.9.8' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/js/plugins/wp-enqueue/min/webfontloader.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+WebFontConfig = {
+	timeout: 2000
+}
+
+if ( mk_typekit_id.length > 0 ) {
+	WebFontConfig.typekit = {
+		id: mk_typekit_id
+	}
+}
+
+if ( mk_google_fonts.length > 0 ) {
+	WebFontConfig.google = {
+		families:  mk_google_fonts
+	}
+}
+
+if ( (mk_google_fonts.length > 0 || mk_typekit_id.length > 0) && navigator.userAgent.indexOf("Speed Insights") == -1) {
+	WebFont.load( WebFontConfig );
+}
+		
+</script>
+<script type='text/javascript' src='https://www.humangoodfoundation.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.humangoodfoundation.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.humangoodfoundation.org/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.7.4'></script>
+<script type='text/javascript' src='https://www.humangoodfoundation.org/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.7.4'></script>
+<script type='text/javascript' src='https://www.humangoodfoundation.org/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/jq-sticky-anything.min.js?ver=2.1.1'></script>
+<link rel='https://api.w.org/' href='https://www.humangoodfoundation.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.humangoodfoundation.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.humangoodfoundation.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel="canonical" href="https://www.humangoodfoundation.org/" />
+<link rel='shortlink' href='https://www.humangoodfoundation.org/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.humangoodfoundation.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.humangoodfoundation.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.humangoodfoundation.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.humangoodfoundation.org%2F&#038;format=xml" />
+<script> var isTest = false; </script><meta itemprop="author" content="" /><meta itemprop="datePublished" content="June 27, 2017" /><meta itemprop="dateModified" content="July 4, 2017" /><meta itemprop="publisher" content="Human Good Foundation" /><meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://www.humangoodfoundation.org/wp-content/plugins/js_composer_theme/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.7.4 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'lru1gmc',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<!-- BEGIN ExactMetrics v5.3.5 Universal Analytics - https://exactmetrics.com/ -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-102218906-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- END ExactMetrics Universal Analytics -->
+<script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+		<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.widget .mk-searchform .text-input
+input[type=email],input[type=password],input[type=search],input[type=tel],input[type=text],textarea {
+ font-size:18px;
+}
+		</style>
+	<meta name="generator" content="Jupiter Child Theme " /><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	</head>
+
+<body class="home page-template-default page page-id-30 wpb-js-composer js-comp-ver-5.2.1 vc_responsive" itemscope="itemscope" itemtype="https://schema.org/WebPage"  data-adminbar="">
+
+
+	
+	<div class="mk-body-loader-overlay page-preloader" style="background-color:#fff;"> <div class="preloader-preview-area">  <div class="ball-spin-fade-loader">
+                            <div style="background-color: #7c7c7c"></div>
+                            <div style="background-color: #7c7c7c"></div>
+                            <div style="background-color: #7c7c7c"></div>
+                            <div style="background-color: #7c7c7c"></div>
+                            <div style="background-color: #7c7c7c"></div>
+                            <div style="background-color: #7c7c7c"></div>
+                            <div style="background-color: #7c7c7c"></div>
+                            <div style="background-color: #7c7c7c"></div>
+                        </div>  </div></div>
+	<!-- Target for scroll anchors to achieve native browser bahaviour + possible enhancements like smooth scrolling -->
+	<div id="top-of-page"></div>
+
+		<div id="mk-boxed-layout">
+
+			<div id="mk-theme-container" >
+
+				 
+    <header data-height='80'
+                data-sticky-height='55'
+                data-responsive-height='90'
+                data-transparent-skin=''
+                data-header-style='1'
+                data-sticky-style='fixed'
+                data-sticky-offset='header' id="mk-header-1" class="mk-header header-style-1 header-align-left  toolbar-false menu-hover-2 sticky-style-fixed mk-background-stretch boxed-header " role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader" >
+                    <div class="mk-header-holder">
+                                <div class="mk-header-inner add-header-height">
+
+                    <div class="mk-header-bg mk-background-stretch"></div>
+
+                    
+                                                <div class="mk-grid header-grid">
+                    
+                            <div class="mk-header-nav-container one-row-style menu-hover-style-2" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" >
+                                <nav class="mk-main-navigation js-main-nav"><ul id="menu-primarymain" class="main-navigation-ul"><li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page no-mega-menu"><a class="menu-item-link js-smooth-scroll"  href="https://www.humangoodfoundation.org/who-we-serve/">Who We Serve</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page no-mega-menu"><a class="menu-item-link js-smooth-scroll"  href="https://www.humangoodfoundation.org/about-us/">About Us</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page no-mega-menu"><a class="menu-item-link js-smooth-scroll"  href="https://www.humangoodfoundation.org/ways-to-give/">Ways To Give</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page no-mega-menu"><a class="menu-item-link js-smooth-scroll"  href="https://www.humangoodfoundation.org/recognition/">Recognition</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page no-mega-menu"><a class="menu-item-link js-smooth-scroll"  href="https://www.humangoodfoundation.org/news/">News</a></li>
+<li id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page no-mega-menu"><a class="menu-item-link js-smooth-scroll"  href="https://www.humangoodfoundation.org/contact-us/">Contact</a></li>
+</ul></nav>                            </div>
+                            
+<div class="mk-nav-responsive-link">
+    <div class="mk-css-icon-menu">
+        <div class="mk-css-icon-menu-line-1"></div>
+        <div class="mk-css-icon-menu-line-2"></div>
+        <div class="mk-css-icon-menu-line-3"></div>
+    </div>
+</div>	<div class=" header-logo fit-logo-img add-header-height logo-is-responsive ">
+		<a href="https://www.humangoodfoundation.org/" title="Human Good Foundation">
+
+			<img class="mk-desktop-logo dark-logo "
+				title="Just another WordPress site"
+				alt="Just another WordPress site"
+				src="https://www.humangoodfoundation.org/wp-content/uploads/2017/06/logo_hg_foundation-400x42.png" />
+
+							<img class="mk-desktop-logo light-logo "
+					title="Just another WordPress site"
+					alt="Just another WordPress site"
+					src="https://www.humangoodfoundation.org/wp-content/uploads/2017/06/logo_hg_foundation_color-white-1000x104.png" />
+			
+							<img class="mk-resposnive-logo "
+					title="Just another WordPress site"
+					alt="Just another WordPress site"
+					src="https://www.humangoodfoundation.org/wp-content/uploads/2017/06/logo_hg_foundation-250x26.png" />
+			
+					</a>
+	</div>
+
+                                            </div>
+                    
+                    <div class="mk-header-right">
+                                            </div>
+
+                </div>
+                
+<div class="mk-responsive-wrap">
+
+	<nav class="menu-primarymain-container"><ul id="menu-primarymain-1" class="mk-responsive-nav"><li id="responsive-menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://www.humangoodfoundation.org/who-we-serve/">Who We Serve</a></li>
+<li id="responsive-menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://www.humangoodfoundation.org/about-us/">About Us</a></li>
+<li id="responsive-menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://www.humangoodfoundation.org/ways-to-give/">Ways To Give</a></li>
+<li id="responsive-menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://www.humangoodfoundation.org/recognition/">Recognition</a></li>
+<li id="responsive-menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://www.humangoodfoundation.org/news/">News</a></li>
+<li id="responsive-menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page"><a class="menu-item-link js-smooth-scroll"  href="https://www.humangoodfoundation.org/contact-us/">Contact</a></li>
+</ul></nav>
+			<form class="responsive-searchform" method="get" action="https://www.humangoodfoundation.org/">
+		    <input type="text" class="text-input" value="" name="s" id="s" placeholder="Search.." />
+		    <i><input value="" type="submit" /><svg  class="mk-svg-icon" data-name="mk-icon-search" data-cacheid="icon-5b8ea6ef77849" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1664 1792"><path d="M1152 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/></svg></i>
+		</form>
+		
+
+</div>
+        
+            </div>
+        
+        <div class="mk-header-padding-wrapper"></div>
+ 
+                
+    </header>
+
+		<div id="theme-page" class="master-holder  clearfix" itemscope=&quot;itemscope&quot; itemtype=&quot;https://schema.org/Blog&quot; >
+			<div class="master-holder-bg-holder">
+				<div id="theme-page-bg" class="master-holder-bg js-el"  ></div>
+			</div>
+			<div class="mk-main-wrapper-holder">
+				<div id="mk-page-id-30" class="theme-page-wrapper mk-main-wrapper mk-grid full-layout false">
+					<div class="theme-content false" itemprop="mainEntityOfPage">
+							
+<div  data-mk-stretch-content="true" class="wpb_row vc_row vc_row-fluid  mk-fullwidth-false  attched-false     js-master-row  mk-grid">
+				
+<div class="vc_col-sm-12 wpb_column column_container   _ height-full">
+	<link href="https://fonts.googleapis.com/css?family=Sanchez:400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+<div id="rev_slider_3_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+<!-- START REVOLUTION SLIDER 5.4.7.4 auto mode -->
+	<div id="rev_slider_3_1" class="rev_slider fullwidthabanner tp-overflow-hidden" style="display:none;" data-version="5.4.7.4">
+<ul>	<!-- SLIDE  -->
+	<li data-index="rs-11" data-transition="parallaxtoright" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://www.humangoodfoundation.org/wp-content/uploads/2017/06/thinkstockphotos-122401191-3000x2000-bw.jpg"  alt="" title="thinkstockphotos-122401191-3000&#215;2000-bw"  width="3000" height="2000" data-bgposition="right center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="15" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-11-layer-1" 
+			 data-x="212" 
+			 data-y="305" 
+						data-width="['auto']"
+			data-height="['auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"x:left;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:right;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5; white-space: nowrap; font-size: 36px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Sanchez;">Everyone should have the opportunity </div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-11-layer-2" 
+			 data-x="211" 
+			 data-y="346" 
+						data-width="['auto']"
+			data-height="['auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"x:left;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:right;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; white-space: nowrap; font-size: 36px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Sanchez;">to live life with enthusiasm, confidence and security. </div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-12" data-transition="parallaxtoright" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://www.humangoodfoundation.org/wp-content/uploads/2017/06/thinkstockphotos-546197006-3000x2000-bw.jpg"  alt="" title="thinkstockphotos-546197006-3000&#215;2000-bw"  width="3000" height="2000" data-bgposition="left top" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="15" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-12-layer-1" 
+			 data-x="277" 
+			 data-y="385" 
+						data-width="['auto']"
+			data-height="['auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"x:left;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:right;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5; white-space: nowrap; font-size: 40px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Sanchez;">Our mission is to redefine </div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-12-layer-3" 
+			 data-x="281" 
+			 data-y="427" 
+						data-width="['auto']"
+			data-height="['auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; white-space: nowrap; font-size: 40px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Sanchez;">the meaning of aging well for older adults. </div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-13" data-transition="parallaxtoright" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://www.humangoodfoundation.org/wp-content/uploads/2017/06/thinkstockphotos-643324768-3000x2000-bw.jpg"  alt="" title="thinkstockphotos-643324768-3000&#215;2000-bw"  width="3000" height="2000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="15" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-13-layer-1" 
+			 data-x="221" 
+			 data-y="477" 
+						data-width="['auto']"
+			data-height="['auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"x:left;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:right;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5; white-space: nowrap; font-size: 50px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Sanchez;">With your support, we can do it. </div>
+	</li>
+</ul>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+				if(htmlDiv) {
+					htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+				}else{
+					var htmlDiv = document.createElement("div");
+					htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+					document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+				}
+			</script>
+		<script type="text/javascript">
+if (setREVStartSize!==undefined) setREVStartSize(
+	{c: '#rev_slider_3_1', gridwidth: [1240], gridheight: [600], sliderLayout: 'auto'});
+			
+var revapi3,
+	tpj;	
+(function() {			
+	if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded",onLoad); else onLoad();	
+	function onLoad() {				
+		if (tpj===undefined) { tpj = jQuery; if("off" == "on") tpj.noConflict();}
+	if(tpj("#rev_slider_3_1").revolution == undefined){
+		revslider_showDoubleJqueryError("#rev_slider_3_1");
+	}else{
+		revapi3 = tpj("#rev_slider_3_1").show().revolution({
+			sliderType:"standard",
+			jsFileLocation:"//www.humangoodfoundation.org/wp-content/plugins/revslider/public/assets/js/",
+			sliderLayout:"auto",
+			dottedOverlay:"none",
+			delay:5000,
+			navigation: {
+				onHoverStop:"off",
+			},
+			visibilityLevels:[1240,1024,778,480],
+			gridwidth:1240,
+			gridheight:600,
+			lazyType:"none",
+			scrolleffect: {
+				blur:"on",
+				maxblur:"30",
+			},
+			parallax: {
+				type:"mouse",
+				origo:"enterpoint",
+				speed:400,
+				speedbg:0,
+				speedls:0,
+				levels:[5,10,15,20,25,30,35,40,45,46,47,48,49,50,51,55],
+			},
+			shadow:0,
+			spinner:"spinner4",
+			stopLoop:"off",
+			stopAfterLoops:-1,
+			stopAtSlide:-1,
+			shuffle:"off",
+			autoHeight:"off",
+			disableProgressBar:"on",
+			hideThumbsOnMobile:"off",
+			hideSliderAtLimit:0,
+			hideCaptionAtLimit:0,
+			hideAllCaptionAtLilmit:0,
+			debugMode:false,
+			fallbacks: {
+				simplifyAll:"off",
+				nextSlideOnWindowFocus:"off",
+				disableFocusListener:false,
+			}
+		});
+	}; /* END OF revapi call */
+	
+ }; /* END OF ON LOAD FUNCTION */
+}()); /* END OF WRAPPING FUNCTION */
+</script>
+		<script>
+					var htmlDivCss = '	#rev_slider_3_1_wrapper .tp-loader.spinner4 div { background-color: #afafaf !important; } ';
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}
+					else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+					</script>
+					</div><!-- END REVOLUTION SLIDER --></div>
+	</div>
+
+<div  data-mk-stretch-content="true" class="wpb_row vc_row vc_row-fluid  mk-fullwidth-false  attched-false     js-master-row  mk-grid">
+				
+<div class="vc_col-sm-12 wpb_column column_container   _ height-full">
+	<div class="vc_empty_space"   style="height: 32px" ><span class="vc_empty_space_inner"></span></div>
+</div>
+	</div>
+
+<div  data-mk-stretch-content="true" class="wpb_row vc_row vc_row-fluid  mk-fullwidth-false  attched-false     js-master-row  mk-grid">
+				
+<div class="vc_col-sm-4 wpb_column column_container   _ height-full">
+	<div  class="mk-image mk-image-5   align-left  mk-animate-element bottom-to-top simple-frame inside-image " style="margin-bottom:10px"><div class="mk-image-container" style="max-width: 800px;"><div  class="mk-image-holder" style="max-width: 800px;"><div class="mk-image-inner  "><a href="https://www.humangoodfoundation.org/about-us/" target="_self" class="mk-image-link"><img class="lightbox-false" alt="homepage" title="homepage" width="800" height="500" src="https://www.humangoodfoundation.org/wp-content/uploads/bfi_thumb/thinkstockphotos-200436364-001-1333x1000-nao8wluw6gbvpcfl658ekcp9apgncon75oji1vmlxk.jpg" /></a></div></div><div class="clearboth"></div></div></div>
+<div id="text-block-6" class="mk-text-block  mk-animate-element bottom-to-top   ">
+
+	
+	<p>Your gifts can help us transform the future of aging by funding programs and facilities. Learn more about our mission, vision and team.</p>
+
+	<div class="clearboth"></div>
+</div>
+
+
+<div id="mk-button-7" class="mk-button-container _ relative    block text-center ">
+
+	
+		<a href="https://www.humangoodfoundation.org/about-us/" target="_self" class="mk-button js-smooth-scroll mk-button--dimension-flat mk-button--size-medium mk-button--corner-pointed text-color-dark _ relative text-center font-weight-700 no-backface  letter-spacing-1 inline"><span class="mk-button--text">More</span></a>
+
+	
+</div>
+</div>
+
+<div class="vc_col-sm-4 wpb_column column_container   _ height-full">
+	<div  class="mk-image mk-image-9   align-left  mk-animate-element bottom-to-top simple-frame inside-image " style="margin-bottom:10px"><div class="mk-image-container" style="max-width: 800px;"><div  class="mk-image-holder" style="max-width: 800px;"><div class="mk-image-inner  "><a href="https://www.humangoodfoundation.org/who-we-serve/" target="_self" class="mk-image-link"><img class="lightbox-false" alt="homepage" title="homepage" width="800" height="500" src="https://www.humangoodfoundation.org/wp-content/uploads/bfi_thumb/thinkstockphotos-88749400-1333x1000-nasqsxwd6evp5mg9sh3m8lcfbacdgoq7t9bm5xwcco.jpg" /></a></div></div><div class="clearboth"></div></div></div>
+<div id="text-block-10" class="mk-text-block  mk-animate-element bottom-to-top   ">
+
+	
+	<p>We offer opportunities to support our mission in three areas: affordable housing, life plan communities and special initiatives.</p>
+
+	<div class="clearboth"></div>
+</div>
+
+
+<div id="mk-button-11" class="mk-button-container _ relative    block text-center ">
+
+	
+		<a href="https://www.humangoodfoundation.org/who-we-serve/" target="_self" class="mk-button js-smooth-scroll mk-button--dimension-flat mk-button--size-medium mk-button--corner-pointed text-color-dark _ relative text-center font-weight-700 no-backface  letter-spacing-1 inline"><span class="mk-button--text">More</span></a>
+
+	
+</div>
+</div>
+
+<div class="vc_col-sm-4 wpb_column column_container   _ height-full">
+	<div  class="mk-image mk-image-13   align-left  mk-animate-element bottom-to-top simple-frame inside-image " style="margin-bottom:10px"><div class="mk-image-container" style="max-width: 800px;"><div  class="mk-image-holder" style="max-width: 800px;"><div class="mk-image-inner  "><a href="https://www.humangoodfoundation.org/ways-to-give/" target="_self" class="mk-image-link"><img class="lightbox-false" alt="homepage" title="homepage" width="800" height="500" src="https://www.humangoodfoundation.org/wp-content/uploads/bfi_thumb/thinkstockphotos-518185878-1333x1000-nao91ryxrnenk4x8zdoja1qiwzzbor61v9pn2nynpk.jpg" /></a></div></div><div class="clearboth"></div></div></div>
+<div id="text-block-14" class="mk-text-block  mk-animate-element bottom-to-top   ">
+
+	
+	<p>There are many ways in which you can make a difference in the lives of older adults. We can help identify what makes financial sense for you.</p>
+
+	<div class="clearboth"></div>
+</div>
+
+
+<div id="mk-button-15" class="mk-button-container _ relative    block text-center ">
+
+	
+		<a href="https://www.humangoodfoundation.org/ways-to-give/" target="_self" class="mk-button js-smooth-scroll mk-button--dimension-flat mk-button--size-medium mk-button--corner-pointed text-color-dark _ relative text-center font-weight-700 no-backface  letter-spacing-1 inline"><span class="mk-button--text">More</span></a>
+
+	
+</div>
+</div>
+	</div>
+
+		<div class="clearboth"></div>
+									<div class="clearboth"></div>
+											</div>
+										<div class="clearboth"></div>
+				</div>
+			</div>
+					</div>
+
+
+<section id="mk-footer-unfold-spacer"></section>
+
+<section id="mk-footer" class=" mk-footer-unfold" role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/WPFooter" >
+		<div class="footer-wrapper mk-grid">
+		<div class="mk-padding-wrapper">
+					<div class=""></div>
+				<div class="clearboth"></div>
+		</div>
+	</div>
+		
+<div id="sub-footer">
+	<div class=" mk-grid">
+		
+		<span class="mk-footer-copyright">Copyright &copy; 2018 HumanGood. All rights reserved.</span>
+			</div>
+	<div class="clearboth"></div>
+</div>
+</section>
+</div>
+</div>
+
+<div class="bottom-corner-btns js-bottom-corner-btns">
+
+<a href="#top-of-page" class="mk-go-top  js-smooth-scroll js-bottom-corner-btn js-bottom-corner-btn--back">
+	<svg  class="mk-svg-icon" data-name="mk-icon-chevron-up" data-cacheid="icon-5b8ea6ef94b1d" style=" height:16px; width: 16px; "  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792"><path d="M1683 1331l-166 165q-19 19-45 19t-45-19l-531-531-531 531q-19 19-45 19t-45-19l-166-165q-19-19-19-45.5t19-45.5l742-741q19-19 45-19t45 19l742 741q19 19 19 45.5t-19 45.5z"/></svg></a>
+</div>
+
+
+
+
+	<style type='text/css'></style><style id="mk-shortcode-static-styles" type="text/css">   #text-block-6 { margin-bottom:0px; text-align:left; } #mk-button-7 { margin-bottom:15px; margin-top:0px; margin-right:15px; } #mk-button-7 .mk-button span{ letter-spacing:2px; margin-right:-2px; display:inline-block; } #mk-button-7 .mk-button { display:inline-block; max-width:100%; } #mk-button-7 .mk-button { background-color:#90d7ef; } #mk-button-7 .mk-button:hover { color:#ffffff !important; background-color:#00b3ef; } #mk-button-7 .mk-button:hover .mk-svg-icon { color:#ffffff !important; }  #text-block-10 { margin-bottom:0px; text-align:left; } #mk-button-11 { margin-bottom:15px; margin-top:0px; margin-right:15px; } #mk-button-11 .mk-button span{ letter-spacing:2px; margin-right:-2px; display:inline-block; } #mk-button-11 .mk-button { display:inline-block; max-width:100%; } #mk-button-11 .mk-button { background-color:#90d7ef; } #mk-button-11 .mk-button:hover { color:#ffffff !important; background-color:#00b3ef; } #mk-button-11 .mk-button:hover .mk-svg-icon { color:#ffffff !important; }  #text-block-14 { margin-bottom:0px; text-align:left; } #mk-button-15 { margin-bottom:15px; margin-top:0px; margin-right:15px; } #mk-button-15 .mk-button span{ letter-spacing:2px; margin-right:-2px; display:inline-block; } #mk-button-15 .mk-button { display:inline-block; max-width:100%; } #mk-button-15 .mk-button { background-color:#90d7ef; } #mk-button-15 .mk-button:hover { color:#ffffff !important; background-color:#00b3ef; } #mk-button-15 .mk-button:hover .mk-svg-icon { color:#ffffff !important; }</style><script type="text/javascript">
+    php = {
+        hasAdminbar: false,
+        json: (null != null) ? null : "",
+        jsPath: 'https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/js'
+      };
+    </script>			<script type="text/javascript">
+				function revslider_showDoubleJqueryError(sliderID) {
+					var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+					errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+					errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+					errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+					errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+						jQuery(sliderID).show().html(errorMessage);
+				}
+			</script>
+			<script type='text/javascript'>
+/* <![CDATA[ */
+var sticky_anything_engage = {"element":"#mk-sidebar","topspace":"50","minscreenwidth":"0","maxscreenwidth":"999999","zindex":"1","legacymode":"","dynamicmode":"","debugmode":"","pushup":"","adminbar":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.humangoodfoundation.org/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/stickThis.js?ver=2.1.1'></script>
+<script type='text/javascript' src='https://www.humangoodfoundation.org/wp-content/themes/jupiter/assets/js/min/full-scripts.6.1.5.js?ver=1533306326'></script>
+<script type='text/javascript' src='https://www.humangoodfoundation.org/wp-content/themes/jupiter/header-builder/includes/assets/js/mkhb-render.js?ver=6.1.5'></script>
+<script type='text/javascript' src='https://www.humangoodfoundation.org/wp-content/themes/jupiter/header-builder/includes/assets/js/mkhb-column.js?ver=6.1.5'></script>
+<script type='text/javascript' src='https://www.humangoodfoundation.org/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://www.humangoodfoundation.org/wp-content/plugins/js_composer_theme/assets/js/dist/js_composer_front.min.js?ver=5.2.1'></script>
+<script type="text/javascript">	window.get = {};	window.get.captcha = function(enteredCaptcha) {
+                  return jQuery.get(ajaxurl, { action : "mk_validate_captcha_input", captcha: enteredCaptcha });
+              	};</script>
+	</body>
+</html>
+<!-- *´¨)
+     ¸.•´¸.•*´¨) ¸.•*¨)
+     (¸.•´ (¸.•` ¤ Comet Cache is Fully Functional ¤ ´¨) -->
+
+<!-- Cache File Version Salt:       n/a -->
+
+<!-- Cache File URL:                https://www.humangoodfoundation.org/ -->
+<!-- Cache File Path:               /cache/comet-cache/cache/https/www-humangoodfoundation-org/index.html -->
+
+<!-- Cache File Generated Via:      HTTP request -->
+<!-- Cache File Generated On:       Sep 4th, 2018 @ 3:38 pm UTC -->
+<!-- Cache File Generated In:       0.84201 seconds -->
+
+<!-- Cache File Expires On:         Sep 4th, 2018 @ 3:43 pm UTC -->
+<!-- Cache File Auto-Rebuild On:    Sep 4th, 2018 @ 3:43 pm UTC -->

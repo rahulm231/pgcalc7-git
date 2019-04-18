@@ -1,0 +1,18 @@
+.block:before, .block:after{
+	content:none;
+}
+
+.content{
+	padding:0px;
+}
+
+.region-content-body .node-landing-page .child-pages h2 a{
+	text-decoration:none;
+}
+
+@media only screen and (max-width: 999px) {
+	
+  .bec_subpage_sidebar_nav{
+  	display:none;
+  }
+}

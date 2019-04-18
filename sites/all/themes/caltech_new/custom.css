@@ -1,0 +1,11 @@
+@media only screen and (max-device-width: 1081px) {
+  #pgc-wrap-main, #pgc-region-main, .header-mobile{
+  	width:auto !important;
+  }
+  #pgc-wrap-main{
+  	margin:3px;
+  }
+  #pgc-region-sidebar{
+  	display:none;
+  }
+}

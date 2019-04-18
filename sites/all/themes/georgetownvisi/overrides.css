@@ -1,0 +1,255 @@
+.pg-content-body {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+}
+
+.pg-wrap h1 {
+  font-size: 45px;
+  line-height: 50px;
+  font-family: "Surveyor Text A", "Surveyor Text B", serif;
+  color: #006747;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+#main-menu li:hover {
+  color: #78be20;
+}
+
+#main-menu li a.active {
+  font-weight: bold;
+  color: #000000;
+}
+
+#main-menu ul {
+  padding-left: 10px;
+}
+
+#main-menu ul ul {
+  padding-left: 15px;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  background: #78be20;
+  color: #fff;
+  font-size: 1em;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+.pg-wrap table tr td {
+  color: #000;
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #006747;
+  padding: 20px;
+  behavior: url(/PIE.htc);
+  border-bottom: none;
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #ffe15e;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  color: #ffffff;
+}
+
+#pgc-contact-block li a:hover {
+  color: #ffe15e;
+  text-decoration: none;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  position: relative;
+  background: #ffe320;
+  background-image: url(../sites/default/files/GV_Logo_horiz_TRANSPARENT.png);
+  background-repeat: no-repeat;
+  background-position: 105% 100%;
+  padding: 10px 20px;
+  behavior: url(/PIE.htc);
+  border-bottom: none;
+  font-weight: 500;
+}
+
+#pgc-contact-footer-block li a {
+  color: #006747;
+}
+
+#pgc-contact-footer-block li a:hover {
+  color: #78be20;
+}
+
+#pgc_resource_block {
+  background: #ffe320;
+  padding: 15px 20px;
+  behavior: url(/PIE.htc);
+  border-left: none;
+  font-weight: 500;
+}
+
+#pgc_resource_block a {
+  color: #006747;
+}
+
+#pgc_resource_block a:hover {
+  color: #78be20;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #fff;
+  padding: 10px;
+  border-top: 1px dashed #aaaaaa;
+  border-bottom: 1px dashed #aaaaaa;
+  color: #006747;
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 10px 0;
+  text-transform: uppercase;
+  line-height: 40px;
+  behavior: url(/PIE.htc);
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: rgba(255, 227, 32, 0.2);
+  text-decoration: none;
+  color: #006747;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 33px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+  color: #78be20;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-size: 16px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .75px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  color: #999;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .75px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a:hover {
+  color: #78be20;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+  background: #78be20;
+  border-bottom: 8px solid #006747;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+  content: "\f0c9";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: -14px;
+  left: 5px;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+  content: "\f05c";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+
+.pgc-brochure-bg-top {
+  background-color: #ffe15e;
+}
+
+.pgc-brochure-header-text {
+  background: #006747;
+  color: #fff;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+}
+
+.pgc-brochure-logo {
+  margin-top:0px;
+}
+
+.pgc-brochure-title {
+  color: #006747;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color: #006747;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color: #006747;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+}
+
+.pgc-brochure-body {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+}
+
+.pgc-brochure-body-text ul {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color: #006747;
+}
+
+.pgc-brochure-footer-text {
+  color: #006747;
+  background-color: #ffe15e;
+}
+
+.pgc-brochure-footer-title {
+  color: #006747;
+  text-transform: uppercase;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+}
+
+span.pgc-brochure-footer-contact {
+  color: #006747;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #ffe15e;
+}
+

@@ -1,0 +1,125 @@
+
+/* ---------- General Layout ---------- */
+body,
+input,
+textarea,
+select {
+  color: #000;
+  background: none;
+}
+body.two-sidebars,
+body.sidebar-first,
+body.sidebar-second,
+#sidebar-first,
+#sidebar-second,
+.navigation,
+#toolbar,
+#footer-wrapper,
+.tabs,
+.add-or-remove-shortcuts {display: none; visibility:none;}
+.one-sidebar #content,.two-sidebars #content {width: 100%;}
+#triptych-wrapper {
+  width: 960px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+#triptych-first, #triptych-middle, #triptych-last {
+  width: 250px;
+}
+
+/* ---------- Node Pages ---------- */
+
+#comments .title,
+#comments form,
+.comment-forbidden {display: none; visibility:hidden;}
+
+/**
+ * @file
+ * Print styling
+ *
+ * We provide some sane print styling for Drupal using Zen's layout method.
+ */
+
+/* underline all links */
+a:link,
+a:visited {
+  text-decoration: underline !important;
+}
+
+/* Don't underline header */
+#site-name a:link,
+#site-name a:visited {
+  text-decoration: none !important;
+}
+
+/* CSS2 selector to add visible href after links */
+#content a:link:after,
+#content a:visited:after {
+  content: " (" attr(href) ") ";
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+/* Un-float the content */
+#content,
+#content .section {
+  float: none;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Turn off any background colors or images */
+
+
+/* Hide sidebars and nav elements */
+#skip-to-nav,
+#toolbar,
+#navigation,
+#header,
+#region-footer,
+.region-bottom,
+.region-highlighted,
+#block-boost-status,
+.region-sidebar-first,
+.region-sidebar-second,
+.region-footer,
+.breadcrumb,
+div.tabs,
+.action-links,
+.links,
+.book-navigation,
+.forum-topic-navigation,
+.pager,
+.feed-icons,
+#footer-columns-wrapper,
+#top-bar,
+#menu-bar,
+#page-title-wrapper, #footer-wrapper {
+  visibility: hidden;
+  display: none;
+}
+
+/* If you un-comment the "page { overflow-y: hidden; }" ruleset, Firefox clips
+   the content after the first page. */
+#page-wrapper {
+  overflow-y: hidden !important;}
+
+/* Display taxonomy terms  */
+.field-type-taxonomy-term-reference ul.links, .field-type-taxonomy-term-reference ul.links li {visibility:visible; display:block;}
+
+/* Ecards */
+div.node-cardcontent {margin:0; border:none; }
+#cardcontent #printlogo {display:block; visibility:visible; margin-left:170px; padding:0;}
+#printwrapper {margin-top:380px; padding:0; border:3px inset gray;}
+div#ecard-image {margin: 0; padding: 0;}
+div#ecard-body {margin:0; padding:0;}
+div#stamp {float:none; margin-left:130px; padding-top:5px;}
+.ecard {font-size:15px; line-height:1.3em; padding-top:15px;}
+.ecard .content {margin:0; padding:0; border:1px solid white;}
+h1#page-title {display:none;}
+#page {box-shadow: none;}
+div#ecard2 {margin-top: 0px; display:none; visibility:hidden;}
+#patientinfo {display:none; visibility:hidden;}
+

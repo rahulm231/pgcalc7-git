@@ -1,0 +1,20 @@
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+  background: #000000;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+  content: "\f0c9";
+  font-family: "FontAwesome";
+  font-size: 42px;
+  width: auto;
+  height: 10px;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+  content: "\f0c8";
+  font-family: "FontAwesome";
+  font-size: 42px;
+  width: auto;
+  height: 10px;
+}
+

@@ -1,0 +1,38 @@
+ul.social-icons li a.twitter {
+    background-position: 0px 0px;
+}
+
+ul.social-icons li a.facebook {
+    background-position: -64px 0px;
+}
+
+ul.social-icons li a.flickr {
+    background-position: -130px 0px;
+}
+
+ul.social-icons li a {
+    display: block;
+    height: 48px;
+    text-indent: -9999px;
+    border-radius:0px;
+    background: url(/sites/all/themes/genealogical/cssAssets/social-icons-sprite.png) no-repeat transparent;
+    outline: none medium;
+}
+
+.pg-content-body .field-item ul li, .accordion-items ul li{
+	background: url(/sites/all/themes/genealogical/cssAssets/gold-leaf.png) no-repeat 0 10px;
+	background-size: 20px;
+}
+
+
+@media only screen and (max-width: 999px) {
+	
+  .region-menu{
+  	display: none;
+  }
+
+  #main .content-block{
+  	width: 100%;
+    left: 0;
+  }
+}

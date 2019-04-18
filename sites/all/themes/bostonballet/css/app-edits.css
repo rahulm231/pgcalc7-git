@@ -1,0 +1,2294 @@
+/***************************************************
+**
+** Used for any changes after project completion
+**
+***************************************************/
+.noresult
+{
+    width: 100%;
+    text-align:center;
+}
+
+section.negative-image 
+{ 
+    padding-top: 11.5em; 
+}
+
+section.white
+{
+    padding-bottom: 12.2em !important;
+}
+
+.nav-calendar { float:right; position:relative; }
+
+header.home .inner .sticky-header .nav-calendar:after {
+          content: "";
+          display: block;
+          height: 0;
+          position: absolute;
+          right: 9rem;
+          width: 1.41rem;
+          top: 0.6rem;
+          height: 1.4rem;
+          background: url("/sites/all/themes/bostonballet/cssAssets/BB_Calendar_White.svg");
+          -webkit-background-size: cover;
+          background-size: cover;
+          opacity: 1;
+          }
+
+header .inner .sticky-container.headroom--not-top .sticky-header .nav-calendar:after {
+    width: 1.41rem;
+    background: url("/sites/all/themes/bostonballet/cssAssets/BB_Calendar_Black.svg");
+   -webkit-background-size: cover;
+   background-size: cover;
+  top: 1.1rem;
+  height: 1.4rem;
+}
+header .inner .sticky-header .nav-calendar:after {
+   content: "";
+   display: block;
+   position: absolute;
+   right: 9rem;
+   width: 1.41rem;
+  top: 1.2rem;
+  height: 1.4rem;
+   background: url(/sites/all/themes/bostonballet/cssAssets/BB_Calendar_Black.svg);
+   -webkit-background-size: cover;
+   background-size: cover;
+   opacity: 1;
+}
+header.white .inner .sticky-header .nav-calendar:after{
+     background: url("/sites/all/themes/bostonballet/cssAssets/BB_Calendar_White.svg");
+     -webkit-background-size: cover;
+     background-size: cover;
+}
+
+@media only screen and (max-width:737px) {
+  header.white .inner .sticky-header .nav-calendar:after,
+  header.home .inner .sticky-header .nav-calendar:after {
+       background: url("/sites/all/themes/bostonballet/cssAssets/BB_Calendar_Black.svg");
+       -webkit-background-size: cover;
+       background-size: cover;
+  }
+  header.home .inner .sticky-header .nav-calendar:after {
+    top: 1.15rem;
+  }
+}
+
+.nav-cart { float:right; position:relative; }
+
+header.home .inner .sticky-header .nav-cart:after {
+          content: "";
+          display: block;
+          height: 0;
+          position: absolute;
+          right: 7rem;
+          width: 1.5rem;
+          top: 0.7rem;
+          height: 1.25rem;
+          background: url("/sites/all/themes/bostonballet/cssAssets/Cart_White.svg");
+          -webkit-background-size: cover;
+          background-size: cover;
+          opacity: 1;
+          }
+
+header .inner .sticky-container.headroom--not-top .sticky-header .nav-cart:after {
+    width: 1.5rem;
+    background: url("/sites/all/themes/bostonballet/cssAssets/Cart_Black.svg");
+   -webkit-background-size: cover;
+   background-size: cover;
+  top: 1.15rem;
+  height: 1.25rem;
+}
+header .inner .sticky-header .nav-cart:after {
+   content: "";
+   display: block;
+   position: absolute;
+   right: 7rem;
+   width: 1.5rem;
+  top: 1.25rem;
+  height: 1.25rem;
+   background: url(/sites/all/themes/bostonballet/cssAssets/Cart_Black.svg);
+   -webkit-background-size: cover;
+   background-size: cover;
+   opacity: 1;
+}
+header.white .inner .sticky-header .nav-cart:after{
+     background: url("/sites/all/themes/bostonballet/cssAssets/Cart_White.svg");
+     -webkit-background-size: cover;
+     background-size: cover;
+}
+
+@media only screen and (max-width:737px) {
+  header.white .inner .sticky-header .nav-cart:after,
+  header.home .inner .sticky-header .nav-cart:after {
+       background: url("/sites/all/themes/bostonballet/cssAssets/Cart_Black.svg");
+       -webkit-background-size: cover;
+       background-size: cover;
+  }
+  header.home .inner .sticky-header .nav-cart:after {
+    top: 1.15rem;
+  }
+}
+
+.EditingFormErrorLabel, .subscriptionwizard .error, .InfoLabel
+{
+    display:inline-block;
+    margin-bottom:12px;
+    margin-top: -10px;
+    color: red;
+    font-weight:bold;
+}
+
+section.filters .top .inner ul
+{
+    min-width: 240px;
+}
+
+footer a:not(.button):visited {
+    color: #f1f1f1;
+}
+
+.carousellabel
+{
+    clear:both;
+}
+
+#videosList {
+/*  max-width: 600px;  */
+/*   overflow: hidden; */
+  display: inline-block;
+}
+
+#videosList {
+/*  max-width: 600px;  */
+/*   overflow: hidden; */
+  display: inline-block;
+}
+
+.vid-container {
+/*   background-image: url('/sites/all/themes/bostonballet/cssAssets/maxresdefault.jpg'); */
+/*   height: 100%; */
+  width: 100%;
+  position: relative;
+}
+
+input.form-control
+{
+    height:auto;
+}
+
+.vid-container.paused .video-overlay {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+.vid-container.paused .video-overlay:before,
+.vid-holder.video-callout .vid-container.paused .video-overlay:before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+.vid-container .vjs-default-skin .vjs-big-play-button {
+ display: none;
+}
+.vid-container .video-overlay:before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.vid-container.paused .video-overlay:after,
+.vid-holder.video-callout .vid-container.paused .video-overlay:after {
+    content: url('/sites/all/themes/bostonballet/cssAssets/play_vid_white.svg');
+    position: relative;
+    width: 5rem;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 99;
+}
+
+
+/*.video-js.thevideo {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+.video-js.thevideo.vjs-paused:before,
+.vid-holder.video-callout .video-js.thevideo.vjs-paused:before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+.vid-container .vjs-default-skin .vjs-big-play-button {
+ display: none;
+}
+.video-js.thevideo.vjs-playing:before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.video-js.thevideo.vjs-paused:after,
+.vid-holder.video-callout .video-js.thevideo.vjs-paused:after {
+    content: url('/sites/all/themes/bostonballet/cssAssets/play_vid_white.svg');
+    position: relative;
+    width: 5rem;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 99;
+}*/
+
+
+
+.vid-container.native-controls.paused .video-overlay:before,
+.vid-holder.video-callout .vid-container.native-controls.paused .video-overlay:before {
+     display: none;
+}
+.vid-container.native-controls .video-overlay:before {
+    display: none;
+}
+.vid-container.native-controls.paused .video-overlay:after,
+.vid-holder.video-callout .vid-container.native-controls.paused .video-overlay:after {
+     display: none;
+}
+
+/*.vid-container.video-js.thevideo.vjs-using-native-controls:before,
+.vid-holder.video-callout .vid-container.video-js.thevideo.vjs-using-native-controls:before {
+     display: none;
+}
+.vid-container.video-js.thevideo.vjs-using-native-controls:before {
+    display: none;
+}
+.vid-container.video-js.thevideo.vjs-using-native-controls:after,
+.vid-holder.video-callout .vid-container.video-js.thevideo.vjs-using-native-controls:after {
+     display: none;
+}*/
+
+/*.vid-container.playing .video-overlay:before,
+.vid-container.playing .video-overlay:after {
+  display: none;
+}*/
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+/*     display:none !important; */
+}
+.vid-container.playing video::-webkit-media-controls {
+/*     display:block !important; */
+}
+.vid-container .video-js .vjs-control-bar.external-controls-bar {
+  bottom: -50px;
+  z-index: 10;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: transparent;
+}
+.vid-container .video-js .vjs-control-bar.external-controls-bar .vjs-progress-control {
+  flex: 0 1 100%;
+  background: transparent;
+}
+.vid-container .video-js .vjs-control-bar.external-controls-bar .vjs-progress-control .vjs-play-progress {
+  background-color: #F94B16;
+}
+video {
+  width: 100%;
+}
+.vjs-control-bar {
+  z-index: 10;
+}
+.video-js {padding-top: 56.25%; width: 100% !important; height: auto !important;}
+.vjs-fullscreen {padding-top: 0px}
+.hide-me {
+  visibility: hidden;
+  display:none; /*fixes double scrollbars issue*/
+  top: 0;
+  height: 1px;
+}
+.hide-me-bts {
+   display: none; 
+  visibility: hidden;
+  /*position: absolute;*/
+  top: 0;
+}
+.modal-video .vjs-tech ~ .vjs-control-bar:not(.external-controls-bar) {
+  display: none;
+}
+.media-gallery {
+  cursor: pointer;
+}
+
+.video-callout-modal {
+    margin: 0 auto;
+}
+.video-callout-modal .socials {
+   /*margin-top: -2.8rem;*/
+   margin: -2.8rem auto 1rem auto;
+   display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -moz-flex;
+   display: -webkit-flex;
+   display: flex;
+   float: right;
+}
+.gallery-callout-modal .image-slider-callout-modal .socials{
+     margin: -1.8rem auto 1rem auto;
+     float: none; 
+     float:right;
+}
+.video-callout-modal ul.socials li,
+.image-slider-callout-modal ul.socials li {
+    float: left;
+    margin-right: 0.8rem;
+}
+.video-callout-modal ul,
+.image-slider-callout-modal ul {
+    list-style-type: none;
+}
+.video-callout-modal ul.socials li a span,
+.image-slider-callout-modal ul.socials li a span {
+    width: 41px;
+    height: 40px;
+    float: left;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    /*background: url("") no-repeat;*/
+}
+.social-vert span {
+    width: 33px;
+    height: 33px;
+    float: left;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    /* background: url("") no-repeat; */
+}
+.video-controls {
+  height: 25%;
+  display: block;
+  color: #fff;
+}
+.vid-container ~ .video-controls {
+  padding-top: 6rem;
+}
+.vid-container.native-controls ~ .video-controls {
+  padding-top: 0rem;
+}
+.image-slider-controls {
+  height: 25%;
+  padding-top: 6rem;
+  display: block;
+  color: #fff;
+}
+/* Added styles */
+section.posts .vid-holder.media-gallery:after {
+    /*content: url("");*/
+}
+.vid-holder {
+  width: 100%;
+}
+.position-relative {
+  position: relative;
+}
+.fancybox-overlay {
+  background: rgba(0, 0, 0, 0.875);
+}
+
+/* .vjs-fade-in,.vjs-fade-out {
+visibility: visible !important;
+opacity: 1 !important;
+transition-duration: 0s!important;
+} */
+.position-relative {
+  position: relative;
+}
+
+.slick-arrow {
+  z-index: 1000;
+}
+.fancybox-inner .slick-prev {
+    background: url("CarouselArrows_left-01.svg");
+    left: 0;
+    bottom: -5%;
+}
+.fancybox-inner .slick-next {
+    background: url("/sites/all/themes/bostonballet/cssAssets/CarouselArrows_right_white-01.svg");
+    left: 5%;
+    bottom: -5%;
+}
+.carousel .slick-prev:after {
+    content: url("/sites/all/themes/bostonballet/cssAssets/CarouselArrows_divider_white-01.svg");
+    position: absolute;
+    left: 1.9rem;
+    bottom: -0.65rem;
+    display: none;
+}
+section.story-slides .carousel .image-slider-controls .slick-prev:after {
+    content: '';
+}
+@media only screen and (max-width: 640px) 
+{
+    .fancybox-inner section .carousel .slick-prev {
+        left: 0 !important;
+    }
+
+    .slick-slide div.interior-image p.left
+    {
+        padding: 5px !important;
+    }
+
+    .slick-slide div.interior-image p.right
+    {
+        padding: 5px !important;
+    }
+
+}
+.fancy-modal{
+  background: transparent;
+  padding: 0;
+}
+section.story-slides.fancy-modal .carousel .item  .vid-holder {
+  margin-bottom: 0;
+}
+.video-section .video-js .vjs-tech {
+    position: relative;
+}
+.vid-container .video-js .vjs-tech {
+    position: relative;
+}
+.image-slider-controls {
+    padding-top: 1rem;
+}
+.image-slider-controls p {
+    color: #fff;
+}
+.image-slider-controls .bottom-nav {
+    padding-top: 1rem;
+}
+.image-slider-controls .date {
+    padding-top: 0.5rem;
+}
+.image-slider-controls .slider-nav {
+    display: block;
+    flex: 0 1 100%;
+}
+/*section.story-slides .carousel .item p:not(.credit):last-of-type {
+     margin-bottom: 0; 
+}*/
+section.story-slides .carousel .item p:not(.credit) {
+     padding: 0; 
+}
+.fancybox-inner .image-slider-callout-modal section.story-slides .carousel .item p.credit {
+    margin-bottom: 0.5rem;
+}
+
+.fancybox-inner .image-slider-callout-modal section.story-slides .carousel .slick-arrow {
+    bottom: -4%;
+
+}
+.fancybox-inner .image-slider-callout-modal section.story-slides .carousel .slick-prev {
+    left: 0;
+    display: inline-block !important;
+    position: relative;
+    vertical-align: middle;
+    background: url("/sites/all/themes/bostonballet/cssAssets/CarouselArrows_left_white-01.svg");
+}
+.fancybox-inner .image-slider-callout-modal section.story-slides .carousel .slick-next {
+    left: 0;
+    display: inline-block !important;
+    position: relative;
+    vertical-align: middle;
+    background: url("/sites/all/themes/bostonballet/cssAssets/CarouselArrows_right_white-01.svg") no-repeat;
+}
+.carousel .slick-prev:after {
+    position: absolute;
+    left: 1.9rem;
+    bottom: -0.65rem;
+    display: none;
+}
+.fancy-modal{
+  background: transparent;
+  padding: 0;
+}
+.fancy-modal section {
+  padding: none;
+}
+section.story-slides.fancy-modal .carousel .item  .vid-holder {
+  margin-bottom: 0;
+}
+.slick-counter {
+    position: relative;
+    display: inline-block;
+    bottom: -6.2%;
+    font-size: 1.2rem;
+    color: #aaa;
+    padding: 0 0.75rem;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+.fancybox-wrap .slick-counter {
+    color: #fff;
+}
+.fancybox-wrap .fancy-close{
+  display: inline-block;
+  position: relative;
+  margin-left: auto; 
+  margin-right: 0rem;
+  float:right;
+  background-size: cover;
+  line-height: 0;
+  right: 0;
+  height: 2rem;
+  width: 2rem;
+}
+.fancybox-wrap .fancy-close span {
+  font-size: 2em;
+  font-family: "Brown-Pro-Thin";
+  color: #fff;
+}
+.fancybox-inner .fancy-close:focus {outline:0;}
+
+.fancybox-wrap .media-title {
+    line-height: 1.2;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 0rem;
+}
+.fancybox-wrap .fancy-modal .carousel .media-modal-top .media-title {
+    margin-bottom: 0rem;
+    line-height: 1.2;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: left;
+}
+
+.fancybox-wrap .media-modal-top {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.clearfix::before, .clearfix::after {
+    content:"";
+    display:table;
+}
+.clearfix::after {
+    clear:both;
+}
+.clearfix {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+.clearboth {
+    clear: both;
+}
+ section .vid-holder:before {
+      background: rgba(0, 0, 0, 0);
+}
+ section .vid-holder:before {
+    z-index: 0;
+}
+section .vid-holder.media-gallery:before {
+      background: rgba(0, 0, 0, 0.6);
+}
+section.posts .vid-holder.video-callout:after {
+    display: none;
+}
+section.posts .vid-holder.media-gallery:after {
+      content: url("/sites/all/themes/bostonballet/cssAssets/play_gallery_white.svg");
+      width: 7rem;
+}
+section.large-grid .carousel.col1.white-left .vid-holder:after {
+    content: initial;
+}
+.image-slider-callout-modal .carousel.modal-slider .vid-holder:after {
+    content: initial;
+}
+.white-right .vid-holder {
+    margin: -8em 0 0 -2em;
+    z-index: 0;
+}
+.white-left .vid-holder {
+    margin: 0 0 -5em -2em;
+    z-index: 1;
+}
+section.newsletter input.submit-button {
+    margin: 3rem 0 0;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.error-text {
+    display: block;
+    text-align: center;
+    padding: .5rem;
+    color: #ff5544;
+}
+section.newsletter a.button {
+    margin: 1.5rem 0 0;
+}
+.notfound .search-icon {
+    color: transparent
+}
+video.image-back {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(/sites/all/themes/bostonballet/cssAssets/home-hero.jpg) no-repeat;background-size: contain
+    background-size: cover;
+}
+/*.small-wrap ul li .inner label span:before {
+    content: url("/sites/all/themes/bostonballet/cssAssets/unchecked.png");
+}
+.small-wrap ul li .inner input[type="radio"]:checked + label span:before {
+    content: url("/sites/all/themes/bostonballet/cssAssets/check.png");
+}*/
+.disable-click{
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.full-height {
+    min-height: 100%;
+}
+section.explore-bb .carousel .slick-prev:after {
+    display: inline-block;
+}
+section.story-slides .carousel .slick-prev:after {
+    display: inline-block;
+}
+.carousel .slick-prev:after {
+    display: inline-block;
+}
+section.large-grid .carousel.col1 .slick-prev:after {
+    width: 0.075rem;
+}
+
+object {
+    pointer-events: none;
+    position: relative;
+    display: inline-block; 
+}
+a.logo:after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+}
+a.logo {
+  position: relative; 
+}
+.carousel .slick-list a {
+    text-decoration: none;
+}
+
+footer ul.socials li a object {
+    width: 100%;
+}
+footer ul.socials li a img {
+    width: 100%;
+}
+body .nav-frame ul.socials li a span {
+    background: none;
+}
+.social-vert li a {
+    display: inline-block;
+}
+.social-horizontal a object {
+    width: 32px;
+    height: 31px;
+}
+
+section.large-grid .carousel.col1.white-right img.neg-bottom {
+    z-index: 101;
+    margin: -4em 0 0 -16.5em;
+}
+section.large-grid .carousel.col1.white-right img {
+    position: relative;
+    z-index: 99;
+}
+.search-box-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+body .nav-frame .socials.links {
+  margin-left: auto;
+}
+.carousel-wrapper {
+    position: relative;
+}
+section.large-grid.dates .carousel:last-of-type {
+     padding: 2.5rem 0 4rem;
+}
+@media only screen and (max-width: 640px) {
+    section .carousel .slick-arrow {
+        bottom: 11px;
+    }
+}
+body .nav-frame .fsearch {
+    color: transparent;
+}
+body .nav-frame ul.socials.links li:after {
+    content: '|';
+    color: #999;
+    margin: 0 0.75rem 0 1.25rem;
+    font-size: 2.5rem;
+    line-height: 0.5rem;
+    vertical-align: sub;
+    font-family: "Brown-Pro-Thin";
+}
+
+body .nav-frame ul.socials.links li:last-of-type:after,
+body .nav-frame ul.socials:not(.links) li:first-of-type:after {
+    content: '';
+    margin: 0;
+}
+body .nav-frame .search-box-container ul.socials li {
+    margin-right: 0.5rem;
+}
+body .nav-frame ul.socials.links {
+    margin-right:  1.5rem;
+}
+body .nav-frame .logo .bb-web-logo {
+	max-width: 11.25rem;
+}
+body .nav-frame .logo .bb-mobile-logo {
+	max-width: 1.4rem;
+}
+
+@media only screen and (max-width: 768px) {
+    body .nav-frame ul.socials.links li {
+        display: block;
+    }
+    body .nav-frame ul.socials.links li:first-of-type:after {
+        content: '|';
+        color: #999;
+        margin: 0 0.75rem 0 1.25rem;
+        font-size: 2.5rem;
+        line-height: 0.5rem;
+        vertical-align: sub;
+        font-family: "Brown-Pro-Thin";
+        display: inline;
+    }
+    body .nav-frame ul.socials li:nth-child(1) {
+        width: initial;
+    }
+    body .nav-frame ul.socials li:nth-child(2) {
+        width: initial;
+    }
+}
+
+footer .bottom .fsearch {
+    color: transparent;
+}
+body .nav-frame ul.main li a h1 {
+    text-transform: uppercase;
+}
+section.large-grid.dates .carousel {
+    margin-bottom: 1.75rem;
+}
+.slide-count-arrow {
+        display: inline !important;
+    }
+.slide-count-arrow {
+    display: none;
+}
+
+section.posts .left-line .vid-holder {
+    position: absolute;
+    margin: 0 0 -5em -2em;
+}
+section.posts .row > .large-4 {
+    min-height: 20rem;
+}
+section.large-grid .carousel.col1.white-left .item.left-line.slick-active .vid-holder {
+    bottom: initial;
+}
+section.large-grid .carousel.col1.white-left.multi-slide .item.video {
+        padding: 9em 0 3em;
+}
+section.large-grid .carousel.col1.white-left.multi-slide .item.photo {
+    padding: 0 0 3em;
+}
+section.explore-bb .carousel .slick-next {
+    z-index: 1999;
+}
+section.explore-bb .grey-after:after {
+    z-index: 1000;
+}
+
+.counter-container {
+    display: inline-block;
+    float: right;
+    margin-right: 9%;
+}
+.counter-container .slick-arrow {
+    position: relative;
+}
+.enable-counter ~ .counter-container .slide-count-arrow.custom {
+    display: inline !important;
+}
+.disable-counter ~ .counter-container .slide-count-arrow.custom {
+    display: inline !important;
+
+}
+.carousel ~ .counter-container .slick-arrow {
+    left: auto;
+    right: auto;
+    bottom: 0rem;
+    position: relative;
+}
+.carousel.counter ~ .counter-container .slick-prev {
+    margin-right: 2rem;
+}
+.carousel.enable-counter ~ .counter-container .slick-prev {
+    margin-right: 0rem;
+}
+.carousel.enable-counter ~ .counter-container .slick-next,
+.carousel.disable-counter ~ .counter-container .slick-next {
+    right: initial;
+    position: relative;
+    bottom: 0rem;
+}
+.carousel.counter ~ .counter-container .slick-prev:after {
+    width: 1px;
+    display: inline-block;
+    content: url("/sites/all/themes/bostonballet/cssAssets/CarouselArrows_divider-01.svg");
+    position: absolute;
+    left: 1.9rem;
+    bottom: -0.65rem;
+
+}
+.carousel.enable-counter ~ .counter-container .slick-prev:after {
+    display: none;
+}
+.enable-counter ~ .counter-container .slide-count {
+    display: inline;
+}
+.carousel.counter ~ .counter-container .slide-count {
+    position: relative;
+    padding: 0 8px;
+    vertical-align: bottom;
+}
+.carousel.counter.col2 ~ .counter-container,
+.carousel.counter.col3 ~ .counter-container,
+.carousel.counter.col5 ~ .counter-container {
+    display: none;
+    margin-bottom: 2rem;
+     padding: 0 0 1.375rem; 
+}
+
+
+section .carousel.bars.enable-counter .slick-dots {
+    display: none !important;
+}
+.down-arr {
+    text-align: center;
+}
+.scroll-anchor {
+    display: inline-block;
+}
+.scroll-link {
+    cursor: pointer;
+}
+
+.fancybox-wrap .media-description {
+    display: inline-block;
+    position: relative;
+    webkit-box-flex: none;
+    -moz-box-flex: none;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: 1;
+    flex-grow: 3;
+    padding-right: 2rem;
+}
+.fancybox-wrap .media-description .description {
+    padding-top: 1rem;
+}
+.fancybox-wrap .social-share {
+    display: inline-block;
+    webkit-box-flex: none;
+    -moz-box-flex: none;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: 1;
+    justify-content: flex-end;
+    text-align: right;
+}
+.fancybox-wrap .social-share .socials object {
+    width: 100%;
+}
+.fancybox-wrap .social-share .socials img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.fancybox-wrap .fancybox-inner .social-share .socials  li:after {
+    content: '';
+    margin: 0;
+}
+.fancybox-wrap .video-controls {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fancybox-wrap .image-slider-controls {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gallery-callout-modal {
+    margin: 0 auto;
+}
+
+section .down-arr {
+    float: none;
+}
+
+.video-callout-modal,
+.image-slider-callout-modal {
+    width: 100%;
+}
+    .carousel .item:not(:first-child) {
+    display: none;
+}
+.carousel.slick-initialized .item:not(:first-child) {
+    display: block;
+}
+.galleryfancybox {
+   
+    /*top: 10% !important;*/
+}
+
+.galleryfancybox .fancybox-inner{
+    height:100% !important;
+}
+/*.small-wrap.calendar .info-box .inner label span:before {
+    content: url("/sites/all/themes/bostonballet/cssAssets/checkboxempty.svg");
+    width: 1.6rem;
+    display: inline-block;
+    background-color: transparent; 
+}
+.small-wrap.calendar .info-box .inner input[type="radio"]:checked + label span:before {
+    content: url("/sites/all/themes/bostonballet/cssAssets/checkboxfilled.svg");
+    width: 1.6rem;
+    display: inline-block;
+    background-color: transparent; 
+}*/
+#radioContainer:after {
+  content: url("/sites/all/themes/bostonballet/cssAssets/checkboxempty.svg") url("/sites/all/themes/bostonballet/cssAssets/checkboxfilled.svg");
+  display: none;
+}
+/*section.page-nav .holder ul li a.active:after {
+     content: url("/sites/all/themes/bostonballet/cssAssets/closex.svg");
+     width: 0.5rem;
+}*/
+.small-wrap.donation {
+    height: 100vh;
+}
+body .nav-frame .fsearch { 
+    background-size: contain !important;
+}
+section.newsletter .social-horizontal ul li, section.search .social-horizontal ul li {
+    width: 38px;
+    height: 37px;
+}
+section.search .social-horizontal ul li img {
+    width: 100%;
+}
+section.newsletter .social-horizontal ul, section.search .social-horizontal ul {
+    margin: 0.3rem 0 0;
+}
+section.search .social-horizontal .divide {
+    width: 0.2rem;
+}
+section.hero.prod-detail .img-holder .wrap.slide {
+    height: calc(100vw * 0.85);
+}
+
+.fancybox-wrap .video-js .vjs-slider {
+    margin-left:0;
+    margin-right:0;
+}
+
+.fancybox-wrap .video-js .vjs-control:before {
+    text-align:left;
+}
+
+.fancybox-wrap .video-callout-modal .item {
+    width:100%;
+}
+.below-two-img-block .inner-content {
+    padding-top: 4rem;
+}
+section.hero.p-interior {
+    text-align: right;
+}
+section.filters .top .filterSection.filterSectionOpen li a:not(.active) {
+    display:none;
+}
+section.filters .top ul.filterSection.filterSectionOpen {
+    min-width: 0;
+}
+section.filters .top ul.filterSection.filterSectionOpen li {
+    margin-right: 0;
+}
+
+section.white .slash-right a.arr-before:before {
+    content: ' ';
+    position: absolute;
+    top: 3px;
+    right: -17px; 
+    width: 0; 
+    height: 0; 
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent; 
+    border-right: 8px solid currentColor; 
+}
+
+
+.bb-truncate-content {
+    overflow:hidden;
+    webkit-transition: all 1s !important;
+    -moz-transition: all 1s !important;
+    -ms-transition: all 1s !important;
+    -o-transition: all 1s !important;
+    transition: all 1s !important;
+}
+.bb-truncate-content.bb-truncate-j-cont {
+    position:relative;
+}
+.bb-truncate-content.bb-truncate-j-cont.open { }
+.bb-truncate-content.bb-truncate-j-cont.open:after { 
+    background:none; 
+}
+.bb-truncate-content.bb-truncate-j-cont:after {
+    content: ' ';
+    display:block;
+    position:absolute;
+    width:100%;
+    width: calc(100% - 20px);
+    min-height:1.4rem;
+    bottom:0;
+    background: -moz-linear-gradient(bottom, rgba(30,30,30,0) 0%,rgba(0,0,0,1) 99%);
+    background: -webkit-linear-gradient(bottom, rgba(30,30,30,0) 0%,rgba(0,0,0,1) 99%);
+    background: -o-linear-gradient(bottom, rgba(30,30,30,0) 0%,rgba(0,0,0,1) 99%);
+    background: -ms-linear-gradient(bottom, rgba(30,30,30,0) 0%,rgba(0,0,0,1) 99%);
+    background: linear-gradient(to bottom, rgba(30,30,30,0) 0%,rgba(0,0,0,1) 99%);
+}
+
+.image-slider-controls .bb-truncate-content.bb-truncate-j-cont:after {
+    width:100%;
+}
+.bb-truncate-content.bb-truncate-no-truncate {
+    max-height:none !important;
+}
+
+
+.fancybox-inner .image-slider-callout-modal section.story-slides .carousel .slider-nav .slick-counter {
+    bottom:0;
+}
+.fancybox-inner .image-slider-callout-modal section.story-slides .carousel .slider-nav .slick-prev {
+    bottom:0;
+}
+.fancybox-inner .image-slider-callout-modal section.story-slides .carousel .slider-nav .slick-next {
+    bottom:0;
+}
+
+#paginationBlock {
+    text-align:center;
+}
+#paginationBlock .page-num-item {
+    padding: 0 .65rem;
+    text-decoration: none;
+}
+#paginationBlock .page-num-item.prev-p {
+    background: url(/sites/all/themes/bostonballet/cssAssets/arrows_left_orange.svg);
+    background-repeat: no-repeat;
+    background-size: 16px 10px;
+    background-position-y: 5px;
+}
+#paginationBlock .page-num-item.next-p {
+    background: url(/sites/all/themes/bostonballet/cssAssets/arrows_right_orange.svg);
+    background-repeat: no-repeat;
+    background-size: 16px 10px;
+    background-position-y: 5px;
+}
+#paginationBlock .page-num-item.prev-p.inactive {
+    background: url(/sites/all/themes/bostonballet/cssAssets/arrows_left_grey.svg);
+    background-repeat: no-repeat;
+    background-size: 16px 10px;
+    background-position-y: 5px;
+}
+#paginationBlock .page-num-item.next-p.inactive {
+    background: url(/sites/all/themes/bostonballet/cssAssets/arrows_right_grey.svg);
+    background-repeat: no-repeat;
+    background-size: 16px 10px;
+    background-position-y: 5px;
+}
+#paginationBlock .page-num-item.inactive {
+    color: #6f7171 !important; 
+    cursor:default;
+}
+#paginationBlock .page-num-item.dots {
+    color: #6f7171 !important; 
+    cursor:default;
+}
+#paginationBlock .page-num-item.hidden {
+    display:none;
+}
+#paginationBlock .page-num-item.currentPage {
+    color: #6f7171 !important; 
+    cursor:default;
+    font-weight:bold;
+}
+
+
+@media only screen and (max-width: 640px) {
+    section.img-content.negative-image
+    {
+        padding-top: 15em;
+    }
+    .slick-arrow.slide-count-arrow.custom {
+        display: inline !important;
+    }
+
+    .slide-count {
+        bottom: 1.65rem;
+    }
+
+    body .nav-frame ul.socials li {
+        width: 100%;
+    }
+
+        body .nav-frame ul.socials li:nth-child(1) {
+            width: 100%;
+        }
+
+        body .nav-frame ul.socials li:nth-child(2) {
+            width: 100%;
+        }
+
+    body .nav-frame ul.socials {
+        margin-top: 2rem;
+    }
+
+    body .nav-frame .search-box-container {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+    body .nav-frame ul.socials.links li {
+        display: block;
+    }
+
+        body .nav-frame ul.socials.links li:after {
+            content: '';
+        }
+
+        body .nav-frame ul.socials.links li:first-of-type:after {
+            display: none;
+        }
+
+    body .nav-frame .search-box-container ul.socials:not(.links) li {
+        width: initial;
+    }
+
+    body .nav-frame ul.socials li:nth-child(1), body .nav-frame ul.socials li:nth-child(2) {
+        margin: 0 0.75rem 1rem 0;
+    }
+
+    body .nav-frame .socials.links {
+        margin-left: initial;
+    }
+
+    .counter-container {
+/*      left: 50%;
+      position: relative;
+      float: initial;
+      float: left;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      transform: translateX(-50%);*/
+    }
+
+    .carousel.enable-counter ~ .counter-container .slick-prev,
+    .carousel.disable-counter ~ .counter-container .slick-prev {
+        position: relative;
+    }
+
+    .carousel.enable-counter ~ .counter-container .slick-next,
+    .carousel.disable-counter ~ .counter-container .slick-next {
+        position: relative;
+    }
+
+    .carousel.counter ~ .counter-container .slick-prev:after {
+        display: none;
+    }
+
+    .carousel.counter ~ .counter-container .slick-prev {
+        margin-right: 0rem;
+    }
+
+    section .carousel.bars.disable-counter .slick-dots {
+        /*display: none !important;*/
+    }
+    section .carousel.bars.disable-counter  + .counter-container {
+        display: none !important;
+    }
+
+    .carousel.counter ~ .counter-container .slide-count,
+    .carousel.counter ~ .counter-container .slide-count {
+        bottom: 0rem;
+        position: relative;
+        left: initial;
+    }
+
+    .carousel.disable-counter ~ .counter-container .slick-prev {
+        margin-right: initial;
+    }
+
+    .mobile-order-change .large-grid.dates .carousel:not(.col3) + .counter-container {
+        display: none;
+    }
+
+    .mobile-order-change .large-grid.dates .carousel.col3 + .counter-container {
+        display: inline;
+    }
+
+    .carousel.counter.col2 ~ .counter-container,
+    .carousel.counter.col3 ~ .counter-container,
+    .carousel.counter.col5 ~ .counter-container {
+        display: inline;
+    }
+
+    section.large-grid .carousel {
+        margin-bottom: 0rem;
+    }
+
+    /* FancyBox modal styling */
+    .fancybox-wrap {
+        width: 100% !important;
+        left: 0 !important;
+    }
+
+    .fancybox-inner {
+        width: 100% !important;
+    }
+
+    .fancybox-wrap .video-js .vjs-control-bar.external-controls-bar {
+        padding: 0 1rem;
+    }
+
+    .fancybox-wrap .video-js .vjs-control:before {
+        line-height: 1;
+        font-size: 3.2em;
+    }
+
+    .fancybox-wrap .video-js .vjs-time-control {
+        font-size: 1.6em;
+        line-height: 2.1em;
+    }
+
+        .fancybox-wrap .video-js .vjs-time-control .vjs-control-text {
+            line-height: 2.2;
+        }
+
+    .fancybox-wrap .video-js .vjs-fullscreen-control {
+        order: 3;
+    }
+
+    .fancybox-wrap .video-js .vjs-control {
+        flex-grow: 1;
+        order: 2;
+        overflow: visible;
+    }
+
+    .fancybox-wrap .video-js .vjs-spacer {
+        webkit-box-flex: none;
+        -moz-box-flex: none;
+        -webkit-flex: none;
+        -ms-flex: none;
+        flex: none;
+        width: 4em;
+        order: 2;
+    }
+
+        .fancybox-wrap .video-js .vjs-spacer:last-of-type {
+            order: 4;
+        }
+
+    .fancybox-wrap .media-description {
+        margin-top: 1rem;
+        padding-bottom: 0.4rem;
+        border-bottom: 1px solid #555;
+        margin-bottom: 2.4rem;
+    }
+
+    .fancybox-wrap .social-share {
+        justify-content: center;
+        flex: 0 1 100%;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .fancybox-wrap .social-share:after {
+            content: '';
+            height: 8rem;
+            display: block;
+            order: 6;
+        }
+
+        .fancybox-wrap .social-share .button.white {
+            order: 1;
+        }
+
+        .fancybox-wrap .social-share .socials {
+            order: 2;
+        }
+
+    .fancybox-wrap .video-controls {
+        flex-wrap: wrap;
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
+    }
+
+    .fancybox-wrap .image-slider-controls {
+        flex-wrap: wrap;
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
+    }
+
+    .fancybox-wrap .accordion-fancy {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .fancybox-wrap .video-controls .media-description {
+        padding-right:1rem;
+    }
+    .fancybox-wrap .image-slider-controls .media-description {
+        padding-right:1rem;
+    }
+    .fancybox-wrap .accordion-fancy-content {
+        -webkit-transition: max-height 1s;
+        -moz-transition: max-height 1s;
+        -ms-transition: max-height 1s;
+        -o-transition: max-height 1s;
+        transition: max-height 1s;
+        overflow: hidden;
+        max-height: 4rem;
+    }
+
+    .fancybox-wrap .accordion-fancy.enabled .accordion-fancy-content {
+        /*max-height: 16rem;*/
+    }
+
+    .fancybox-wrap .accordion-fancy-content:before {
+        content: ' ';
+        background: url("/sites/all/themes/bostonballet/cssAssets/CarouselArrows_right_white-01.svg") no-repeat;
+        position: absolute;
+        right: 5px;
+        top: 30%;
+        -webkit-transform: rotate(90deg); /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(90deg); /* IE 9 */
+        transform: rotate(90deg);
+        height: 20px;
+        width: 8px;
+    }
+    .fancybox-wrap .accordion-fancy-content.open:before {
+        -webkit-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        transform: rotate(270deg);
+    }
+
+    .fancybox-wrap .accordion-fancy.enabled .accordion-fancy-content:before {
+        -webkit-transform: rotate(270deg); /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(270deg); /* IE 9 */
+        transform: rotate(270deg);
+    }
+
+    .fancybox-wrap .accordion-inner {
+        padding: 0 15px;
+    }
+
+    .fancybox-wrap .fancy-modal .carousel .media-modal-top .media-title {
+        padding: 0 1rem;
+    }
+
+    .fancybox-wrap .fancy-close {
+        right: initial;
+        margin-right: 0.6rem;
+        align-self: flex-start;
+    }
+
+    .fancybox-wrap .media-title {
+        padding-left: 0.9375rem;
+    }
+
+    .video-callout-modal,
+    .image-slider-callout-modal {
+        width: 100%;
+    }
+
+        .video-callout-modal .image-slider-container .socials,
+        .image-slider-callout-modal .image-slider-container .socials {
+            margin: 1rem auto 0 auto;
+        }
+
+    .image-slider-controls .slider-nav {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .video-callout-modal .socials,
+    .image-slider-callout-modal .socials {
+        margin: 1rem auto 0rem auto;
+    }
+
+    section.posts .white-left .vid-holder, section.posts .white-right .vid-holder {
+        max-width: 150%;
+        width: 100VW;
+        margin: 0 0 2em 0;
+        width: 100VW;
+    }
+
+    section.posts .row > .large-4 {
+        min-height: initial;
+    }
+
+    .story-slides.white-slash-both .carousel.not(.quote) {
+        margin-left: 0;
+        width: 100vw;
+    }
+
+    .media-gallery-carousel .row > .columns {
+        padding: 0;
+    }
+
+    .media-gallery-carousel .row .columns .slick-slide > .columns {
+        padding: 0;
+    }
+    section.negative-image .interior-image {
+        margin-top: -12em;
+    }
+    .interior-image p.light.large{
+        position: absolute;
+        margin-top: -3rem;
+    }
+
+    /* Overrides */
+    section.hero.prod-detail .img-holder .blurb {
+        padding: 0 0 3em;
+    }
+    section.hero.prod-detail .img-holder .wrap.slide ~ .blurb {
+        padding: 0 0 5em;
+    }
+    .small-wrap:not(.calendar) {
+        height: 100vh;
+    }
+   section.img-content .media-item.small-12.columns {
+    padding: 0;
+   }
+    header.small-white:after {
+        display: none;
+    }
+    section.img-content.negative-image .interior-image {
+        padding: 0; 
+    }
+    /*header .inner .sticky-container .sticky-header .scroll-logo img {
+        height: 2.25rem;
+        width: 1.5625rem;
+        float: left;
+    }*/
+    header.small-white .inner .scroll-logo {
+        display: inline;
+        float: left;
+        margin: 0.75rem 0 0 0.5rem;
+    }
+    .body-container.no-footer .row.align-center .small-12.columns .small-wrap {
+        padding-left: 1.25em;
+        padding-right: 1.25em;
+    }
+    .story-slides.white-slash-both .carousel:not(.quote) {
+         margin-left: 0em; 
+    }
+    .fancybox-wrap .media-description .description {
+        padding-top: 0rem;
+    }
+    .fancybox-wrap .video-controls .media-description .description {
+        line-height: 1.35rem;
+        margin-right: 1rem;
+    }
+
+    .mob-no-sides-pad {
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .mob-no-sides-marg {
+        margin-left:0 !important;
+        margin-right:0 !important;
+    }
+
+    section .link-container ul li {
+        text-align:center;
+    }
+    section .link-container ul li:first-of-type {
+        float:none;
+        text-align: center;
+        margin:0;
+    }
+    .social-vert span {
+        width: 41px;
+        height: 40px;
+    }
+    section.img-content .two-image-block p {
+        clear:both;
+    }
+    section.img-content .two-image-block .img-right .wrap {
+        min-height: 13.1875rem;
+    }
+    section.img-content .two-image-block p {
+        line-height: 1.3rem;
+    }
+    section.img-content .two-image-block p:not(.credit) {
+        opacity: 1;
+        padding-bottom: .5rem;
+        color: #8a8a8a;
+    }
+    section.img-content .two-image-block p.p-top-pho:before {
+        display: inline;
+        content: 'Top Photo';
+        padding-right: 5px; 
+        font-weight: bold;
+        color: #000;
+    }
+    section.img-content .two-image-block p.p-bot-pho:before {
+        display: inline;
+        content: 'Bottom Photo';
+        padding-right: 5px;
+        font-weight: bold;
+        color: #000;
+    }
+    section.img-content .two-image-block p.credit {
+        color: #8a8a8a;
+    }
+    section.img-content .interior-image p.light {
+        line-height: 1.3rem;
+        padding-bottom: .5rem;
+    }
+    body .nav-frame .searchBox {
+        margin-bottom: 3rem;
+    }
+    body .nav-frame ul.socials {
+        float:left;
+    }
+
+    .fancybox-wrap section.story-slides {
+        float:none;
+    }
+    
+    /* spacing mobile fixes - start */
+    section.profile-image + section.hero.prof-detail .img-holder:before {
+        background: #ededed;
+    }
+    section.story-slides.prof-page {
+        padding-bottom: 3em;
+    }
+    section.story-slides.prof-page + section.cta-bot-box {
+        padding-top:0;
+    }
+    section.profile-image .white-border img.profile ~ h2 {
+        margin-top: 1.85rem;
+    }
+    section.profile-image .white-border ul li:first-of-type:after,
+    section.profile-image .white-border ul li:first-of-type:not(:only-of-type):after {
+        margin-top: 1.85rem;
+        margin-bottom: 1.85rem;
+    }
+    section.profile-image .white-border {
+        padding-bottom: 3rem;
+    }
+    section.white.txt-callout-c {
+        padding-bottom: 8.5rem;
+    }
+    section.white.txt-callout-c .slash-right {
+        padding-bottom:0;
+    }
+    section.white.txt-callout-c + section.large-grid {
+        padding-top:0;
+    }
+    body .nav-frame .bottom,
+    body .nav-frame .bottom:last-of-type {
+        padding-top: 4rem;
+    }
+    body .nav-frame .perf:nth-child(even) {
+        margin-top: 2rem;
+    }
+    body .nav-frame .perf.prf-txt-c a h3 {
+        margin-top: 1rem;
+    }
+    section.large-grid .counter-container {
+        left:auto;
+        right:auto;
+        margin-left: auto;
+        margin-right: auto; 
+        width:100%;
+        text-align: center;
+        display:block;
+    }
+    section.large-grid h5 {
+        margin-bottom: 1.875rem;
+    }
+    section.page-nav .holder ul ul li a.disabled {
+        color: #999;
+        opacity: 1;
+    }
+    section.hero.p-interior h1 {
+        line-height: 1;
+        text-align:center;
+        width:100%;
+        clear:both;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    /* spacing mobile fixes - end */
+
+}
+
+@media screen and (min-width: 64.0625em) {
+    section.img-content .two-image-block .img-left p.two-img-ph-p {
+        -moz-transition: all 1.5s ease;
+        -webkit-transition: all 1.5s ease;
+        transition: all 1.5s ease;
+        transform: translate(0, 0);
+    }
+    section.img-content .two-image-block .img-right p.two-img-ph-p {
+        -moz-transition: all 1.5s ease;
+        -webkit-transition: all 1.5s ease;
+        transition: all 1.5s ease;
+        transform: translate(0, 0);
+    }
+    section.img-content .two-image-block .img-left p.two-img-ph-p.slide-up {
+        transform: translate(0, -50px);
+    }
+    section.img-content .two-image-block .img-right p.two-img-ph-p.slide-up {
+        transform: translate(0, -25px);
+    }
+}
+
+@media screen and (min-width: 40.0625em) {
+    body .nav-frame > .row {
+        /*height: 100vh;*/
+        height: 100%;
+    }
+
+    body .reveal.nav-frame .columns {
+        max-height: 31.25rem;
+    }
+
+    body .nav-frame .search-box-container {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 0;
+        /*padding-left: 5rem;
+        padding-right: 5rem;*/
+    }
+    body .nav-frame .search-box-container .search-b-social-container {
+        flex: 2;
+        /*margin-top: 2.2rem;*/
+        display: flex;
+        padding-top: 1rem;
+    }
+    body .nav-frame .search-b-social-container > div {
+
+    }
+    body .nav-frame .search-b-social-container ul {
+        float:none;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    body .nav-frame ul.socials {
+        margin-top: 0;
+    }
+    body .nav-frame ul.socials.links {
+        flex:2;
+        text-align: right;
+        margin-top: .2rem !important;
+        margin-bottom: 0 !important;
+        margin-right: 1.5rem !important;
+    }
+    body .nav-frame ul.socials li {
+        float:none;
+        display:inline-block;
+    }
+
+    body .nav-frame .search-box-container ul {
+        top: auto !important;
+    }
+
+    body .nav-frame .searchBox .fsearch-i {
+        width: 100%;
+        max-width: 18em;
+    }
+
+    section.img-content .media-item .interior-image p {
+        line-height: 1.4;
+    }
+
+    section.img-content .media-item .interior-image p.left {
+        width:71%;
+    }
+    section.img-content .media-item .interior-image p.right.credit {
+        width:25%; 
+        text-align:right;
+    }
+    
+    .video-callout-modal ul.socials li:last-of-type, 
+    .image-slider-callout-modal ul.socials li:last-of-type {
+        margin-right:0;
+    }
+
+    section.hero.p-interior + section.page-nav > .slash {
+        background: #262626;
+        background-color: #262626;
+    }
+
+    .fancybox-wrap .video-js .vjs-play-control {
+        margin-left: -.37rem !important;
+    }
+
+    .fancybox-wrap
+    {
+        top: 5% !important;
+    }
+
+    /* spacing desktop fixes - start */
+    section.profile-image + section.story-slides.prof-page {
+        padding-top: 0 !important;
+    }
+    section.story-slides.white-slash-both.reverse.prof-slides + section.story-slides.prof-page > div:before {
+        display:block;
+        content: '';
+        position: absolute;
+        background: #ededed;
+        -webkit-transform: skewY(3deg);
+        -moz-transform: skewY(3deg);
+        -ms-transform: skewY(3deg);
+        -o-transform: skewY(3deg);
+        transform: skewY(3deg);
+        width: 100%;
+        height: 30%;
+        top: -10%;
+        z-index: 1;
+    }
+    .carousel.disable-counter + .counter-container {
+        margin-top: -18px;
+    }
+    .carousel.cast.bars ul.slick-dots {
+        margin-top: .45rem;
+    }
+    section.profile-image .to-left .white-border {
+        padding-bottom: 3.3rem;
+    }
+    section.story-slides.prof-slides .carousel.quote h3 {
+        margin-bottom: 1.85rem;
+    }
+    section.story-slides.prof-slides .carousel.quote h5 {
+        margin-bottom: 0;
+    }
+    section.profile-image + section.story-slides.white-slash-both.reverse.prof-slides {
+        padding-top: 10.25rem;
+        padding-bottom: 5.75em;
+    }
+    section.story-slides.white-slash-both.reverse.prof-slides .slash-both:after {
+        bottom: 0%;
+        height: 60%;
+    }
+    section.profile-image + section.hero.prof-detail .img-holder:before {
+        background: #ededed;
+    }
+    section.white.txt-callout-c .slash-right {
+        padding-top: 6.25rem;
+        padding-bottom: 5.5rem;
+    }
+    section.white.txt-callout-c + section.large-grid {
+        padding-top: 2.25rem;
+    }
+    section.large-grid h5 {
+        padding-top: 58px;
+        margin-bottom: 3rem;
+    }
+    section.large-grid.dates h5 {
+        padding-top: 3.6rem;
+    }
+    section.large-grid h5:first-child {
+        padding-top: 0;
+    }
+    section.large-grid.dates h5:first-child {
+        padding-top: 5rem;
+    }
+    section.hero.prod-tickets + section.large-grid.dates h5:first-child,
+    section.hero.prod-tickets + div section.large-grid.dates h5:first-child {
+        padding-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    header.interior + section.hero.prod-detail .white-bottom h5 {
+        margin-bottom: 1.75rem;
+    }
+    header.interior + section.hero.prod-detail .white-bottom p {
+        margin-bottom: 3rem;
+    }
+    header.interior + section.hero.prod-detail .white-bottom h1 {
+        margin-bottom: 2.5rem;
+    }
+    div.body-container + section:empty + a.scroll-anchor + section.story-slides { 
+        padding-top:0;
+        margin-top: -3.3rem;
+    }
+    section.large-grid h2 {
+        line-height: 1em;
+    }
+    section.large-grid .carousel .item a .holder p {
+        margin-top:0;
+        margin-bottom:0;
+    }
+    section.negative-image.sp-ni .interior-image {
+        margin-top: -25.5em; /**/
+    }
+    section.negative-image.sp-ni {
+        padding-bottom: 3.8rem;
+    }
+    section.page-nav + section.white.txt-callout-c .slash-right {
+        padding-bottom: 2.5rem;
+    }
+    section.page-nav .holder ul li a.active {
+        padding-right: 0;
+    }
+    section.page-nav .holder ul li a.active:after {
+        display: inline;
+        position: relative;
+        right: initial;
+        top: initial;
+        padding: 0px 2.5rem;
+    }
+    section.page-nav .holder ul ul li:first-of-type {
+        padding-left: 3.125rem;
+    }
+    section.page-nav .holder ul li a.hidden:first-of-type {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    section.hero.prod-tickets .white-bottom {
+        padding-top: 12em; /**/
+    }
+    section.hero.prod-tickets + section.large-grid.dates {
+        padding-top: 14.1em;
+    }
+    section.large-grid.dates + section.cta-bot-box {
+        padding-top: 0;
+    }
+    section.large-grid.dates + section.prf-sec-r {
+    }
+    .vid-container.paused .video-overlay:after, 
+    .vid-holder.video-callout .vid-container.paused .video-overlay:after {
+        
+    }
+    section.story-slides.white-slash-both.media-gallery-carousel + section.story-slides.white-slash-both.reverse.testim {
+        padding-bottom: 7rem;
+        padding-top: 9rem;
+    }
+    section.story-slides.white-slash-both.reverse.testim .carousel.quote h3 {
+        margin-bottom: 1.85rem;
+    }
+    section.story-slides.white-slash-both.reverse.testim .carousel.quote h5 {
+        margin-bottom: 3rem;
+    }
+    section.hero .holder .logo {
+        top: 47%
+    }
+    section.page-nav + section.white .slash-right p.link:empty {
+        padding-bottom: 1.15rem;
+    }
+    section.page-nav + section.white .slash-right p + a.down-arr img {
+        margin-top: 3.125rem;
+        margin-bottom: 0;
+    }
+    header.interior.grey-top + section.white .slash-right p + a.down-arr img {
+        margin-top: 2.65rem;
+        margin-bottom: 2.35rem;
+    }
+    /* spacing desktop fixes - end */
+}
+
+@media screen and (width: 1024px) {
+    body .nav-frame {
+        padding: 0.5rem 1rem 1rem;
+    }
+    body .reveal.nav-frame .columns {
+        max-height: 27.25rem;
+    }
+    body .nav-frame > .row {
+        height:95%;
+    }
+}
+
+/* medium size only */
+@media screen and (min-width: 40.0625em) and (max-width: 63.9375em) {
+    body .reveal.nav-frame .columns {
+        max-height: 21.25rem;
+    }
+
+}
+
+
+@media screen and (min-width: 40.0625em) and (max-width: 768px) {
+    /*BTS changes for tablet */
+    section.filters {
+        padding-bottom: 4rem;
+    }
+    section.filterItem.filterItem-video .post > .row {
+        -ms-flex-direction: column; 
+        flex-direction: column;
+    }
+    section.filterItem.filterItem-video .post > .row > .large-7 {
+        width:85%;
+        max-width:100%;
+        margin-top: -8rem;
+        flex: 0 0 auto;
+        -ms-flex-order: 1;
+        order:1;
+    }
+    section.filterItem.filterItem-video .post > .row > .large-4 {
+        width:76%;
+        max-width:100%; 
+        margin-left: 0;
+        margin-right: 0;
+        min-height: 0;
+        flex: 0 0 auto;
+        order:2;
+    }
+    section.filterItem.filterItem-video .white-left .vid-holder, 
+    section.filterItem.filterItem-video .white-right .vid-holder {
+        margin-bottom: 2rem;
+    }
+    section.filterItem.filterItem-video .white-left h3, 
+    section.filterItem.filterItem-video .white-right h3 {
+        margin-bottom: 1.6rem;
+    }
+    section.filterItem.filterItem-video .white-left p, 
+    section.filterItem.filterItem-video .white-right p {
+        padding-bottom: 1.3rem;
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left .row {
+        flex-direction: column;
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left .row .large-6 {
+        width:85%;
+        max-width:100%;
+        -ms-flex:1;
+        flex: 0 0 auto;
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left .row .large-6.lcol {
+        order: 4;
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left .row .large-12 {
+        margin-top:-8rem;
+    }
+    section.filterItem.filterItem-article {
+        padding-top: 2.85rem;
+        padding-bottom: 5rem; 
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left .item img.neg-right {
+        width:100%;
+        margin-left: 0;
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left:not(.multi-slide):after {
+        height:100%;
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left:not(.multi-slide):before {
+        height:100%;
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left .item h5 {
+        display:none;
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left .item h2 {
+        margin-top: 1.85rem;
+        text-align:left;
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left .item p:empty {
+        padding:0;
+        margin:0;
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left .item p {
+        text-align:left;
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left .item.right-line:not(.header-inside) p, 
+    section.filterItem.filterItem-article .carousel.col1.white-left .item p, 
+    section.filterItem.filterItem-article .carousel.col1.white-left .item.left-line p {
+        padding-left:0;
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left .item {
+        padding-bottom:0;
+    }
+    section.filterItem.filterItem-article .carousel.col1.white-left .item a.button {
+        left: 0;
+        transform: none;
+    }
+    section.filterItem.filterItem-gallery .post .row {
+        flex-direction: column;
+    }
+    section.filterItem.filterItem-gallery .post .row .large-7 {
+        width:85%;
+        max-width:100%;
+        margin-top: -8rem;
+        flex: 0 0 auto;
+    }
+    section.filterItem.filterItem-gallery .post .row .large-4 {
+        width:85%;
+        max-width:100%;
+        order: 4; 
+        margin-left: 0;
+        min-height:0;
+        flex: 0 0 auto;
+    }
+    section.filterItem.filterItem-gallery .white-left h3, 
+    section.filterItem.filterItem-gallery .white-right h3 {
+        
+    }
+    section.filterItem.filterItem-gallery .white-left p, 
+    section.filterItem.filterItem-gallery .white-right p {
+
+    }
+    /**/
+}
+
+
+@media screen and (min-width: 64em) {
+    body .nav-frame .searchBox .fsearch-i {
+        width: 100%;
+        min-width: 18em;
+    }
+    section.explore-bb .carousel .item img {
+        max-height:100%;
+    }
+}
+
+@-moz-document url-prefix() {
+    section.explore-bb .carousel .item .media-item .interior-image img {
+        max-width:100%;
+    }
+}
+
+
+/* End Overrides */
+
+/*.hero .holder .logo {
+    background-size: contain !important;
+}*/
+
+@media only screen and (min-width: 768px ) {
+    .hero .holder .logo {
+        max-width: 32rem;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    body .nav-frame .search-box-container {
+        position: static;
+    }
+    body .nav-frame .search-box-container ul.socials li {
+        float:left;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    .search-box-container {
+         flex-direction: column; 
+    }
+    body .nav-frame ul.socials.links {
+        margin: 1rem 0;
+        text-align: left;
+    }
+}
+.load-more {
+    margin: 2em 0;
+}
+@media only screen and (max-width: 1024px) {
+    section.hero.grey .white-bottom h1 {
+        padding: 0 8%;
+    }
+    section.posts .white-left h3,
+    section.posts .white-left p,
+    section.posts .white-right h3,
+    section.posts .white-right p {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    body .nav-frame ul.socials {
+        float:left;
+    }
+}
+
+
+.prod-detail .img-holder img
+{
+	width: 100%;
+}
+
+section.profile-image + section.story-slides.prof-page .carousel {
+  padding-top:150px;
+}
+
+section.profile-image + section.story-slides.prof-page .carousel .item p {
+  text-align:center !important;
+}
+
+section.white + section.large-grid {
+  padding-top: 1rem;
+}
+
+section.programs {
+  padding-top: 0;
+}
+
+section.page-nav .holder ul li a.active:after { padding: 0 40px; top:1px; }
+section.negative-image .inner-content h5 { padding:48px 0 2rem; }
+section.white .slash-right h2 { margin-bottom: 94px; }
+section.content.short-top p em { font-style:normal; font-family: 'Brown-Pro-Thinitalic'; }
+section.content.short-top p em a { font-style:normal; font-family: 'Brown-Pro-Bolditalic'; }
+header.interior + section.hero.prod-detail .white-bottom h1 { margin-bottom: 30px; }
+section.hero .holder .logo { top:45%; }
+section.page-nav + section.white .slash-right { padding-top: 84px; }
+body a.button.white:hover { background: #fff !important; color: #ff4814; }
+
+@media only screen and (max-width:640px) {
+  section.story-slides.prof-page .carousel .item p:not(.credit) {
+    text-align:center !important;
+  }
+  body .nav-frame .close-button { top:0.15rem; }
+  body .nav-frame ul.main li a h1 { font-size:18px; }
+  .search-box-container .searchBox { margin-bottom: 80px; }
+  body .nav-frame .perf:nth-child(even) { margin-top: 45px; }
+  body .nav-frame .perf:nth-child(odd) { margin-top: 10px; }
+  body .nav-frame .perf:first-of-type { margin-top: 15px; }
+  section.hero h1 { line-height: 1em; }
+  section.hero .holder .logo { top: 45%; }
+  section.white .slash-right { padding-bottom: 10px; }
+  section.large-grid { padding-top: 0; }
+  .carousel.counter.col2 ~ .counter-container, .carousel.counter.col3 ~ .counter-container,
+  .carousel.counter.col5 ~ .counter-container { padding: 0 0 1rem; }
+  section.large-grid h5 { margin-bottom: 30px; }
+  section .bot-quote h3 { font-size:24px; }
+  section .row.align-center .large-11.medium-12.small-12.columns.bot-quote { padding-left: 0; padding-right: 0;}
+}
+
+/* NEW STUFF TO SEND IN TEXT FORM */
+section.white .slash-right h2 { margin-bottom:32px; }
+header.interior.grey-top + section.white .slash-right p + a.down-arr img { margin-top: 38px; margin-bottom: 32px; }
+section.content.short-top p strong { font-family:'Brown-Pro-Bold'; }
+section.hero.prod-tickets + section.large-grid.dates h5:first-child, section.hero.prod-tickets + div section.large-grid.dates h5:first-child { padding-top: 70px; margin-bottom: 24px; }
+@media only screen and (min-width:640px) { section.profile-image .to-left .white-border { padding-bottom: 95px; } }
+section.large-grid h5 { line-height: 1em; margin-bottom: 50px; }
+/*section .bot-quote h3 { font-size:28px; }*/
+
+/* NEW CAROUSEL EDITS */
+section.large-grid .carousel.col1 .slick-prev, section.large-grid .carousel.col1 .slick-next { bottom: 5%; }
+section.large-grid .carousel.col1.white-left.multi-slide .item.video { padding:5em 0 3em; }
+/*section.large-grid .carousel.col1.white-left .item .vid-holder { width:auto; margin:0 0 0 -12em !important; }*/
+section.white .slash-right p:last-of-type { margin-bottom: 15px; }

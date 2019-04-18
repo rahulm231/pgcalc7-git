@@ -1,0 +1,218 @@
+.pg-wrap h2 {
+  font-size: 30px;
+}
+
+#block-system-main-menu h2 a {
+  display: block;
+  background: #ffffff;
+  line-height: 40px;
+  margin-bottom: 0;
+  color: #403f3e;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+#main-menu {
+  background: #ffffff;
+  line-height: 12px;
+}
+
+#main-menu li a:hover {
+  background: #ffffff;
+  text-decoration: underline;
+}
+
+#main-menu li a.active {
+  color: #ef4823;
+}
+
+#main-menu li.expanded ul li a {
+  border-bottom: 0;
+  font-size: 14px;
+  padding: 10px 20px 10px 40px;
+  line-height: 20px;
+}
+
+#main-menu li.expanded ul ul li a {
+  font-size: 14px;
+  padding: 10px 20px 5px 50px;
+  line-height: 20px;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  background: #ef4823;
+  color: #fff;
+  font-size: 1em;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+.pg-wrap table tr td {
+  color: #666564;
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #ef4823;
+  padding: 20px;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #fff;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  color: #fff;
+}
+
+#pgc-contact-block li a:hover {
+  color: #4d4d50;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #4d4d50;
+  padding-top: 30px;
+  behavior: url(/PIE.htc);
+}
+
+#pgc-contact-footer-block {
+  color: #fff;
+  font-size: 18px;
+}
+
+#pgc-contact-footer-block li a {
+  color: #fff;
+}
+
+#pgc-contact-footer-block li a:hover {
+  color: #ef4823;
+}
+
+#pgc_resource_block {
+  background: #4d4d50;
+  padding: 15px 20px;
+  text-align: left;
+  behavior: url(/PIE.htc);
+}
+
+#pgc_resource_block a {
+  color: #ffffff;
+}
+
+#pgc_resource_block a:hover {
+  color: #ef4823;
+}
+
+.pg-gift-details .accordion-switch {
+  border-top: 0px solid #ccc;
+  border-bottom: 0px solid #ccc;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #ef4823;
+  padding: 0 15px;
+  color: #ffffff;
+  display: block;
+  font-size: .9em;
+  font-weight: normal;
+  margin: 10px 0;
+  line-height: 40px;
+  behavior: url(/PIE.htc);
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #4d4d50;
+  text-decoration: none;
+  color: #ef4823;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+  color: #8e8279;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a:hover {
+  color: #ef4823;
+}
+
+.pgc-brochure-bg-top {
+  background: #4d4d50;
+}
+
+.pgc-brochure-header-text {
+      background: #ef4823;
+  color: #fff;
+}
+
+.pgc-brochure-title {
+  color: #ef4823;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color: #4d4d50;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color: #ef4823;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color: #ef4823;
+}
+
+.pgc-brochure-footer-text {
+  background: #4d4d50;
+}
+
+.pgc-brochure-footer-title {
+  color: #ef4823;
+}
+
+span.pgc-brochure-footer-contact {
+  color: #ef4823;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #ffffff;
+}
+
+.pg-page-btns .pgc-title-btn a {
+  color: #4d4d50;
+}
+

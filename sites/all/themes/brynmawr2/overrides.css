@@ -1,0 +1,138 @@
+.pg-wrap h2 {
+  color: #000000;
+}
+
+#block-system-main-menu h2 a {
+  background: #fff;
+  line-height: 35px;
+  margin-bottom: 0;
+  color: #2b313a;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  : ;
+  padding: 0px 10px;
+}
+
+#main-menu {
+  padding: 0;
+  margin: 0;
+}
+
+#main-menu li a {
+  padding: 4px 20px;
+}
+
+#main-menu ul ul {
+  padding: 0px 10px;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  background: #d3d3d3;
+  color: #000;
+  font-size: 1em;
+  padding: 7px;
+  border: 1px solid #fff;
+}
+
+.pg-wrap table tr td {
+  color: #000;
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+.pg-gift-details .accordion-switch {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #017dbd;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  padding: 0 15px;
+  border: 0px solid #017dbd;
+  color: #ffffff;
+  display: block;
+  font-size: .9em;
+  font-weight: normal;
+  margin: 10px 0;
+  line-height: 40px;
+  behavior: url(/PIE.htc);
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #f3b720;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+  color: #646e7d;
+  font-size: 15px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  font-family: Georgia,Times,sans-serif;
+  font-style: italic;
+  color: #646e7d;
+  font-size: 15px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a:hover {
+  color: #017db0;
+}
+
+.pgc-brochure-bg-top {
+  background: #f3b720;
+}
+
+.pgc-brochure-header-text {
+  background: #03335f;
+  color: #fff;
+}
+
+.pgc-brochure-title {
+  color: #03335f;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color: #03335f;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color: #f3b720;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color: #f3b720;
+}
+
+.pgc-brochure-footer-text {
+  background: #03335f;
+}
+
+.pgc-brochure-footer-title {
+  color: #f3b720;
+}
+
+span.pgc-brochure-footer-contact {
+  color: #f3b720;
+}
+

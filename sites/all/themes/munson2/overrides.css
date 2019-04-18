@@ -1,0 +1,241 @@
+.pg-wrap h1 {
+  color: #037CC0;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 15px 0;
+  text-transform: none;
+}
+
+.pg-wrap h2 {
+  color: #037CC0;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 5px 0;
+  text-transform: none;
+}
+
+.pg-wrap a {
+  color: #007dc3;
+}
+
+.pg-wrap a:hover {
+  color: #007dc3;
+}
+
+.pg-wrap a:visited {
+  color: #007dc3;
+}
+
+.pg-wrap a:active {
+  color: #007dc3;
+}
+
+#block-system-main-menu h2 a {
+  line-height: 30px;
+  margin-bottom: 0;
+  color: #000;
+  font-size: 11px;
+  padding: 0;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: tahoma,geneva,san-serif;
+}
+
+#main-menu {
+  padding: 0;
+  margin: 0;
+}
+
+#main-menu li {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+  list-style: none;
+}
+
+#main-menu li a {
+  font-weight: normal;
+  display: block;
+  padding: 10px 15px 10px 10px;
+  border: 0;
+  line-height: 6px;
+  text-decoration: none;
+  color: #4c5984;
+  font-family: tahoma,geneva,san-serif;
+  font-size: 11px;
+}
+
+#main-menu li a:hover {
+  text-decoration: underline;
+}
+
+#main-menu li a.active {
+  color: #93011c;
+}
+
+#main-menu ul {
+  padding-left: 10px;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  background: #102341;
+  color: #fff;
+  font-size: 1em;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+.pg-wrap table tr td {
+  color: #000;
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #102341;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 4px #ffffff;
+  -moz-box-shadow: 0px 0px 4px #666;
+  box-shadow: 0px 0px 4px #ffffff;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #fff;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  color: #fff;
+}
+
+#pgc-contact-block li a:hover {
+  color: #037CC0;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #102341;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  -webkit-box-shadow: 0px 0px 4px #ffffff;
+  -moz-box-shadow: 0px 0px 4px #ffffff;
+  box-shadow: 0px 0px 4px #ffffff;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block .title {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#pgc-contact-footer-block li a {
+  color: #fff;
+}
+
+#pgc-contact-footer-block li a:hover {
+  color: #037CC0;
+}
+
+#pgc_resource_block {
+  background: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 15px 20px;
+  -webkit-box-shadow: 0px 0px 4px #ffffff;
+  -moz-box-shadow: 0px 0px 4px #ffffff;
+  box-shadow: 0px 0px 4px #666;
+  text-align: center;
+  behavior: url(/PIE.htc);
+}
+
+#pgc_resource_block a {
+  color: #037CC0;
+}
+
+#pgc_resource_block a:hover {
+  color: #102341;
+}
+
+.pg-gift-details .accordion-switch {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #102341;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 15px;
+  border: 0px solid #102341;
+  color: #ffffff;
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 10px 0;
+  line-height: 40px;
+  behavior: url(/PIE.htc);
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #037CC0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+  font-size: 9px;
+  font-style: normal;
+  text-transform: none;
+  color: #7f7d7d;
+  Text-decoration: none;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  font-size: 9px;
+  font-style: normal;
+  text-transform: none;
+  color: #7f7d7d;
+  Text-decoration: none;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a:hover {
+  text-decoration: underline;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #102341;
+}
+
+.pg-page-btns .pgc-title-btn a {
+  color: #ffffff;
+}
+

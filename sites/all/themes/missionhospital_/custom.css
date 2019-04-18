@@ -1,0 +1,147 @@
+.main article{
+	width: 70%;
+    float: right;
+    margin-right: 12px;
+}
+
+.bcb{
+	border-bottom:none;
+}
+
+#main-menu ul ul li a:hover {
+    background: #0c5098 !important;
+    color: #FFF !important;
+}
+
+.cdd-item.active{
+	opacity:1;
+}
+
+.btn.v3 img{
+	right: 12px;
+    position: absolute;
+    top: 5px;
+}
+
+section.cdd-support-cta .btn.v3{
+	width:20%;
+} 
+
+section.cdd-foundation-cta .btn.v3{
+	width:35%;
+} 
+
+.about-cdd {
+    background-image: url(img/BG-Drop-About.jpg);
+}
+
+.doc-cdd {
+    background-image: url(img/BG-Drop-Doctors.jpg);
+}
+
+.services-cdd {
+    background-image: url(img/BG-Drop-About.JPG);
+}
+
+.patients-cdd {
+    background-image: url(img/BG-Drop-PatientsVisitors.jpg);
+}
+
+.support-cdd, .foundation-cdd {
+    background-image: url(img/BG-Drop-About.jpg);
+}
+
+.contact-cdd {
+    background-image: url(img/BG-Drop-Contact.jpg);
+}
+
+.contact-cdd .left, .patients-cdd nav {
+    width: 46%;
+}
+
+div.footer-toggle{
+	display:none;
+}
+
+.footer-info .social-list ul li a{
+	padding-left:0px;
+}
+
+.footer-info .social-list ul li a img{
+	width:40px;
+	height:40px;
+}
+
+
+
+.webform-component-textfield label{
+  display:block;
+/*  padding-top:10px;*/
+}
+
+.webform-component-textfield input{
+     margin-top: 3px; 
+     margin-bottom: 10px;
+}
+
+.webform-component-email label
+{
+  display: block;
+}
+
+.webform-component-email input
+{
+    margin-top: 3px; 
+     margin-bottom: 10px;
+}
+
+.webform-component-select_or_other{
+  margin-top:10px;
+}
+
+.form-actions #edit-submit{
+  margin:10px;
+}
+
+
+.form-type-radio
+{
+  margin-bottom: 4px;
+}
+#block-pgc-contact-block-pgc-contact-footer-block
+{
+  margin-top: 20px;
+}
+
+div#webform-component-percentage-of-estate-account, div#webform-component-please-choose-one, div#webform-component-please-list-me-us-as-follows{
+	margin-top:15px;
+}
+
+
+
+
+@media only screen and (max-width: 999px) {
+	
+  .main article{
+	width: auto !important;
+	padding:0px !important;
+	margin: 10px;
+  }
+  
+  .main aside.side{
+  	display:none;
+  }
+  
+  .content ul{
+  	list-style:none;
+  }
+}
+
+/* css for print pages */
+
+
+@media print {
+    body:after {
+    	box-shadow: none;
+    }
+}

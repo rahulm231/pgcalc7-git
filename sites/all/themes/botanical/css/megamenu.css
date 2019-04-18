@@ -1,0 +1,513 @@
+/* Clear Floats cross-browser valid without additional markup */
+#PageHeaderNavigation .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#PageHeaderNavigation .clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html #PageHeaderNavigation .clearfix {height: 1%;}
+#PageHeaderNavigation .clearfix {display: block;}
+/* End hide from IE-mac */
+ /******************************************************/
+
+
+/* ROOT LEVEL */
+#PageHeaderNavigation ul.lvl0
+{
+    margin: 0 1px 0 0;
+    color: #416910;
+	font-family: Georgia, Serif;
+	text-align: center;
+	padding: 0 0 0 24px;
+	text-transform: capitalize;
+	white-space: nowrap;
+	float: left;
+	position: relative;
+	z-index: 100;
+	height:33px; /*--- To fix the overlap issue with the mega menu and the breadcrumbs ---*/
+}
+#PageHeaderNavigation ul.lvl0 li {
+    margin: 0;
+    float: left;
+    position: relative;
+    z-index: 9998;
+    list-style-type: none;
+}
+#PageHeaderNavigation ul.lvl0 li a,
+#PageHeaderNavigation .lvl0 li span {
+    /*background-image: none;     <-- Commented out because it was overwriting the background images for the selected class on root level navigation items. */
+    font-style: normal;
+    padding: 11px 0 0;
+    color: #416910;
+	font-size: 15px;
+	display: block;
+	float: left;
+	cursor: pointer;
+	height: 22px;
+}
+#PageHeaderNavigation ul.lvl0 li a:hover,
+#PageHeaderNavigation ul.lvl0 li span:hover,
+#PageHeaderNavigation ul.lvl0 li a.active,
+#PageHeaderNavigation ul.lvl0 li span.active
+{
+    text-decoration: none;
+    color: #fff;
+    background-position:top center;
+	background-repeat: no-repeat;
+}
+
+#PageHeaderNavigation ul.lvl0 li a.active,
+#PageHeaderNavigation ul.lvl0 li a.active span {
+    text-decoration:none;
+}
+#PageHeaderNavigation ul.lvl0 li.selected a.selected, .lvl0 li.selected span {
+    color:#ffffff;
+}
+/* Specific styles for header items */
+/* Visit */
+#PageHeaderNavigation ul.lvl0 li.tab_88 a,
+#PageHeaderNavigation ul.lvl0 li.tab_88 span
+{
+    width: 49px;
+}
+#PageHeaderNavigation ul.lvl0 li.tab_88 a:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_88 span:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_88 a.active,
+#PageHeaderNavigation ul.lvl0 li.tab_88 span.active
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/nav-visit-tab.png");
+}
+
+.top_1 .selected
+{
+	background-image: url("/sites/all/themes/botanical/cssAssets/nav-visit-tab-selected.gif");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/* Things to Do */
+#PageHeaderNavigation ul.lvl0 li.tab_89 a,
+#PageHeaderNavigation ul.lvl0 li.tab_89 span
+{
+    width: 114px;
+}
+#PageHeaderNavigation ul.lvl0 li.tab_89 a:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_89 span:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_89 a.active,
+#PageHeaderNavigation ul.lvl0 li.tab_89 span.active
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/nav-thingstodo-tab.png");
+}
+
+.top_2 .selected
+{
+	background-image: url("/sites/all/themes/botanical/cssAssets/nav-thingstodo-tab-selected.gif");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/* Gardens & Gardening */
+#PageHeaderNavigation ul.lvl0 li.tab_90 a,
+#PageHeaderNavigation ul.lvl0 li.tab_90 span
+{
+    width: 158px;
+}
+#PageHeaderNavigation ul.lvl0 li.tab_90 a:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_90 span:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_90 a.active,
+#PageHeaderNavigation ul.lvl0 li.tab_90 span.active
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/nav-gardensandgardening-tab.png");
+}
+
+.top_4 .selected
+{
+	background-image: url("/sites/all/themes/botanical/cssAssets/611817396851ca68d76a0a7cdf3ad3ad.gif");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/* Learn & Discover */
+#PageHeaderNavigation ul.lvl0 li.tab_105 a,
+#PageHeaderNavigation ul.lvl0 li.tab_105 span
+{
+    width: 131px;
+}
+#PageHeaderNavigation ul.lvl0 li.tab_105 a:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_105 span:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_105 a.active,
+#PageHeaderNavigation ul.lvl0 li.tab_105 span.active
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/nav-learnanddiscover-tab.png");
+}
+
+.top_3 .selected
+{
+	background-image: url("/sites/all/themes/botanical/cssAssets/f8967ed0a3207c2a94ac4ef7e96697ef.gif");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/* Sustainability */
+#PageHeaderNavigation ul.lvl0 li.tab_1921 a,
+#PageHeaderNavigation ul.lvl0 li.tab_1921 span
+{
+    width: 112px;
+}
+#PageHeaderNavigation ul.lvl0 li.tab_1921 a:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_1921 span:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_1921 a.active,
+#PageHeaderNavigation ul.lvl0 li.tab_1921 span.active
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/nav-sustainability-tab.png");
+}
+
+.top_5 .selected
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/nav-sustainability-tab-selected.gif");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/* Plant Conservation */
+#PageHeaderNavigation ul.lvl0 li.tab_1922 a,
+#PageHeaderNavigation ul.lvl0 li.tab_1922 span
+{
+    width: 142px;
+}
+#PageHeaderNavigation ul.lvl0 li.tab_1922 a:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_1922 span:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_1922 a.active,
+#PageHeaderNavigation ul.lvl0 li.tab_1922 span.active
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/nav-plantconservation-tab.png");
+}
+
+.top_6 .selected
+{
+	background-image: url("/sites/all/themes/botanical/cssAssets/8e526ca62fa8f75bf4d489af369f39f2.gif");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/* Plant Science */
+#PageHeaderNavigation ul.lvl0 li.tab_107 a,
+#PageHeaderNavigation ul.lvl0 li.tab_107 span
+{
+    width: 104px;
+}
+#PageHeaderNavigation ul.lvl0 li.tab_107 a:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_107 span:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_107 a.active,
+#PageHeaderNavigation ul.lvl0 li.tab_107 span.active
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/nav-plantscience-tab.png");
+}
+
+.top_7 .selected
+{
+	background-image: url("/sites/all/themes/botanical/cssAssets/nav-plantscience-tab-selected.gif");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/* About */
+#PageHeaderNavigation ul.lvl0 li.tab_108 a,
+#PageHeaderNavigation ul.lvl0 li.tab_108 span
+{
+    width: 63px;
+}
+#PageHeaderNavigation ul.lvl0 li.tab_108 a:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_108 span:hover,
+#PageHeaderNavigation ul.lvl0 li.tab_108 a.active,
+#PageHeaderNavigation ul.lvl0 li.tab_108 span.active
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/nav-about-tab.png");
+}
+
+.top_8 .selected
+{
+	background-image: url("/sites/all/themes/botanical/cssAssets/nav-about-tab-selected.gif");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/* MAGIC SUB DROPDOWN */
+#PageHeaderNavigation ul.lvl0 li div.sub-outer
+{
+	position: absolute;
+	top: 33px;
+	left: -26px;
+	z-index: 9997;
+	padding: 0;
+	display: none;
+	width: 528px;
+}
+#PageHeaderNavigation ul.lvl0 li.tab_107 div.sub-outer,
+#PageHeaderNavigation ul.lvl0 li.tab_108 div.sub-outer,
+#PageHeaderNavigation ul.lvl0 li.tab_1921 div.sub-outer,
+#PageHeaderNavigation ul.lvl0 li.tab_1922 div.sub-outer
+{
+    width: 216px;
+}
+#PageHeaderNavigation ul.lvl0 li div.sub-inner-top
+{
+    background-position: center top;
+    background-repeat: repeat-y;
+    height: 20px;
+    width: 528px;
+}
+#PageHeaderNavigation ul.lvl0 li.tab_107 div.sub-inner-top,
+#PageHeaderNavigation ul.lvl0 li.tab_108 div.sub-inner-top,
+#PageHeaderNavigation ul.lvl0 li.tab_1921 div.sub-inner-top,
+#PageHeaderNavigation ul.lvl0 li.tab_1922 div.sub-inner-top
+{
+    width: 216px;
+}
+#PageHeaderNavigation ul.lvl0 li div.sub-inner-middle
+{
+    padding: 0 10px 10px;
+    background-position: center top;
+    background-repeat: repeat-y;
+}
+#PageHeaderNavigation ul.lvl0 li div.sub-inner-bottom
+{
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 528px;
+}
+#PageHeaderNavigation ul.lvl0 li.tab_107 div.sub-inner-bottom,
+#PageHeaderNavigation ul.lvl0 li.tab_108 div.sub-inner-bottom,
+#PageHeaderNavigation ul.lvl0 li.tab_1921 div.sub-inner-bottom,
+#PageHeaderNavigation ul.lvl0 li.tab_1922 div.sub-inner-bottom
+{
+    width: 216px;
+}
+
+#PageHeaderNavigation ul.lvl0 li div.sub-outer a:hover,
+#PageHeaderNavigation ul.lvl0 li div.sub-outer span:hover
+{
+    background-image: none;
+}
+
+/* Specific styles for drop down container */
+/* Visit */
+#PageHeaderNavigation ul.lvl0 li.tab_88 div.sub-inner-top
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-visit-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_88 div.sub-inner-middle
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-visit-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_88 div.sub-inner-bottom
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-visit-bottom.png");
+}
+/* Things to Do */
+#PageHeaderNavigation ul.lvl0 li.tab_89 div.sub-inner-top 
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-thingstodo-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_89 div.sub-inner-middle 
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-thingstodo-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_89 div.sub-inner-bottom
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-thingstodo-bottom.png");
+}
+/* Gardens & Gardening */
+#PageHeaderNavigation ul.lvl0 li.tab_90 div.sub-inner-top
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-gardensandgardening-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_90 div.sub-inner-middle 
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-gardensandgardening-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_90 div.sub-inner-bottom
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-gardensandgardening-bottom.png");
+}
+/* Learn & Discover */
+#PageHeaderNavigation ul.lvl0 li.tab_105 div.sub-inner-top
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-learnanddiscover-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_105 div.sub-inner-middle 
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-learnanddiscover-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_105 div.sub-inner-bottom 
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-learnanddiscover-bottom.png");
+}
+/* Sustainability */
+#PageHeaderNavigation ul.lvl0 li.tab_1921 div.sub-inner-top
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-sustainability-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_1921 div.sub-inner-middle 
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-sustainability-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_1921 div.sub-inner-bottom
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-sustainability-bottom.png");
+}
+/* Plant Conservation */
+#PageHeaderNavigation ul.lvl0 li.tab_1922 div.sub-inner-top
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-plantconservation-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_1922 div.sub-inner-middle 
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-plantconservation-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_1922 div.sub-inner-bottom
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-plantconservation-bottom.png");
+}
+/* Plant Science */
+#PageHeaderNavigation ul.lvl0 li.tab_107 div.sub-inner-top
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-plantscience-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_107 div.sub-inner-middle 
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-plantscience-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_107 div.sub-inner-bottom
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-plantscience-bottom.png");
+}
+/* About */
+#PageHeaderNavigation ul.lvl0 li.tab_108 div.sub-inner-top
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-about-top.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_108 div.sub-inner-middle 
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-about-bg.png");
+}
+#PageHeaderNavigation ul.lvl0 li.tab_108 div.sub-inner-bottom
+{
+    background-image: url("/sites/all/themes/botanical/cssAssets/mm-about-bottom.png");
+}
+
+/* SECOND LEVEL */
+#PageHeaderNavigation table.lvl1
+{    
+    margin: 0;
+    padding: 0;
+}
+#PageHeaderNavigation table.lvl1 td
+{
+    margin: 0;
+    padding: 0 15px;
+    vertical-align: top;
+    text-align: left;
+    border-right: solid 1px #000;
+}
+#PageHeaderNavigation table.lvl1 td.last
+{
+    border-right: none;
+}
+#PageHeaderNavigation table.lvl1 td a,
+#PageHeaderNavigation table.lvl1 td span
+{
+     font-size: 14px;
+     margin: 0;
+     padding: 0 0 5px;
+     height: auto !important;
+     color: #000;
+}
+#PageHeaderNavigation table.lvl1 td a:hover
+{
+    color: #000;
+}
+#PageHeaderNavigation table.lvl1 td span.disabled
+{
+    color: #5C752C;
+	cursor: default;
+}
+#PageHeaderNavigation table.lvl1 td a.active
+{
+    
+}
+#PageHeaderNavigation table.lvl1 td span:hover
+{
+    
+}
+#PageHeaderNavigation table.lvl1 td.selected a,
+#PageHeaderNavigation table.lvl1 td.selected span
+{
+   
+}
+#PageHeaderNavigation ul.lvl0 li.tab_88 table.lvl1 td a,
+#PageHeaderNavigation ul.lvl0 li.tab_88 table.lvl1 td span,
+#PageHeaderNavigation ul.lvl0 li.tab_89 table.lvl1 td a,
+#PageHeaderNavigation ul.lvl0 li.tab_89 table.lvl1 td span,
+#PageHeaderNavigation ul.lvl0 li.tab_90 table.lvl1 td a,
+#PageHeaderNavigation ul.lvl0 li.tab_90 table.lvl1 td span,
+#PageHeaderNavigation ul.lvl0 li.tab_105 table.lvl1 td a,
+#PageHeaderNavigation ul.lvl0 li.tab_105 table.lvl1 td span,
+#PageHeaderNavigation ul.lvl0 li.tab_106 table.lvl1 td a,
+#PageHeaderNavigation ul.lvl0 li.tab_106 table.lvl1 td span
+{
+    width: 130px;
+    white-space: normal;
+    position: relative;
+    z-index: 100;
+}
+#PageHeaderNavigation ul.lvl0 li.tab_107 table.lvl1 td a,
+#PageHeaderNavigation ul.lvl0 li.tab_107 table.lvl1 td span,
+#PageHeaderNavigation ul.lvl0 li.tab_108 table.lvl1 td a,
+#PageHeaderNavigation ul.lvl0 li.tab_108 table.lvl1 td span,
+#PageHeaderNavigation ul.lvl0 li.tab_1921 table.lvl1 td a,
+#PageHeaderNavigation ul.lvl0 li.tab_1921 table.lvl1 td span,
+#PageHeaderNavigation ul.lvl0 li.tab_1922 table.lvl1 td a,
+#PageHeaderNavigation ul.lvl0 li.tab_1922 table.lvl1 td span
+{
+    width: 160px;
+    white-space: normal;
+	position: relative;
+	z-index: 100;
+}
+
+/* THIRD LEVEL */
+#PageHeaderNavigation ul.lvl2
+{
+    width: 130px;
+    margin: 0; 
+    padding: 0;
+}
+#PageHeaderNavigation ul.lvl2 li
+{
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+#PageHeaderNavigation ul.lvl2 li a,
+#PageHeaderNavigation ul.lvl2 li span
+{
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 0;
+    border: 0 !important;
+    display: block;
+    color: #000;
+}
+#PageHeaderNavigation ul.lvl2 li a:hover
+{
+    text-decoration: underline;
+    color: #000;
+}

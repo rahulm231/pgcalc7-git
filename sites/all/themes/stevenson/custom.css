@@ -1,0 +1,45 @@
+#block-pgc-contact-block-pgc-contact-block ul {
+    list-style-image: none ;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block ul {
+    list-style-image: none ;
+}
+
+.pg-page-btns .pgc-title-btn {
+    background: none !important;
+    color: #014d44 !important;
+    }
+
+.pg-page-btns .pgc-title-btn a:hover {
+    color: #014d44 !important;
+}
+/*#main-menu ul li a:hover
+{
+	background: #dddddd !important;
+}*/
+/*#main-menu li.expanded ul li a {
+    background: none !important;
+    }
+*/
+@media only screen and (max-width: 999px) {
+    #block-system-main-menu
+    {
+    	display: none;
+    }
+}
+.child-pages .details h2 a
+{
+	color: #014d44;
+}
+/*#main-menu ul li a.active {
+    background: #dddddd !important;
+}*/
+#main-menu ul li:hover {
+    background: none;
+    }
+
+  .pg-content-footer
+  {
+    padding-bottom: 50px;
+  }  

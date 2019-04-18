@@ -1,0 +1,55 @@
+/*#block-system-main-menu ul li, .toolbar-menu ul li{*/
+ul li{
+	background:none;
+}
+
+a[href$=".pdf"]:after{
+	background:none;
+}
+
+nav.side-navigation .title{
+	border:none;
+	padding:0px;
+}
+
+nav.side-navigation #block-system-main-menu h2.title{
+	border:none;
+    border-bottom: 1px solid #ededed;
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+#block-system-main-menu ul li{
+	padding-left:0px;
+	margin-left:0px;
+}
+
+/*
+#block-system-main-menu ul li a:after{
+	content: "\e114";
+	position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+*/
+
+
+
+@media only screen and (max-width: 999px) {
+	
+  nav.side-navigation{
+  	display:none;
+  }
+  
+  .node-homepage .cta-col .bg-white img{
+  	height:auto !important;
+  }
+}

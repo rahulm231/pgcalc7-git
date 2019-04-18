@@ -1,0 +1,241 @@
+.pg-wrap h1 {
+  font-size: 54px;
+}
+
+#block-system-main-menu {
+  width: 245px;
+}
+
+#block-system-main-menu h2 a {
+  background: #e3e3e3;
+  border-radius: 25px;
+  padding: 15px;
+  text-align: left;
+  line-height: 80px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#main-menu {
+  padding: 0;
+  margin: 0;
+}
+
+#main-menu li {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+  list-style: none;
+}
+
+#main-menu li a {
+  font-size: 15px;
+  color: #000000;
+  font-weight: normal;
+  display: block;
+  background: #fff;
+  padding: 10px 5px 10px 10px;
+  border: 0;
+  border-bottom: 1px solid #d8d8d8;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+#main-menu li a:hover {
+  color: #d81345;
+}
+
+#main-menu li a.active {
+  color: #d81345;
+}
+
+#main-menu li.expanded ul li a {
+  border-bottom: 0;
+  font-size: 14px;
+  padding: 10px 10px 10px 18px;
+  line-height: 20px;
+}
+
+#main-menu ul li a.active {
+  color: #d81345;
+}
+
+#main-menu li.expanded ul ul li a {
+  font-size: 14px;
+  padding: 8px 10px 8px 28px;
+}
+
+.pg-wrap table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pg-wrap table tr th {
+  background: #d81345;
+  color: #fff;
+  font-size: 1em;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+.pg-wrap table tr td {
+  color: #000;
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #000;
+}
+
+.pg-wrap ul {
+  margin-left: 40px;
+}
+
+.pg-wrap ol {
+  margin-left: 40px;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  background: #d81345;
+  padding: 20px;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  color: #fff;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+#pgc-contact-block {
+  padding-top: 10px;
+}
+
+#pgc-contact-block li a {
+  color: #fff;
+}
+
+#pgc-contact-block li a:hover {
+  color: #000;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #d81345;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  behavior: url(/PIE.htc);
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block .title {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+#pgc-contact-footer-block li a {
+  color: #ffffff;
+}
+
+#pgc-contact-footer-block li a:hover {
+  color: #000000;
+}
+
+#pgc_resource_block {
+  background: #e3e3e3;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  padding: 15px 20px;
+  text-align: center;
+  behavior: url(/PIE.htc);
+}
+
+#pgc_resource_block a {
+  color: #555555;
+}
+
+#pgc_resource_block a:hover {
+  color: #d81345;
+}
+
+.pg-gift-details .accordion-switch a {
+  background: #d81345;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  padding: 0 15px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  font-size: .9em;
+  font-weight: normal;
+  margin: 10px 0;
+  line-height: 40px;
+  behavior: url(/PIE.htc);
+}
+
+.pg-gift-details .accordion-switch a:hover {
+  background: #e3e3e3;
+  text-decoration: none;
+  color: #d81345;
+}
+
+.pg-gift-details .accordion-switch span {
+  float: right;
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a {
+  font-size: 14px;
+  font-style: normal;
+  text-transform: none;
+  color: #999999;
+  text-decoration: none;
+}
+
+.pg-breadcrumb .pg-breadcrumb-links a:hover {
+  color: #d81345;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+  background: #e3e3e3;
+  border-radius: 25px;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+  content: "\f0c9";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: -14px;
+  left: 5px;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+  content: "\f05c";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #d81345;
+}
+

@@ -1,0 +1,262 @@
+
+/* ---------- Color Module Styles ----------- */
+
+body,
+body.overlay {
+  color: #746c6c;
+}
+.comment .comment-arrow {
+  border-color: #ffffff;
+}
+#page,
+#main-wrapper {
+  background: #ffffff;
+}
+/* --- page title wrapper --*/
+#page-title-wrapper, #banner-area {
+  /*background: rgba(231, 231, 231, 0.4)  no-repeat top center; 
+  border-bottom: 1px solid rgba(234, 234, 234, 1); */
+  background-color: #49a7b7;
+  background-image: url(/sites/all/themes/summit_health/cssAssets/grid_masked_dark.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  border-bottom: 1px solid #eaeaea;
+}
+.tabs ul.primary li a.active {
+  background-color: #ffffff;
+}
+.tabs ul.primary li.active a {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+#header {
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+a {
+  color: #49a7b7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #49a7b7;
+  text-decoration: none;
+}
+a:active, a.selected {
+  color: #49a7b7;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #49a7b7;
+}
+#top-bar {
+  background: #49a7b7;
+  color: #ffffff;
+}
+#top-bar a {
+  color: #ffffff;
+}
+#navigation .selector {
+  color: #ffffff;
+  background-color: #49a7b7;
+  background-image: url(/sites/all/themes/summit_health/cssAssets/responsive-nav.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+#navigation .selector option {
+  background: #ffffff;
+  -webkit-appearance: none;
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+}
+#highlighted .block {
+  /*background: rgba(234, 234, 234, 0.5) url(/sites/all/themes/summit_health/cssAssets/banner-shadow.png) no-repeat top center; */
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  text-shadow: 1px 1px #ffffff;
+  background-color: #f4f4f4;
+  background-image: url(/sites/all/themes/summit_health/cssAssets/banner-shadow.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#footer-columns-wrapper {
+  /*background-color: rgba(59, 59, 59, 1);*/
+  background-color: #00678f;
+  /*background-image: url(/sites/all/themes/summit_health/cssAssets/grid_masked_dark.png);
+  background-repeat: no-repeat;
+  background-position: top center;*/
+  border-top: 7px solid #eaeaea;
+}
+#page-wrapper,
+#footer-wrapper {
+  background: #3a3a3a;
+}
+
+#footer-columns, #footer {
+  color: rgba(255, 255, 255, 0.6);
+  color: #fdfcfc;
+}
+#footer-columns a, #footer a,
+#footer-columns h1, #footer-columns h2, #footer-columns h3, #footer-columns h4, #footer-columns h5, #footer-columns h6 {
+  color: rgba(255, 255, 255, 0.9);
+  color: #fdfcfc;
+}
+#footer-columns a:hover,
+#footer-columns a:focus, 
+#footer a:hover, #footer a:focus {
+  color: #49a7b7;
+}
+
+#main-menu ul.menu a {
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+#main-menu ul.menu a:hover,
+#main-menu ul.menu a:focus,
+#main-menu ul.menu a:active,
+#main-menu ul.menu li a.active,
+#main-menu ul.menu li a.active-trail {
+  color: #49a7b7;
+}
+#main-menu ul.menu ul {
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+}
+#main-menu ul.menu ul li.first {
+  background-image: url(/sites/all/themes/summit_health/cssAssets/up-aero.png);
+  background-repeat: no-repeat;
+  background-position: 15px top;
+  padding-top: 10px;
+  margin-top: -10px;
+}
+#main-menu ul.menu ul li a {
+  border: 0;
+  -khtml-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  border-bottom: 1px solid #eaeaea;
+}
+#main-menu ul.menu ul ul li.first {
+  background: none;
+}
+
+/* ---- Navigation select box selector ----- */
+#navigation .selector option:hover {
+ background: #49a7b7;
+}
+
+footer.link-wrapper {
+  border-left: 2px solid #eaeaea;
+  border-right: 2px solid #eaeaea;
+  background: rgba(234, 234, 234, 0.5);
+}
+
+/* ----- blockquote -----*/
+blockquote, .info-box {
+  border-left: 3px solid #49a7b7;
+  background: rgba(234, 234, 234, 0.7);
+}
+
+/* -------------- Pager ------------- */
+.item-list .pager li.pager-item a{
+  border: 1px solid #cccccc;
+  color: #ffffff;
+  background: #49a7b7;
+}
+.item-list .pager li.pager-current {
+  border: 1px solid #cccccc;
+}
+/* -------- jquery accordion and tabs ------- */
+.jquery-ui-filter-tabs ul.ui-tabs-nav li.ui-tabs-selected, .block-quicktabs .quicktabs-wrapper ul.quicktabs-tabs li.active a{
+  border-top: 2px solid #49a7b7;
+}
+/* --- follow links ---*/
+.follow-links a {
+  background-color: #cc7474;
+}
+.follow-links a:hover {
+  background-color: #ff1f1f;
+}
+ 
+/* -------- isotope grid -------- */
+.isotope-element {
+  color: #746c6c;
+}
+.isotope-element a {
+  color: #49a7b7 !important;
+}
+.image, .image a, .isotope-element .image a,
+.image h3, .image h4, .image h5, .image h6 {
+  color: #ffffff !important;
+}
+/* ----- image hover animation ------*/
+.image .image-hover {
+  background-color: #49a7b7;
+}
+
+/* ------ skill bar -------- */
+.skillbar .skill-percentage{
+  background-color: #49a7b7;
+}
+
+/* ------ back to top -------- */
+#baaaccktotop:hover {
+  /*background-color: #49a7b7;*/
+}
+
+/* ---- dropcaps ---- */
+.dropcap {
+  color: #49a7b7;
+}
+.dropcap.circle {
+  background: #49a7b7;
+}
+.dropcap.square {
+  background: #49a7b7;
+}
+
+/*  --- hightlight button ---- */
+#highlighted .button, .region-featured .button, .info-box .button {
+  background-color: #49a7b7;
+  border-color: #f89405 #f89405 #ad6603;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  text-shadow: 0 1px .01em rgba(255,255,255,0.7);
+}
+
+/*------- pricing tables ------- */
+.pricing-tables ul.package.recommended li.package-name,
+.pricing-tables ul.package.recommended li.package-name div,
+.pricing-tables ul.package.recommended li.package-price {
+  background-color: #49a7b7;
+}
+
+/* ---- text highlights --- */
+.highlight {
+  background-color: #49a7b7;
+  color: #ffffff;
+}
+
+/* ----- selected text -------- */
+::-moz-selection{ background: #49a7b7; color: #ffffff; text-shadow: none; }
+::selection { background: #49a7b7; color: #ffffff; text-shadow: none; } 
+
+
+
+/*******************************************************************
+*                                        *
+*******************************************************************/
+#featured {
+  border-bottom: 1px solid #eaeaea;
+  text-shadow: 1px 1px #fff;
+  /*background: rgba(234, 234, 234, 0.2) url(/sites/all/themes/summit_health/cssAssets/banner-shadow.png) no-repeat top center;*/
+  background-color: #fbfbfb;
+  background-image: url(/sites/all/themes/summit_health/cssAssets/banner-shadow.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}

@@ -1,0 +1,14 @@
+.subpages{
+	margin-top: 0rem !important;
+}
+
+.pg-content-inline-blocks{
+	width:33%;
+}
+
+@media only screen and (max-width: 999px) {
+
+	.heading__intro.wrapper {
+		display: none;
+	}
+}

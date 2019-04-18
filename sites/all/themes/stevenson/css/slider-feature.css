@@ -1,0 +1,27 @@
+#slider ul{padding:0;list-style:none}
+#slider .image img,#slider_container #controls a img{display:block}
+#slider.feature{margin-bottom:20px}
+#slider .caption{/*! background-color:#d73e02; *//*! box-shadow:0 0 30px 0 #a83b10 inset; */transition:box-shadow .3s ease;padding:25px;font-family:"Merriweather Sans",sans-serif;font-size:13px;line-height:19px;color:#fff}
+#slider .caption.green{background-color:#033;box-shadow:0 0 30px 0 #033 inset}
+.gps #slider .caption{background-color:#043B62;box-shadow:0 0 30px 0 #133953 inset}
+#slider .caption a.more{background-color:#b4d333;display:inline-block;color:#004d43;text-align:center;text-transform:uppercase;font-size:12px;line-height:normal;border-radius:5px;padding:7px 15px;margin-top:15px}
+#slider .caption a.more:hover{background-color:#7c9905}
+#slider .caption h2{margin:0 0 15px;font-size:26px;line-height:30px;font-weight:300;color:#fff}
+#slider_container{position:relative;background-color: #003;}
+.gps #slider_container{background-color:#043B62;}
+#slider_container #controls{position:absolute;overflow:hidden;width:100%;top:0;transition:all .3s ease;display:block}
+#slider_container #controls a{padding:7px 10px;background-image:url(/sites/all/themes/stevenson/cssAssets/trans_pixel_white.png);display:block;transition:all .2s ease;text-align:center}
+#slider_container #controls a:hover{background-image:none;background-color:#fff}
+#slider_container #controls a.prevBtn{float:left}
+#slider_container #controls a.nextBtn{float:right}
+@media all and (min-width:768px) {
+#slider li{overflow:hidden}
+#slider .caption{font-size:14px;line-height:24px}
+#slider .caption h2{font-size:32px;line-height:36px}
+#slider .image{float:left;width:50%}
+#slider .caption{float:right;width:44%;padding:3%}
+}
+@media all and (min-width:1044px) {
+#slider:not(.rotator) .image.image{width:60%;}
+#slider:not(.rotator) .caption.caption{padding:30px 25px;width:40%;height:250px;box-sizing: border-box;}
+}

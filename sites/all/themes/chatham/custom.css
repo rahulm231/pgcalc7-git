@@ -1,0 +1,7 @@
+#block-system-main-menu > div.content > ul.nav > li.expanded > ul{display:none;}
+#block-system-main-menu > div.content > ul.nav > li.active-trail > ul{display:block;}
+#block-system-main-menu > div.content > ul.nav > li{background-color: transparent; border-bottom: 1px dashed #999; padding: 0.5em 0.5em; list-style: none; font-size: 0.9em;}
+#block-system-main-menu > div.content > ul.nav > li > a, #block-system-main-menu > div.content > ul.nav > li > span{text-transform: none;font-weight: bold;font-size: 1em;  font-family: Arial, Helvetica, sans-serif; color: #5e5887; margin: 0; padding: 0;}
+span.plus{padding-left: 5px!important;cursor: pointer}
+#sidemenu li.show{border:none;}
+.pg-page-btns .pgc-share .atc_s{font-size:0;}

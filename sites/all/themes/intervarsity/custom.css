@@ -1,0 +1,105 @@
+.main .block-menu-block .region-menu ul.nav{
+	display:block !important;
+}
+#block-system-main-menu h2.title{
+	display:none;
+}
+.caspian-contentcolumn{
+	width:75% !important;
+}
+
+.caspian-sidebarfirst{
+	padding-top:20px;
+}
+
+#block-system-main-menu li{
+	padding-left:10px;
+}
+
+.pg-page-btns .pgc-share .atc_s{
+	font-size:0;
+}
+
+.top-left{
+	display:inline-block;
+	width:75%;
+}
+
+.top-right {
+	display:inline-block;
+	width:20%;
+}
+.region-search{
+	display:inline-block;
+}
+
+.region-search .form-submit{
+	display:none;
+}
+
+.region-search input#edit-search-block-form--2 {
+    width: 96%;
+    background: url(/sites/all/themes/intervarsity/img/searchbox.png) right center no-repeat #FFFFFF;
+    font-size: 1.1em;
+    padding: 2px;
+    font-stretch: semi-expanded;
+    height: 1.2em;
+}
+
+.top-right nav.secondary{
+	float:none;
+}
+
+div.webform-component-select_or_other div.form-item-submitted-i-we-request-InterVarsity-use-the-gift-as-follows2-other, div.webform-component-select_or_other div.form-item-submitted-null-other{
+	display:block !important;
+}
+
+div.form-item-submitted-alumi-values1-other, div.form-item-submitted-alumi-values2-other{
+	display:inline-block !important;
+}
+
+div.form-item-submitted-alumi-values1-select, div.form-item-submitted-alumi-values2-select{
+	margin-left:20px;
+}
+
+
+div#webform-component-estimated-value-text p{
+	font-family: "Avenir LT W01 85 Heavy","Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+    padding-top: 4px;
+    color: #0a214f;	
+}
+
+div#webform-component-my-our-conservative-estimate-of-todays-value-of-the-gift label{
+	font-family: "Avenir LT W01 65 Medium","Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #475e7b;
+}
+
+
+@media only screen and (max-width: 999px) {
+	
+  .pg-wrap h1 {
+    width: auto;
+  }
+	
+  .caspian-sidebarfirst{
+  	display:none;
+  }
+  .caspian-contentcolumn {
+  	width:100% !important;
+  	margin: 0 !important;
+  }
+  /*
+  #block-pgc-misc-blocks-mobilenav{
+  	margin-bottom:0px !important;
+  }
+  #tabs-wrapper{
+  	position: relative;
+    margin-top: -70px;
+    z-index: 999;
+  }*/
+}

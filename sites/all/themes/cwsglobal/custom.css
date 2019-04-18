@@ -1,0 +1,28 @@
+.section.landing1 .leftcontent{
+	float:left;
+	width:75%;
+}
+
+.section.landing1 .rightsidebar{
+	float:right;
+	width:21%;
+}
+
+.section.landing1 .leftcontent .pg-content-body{
+	min-height: 265px;
+}
+
+
+@media only screen and (max-width: 999px) {
+	
+  .section.landing1 .leftcontent{
+	float:none;
+	width:auto;
+	margin:10px;
+  }
+
+  .section.landing1 .rightsidebar{
+	display:none;
+  }
+  
+}

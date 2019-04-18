@@ -1,0 +1,1042 @@
+@import url("/sites/all/themes/botanical/css/eventdetails.css");
+@import url("/sites/all/themes/botanical/css/stylesheetwidget.css");
+
+ul li {
+}
+
+.content {
+	margin-top:12px !important;
+}
+
+#block-system-main-menu {
+	padding-left:0px !important;
+}
+
+#main-menu {
+	padding-left:15px !important;
+	font-style: italic !important;
+	 list-style: square url("/sites/all/themes/botanical/img/link-arrow.png") !important;
+}
+
+#main-menu ul {
+	padding-left:10px !important;
+}
+
+#main-menu ul ul {
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+}
+
+#main-menu li a {
+	padding-top:0px !important;
+	padding-left:0px !important;
+}
+
+html
+{
+	min-height:100%;
+}
+
+body
+{
+	background-image:url(/sites/all/themes/botanical/cssAssets/body-bg.jpg);
+	background-position:bottom;
+	background-repeat:repeat-x;
+	height:100%;
+}
+
+/*-------- Default Style --------*/
+body,th,td,div,p,table,h1,h2,h3,h4,h5,h6,blockquote,.Normal,.NormalDisabled,.Head,.SubHead,.SubSubHead, a:link, a:visited, a:hover, input, .CommandButton
+{
+	color:#636b4f; 
+	font-family: Georgia, BemboStdRegular, Serif;
+}
+
+body,th,td,div,p,table,blockquote,.Normal,.NormalDisabled,.Head,.SubHead,.SubSubHead, a:link, a:visited, a:hover
+{
+	font-size:14px;
+}
+
+a,a:link,a:visited,a:active
+{
+	color:#eb7312; 
+	text-decoration:none; 
+	font-weight:normal; 
+		
+}
+
+a:hover
+{
+	color:#eb7312; 
+	text-decoration:underline; 
+	font-weight:normal;
+}
+
+ul li
+{
+	list-style-type: disc;
+}
+
+
+#PageHeaderSubNavigationBar a, #PageHeaderSubNavigationBar a:link, #PageHeaderSubNavigationBar a:visited, #PageHeaderSubNavigationBar a:active
+{
+	color:#3a701b;
+	text-decoration:none;
+	padding:0px 0px 0px 5px;
+	font-size:12px;
+}
+
+#PageHeaderSubNavigationBar a:hover
+{
+	text-decoration:underline;
+	padding:0px 0px 0px 5px;
+	font-size:12px;
+}
+
+#PageBodyContent hr
+{
+	border:none;
+	border-bottom:1px solid #c9d7b2;
+}
+
+#PageBodyContentRight .CalloutPane hr
+{
+	border:none;
+	border-bottom:1px solid #fdfdfd !important;
+}
+
+#SubPageBodyContentRight .CalloutPane hr
+{
+	border:none;
+	border-bottom:1px solid #c9d7b2 !important;
+}
+
+
+/*--- Page Footer Formatting ---*/
+#PageFooter p, #PageFooter ul, #PageFooter li
+{
+	color:#ffffff;
+	
+}
+
+#PageFooter ul
+{
+	padding:0px;
+	margin:0px;
+}
+
+#PageFooter ul li
+{
+	list-style:none;
+	color:#d1ddbc;
+}
+
+#PageFooter hr
+{
+	border:none;
+	border-bottom:1px solid #767d64;
+}
+
+#PageFooter blockquote
+{
+	color:#ffffff;
+	margin:0px 0px 12px 30px;
+	line-height:18px;
+}
+
+
+
+#PageFooterInfo a, #PageFooterInfo a:link, #PageFooterInfo a:visited, #PageFooterInfo a:active,
+#PageFooterNavigation a, #PageFooterNavigation a:link, #PageFooterNavigation a:visited, #PageFooterNavigation a:active,
+#PageFooterQuickLinks a, #PageFooterQuickLinks a:link, #PageFooterQuickLinks a:visited, #PageFooterQuickLinks a:active,
+#PageFooterLegal a, #PageFooterLegal a:link, #PageFooterLegal a:visited, #PageFooterLegal a:active
+{
+	color:#d1ddbc;
+	font-size:14px;
+	line-height:18px;
+}
+
+#PageFooterInfo a:hover,
+#PageFooterNavigation a:hover,
+#PageFooterQuickLinks a:hover,
+#PageFooterLegal a:hover
+{
+	text-decoration:underline;
+}
+
+.FooterTitleText
+{
+	font-size:18px;
+	margin:0px;
+	padding:0px;
+}
+
+.FooterTitleText a:link, .FooterTitleText a:visited, .FooterTitleText a:active 
+{
+	color:#ffffff;
+}
+
+.FooterTitleText a:hover
+{
+	color:#EB7312;
+	text-decoration:underline;
+}
+
+.FooterSubTitleText
+{
+	font-size:14px;
+	margin:0px;
+	padding:0px;
+}
+
+#Steadyrain
+{
+	font-size:10px;
+	color:#D1DDBC;
+}
+
+#Steadyrain a, #Steadyrain a:link, #Steadyrain a:active, #Steadyrain a:visited, #Steadyrain a:hover
+{
+	font-size:10px;
+}
+
+
+.SubPageTitle
+{
+	color:#285407;
+	font-size:30px;
+}
+
+
+/*--- WYSIWYG Styles & Page Styles ---------------------------------------------------------------------------------------------------------------------*/
+.TitleText
+{
+	color:#295307;
+	font-size:18px;
+}
+
+.SubTitleText
+{
+	color:#295307;
+	font-size:16px;
+}
+
+.SmallText
+{
+	font-size:10px;
+}
+
+.AlertText
+{
+	color:#b93a11;
+}
+
+a.CalloutLink:link, a.CalloutLink:visited, a.CalloutLink:active
+{
+	font-style:italic;
+	background-image:url(/sites/all/themes/botanical/cssAssets/link-arrow.gif);
+	background-repeat:no-repeat;
+	background-position:left 5px;
+	display:inline-block;
+	padding-left:15px;
+	margin-left:5px;
+}
+
+a.CalloutLink:hover
+{
+	font-style:italic;
+	background-image:url(/sites/all/themes/botanical/cssAssets/link-arrow.gif);
+	background-repeat:no-repeat;
+	background-position:left 5px;
+	display:inline-block;
+	padding-left:15px;
+	margin-left:5px;
+}
+
+.LeftAlign
+{
+	float:left !important;
+	padding-right:10px;
+	margin-right:10px;
+	display:block;
+}
+
+.RightAlign
+{
+	float:right !important;
+	padding-left:10px;
+	margin-left:10px;
+	display:block;
+}
+/*--- WYSIWYG Styles & Page Styles END -----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*--- Structural Build/Framework -----------------------------------------------------------------------------------------------------------------------*/
+#Page
+{
+	width:1000px;
+	margin:0 auto;
+	/*background-image:url(/sites/all/themes/botanical/cssAssets/page-bg.png)*/
+}
+
+/*--- Header Wrapper ---*/
+#PageHeader
+{
+	width:1000px;
+	background-image:url(/sites/all/themes/botanical/cssAssets/PageHeader-Top-bg.png);
+	background-position:top;
+	background-repeat:no-repeat;
+	height:153px;
+}
+
+/*--- Top Links & Socical Network Icons ---*/
+#PageHeaderSubNavigationBar
+{
+	width:952px;
+	height:37px;
+	margin:0 auto;
+	
+}
+
+/*--- Sub Navigation ---*/
+#PageHeaderSubNavigation
+{
+	/*width:450px; too small ---*/
+	width:480px;
+	height:21px;
+	line-height:21px;
+	margin-top:11px;
+	margin-right:150px;
+	text-align:right;
+	float:right;
+	font-size:12px; /*--- Prevents the css widgets from changing the size of the Header Sub Navigation ---*/
+}
+
+#PageHeaderSubNavigation a.homeIcon
+{
+/*	background-image:url(/sites/all/themes/botanical/cssAssets/home-icon.png);
+	background-position:top;
+	background-repeat:no-repeat;
+	display:block;
+	overflow:hidden;
+	width:17px;
+	height:16px;
+	float:left;
+	margin:2px 0px 0px 10px;*/
+}
+
+/*#PageHeaderSubNavigation { width:510px;} <--- Was causing header display problems.*/
+#PageHeaderSubNavigation a.homeIcon /*--- Jim's recommendations ---*/
+{width:88px;margin:0px;}
+#PageHeaderSubNavigationBar #LoginNavigation {width:185px;}
+
+#PageHeaderSubNavigation a.homeIcon:hover
+{
+	/*background-position:bottom;*/
+	/*text-decoration:underline !important;*/
+}
+
+/*--- Social Media Icons ---*/
+#SocialMedia
+{
+	/*width:130px;*/
+	float:right;
+	margin-top:11px;
+}
+
+/*--- Login Navigation ---*/
+#LoginNavigation
+{
+	font-size:12px;
+	height:21px;
+	line-height:21px;
+	margin-top:11px;
+	width:225px;
+	float:left;
+}
+
+/*--- Logo, Search, and Alert Container ---*/
+#PageHeaderContent
+{
+	width:952px;
+	height:106px;
+	margin:10px auto 0px auto;
+	background-color:#ffffff;
+	background-image:url(/sites/all/themes/botanical/cssAssets/pageHeaderContent-bg.gif);
+	background-position:bottom;
+	background-repeat: repeat-x;
+}
+
+#PageHeaderLogo
+{
+	width:540px;
+	height:56px;
+	float:left;
+}
+
+/*--- Alert Holder for Alert Pane ---*/
+#PageHeaderAlert
+{
+	width:180px;
+	height:56px;
+	float:left;
+}
+
+/*--- Search Holder ---*/
+#PageHeaderSearch
+{
+	width:217px;
+	height:56px;
+	float:right;
+}
+
+#PageHeaderSearchBox
+{
+	height:18px;
+	margin-top:20px;
+/*	background-image:url(/sites/all/themes/botanical/cssAssets/PageHeaderSearchBox-bg.png);
+	background-repeat:no-repeat;
+	font-size:14px; /*--- Prevents the CSS widget from changing the font size ---*/*/
+}
+
+
+/*--- Search Button Class ---*/
+.MBGSearch
+{
+	float:left;
+}
+
+
+#PageHeaderNavigationBar
+{
+	width:960px;
+	height:44px;
+	float:left;
+	margin-left: -24px;
+	background-image:url(/sites/all/themes/botanical/cssAssets/PageHeaderNavigation-Left-Shadow.png);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+#PageHeaderNavigation
+{
+	background-image:url(/sites/all/themes/botanical/cssAssets/PageHeaderNavigation-bg.png);
+	background-repeat: repeat-x;
+	width:924px;
+	height:44px;
+	float:left;
+	margin-left:12px;
+	position:relative;
+	z-index:9999;
+}
+
+#PageHeaderNavigationTail
+{
+	width:24px;
+	height:44px;
+	float:right;
+}
+
+#PageHeaderBreadCrumb
+{
+	height:14px;
+	width:912px;
+	margin:-8px 0px 0px 20px;
+	float:left;
+	clear:both;
+	color:#959494;
+	font-size:10px;
+}
+
+#PageHeaderBreadCrumb .MoBotBreadCrumb
+{
+	color:#959494;
+	font-size:10px;
+	font-weight:normal;
+}
+
+#PageHeaderBreadCrumb .breadcrumbActive
+{
+	color:#295307;
+	font-weight:bold;
+}
+
+#PageBody
+{
+	width:1000px;
+	background-image:url(/sites/all/themes/botanical/cssAssets/page-bg.png);
+	background-repeat:repeat-y;
+
+}
+
+.PageBodySlideShow
+{
+	width:964px;
+	margin-left:12px;
+}
+
+#PageBodyContent
+{
+	width:952px;
+	margin:0px auto;
+	background-image:url(/sites/all/themes/botanical/cssAssets/PageBodyContent-top-bg.png);
+	background-position:top;
+	background-repeat:repeat-x;
+}
+
+#PageBodyContentLeft
+{
+	width:585px;
+	float:left;
+	padding-top:20px;
+}
+
+
+#PageBodyContentLeft .ContentPane, #PageBodyContentLeft .FooterPane
+{
+	width:560px;
+	margin:0px auto;
+	clear:both;
+}
+
+#PageBodyContentLeft .LeftPane
+{
+	width:260px;
+	float:left;
+	clear:left;
+	margin-left:23px;
+}
+
+#PageBodyContentLeft .RightPane
+{
+	width:260px;
+	float:right;
+	margin-right:18px;
+}
+
+#PageBodyContentRight
+{
+	width:359px;
+	float:left;
+}
+
+#PageBodyContentCallout
+{
+	width:359px;
+	background-image:url(/sites/all/themes/botanical/cssAssets/PageBodyContentRight-bg.png);
+	background-repeat:repeat-y;	
+	padding-bottom:1px; /*--- Removes white gap created by paragraph tag margin ---*/
+}
+
+#PageBodyContentCallout .CalloutPane
+{
+	width:317px;
+	margin:0px auto;
+}
+
+#PageBodyContentCalloutNewsletter
+{
+	width:290px;
+	height:55px;
+	margin-left:16px;
+	background-image:url(/sites/all/themes/botanical/cssAssets/f655df07f7ffea77f29394d91b4d83db.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+
+
+/*--- Sub Page ---*/
+.SubPageBodySlideShow
+{
+	width:952px;
+	margin:0 auto;
+}
+
+#SubPageBodyContentLeft
+{
+	width:629px;
+	float:left;
+}
+
+#SubPageBodyContentLeftTitle
+{
+	width:629px;
+	float:left;
+}
+
+#SubPageBodyContentLeftTitleHeader
+{
+	width:629px;
+	height:13px;
+	background-image:url(/sites/all/themes/botanical/cssAssets/53d9b7da41c4db7370685db3d7a7c20e.png);
+	background-repeat:no-repeat;
+}
+
+#SubPageBodyContentLeftTitleContent
+{
+	width:586px; /* Was the following, but was causing the title to not wrap --> width:629px;*/
+	background-image:url(/sites/all/themes/botanical/cssAssets/SubPageBodyContentLeftHeader-bg.png);
+	background-repeat:repeat-y;
+	padding:0px 25px;
+}
+
+#SubPageBodyContentLeftTitleFooter
+{
+	width:629px;
+	height:25px;
+	background-image:url(/sites/all/themes/botanical/cssAssets/cd4d9d8e1309115d05199ed2e75966c8.png);
+	background-repeat:no-repeat;
+}
+
+
+#SubPageBodyContentLeft .ContentPane, #SubPageBodyContentLeft .FooterPane
+{
+	clear:both;
+	width:573px;
+	margin:0 auto;
+}
+
+#SubPageBodyContentLeft .LeftPane
+{
+	width:258px;
+	margin-left:35px;
+	float:left;
+}
+
+#SubPageBodyContentLeft .RightPane
+{
+	width:258px;
+	margin-right:35px;
+	float:right;
+}
+
+
+#SubPageBodyContentRight
+{
+	width:323px;
+	float:left;
+}
+
+#SubPageBodyContentRight .CalloutPane
+{
+	width:289px;
+	
+}
+
+
+
+/*--- Wide Page ---*/
+#WidePageBodyContent
+{
+	width:952px;
+	margin:0 auto;
+}
+
+#WidePageBodyContent .ContentPane
+{
+	width:884px;
+	margin:0 auto;
+}
+
+#WidePageBodyContentTitle
+{
+	height:62px;
+	width:918px;
+	
+}
+
+#WidePageBodyContentTitleTail
+{
+	height:62px;
+	width:22px;
+	float:right;
+}
+
+#WidePageBodyContentTitleContent
+{
+	padding:0px 25px;
+	line-height:56px;
+	background-image:url(/sites/all/themes/botanical/cssAssets/WidePageBodyContentTitle-bg.png);
+	background-repeat:repeat-x;
+	width:846px;
+	height:62px;
+	float:left;
+}
+
+.WidePageTitle
+{
+	color:#285407;
+	font-size:30px;
+}
+
+
+
+
+
+
+
+/*--- Event Details Page ---*/
+#EventDetailsPageBodyContentLeft
+{
+	width:527px;
+	float:left;
+}
+
+#EventDetailsPageBodyContentLeft .ContentPane
+{
+	width:465px;
+	margin-left:35px;
+}
+
+#EventDetailsPageBodyContentLeftTitle
+{
+	width:507px;
+}
+
+#EventDetailsPageBodyContentLeftTitleHeader
+{
+	background-image: url("/sites/all/themes/botanical/cssAssets/53d9b7da41c4db7370685db3d7a7c20e.png");
+    background-repeat: no-repeat;
+	background-position:right top;
+    height: 13px;
+    width: 507px;
+}
+
+#EventDetailsPageBodyContentLeftTitleContent
+{
+	padding:0px 25px;	
+	background-image:url("/sites/all/themes/botanical/cssAssets/SubPageBodyContentLeftHeader-bg.png");
+	background-repeat:repeat-7;
+	background-position:right;
+	width:457px;
+}
+
+#EventDetailsPageBodyContentLeftTitleFooter
+{
+	background-image: url("/sites/all/themes/botanical/cssAssets/cd4d9d8e1309115d05199ed2e75966c8.png");
+    background-repeat: no-repeat;
+	background-position:right bottom;
+    height: 25px;
+    width: 507px;
+}
+
+.EventDetailsPageTitle
+{
+	color:#285407;
+	font-size:30px;
+}
+
+#EventDetailsPageBodyContentRight
+{
+	width:425px;
+	float:right;
+	padding-top:20px;
+}
+
+#EventDetailsPageBodyContentRight .CalloutPane
+{
+	width:390px;
+}
+
+
+
+
+
+
+#PageFooter
+{
+	width:1000px;
+	clear:both;
+	margin:0px auto;
+}
+
+
+
+#PageFooterContent
+{
+	width:1000px;
+	background-image:url(/sites/all/themes/botanical/cssAssets/PageFooter-bg.png);
+	background-repeat:repeat-y;
+}
+
+#PageFooterSupport
+{
+	width:192px;
+	background-image:url(/sites/all/themes/botanical/cssAssets/PageFooter-Green-Bib.png);
+	background-repeat:no-repeat;
+	margin-left:34px;
+	float:left;
+}
+
+#PageFooterSupportContent
+{
+	width:150px;
+	margin: 0 auto;
+}
+
+
+#PageFooterInfo
+{
+	width:93px;
+	height:170px;
+	border-right:1px solid #767d64;
+	float:left;
+	padding:0px 16px 0px 0px;
+}
+
+#PageFooterNavigation
+{
+	width:111px;
+	height:170px;
+	border-right:1px solid #767d64;
+	float:left;
+	padding:0px 16px;
+}
+
+#PageFooterQuickLinks
+{
+	width:111px;
+	height:170px;
+	border-right:1px solid #767d64;
+	float:left;
+	padding:0px 16px;
+}
+
+#PageFooterLocations
+{
+	width:316px;
+	float:left;
+	padding:0px 16px;
+}
+
+#PageFooterFooter
+{
+	width:1000px;
+	clear:both;
+	height:50px;
+	
+}
+
+#PageFooterNewsletter
+{
+	width:449px;
+	height:37px;
+	float:left;
+	background-image:url(/sites/all/themes/botanical/cssAssets/PageFooterNewsletterSignup-bg.png);
+	background-repeat:no-repeat;	
+	margin-left:47px;
+}
+
+#PageFooterLegal
+{
+	width:400px;
+	float:right;
+	text-align:right;
+	margin-right:57px;
+}
+/*--- Structural Build/Framework END -------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*--- e-Newsletter Skin Object -------------------------------------------------------------------------------------------------------------------------*/
+#PageBodyContentCallout .newsletter-signup
+{
+	width:317px;
+	margin:0 auto;	
+}
+
+/*--- Signup Message ---*/
+#PageBodyContentCallout .newsletter-signup .message
+{
+	color:#295307;
+	font-size:12px;
+	font-weight:bold;
+	padding:0px 0px 5px 5px;
+}
+
+/*--- Wrapper for Submit Button & Text Box ---*/
+#PageBodyContentCallout .newsletter-signup .input
+{
+	background-image:url(/sites/all/themes/botanical/cssAssets/e-newsletter-input-bg-right-tail.png);
+	background-position:right;
+	background-repeat:no-repeat;
+	width:270px;
+	height:25px;
+}
+
+/*--- Submit Button ---*/
+#PageBodyContentCallout .newsletter-signup .input .submit-button
+{
+	float:left;
+	width:63px;
+	height:25px;
+	border:none;
+}
+
+/*--- Text Box ---*/
+#PageBodyContentCallout .newsletter-signup .input input
+{
+	height:21px;
+	width:185px;
+	border:1px solid #ffffff;
+	color:#a7a7a7;
+	line-height:21px;
+	vertical-align:top;
+	padding-left:5px;
+	
+}
+
+
+/*--- FOOTER VERSION ---*/
+#PageFooterNewsletter .newsletter-signup
+{
+	width:449px;	
+}
+
+/*--- Signup Message ---*/
+#PageFooterNewsletter .newsletter-signup .message
+{
+	color:#ffffff;
+	font-size:12px;
+	padding:0px 11px;
+	line-height:30px;
+	float:left;
+
+}
+
+/*--- Wrapper for Submit Button & Text Box ---*/
+#PageFooterNewsletter .newsletter-signup .input
+{
+	background-image:url(/sites/all/themes/botanical/cssAssets/e-newsletter-input-bg-right-tail.png);
+	background-position:right;
+	background-repeat:no-repeat;
+	margin-top:3px;
+	height:25px;
+	float:left;
+}
+
+/*--- Submit Button ---*/
+#PageFooterNewsletter .newsletter-signup .input .submit-button
+{
+	float:left;
+	width:63px;
+	height:25px;
+	border:none;
+}
+
+/*--- Text Box ---*/
+#PageFooterNewsletter .newsletter-signup .input input
+{
+	height:21px;
+	width:165px;
+	border:1px solid #ffffff;
+	color:#a7a7a7;
+	line-height:21px;
+	vertical-align:top;
+	padding-left:5px;
+	
+}
+
+
+/*--- e-Newsletter Skin Object END ---------------------------------------------------------------------------------------------------------------------*/
+
+
+/*--- Twitter functionality ----------------------------------------------------------------------------------------------------------------------------*/
+#TwitterTitle
+{
+	float:left;
+}
+
+.tweet ul
+{
+	margin:0px;
+	padding:0px;
+}
+
+.tweet ul li
+{
+	list-style:none;
+}
+
+
+
+.clear_float
+{
+	clear:both; 
+	line-height:0; 
+	font-size:0; 
+	height:0;
+}
+
+
+
+
+
+
+/*--- DOTNETNUKE OVERRIDES ---*/
+/*--- Control Panel ---*/
+/*--- Prevents the Right Black border from being hidden when at 100% ---*/
+.dnnRibbon .barContent
+{
+	width:99.8% !important;
+}
+
+.dnnRibbon .CommandButton, .dnnRibbon .SubHead, .dnnRibbon .SubSubHead, .dnnRibbon input, .dnnRibbon label, .dnnRibbon a, .ModuleTitle_MenuItem .txt
+{
+	font-family:sans-serif !important;
+}
+
+/*--- Increases the width of the Pane, Insert, and Module drop down lists ---*/
+.dnnRibbon .AddMod3 .RadComboBox
+{
+	width:130px !important;
+}
+
+/*--- Search ---*/
+#PageHeaderSearchBox .NormalTextBox
+{
+	width:125px;
+	height:13px;
+	border-top:1px solid #eef0ea;
+	border-right:none;
+	border-bottom:1px solid #eef0ea;	
+	border-left:none;
+	border:none;
+	color:#a7a7a7;
+}
+
+.eipbackimg
+{
+    margin-left:15px;
+}
+
+.RadTreeView 
+{
+    white-space: normal !important;
+}
+
+/*--- Dynamic Forms ---*/
+.checkboxAlign input
+{
+	float:left;
+}
+
+
+
+/* --- Overrides --- */
+
+/*li.tab_106 {
+	display: none;
+}
+
+#PageFooterNavigation div a[href*='sustainability-conservation.aspx'] {
+	display: none;
+}
+
+#PageHeaderNavigation ul.lvl0 li.tab_107 table.lvl1 td a[href*='about-science-conservation.aspx'] {
+	display: none;
+}*/

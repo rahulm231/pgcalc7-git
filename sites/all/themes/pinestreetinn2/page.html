@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><meta name="author" content="Mightyspark">
+<meta name="keywords" content="Pine Street Inn, homelessness, Boston, ending homelessness, homeless resource, find shelter, providing housing, street outreach, job training.
+">
+<meta name="description" content="With a mission to end homelessness, Pine Street Inn is New England's leading provider of housing, shelter, street outreach and job training to homeless men and women in Greater Boston.">
+<!-- Document title --><title>Pine Street Inn | Ways to Give</title>
+<!-- Stylesheets & Fonts --><link href="/sites/all/themes/pinestreetinn2/css/plugins.css" rel="stylesheet">
+<link href="/sites/all/themes/pinestreetinn2/css/style.css" rel="stylesheet">
+<link href="/sites/all/themes/pinestreetinn2/css/responsive.css" rel="stylesheet">
+<link href="/sites/all/themes/pinestreetinn2/css/custom.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="/sites/all/themes/pinestreetinn2/linked/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/sites/all/themes/pinestreetinn2/linked/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/sites/all/themes/pinestreetinn2/linked/favicon-16x16.png">
+<link rel="manifest" href="/sites/all/themes/pinestreetinn2/linked/site.webmanifest">
+<link rel="mask-icon" href="/sites/all/themes/pinestreetinn2/linked/safari-pinned-tab.svg" color="#00788a">
+<link rel="shortcut icon" href="/sites/all/themes/pinestreetinn2/linked/favicon.ico">
+<meta name="msapplication-TileColor" content="#e06b02">
+<meta name="msapplication-config" content="http://www.pinestreetinn.org/site/images/logo/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+ 
+ 
+ <!-- Wrapper -->
+ <div id="wrapper"> 
+ 
+ 
+ <!-- Header -->
+ <header id="header" class="header-transparent header dark" original-class="header-transparent header dark"><div id="header-wrap">
+ <div class="container" original-class="container">
+ <!--Logo-->
+ <div id="logo">
+ <a href="http://www.pinestreetinn.org/" class="logo" original-class="logo" data-dark-logo="http://www.pinestreetinn.org/site/images/logo/logo-pinestreetinn-50th-white.png">
+ <img src="/sites/all/themes/pinestreetinn2/img/logo-pinestreetinn-50th.png" alt="Pine Street Inn Logo"></a>
+ </div>
+ <!--End: Logo-->
+ <!--Navigation Resposnive Trigger-->
+ <div id="mainMenu-trigger">
+ <button class="lines-button x" original-class="lines-button x"> <span class="lines" original-class="lines"></span> </button>
+ </div>
+ <!--end: Navigation Resposnive Trigger-->
+<!--Navigation-->
+<div id="mainMenu" class="light" original-class="light">
+ <div class="container" original-class="container">
+ <nav><ul>
+<li class="">
+<a href="http://www.pinestreetinn.org/programs">Our Programs</a>
+ 
+ <ul class="dropdown-menu" original-class="dropdown-menu">
+<li class="dropdown-submenu" original-class="dropdown-submenu">
+<a href="http://www.pinestreetinn.org/programs/emergency-services"><i class="fa fa-hospital-alt" original-class="fa fa-hospital-alt"></i>Emergency Services</a>
+ 
+ 
+ 
+ 
+ <ul class="dropdown-menu" original-class="dropdown-menu">
+<li><a href="http://www.pinestreetinn.org/programs/emergency-services"><i class="fal fa-info-circle" original-class="fal fa-info-circle"></i>Overview</a></li>
+ 
+ 
+ <li class=""><a href="http://www.pinestreetinn.org/programs/emergency-services/street-outreach"><i class="fa fa-shipping-timed" original-class="fa fa-shipping-timed"></i>Street Outreach</a></li>
+ 
+ <li class=""><a href="http://www.pinestreetinn.org/programs/emergency-services/front-door-triage"><i class="fa fa-layer-group" original-class="fa fa-layer-group"></i>Front Door Triage</a></li>
+ 
+ <li class=""><a href="http://www.pinestreetinn.org/programs/emergency-services/emergency-shelter"><i class="fa fa-bed" original-class="fa fa-bed"></i>Emergency Shelter</a></li>
+ </ul>
+</li>
+ 
+ 
+ <li class="dropdown-submenu" original-class="dropdown-submenu">
+<a href="http://www.pinestreetinn.org/programs/permanent-housing"><i class="fa fa-home" original-class="fa fa-home"></i>Permanent Housing</a>
+ 
+ 
+ 
+ 
+ <ul class="dropdown-menu" original-class="dropdown-menu">
+<li><a href="http://www.pinestreetinn.org/programs/permanent-housing"><i class="fal fa-info-circle" original-class="fal fa-info-circle"></i>Overview</a></li>
+ 
+ 
+ <li class=""><a href="http://www.pinestreetinn.org/programs/permanent-housing/our-permanent-housing"><i class="fa fa-warehouse" original-class="fa fa-warehouse"></i>Our Permanent Housing</a></li>
+ 
+ <li class=""><a href="http://www.pinestreetinn.org/programs/permanent-housing/addressing-chronic-homelessness"><i class="fa fa-hand-holding-heart" original-class="fa fa-hand-holding-heart"></i>Addressing Chronic Homelessness</a></li>
+ 
+ <li class=""><a href="http://www.pinestreetinn.org/programs/permanent-housing/veterans-housing"><i class="fa fa-flag" original-class="fa fa-flag"></i>Veterans' Housing</a></li>
+ </ul>
+</li>
+ 
+ 
+ <li class="dropdown-submenu" original-class="dropdown-submenu">
+<a href="http://www.pinestreetinn.org/programs/workforce-development"><i class="fa fa-chalkboard-teacher" original-class="fa fa-chalkboard-teacher"></i>Workforce Development</a>
+ 
+ 
+ 
+ 
+ <ul class="dropdown-menu" original-class="dropdown-menu">
+<li><a href="http://www.pinestreetinn.org/programs/workforce-development"><i class="fal fa-info-circle" original-class="fal fa-info-circle"></i>Overview</a></li>
+ 
+ 
+ <li class=""><a href="http://www.pinestreetinn.org/programs/workforce-development/icater"><i class="fa fa-utensils" original-class="fa fa-utensils"></i>iCater</a></li>
+ 
+ <li class=""><a href="http://www.pinestreetinn.org/programs/workforce-development/housekeeping"><i class="fa fa-door-open" original-class="fa fa-door-open"></i>Housekeeping</a></li>
+ </ul>
+</li>
+ 
+ 
+ <li class="dropdown-submenu" original-class="dropdown-submenu">
+<a href="http://www.pinestreetinn.org/programs/additional-services"><i class="fa fa-people-carry" original-class="fa fa-people-carry"></i>Additional Services</a>
+ 
+ 
+ 
+ 
+ <ul class="dropdown-menu" original-class="dropdown-menu">
+<li><a href="http://www.pinestreetinn.org/programs/additional-services"><i class="fal fa-info-circle" original-class="fal fa-info-circle"></i>Overview</a></li>
+ 
+ 
+ <li class=""><a href="http://www.pinestreetinn.org/programs/additional-services/homeless-court"><i class="fa fa-balance-scale" original-class="fa fa-balance-scale"></i>Homeless Court</a></li>
+ 
+ <li class=""><a href="http://www.pinestreetinn.org/programs/additional-services/recovery-services"><i class="fa fa-walking" original-class="fa fa-walking"></i>Recovery Services</a></li>
+ </ul>
+</li>
+ </ul>
+</li>
+ 
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/get-involved">Get Involved</a>
+ 
+ <ul class="dropdown-menu" original-class="dropdown-menu">
+<li class="dropdown-submenu" original-class="dropdown-submenu">
+<a href="http://www.pinestreetinn.org/get-involved/volunteer"><i class="fa fa-hands-helping" original-class="fa fa-hands-helping"></i>Volunteer</a>
+ 
+ 
+ 
+ 
+ <ul class="dropdown-menu" original-class="dropdown-menu">
+<li><a href="http://www.pinestreetinn.org/get-involved/volunteer"><i class="fal fa-info-circle" original-class="fal fa-info-circle"></i>Overview</a></li>
+ 
+ 
+ <li class=""><a href="http://www.pinestreetinn.org/get-involved/volunteer/group-opportunities"><i class="fa fa-users" original-class="fa fa-users"></i>Group Opportunities</a></li>
+ 
+ <li class=""><a href="http://www.pinestreetinn.org/get-involved/volunteer/individual-opportunities"><i class="fa fa-user" original-class="fa fa-user"></i>Individual Opportunities</a></li>
+ </ul>
+</li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/get-involved/innbassadors"><i class="far fa-globe-stand" original-class="far fa-globe-stand"></i>Innbassadors</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/get-involved/inncouncil"><i class="fa fa-monument" original-class="fa fa-monument"></i>InnCouncil</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/get-involved/donate-items"><i class="fa fa-box-open" original-class="fa fa-box-open"></i>Donate Foods &amp; Goods</a>
+ 
+ 
+ </li>
+ </ul>
+</li>
+ 
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/stories-of-hope">Stories of Hope</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/about-us">About Us</a>
+ 
+ <ul class="dropdown-menu" original-class="dropdown-menu">
+<li class="">
+<a href="http://www.pinestreetinn.org/about-us/history"><i class="fa fa-history" original-class="fa fa-history"></i>History</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/about-us/50years"><i class="fa fa-star" original-class="fa fa-star"></i>50th Anniversary</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/about-us/leadership"><i class="fa fa-user-alt" original-class="fa fa-user-alt"></i>Leadership</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/about-us/partners"><i class="fa fa-hand-receiving" original-class="fa fa-hand-receiving"></i>Partners</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/about-us/financials"><i class="fa fa-money-check" original-class="fa fa-money-check"></i>Financials</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/about-us/careers"><i class="fa fa-briefcase" original-class="fa fa-briefcase"></i>Careers</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/about-us/news-and-events"><i class="fa fa-sticky-note" original-class="fa fa-sticky-note"></i>News &amp; Events</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/about-us/contact-us"><i class="fa fa-envelope" original-class="fa fa-envelope"></i>Contact Us</a>
+ 
+ 
+ </li>
+ </ul>
+</li>
+ 
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/ways-to-give">Ways to Give</a>
+ 
+ <ul class="dropdown-menu" original-class="dropdown-menu">
+<li class="">
+<a href="http://www.pinestreetinn.org/ways-to-give/matching-gifts"><i class="fa fa-hands-usd" original-class="fa fa-hands-usd"></i>Matching Gifts</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/ways-to-give/tribute-gifts"><i class="fa fa-id-card-alt" original-class="fa fa-id-card-alt"></i>Tribute Gifts</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/ways-to-give/donor-advised-funds"><i class="fab fa-stack-overflow" original-class="fab fa-stack-overflow"></i>Donor Advised Funds</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/ways-to-give/monthly-giving"><i class="fa fa-calendar-alt" original-class="fa fa-calendar-alt"></i>Monthly Giving: The Innkeepers Club</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/ways-to-give/planned-giving"><i class="fa fa-university" original-class="fa fa-university"></i>Planned Giving</a>
+ 
+ 
+ </li>
+ 
+ 
+ 
+ <li class="">
+<a href="http://www.pinestreetinn.org/ways-to-give/stock-gifts"><i class="fa fa-browser" original-class="fa fa-browser"></i>Stock Gifts</a>
+ 
+ 
+ </li>
+ </ul>
+</li>
+ 
+ 
+ 
+ 
+ <li class="btn" original-class="btn">
+<a href="http://www.pinestreetinn.org/donate-now">Donate Now</a>
+ 
+ 
+ </li>
+ 
+ </ul></nav>
+</div>
+</div>
+ <!--end: Navigation-->
+ </div>
+ </div>
+ </header><!-- end: Header --><!-- Page title --><section id="page-title" class="page-title-center" original-class="page-title-center" data-parallax-image="http://www.pinestreetinn.org/site/assets/images/banners/banner-ways-to-give.jpg"><div class="container" original-class="container">
+ <div class="page-title" original-class="page-title">
+ <h1>Gift Planning</h1>
+ </div>
+ </div>
+ </section><!-- end: Page title -->
+ <section id="main-content"><div class="container" original-class="container">
+ <p class="lead" original-class="lead">
+ Pine Street Inn is ending homelessness for individuals here in Boston. We could not do this important work without the support from donors like you. There are many different ways to give, which allow us to have a positive impact on our community.</p>
+ <hr class="m-t-50 m-b-50" original-class="m-t-50 m-b-50">
+<div class="row" original-class="row">
+ <div class="col-md-4" original-class="col-md-4">
+ <div class="icon-box effect medium center" original-class="icon-box effect medium center">
+ <div class="icon" original-class="icon">
+ <a href="http://www.pinestreetinn.org/donor-advised-funds"><i class="fa fa-donate" original-class="fa fa-donate"></i></a>
+</div>
+ <h3>
+ Donor Advised Funds</h3>
+ <p>
+ Make a gift through your donor advised fund today.</p>
+ </div>
+ </div>
+ <div class="col-md-4" original-class="col-md-4">
+ <div class="icon-box effect medium center" original-class="icon-box effect medium center">
+ <div class="icon" original-class="icon">
+ <a href="http://www.pinestreetinn.org/monthly-giving"><i class="fa fa-calendar-alt" original-class="fa fa-calendar-alt"></i></a>
+</div>
+ <h3>
+ Monthly Gifts</h3>
+ <p>
+ Join the Innkeepers Club by making a recurring monthly gift.</p>
+ </div>
+ </div>
+ <div class="col-md-4" original-class="col-md-4">
+ <div class="icon-box effect medium center" original-class="icon-box effect medium center">
+ <div class="icon" original-class="icon">
+ <a href="http://www.pinestreetinn.org/stock-gifts"><i class="fa fa-browser" original-class="fa fa-browser"></i></a>
+</div>
+ <h3>
+ Stock Gifts</h3>
+ <p>
+ Giving stock, bonds or mutual funds is simple to do via electronic transfer.</p>
+ </div>
+ </div>
+ </div>
+ <div class="row" original-class="row">
+ <div class="col-md-4" original-class="col-md-4">
+ <div class="icon-box effect medium center" original-class="icon-box effect medium center">
+ <div class="icon" original-class="icon">
+ <a href="http://www.pinestreetinn.org/tribute-gifts"><i class="fa fa-id-card-alt" original-class="fa fa-id-card-alt"></i></a>
+</div>
+ <h3>
+ Tribute Gifts</h3>
+ <p>
+ Make a gift in honor or in memorial of a family member, friend or colleague.</p>
+ </div>
+ </div>
+ <div class="col-md-4" original-class="col-md-4">
+ <div class="icon-box effect medium center" original-class="icon-box effect medium center">
+ <div class="icon" original-class="icon">
+ <a href="http://www.pinestreetinn.org/matching-gifts"><i class="fa fa-hands-usd" original-class="fa fa-hands-usd"></i></a>
+</div>
+ <h3>
+ Matching Gifts</h3>
+ <p>
+ Make your gift go twice as far by learning if your company matches gifts.</p>
+ </div>
+ </div>
+ <div class="col-md-4" original-class="col-md-4">
+ <div class="icon-box effect medium center" original-class="icon-box effect medium center">
+ <div class="icon" original-class="icon">
+ <a href="http://www.pinestreetinn.org/planned-giving"><i class="fa fa-university" original-class="fa fa-university"></i></a>
+</div>
+ <h3>
+ Planned Giving</h3>
+ <p>
+ Your gift can have a lasting impact after your lifetime through these charitable plans.</p>
+ </div>
+ </div>
+ </div>
+ <hr class="m-t-50 m-b-50" original-class="m-t-50 m-b-50">
+<p>
+ Pine Street Inn is a 501(c)(3) charitable organization.<br>
+ Gifts made to Pine Street Inn are tax deductible to the full extent of the law. EIN: 04-2516093.<br><!-- Read more about our <a href="#">Donor Privacy Policy</a>.--></p>
+ <p>
+ If you prefer to mail a gift in, please use the following address:</p>
+ <div class="m-l-20" original-class="m-l-20">
+ Pine Street Inn<br>
+ Attn: Development Office<br>
+ 444 Harrison Avenue<br>
+ Boston, MA 02118</div>
+ <p>
+ </p>
+<div class="call-to-action call-to-action-colored m-b-80" original-class="call-to-action call-to-action-colored m-b-80">
+ <div class="container" original-class="container">
+ <div class="row" original-class="row">
+ <div class="col-md-1 text-center" original-class="col-md-1 text-center">
+ <div class="icon" original-class="icon">
+ <a href="#"><i class="fa fa-question-circle" original-class="fa fa-question-circle"></i></a>
+</div>
+ </div>
+ <div class="col-md-9" original-class="col-md-9">
+ <h3>
+ Don’t see what you’re looking for? We're here to help!</h3>
+ </div>
+ <div class="col-md-2 text-center" original-class="col-md-2 text-center">
+ <a class="btn btn-light btn-outline" original-class="btn btn-light btn-outline" href="mailto:agnes.kim@pinestreetinn.org?subject=Question%20about%20ways%20to%20give">Contact Us</a>
+</div>
+ </div>
+ </div>
+</div>
+<p>
+</p>
+ 
+</div>
+<!------------------ADDING OUR SIDE NAV BAR CODE--------------------------------------------------------------->
+<div class="rightsidebar" original-class="rightsidebar">Side Navigation Goes here</div>
+<!-------------------END OF ADDING SIDE NAV BAR--------------------------------------------------------------------->
+</section><!-- Footer --><footer id="footer" class="footer-light" original-class="footer-light"><div class="footer-content" original-class="footer-content">
+ <div class="container" original-class="container">
+ <div class="row" original-class="row">
+ <div class="col-md-4" original-class="col-md-4">
+ <!-- Footer widget area 1 -->
+ <div class="widget clearfix widget-contact-us" original-class="widget clearfix widget-contact-us">
+ <h4>Contact Pine Street Inn</h4>
+ <ul class="list-icon" original-class="list-icon">
+<li>
+<i class="fa fa-map-marker" original-class="fa fa-map-marker"></i><a href="https://goo.gl/maps/zaZUVyS4v1C2">444 Harrison Avenue,<br>Boston, MA 02118</a>
+</li>
+ <li>
+<i class="fa fa-phone" original-class="fa fa-phone"></i>617.892.9100 </li>
+ <li>
+<i class="fa fa-envelope" original-class="fa fa-envelope"></i><a href="http://www.pinestreetinn.org/about-us/contact-us">Contact Us</a>
+ </li>
+ 
+ </ul>
+<!-- Social icons --><div class="social-icons social-icons-border float-left m-t-20" original-class="social-icons social-icons-border float-left m-t-20">
+ <ul>
+<li class="social-facebook" original-class="social-facebook"><a href="http://www.facebook.com/pages/Pine-Street-Inn/14286188047" target="_blank"><i class="fab fa-facebook-f" original-class="fab fa-facebook-f"></i></a></li>
+ <li class="social-twitter" original-class="social-twitter"><a href="http://www.twitter.com/PineStreetInn" target="_blank"><i class="fab fa-twitter" original-class="fab fa-twitter"></i></a></li>
+ <li class="social-instagram" original-class="social-instagram"><a href="https://instagram.com/pinestreetinn/" target="_blank"><i class="fab fa-instagram" original-class="fab fa-instagram"></i></a></li>
+ <li class="social-youtube" original-class="social-youtube"><a href="http://www.youtube.com/pinestreetinn" target="_blank"><i class="fab fa-youtube" original-class="fab fa-youtube"></i></a></li>
+ </ul>
+</div>
+ <!-- end: Social icons --> 
+ </div>
+ <!-- end: Footer widget area 1 -->
+ </div>
+ <div class="col-md-2" original-class="col-md-2">
+ <!-- Footer widget area 2 -->
+ <div class="widget" original-class="widget">
+ <h4>Quick Links</h4>
+ <ul class="list-icon list-icon-arrow" original-class="list-icon list-icon-arrow">
+<li><a href="http://www.pinestreetinn.org/about-us">About</a></li>
+ <li><a href="http://www.pinestreetinn.org/programs">Programs</a></li>
+ <li><a href="http://www.pinestreetinn.org/donate-now">Donate</a></li>
+ <li><a href="http://www.pinestreetinn.org/get-involved">Get Involved</a></li>
+<!-- <li><a href="about-news-events#innsider"><span style="font-style:italic;">Inn</span>sider</a></li> -->
+ <li><a href="http://www.pinestreetinn.org/get-involved/innsider"><span style="font-style:italic;">Inn</span>sider</a></li>
+ </ul>
+</div>
+ <!-- end: Footer widget area 2 -->
+ </div>
+ <div class="col-md-6 text-right" original-class="col-md-6 text-right">
+ <!-- Footer widget area 3 -->
+ <div class="widget widget-subscribe" original-class="widget widget-subscribe">
+ <h4>Sign Up for Our Newsletter</h4>
+ <!---------------REMOVING-----<a href class="btn btn-creative btn-icon-holder btn-shadow" original-class="btn btn-creative btn-icon-holder btn-shadow">Subscribe Now<i class="fa fa-arrow-right" original-class="fa fa-arrow-right"></i></a>------------------>
+ <a  class="btn btn-creative btn-icon-holder btn-shadow" href="http://support.pinestreetinn.org/site/Survey?ACTION_REQUIRED=URI_ACTION_USER_REQUESTS&SURVEY_ID=1162"original-class="btn btn-creative btn-icon-holder btn-shadow">Subscribe Now<i class="fa fa-arrow-right" original-class="fa fa-arrow-right"></i></a>
+
+ </div>
+ <!-- end: Footer widget area 3 -->
+ </div>
+ 
+ </div>
+ </div>
+ </div>
+ <div class="copyright-content" original-class="copyright-content">
+ <div class="container" original-class="container">
+ <div class="copyright-text text-center" original-class="copyright-text text-center">© <?php print date('Y');?> Pine Street Inn. All Rights Reserved. <a href="http://www.pinestreetinn.org/about-us/privacy-policy">Privacy Policy</a>
+ 
+ 
+ <div id="google_translate_element"></div>
+<script type="text/javascript">
+ function googleTranslateElementInit() {
+ new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,pt,ht', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+ }
+ </script><script type="text/javascript" src="/sites/all/themes/pinestreetinn2/js/element.js"></script>
+</div>
+ </div>
+ </div>
+ </footer><!-- end: Footer -->
+</div>
+ <!-- end: Wrapper -->
+ 
+ <!-- Go to top button -->
+ <a id="goToTop"><i class="fa fa-angle-up top-icon" original-class="fa fa-angle-up top-icon"></i><i class="fa fa-angle-up" original-class="fa fa-angle-up"></i></a>
+ <!--Plugins-->
+ <script src="/sites/all/themes/pinestreetinn2/js/jquery.js"></script><script src="/sites/all/themes/pinestreetinn2/js/plugins.js"></script><!--Template functions--><script src="/sites/all/themes/pinestreetinn2/js/functions.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d4c1baab8c","applicationID":"123071563","transactionName":"ZVdaMUdWVxYEBUAKXlwdeQZBXlYLSjVdF1QdW1YBUE8=","queueTime":0,"applicationTime":480,"atts":"SRBZRw9MRBg=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+</body>
+</html>

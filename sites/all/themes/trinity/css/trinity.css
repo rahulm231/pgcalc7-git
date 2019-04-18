@@ -1,0 +1,150 @@
+﻿/*** TRINITY.CSS ***/
+/*** This file contains sharepoint and other internal styles that we wish to override ***/
+
+/** Webpart zone overrides **/
+.ms-WPBody A, .ms-WPBody A:link, .ms-WPBody A:visited { text-decoration: none; color: #0066bb; }
+.ms-WPBody A:hover { text-decoration: none; color: #000000; }
+
+
+/*** Telerik Radeditor override of static 680 pixel width ***/
+.reWrapper
+{
+    min-width: 1px !important;
+    width: 100% !important;
+}
+
+/*** Sharepoint styles selected from drop down while in edit page mode ***/
+H1.ms-rteElement-H1
+{
+   -ms-name:"Heading 1";
+
+}
+.ms-rteElement-H1 
+{
+   font: italic 500 30px/120% 'Sentinel A', 'Sentinel B', Times, Georgia, Serif;
+   color: #07193C;
+   margin: 0px 0px 15px 0px;
+}
+
+H2.ms-rteElement-H2
+{
+   -ms-name:"Heading 2";
+}
+.ms-rteElement-H2
+{
+   font: normal 500 26px/26px 'Sentinel A', 'Sentinel B', Times, Georgia, Serif;
+   color: #54544A;
+}
+
+H3.ms-rteElement-H3
+{
+   -ms-name:"Heading 3";
+}
+.ms-rteElement-H3
+{
+    font: normal 500 18px/120% 'Sentinel A', 'Sentinel B', Times, Georgia, Serif;
+    margin-bottom: 10px;
+    color: #54544A;
+}
+
+H4.ms-rteElement-H4
+{
+   -ms-name:"Heading 4";
+}
+.ms-rteElement-H4
+{
+    font: normal 500 12px/120% 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-transform: uppercase;
+    color: #58574e;
+}
+
+H5.ms-rteElement-H5
+{
+   -ms-name:"Heading 5";
+}
+.ms-rteElement-H5
+{
+    text-transform: uppercase;
+    font: normal 600 12px/120% 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin: 5px 0;
+    display: inline-block;
+}
+
+HR.ms-rteElement-Hr
+{
+   -ms-name:"Horizontal Rule";
+}
+.ms-rteElement-Hr
+{
+   /* [ReplaceColor(themeColor:"Light1-Medium")] */ 
+   background-color:#b6b6b6;
+   height:1px;
+}
+
+P.ms-rteElement-P{
+   -ms-name:"Paragraph";
+}
+.ms-rteElement-P
+{   
+   font-family: 'Sentinel A', 'Sentinel B', Times, Georgia, Serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #686868;
+   font-size: 14px;
+   line-height: 150%;
+}
+
+DIV.ms-rteElement-Callout1{
+   -ms-name:"Callout 1";
+}
+.ms-rteElement-Callout1
+{
+   color: #660000;
+   background-color:#fef4e4;
+   float:left;
+   width:25em;
+   padding:10px;
+   border:1px solid #FD9F08;
+}
+
+DIV.ms-rteElement-Callout2{
+   -ms-name:"Callout 2";
+}
+.ms-rteElement-Callout2
+{
+   color:#353738;
+   background-color:#f2f2f2;
+   float:right;
+   width:25em;
+   padding:10px;
+   border:1px solid #36B000;
+}
+
+DIV.ms-rteElement-Callout3{
+   -ms-name:"Callout 3";
+}
+.ms-rteElement-Callout3
+{
+   font-style:italic;
+   color:#CA0078;
+   float:right;
+   width:25em;
+   padding:10px;
+}
+
+DIV.ms-rteElement-Callout4{
+   -ms-name:"Callout 4";
+}
+.ms-rteElement-Callout4
+{
+   color:#005677;
+   float:right;
+   width:20em;
+   padding:10px;
+   background-color:#d8f4ff;
+   font-family:Verdana,Geneva,sans-serif;
+   border:1px solid #00ADEE;
+}
+
+
+

@@ -1,0 +1,43 @@
+aside.sidebars .sidebar h2 {
+  text-indent: 0px;
+}
+
+aside.sidebars .region-sidebar-first .block-menu-block ul li.expanded {
+  border-top: none;
+}
+
+#content table tbody tr.odd th[scope="row"],
+#content table tbody tr.odd td,
+#content table tbody tr:nth-child(2n+1) th[scope="row"],
+#content table tbody tr:nth-child(2n+1) td {
+  background-color: #d9dbe7;
+}
+
+#content table tbody tr td p {
+  margin-bottom: 0px;
+}
+
+#giftGuide #answerForm input,
+#giftGuide #answerForm button,
+#giftGuide #answerForm select,
+#giftGuide #answerForm textarea {
+  vertical-align: baseline;
+}
+
+aside.sidebars .region-sidebar-first .block-menu-block ul li a {
+  color: #000000;
+}
+
+aside.sidebars .region-sidebar-first .block-menu-block ul li a:active,
+aside.sidebars .region-sidebar-first .block-menu-block ul li a:hover,
+aside.sidebars .region-sidebar-first .block-menu-block ul li a:focus {
+  color: #756c99;
+}
+
+.region-left-footer img {
+  margin-top: 20px;
+}
+
+#content table thead th {
+  color: #FFFFFF;
+}

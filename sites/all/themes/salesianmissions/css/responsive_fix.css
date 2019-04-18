@@ -1,0 +1,693 @@
+/* Responsive FIX */
+@font-face{ font-family: "Myriad Pro"; src: url("/sites/all/themes/salesianmissions/cssAssets/Myriad-Pro.eot"); }
+@font-face{ font-family: "Myriad Pro Semibold"; src: url("/sites/all/themes/salesianmissions/cssAssets/myriad-pro-semibold.eot"); }
+@font-face{ font-family: "Myriad Pro"; src: url("/sites/all/themes/salesianmissions/cssAssets/Myriad-Pro.ttf"); }
+@font-face{ font-family: "Myriad Pro Semibold"; src: url("/sites/all/themes/salesianmissions/cssAssets/myriad-pro-semibold.ttf"); }
+@font-face{ font-family:"MyriadW08-SemiboldItali"; src:url("/sites/all/themes/salesianmissions/cssAssets/8b82197d85089770751e3c94aa902b27.eot");
+src:url("/sites/all/themes/salesianmissions/cssAssets/8b82197d85089770751e3c94aa902b27.eot") format("eot"),url("/sites/all/themes/salesianmissions/cssAssets/dd61a036bc8364bb73755648de13f6db.woff") format("woff"),url("/sites/all/themes/salesianmissions/cssAssets/0fe95ea241af9ce55866ab376aac4a0f.ttf") format("truetype"),url("/sites/all/themes/salesianmissions/cssAssets/570a2f7d24b8f273fda331b20ed80db4.svg") format("svg");
+}
+
+html {
+	-moz-text-size-adjust: none;
+}
+
+div#header-response{
+	overflow: visible;
+}
+
+div#header-top-wrapper{
+	height: 30px;
+}
+#block-block-8 {
+	width: 100%;
+}
+#block-block-8 .inner .content{
+	width: 100%;
+}
+#block-block-8 a{
+	font-size: 12px;
+	text-decoration: none;
+}
+#block-block-8 a:hover{
+	font-weight: bold;
+}
+#block-block-8 #header-press-center, #block-block-8 #header-contact-us, #block-block-8 #header-sweepstakes{
+	margin: 0 11px 0 0;
+  padding-right: 11px;
+}
+#block-block-2{
+	padding-top: 10px;
+	width: 100%;
+}
+#block-block-2 div.inner {
+	margin: 0;
+}
+#block-block-2 div.inner div.content div.left{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	color: #4E290C;
+	text-shadow: 1px 1px 1px #DFCAB5
+}
+#block-block-2 div.inner div.content div.left:first-child{
+	padding-top: 7px;
+	padding-right: 6px;
+	width: auto;
+}
+
+.nopadding{
+	padding: 0;
+}
+
+#header-response #quote{
+	color: #4e290c;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 1.1em;
+	padding: 0 33px;
+	text-shadow: 1px 1px 1px #dfcab5;
+	font-family: MyriadW08-SemiboldItali, sans-serif;
+}
+
+/* Admin Menu */
+#admin-menu{
+	position: relative;
+	height: 30px;
+}
+
+body, div.full-width{
+	min-width: 0;
+}
+
+#page-inner{
+	background: none;
+}
+#logo-1 {
+  background: url("/sites/all/themes/salesianmissions/cssAssets/5a6242cf8d6e9.png") no-repeat scroll -45px -38px transparent;
+  height: 107px;
+}
+
+/*
+ * Menu section
+ */
+ div#menu .nav-bar{
+ 	width: 100%;
+ 	height: 50px;
+ 	border: 1px solid #015F9E;
+ 	background: url("/sites/all/themes/salesianmissions/cssAssets/button_blue.jpg");
+ 	padding-left: 20px;
+ }
+div#menu .nav-bar > li{
+	line-height: 48px;
+	text-align: center;
+
+	border: none;
+	box-shadow: none;
+	background: url("/sites/all/themes/salesianmissions/cssAssets/separator.jpg") no-repeat scroll right 50% transparent;
+	padding: 0 15px;
+}
+div#menu .nav-bar > li:last-child{
+	background: none;
+}
+div#menu .nav-bar > li:hover{
+	background: #015f9e;
+}
+.nav-bar > li a, .nav-bar > li a:first-child{
+	padding: 0;
+	font-family: Myriad Pro Semibold, Arial;
+  font-size: 20px;
+  color: #ffffff;
+}
+div#menu{
+	overflow: visible;
+}
+ul.nav-bar ul.menu{
+	background: red;
+	width: 200px;
+}
+div#menu ul.nav-bar ul.menu li{
+	background: #015f9e;
+	width: 100%;
+	border: none;
+}
+div#menu ul.nav-bar ul.menu > li a {
+	padding: 15px 8px;
+  width: auto;
+  background: none;
+  border: none;
+}
+div#menu ul.nav-bar ul.menu > li a:hover{
+	color: #ffffff;
+	background: #0b93d5;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul{
+	left: 0;
+	top: 48px;
+	border: none;
+}
+ul.sf-menu li ul.menu ul.menu{
+	left: 200px;
+}
+ul.sf-menu li ul li a span{
+	font-size: 16px;
+}
+
+/*
+ * Bunttons
+ */
+a.btn-b{
+	background: url("/sites/all/themes/salesianmissions/cssAssets/button_red.jpg");
+	height: 50px;
+	font-size: 24px;
+	color: #fff;
+	float: left;
+
+	border: 1px solid #992920;
+  padding-top: 16px;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  font-family: Myriad Pro Semibold, Arial;
+  text-shadow: 1px 1px 1px black;
+}
+#block-block-3 .inner{
+	float: left;
+	margin: 0;
+	width: 100%;
+}
+#block-block-3 .inner p, #block-block-3 .inner a{
+	margin: 0;
+}
+
+/*
+ * Main Content
+ */
+div#main-content{
+	/*background: url("/sites/all/themes/salesianmissions/cssAssets/5a6242cfc4ac3.png") no-repeat scroll 0 0 transparent;*/
+}
+div#main-content #content{
+	background: #ffffff;
+}
+div.line-footer{
+	max-height: 1px;
+	height: 1px;
+	background: #f3d2c2;
+}
+#pid-ways-to-help-donate #content-inner-inner{ margin: 0 20px;}
+/*
+ * Footer Styles
+ */
+ #footer{
+ 	padding: 0 15px;
+  position: relative;
+ }
+#block-block-5 p{
+	color: #716252;
+	font-size: 11px;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+#block-block-5 p.last big{
+	display: block;
+  float: left;
+  font-size: 11px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+#block-block-5 p b{
+	color: #48423B;
+}
+#block-block-5 p a.icon-twitter{
+	background: url("/sites/all/themes/salesianmissions/cssAssets/5a6242cfde4af.png") no-repeat scroll 0 0 transparent;
+}
+#block-block-5 p a.icon-facebook {
+	background: url("/sites/all/themes/salesianmissions/cssAssets/5a6242cfebafe.png") no-repeat scroll 0 0 transparent;
+}
+#block-block-5 p a.icon-youtube{
+	background: url("/sites/all/themes/salesianmissions/cssAssets/5a6242d0018ae.png") no-repeat scroll 0 0 transparent;
+}
+#block-block-5 p a.icon-instagram{
+	background: url("/sites/all/themes/salesianmissions/cssAssets/5a6242d00b8a8.png") no-repeat scroll 0 0 transparent;
+	display: inline-block;
+	text-indent: 999px;
+	top: 3px;
+	overflow: hidden;
+}
+#block-block-5 p a.icon-twitter, #block-block-5 p a.icon-facebook, #block-block-5 p a.icon-youtube, #block-block-5 p a.icon-instagram{
+	border-bottom: 0 none;
+	height: 22px;
+	margin-bottom: 0;
+	position: relative;
+	width: 22px;
+}
+
+#footer-wrapper-fundation .col{
+  float: left;
+  margin-right: 25px;
+  width: 188px;
+}
+#footer-wrapper-fundation .col.last{
+  margin-right: 0;
+}
+
+#footer-wrapper-fundation .col ul.menu {
+  list-style: none outside none;
+  margin-bottom: 20px;
+}
+#footer-wrapper-fundation .block ul, #footer-wrapper-fundation .block ul .block ul {
+  margin-left: 0;
+}
+#footer-wrapper-fundation ul li.expanded, #footer-wrapper-fundation ul li ul li.expanded, #footer-wrapper-fundation ul li.leaf, #footer-wrapper-fundation ul li ul li.leaf {
+  line-height: 1.5em;
+  list-style: none outside none;
+}
+#footer-wrapper-fundation ul li ul li{
+	background: url("/sites/all/themes/salesianmissions/cssAssets/5a6242d019ca3.png") no-repeat scroll 0 9px transparent;
+  padding-left: 8px;
+}
+#footer-wrapper-fundation ul li.expanded a{
+	color: #48423B;
+  font: bold 12px Arial,Helvetica,sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#footer-wrapper-fundation ul li.expanded ul li.leaf a, #footer-wrapper-fundation ul li.expanded ul li.expanded a{
+	color: #716252;
+  font: 11px/13px Arial;
+  text-decoration: none;
+  text-transform: none;
+}
+#footer-wrapper-fundation{
+	background-color: #F6EBDF;
+  border-top: 1px solid #FFFFFF;
+}
+#footer-wrapper-fundation ul li ul li ul{
+	display: none;
+}
+#footer-wrapper-fundation #block-block-7{
+	padding-top: 24px;
+}
+
+#footer-wrapper-fundation #block-block-5 {
+	margin-bottom: 0;
+	padding-top: 10px;
+}
+#footer-wrapper-fundation .legal{
+	margin: 0px 0 20px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 14px;
+}
+#footer ul li {
+	background-position: 0 0.6em;
+}
+#footer #search #edit-search-block-form-3-wrapper {
+	margin: 0;
+}
+#footer #search label {
+	font-size: 12px;
+}
+#footer #search input[type="text"] {
+	width: 100%;
+	border: 1px solid #CCC;
+}
+/*
+ * CONTENT BOXES
+ */
+.background_blue{
+	background: #1279b1; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1279b1 0%, #fafcfd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1279b1), color-stop(100%,#fafcfd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1279b1 0%,#fafcfd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1279b1 0%,#fafcfd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1279b1 0%,#fafcfd 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #1279b1 0%,#fafcfd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1279b1', endColorstr='#fafcfd',GradientType=0 ); /* IE6-9 */
+
+	box-shadow: 0 -2px 2px #DCDCDC;
+	padding: 10px;
+}
+.background_default{
+	background: #f6ebde; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f6ebde 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6ebde), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f6ebde 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f6ebde 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f6ebde 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f6ebde 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6ebde', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+	border: 1px solid #FFFFFF;
+  box-shadow: 0 -2px 2px #DCDCDC;
+	padding: 10px;
+}
+.panel-left{
+	padding: 0 15px 0 0;
+}
+.panel-right{
+	padding: 0 0 0 15px;
+}
+#pid-front-page .background_blue h2{
+	background: url("/sites/all/themes/salesianmissions/cssAssets/icon-heart.png") no-repeat;
+	padding: 8px 0 0 57px;
+	font-family: "Myriad Pro", Arial;
+	font-weight: bold;
+	font-size: 22px;
+	color: #fec846;
+	text-shadow: 2px 2px 2px #1C5471;
+	line-height: 21px;
+}
+#pid-front-page .background_blue h2 span{
+	font-size: 18px;
+	color: #ffffff;
+}
+#pid-front-page .background_blue p{
+	padding: 8px 0 0 10px;
+	color: #474746;
+	font-size: 14px;
+}
+#pid-front-page .background_blue p img{
+	margin: 10px 5px 0 0;
+}
+
+#pid-front-page .background_default h2{
+	font-family: "Myriad Pro", Arial;
+	font-weight: bold;
+	font-size: 22px;
+	color: #0b60a0;
+	line-height: 21px;
+}
+#pid-front-page .background_default h2 span{
+	font-size: 18px;
+	color: #1fa7df;
+}
+#pid-front-page .background_default p{
+	padding: 8px 0 0 10px;
+	color: #474746;
+	font-size: 14px;
+	min-width: 180px;
+}
+
+#pid-front-page #first_line .panel-right .background_default h2{
+/* Update 2013-12-11 amolina
+	background: url("/sites/all/themes/salesianmissions/cssAssets/christmas-icon.png") no-repeat;
+*/
+/* previous update
+	background: url("/sites/all/themes/salesianmissions/cssAssets/ecard-icon.png") no-repeat;
+*/
+/* Original
+*/
+	background: url("/sites/all/themes/salesianmissions/cssAssets/icon-book.png") no-repeat;
+	margin: 8px 0 0 10px;
+  padding: 0 0 0 46px;
+}
+#pid-front-page #first_line .panel-right p{
+	overflow: hidden;
+}
+#pid-front-page #first_line .panel-right p a{
+	float: right;
+	margin: 10px 0 0 10px;
+}
+#pid-front-page #second_line .panel-left .background_default h2{
+	background: url("/sites/all/themes/salesianmissions/cssAssets/icon-dove.png") no-repeat;
+	margin: 0 0 0 10px;
+  padding: 10px 0 0 50px;
+}
+#pid-front-page #second_line .panel-right .background_default h2{
+	background: url("/sites/all/themes/salesianmissions/cssAssets/icon-play.png") no-repeat;
+	margin: 8px 0 0 10px;
+  padding: 0 0 0 46px;
+}
+#second_line .panel-right .background_default ul li{
+	background: url("/sites/all/themes/salesianmissions/cssAssets/bg-list.jpg") no-repeat;
+	background-position: 0 6px;
+	padding-left: 20px;
+	list-style: none;
+	text-decoration: underline;
+}
+#second_line .panel-right .background_default ul li:first-child{
+	font-weight: bold;
+}
+#second_line .panel-right .background_default ul li a{
+	color: #474746;
+}
+#third_line .background_default p span{
+	display: block;
+	text-align: right;
+}
+#third_line .background_default p a{
+	float: right;
+}
+#pid-front-page #second_line .background_default p a{
+	float: right;
+	margin: 20px 20px 0px 0px;
+}
+#pid-front-page #third_line .panel-left .background_default h2{
+	background: url("/sites/all/themes/salesianmissions/cssAssets/icon-candle.png") no-repeat;
+	margin: 8px 0 0 10px;
+  padding: 0 0 0 50px;
+}
+#pid-front-page #third_line .panel-right .background_default h2{
+	background: url("/sites/all/themes/salesianmissions/cssAssets/icon-world.png") no-repeat;
+	margin: 8px 0 0 10px;
+  padding: 0 0 0 50px;
+}
+/*
+ * Slider
+ */
+#slider{
+	border: 2px solid #ffffff;
+	box-shadow: 0 2px 3px #949493;
+	background: #ffffff;
+}
+
+#slider ul{
+	height: 66px;
+	left: 0;
+	margin: -68px 0 0;
+	position: absolute;
+	width: 100%;
+	list-style: none;
+	border: 2px solid #000000;
+	background: url("/sites/all/themes/salesianmissions/cssAssets/slider_background.png");
+}
+
+#slider ul li{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	height: 100%;
+	vertical-align: middle;
+	padding-top: 7px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 7px;
+}
+#slider ul li.current{
+	color: #ffffff;
+}
+img#current{
+	left: 6px;
+  position: absolute;
+  top: -5px;
+}
+
+/*
+#slider ul li:nth-child(n-1){
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+}*/
+
+#slider ul li{
+	font-size: 16px;
+	color: #dbc1a3;
+	text-decoration: none;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+#slider ul li:hover{
+	color: #ffffff;
+	cursor: pointer;
+}
+
+#s_button4{
+    border-right: none !important;
+}
+
+/*
+ * other style
+ */
+
+#edit-search-block-form-3-wrapper{
+	float: left;
+	margin: 0 0 0 10px;
+	width: 70%;
+}
+input#edit-submit-2{float:none;
+	margin-top: 15px;
+    margin-bottom:30px;
+}
+div.container-inline input[type="submit"]{
+	margin-top: 24px;
+}
+input#edit-search-block-form-3{
+	margin-top: 10px;
+}
+
+/*
+ *  TEST
+ */
+ .block{
+ 	margin: 0;
+ }
+ select{
+ 	width: auto;
+ }
+
+ .row{
+ 	overflow: visible;
+ }
+ #sidebar-first{
+ 		margin: 0;
+ 		min-width: 0;
+ 		width: 290px;
+ }
+#main-group, #main-content, #content-group, #content-region, #postscript-top{
+	margin: 0;
+ 	min-width: 0;
+}
+
+
+div#iframe{
+	background: none repeat scroll 0 0 #EAD0AE;
+  height: 85px;
+  margin-top: -30px;
+  top: 10px;
+}
+body.admin-menu{
+	margin: 0 !important;
+}
+
+/************************
+*SOCIAL
+************************/
+#header-response .icon-twitter{
+  background: url(/sites/all/themes/salesianmissions/cssAssets/social-twitter.png) no-repeat !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+#header-response .icon-facebook{
+  background: url(/sites/all/themes/salesianmissions/cssAssets/social-facebook.png) no-repeat !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+#header-response .icon-youtube{
+  background: url(/sites/all/themes/salesianmissions/cssAssets/social-youtube.png) no-repeat !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+#header-response .icon-instagram {
+  background: transparent url(/sites/all/themes/salesianmissions/cssAssets/social-instagram.png) no-repeat;
+  display: inline-block;
+  height: 30px;
+  position: relative;
+  text-indent: 999px;
+  width: 30px;
+  overflow: hidden;
+}
+
+#block-block-2 a.icon-facebook, #block-block-2 a.icon-twitter, #block-block-2 a.icon-youtube{
+	top: 0;
+}
+
+/*
+ * Fixes Contries
+ */
+body.node-type-salesian-country div#content-content div.left{
+	width: 630px;
+	padding-right: 25px;
+}
+.node-type-salesian-country #main-group #main-group-inner .block .inner{
+	width: 100%;
+	padding: 0 5px 0 30px;
+}
+#accordion h3.ui-accordion-header{
+	height: 38px;
+}
+#accordion h3.ui-accordion-header a{
+	height: 36px;
+}
+#country-donate{
+	height: 134px;
+	width: 275px;
+}
+
+.node-type-salesian-country #country-email-register form{
+	font: 10px Arial;
+}
+#smi-signup-submit table{
+	background: none;
+}
+#smi-signup-submit table tr td{
+	font: 10px Arial;
+}
+table{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.node-type-salesian-country #country-email-register input[type="text"]{
+	height: 28px;
+	width: 241px;
+}
+#country-email-register-footer form#smi-signup-submit{
+	height: 172px;
+}
+#country-photo-gallery{
+	height: 298px;
+	width: 280px;
+}
+.node-type-salesian-country #block-block-2 .left{
+	width: auto;
+}
+
+div#fancybox-title{
+	width: 100% !important;
+}
+body#pid-news-video-archive #main-content, body#pid-news-video-archive #content-group,
+body#pid-news-video-archive #content-region{
+	width: 100%;
+}
+body#pid-news-video-archive div#content-content img, #main-wrapper img{
+	max-width: none;
+}
+div#menu div.nine ul.menu li.expanded ul.menu li.last{
+	/*display: none;*/
+}
+div#menu div.nine ul.menu li.expanded ul.menu li ul.menu li.last{
+	display: block;
+}
+
+div#main, div#menu{
+	min-width: 960px;
+}
+
+div#menu ul{ margin: 0; }
+
+div#map_container{
+	z-index: 10;
+}
+
+a.plain-anchor{ text-decoration: none; }
+
+#pid-front-page .background_default h2.custom-title {color:#DB2D27;}
+
+
+@media screen and (max-width:768px){
+    #block-block-2 div.inner div.content div.left:first-child{
+        padding-bottom: 5px;
+    }
+}

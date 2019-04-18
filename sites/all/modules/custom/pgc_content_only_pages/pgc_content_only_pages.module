@@ -1,0 +1,49 @@
+<?php /* Author : Neena Thakur */
+
+function pgc_content_only_pages_theme(){
+  return array(
+    'pgc_content_only_pages_page' =>  array(
+      'template' => 'templates/content_only_pages-page',
+      'render element' => 'page'
+    ),
+    'html__content_only_pages' =>  array(
+      'template' => 'templates/html_content_only_pages',
+    ),
+  );
+}
+
+function pgc_content_only_pages_preprocess_page(&$variables, $hook) {
+  if(isset($variables['node'])){
+  	$node = $variables['node'];
+  	if ($node->type == "content_only_pages" && count(arg())==2) {
+  	  $variables['theme_hook_suggestions'][] = 'pgc_content_only_pages_page';
+	  if(!empty($node->body)){
+	    $variables['node_content'] = $node->body['und'][0]['value'];	
+	  }		  
+	}
+  }  
+}
+
+function pgc_content_only_pages_preprocess_html(&$variables) {
+	
+  if(arg(0)=='node' && is_numeric(arg(1)) && arg(2)==''){
+  	$node = $variables['page']['content_body']['system_main']['nodes'][arg(1)]['#node'];	
+	if($node->type=="content_only_pages"){
+	  $variables['theme_hook_suggestions'][] = 'html__content_only_pages';  
+	  if(!empty($node->field_upload_css_file)){
+	  	
+	  	$css_file_uri = $node->field_upload_css_file['und'][0]['uri'];
+		$css_file_path = file_create_url($css_file_uri);
+		
+		drupal_static_reset('drupal_add_css');
+		drupal_add_css ($css_file_path, array('type' => 'external'));	
+		
+		
+	    if ($variables['page']['page_top']['toolbar']['#access']) {   
+          $variables['page']['page_top']['toolbar']['#access'] = false;
+        }
+	  }
+	}
+  }
+  
+}

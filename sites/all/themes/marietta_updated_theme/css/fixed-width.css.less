@@ -1,0 +1,103 @@
+/**
+ * @file
+ * Positioning for a fixed-width, desktop-centric layout
+ */
+
+#page,
+.region-bottom {
+  margin-left: auto;
+  margin-right: auto;
+  width: @width-page;
+}
+
+// Add padding, etc.
+#header,
+#content,
+#navigation,
+.region-sidebar-first,
+.region-sidebar-second,
+#footer {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0 !important;
+  word-wrap: break-word;
+
+  .lt-ie7 & {
+    display: inline;
+    overflow: hidden;
+    overflow-y: visible;
+  }
+}
+#header,
+#main,
+#footer {
+  &:after,
+  &:before {
+    content: "";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+
+  .lt-ie8 & {
+    position: relative;
+    zoom: 1;
+  }
+}
+
+.sidebar-first {
+  #content {
+    float: left;
+    width: (@width-page - @width-sidebar-first - 40px);
+    margin-left: (@width-sidebar-first + 20px);
+    margin-right: (0 - @width-page);
+  }
+
+  .region-sidebar-first {
+    float: left;
+    width: @width-sidebar-first;
+    margin-left: 0px;
+    margin-right: (0 - (@width-sidebar-first + 20px));
+  }
+}
+
+.sidebar-second {
+  #content {
+    float: left;
+    width: (@width-page - @width-sidebar-second - 40px);
+    margin-left: 0px;
+    margin-right: (0 - (@width-page - @width-sidebar-second - 20px));
+  }
+
+  .region-sidebar-second {
+    float: left;
+    width: @width-sidebar-second;
+    margin-left: (0 - (@width-page - @width-sidebar-second - 20px));
+    margin-right: (0 - @width-page);
+  }
+}
+
+.two-sidebars {
+  #content {
+    float: left;
+    width: (@width-page - @width-sidebar-first - @width-sidebar-second - 60px);
+    margin-left: @width-sidebar-first;
+    margin-right: (0 - (@width-page - @width-sidebar-second - 20px));
+  }
+
+  .region-sidebar-first {
+    float: left;
+    width: @width-sidebar-first;
+    margin-left: 0px;
+    margin-right: (0 - (@width-sidebar-first + 20px));
+  }
+
+  .region-sidebar-second {
+    float: left;
+    width: @width-sidebar-second;
+    margin-left: (@width-page - @width-sidebar-second - 20px);
+    margin-right: (0 - @width-page);
+  }
+}

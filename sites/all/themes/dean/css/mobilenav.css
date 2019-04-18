@@ -1,0 +1,80 @@
+#block-pgc-misc-blocks-mobilenav {
+  position: relative;
+  margin-bottom: 20px;
+}
+#block-pgc-slideshow-block-pgc-slideshow-block + #block-pgc-misc-blocks-mobilenav {
+  top: -84px;
+}
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(121, 0, 43, 0.8);
+  width: 100%;
+  padding: 10px;
+  height: 60px;
+}
+#block-pgc-misc-blocks-mobilenav .control-container {
+  float: right;
+}
+#block-pgc-misc-blocks-mobilenav .control-container .control {
+  padding: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 50px;
+  height: 43px;
+}
+#block-pgc-misc-blocks-mobilenav .control.open-btn {
+  background: url(/sites/all/themes/dean/cssAssets/mobile-nav-icon.png) no-repeat 50% 50%;
+  -moz-box-shadow: inset 0 0 20px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.1);
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.1);
+}
+#block-pgc-misc-blocks-mobilenav .control.close-btn {
+  display: none;
+  background: url(/sites/all/themes/dean/cssAssets/ico-nav-close.png) no-repeat 50% 50%;
+  right: 15px;
+}
+
+#block-pgc-misc-blocks-mobilenav .subnav-mobile-mask {
+  display: none;
+  position: relative;
+  background: #7f002d;
+  padding: 0 15px;
+}
+#block-pgc-misc-blocks-mobilenav .subnav-mobile-mask ul {
+  margin: 0;
+  padding: 0;
+}
+#block-pgc-misc-blocks-mobilenav .subnav-mobile-mask li {
+  list-style: none;
+  background: url(/sites/all/themes/dean/cssAssets/nav-block-divider.png) no-repeat 100% 0;
+  padding-right: 5px;
+}
+#block-pgc-misc-blocks-mobilenav .subnav-mobile-mask > ul > li:first-child {
+  background: none;
+}
+#block-pgc-misc-blocks-mobilenav .subnav-mobile-mask li a {
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  color: #fce187 !important;
+  /* background: url(/sites/all/themes/dean/cssAssets/block-nav-arrow.png) no-repeat 100% 50%; */
+  display: block;
+  text-decoration: none;
+  padding: 7px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Show the mobile navbar at narrow widths. */
+.sidebar-subnav {
+  display: none;
+}
+@media screen and (min-width: 780px) {
+  .sidebar-subnav {
+    display: block;
+  }
+  #block-pgc-misc-blocks-mobilenav .subnav-mobile-mask,
+  #block-pgc-misc-blocks-mobilenav .header-mobile {
+    display: none;
+  }
+}

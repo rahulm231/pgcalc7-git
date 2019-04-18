@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('/sites/all/themes/wheat2/cssAssets/icomoon.ttf') format('truetype'),
+    url('/sites/all/themes/wheat2/cssAssets/icomoon.woff') format('woff'),
+    url('/sites/all/themes/wheat2/cssAssets/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-select-menu:before {
+  content: "\e91d";
+  color: #00bcb4;
+}
+.icon-chevron-up:before {
+  content: "\e90c";
+  color: #00bcb4;
+}
+.icon-chevron-right:before {
+  content: "\e91b";
+  color: #00bcb4;
+}
+.icon-chevron-left:before {
+  content: "\e91c";
+  color: #00bcb4;
+}
+.icon-chevron-down:before {
+  content: "\e919";
+  color: #00bcb4;
+}
+.icon-interests-skills .path1:before {
+  content: "\e90d";
+  color: rgb(104, 108, 109);
+}
+.icon-interests-skills .path2:before {
+  content: "\e90e";
+  margin-left: -0.796875em;
+  color: rgb(39, 46, 49);
+}
+.icon-athletics-activities .path1:before {
+  content: "\e90f";
+  color: rgb(0, 0, 0);
+}
+.icon-athletics-activities .path2:before {
+  content: "\e910";
+  margin-left: -0.771484375em;
+  color: rgb(39, 46, 49);
+}
+.icon-athletics-activities .path3:before {
+  content: "\e911";
+  margin-left: -0.771484375em;
+  color: rgb(104, 108, 109);
+}
+.icon-careers .path1:before {
+  content: "\e912";
+  color: rgb(39, 46, 49);
+}
+.icon-careers .path2:before {
+  content: "\e913";
+  margin-left: -0.7890625em;
+  color: rgb(39, 46, 49);
+}
+.icon-careers .path3:before {
+  content: "\e914";
+  margin-left: -0.7890625em;
+  color: rgb(39, 46, 49);
+}
+.icon-careers .path4:before {
+  content: "\e915";
+  margin-left: -0.7890625em;
+  color: rgb(39, 46, 49);
+}
+.icon-careers .path5:before {
+  content: "\e916";
+  margin-left: -0.7890625em;
+  color: rgb(39, 46, 49);
+}
+.icon-careers .path6:before {
+  content: "\e917";
+  margin-left: -0.7890625em;
+  color: rgb(39, 46, 49);
+}
+.icon-careers .path7:before {
+  content: "\e918";
+  margin-left: -0.7890625em;
+  color: rgb(104, 108, 109);
+}
+.icon-faculty:before {
+  content: "\e91a";
+}
+.icon-calendar:before {
+  content: "\e903";
+}
+.icon-info:before {
+  content: "\e904";
+}
+.icon-location:before {
+  content: "\e905";
+}
+.icon-pencil:before {
+  content: "\e906";
+}
+.icon-search:before {
+  content: "\e907";
+}
+.icon-building:before {
+  content: "\e908";
+}
+.icon-clock:before {
+  content: "\e909";
+}
+.icon-envelope:before {
+  content: "\e90a";
+}
+.icon-phone:before {
+  content: "\e90b";
+}
+.icon-trio:before {
+  content: "\e902";
+}
+.icon-house:before {
+  content: "\e901";
+}
+.icon-people:before {
+  content: "\e900";
+}

@@ -1,0 +1,238 @@
+.pg-content-body {
+  font-size: 14px !important;
+}
+
+.pg-wrap h2 {
+  margin-top: 10px !important;
+}
+
+.pg-wrap p {
+  font-size: 16px !important;
+}
+
+#block-system-main-menu h2 a {
+  font-family: museo-slab, serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: #005390;
+  padding: .25em 1em 0;
+}
+
+#main-menu {
+  padding: 0;
+}
+
+#main-menu li {
+  border-top: 1px solid #aeb0b3;
+  padding: .625em 1.25em;
+  background: none;
+}
+
+#main-menu li a {
+  font-family: museo-slab, serif !important;
+  font-weight: 500;
+  font-size: 1.25em;
+  color: #005390;
+  list-style: none;
+  text-transform: none !important;
+}
+
+#main-menu li.active-trail {
+  background: #efefef;
+}
+
+#main-menu ul {
+  background: #efefef;
+}
+
+#main-menu ul li {
+  border: 0;
+}
+
+#main-menu li.expanded ul li a {
+  font-family: "proxima-nova-n3","proxima-nova",sans-serif !important;
+  font-size: .9375em;
+  color: #6c7584;
+}
+
+.pg-wrap table {
+  table-layout: fixed;
+  width: 100%;
+  border: 0;
+}
+
+.pg-wrap table tr th {
+  background-color: #ed8b00;
+  padding: .5em 1.25em;
+  border: transparent;
+}
+
+.pg-wrap table tr th:first-child {
+  border-top-left-radius: .3125em;
+}
+
+.pg-wrap table tr th:last-child {
+  border-top-right-radius: .3125em;
+}
+
+.pg-wrap table tr td {
+  padding: 0 5px;
+}
+
+.pg-wrap ul li {
+  font-size: 16px;
+}
+
+.pg-wrap ol li {
+  font-size: 16px;
+}
+
+#block-pgc-contact-block-pgc-contact-block {
+  border-radius: .3125em;
+  background-color: #efefef;
+  padding: 0.1em 1em;
+  position: relative;
+  z-index: 1000;
+}
+
+#block-pgc-contact-block-pgc-contact-block .title {
+  margin: 15px 0 0;
+}
+
+#pgc-contact-block {
+  list-style-type: none !important;
+}
+
+#pgc-contact-block li {
+  list-style-type: none !important;
+  background: none;
+  padding: 0;
+}
+
+#pgc-contact-block li a {
+  list-style-type: none !important;
+}
+
+#block-pgc-contact-block-pgc-contact-footer-block {
+  background: #efefef;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+#pgc-contact-footer-block li {
+  background: none;
+  padding: 0;
+}
+
+#pgc-contact-footer-block li a {
+  font-family: museo-slab, serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: #005390;
+  padding: .25em 1em;
+  list-style-type: none !important;
+}
+
+#pgc_resource_block {
+  border-radius: .3125em;
+  background-color: #ed8b00;
+  padding: 0.75em;
+  position: relative;
+  z-index: 1000;
+}
+
+#pgc_resource_block a {
+  color: #fff;
+}
+
+#pgc_resource_block a:hover {
+  color: #005390;
+}
+
+.pg-gift-details .accordion-switch {
+  border-radius: .3125em;
+  background-color: #efefef;
+  padding: 0.5em;
+}
+
+.pg-gift-details .accordion-switch a {
+  font-family: museo-slab, serif;
+  font-weight: 700;
+  font-size: 0.75em;
+  line-height: 1.2;
+  color: #005390;
+  text-transform: uppercase;
+}
+
+#block-pgc-misc-blocks-mobilenav .header-mobile {
+  background-color: #ed8b00;
+  border-radius: .3125em;
+  webkit-box-shadow: 0 0.3846153846em 0 0 rgba(0,0,0,0.1);
+  box-shadow: 0 0.3846153846em 0 0 rgba(0,0,0,0.1);
+}
+
+#block-pgc-misc-blocks-mobilenav .control.open-btn::before {
+  content: "\f0c9";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: -14px;
+  left: 5px;
+  color: #fff;
+}
+
+#block-pgc-misc-blocks-mobilenav .control.close-btn::before {
+  content: "\f05c";
+  font-family: "FontAwesome";
+  font-size: 40px;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  color: #fff;
+}
+
+.pgc-brochure-bg-top {
+  background: #ed8b00;
+}
+
+.pgc-brochure-header-text {
+  background: #005390;
+  color: #fff;
+}
+
+.pgc-brochure-title {
+  color: #005390;
+}
+
+.pgc-brochure-body-title.pgc-font-color1 {
+  color: #005390;
+}
+
+.pgc-brochure-body-title.pgc-font-color2 {
+  color: #ed8b00;
+}
+
+.pgc-brochure-body-text ul li span.pgc-before::before {
+  color: #ed8b00;
+}
+
+.pgc-brochure-footer-text {
+  background: #005390;
+}
+
+.pgc-brochure-footer-title {
+  color: #ed8b00;
+}
+
+span.pgc-brochure-footer-contact {
+  color: #ed8b00;
+}
+
+.pg-page-btns .pgc-title-btn {
+  background-color: #005390;
+}
+

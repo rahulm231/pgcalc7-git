@@ -1,0 +1,47 @@
+#block-system-main-menu ul li.leaf a:before {
+	content: "\f0c8";
+	font-family: FontAwesome;
+	font-size: 8px;
+	margin: 0px 6px 0px -10px;
+	vertical-align: top;
+}
+#block-system-main-menu ul li.leaf {
+	list-style-image: none;
+}
+#giftCompare .gc-btn {
+	background: #3972b1;
+	text-shadow: none;
+}
+#webform-component-donor-information, #webform-component-broker-stock-information, #webform-component-special-instructions-to-broker, #webform-component-gift-designation-information {
+    background: #f3f3f3;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    line-height: 26px;    padding-left: 5px;
+    margin-top: -12px;
+}
+#webform-client-form-72 label {
+    display: inline-block;
+    width: 260px;
+    font-weight: normal;
+    color: #475C7B;
+    padding-left: 5px;
+}
+#edit-submitted-name, #edit-submitted-address-1, #edit-submitted-address-2, #edit-submitted-city, #edit-submitted-state, #edit-submitted-postal-code, #edit-submitted-country, #edit-submitted-e-mail, #edit-submitted-home-phone, #edit-submitted-brokerage-financial-institution-name, #edit-submitted-broker-contact-name, #edit-submitted-broker-contact-phone, #edit-submitted-broker-contact-e-mail, #edit-submitted-broker-contact-fax, #edit-submitted-anticipated-transfer-date, #edit-submitted-stock-name, #edit-submitted-number-of-shares {
+    width: 175px;
+    border-color: #888;
+}
+#webform-component-gift-designation-information-box label {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 400px!important;
+    margin-bottom: 15px;
+}
+#webform-client-form-79 .form-text, #webform-client-form-80 .form-text{
+	width: 100%;
+}
+
+@media only screen and (max-width: 999px) {
+	.caspiantwo-sidebarfirst.panel-panel {
+		display: none;
+	}
+}
+

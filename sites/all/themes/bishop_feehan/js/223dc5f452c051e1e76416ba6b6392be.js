@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){var a=readCookie("bfhsmobile");if(a==-1){jQuery("#bfhsMobileSwitch").show()}});function readCookie(b){var e=b+"=";var a=document.cookie.split(";");for(var d=0;d<a.length;d++){var f=a[d];while(f.charAt(0)==" "){f=f.substring(1,f.length)}if(f.indexOf(e)==0){return f.substring(e.length,f.length)}}return null};;

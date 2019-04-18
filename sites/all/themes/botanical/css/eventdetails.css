@@ -1,0 +1,128 @@
+.event-title
+{
+	maring-top:2px;
+
+}
+
+.event-author
+{
+	float:left;
+	clear:both;
+	font-size:10px;
+}
+
+.event-author-title
+{
+	color:#EB7312;
+}
+
+.sr-event-dates
+{
+	color:#295307;
+	font-size:20px;
+}
+
+.sr-event-location
+{
+	font-size:14px;
+	color:#b7c79d;
+}
+.event-location
+{
+	font-style: italic;
+}
+
+.sr-event-sharethis a
+{
+	background-image:url(/sites/all/themes/botanical/cssAssets/share-this-icon.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:30px;
+}
+
+
+.hours-title /*--- Same Styles as Sub Title Text (.SubTitleText) ---*/
+{
+	color:#295307;
+	font-size:16px;
+}
+
+.hours-times
+{
+	padding-bottom:10px;
+}
+
+
+/*--- Image & Caption Container ---*/
+#sr-event-image-detail
+{
+	float:left;
+}
+
+#sr-event-image img
+{
+	display:block;
+	/*width: 390px;*/
+}
+
+#sr-event-image-caption
+{
+	_width:390px;
+	*width:380px;
+	height:35px;
+	background-color:#c9d7b2;
+	color:#295307;
+	line-height:35px;
+	padding-left:10px;
+	margin-bottom:20px;
+}
+
+.sr-event-list .event-item, .sr-event-list .event-item-alt
+{
+	margin-bottom:20px;
+}
+
+.sr-event-list .event-item .event-title, .sr-event-list .event-item-alt .event-title
+{
+	float:none;
+}
+
+.SR_Event_DetailUrl_Container, .SR_Event_Hours_Container, .sr-event-detail, .SR_Event_AdditionalDetails_Container
+{
+	margin-left:10px;
+}
+
+
+
+/*--- EVENT DETAIL OVERRIDES FOR BUTTERFLY HOUSE EVENT DETAILS ---*/
+.BH .sr-event-dates
+{
+	color:#277D9B;
+}
+
+.BH .sr-event-location
+{
+	color:#9cc3d2;
+}
+
+.BH #sr-event-image-caption
+{
+	background-color:#9cc3d2;
+}
+
+
+/*--- EVENT DETAIL OVERRIDES FOR SHAW NATURE RESERVE EVENT DETAILS ---*/
+.SNR .sr-event-dates
+{
+	color:#566c11;
+}
+
+.SNR .sr-event-location
+{
+	color:#fad976;
+}
+
+.SNR #sr-event-image-caption
+{
+	background-color:#fad976;
+}

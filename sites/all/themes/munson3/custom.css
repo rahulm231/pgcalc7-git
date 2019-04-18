@@ -1,0 +1,11 @@
+.region-page-top{
+	position: relative;
+    z-index: 99999;
+}
+
+@media only screen and (max-width: 999px) {
+
+	.left-content.col-md-3.col-sm-12 {
+		display: none;
+	}
+}

@@ -1,0 +1,4379 @@
+@font-face{
+	font-family:'ITCFranklinGothicW01-Bk 812647';
+	src: url('/sites/all/themes/dean/cssAssets/4ecfab2df694f5dff35a044c54801b26.eot');
+	src: url('/sites/all/themes/dean/cssAssets/4ecfab2df694f5dff35a044c54801b26.eot?#iefix') format('embedded-opentype'),url('/sites/all/themes/dean/cssAssets/7708aa247d2eaad913bb20800007bf87.woff') format('woff'),url('/sites/all/themes/dean/cssAssets/57813e86732c684e563de4cd5e320bbb.ttf') format('truetype');
+}
+@font-face{
+	font-family:'ITCFranklinGothicW01-Bk 812650';
+	src: url('/sites/all/themes/dean/cssAssets/6d816619eb714a19fca07977714e56b2.eot');
+	src: url('/sites/all/themes/dean/cssAssets/6d816619eb714a19fca07977714e56b2.eot?#iefix') format('embedded-opentype'),url('/sites/all/themes/dean/cssAssets/ec1ec216796559c5078cd453f38dd48c.woff') format('woff'),url('/sites/all/themes/dean/cssAssets/07ef8ff58ec84ccea0cbf35144a50389.ttf') format('truetype');
+}
+@font-face{
+	font-family:"ITCFranklinGothicW01-Bk 812656";
+	src:url("/sites/all/themes/dean/cssAssets/2cf8af0ee19d1771defea35eb1780688.eot");
+	src:url("/sites/all/themes/dean/cssAssets/2cf8af0ee19d1771defea35eb1780688.eot") format("eot"),url("/sites/all/themes/dean/cssAssets/ae192f04aab0de587e6a9137ce9f9f94.woff") format("woff"),url("/sites/all/themes/dean/cssAssets/15f90f73eb7de892026ae3dd3a170837.ttf") format("truetype");
+}
+@font-face{
+	font-family:"ITCFranklinGothicW01-Bk 812665";
+	src:url("/sites/all/themes/dean/cssAssets/1c7ea491ede7dced89232c12c3e72d45.eot");
+	src:url("/sites/all/themes/dean/cssAssets/1c7ea491ede7dced89232c12c3e72d45.eot") format("eot"),url("/sites/all/themes/dean/cssAssets/f65ce89dfad8c1b69c548b92d4f88137.woff") format("woff"),url("/sites/all/themes/dean/cssAssets/c3c7614c3252d097bc74bc365f6c95bc.ttf") format("truetype");
+}
+@font-face{
+	font-family:"ITCFranklinGothicW01-Dm 812668";
+	src:url("/sites/all/themes/dean/cssAssets/137c1a7a88cc6e0aa557bd2e11ed0b95.eot");
+	src:url("/sites/all/themes/dean/cssAssets/137c1a7a88cc6e0aa557bd2e11ed0b95.eot") format("eot"),url("/sites/all/themes/dean/cssAssets/2becc302d2fea8d871a4435e13edfe73.woff") format("woff"),url("/sites/all/themes/dean/cssAssets/ac1b6799434bd367e6eed339a7837e3e.ttf") format("truetype");
+}
+@font-face{
+	font-family:"ITCFranklinGothicW01-Dm 812671";
+	src:url("/sites/all/themes/dean/cssAssets/919b7ec9c698fb9d2047a772308bc981.eot");
+	src:url("/sites/all/themes/dean/cssAssets/919b7ec9c698fb9d2047a772308bc981.eot") format("eot"),url("/sites/all/themes/dean/cssAssets/3701b057e9302f5f7c8ab1f4c1a13c90.woff") format("woff"),url("/sites/all/themes/dean/cssAssets/bbcf204120f136bda5eaac93e75b82da.ttf") format("truetype");
+}
+@font-face{
+	font-family:"ITCFranklinGothicW01-Dm 812686";
+	src:url("/sites/all/themes/dean/cssAssets/e3da3663a690fba67a78edb635b231e8.eot");
+	src:url("/sites/all/themes/dean/cssAssets/e3da3663a690fba67a78edb635b231e8.eot") format("eot"),url("/sites/all/themes/dean/cssAssets/7aaa7d59c1dd7b96b1a945fc7ec3ac04.woff") format("woff"),url("/sites/all/themes/dean/cssAssets/ebb9972c7280c21a3e886de2509e2dc9.ttf") format("truetype");
+}
+@font-face{
+	font-family:"ITCFranklinGothicW01-Hv 812689";
+	src:url("/sites/all/themes/dean/cssAssets/07d4d94ea220fb18ac31ded328d9e1be.eot");
+	src:url("/sites/all/themes/dean/cssAssets/07d4d94ea220fb18ac31ded328d9e1be.eot") format("eot"),url("/sites/all/themes/dean/cssAssets/1f0e0c38dbf4d7c9e7e4f5a1b728e0b9.woff") format("woff"),url("/sites/all/themes/dean/cssAssets/8734a9efae62a209e1c7a3e004446e88.ttf") format("truetype");
+}
+@font-face{
+	font-family:"ITCFranklinGothicW01-Md 812695";
+	src:url("/sites/all/themes/dean/cssAssets/55fb7ce8cf9d26bfbe4b0941e265fb93.eot");
+	src:url("/sites/all/themes/dean/cssAssets/55fb7ce8cf9d26bfbe4b0941e265fb93.eot") format("eot"),url("/sites/all/themes/dean/cssAssets/a352b321f7e4d8b6e476bd719b8d5af2.woff") format("woff"),url("/sites/all/themes/dean/cssAssets/20593bafbad64254cc250b66d33bff1a.ttf") format("truetype");
+}
+@font-face{
+	font-family:"ITCFranklinGothicW01-Md 812704";
+	src:url("/sites/all/themes/dean/cssAssets/b8f249e6923fdb911d4457d424a08f19.eot");
+	src:url("/sites/all/themes/dean/cssAssets/b8f249e6923fdb911d4457d424a08f19.eot") format("eot"),url("/sites/all/themes/dean/cssAssets/a7c06579f6bf4996354a6a14407b1668.woff") format("woff"),url("/sites/all/themes/dean/cssAssets/c239a4a54186e2d3bf58037f7bb40ed8.ttf") format("truetype");
+}
+@font-face {
+	font-family: 'cambria';
+	src: url('/sites/all/themes/dean/cssAssets/cambria.eot');
+	src: url('/sites/all/themes/dean/cssAssets/cambria.eot?#iefix') format('embedded-opentype'),url('/sites/all/themes/dean/cssAssets/cambria.woff') format('woff'),url('/sites/all/themes/dean/cssAssets/cambria.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'cambriab';
+	src: url('/sites/all/themes/dean/cssAssets/cambriab.eot');
+	src: url('/sites/all/themes/dean/cssAssets/cambriab.eot?#iefix') format('embedded-opentype'),url('/sites/all/themes/dean/cssAssets/cambriab.woff') format('woff'),url('/sites/all/themes/dean/cssAssets/cambriab.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'cambriai';
+	src: url('/sites/all/themes/dean/cssAssets/cambriai.eot');
+	src: url('/sites/all/themes/dean/cssAssets/cambriai.eot?#iefix') format('embedded-opentype'),url('/sites/all/themes/dean/cssAssets/cambriai.woff') format('woff'),url('/sites/all/themes/dean/cssAssets/cambriai.ttf') format('truetype');
+}
+.jcf-hidden {
+	display: block !important;
+	position: absolute !important;
+	left: -9999px !important;
+}
+html {
+	height:100%;
+}
+#giftCompare th {
+    width: 300px !important;
+}
+body {
+	margin:0;
+	color:#383737;
+	font:13px/16px Arial, Verdana, sans-serif;
+	background:#dcdcdc;
+	height:100%;
+	width:100%;
+	display:table;
+}
+iframe {
+    max-width: 100%;
+}
+img {
+	border-style:none;
+}
+a {
+	color:#00849c;
+	position:relative;
+	overflow:hidden;
+}
+a:hover {
+	text-decoration:none;
+	background-image: linear-gradient(rgba(rgba(255,255,255,0)),rgba(255,255,255,0.6));
+	}
+a:visited {
+	color:#888;
+}
+.twitter-anywhere-user,
+.jta-tweet-hashtag{
+	text-decoration:none;
+}
+.twitter-anywhere-user:hover,
+.jta-tweet-hashtag:hover {
+	background:none;
+	filter:none;
+	text-decoration:underline;
+}
+input,
+textarea,
+select {
+	font:100% Arial, Verdana, sans-serif;
+}
+form,
+fieldset {
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+.page {
+	width:100%;
+	height:100%;
+	display:table-row;
+}
+.page>div {
+	width:100%;
+	display:block; /* CHANGED FROM table-cell */
+	position:relative;
+}
+.page .page-wrapper {
+	position:relative;
+}
+.wrapper {
+	margin:0 auto;
+	width:958px;
+	position:relative;
+	z-index:2;
+}
+.wrapper:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+header.header {
+	z-index:5;
+	position:relative;
+	width:100%;
+	float:left;
+	margin-bottom:-92px;
+	-moz-box-shadow:0 1 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 1 2px rgba(0,0,0,0.3);
+	box-shadow:0 1 2px rgba(0,0,0,0.3);
+}
+header.header.other-header  {
+	margin-bottom:0;
+	float:none;
+}
+.header-inner {
+	width:100%;
+	background: -moz-linear-gradient(top,  rgba(152,0,54,1) 0%, rgba(113,0,40,0.65) 87%, rgba(138,0,49,0.6) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(152,0,54,1)), color-stop(87%,rgba(113,0,40,0.65)), color-stop(100%,rgba(138,0,49,0.6)));
+	background: -webkit-linear-gradient(top,  rgba(152,0,54,1) 0%,rgba(113,0,40,0.65) 87%,rgba(138,0,49,0.6) 100%);
+	background: -ms-linear-gradient(top,  rgba(152,0,54,1) 0%,rgba(113,0,40,0.65) 87%,rgba(138,0,49,0.6) 100%);
+	background: linear-gradient(to bottom,  rgba(152,0,54,1) 0%,rgba(113,0,40,0.65) 87%,rgba(138,0,49,0.6) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#980036', endColorstr='#998a0031',GradientType=0 );
+	height:92px;
+}
+.other-header .header-inner {
+	background-color:#980036;
+	background-image:linear-gradient(#980036, #730029);
+	}
+header.header  .wrapper {
+	position:relative;
+	z-index:2;
+}
+header.header  .logo {
+	position:absolute;
+	top:0;
+	left:0;
+	width:183px;
+	height:108px;
+	z-index:100;
+	background:url(/sites/all/themes/dean/cssAssets/bg-logo.png);
+	display:table;
+	-moz-box-shadow:0 0 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0,0.3);
+	box-shadow:0 3px 3px rgba(0,0,0,0.3);
+}
+header.header  .logo a {
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+header.header  .logo a:hover {
+	background:none;
+	filter:none;
+}
+header.header  .logo .small-logo {
+	display:none;
+}
+.camp-menu {
+	float:right;
+	list-style:none;
+	padding:0;
+	width:125px;
+	margin:9px 0 0;
+	border:1px solid #cd9d0b;
+	background: rgb(232,202,105);
+	background: -moz-linear-gradient(-45deg,  rgba(232,202,105,1) 0%, rgba(235,218,162,1) 50%, rgba(232,202,105,1) 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(232,202,105,1)), color-stop(50%,rgba(235,218,162,1)), color-stop(100%,rgba(232,202,105,1)));
+	background: -webkit-linear-gradient(-45deg,  rgba(232,202,105,1) 0%,rgba(235,218,162,1) 50%,rgba(232,202,105,1) 100%);
+	background: -ms-linear-gradient(-45deg,  rgba(232,202,105,1) 0%,rgba(235,218,162,1) 50%,rgba(232,202,105,1) 100%);
+	background: linear-gradient(135deg,  rgba(232,202,105,1) 0%,rgba(235,218,162,1) 50%,rgba(232,202,105,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ca69', endColorstr='#e8ca69',GradientType=1 );
+	text-align:center;
+	text-transform:uppercase;
+	font:13px/14px 'ITCFranklinGothicW01-Bk 812650', Arial, Helvetica, sans-serif;
+}
+.camp-menu li {
+	background:url(/sites/all/themes/dean/cssAssets/camp-menu-divider.png) no-repeat 50% 0;
+	padding-top:1px;
+}
+.camp-menu li:first-child {
+	background:none;
+	padding-top:0;
+}
+.camp-menu a {
+	color:#2b2923;
+	text-shadow:1px 1px 1px #fff;
+	text-decoration:none;
+	padding:5px 0;
+	display:block;
+	overflow:hidden;
+}
+.camp-menu a:hover {
+	background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 );
+	color:#4b4738;
+}
+.header-hold {
+	float:left;
+	padding-left:180px;
+}
+.top-menu {
+	padding-right:28px;
+	height:44px;
+}
+.top-menu:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.top-menu ul {
+	float:right;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.top-menu ul:after {
+	content:'';
+	float:left;
+	height:31px;
+	width:1px;
+	-moz-box-shadow:1px 0 1px rgba(252,0,90,0.5), inset 1px 0 1px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 0 1px rgba(252,0,90,0.5), inset 1px 0 1px rgba(0,0,0,0.2);
+	box-shadow:1px 0 1px rgba(252,0,90,0.5), inset 1px 0 1px rgba(0,0,0,0.2);
+}
+.top-menu li {
+	float:left;
+}
+.top-menu li:before {
+	content:'';
+	float:left;
+	height:31px;
+	width:1px;
+	-moz-box-shadow:1px 0 1px rgba(252,0,90,0.5), inset 1px 0 1px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 0 1px rgba(252,0,90,0.5), inset 1px 0 1px rgba(0,0,0,0.2);
+	box-shadow:1px 0 1px rgba(252,0,90,0.5), inset 1px 0 1px rgba(0,0,0,0.2);
+}
+.top-menu a {
+	float:left;
+	width:81px;
+	padding-top:31px;
+	text-indent:-9999px;
+	overflow:hidden;
+	height:0;
+	background-position:50% 4px;
+}
+.top-menu .lnk-quicklinks {
+	background:url(/sites/all/themes/dean/cssAssets/ico-quicklinks.png) no-repeat 50% 4px;
+}
+.top-menu .lnk-search {
+	background:url(/sites/all/themes/dean/cssAssets/ico-search.png) no-repeat 50% 4px;
+}
+.top-menu .lnk-contact {
+	background:url(/sites/all/themes/dean/cssAssets/ico-contact.png) no-repeat 50% 4px;
+}
+.top-menu a:hover,
+.top-menu a.active {
+	text-indent:0;
+	color:#fff;
+	text-transform:uppercase;
+	font:8px/11px Verdana, Arial, Helvetica, sans-serif;
+	height:11px;
+	background-position:50% -30px;
+	text-align:center;
+	filter:none;
+	-moz-box-shadow:0 1px 1px rgba(255,255,255,0.3);
+	-webkit-box-shadow:0 1px 1px rgba(255,255,255,0.3);
+	box-shadow:inset 0 15px 13px rgba(0,0,0,0.07);
+}
+.main-menu {
+	list-style:none;
+	padding:10px 0 0;
+	margin:0;
+	font:19px/22px 'ITCFranklinGothicW01-Bk 812647', Arial, Helvetica, sans-serif;
+}
+.main-menu>li {
+	float:left;
+}
+.main-menu>li.fake {
+	display:none;
+}
+.main-menu>li>a {
+	float:left;
+	color:#fff;
+	text-decoration:none;
+	padding:8px 15px 8px 18px;
+}
+.main-menu>li>a:after {
+	content:'';
+	background:url(/sites/all/themes/dean/cssAssets/arrow-drop.png) no-repeat 3px 0;
+	width:12px;
+	height:8px;
+	display:inline-block;
+}
+.main-menu>li>a:hover {
+	filter:none;
+}
+.main-menu>li:hover>a {
+	background:#960035;
+	-webkit-border-radius:12px 12px 0 0;
+	-moz-border-radius:12px 12px 0 0;
+	border-radius:12px 12px 0 0;
+}
+.main-menu>li.hasdrop:hover>a {
+	padding-bottom:9px;
+	margin-bottom:-1px;
+}
+.visual {
+	position:relative;
+	z-index:1;
+	width:100%;
+	overflow:hidden;
+	min-height:619px;
+}
+.visual.gallery-init {
+	min-height:0 !important;
+}
+.visual ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:100%;
+	position:relative;
+	z-index:1;
+    overflow: hidden;
+	float:left;
+}
+.visual li {
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background:#000;
+	text-align:center;
+    overflow: hidden;
+    z-index: 10;
+}
+.visual li.first-slide {
+    position:relative;
+}
+.visual.gallery-init ul > li.first-slide {
+    position:absolute;
+}
+.visual li.active {
+	z-index: 11;
+}
+.visual li .image-wrapper {
+	text-align:center;
+	width:100%;
+	position: relative;
+	margin:0 auto;
+	z-index: 1;
+	font-size:1px;
+	line-height:1px;
+    max-width:1200px;
+}
+.visual li .image-wrapper>div {
+	display:inline-block;
+	position:relative;
+    width: 100%;
+}
+.visual li .image-wrapper img {
+	display:block;
+	max-width:100%;
+}
+.visual.gallery-init li .image-wrapper img {
+	height: auto;
+}
+.visual .video-block {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	top:0;
+	left:0;
+	position: absolute;
+}
+.visual .video-block > div {
+	max-width: 1200px;
+	margin: 0 auto;
+	position:relative;
+    width: 100%;
+}
+.visual li .image-wrapper>div:after,
+.visual li .image-wrapper>div:before,
+.visual .video-block > div:after,
+.visual .video-block > div:before {
+	content:'';
+	display:block;
+	position:absolute;
+	bottom:0;
+	top:0;
+	width:100px;
+	z-index:4;
+}
+.visual li .image-wrapper>div:before,
+.visual .video-block > div:before {
+	left:0;
+	background:url(/sites/all/themes/dean/cssAssets/slider-overlay-l.png);
+}
+.visual li .image-wrapper>div:after,
+.visual .video-block > div:after {
+	right:0;
+	background:url(/sites/all/themes/dean/cssAssets/slider-overlay-r.png);
+}
+.visual .video-block > div > div {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    width: 100% !important;
+    height: auto !important;
+    height: 0;
+    vertical-align: middle;
+}
+.visual video,
+.visual object {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.visual .txt {
+	position:absolute;
+	bottom:0;
+	top:0;
+	left:0;
+	width:100%;
+	color:#fff;
+	text-align:center;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding:0 60px;
+    z-index: 2;
+}
+.visual .txt.black {
+	color:#000;
+}
+.visual .txt:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.visual .txt>div {
+	margin:0 auto;
+	display: inline-block;
+	vertical-align: middle;
+	text-align:right;
+}
+.visual .txt p {
+	margin:0;
+	font:63px 'ITCFranklinGothicW01-Md 812695', Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+	text-shadow:3px 3px 3px rgba(0,0,0,0.5);
+}
+.visual .txt.black p {
+	text-shadow:none;
+}
+.visual .txt .video {
+	margin-top:6px;
+	font:16px 'ITCFranklinGothicW01-Md 812695', Arial, Helvetica, sans-serif;
+	letter-spacing:0;
+}
+.visual .txt .video a{
+	display:inline-block;
+	background:url(/sites/all/themes/dean/cssAssets/ico-watch-video.png) no-repeat 0 50%;
+	padding-left:24px;
+	text-transform:uppercase;
+	color:#fff;
+}
+.visual .txt .video a:hover {
+	filter:none;
+}
+.visual .txt.black a {
+	color:#000;
+	background:url(/sites/all/themes/dean/cssAssets/ico-watch-video-black.png) no-repeat 0 50%;
+}
+.visual .holder {
+	width:100%;
+	margin-top:40px;
+}
+.visual .holder1 {
+	width:960px;
+}
+.visual .holder1 .holder {
+	float:right;
+	width:613px;
+}
+.visual .txt  .text1 {
+	font-size:76px;
+}
+.visual .txt .text2{
+	font-size:76px;
+}
+.visual .txt  .text3{
+	font-size:76px;
+}
+.visual .txt .text4{
+	font-size:76px;
+}
+.visual .txt>div.holder3 {
+	text-align:left;
+	width:960px;
+	padding-bottom:40px;
+	vertical-align:bottom;
+}
+.visual .txt>div.holder3 .holder {
+	float:left;
+	width:270px;
+	padding-left:44px;
+}
+.visual .txt>div.holder2 {
+	width:958px;
+	padding-top:362px;
+	vertical-align:top;
+}
+.visual .lnk-prev,
+.visual .lnk-next {
+	position:absolute;
+	z-index:3;
+	text-indent:-9999px;
+	overflow:hidden;
+	top:50%;
+	background:url(/sites/all/themes/dean/cssAssets/arrow-carousel-prev.png);
+	width:26px;
+	height:49px;
+	margin-top:-25px;
+}
+.visual .lnk-prev {
+	left:14px;
+}
+.visual .lnk-next {
+	background:url(/sites/all/themes/dean/cssAssets/arrow-carousel-next.png);
+	right:14px;
+}
+.visual .lnk-prev:hover,
+.visual .lnk-next:hover {
+	filter:none;
+}
+.headline {
+	overflow:hidden;
+}
+.headline .wrapper:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.inner-headline.headline {
+	position:absolute;
+	left:0;
+	bottom:2px;
+    width: 70px;
+	height:61px;
+	z-index:3;
+}
+.inner-headline.headline.near-footer {
+	top: auto !important;
+	bottom: 10px !important;
+    position: absolute !important;
+}
+.inner-headline.bar-is-open {width:100%;}
+.headline .mobile-lnk {
+	display:none;
+}
+.headline .lnk-paw {
+	float:left;
+	text-indent:-9999px;
+	overflow:hidden;
+	width:29px;
+	height:27px;
+	margin:16px 0 0 26px;
+	background:url(/sites/all/themes/dean/cssAssets/paw.png);
+}
+.headline .lnk-paw:hover {
+	filter:none;
+}
+.headline ul {
+	float:left;
+	list-style:none;
+	padding:0 0 0 9px;
+	margin:0;
+}
+.headline li {
+	float:left;
+	text-transform:uppercase;
+	position:relative;
+	font:12px/16px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+}
+.headline li a {
+	color:#fff;
+	padding:22px 14px 23px;
+	text-decoration:none;
+	float:left;
+}
+.headline li a:hover {
+	filter:none;
+	background:none;
+	-moz-box-shadow:inset 0 0 100px rgba(0,0,0,0.2);
+	-webkit-box-shadow:inset 0 0 100px rgba(0,0,0,0.2);
+	box-shadow:inset 0 0 100px rgba(0,0,0,0.2);
+}
+/*
+.headline li a:hover:after,
+.headline li a:hover:before {
+	position:absolute;
+	top:0;
+	content:'';
+	display:block;
+	height:61px;
+	width:1px;
+	overflow:hidden;
+	-moz-box-shadow:1px 0 1px rgba(252,0,90,0.5), inset 1px 0 1px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 0 1px rgba(252,0,90,0.5), inset 1px 0 1px rgba(0,0,0,0.2);
+	box-shadow:1px 0 1px rgba(252,0,90,0.5), inset 1px 0 1px rgba(0,0,0,0.2);
+}
+.headline li a:hover:before {
+	left:1px;
+}
+.headline li a:hover:after {
+	right:1px;
+}
+    */
+.headline .paw-opener {
+	position:absolute;
+	top:0;
+	left:0;
+	height:61px;
+	background:none;
+	padding:0;
+	margin:0;
+    width: 70px;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+.headline>div {
+	width:100%;
+	float:left;
+	background-color:#970036;
+	-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    padding-right: 70px;
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    border-radius: 0 10px 10px 0;
+    background-image: linear-gradient(#970036, #6f0027);
+}
+.headline .wrapper {
+    position: relative;
+}
+.headline .wrapper .lnk-paw {
+    z-index: 3;
+}
+.headline div.over,
+.headline div.over2 {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    left: -1000px;
+    height: 61px;
+    width: 1055px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+
+    background-color:#970036;
+    background-image:linear-gradient(#970036, #6f0027);
+    }
+.headline div.over2 {
+    left: -1100px;
+    z-index: 4;
+}
+.headline .lnk-close {
+	float:left;
+	color:#fff;
+	text-decoration:none;
+	padding:24px 0 0 12px;
+	font:9px/12px Verdana, Arial, Helvetica, sans-serif;
+}
+.headline .lnk-close:hover {
+	background:none;
+	filter:none;
+}
+.main {
+	width:100%;
+	background-color:#f4f4f4;
+	position: relative;
+    z-index: 1;
+    background-image: linear-gradient(#f4f4f4, #dcdcdc);
+}
+.accordion {
+	list-style:none;
+	padding:0;
+	margin:0 0 30px;
+	overflow:hidden;
+}
+.acc-news {
+	float:left;
+	width:222px;
+	padding-top:16px;
+}
+.acc-news .acc-headline {
+	font:23px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+	margin:0;
+	color:#000;
+}
+.acc-news .acc-headline a {
+	text-decoration:none;
+	color:#000;
+}
+.acc-news .acc-headline a:hover {
+	text-decoration:none;
+	filter:none;
+	background:none;
+}
+.acc-news .acc-body {
+	overflow:hidden;
+}
+.acc-news .news-list {
+	list-style:none;
+	padding:27px 10px 0 0;
+	margin:0;
+	font:17px 'ITCFranklinGothicW01-Bk 812647', Arial, Helvetica, sans-serif;
+}
+.acc-news .news-list li {
+	position:relative;
+	margin:0 0 12px 4px;
+}
+.acc-news .news-list a {
+	color:#647289;
+	text-decoration:none;
+	display:block;
+	padding:6px 14px 6px 10px;
+}
+.acc-news .news-list li:before {
+	content:'';
+	position:absolute;
+	left:-1px;
+	width:3px;
+	top:8px;
+	bottom:8px;
+	display:block;
+}
+.acc-news .news-list .color-voilet:before {
+	background:#663f94;
+}
+.acc-news .news-list .color-red:before {
+	background:#930036;
+}
+.acc-news .news-list .color-blue:before {
+	background:#0065a4;
+}
+.acc-news .news-list .color-yellow:before {
+	background:#e0ad20;
+}
+.acc-news .news-list a:hover {
+	filter:none;
+	background: -moz-linear-gradient(left,  rgba(254,254,254,0.6) 0%, rgba(254,254,254,0.6) 2%, rgba(255,255,255,0.4) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(254,254,254,0.6)), color-stop(2%,rgba(254,254,254,0.6)), color-stop(100%,rgba(255,255,255,0.4)));
+	background: -webkit-linear-gradient(left,  rgba(254,254,254,0.6) 0%,rgba(254,254,254,0.6) 2%,rgba(255,255,255,0.4) 100%);
+	background: -ms-linear-gradient(left,  rgba(254,254,254,0.6) 0%,rgba(254,254,254,0.6) 2%,rgba(255,255,255,0.4) 100%);
+	background: linear-gradient(to right,  rgba(254,254,254,0.6) 0%,rgba(254,254,254,0.6) 2%,rgba(255,255,255,0.4) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99fefefe', endColorstr='#66ffffff',GradientType=1 );
+	-moz-box-shadow:0 0 20px #fff;
+	-webkit-box-shadow:0 0 20px #fff;
+	box-shadow:0 0 20px #fff;
+}
+.acc-news .view-list {
+	list-style:none;
+	padding:1px 0 0;
+	margin:0;
+	line-height:18px;
+	text-align:center;
+	background:url(/sites/all/themes/dean/cssAssets/white-glow.png) no-repeat 50% 1px;
+}
+.acc-news .view-list:before {
+	content:'';
+	height:1px;
+	overflow:hidden;
+	width:100%;
+	display:block;
+	background:url(/sites/all/themes/dean/cssAssets/divider.png) no-repeat 50% 0;
+}
+.acc-news .view-list li {
+	background:url(/sites/all/themes/dean/cssAssets/divider.png) no-repeat 50% 100%;
+	padding-bottom:1px;
+}
+.acc-news .view-list a {
+	display:block;
+	text-decoration:none;
+	padding:11px 0;
+}
+.acc-news .view-list a:after {
+	content:'\bb';
+	width:11px;
+	text-align:right;
+	display:inline-block;
+}
+.acc-news .view-list a:hover {
+	background:none;
+	text-decoration:underline;
+	filter:none;
+}
+.acc-spotlights {
+	float:left;
+	width:416px;
+	margin-left:23px;
+}
+.acc-spotlights .acc-headline {
+	display:none;
+}
+.acc-spotlights .acc-body>div{
+	padding:24px 31px 110px 30px;
+	background:url(/sites/all/themes/dean/cssAssets/bg-spotlights.png) repeat-x;
+	position:relative;
+}
+.acc-spotlights .acc-body>div:after,
+.acc-spotlights .acc-body>div:before {
+	content:'';
+	position:absolute;
+	left:-26px;
+	top:0;
+	background:url(/sites/all/themes/dean/cssAssets/spotlights-shadow-left.png);
+	width:26px;
+	height:488px;
+}
+.acc-spotlights .acc-body>div:after {
+	left:100%;
+	background:url(/sites/all/themes/dean/cssAssets/spotlights-shadow-right.png);
+}
+.acc-spotlights h2 {
+	margin:0 0 14px;
+	font:27px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+}
+.acc-spotlights h2 .yellow {
+	font-family:'ITCFranklinGothicW01-Bk 812647', Arial, Helvetica, sans-serif;
+	color:#9e7c14;
+}
+.acc-spotlights .gallery-content {
+	overflow:hidden;
+	width:100%;
+	position:relative;
+}
+.acc-spotlights .gallery-content ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:9999px;
+    position: relative;
+}
+.acc-spotlights .gallery-content li {
+	float:left;
+	width:355px;
+}
+.acc-spotlights .gallery-content li p {
+	margin:0 0 14px;
+	font:27px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+}
+.acc-spotlights .gallery-content li p .yellow {
+	font-family:'ITCFranklinGothicW01-Bk 812647', Arial, Helvetica, sans-serif;
+	color:#9e7c14;
+}
+.acc-spotlights .gallery-content figure {
+	margin:0;
+}
+.acc-spotlights .gallery-content img {
+	display:block;
+}
+.acc-spotlights .gallery-content figcaption {
+	display:block;
+	padding:10px 8px 12px;
+	text-align:center;
+}
+.acc-spotlights .gallery-content figcaption a:after {
+	content:'\bb';
+	width:11px;
+	text-align:right;
+	display:inline-block;
+}
+.acc-spotlights .lnk-prev,
+.acc-spotlights .lnk-next {
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	top:156px;
+	width:35px;
+	height:62px;
+	background:url(/sites/all/themes/dean/cssAssets/spotlights-arrows.png);
+	z-index:3;
+}
+.acc-spotlights .lnk-prev {
+	left:-8px;
+}
+.acc-spotlights .lnk-prev:hover {
+	background-position:0 -62px;
+}
+.acc-spotlights .lnk-next {
+	right:-8px;
+	background-position:-35px 0;
+}
+.acc-spotlights .lnk-next:hover {
+	background-position:-35px -62px;
+}
+.acc-spotlights .lnk-prev:hover,
+.acc-spotlights .lnk-next:hover {
+	filter:none;
+}
+.gallery-tools {
+	list-style:none;
+	padding:6px;
+	margin:0;
+	-moz-box-shadow:5px 5px 5px rgba(0,0,0,0.15);
+	-webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.15);
+	box-shadow:5px 5px 5px rgba(0,0,0,0.15);
+	height:19px;
+	background:url(/sites/all/themes/dean/cssAssets/spotlights-tools.png) repeat-x;
+}
+.acc-spotlights .gallery-tools {
+	width:298px;
+	padding:6px 0 0;
+	margin:0 auto;
+	text-align:center;
+}
+.gallery-tools li {
+	display:inline-block;
+	padding:0 11px;
+}
+.gallery-tools a {
+	float:left;
+	text-indent:-9999px;
+	overflow:hidden;
+	background:#fff;
+	width:15px;
+	height:14px;
+	background:url(/sites/all/themes/dean/cssAssets/spotlights-item.png);
+}
+.gallery-tools .active a {
+	background-position:0 -14px;
+}
+.gallery-tools a:hover {
+	background-position:0 -28px;
+	filter:none;
+}
+.acc-blog {
+	float:left;
+	padding:18px 0 0 32px;
+	width:264px;
+}
+.acc-blog .acc-headline {
+	display:none;
+}
+.acc-blog .tabset:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.acc-blog .tabset {
+	position:relative;
+	z-index:3;
+}
+.acc-blog .tabset h2 {
+	float:left;
+	margin:0 12px 0 0;
+	font:23px/24px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+}
+.acc-blog .tabset ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	float:left;
+	font:17px/22px 'ITCFranklinGothicW01-Bk 812647', Arial, Helvetica, sans-serif;
+}
+.acc-blog .tabset li {
+	float:left;
+	overflow:hidden;
+}
+.acc-blog .tabset p {
+    
+}
+.acc-blog .tabset a {
+	float:left;
+	color:#6c6e6f;
+	text-decoration:none;
+	-webkit-border-radius:6px 6px 0 0;
+	-moz-border-radius:6px 6px 0 0;
+	border-radius:6px 6px 0 0;
+	background:#cfcfcf;
+	margin-top:2px;
+	padding:1px 9px 2px;
+}
+.acc-blog .tabset a:hover {
+	filter:none;
+	background:#b5d9df;
+}
+.acc-blog .tabset .active a:hover,
+.acc-blog .tabset .active a {
+	color:#000;
+	border:1px solid #c2c2c2;
+	border-bottom:none;
+	margin-top:0;
+	padding:2px 13px;
+	background:#efefef;
+}
+.acc-blog .lnk-more-entries {
+	display:none;
+}
+.tab-content {
+	display:none;
+	background:url(/sites/all/themes/dean/cssAssets/bg-tab-content.png) no-repeat;
+	margin-top:-1px;
+	padding:0 20px;
+	width:224px;
+	position:relative;
+}
+.tab-content.active {
+	display:block;
+}
+.tab-content>ul,
+.tab-content .jta-tweet-list {
+	list-style:none;
+	padding:0;
+	margin:0;
+	line-height:19px;
+}
+.tab-content>ul li,
+.tab-content .jta-tweet-list>li {
+	padding-top:20px;
+}
+.tab-content>ul li:after,
+.tab-content .jta-tweet-list li:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.tab-content>ul li p,
+.tab-content .jta-tweet-list p {
+	margin:0;
+}
+.acc-blog .tab-content p a {
+	text-decoration:none;
+	color: #383737;
+}
+.acc-blog .tab-content img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px 10px 0;
+}
+.acc-blog .tab-content p a:hover {
+	background:none;
+	filter:none;
+}
+.acc-blog .tab-content .date {
+	display:none;
+}
+.tab-content .lnk-more {
+	float:left;
+	margin-top:6px;
+	font:9px/12px Verdana, Arial, Helvetica, sans-serif;
+}
+.tab-content .jta-tweet-actions {
+	padding:6px 0 0;
+	display:block;
+	overflow:hidden;
+	font:9px/12px Verdana, Arial, Helvetica, sans-serif;
+}
+.tab-content .jta-tweet-actions span {
+	display:inline-block;
+	padding-left:6px;
+}
+.tab-content .jta-tweet-actions span:first-child {
+	padding-left:0;
+}
+.tab-content .jta-clear {
+	display:none;
+}
+.lnk-blog,
+.lnk-follow {
+	margin:16px 0 0 -48px;
+	background:url(/sites/all/themes/dean/cssAssets/bg-lnk-follow.png);
+	font:15px/18px Arial, Helvetica, sans-serif;
+	padding:35px 70px 36px 68px;
+	width:142px;
+	height:18px;
+}
+.lnk-blog {
+	background:url(/sites/all/themes/dean/cssAssets/bg-lnk-blog.png);
+}
+.lnk-blog a,
+.lnk-follow a {
+	color:#383737;
+	display:block;
+	text-decoration:none;
+}
+.lnk-follow a:hover {
+	filter:none;
+	background:none;
+	text-decoration:underline;
+}
+.acc-tweets {
+	float:left;
+	padding-top:45px;
+	margin-right:-264px;
+	width:224px;
+}
+.acc-tweets .acc-headline {
+	display:none;
+}
+.acc-tweets .tab-content {
+	width:224px;
+	margin-left:-264px;
+}
+.footer {
+	display:table-row;
+	width:100%;
+	overflow:hidden;
+}
+.footer a:hover {
+	background:none;
+	filter:none;
+}
+.footer>div{
+	height:1%;
+	display:table-cell;
+	width:100%;
+	background-color:#7f002d;
+	background-image:linear-gradient(#7f002d, #52001d);
+	}
+.footer-holder {
+	width:100%;
+	-moz-box-shadow:0 1px 1px rgba(255,255,255,0.3);
+	-webkit-box-shadow:0 1px 1px rgba(255,255,255,0.3);
+	box-shadow:inset 0 5px 5px rgba(0,0,0,0.2);
+	overflow:hidden;
+}
+.footer .wrapper {
+	background:url(/sites/all/themes/dean/cssAssets/footer-divider.png) no-repeat 100% 0;
+}
+.footer .rows {
+	display:table-row;
+	width:100%;
+	position:relative;
+	color:#fff;
+}
+.footer .rows>div {
+	display:table-cell;
+	padding:22px 0 8px;
+	position:relative;
+	width:191px;
+	background:url(/sites/all/themes/dean/cssAssets/footer-divider.png) no-repeat;
+}
+.footer .rows h3 {
+	font:18px 'ITCFranklinGothicW01-Md 812695', Arial, Helvetica, sans-serif;
+	margin:0 16px 6px;
+}
+.footer .rows ul {
+	list-style:none;
+	padding:0 0 0 2px;
+	margin:0;
+	font:10px/12px Verdana, Arial, Helvetica, sans-serif;
+}
+.footer .rows li:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.footer .rows a {
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	padding:2px 16px;
+}
+.footer .rows a:hover {
+	color:#ffd74e;
+	background:url(/sites/all/themes/dean/cssAssets/pink-hover.png) repeat-y;
+}
+.foot-menu {
+	padding:11px 0 16px;
+}
+.foot-menu:before {
+	content:'';
+	display:block;
+	margin:-11px 2px 11px;
+	height:1px;
+	overflow:hidden;
+	-moz-box-shadow:0 1px 1px rgba(252,0,90,0.3), inset 0 1px 1px rgba(0,0,0,0.2);
+	-webkit-box-shadow:0 1px 1px rgba(252,0,90,0.3), inset 0 1px 1px rgba(0,0,0,0.2);
+	box-shadow:0 1px 1px rgba(252,0,90,0.3), inset 0 1px 1px rgba(0,0,0,0.2);
+}
+.foot-menu:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.footer .addthis_toolbox {
+    position: absolute;
+    right: 140px;
+    bottom: 10px;
+    top: auto; /* ADDED */
+    left: auto; /* ADDED */
+}
+.footer .social {
+	float:left;
+	list-style:none;
+	padding:0 0 0 40px;
+	margin:0;
+}
+.footer .social li {
+	float:left;
+	padding-left:6px;
+}
+.footer .social li:first-child {
+	padding-left:0;
+}
+.footer .social img {
+	display:block;
+}
+.footer .logo {
+	float:left;
+}
+.footer .logo img {
+	display:block;
+}
+.footer .logo span {
+	display:block;
+	font:11px/14px Verdana, Arial, Helvetica, sans-serif;
+	margin-top:4px;
+	text-align:center;
+}
+.footer .logo span a {
+	color:#ffd74e;
+}
+.foot-menu nav {
+	overflow:hidden;
+}
+.footer .bottom-menu {
+	float:left;
+}
+.footer .bottom-menu ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	font:14px/16px Arial, Helvetica, sans-serif;
+}
+.footer .bottom-menu li {
+	display:inline-block;
+	padding-right:7px; /* CHANGED FROM 11px */
+}
+.footer .bottom-menu li.mobile-lnk {
+	display:none;
+}
+.footer .bottom-menu li:before {
+	float:left;
+	width:1px;
+	background:#fff;
+	height:13px;
+	content:'';
+	margin:2px 15px 0 0;
+}
+.footer .bottom-menu li:first-child:before {
+	display:none;
+}
+.footer .bottom-menu a {
+	color:#fff;
+	text-decoration:none;
+}
+.footer .bottom-menu a:hover {
+	text-decoration:underline;
+	color:#ffd74e;
+}
+.footer-links {
+	float:right;
+}
+.footer .footer-info {
+	padding-top:18px;
+	float:left;
+	clear:left;
+}
+.footer .footer-info ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	font:11px/14px Verdana, Arial, Helvetica, sans-serif;
+	color:#ffd74e;
+	display:inline-block;
+}
+.footer .footer-info address,
+.footer .footer-info li {
+	display:inline-block;
+	padding-right:11px;
+}
+.footer .footer-info li:before {
+	float:left;
+	width:1px;
+	background:#ffd74e;
+	height:11px;
+	content:'';
+	margin:2px 15px 0 0;
+}
+.footer .footer-info a {
+	color:#ffd74e;
+}
+.footer address {
+	margin:0;
+	font-style:normal;
+	font:11px/14px Verdana, Arial, Helvetica, sans-serif;
+	color:#ffd74e;
+}
+.drop {
+	position:absolute;
+	left:0;
+	top:93px;
+	width:812px;
+	background:url(/sites/all/themes/dean/cssAssets/drop-top.png) no-repeat 100% 0;
+	padding-top:16px;
+	-moz-box-shadow:3px 3px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow:3px 3px 3px rgba(0,0,0,0.2);
+	box-shadow:3px 3px 3px rgba(0,0,0,0.2);
+	display:none;
+}
+.main-menu>li:hover .drop {
+	display:block;
+}
+.drop a {
+	text-decoration:none;
+}
+.drop>div {
+	overflow:hidden;
+	background:rgba(149,0,54,0.965);
+	padding-bottom:12px;
+}
+.drop-holder {
+	display:table-row;
+}
+.drop .column {
+	display:table-cell;
+	position:relative;
+	padding-right:23px;
+	width:230px;
+	vertical-align:top;
+}
+.drop .column:after {
+	content:'';
+	width:1px;
+	position:absolute;
+	bottom:0;
+	top:8px;
+	right:0;
+	background:url(/sites/all/themes/dean/cssAssets/drop-divider.png) no-repeat 100% 100%;
+}
+.drop .column:first-child {
+	padding:14px 13px 0 0;
+}
+.drop .column>ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	font:16px/18px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+}
+.drop .column>ul>li {
+	background:url(/sites/all/themes/dean/cssAssets/drop-divider-h.png) no-repeat 24px 0;
+	padding:3px 0;
+}
+.drop .column>ul>li:first-child {
+	background:none;
+	margin-top:0;
+}
+.drop .column>ul>li>a {
+	color:#fff;
+	position:relative;
+	padding:6px 25px;
+	display:block;
+}
+.drop .column>ul>li.nav-link-academics {
+	display:none;
+}
+.drop .column a:hover {
+	background:url(/sites/all/themes/dean/cssAssets/pink-hover-wide.png) repeat-y;
+}
+.drop .column a:hover:before {
+	position:absolute;
+	content:'';
+	background:url(/sites/all/themes/dean/cssAssets/arrow-yellow.png);
+	width:7px;
+	height:8px;
+	display:block;
+	left:11px;
+	top:11px;
+}
+.drop .column>ul ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	font:14px/14px Arial, Helvetica, sans-serif;
+}
+.drop .column>ul ul a {
+	display:block;
+	color:#fce187;
+	padding:4px 25px 5px;
+}
+.drop .column>ul ul a:hover {
+	color:#fff;
+}
+.drop .column>ul ul a:hover:before {
+	top:8px;
+}
+.drop-block {
+	display:table-cell;
+	width:254px;
+	padding:17px 31px;
+	text-align:center;
+}
+.drop-block img {
+	border:3px solid #e8be98;
+	margin-bottom:28px;
+}
+.drop-block p {
+	font:21px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+	margin:0;
+	color:#fff;
+}
+.drop-block ul {
+	list-style:none;
+	padding:0 0 1px;
+	margin:14px 0 0;
+	font:16px/18px 'ITCFranklinGothicW01-Bk 812650', Arial, Helvetica, sans-serif;
+	background:url(/sites/all/themes/dean/cssAssets/divider-light.png) no-repeat 50% 100%;
+	text-transform:uppercase;
+}
+.drop-block li {
+	background:url(/sites/all/themes/dean/cssAssets/divider-light.png) no-repeat 50% 0;
+	padding-top:1px;
+}
+.drop-block a {
+	display:block;
+	color:#fff;
+	padding:5px;
+}
+.drop-block a:hover {
+	background:none;
+	filter:none;
+}
+.contact-block {
+	background-color:#6f0027;
+	width: 100%;
+    padding: 26px 0 36px;
+    color: #fce086;
+    background-image: linear-gradient(#6f0027, #7f002d);
+}
+.contact-block a:hover {
+	background:none;
+	filter:none;
+}
+.contact-block .wrapper {
+	position:relative;
+}
+.contact-block .success-block {
+	display:none;
+}
+.quicklinks-block .lnk-close,
+.search-block .lnk-close,
+.contact-block .lnk-close {
+	position:absolute;
+	color:#e0ad20;
+	font:bold 11px Arial, Helvetica, sans-serif;
+	text-align:center;
+	width:17px;
+	height:18px;
+	border-left:1px solid #83003c;
+	border-bottom:1px solid #83003c;
+	top:14px;
+	right:44px;
+	text-decoration:none;
+}
+.contact-block .lnk-close {
+	top:-12px;
+}
+.quicklinks-block .lnk-close:hover,
+.search-block .lnk-close:hover,
+.contact-block .lnk-close:hover {
+	background:none;
+	filter:none;
+} 
+.contact-block .address-block {
+	width:192px;
+	float:left;
+}
+.contact-block .address-block h1 {
+	color:#fff;
+	font:30px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+	margin:0;
+}
+.contact-block .address-block p {
+	text-transform:uppercase;
+	font:17px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+	margin:0;
+}
+.contact-block .address-block address {
+	display:block;
+	margin-top:30px;
+	font-style:normal;
+}
+.contact-block .address-block address>* {
+	display:block;
+}
+.contact-block .address-block address strong {
+	font-family:'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+.contact-block .contact-form {
+	float:left;
+	padding:4px 0 0 20px;
+	width:336px;
+}
+.contact-block .contact-form p {
+	margin:0;
+	font:16px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+}
+.contact-block .contact-form select {
+	width:271px;
+}
+.contact-block .contact-form .select-area {
+	display:block;
+	background:#50192d;
+	border:1px solid #9b4444;
+	font:12px/14px Arial, Helvetica, sans-serif;
+	color:#cec199;
+	position:relative;
+	margin-top:7px;
+	cursor:pointer;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width:271px !important;
+}
+.contact-block .contact-form .select-area .left {
+	display:none;
+}
+.contact-block .contact-form .select-area .select-opener {
+	position:absolute;
+	right:0;
+	top:0;
+	border-left:1px solid #9a4444;
+	background:url(/sites/all/themes/dean/cssAssets/arrow-select.png) no-repeat 50% 50%;
+	width:20px;
+	height:20px;
+}
+.contact-block .contact-form .select-area .center {
+	display:block;
+	padding:3px 25px 3px 6px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.select-options {
+	position: absolute;
+	overflow: hidden;
+	z-index: 2000;
+	border: 1px solid #9a4444;
+	border-top:none;
+	background: #50192d;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.select-options a:hover {
+	background:none;
+	filter:none;
+}
+.select-options .drop-holder {
+	overflow: hidden;
+	width:100%;
+}
+.select-options ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.select-options ul li {
+	width: 100%;
+	float: left;
+}
+.select-options ul a {
+	text-decoration: none;
+	padding: 5px 10px;
+	display: block;
+	color: #cec199;
+	height: 1%;
+}
+.select-options ul a:hover {
+	text-decoration:underline;
+	color:#fff;
+}
+.contact-block .contact-form textarea,
+.contact-block .contact-form input[type=text] {
+	display:block;
+	margin-top:7px;
+	background:#50192d;
+	border:1px solid #9b4444;
+	color:#cec199;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width:271px;
+	height:22px;
+	font:12px/14px Arial, Helvetica, sans-serif;
+	padding:3px 7px;
+}
+.contact-block .contact-form input[type=text]:-moz-placeholder {
+	color:#cec199;
+}
+.contact-block .contact-form input[type=text]::-webkit-input-placeholder {
+	color:#cec199;
+}
+.contact-block .contact-form textarea {
+	width:100%;
+	height:104px;
+	padding:3px 0 3px 7px;
+}
+.contact-block .contact-form input[type=submit] {
+	float:right;
+	margin-top:10px;
+	cursor:pointer;
+	border:none;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	color:#4d4d4d;
+	text-transform:uppercase;
+	font:10px Arial, Helvetica, sans-serif;
+	background:url(/sites/all/themes/dean/cssAssets/bg-submit.gif);
+	width:124px;
+	height:19px;
+}
+.contact-block .map-block {
+	float:right;
+	width:312px;
+	padding:4px 41px 0 0;
+}
+.contact-block .map-block p {
+	margin:0 0 10px;
+	font:16px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+}
+.contact-block .map-block p a {
+	color:#fce086;
+}
+.search-block {
+	width:100%;
+	background-color:#6f0027;
+	background-image:linear-gradient(#6f0027, #7e002c);
+	}
+.search-block .wrapper {
+	position:relative;
+	padding:25px 0 29px;
+}
+.search-block .search-row {
+	width:601px;
+	margin-left:6px;
+}
+.search-block .input-holder {
+	float:left;
+	width:554px;
+}
+.search-block .search-row input[type=text] {
+	border:1px solid #a24f49;
+	border-right:none;
+	display:block;
+	width:100%;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	height:28px;
+	font:13px/16px Arial, Helvetica, sans-serif;
+	color:#fce187;
+	padding:5px 9px;
+	background:none;
+}
+.search-block .search-row input[type=text]:-moz-placeholder {
+	color:#fce187;
+	font-style:italic;
+}
+.search-block .search-row input[type=text]::-webkit-input-placeholder {
+	color:#fce187;
+	font-style:italic;
+}
+.search-block .search-row input[type=submit] {
+	border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    float:right;
+	color:#fff6d7;
+	cursor:pointer;
+	-webkit-border-radius:0 12px 12px 0;
+	-moz-border-radius:0 12px 12px 0;
+	border-radius:0 12px 12px 0;
+	text-shadow:0 0 1px #333;
+	text-transform:uppercase;
+	width:47px;
+	height:28px;
+	background-color:#edd583;
+	font: 17px 'ITCFranklinGothicW01-Bk 812650', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#edd583, #e4c158);
+}
+.search-block h1 {
+	display:none;
+}
+.quicklinks-block {
+	width:100%;
+	background-color:#6f0027;
+	background-image:linear-gradient(#6f0027, #7d002c);
+	}
+.quicklinks-block .wrapper {
+	position:relative;
+	padding:14px 0 22px;
+}
+.quicklinks-block .lnk-close {
+	top:14px;
+	right:43px;
+}
+.quicklinks-block h1 {
+	display:none;
+}
+.quicklinks-block ul {
+	list-style:none;
+	padding:0 0 0 10px;
+	margin:0;
+	float:left;
+	width:129px;
+}
+.quicklinks-block ul:first-child {
+	padding-left:202px;
+}
+.quicklinks-block li {
+	border-bottom:1px solid #8d0041;
+}
+.quicklinks-block li a {
+	text-decoration:none;
+	display:block;
+	padding:6px 17px;
+	color:#fce187;
+}
+.quicklinks-block li a:hover {
+	filter:none;
+	color:#fff;
+	background:url(/sites/all/themes/dean/cssAssets/pink-hover-narrow.png);
+}
+.lnk-top-page {
+	display:none;
+}
+.top-slide-block {
+    overflow: hidden;
+    width: 100%;
+    background-color: #6F0027;
+    background-image: linear-gradient(#6F0027, #7F002D);
+}
+.hide-desc {
+    display: none;
+}
+.nav-block {
+	display:none;
+}
+.mob-panel {z-index: 7}
+.active-panel {z-index: 8 !important}
+.slide-mob-version {
+    margin-top: 0 !important;
+    overflow: hidden;
+}
+.slide-desc-version {
+    left: 0 !important;
+    min-height: 0 !important;
+}
+.fake-bar {
+	width:100%;
+	background:rgba(0,0,0,0.3);
+	overflow:hidden;
+	padding:17px 0;
+    display: none;
+}
+.fake-bar .col {
+	float:left;
+	width:264px;
+	padding-left:33px;
+	color:#fff;
+}
+.fake-bar .col:first-child+.col {
+	text-align:center;
+}
+.fake-bar .col a {
+	color:#fff;
+	text-decoration:none;
+}
+.fake-bar .col:first-child {
+	width:220px;
+	padding-left:0;
+}
+.fake-bar .col:first-child+.col {
+	width:386px;
+	padding-left:53px;
+}
+.fake-bar p {
+	margin:0;
+	text-align:left;
+}
+.fake-bar .col:first-child p {
+	font:23px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+}
+.fake-bar .news-numb {
+	display:inline-block;
+	color:#333;
+	text-align:center;
+	background:url(/sites/all/themes/dean/cssAssets/circle.png);
+	width:28px;
+	font:16px/18px Arial, Helvetica, sans-serif;
+	padding:5px 0;
+	margin-left:12px;
+}
+.fake-bar .col:first-child+.col {
+	text-align:left;
+}
+.fake-bar .col:first-child+.col p {
+	font:26px 'ITCFranklinGothicW01-Bk 812647', Arial, Helvetica, sans-serif;
+}
+.fake-bar .col:first-child+.col p strong {
+	font:26px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+}
+.fake-bar .col:first-child+.col+.col p {
+	display:inline-block;
+	font:23px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+}
+.fake-bar .col:first-child+.col+.col ul {
+	list-style:none;
+	padding:0 0 0 13px;
+	margin:0;
+	display:inline-block;
+}
+.fake-bar .col:first-child+.col+.col li {
+	display:inline-block;
+}
+.fake-bar .col:first-child+.col+.col li p {
+	font:20px 'ITCFranklinGothicW01-Bk 812647', Arial, Helvetica, sans-serif;
+}
+.fake-bar .col:first-child+.col+.col .red {
+	color:#fb0069;
+}
+.fake-bar .col:first-child+.col+.col .blue {
+	color:#1897ca;
+}
+.sticky-bar {
+	width: 100%;
+	position: relative;
+	z-index: 2;
+}
+.main-content {
+	width:100%;
+	background:url(/sites/all/themes/dean/cssAssets/main-bg.jpg);
+}
+.main-content>.bg {
+	width:100%;
+	background:url(/sites/all/themes/dean/cssAssets/main-bg-top.jpg) repeat-x;
+	position:relative;
+}
+.main-content  .overlay-bg {
+	background:url(/sites/all/themes/dean/cssAssets/inner-overlay.png) repeat-x;
+}
+.content-visual {
+	height:187px;
+	display:table;
+	padding:0 77px;
+}
+.content-visual h1 {
+	display:table-cell;
+	vertical-align:middle;
+	color:#fff;
+	font:42px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+	margin:0;
+	text-shadow:0 0 27px rgba(0,0,0,0.8);
+}
+.overlay-bg .content-visual {
+	display:block;
+	height:auto;
+	padding:36px 75px;
+}
+.main-content .holder {
+	width:100%;
+	background:url(/sites/all/themes/dean/cssAssets/main-overlay.png) no-repeat 50% 0;
+	padding:7px 0 84px;
+	overflow:hidden;
+	position:relative;
+	z-index:2;
+}
+.main-content .main-section {
+	float:right;
+	width:768px;
+}
+.breadcrumbs {
+	list-style:none;
+	padding:0 0 7px;
+	margin:0;
+	font:bold 15px Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+.breadcrumbs li {
+	display:inline-block;
+	padding-left:3px;
+}
+.breadcrumbs li:before {
+	display:inline-block;
+	width:12px;
+	content:'\bb';
+}
+.breadcrumbs li:first-child {
+	padding-left:0;
+}
+.breadcrumbs li:first-child:before {
+	display:none;
+}
+.breadcrumbs a {
+	color:#fff;
+	text-decoration:none;
+	font-weight:normal;
+}
+.breadcrumbs a:hover {
+	text-decoration:underline;
+	background:none;
+	filter:none;
+}
+.main-content .content-block {
+	background:#e5e5e5 url(/sites/all/themes/dean/cssAssets/bg-main-content.png) repeat-y;
+	padding:0 9999px 23px 0;
+	margin-right:-9999px;
+	-webkit-border-top-left-radius: 24px;
+	-moz-border-radius-topleft: 24px;
+	border-top-left-radius: 24px;
+	-moz-box-shadow:0 0 12px rgba(0,0,0,0.4);
+	-webkit-box-shadow:0 0 12px rgba(0,0,0,0.4);
+	box-shadow:0 0 12px rgba(0,0,0,0.4);
+}
+.main-content .content-block:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.main-content .content-block .addthis_toolbox {
+    margin-bottom: 10px;
+}
+.main-content h1 {
+    clear: left;
+}
+
+.main-content .subcol {
+	float:right;
+	width:171px;
+	margin:31px 0 0 46px;
+}
+.main-content .subcol .block {
+	-moz-box-shadow:1px 1px 3px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow:1px 1px 3px rgba(0, 0, 0, 0.3);
+	box-shadow:1px 1px 3px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius:10px 0 0 10px;
+	-moz-border-radius:10px 0 0 10px;
+	border-radius:10px 0 0 10px;
+	overflow:hidden;
+	background:#fff;
+	margin-top:20px;
+	overflow:hidden;
+}
+.main-content .subcol .block:first-child {
+	margin-top:0;
+}
+.main-content .subcol>img {
+	display:block;
+}
+.main-content .subcol .text-wider,
+.main-content .subcol .text {
+	overflow:hidden;
+	font:11px/17px Arial, Helvetica, sans-serif;
+	padding:  15px 23px;
+}
+.main-content .subcol .text-wider {
+	padding:15px;
+}
+.main-content .subcol .text-wider img {
+	display:block;
+	margin-bottom:6px;
+}
+.main-content .subcol .text-wider ul {
+	list-style:none;
+	padding:8px 0 0 8px;
+	margin:0;
+}
+.main-content .subcol .text-wider li {
+	padding:3px 0 3px 13px;
+	background:url(/sites/all/themes/dean/cssAssets/bullet.png) no-repeat 0 5px;
+}
+.main-content .subcol .text-wider ul.events-list {
+	padding:10px 0;
+	font:11px/14px Arial, Verdana, sans-serif;
+}
+.main-content .subcol .text-wider ul.events-list li {
+	padding:10px 0;
+	background:url(/sites/all/themes/dean/cssAssets/divider-short.png) no-repeat 50% 0;
+}
+.main-content .subcol .text-wider ul.events-list datetime {
+	display:block;
+}
+.main-content .subcol .text-wider ul.events-list p {
+	font-weight:bold;
+	margin:0;
+}
+.main-content .subcol .text-wider ul.events-list p a {
+	text-decoration:none;
+	color:#383737;
+}
+.main-content .subcol .text-wider ul.outcomes-list {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.main-content .subcol .text-wider ul.outcomes-list li {
+	background:none;
+	padding:20px 0 0;
+}
+.main-content .subcol .text-wider ul.outcomes-list li:first-child {
+	padding-top:0;
+}
+.main-content .subcol .text-wider ul.outcomes-list .avatar {
+	float:left;
+	margin:2px 5px 0 0;
+}
+.main-content .subcol .text-wider ul.outcomes-list li>div {
+	overflow:hidden;
+}
+.main-content .subcol .text-wider ul.outcomes-list li p {
+	margin:0;
+}
+.main-content .subcol blockquote {
+	padding:0 0 14px 10px;
+	margin: 9px 15px 0;
+}
+.main-content .subcol blockquote q {
+	font:italic 11px/13px Arial, Helvetica, sans-serif;
+	position:relative;
+}
+.main-content .subcol blockquote q:before {
+	position:absolute;
+	left:-16px;
+	top:8px;
+	content:'\201c';
+	display:block;
+	width:16px;
+	font-size:34px;
+}
+.main-content .subcol blockquote q:after {
+	content:'\201d';
+	display:inline-block;
+	width:16px;
+	font-size:34px;
+	line-height:12px;
+	bottom:-12px;
+	position:relative;
+	margin:-10px 0 0;
+}
+.main-content .subcol h1 {
+	margin:0;
+	font:13px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+}
+.main-content .subcol p {
+	margin:8px 0 0;
+}
+.btn-blue {
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	display:block;
+	-moz-box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+	box-shadow:2px 2px 2px rgba(0,0,0,0.2);
+	background-color:#009db0;
+	width: 124px;
+    text-align: center;
+    font: 10px/12px Arial, Helvetica, sans-serif;
+    padding: 3px 0 4px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(#009db0, #007a94);
+}
+.btn-blue:visited {
+	color:#fff;
+}
+.main-content .subcol .btn-blue {
+	margin:16px auto 0;
+}
+.btn-blue:hover {
+	filter:none;
+	background:#48b8cc;
+}
+.main-content .hold {
+	float:left;
+	width:507px;
+	padding:26px 0 0 44px;
+	font:13px/23px Arial, Helvetica, sans-serif;
+	-webkit-text-size-adjust:none;
+}
+.main-content .hold-inner-wide,
+.main-content .hold-inner {
+	float:none;
+	width:auto;
+	padding:26px 34px 0 44px;
+}
+.main-content .hold-inner-wide {
+	padding:35px 0 0 44px;
+}
+.main-content .hold h1 {
+	font:32px/36px cambria, Georgia, "Times New Roman", Times, serif;
+	margin:0;
+}
+.main-content .hold p {
+	margin:20px 0 0;
+}
+.main-content .hold h2 {
+	margin:16px 0 4px;
+	font:19px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+}
+.main-content .hold blockquote {
+	margin:10px 0;
+	background:url(/sites/all/themes/dean/cssAssets/bg-content-blockquote.png) repeat-y 50% 0;
+	color:#5c5c5c;
+	background-size:contain;
+}
+.unsorted-list:before,
+.unsorted-list:after,
+.main-content .hold blockquote:before,
+.main-content .hold blockquote:after {
+	display:block;
+	content:'';
+	height:12px;
+	width:100%;
+}
+.unsorted-list:before,
+.main-content .hold blockquote:before {
+	background:url(/sites/all/themes/dean/cssAssets/bg-blockquote-top.png) no-repeat 50% 0;
+	-moz-background-size:contain;
+	-webkit-background-size:contain;
+	background-size:contain;
+}
+.unsorted-list:after,
+.main-content .hold blockquote:after {
+	background:url(/sites/all/themes/dean/cssAssets/bg-blockquote-bottom.png) no-repeat 50% 0;
+	-moz-background-size:contain;
+	-webkit-background-size:contain;
+	background-size:contain;
+}
+.main-content .hold blockquote q {
+	font:18px/29px cambriai, Georgia, "Times New Roman", Times, serif;
+	padding:24px 56px;
+	display:block;
+	position:relative;
+}
+.main-content .hold blockquote q:after,
+.main-content .hold blockquote q:before {
+	position:absolute;
+	display:block;
+	width:16px;
+	font:80px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+}
+.main-content .hold blockquote q:before {
+	left:0;
+	top:0px;
+	content:'\201c';
+}
+.main-content .hold blockquote q:after {
+	content:'\201d';
+	right:37px;
+	bottom:-30px;
+}
+.main-content .hold .video {
+	overflow:hidden;
+	padding-top:16px;
+	width:100%;
+}
+.main-content .hold .video iframe {
+	width:100%;
+}
+.unsorted-list {
+	background:url(/sites/all/themes/dean/cssAssets/bg-content-blockquote.png) repeat-y 50% 0;
+	width:100%;
+	background-size:contain;
+}
+.unsorted-list ul {
+	list-style:none;
+	padding:12px 140px 12px 25px;
+	font:12px Arial, Helvetica, sans-serif;
+	margin:0;
+}
+.unsorted-list li {
+	padding:0 0 0 18px;
+	margin-top:14px;
+	background:url(/sites/all/themes/dean/cssAssets/bullet.png) no-repeat 0 3px;
+}
+.unsorted-list li:first-child {
+	padding-top:0;
+}
+.main-content .img-right {
+	padding:20px 0 0 17px;
+	margin:0 4px 20px 0;
+	float:right;
+	background:url(/sites/all/themes/dean/cssAssets/divider-middle.png) no-repeat 50% 100%;
+}
+.main-content .img-right img {
+	display:block;
+	-moz-box-shadow:0 1px 4px rgba(0,0,0,0.2);
+	-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.2);
+	box-shadow:0 1px 4px rgba(0,0,0,0.2);
+}
+.main-content .img-right figcaption {
+	display:block;
+	text-align:center;
+	font:italic 12px Georgia, "Times New Roman", Times, serif;
+	padding:8px 0;
+}
+.main-content .hold .lnk-more {
+	font:bold 16px Arial, Helvetica, sans-serif;
+	margin-top:12px;
+	background:url(/sites/all/themes/dean/cssAssets/divider-left.png) no-repeat 0 100%;
+	padding-bottom:8px;
+}
+.main-content .hold .lnk-more a.loading {
+	text-decoration: none;
+}
+.load-data {
+	width: 100%
+}
+.main-content .lnk-next-step {
+	font:18px/20px cambriab, Georgia, "Times New Roman", Times, serif;
+	text-transform:uppercase;
+	text-align:center;
+	background:url(/sites/all/themes/dean/cssAssets/bg-next-step.png) no-repeat 50% 50%;
+	margin-top:22px;
+	clear:both;
+}
+.main-content .lnk-next-step:after,
+.main-content .lnk-next-step:before {
+	display:block;
+	content:'';
+	height:1px;
+	overflow:hidden;
+	background:url(/sites/all/themes/dean/cssAssets/divider-middle.png) no-repeat 50% 100%;
+}
+.main-content .lnk-next-step span {
+	color:#606060;
+	text-decoration:none;
+	display:block;
+	padding:10px 0 11px;
+}
+.main-content .content-camp-menu {
+	width:524px;
+	height:79px;
+	overflow:hidden;
+	margin:17px 0 0 -18px;
+	position:relative;
+	text-transform:uppercase;
+	background:url(/sites/all/themes/dean/cssAssets/bg-content-camp-menu.png) no-repeat;
+}
+.main-content .content-camp-menu.content-camp-menu-centered {
+	margin:17px auto 0;
+}
+.main-content .content-camp-menu .col1 {
+	float:left;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.main-content .content-camp-menu .col1 li a {
+	display:block;
+	width:261px;
+	color:#716b57;
+	font:17px/19px 'ITCFranklinGothicW01-Bk 812650', Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	text-shadow:1px 1px 1px #fff;
+	text-align:center;
+	padding:10px 0;
+}
+.main-content .content-camp-menu .lnk-visit {
+	float:right;
+	width:261px;
+	margin:0;
+}
+.main-content .content-camp-menu .lnk-visit a {
+	display:block;
+	color:#716b57;
+	text-decoration:none;
+	text-shadow:1px 1px 1px #fff;
+	font:26px/30px 'ITCFranklinGothicW01-Bk 812650', Arial, Helvetica, sans-serif;
+	padding:23px 14px 24px 37px;
+}
+.main-content .content-camp-menu a:hover {
+	filter:none;
+	background:rgba(255,255,255,0.3);
+}
+.sidebar {
+	float:left;
+	width:175px;
+	padding-top:6px;
+}
+.subnav {
+	overflow:hidden;
+	padding:0 5px 0 4px;
+}
+.subnav:after,
+.subnav:before {
+	content:'';
+	display:block;
+	height:16px;
+	background:url(/sites/all/themes/dean/cssAssets/bg-subnav.png) repeat-y;
+	-webkit-border-radius:0 16px 0 0;
+	-moz-border-radius:0 16px 0 0;
+	border-radius:0 16px 0 0;
+	width:100%;
+	overflow:hidden;
+	-moz-background-size:contain;
+	-webkit-background-size:contain;
+	background-size:contain;
+}
+.subnav:after {
+	-webkit-border-radius:0 0 16px 0;
+	-moz-border-radius:0 0 16px 0;
+	border-radius:0 0 16px 0;
+}
+.subnav ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	font:13px/16px 'ITCFranklinGothicW01-Bk 812647', Arial, Helvetica, sans-serif;
+	background:url(/sites/all/themes/dean/cssAssets/bg-subnav.png) repeat-y;
+	-moz-background-size:contain;
+	-webkit-background-size:contain;
+	background-size:contain;
+}
+.subnav ul:before {
+	content:'';
+	height:2px;
+	display:block;
+	overflow:hidden;
+	background:url(/sites/all/themes/dean/cssAssets/subnav-divider.png);
+}
+.subnav li {
+	background:url(/sites/all/themes/dean/cssAssets/subnav-divider.png) no-repeat 100% 100%;
+	padding-bottom:2px;
+}
+.subnav .hasdrop li  {
+	background-position:100% 0;
+	padding:2px 0 0;
+	font:11px Arial, Helvetica, sans-serif;
+}
+.subnav .hasdrop ul:before {
+	display:none;
+}
+.subnav li a {
+	display:block;
+	color:#647289;
+	padding:5px 10px 5px 16px;
+	text-decoration:none;
+}
+.subnav li a:hover {
+	filter:none;
+	background:url(/sites/all/themes/dean/cssAssets/subnav-hover.png);
+	-moz-background-size:contain;
+	-webkit-background-size:contain;
+	background-size:contain;
+}
+.subnav li.hasdrop {
+	margin:-2px -5px 4px -4px;
+	background:url(/sites/all/themes/dean/cssAssets/bg-subnav-hasdrop.png);
+	position:relative;
+	-moz-background-size:contain;
+	-webkit-background-size:contain;
+	background-size:contain;
+}
+.subnav li.hasdrop:before {
+	display:block;
+	content:'';
+	overflow:hidden;
+	width:100%;
+	height:6px;
+	background:url(/sites/all/themes/dean/cssAssets/subnav-corners.png) no-repeat;
+	position:absolute;
+	left:-3px;
+	top:-6px;
+}
+.subnav li.hasdrop:after {
+	position:absolute;
+	top:-4px;
+	content:'';
+	background:url(/sites/all/themes/dean/cssAssets/corner-right.png);
+	width:5px;
+	height:4px;
+	right:0;
+}
+.subnav li.hasdrop>a {
+	color:#383737;
+	font:15px/18px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+	padding:7px 5px 7px 20px;
+}
+.subnav li.hasdrop>a:after {
+	content:'\bb';
+	display:inline-block;
+	width:14px;
+	padding-left:4px;
+}
+.subnav li.hasdrop a:hover {
+	background:url(/sites/all/themes/dean/cssAssets/subnav-hasdrop-hover.png);
+	-moz-background-size:contain;
+	-webkit-background-size:contain;
+	background-size:contain;
+}
+.subnav li.hasdrop>ul {
+	list-style:none;
+	padding:0 0 0 8px;
+	margin:0;
+	background:none;
+}
+.subnav li.hasdrop>ul:before {
+	background:none;
+}
+.subnav li.hasdrop li {
+	background:url(/sites/all/themes/dean/cssAssets/divider-sidebar.png) no-repeat 50% 0;
+}
+.pagination {
+	overflow:hidden;
+	padding-top:35px;
+}
+.pagination ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	font:bold 13px/16px Arial, Helvetica, sans-serif;
+}
+.pagination li {
+	float:left;
+	padding-left:4px;
+}
+.pagination li>* {
+	float:left;
+	text-align:center;
+	min-width:20px;
+	padding:5px 3px;
+	background:#fff;
+	border:1px solid #ccc;
+	text-decoration:none;
+	-moz-box-shadow:inset 0 1px 1px rgba(255,255,255,0.4);
+	-webkit-box-shadow:inset 0 1px 1px rgba(255,255,255,0.4);
+	box-shadow:inset 0 1px 1px rgba(255,255,255,0.4);
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+.pagination li>a {
+	background:#f0f0f0;
+}
+.pagination li>a:hover {
+	background-color:#ffffff;
+	background-image:linear-gradient(#ffffff, #ebebeb);
+	}
+.articles-accordion {
+	overflow:hidden;
+	padding-top:23px;
+}
+div.add-content {
+    width: 100%;
+    overflow: hidden;
+}
+.articles-accordion ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	background:url(/sites/all/themes/dean/cssAssets/divider-left.png) no-repeat 0 100%;
+}
+.articles-accordion li {
+	overflow:hidden;
+	background:url(/sites/all/themes/dean/cssAssets/divider-wide.png) no-repeat 50% 0;
+}
+.articles-accordion .lnk-opener {
+	float:left;
+	margin:11px 16px 11px 5px;
+	width:28px;
+	height:28px;
+	-moz-box-shadow:2px 2px 8px rgba(0,0,0,0.2);
+	-webkit-box-shadow:2px 2px 8px rgba(0,0,0,0.2);
+	box-shadow:2px 2px 8px rgba(0,0,0,0.2);
+	background-color:#970036;
+	text-decoration: none;
+    background-image: linear-gradient(#970036, #85002f);
+}
+.articles-accordion .lnk-opener:hover {
+	border:1px solid #5e0021;
+	width:26px;
+	height:26px;
+	background-color:#880030;
+	background-image:linear-gradient(#880030, #78002a);
+	}
+.articles-accordion .lnk-opener:hover span {
+	line-height:26px;
+}
+.articles-accordion .lnk-opener span {
+	display:block;
+	width:100%;
+	text-align:center;
+	color:#fff;
+	font-size:26px;
+	line-height:28px;
+}
+.articles-accordion .lnk-opener span:first-child+span {
+	display:none;
+}
+.articles-accordion .open .lnk-opener span:first-child {
+	display:none;
+}
+.articles-accordion .open .lnk-opener span:first-child+span {
+	display:block;
+}
+.articles-accordion .item {
+	overflow:hidden;
+	padding:10px 0 6px;
+    position: relative;
+}
+.main-content .hold .articles-accordion h1 {
+	font:15px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+	margin:0;
+}
+.articles-accordion datetime {
+	display:block;
+	color:#808080;
+	font:13px/23px cambriai, Arial, Helvetica, sans-serif;
+	padding-bottom:6px;
+}
+.main-content .hold .articles-accordion p {
+	font:13px/23px Arial, Helvetica, sans-serif;
+	margin:0 0 23px;
+}
+.articles-accordion .open .toolbar {
+    display: block;
+}
+.articles-accordion .toolbar {
+	overflow:hidden;
+	padding-bottom:14px;
+    display: none;
+}
+.articles-accordion .toolbar>*:first-child {
+	margin-left:0;
+}
+.articles-accordion .ico-print,
+.articles-accordion .ico-email {
+	float:left;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin-left:8px;
+	width:28px;
+	height:22px;
+}
+.articles-accordion .ico-print {
+	background:url(/sites/all/themes/dean/cssAssets/ico-print.png);
+}
+.articles-accordion .ico-email {
+	background:url(/sites/all/themes/dean/cssAssets/ico-email.png);
+}
+.articles-accordion .ico-email:hover,
+.articles-accordion .ico-print:hover {
+	background-position:0 -22px;
+}
+.articles-accordion .toolbar .social {
+	float:left;
+}
+.articles-accordion .toolbar .social>div {
+	float:left;
+	padding-left:8px;
+}
+.image-slider {
+	padding:35px 0 0 43px;
+	overflow:hidden;
+	margin-right:-2px;
+}
+.image-slider>div {
+	position:relative;
+	width:726px;
+	height:303px;
+	-moz-box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2);
+	-webkit-box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2);
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2);
+	padding-bottom:1px;
+}
+.image-slider .slider-content {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:724px;
+	height:302px;
+	position:relative;
+}
+.image-slider .slider-content li {
+	position:absolute;
+	top:1px;
+	left:1px;
+    z-index: 0;
+}
+.image-slider .slider-content li.active {
+    z-index: 1;
+}
+.image-slider .slider-content img {
+	display:block;
+}
+.image-slider .text {
+	z-index:3;
+	left:0;
+	top:12px;
+	position:absolute;
+	width:344px;
+}
+.image-slider .text>div {
+	background:rgba(51,51,51,0.7);
+	color:#fff;
+	padding:20px 20px 24px;
+	font:13px/19px Arial, Helvetica, sans-serif;
+	overflow:hidden;
+}
+.image-slider .text h1 {
+	margin:0;
+	font:15px/19px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+}
+.image-slider .text p {
+	margin:0;
+}
+.image-slider .text .btn-blue {
+	margin:6px 4px 0 0;
+	float:right;
+	width:149px;
+	letter-spacing:1px;
+}
+.image-slider .gallery-tools {
+	position:absolute;
+	right:10px;
+	bottom:10px;
+	overflow:hidden;
+	height:14px;
+    z-index: 2;
+}
+.image-slider .gallery-tools li {
+	padding:0 7px;
+	float:left;
+}
+.resources-block {
+	background:url(/sites/all/themes/dean/cssAssets/bg-resources-block.png) no-repeat;
+	padding:26px 26px 10px;
+	overflow:hidden;
+	margin:0 -6px;
+	position:relative;
+}
+.main-content .hold .resources-block h2 {
+	background:url(/sites/all/themes/dean/cssAssets/divider-left.png) no-repeat 0 100%;
+	font:16px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+	margin:0;
+	padding-bottom:6px;
+}
+.resources-block ul {
+	float:left;
+	width:216px;
+	list-style:none;
+	padding:0;
+	margin:0;
+	font:12px/17px Arial, Helvetica, sans-serif;
+}
+.resources-block li {
+	padding:4px 0;
+}
+.major-slider:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.major-slider .gallery-content {
+	overflow:hidden;
+	position:relative;
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:725px;
+	height:303px;
+}
+.major-slider .gallery-content li {
+	position:absolute;
+	top:0;
+	left:0;
+	width:725px;
+	min-height:100px;
+    z-index: 0;
+}
+.major-slider .gallery-content li.active {
+    z-index: 1;
+}
+.major-slider .gallery-content img {
+	display:block;
+}
+.major-slider .gallery-content span {
+	position:absolute;
+	background:#727272;
+	color:#fff;
+	right:0;
+	bottom:14px;
+	padding:13px 16px;
+	font:13px/15px cambriai, Arial, Helvetica, sans-serif;
+	float:right;
+}
+.major-slider .tools {
+	padding-top:12px;
+}
+.major-slider .tools:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.major-slider .lnk-prev,
+.major-slider .lnk-next {
+	float:left;
+	text-indent:-9999px;
+	overflow:hidden;
+	-moz-box-shadow:6px 6px 8px rgba(0,0,0,0.2);
+	-webkit-box-shadow:6px 6px 8px rgba(0,0,0,0.2);
+	box-shadow:6px 6px 8px rgba(0,0,0,0.2);
+	width:29px;
+	height:75px;
+	background:url(/sites/all/themes/dean/cssAssets/major-slider-btns.png);
+	margin-right:-2px;
+}
+.major-slider .lnk-next {
+	float:right;
+	background-position:-29px 0;
+	margin:0 0 0 8px;
+}
+.major-slider .lnk-prev:hover {
+	background-position:0 -75px;
+}
+.major-slider .lnk-next:hover {
+	background-position:-29px -75px;
+}
+.major-slider .thumbnails {
+	overflow:hidden;
+}
+.major-slider .thumbnails ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:9999px;
+}
+.major-slider .thumbnails li {
+	float:left;
+	margin-left:10px;
+	position:relative;
+}
+.major-slider .thumbnails img {
+	display:block;
+}
+.major-slider .thumbnails a {
+	display:block;
+	width:100px;
+	height:75px;
+}
+.major-slider .thumbnails a:before {
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	width:100px;
+	height:75px;
+	display:block;
+	z-index:2;
+}
+.major-slider .thumbnails a:hover:before {
+	background:rgba(255,255,255,0.2);
+	border:1px solid #7f002d;
+	width:98px;
+	height:73px;
+}
+.major-slider .thumbnails .active a:before {
+	border:3px solid #7f002d;
+	height:69px;
+	width:94px;
+}
+.image-holder {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+.image-holder>div {
+	margin: 0 -9999px;
+}
+.image-holder>div img {
+	display: block;
+	margin: 0 auto;
+}
+.majors {
+	margin:14px -12px 0;
+	padding:30px 12px 44px;
+	overflow:hidden;
+	position:relative;
+}
+.majors .majors-bg {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+.majors .majors-bg span {
+	display:block;
+	overflow:hidden;
+	height:102px;
+}
+.majors .majors-bg .l {
+	float:left;
+	width:26px;
+	background:url(/sites/all/themes/dean/cssAssets/majors-l.png);
+}
+.majors .majors-bg .r {
+	float:right;
+	width:26px;
+	background:url(/sites/all/themes/dean/cssAssets/majors-r.png);
+}
+.majors .majors-bg .c {
+	background:url(/sites/all/themes/dean/cssAssets/majors-c.png);
+}
+.majors .majors-wrapper {
+	position:relative;
+	z-index:2;
+}
+.majors-header {
+	padding-bottom:36px;
+}
+.majors-header:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.majors-select-block {
+	padding-left:48px;
+	background:url(/sites/all/themes/dean/cssAssets/select-arrow.png) no-repeat;
+	margin:6px auto 0;
+	width:406px;
+}
+.majors-select-block >div {
+	position:relative;
+}
+.majors-select-block .majors-select {
+	border-left: 1px solid #bcbcbc;
+    border-right: 1px solid #bcbcbc;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #a0a0a0;
+    background-color:#fefefe;
+	width: 313px;
+    position: relative;
+    padding: 9px 33px 9px 11px;
+    cursor: pointer;
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(#fefefe, #e6e6e6);
+}
+.majors-select-block .majors-select:hover {
+	background-color:#fefefe;
+	background-image:linear-gradient(#fefefe, #f1f1f1);
+	}
+.majors-select-block .majors-select:after {
+	content:'';
+	width:31px;
+	height:32px;
+	border-left:1px solid #c5c5c5;
+	background:url(/sites/all/themes/dean/cssAssets/major-sel-arrow.png) no-repeat 50% 50%;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.majors-select-block .majors-select:hover:after {
+	background:url(/sites/all/themes/dean/cssAssets/major-sel-arrow-hover.png) no-repeat 50% 50%;
+}
+.main-content .hold .majors-select-block p {
+	margin:0;
+	color:#000;
+	font:12px/14px Arial, Helvetica, sans-serif;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.majors-select-block .majors-drop {
+	border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    position:absolute;
+	z-index:4;
+	left:0;
+	width:357px;
+	-moz-box-shadow:5px 5px 12px rgba(0,0,0,0.2);
+	-webkit-box-shadow:5px 5px 12px rgba(0,0,0,0.2);
+	box-shadow:5px 5px 12px rgba(0,0,0,0.2);
+	background-color:#ffffff;
+	max-height: 250px;
+    overflow: auto;
+    display: none;
+    background-image: linear-gradient(#ffffff, #f2f2f2);
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+.majors-select-block .majors-drop h2 {
+	display:none;
+}
+.majors-select-block .majors-drop>div {
+	padding:14px 0;
+	width:335px;
+	overflow:hidden;
+}
+.majors-select-block .majors-drop  p {
+	margin:0;
+	font:13px/15px "ITCFranklinGothicW01-Dm 812668", Arial, Helvetica, sans-serif;
+}
+.majors-select-block .majors-drop p a {
+	padding:5px 9px;
+}
+.majors-select-block .majors-drop a {
+	color:#7f7f7f;
+	text-decoration:none;
+	display:block;
+}
+.majors-select-block .majors-drop a:hover {
+	color:#000;
+	background-color:#eff7f8;
+	background-image:linear-gradient(#eff7f8, #d7ebef);
+	}
+.majors-select-block .majors-drop ul {
+	list-style:none;
+	padding:0 0 6px;
+	margin:0;
+}
+.majors-select-block .majors-drop>div>ul>li>a{
+	font:bold 13px/15px Arial, Helvetica, sans-serif;
+	padding:4px 11px;
+	color:#000;
+}
+.majors-select-block .majors-drop>div>ul>li>a>span{
+	padding-left:9px;
+	background:url(/sites/all/themes/dean/cssAssets/blt-arrow.png) no-repeat 0 4px;
+}
+.majors-select-block .majors-drop li ul a {
+	font:12px/14px Arial, Helvetica, sans-serif;
+	padding:3px 5px 3px 22px;
+}
+.majors-select-block .majors-drop li ul a span {
+	background:url(/sites/all/themes/dean/cssAssets/blt.png) no-repeat 0 4px;
+	padding-left:14px;
+}
+.main-content .hold .majors-header h1 {
+	font:19px/22px 'ITCFranklinGothicW01-Dm 812668', Arial, Helvetica, sans-serif;
+	margin:0;
+	text-align:center;
+}
+.majors-header h1 .grey {
+	color:#828282;
+}
+.majors-tabs {
+	overflow:hidden;
+	background:url(/sites/all/themes/dean/cssAssets/divider-wide-light.png) no-repeat 50% 0;
+	padding-top:16px;
+}
+.main-content .hold  .majors-tabs h1 {
+	font:30px/34px cambria, Georgia, "Times New Roman", Times, serif;
+	margin:0;
+}
+.majors-tabs .tabset {
+	list-style:none;
+	padding:10px 0 0;
+	margin:0;
+	position:relative;
+	z-index:2;
+	overflow:hidden;
+}
+.majors-tabs .tabset li {
+	float:left;
+	margin-left:10px;
+}
+.majors-tabs .tabset li:first-child {
+	margin-left:0;
+}
+.majors-tabs .tabset a {
+	float:left;
+	text-align:center;
+	color:#6c6e6f;
+	text-decoration:none;
+	font:17px/20px 'ITCFranklinGothicW01-Bk 812647', Arial, Helvetica, sans-serif;
+	width:224px;
+	border:1px solid #c0c0c0;
+	background-color:#ddd;
+	-webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    padding: 8px 2px;
+    margin-top: 2px;
+    position: relative;
+    background-image: linear-gradient(#dddddd, #c0c0c0);
+}
+.majors-tabs .tabset .active a {
+	margin-top:0;
+	background:rgba(255,255,255,0.55);
+	border-bottom:none;
+	padding:9px 2px 10px;
+	color:#000;
+}
+.majors-tabs .tabset li.active a:after {
+	display:block;
+	content:'';
+	height:1px;
+	overflow:hidden;
+	width:100%;
+	background:url(/sites/all/themes/dean/cssAssets/tabs-white-border.png) no-repeat 0 100%;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.majors-tabs .tabset li:first-child.active a:after {
+	background-position:0 0;
+}
+.majors-tabs .tabset li:first-child+li.active a:after {
+	background-position:-241px 0;
+}
+.majors-tabs .tabset li:first-child+li+li.active a:after {
+	background-position:-481px 0;
+}
+.majors-tabs .tabs-content {
+	background:url(/sites/all/themes/dean/cssAssets/bg-tabs-content.png) no-repeat;
+	position:relative;
+	padding:30px 20px 0;
+	border-top:1px solid #c0c0c0;
+	margin-top:-1px;
+	font:13px/23px Arial, Helvetica, sans-serif;
+}
+.main-content .hold .majors-tabs .tab h1 {
+	font:23px/26px "ITCFranklinGothicW01-Dm 812668", Arial, Helvetica, sans-serif;
+	margin:0;
+}
+.majors-tabs .tab p {
+	margin:18px 0 0;
+}
+.majors-tabs .unsorted-list:before {
+	background:url(/sites/all/themes/dean/cssAssets/bg-unsorted-top.png) no-repeat 50% 0;
+	-moz-background-size:contain;
+	-webkit-background-size:contain;
+	background-size:contain;
+}
+.majors-tabs .unsorted-list:after {
+	background:url(/sites/all/themes/dean/cssAssets/bg-unsorted-bottom.png) no-repeat 50% 0;
+	-moz-background-size:contain;
+	-webkit-background-size:contain;
+	background-size:contain;
+}
+.majors-tabs .tab h2 {
+	font:19px/22px "ITCFranklinGothicW01-Dm 812668", Arial, Helvetica, sans-serif;
+	margin:18px 0 0;
+}
+.majors-tabs .tab .video-left {
+	float:left;
+	margin:22px 30px 22px 0;
+	width:340px;
+}
+.majors-tabs .tab .video-left iframe {
+	width:100%;
+}
+.majors-tabs .tab .note {
+	margin:0 0 -6px;
+	color:#808080;
+	font:13px "ITCFranklinGothicW01-Dm 812668", Arial, Helvetica, sans-serif;
+}
+.majors-tabs .tab .courses-table {
+	padding:6px 10px 32px;
+	border:1px solid #c7c7c7;
+	margin:11px -10px 0;
+	background:rgba(255,255,255,0.2);
+}
+.majors-tabs .tab .courses-table table {
+	width:100%;
+	font:13px Arial, Helvetica, sans-serif;
+	padding-top:10px;
+}
+.majors-tabs .tab .courses-table table:first-child {
+	padding-top:0;
+}
+.majors-tabs .tab .courses-table .courses-thead {
+	font:13px "ITCFranklinGothicW01-Dm 812668", Arial, Helvetica, sans-serif;
+	background:url(/sites/all/themes/dean/cssAssets/divider-wide-light.png) no-repeat 50% 100%;
+}
+.majors-tabs .tab .courses-table .courses-thead  th {
+	font-weight:bold;
+	text-align:left;
+	padding:10px 0 10px 20px;
+}
+.majors-tabs .tab .courses-table .courses-thead  th:first-child {
+	width:572px;
+}
+.majors-tabs .tab .courses-table .courses-tbody td {
+	padding:0 0 10px 20px;
+}
+.majors-tabs .tab .courses-table .col1 {
+	font-weight:bold;
+	width:105px;
+	float:left;
+}
+.majors-tabs .tab .courses-table .col2 {
+	overflow:hidden;
+	padding-left:20px;
+}
+.majors-tabs .tab .courses-table .courses-tbody tr:first-child td {
+	padding-top:10px;
+}
+.majors-tabs .tab .courses-table .courses-tbody td:first-child {
+	width:579px;
+}
+.majors-tabs .tab .courses-table .courses-tbody td:first-child+td {
+	font-weight:bold;
+}
+.majors-tabs .tab .courses-table .courses-tfoot {
+	width:100%;
+	background:url(/sites/all/themes/dean/cssAssets/divider-wide-light.png) no-repeat 50% 0;
+	padding-top:10px;
+}
+.majors-tabs .tab .courses-table .courses-tfoot table {
+	float:right;
+	width:62px;
+}
+.majors-tabs .tab .courses-table .courses-tfoot td {
+	padding:0;
+	width:59px;
+	font-weight:bold;
+}
+.red-btns {
+	padding:10px 0;
+}
+.red-btns:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.red-btns a {
+	float:left;
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin-left:14px;
+	font:bold 12px/14px Arial, Helvetica, sans-serif;
+	padding:11px 19px;
+	background:url(/sites/all/themes/dean/cssAssets/bg-red-btns.png) repeat-x;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	-moz-box-shadow:5px 5px 10px rgba(0,0,0,0.2);
+	-webkit-box-shadow:5px 5px 10px rgba(0,0,0,0.2);
+	box-shadow:5px 5px 10px rgba(0,0,0,0.2);
+}
+.red-btns a:first-child {
+	margin-left:0;
+}
+.red-btns a:hover {
+	background:#a5003b;
+	filter:none;
+}
+.selects-content {
+	display:none;
+}
+.posts {
+	overflow:hidden;
+	padding-top:20px;
+}
+.post {
+	overflow:hidden;
+	padding:10px 0 20px;
+	background:url(/sites/all/themes/dean/cssAssets/divider-wide.png) no-repeat 50% 0;
+}
+.post img {
+	float:left;
+	margin-right:16px;
+	width: 100px;
+}
+.post-hold {
+	overflow:hidden;
+}
+.main-content .hold .post h1 {
+	font:15px/18px "ITCFranklinGothicW01-Dm 812668", Arial, Verdana, sans-serif;
+	margin:0;
+}
+.main-content .hold .post p {
+	margin:0;
+}
+.post-lnk-more {
+	float:left;
+}
+.intro-image {
+	padding:35px 0 0 44px;
+	overflow:hidden;
+}
+.intro-image>div {
+	position:relative;
+}
+.intro-image img {
+	display:block;
+}
+.intro-image .caption {
+	position:absolute;
+	top:12px;
+	left:0;
+	width:300px;
+}
+.intro-image blockquote {
+	color:#fff;
+	margin:0;
+	background:rgba(80,80,80,0.8);
+	padding:22px 40px 20px;
+}
+.intro-image blockquote q {
+	display:block;
+	font:18px/24px cambriai, Georgia, 'Times New Roman', Times, serif;
+	position:relative;
+}
+.intro-image blockquote q:before,
+.intro-image blockquote q:after {
+	font:50px "ITCFranklinGothicW01-Dm 812668", Arial, Verdana, sans-serif;
+	position:absolute;
+	color:#b3b3b3;
+}
+.intro-image blockquote q:before {
+	left:-30px;
+	top:-10px;
+	content:'\201c';
+}
+.intro-image blockquote q:after {
+	content:'\201d';
+	bottom:-30px;
+	right:-30px;
+}
+.intro-image blockquote cite {
+	display:block;
+	font:13px/15px Arial, Verdana, sans-serif;
+	padding-top:16px;
+}
+.main-content .img-left {
+	float:left;
+	margin:22px 20px 12px 0;
+}
+.blog-entries {
+	overflow:hidden;
+	background:url(/sites/all/themes/dean/cssAssets/divider-wide.png) no-repeat 50% 0;
+	margin-top:46px;
+	padding:10px 0 0;
+}
+.blog-entries .avatar {
+	float:left;
+	margin:2px 16px 0 0;
+}
+.blog-entries .entries-holder {
+	overflow:hidden;
+}
+.main-content .hold .blog-entries h1 {
+	font:15px/18px "ITCFranklinGothicW01-Dm 812668", Arial, Helvetica, sans-serif;
+	margin:0;
+}
+.blog-entries ul {
+	list-style:none;
+	padding:0 0 18px;
+	margin:0;
+}
+.blog-entries li {
+	padding-top:12px;
+}
+.main-content .hold .blog-entries li p {
+	margin:0;
+}
+.blog-entries li datetime {
+	display:block;
+}
+.blog-entries .more-link-holder {
+	text-align:center;
+	overflow:hidden;
+	background:url(/sites/all/themes/dean/cssAssets/divider.png) no-repeat 50% 0;
+	width:290px;
+	padding-top:10px;
+}
+.blog-entries .more-link-holder a {
+	text-decoration:none;
+}
+.follow-us-block {
+	overflow:hidden;
+	background:url(/sites/all/themes/dean/cssAssets/bg-follow-block.png) no-repeat;
+	padding:8px 15px 0;
+}
+.follow-us-block p {
+	margin:0;
+	font:15px "ITCFranklinGothicW01-Dm 812668", Arial, Helvetica, sans-serif;
+}
+.follow-us-block ul {
+	list-style:none;
+	padding:6px 0 0;
+	margin:0;
+}
+.follow-us-block li {
+	float:left;
+	padding-left:9px;
+}
+.follow-us-block li:first-child {
+	padding-left:0;
+}
+.follow-us-block li a {
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	background:url(/sites/all/themes/dean/cssAssets/social.png);
+	width:32px;
+	height:32px;
+}
+.follow-us-block .lnk-facebook {
+	background-position:0 0;
+}
+.follow-us-block .lnk-twitter {
+	background-position:-32px 0;
+}
+.follow-us-block .lnk-youtube {
+	background-position:-64px 0;
+}
+.aside-video {
+	overflow:hidden;
+}
+.aside-video p {
+	margin:0;
+	font:15px "ITCFranklinGothicW01-Dm 812668", Arial, Helvetica, sans-serif;
+}
+.aside-video iframe {
+	width:100%;
+	height:auto;
+}
+.find-facebook {
+	width:100%;
+	overflow:hidden;
+	margin-top:18px;
+}
+.rsTopWrap {
+	padding:35px 0 0 44px;
+}
+.rsHeader {
+	border:1px solid #59001f;
+	-moz-box-shadow:inset 0 1px 1px 0 #900043;
+	-webkit-box-shadow:inset 0 1px 1px 0 #900043;
+	box-shadow:inset 0 1px 1px 0 #900043;
+	background:#7f002d;
+	padding:2px 77px 2px 9px;
+	overflow:hidden;
+}
+.rsHeader p {
+	float:left;
+	margin:0;
+}
+.rsHeader p a {
+	float:left;
+	text-indent:-9999px;
+	overflow:hidden;
+	-moz-box-shadow:inset 0 1px 1px 0 #900043;
+	-webkit-box-shadow:inset 0 1px 1px 0 #900043;
+	box-shadow:inset 0 1px 1px 0 #900043;
+	background:#7f002d;
+	border:1px solid #660024;
+	border-left:none;
+	width:32px;
+	height:28px;
+	position:relative;
+}
+.rsHeader p a:after {
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	width:32px;
+	height:28px;
+	background:url(/sites/all/themes/dean/cssAssets/calendar-arrows.png) no-repeat 50% 0;
+	display:block;
+}
+.rsHeader p a.rsNextDay:after  {
+	background-position:0 -28px;
+}
+.rsHeader p a:first-child {
+	border-left:1px solid #660024;
+}
+.rsHeader p a:hover {
+	border-color:#420017;
+	background-color:#a4003b;
+	background-image:linear-gradient(#a4003b, #940035);
+	}
+.rsHeader p a:first-child:hover {
+	border-color:#420017;
+}
+.rsHeader h2 {
+	text-align:center;
+	color:#fff;
+	margin:0;
+	overflow:hidden;
+	font:19px/30px "ITCFranklinGothicW01-Dm 812668", Arial, Helvetica, sans-serif;
+}
+.rsContent {
+	-moz-box-shadow:0 0 6px rgba(0,0,0,0.2);
+	-webkit-box-shadow:0 0 6px rgba(0,0,0,0.2);
+	box-shadow:0 0 6px rgba(0,0,0,0.2);
+}
+.rsContent tr,
+.rsContent td,
+.rsContent th,
+.rsContent table {
+	border-top:none;
+	border-collapse:collapse;
+	border-spacing:0;
+	padding:0;
+	border:none;
+}
+.rsContent td,
+.rsContent th {
+	border:1px solid #ccc;
+}
+.rsContent .rsContentWrapper,
+.rsContent tr:first-child td {
+	border-top:none;
+}
+.rsContent th,
+.rsHorizontalHeaderWrapper {
+	border-bottom:none;
+}
+.rsContent table {
+	width:100%;
+}
+.rsHorizontalHeaderTable th {
+	background:url(/sites/all/themes/dean/cssAssets/calendar-th.gif);
+	font:11px/14px Arial, Helvetica, sans-serif;
+	padding:6px 0 7px;
+	height:14px;
+	width:14.2%;
+}
+.rsContentWrapper td {
+	width:14.2%;
+	padding:2px 1px;
+	vertical-align:top;
+	height:95px;
+	background:#fff;
+	cursor:pointer;
+}
+.rsContentWrapper td:hover {
+	background:#f2f9fa;
+}
+.rsContentWrapper td.rsOtherMonth {
+	background:#fafafa;
+}
+.rsContentWrapper td.rsTodayCell {
+	background:#e5f2f5;
+}
+.rsDateBox a {
+	font:bold 15px/18px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#706c6c;
+}
+.rsDateBox {
+	padding:0 4px;
+}
+.rsAptOut {
+	position:relative;
+}
+.rsAptIn {
+	border:1px solid #7fc1cd;
+	background-color:#fcfefe;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font: 11px/14px Arial, Helvetica, sans-serif;
+    color: #383737;
+    padding: 5px;
+    -moz-box-shadow: inset 0 -1px 1px 0 #fff;
+    -webkit-box-shadow: inset 0 -1px 1px 0 #fff;
+    box-shadow: inset 0 -1px 1px 0 #fff;
+    background-image: linear-gradient(#fcfefe, #e7f3f6);
+}
+.rsContent .week-day {
+	display:none;
+}
+.rsContent .tooltip {
+	position:absolute;
+	left:-180px;
+	top:100%;
+	z-index:8;
+	font:12px/19px Arial, Helvetica, sans-serif;
+	display:none;
+}
+.rsContent .rsWrap:hover .tooltip {
+	display:block;
+}
+.rsContent .tooltip:before {
+	content:'';
+	display:block;
+	background:url(/sites/all/themes/dean/cssAssets/tooltip-nose.png);
+	width:10px;
+	height:8px;
+	margin:-1px auto;
+	position:relative;
+	z-index:2;
+}
+.rsContent .tooltip>div {
+	width:418px;
+	background:#fff;
+	-moz-box-shadow:0 0 10px rgba(0,0,0,0.2);
+	-webkit-box-shadow:0 0 10px rgba(0,0,0,0.2);
+	box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	border:1px solid #999;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	padding:9px 15px 16px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+}
+.rsContent .tooltip h3 {
+	font:17px "ITCFranklinGothicW01-Dm 812668", Arial, Helvetica, sans-serif;
+	margin:0 0 12px;
+}
+.rsContent .tooltip  dl {
+	margin:0 0 6px;
+}
+.rsContent .tooltip dt {
+	font-weight:bold;
+	display:inline;
+}
+.rsContent .tooltip dd {
+	display:inline;
+	margin:0;
+}
+.rsContent .tooltip ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.rsContent .tooltip li {
+	display:inline-block;
+	padding-left:16px;
+}
+.rsContent .tooltip li:first-child {
+	padding-left:0;
+}
+.calendars-block {
+	margin-top:22px;
+	background:#fff;
+	-webkit-border-radius:0 16px 16px 0;
+	-moz-border-radius:0 16px 16px 0;
+	border-radius:0 16px 16px 0;
+	overflow:hidden;
+	-moz-box-shadow:0 0 14px rgba(0,0,0,0.2);
+	-webkit-box-shadow:0 0 14px rgba(0,0,0,0.2);
+	box-shadow:0 0 14px rgba(0,0,0,0.2);
+	padding-bottom:20px;
+}
+.main-section .calendars-block {
+	display:none;
+}
+.calendars-block h2 {
+	margin:0;
+	background:url(/sites/all/themes/dean/cssAssets/divider-right.png) no-repeat 100% 100%;
+	font:17px "ITCFranklinGothicW01-Dm 812668", Arial, Helvetica, sans-serif;
+	padding:20px 5px 7px 16px;
+}
+.calendars-block .calendars-list {
+	list-style:none;
+	padding:0 10px 22px 16px;
+	margin:0;
+}
+.calendars-block .calendars-list li {
+	overflow:hidden;
+	padding-top:12px;
+}
+.calendars-block .calendars-list input[type=checkbox] {
+	float:left;
+	margin:2px 7px 0 0;
+	width:14px;
+	height:14px;
+}
+.calendars-block .calendars-list label {
+	display:block;
+	overflow:hidden;
+}
+.calendars-block .links {
+	list-style:none;
+	padding:0 15px;
+	margin:0;
+	font:11px/14px Arial, Helvetica, sans-serif;
+}
+.calendars-block .links li {
+	display:inline-block;
+	padding-right:8px;
+}
+.calendars-block .links li:before {
+	display:inline-block;
+	width:1px;
+	height:10px;
+	background:#b3b3b3;
+	content:'';
+	margin-right:6px;
+}
+.calendars-block .links li:first-child:before {
+	display:none;
+}
+.rsWrap {
+	margin-top:2px;
+}
+.rsDateWrap:first-child+.rsWrap  {
+	margin-top:0;
+}
+
+.vjs-control-bar {
+    display: none !important;
+    visibility: hidden !important;
+    position: absolute;
+    left: -99999px;
+}
+
+/* Fan Zone Page start */
+.fanzone > .bg {
+	background-image:url(/sites/all/themes/dean/cssAssets/fanzone-main-bg-top.jpg);
+}
+.fanzone .content-visual {
+	height:289px;
+	padding-left:37px;
+}
+.fanzone .content-visual h1{
+	display:block;
+	font-size:60px;
+	line-height:40px;
+	margin:181px 0 0;
+}
+.fanzone .wrap {
+	overflow:hidden;
+}
+.fanzone .holder {
+	background-image:url(/sites/all/themes/dean/cssAssets/fanzone-bg-scoreboard.png);
+}
+.main-content.fanzone .main-section {
+	float:none;
+	width:960px;
+}
+.main-content.fanzone .main-section .content-block {
+	padding-bottom:0;
+}
+.fanzone .scoreboard {
+	padding:4px 0 25px;
+}
+.fanzone .scoreboard.empty {
+	height:8px;
+	padding:0;
+}
+.fanzone .scoreboard.empty .section-title,
+.fanzone .scoreboard.empty .box-holder {
+	display:none;
+}
+.fanzone .scoreboard .section-title {
+	margin:0;
+	font:18px/18px cambria, Georgia, "Times New Roman", Times, serif;
+	letter-spacing:1.5px;
+	text-shadow:rgba(0,0,0,0.20) 1px 1px 0;
+	text-align:center;
+	color:#fff;
+}
+.fanzone .scoreboard .section-title span {
+	display:inline-block;
+	vertical-align:top;
+	padding:0 0 0 33px;
+	background:url(/sites/all/themes/dean/cssAssets/paw-small.png) no-repeat 0 50%;
+}
+.fanzone .scoreboard .section-title span span {
+	padding:0 33px 0 0;
+	background-position:100% 50%;
+}
+.fanzone .scoreboard .box-holder {
+	width:1001px;
+	overflow:hidden;
+	text-align:center;
+	font-size:0;
+	line-height:0;
+	margin:0 -24px 0 -19px;
+}
+.fanzone .scoreboard .board-box {
+	display:inline-block;
+	vertical-align:top;
+	width:307px;
+	margin:15px 10px 0;
+}
+.fanzone .scoreboard .date {
+	float:right;
+	width:35px;
+	font:12px/21px cambriai, Georgia, "Times New Roman", Times, serif;
+	letter-spacing:0.75px;
+	color:#b2b2b2;
+}
+.fanzone .scoreboard .block-title {
+	margin:0;
+	padding:0 0 0 35px;
+	overflow:hidden;
+	font:12px/21px cambria, Georgia, "Times New Roman", Times, serif;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	text-shadow:rgba(0,0,0,0.20) 1px 1px 0;
+	color:#fff;
+}
+.fanzone .scoreboard .block-title > span {
+	display:inline-block;
+	padding:0 30px 0 0;
+	background:url(/sites/all/themes/dean/cssAssets/scoreboard-sport-tag.png) no-repeat 100% -21px;
+}
+.fanzone .scoreboard .block-title > span > span {
+	display:inline-block;
+	padding:0 0 0 30px;
+	background:url(/sites/all/themes/dean/cssAssets/scoreboard-sport-tag.png) no-repeat;
+}
+.fanzone .scoreboard .team {
+	float:left;
+	width:88px;
+	padding:0 10px;
+	border:1px solid #676767;
+	background:transparent;
+	background:rgba(0,0,0,0.25);
+	font-size:14px;
+	line-height:27px;
+	letter-spacing:0.5px;
+	text-align:right;
+	color:#fff;
+	filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr=#40000000, EndColorStr=#40000000, GradientType=0);
+}
+*|html .fanzone .scoreboard .team {
+	filter:none;
+}
+.fanzone .scoreboard .team.right {
+	text-align:left;
+}
+.fanzone .scoreboard .team > span {
+	display:block;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.fanzone .scoreboard .points {
+	float:left;
+	width:40px;
+	border:1px solid #676767;
+	background:url(/sites/all/themes/dean/cssAssets/scoreboard-points.png) no-repeat 50% 0;
+	white-space:nowrap;
+	overflow:hidden;
+	font-style:normal;
+	font-weight:bold;
+	font-size:18px;
+	line-height:27px;
+	color:#fff;
+}
+.fanzone .scoreboard .points.right {
+	width:39px;
+}
+.fanzone .three-col{
+	overflow:hidden;
+	padding:28px 0 119px 40px;
+}
+.fanzone .three-col .l-col{
+	float:left;
+	width:205px;
+}
+.fanzone .three-col .m-col{
+	float:left;
+	width:400px;
+	margin:0 0 0 39px;
+}
+.fanzone .three-col .r-col{
+	float:right;
+	width:235px;
+}
+.fanzone .three-col .l-col h4{
+	margin:0;
+	font:16px/20px cambria, Georgia, "Times New Roman", Times, serif;
+	color:#2c2c2c;
+}
+.fanzone .three-col .quick-links {
+	list-style:none;
+	padding:0;
+	margin:8px 0 0;
+	background:#fff;
+	-webkit-box-shadow:1px 1px 4px rgba(0,0,0,0.40);
+	box-shadow:1px 1px 4px rgba(0,0,0,0.40);
+	font-weight:bold;
+	font-size:13px;
+	line-height:26px;
+}
+.fanzone .three-col .quick-links li {
+	padding:1px 0 0;
+	background:url(/sites/all/themes/dean/cssAssets/quick-links.png) no-repeat;
+}
+.fanzone .three-col .quick-links li:first-child {
+	background:none;
+	padding:0;
+}
+.fanzone .three-col .quick-links li:first-child a {
+	padding-top:1px;
+}
+.fanzone .three-col .quick-links a {
+	display:block;
+	overflow:hidden;
+	padding:0 17px 1px;
+	text-decoration:none;
+}
+.fanzone .three-col .quick-links a:hover {
+	background-color:#f2f2f2;
+	background-image:-webkit-linear-gradient(left, #f2f2f2, #fff);
+	}
+.fanzone .three-col .questions {
+	overflow:hidden;
+	padding:15px 17px 23px;
+	border-radius:0 9px 9px 0;
+	background:#d9d9d9;
+	-webkit-box-shadow:1px 1px 4px rgba(0,0,0,0.40);
+	box-shadow:1px 1px 4px rgba(0,0,0,0.40);
+	margin:15px 0 0;
+}
+.fanzone .three-col .questions h4 {
+	margin:-7px 0 -4px;
+}
+.fanzone .three-col .questions .profile-holder {
+	overflow:hidden;
+	padding:11px 0 0;
+	background:url(/sites/all/themes/dean/cssAssets/fanzone-profile-next.png) no-repeat 50% 0;
+	margin:12px -17px 0;
+}
+.fanzone .three-col .questions .profile-next {
+	margin:0;
+	overflow:hidden;
+	padding:0 17px 11px;
+	background:url(/sites/all/themes/dean/cssAssets/fanzone-profile-next.png) no-repeat 50% 100%;
+}
+.fanzone .three-col .questions .profile-next img {
+	float:left;
+	-webkit-box-shadow:1px 1px 4px rgba(0,0,0,0.40);
+	box-shadow:1px 1px 4px rgba(0,0,0,0.40);
+	margin:0 10px 0 0;
+}
+.fanzone .three-col .questions .profile-next figcaption {
+	display:block;
+	overflow:hidden;
+	padding:8px 0 0;
+	font:14px/16px cambria, Georgia, "Times New Roman", Times, serif;
+	color:#2c2c2c;
+}
+.fanzone .three-col .questions .profile-next figcaption small {
+	display:block;
+	font-size:12px;
+	line-height:14px;
+	color:#808080;
+	margin:6px 0 0;
+}
+.fanzone .three-col .questions .profile-next figcaption span {
+	display:block;
+}
+.fanzone .three-col .questions .form-questions {
+	display:block;
+}
+.fanzone .three-col .questions .form-questions .row {
+	margin:15px 0 0;
+}
+.fanzone .three-col .questions .form-questions label {
+	display:inline-block;
+	vertical-align:top;
+	font-weight:bold;
+	font-size:13px;
+	line-height:15px;
+	color:#383737;
+}
+.fanzone .three-col .questions .form-questions input[type="text"],
+.fanzone .three-col .questions .form-questions input[type="email"] {
+	display:block;
+	width:157px;
+	padding:6px;
+	border:1px solid #a3a3a3;
+	-webkit-box-shadow:1px 1px 2px rgba(255,255,255,0.50);
+	box-shadow:1px 1px 2px rgba(255,255,255,0.50);
+	font-weight:bold;
+	font-size:13px;
+	line-height:15px;
+	color:#383737;
+	margin:3px 0 0;
+}
+.fanzone .three-col .questions .form-questions textarea {
+	display:block;
+	width:157px;
+	max-width:157px;
+	height:52px;
+	padding:6px;
+	border:1px solid #a3a3a3;
+	-webkit-box-shadow:1px 1px 2px rgba(255,255,255,0.50);
+	box-shadow:1px 1px 2px rgba(255,255,255,0.50);
+	font-weight:bold;
+	font-size:13px;
+	line-height:17px;
+	color:#383737;
+	margin:4px 0 0;
+}
+.fanzone .three-col .questions .form-questions input[type="submit"]{
+	display:block;
+	width:89px;
+	height:36px;
+	padding:0;
+	border-style:none;
+	border-radius:9px;
+	background:url(/sites/all/themes/dean/cssAssets/btn-pink36.png) repeat-x;
+	-webkit-box-shadow:3px 3px 5px rgba(0,0,0,0.31);
+	box-shadow:3px 3px 5px rgba(0,0,0,0.31);
+	font:bold 12px/36px Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	text-align:center;
+	cursor:pointer;
+	color:#fff;
+}
+.fanzone .three-col .questions .form-questions input[type="submit"]:hover{
+	border:1px solid #5f0022;
+	border-top-color:#6e0026;
+	background-position:0 -36px;
+	-webkit-box-shadow:2px 2px 4px rgba(0,0,0,0.31);
+	box-shadow:2px 2px 4px rgba(0,0,0,0.31);
+}
+.fanzone .three-col .questions .form-questions .message {
+	margin:17px 0 0;
+	padding:7px 0;
+	border:1px solid #bcbcbc;
+	border-radius:5px;
+	background:#f2f2f2;
+	font-weight:bold;
+	font-size:13px;
+	line-height:15px;
+	text-align:center;
+}
+.fanzone .three-col .questions .form-questions .message.success {
+	color:#0d7f11;
+}
+.fanzone .three-col .m-col h1{
+	margin:0;
+	font:32px/32px cambria, Georgia, "Times New Roman", Times, serif;
+	letter-spacing:-0.5px;
+	color:#2c2c2c;
+}
+.fanzone .three-col .m-col h2 {
+	margin:12px 0 0;
+	font-size:14px;
+	line-height:20px;
+}
+.fanzone .three-col .m-col p {
+	margin:12px 0 0;
+	font-size:13px;
+	line-height:19px;
+}
+.fanzone .three-col .m-col .col-inner {
+	min-height:538px;
+	overflow:hidden;
+	padding:0 17px 12px;
+	background:#fff;
+	-webkit-box-shadow:1px 1px 4px rgba(0,0,0,0.40);
+	box-shadow:1px 1px 4px rgba(0,0,0,0.40);
+	margin:19px 0 0;
+}
+.fanzone .three-col .profile-current {
+	margin:0 -17px;
+	padding:0 0 11px;
+	background:url(/sites/all/themes/dean/cssAssets/fanzone-profile-current.png) no-repeat 50% 100%;
+}
+.fanzone .three-col .profile-current img {
+	display:block;
+	width:100%;
+}
+.fanzone .three-col .profile-current figcaption {
+	padding:0 9px;
+	font:32px/32px cambria, Georgia, "Times New Roman", Times, serif;
+	letter-spacing:-0.5px;
+	color:#2c2c2c;
+}
+.fanzone .three-col .profile-current figcaption small {
+	display:block;
+	font-size:12px;
+	line-height:14px;
+	letter-spacing:0;
+	color:#808080;
+	margin:2px 0 0;
+}
+.fanzone .three-col .profile-current .caption-inner {
+	display:block;
+	padding:11px 61px 0 8px;
+	background:url(/sites/all/themes/dean/cssAssets/paw-big-pink.png) no-repeat 100% 9px;
+}
+.fanzone .three-col .current-player-info {
+	overflow:hidden;
+}
+.fanzone .three-col .current-player-info .col {
+	float:right;
+	width:170px;
+}
+.fanzone .three-col .current-player-info .col:first-child {
+	float:left;
+}
+.fanzone .three-col .current-player-info .label {
+	display:block;
+	font-size:14px;
+	line-height:20px;
+	margin:12px 0 0;
+}
+.fanzone .three-col .current-player-info .value {
+	display:block;
+	font-size:13px;
+	line-height:19px;
+}
+.fanzone .three-col .quest-by {
+	display:block;
+	font:12px/14px cambriai, Georgia, "Times New Roman", Times, serif;
+	color:#808080;
+}
+.fanzone .three-col .r-col h3 {
+	margin:0;
+	padding:0 0 0 30px;
+	font:32px/32px cambria, Georgia, "Times New Roman", Times, serif;
+	letter-spacing:-0.5px;
+	color:#2c2c2c;
+}
+.fanzone .three-col .teams-holder {
+	overflow:hidden;
+	padding:0 0 29px;
+	background:url(/sites/all/themes/dean/cssAssets/fanzone-links-teams-shadow-b.png) no-repeat 0 100%;
+	margin:-9px 0 -29px;
+}
+.fanzone .three-col .links-teams {
+	list-style:none;
+	padding:29px 0 0;
+	margin:0;
+	background:url(/sites/all/themes/dean/cssAssets/fanzone-links-teams-shadow-t.png) no-repeat;
+	font-weight:bold;
+	font-size:13px;
+	line-height:16px;
+	text-transform:uppercase;
+}
+.fanzone .three-col .links-teams > li {
+	display:block;
+	vertical-align:top;
+	padding:1px 0 0;
+	background:url(/sites/all/themes/dean/cssAssets/fanzone-links-teams-shadow-m.png) repeat-y;
+}
+.fanzone .three-col .links-teams > li:first-child {
+	padding:0;
+}
+.fanzone .three-col .links-teams a {
+	display:block;
+	overflow:hidden;
+	color:#fff;
+	text-decoration:none;
+	background-color:#8a0031;
+	background-image:-webkit-linear-gradient(top, #980036, #6f0027);
+	}
+.fanzone .three-col .links-teams a:hover {
+	background-color:#750029;
+	background-image:-webkit-linear-gradient(top, #980036, #59001f);
+	}
+.fanzone .three-col .links-teams img {
+	display:block;
+	width:100%;
+}
+.fanzone .three-col .links-teams .img-holder {
+	display:inline-block;
+	vertical-align:middle;
+	width:100px;
+	height:54px;
+	border-right:1px solid #b50041;
+	position:relative;
+}
+.fanzone .three-col .links-teams .img-holder > .fade {
+	width:12px;
+	background:url(/sites/all/themes/dean/cssAssets/fanzone-links-teams-shadow-m.png) repeat-y;
+	position:absolute;
+	top:0;
+	bottom:0;
+}
+.fanzone .three-col .links-teams .text {
+	display:inline-block;
+	vertical-align:middle;
+	width:104px;
+	margin:0 0 0 15px;
+}
+.fanzone .section-pride {
+	min-height:436px;
+	padding:0 9999px 23px 0;
+	margin-right:-9999px;
+	border-top:1px solid #4d4d4d;
+	border-left:1px solid #8c8c8c;
+	border-bottom:1px solid #8c8c8c;
+	background:#2c2c2c url(/sites/all/themes/dean/cssAssets/section-pride.jpg) repeat-x;
+	-moz-box-shadow:0 0 12px rgba(0,0,0,0.4);
+	-webkit-box-shadow:0 0 12px rgba(0,0,0,0.4);
+	box-shadow:0 0 12px rgba(0,0,0,0.4);
+	position:relative;
+	z-index:1;
+}
+.fanzone .pride-heading {
+	height:85px;
+	padding:0 9999px 0 0;
+	margin:-86px -9999px 0 -1px;
+	background:#e5e5e5 url(/sites/all/themes/dean/cssAssets/bg-main-content.png) repeat-y;
+	position:relative;
+	z-index:1;
+}
+.fanzone .pride-heading h3 {
+	margin:0 auto -68px;
+	width:944px;
+	height:153px;
+	text-indent:-9999px;
+	overflow:hidden;
+	position:relative;
+	background:url(/sites/all/themes/dean/cssAssets/pride-heading.png) no-repeat;
+}
+.fanzone .pride-inner {
+	width:960px;
+	padding:46px 0 0;
+	position:relative;
+	z-index:2;
+}
+.fanzone .pride-inner:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.fanzone .pride-inner .l-col {
+	float:left;
+	width:205px;
+	text-align:center;
+	margin:0 0 0 40px;
+}
+.fanzone .pride-inner .m-col {
+	float:left;
+	width:400px;
+	margin:0 0 0 39px;
+}
+.fanzone .pride-inner .r-col {
+	float:right;
+	width:235px;
+}
+.fanzone .section-pride .gear {
+	margin:0;
+}
+.fanzone .section-pride .gear figcaption {
+	font:21px/23px cambria, Georgia, "Times New Roman", Times, serif;
+	letter-spacing:-0.5px;
+	color:#fff;
+}
+.fanzone .section-pride .gear img {
+	display:block;
+	border:1px solid #000;
+	-webkit-box-shadow:1px 1px 4px rgba(0,0,0,0.40);
+	box-shadow:1px 1px 4px rgba(0,0,0,0.40);
+	margin:16px 0 0;
+}
+.fanzone .section-pride .lnk-pink {
+	display:inline-block;
+	vertical-align:top;
+	min-width:117px;
+	height:36px;
+	padding:0 9px;
+	border-radius:9px;
+	background:url(/sites/all/themes/dean/cssAssets/btn-pink36.png) repeat-x;
+	-webkit-box-shadow:3px 3px 5px rgba(0,0,0,0.31);
+	box-shadow:3px 3px 5px rgba(0,0,0,0.31);
+	font:bold 12px/36px Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	text-align:center;
+	color:#fff;
+	text-decoration:none;
+	margin:17px 0 0;
+}
+.fanzone .section-pride .lnk-pink:hover {
+	height:34px;
+	line-height:34px;
+	border:1px solid #5f0022;
+	border-top-color:#6e0026;
+	background-position:0 -36px;
+	-webkit-box-shadow:2px 2px 4px rgba(0,0,0,0.31);
+	box-shadow:2px 2px 4px rgba(0,0,0,0.31);
+}
+.fanzone .section-pride .tabset {
+	list-style:none;
+	padding:0 10px;
+	margin:0;
+	overflow:hidden;
+	font:17px/27px 'ITCFranklinGothicW01-Bk 812647', Arial, Helvetica, sans-serif;
+	position:relative;
+	z-index:2;
+}
+.fanzone .section-pride .tabset > li {
+	float:left;
+	margin:0 1px 0 0;
+}
+.fanzone .section-pride .tabset a {
+	display:block;
+	overflow:hidden;
+	padding:0 14px;
+	border:1px solid #000;
+	border-bottom-style:none;
+	border-radius:5px 5px 0 0;
+	background:#000;
+	color:#b2b2b2;
+	text-decoration:none;
+}
+.fanzone .section-pride .tabset a:hover {
+	background:#1a1a1a;
+	border-color:#1a1a1a;
+}
+.fanzone .section-pride .tabset .active a {
+	background:url(/sites/all/themes/dean/cssAssets/videotabs-tablink.png) repeat-x;
+	color:#fff;
+}
+.fanzone .section-pride .tabs-content {
+	min-height:204px;
+	padding:16px 16px 0;
+	background:url(/sites/all/themes/dean/cssAssets/videotabs-bg.png) no-repeat;
+	margin:-1px 0 0;
+}
+.fanzone .section-pride .video-holder {
+	width:365px;
+	overflow:hidden;
+}
+.fanzone .section-pride .video-holder > img {
+	display:block;
+}
+
+.fanzone .section-pride .video-holder .embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+
+.fanzone .section-pride .video-holder .embed-container iframe,
+.fanzone .section-pride .video-holder .embed-container object,
+.fanzone .section-pride .video-holder .embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.fanzone .section-pride .placeholder {
+	margin:0;
+	font:33px/37px cambria, Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	letter-spacing:-0.5px;
+	color:#b4b4b4;
+}
+.fanzone .section-pride .pride-twitter {
+	overflow:hidden;
+	padding:51px 0 0 0;
+	position:relative;
+	margin:-51px 0 0;
+}
+.fanzone .section-pride .pride-twitter .icon-ribbon {
+	width:59px;
+	height:93px;
+	position:absolute;
+	top:0;
+	right:4px;
+	background:url(/sites/all/themes/dean/cssAssets/pride-icon-ribbon.png) no-repeat 100% 0;
+}
+.fanzone .section-pride .pride-twitter .twitter-name {
+	display:block;
+	padding:0 64px 0 17px;
+	font:21px/23px cambria, Georgia, "Times New Roman", Times, serif;
+	letter-spacing:-0.5px;
+	color:#fff;
+}
+.fanzone .section-pride .pride-twitter .twits {
+	min-height:204px;
+	padding:16px 16px 0;
+	background:url(/sites/all/themes/dean/cssAssets/pride-twitter-bg.png) no-repeat;
+	margin:4px 0 0;
+}
+.fanzone .section-pride .pride-twitter .twit-block {
+	overflow:hidden;
+	padding:12px 0 16px;
+	background:url(/sites/all/themes/dean/cssAssets/pride-twitter-separators.png) no-repeat 50% 100%;
+}
+.fanzone .section-pride .pride-twitter .twit-block:first-child {
+	padding-top:0;
+}
+.fanzone .section-pride .pride-twitter .twit-text {
+	margin:0;
+	line-height:19px;
+	color:#c7c7c7;
+}
+.fanzone .section-pride .pride-twitter .twit-block a {
+	color:#0aafcc;
+}
+.fanzone .section-pride .pride-twitter .twit-block a:hover {
+	text-decoration:none;
+	background:none;
+}
+.fanzone .section-pride .pride-twitter .twit-block .links a {
+	font-size:9px;
+}
+/* Fan Zone Page end */
